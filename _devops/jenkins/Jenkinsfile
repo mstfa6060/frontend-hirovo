@@ -1,0 +1,168 @@
+pipeline {
+    agent any
+
+    parameters {
+        booleanParam(name: 'NO_CACHE', defaultValue: false, description: 'Docker build cache kullanma')
+        booleanParam(name: 'DEPLOY', defaultValue: true, description: 'Build sonrasi deploy yap')
+    }
+
+    environment {
+        BUILD_IMAGE_NAME = "hirovo-frontend-builder-${BUILD_ID}"
+        NGINX_PATH = '/var/www/hirovo'
+
+        SERVER_SSH_KEY_ID = 'maden-server-key'
+        SERVER_HOST_ID = 'dev-server-host'
+    }
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '20'))
+        timeout(time: 1, unit: 'HOURS')
+        timestamps()
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                script {
+                    echo "Hirovo frontend kodu cekiliyor..."
+                    sh '''
+                        echo "Kod basariyla cekildi"
+                        echo "Branch: ${GIT_BRANCH}"
+                        echo "Commit: ${GIT_COMMIT}"
+                    '''
+                }
+            }
+        }
+
+        stage('Build Static Files') {
+            steps {
+                script {
+                    echo "Hirovo frontend build ediliyor..."
+
+                    def cacheArgs = params.NO_CACHE ? '--no-cache' : ''
+
+                    timeout(time: 20, unit: 'MINUTES') {
+                        sh """
+                            docker build \
+                                ${cacheArgs} \
+                                --file _devops/docker/Dockerfile \
+                                --tag ${BUILD_IMAGE_NAME} \
+                                --build-arg NEXT_PUBLIC_ENVIRONMENT=production \
+                                --build-arg NEXT_PUBLIC_API_URL=https://api.hirovo.com \
+                                .
+
+                            # Extract static files from container
+                            docker create --name ${BUILD_IMAGE_NAME}-container ${BUILD_IMAGE_NAME}
+                            rm -rf out || true
+                            docker cp ${BUILD_IMAGE_NAME}-container:/app/out ./out
+                            docker rm ${BUILD_IMAGE_NAME}-container
+                        """
+                    }
+
+                    echo "Static dosyalar basariyla build edildi"
+                }
+            }
+        }
+
+        stage('Deploy') {
+            when {
+                expression { params.DEPLOY == true }
+            }
+            steps {
+                script {
+                    echo "Hirovo frontend deploy basliyor..."
+
+                    withCredentials([
+                        sshUserPrivateKey(credentialsId: env.SERVER_SSH_KEY_ID, keyFileVariable: 'SSH_KEY', usernameVariable: 'SSH_USER'),
+                        string(credentialsId: env.SERVER_HOST_ID, variable: 'SERVER_HOST')
+                    ]) {
+                        def sshUser = SSH_USER
+                        def sshHost = SERVER_HOST
+
+                        sh """
+                            chmod 600 "\$SSH_KEY"
+
+                            # Backup current files
+                            ssh -o StrictHostKeyChecking=no -i "\$SSH_KEY" ${sshUser}@${sshHost} "rm -rf ${NGINX_PATH}.bak && cp -r ${NGINX_PATH} ${NGINX_PATH}.bak 2>/dev/null || true"
+
+                            # Clear old files and copy new ones
+                            ssh -o StrictHostKeyChecking=no -i "\$SSH_KEY" ${sshUser}@${sshHost} "rm -rf ${NGINX_PATH}/*"
+                            scp -o StrictHostKeyChecking=no -i "\$SSH_KEY" -r out/* ${sshUser}@${sshHost}:${NGINX_PATH}/
+
+                            # Set correct permissions
+                            ssh -o StrictHostKeyChecking=no -i "\$SSH_KEY" ${sshUser}@${sshHost} "chmod -R 755 ${NGINX_PATH}"
+
+                            echo "Hirovo frontend deploy basariyla tamamlandi!"
+                        """
+                    }
+                }
+            }
+        }
+
+        stage('Health Check') {
+            when {
+                expression { params.DEPLOY == true }
+            }
+            steps {
+                script {
+                    echo "Health check yapiliyor..."
+
+                    withCredentials([
+                        sshUserPrivateKey(credentialsId: env.SERVER_SSH_KEY_ID, keyFileVariable: 'SSH_KEY', usernameVariable: 'SSH_USER'),
+                        string(credentialsId: env.SERVER_HOST_ID, variable: 'SERVER_HOST')
+                    ]) {
+                        def sshUser = SSH_USER
+                        def sshHost = SERVER_HOST
+
+                        sh """
+                            ssh -o StrictHostKeyChecking=no -i "\$SSH_KEY" ${sshUser}@${sshHost} bash <<'ENDSSH'
+set -e
+
+echo "Dosyalar kontrol ediliyor..."
+if [ -f "/var/www/hirovo/index.html" ]; then
+    echo "index.html mevcut"
+    ls -la /var/www/hirovo/ | head -10
+else
+    echo "index.html bulunamadi!"
+    exit 1
+fi
+
+echo "Health check tamamlandi!"
+ENDSSH
+                        """
+                    }
+                }
+            }
+        }
+
+        stage('Cleanup') {
+            steps {
+                script {
+                    echo "Build artifacts temizleniyor..."
+                    sh """
+                        docker rmi ${BUILD_IMAGE_NAME} || true
+                        rm -rf out || true
+                    """
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            echo "Hirovo Frontend Pipeline basariyla tamamlandi!"
+            echo "Build ID: ${BUILD_ID}"
+            echo "Commit: ${GIT_COMMIT}"
+            echo "URL: https://hirovo.com"
+        }
+        failure {
+            echo "Hirovo Frontend Pipeline basarisiz oldu!"
+            echo "Build ID: ${BUILD_ID}"
+            echo "Commit: ${GIT_COMMIT}"
+        }
+        always {
+            sh "docker rmi ${BUILD_IMAGE_NAME} 2>/dev/null || true"
+            sh "rm -rf out 2>/dev/null || true"
+        }
+    }
+}
