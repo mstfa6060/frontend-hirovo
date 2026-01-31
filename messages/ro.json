@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Descărcați",
+    "downloadApp": "Descărcați aplicația",
+    "googlePlay": "Google Play",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "or": "sau",
+    "loading": "Încărcare...",
+    "sending": "Se trimite...",
+    "error": "Greşeală",
+    "success": "De succes",
+    "submit": "Trimite",
+    "optional": "opțional",
+    "important": "Important",
+    "contact": "Comunicare",
+    "questions": "Pentru întrebările dvs",
+    "learnMore": "Mai multe informații",
+    "getStarted": "Începe acum",
+    "readMore": "Citeşte mai mult",
+    "viewAll": "Vezi toate",
+    "free": "Gratuit",
+    "new": "Nou"
+  },
+  "metadata": {
+    "title": "Hirovo - Platformă de căutare și publicitate de locuri de muncă",
+    "description": "Hirovo este o platformă de căutare și publicitate de locuri de muncă. Descoperiți postări de locuri de muncă, aplicați cu ușurință și urmăriți oportunitățile de carieră.",
+    "keywords": "găsirea unui loc de muncă, postări de locuri de muncă, carieră, căutare de locuri de muncă, postări de personal, solicitanți de personal, recrutare, Hirovo",
+    "ogTitle": "Hirovo - Platformă de angajare și carieră",
+    "ogDescription": "Descoperiți postări de locuri de muncă, aplicați și urmăriți oportunitățile de carieră cu Hirovo."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Despre noi",
+    "howItWorks": "Cum funcționează",
+    "forJobSeekers": "Căutătorii de locuri de muncă",
+    "forEmployers": "angajatorii",
+    "faq": "FAQ",
+    "contact": "Comunicare",
+    "careerTips": "Sfaturi în carieră"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Politica de confidențialitate",
+    "terms": "Termeni de utilizare",
+    "deleteAccount": "Ștergerea contului",
+    "home": "Pagina principală",
+    "about": "Despre noi",
+    "contact": "Comunicare",
+    "faq": "FAQ",
+    "howItWorks": "Cum funcționează",
+    "forJobSeekers": "Pentru solicitanții de locuri de muncă",
+    "forEmployers": "Pentru Angajatori",
+    "careerTips": "Sfaturi în carieră",
+    "company": "Companie",
+    "resources": "Resurse",
+    "legal": "Legal",
+    "followUs": "Urmați-ne",
+    "description": "Cea mai inovatoare platformă de angajare din Turcia. Visul tău va fi cu un pas mai aproape."
+  },
+  "home": {
+    "hero": {
+      "title": "Găsește-ți jobul de vis",
+      "subtitle": "Descoperiți mii de postări de locuri de muncă, aplicați cu ușurință și urmăriți oportunitățile de carieră cu Hirovo.",
+      "stats": {
+        "jobs": "Afișarea activă a locurilor de muncă",
+        "users": "Utilizator înregistrat",
+        "companies": "Companie parteneră",
+        "placements": "Potrivire de succes"
+      }
+    },
+    "features": {
+      "title": "De ce Hirovo?",
+      "subtitle": "Caracteristicile noastre care vă fac căutarea unui loc de muncă mai ușoară",
+      "easySearch": {
+        "title": "Căutare ușoară",
+        "description": "Căutați rapid printre miile de postări de locuri de muncă și găsiți oportunități care vi se potrivesc."
+      },
+      "quickApply": {
+        "title": "Aplicare rapidă",
+        "description": "Aplicați cu un singur clic, nu pierdeți timpul. Creează-ți profilul o dată, folosește-l peste tot."
+      },
+      "notifications": {
+        "title": "Notificări push",
+        "description": "Aflați instantaneu despre noile postări și stările aplicațiilor, nu ratați ocazia."
+      },
+      "smartMatch": {
+        "title": "Potrivire inteligentă",
+        "description": "Sistemul susținut de inteligență artificială îți recomandă locurile de muncă care se potrivesc cel mai bine abilităților tale."
+      },
+      "secureProfile": {
+        "title": "Profil securizat",
+        "description": "Informațiile dumneavoastră personale sunt stocate în siguranță și partajate cu angajatorul numai atunci când solicitați."
+      },
+      "careerSupport": {
+        "title": "Sprijin în carieră",
+        "description": "Suntem aici pentru a vă ajuta cu pregătirea CV-ului, tehnici de interviu și sfaturi în carieră."
+      }
+    },
+    "categories": {
+      "title": "Categorii de afaceri populare",
+      "subtitle": "Descoperiți oportunități în cele mai căutate sectoare",
+      "technology": "Tehnologie",
+      "healthcare": "Sănătate",
+      "finance": "Finanţa",
+      "education": "Educaţie",
+      "retail": "Cu amănuntul",
+      "manufacturing": "Productie",
+      "hospitality": "Turism și ospitalitate",
+      "construction": "Clădire"
+    },
+    "howItWorks": {
+      "title": "Cum funcționează?",
+      "subtitle": "Găsiți un loc de muncă în trei pași simpli",
+      "step1": {
+        "title": "Descărcați aplicația",
+        "description": "Descărcați Hirovo gratuit de pe Google Play și creați-vă contul."
+      },
+      "step2": {
+        "title": "Creați-vă profilul",
+        "description": "Adaugă experiențele, abilitățile și preferințele tale."
+      },
+      "step3": {
+        "title": "Aplicați și începeți afacerea",
+        "description": "Aplicați la postările de locuri de muncă potrivite pentru dvs. și contactați angajatorii."
+      }
+    },
+    "testimonials": {
+      "title": "Comentariile utilizatorilor",
+      "subtitle": "Experiențele utilizatorilor noștri care și-au găsit un loc de muncă la Hirovo"
+    },
+    "cta": {
+      "title": "Începe acum",
+      "subtitle": "Descarcă Hirovo, visul tău va fi cu un pas mai aproape.",
+      "downloadFree": "Descărcare gratuită"
+    }
+  },
+  "about": {
+    "metaTitle": "Despre noi - Hirovo",
+    "metaDescription": "Aflați despre Hirovo. Misiunea noastră, viziunea și perspectiva noastră asupra industriei forței de muncă.",
+    "hero": {
+      "title": "Despre noi",
+      "subtitle": "Ne-am propus să schimbăm lumea afacerilor"
+    },
+    "mission": {
+      "title": "Misiunea noastră",
+      "description": "Pentru a aduce laolaltă persoanele aflate în căutarea unui loc de muncă și angajatorii în cel mai eficient mod, pentru a facilita procesul de găsire a unui loc de muncă pentru toată lumea și pentru a crea oportunități echitabile de locuri de muncă."
+    },
+    "vision": {
+      "title": "Viziunea noastră",
+      "description": "Ca principală platformă digitală de angajare a Turciei și a regiunii, ajutând milioane de oameni să-și atingă obiectivele de carieră."
+    },
+    "story": {
+      "title": "Povestea noastră",
+      "content1": "Hirovo a fost fondată în 2024 pentru a rezolva provocările cu care se confruntă persoanele aflate în căutarea unui loc de muncă. Văzând ineficiența metodelor tradiționale de căutare a unui loc de muncă și frustrările experimentate de cei care caută un loc de muncă, am decis să creăm o soluție mai bună folosind tehnologie.",
+      "content2": "Astăzi, mii de solicitanți de locuri de muncă și sute de companii aleg Hirovo. Cu abordarea noastră orientată către utilizator și tehnologia în continuă îmbunătățire, îmbunătățim experiența de găsire a unui loc de muncă în fiecare zi."
+    },
+    "values": {
+      "title": "Valorile noastre",
+      "transparency": {
+        "title": "Transparenţă",
+        "description": "Oferim transparență deplină în postările de locuri de muncă și procesele noastre."
+      },
+      "equality": {
+        "title": "Egalitatea",
+        "description": "Oferim șanse egale tuturor și suntem împotriva discriminării."
+      },
+      "innovation": {
+        "title": "inovaţie",
+        "description": "Ne îmbunătățim constant și folosim cele mai noi tehnologii."
+      },
+      "userFirst": {
+        "title": "Focus pe utilizator",
+        "description": "Prioritizează experiența utilizatorului în toate deciziile."
+      }
+    },
+    "team": {
+      "title": "Echipa noastră",
+      "description": "Echipa noastră de profesioniști cu experiență aduce la Hirovo ani de cunoștințe în sectorul forței de muncă."
+    },
+    "stats": {
+      "title": "Hirovo în cifre",
+      "downloads": "Descărcați",
+      "activeUsers": "Utilizator activ",
+      "partnerCompanies": "Companie parteneră",
+      "successfulMatches": "Potrivire de succes"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Cum funcționează - Hirovo",
+    "metaDescription": "Cum funcționează Hirovo? Aflați pas cu pas procesul de căutare a unui loc de muncă și de aplicare.",
+    "hero": {
+      "title": "Cum funcționează?",
+      "subtitle": "Am făcut atât de ușor să găsim un loc de muncă"
+    },
+    "forJobSeekers": {
+      "title": "Pentru solicitanții de locuri de muncă",
+      "step1": {
+        "title": "Descărcați aplicația",
+        "description": "Descărcați gratuit aplicația Hirovo de pe Google Play. Instalare rapidă și sigură."
+      },
+      "step2": {
+        "title": "Creează cont",
+        "description": "Înregistrați-vă în câteva secunde cu e-mailul sau numărul de telefon."
+      },
+      "step3": {
+        "title": "Completează-ți profilul",
+        "description": "Adaugă experiența ta de lucru, educația și abilitățile. Încarcă CV-ul tău."
+      },
+      "step4": {
+        "title": "Explorați postările de locuri de muncă",
+        "description": "Găsiți înregistrări care vi se potrivesc folosind filtre. Locație, salariu, industrie și multe altele."
+      },
+      "step5": {
+        "title": "Aplicați cu un singur clic",
+        "description": "Aplicați instantaneu reclamelor care vă plac. Profilul dvs. este transmis automat."
+      },
+      "step6": {
+        "title": "Urmați Procesul",
+        "description": "Urmăriți starea aplicațiilor dvs. în timp real. Rămâneți la curent cu notificări."
+      }
+    },
+    "forEmployers": {
+      "title": "Pentru Angajatori",
+      "step1": {
+        "title": "Creați un cont de companie",
+        "description": "Înregistrați-vă compania și finalizați procesul de verificare."
+      },
+      "step2": {
+        "title": "Publicați un anunț de locuri de muncă",
+        "description": "Creați o anunțare de locuri de muncă cu descrieri și cerințe detaliate ale postului."
+      },
+      "step3": {
+        "title": "Examinați aplicațiile",
+        "description": "Filtrați aplicațiile primite și selectați candidații potriviți."
+      },
+      "step4": {
+        "title": "Contactați Candidații",
+        "description": "Contactați candidații direct prin intermediul aplicației."
+      }
+    },
+    "features": {
+      "title": "Caracteristici",
+      "ai": {
+        "title": "Suport pentru inteligență artificială",
+        "description": "Algoritmii inteligenți recomandă cele mai potrivite locuri de muncă pentru dvs."
+      },
+      "realtime": {
+        "title": "Notificări push",
+        "description": "Primiți notificări instantanee pentru noile postări și actualizări ale aplicațiilor."
+      },
+      "secure": {
+        "title": "Infrastructură sigură",
+        "description": "Datele dumneavoastră sunt protejate cu cele mai înalte standarde de securitate."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Pentru solicitanții de locuri de muncă - Hirovo",
+    "metaDescription": "Dacă ești în căutarea unui loc de muncă, Hirovo este doar pentru tine. Mii de postări de locuri de muncă, aplicații ușoare și oportunități de carieră.",
+    "hero": {
+      "title": "Pentru solicitanții de locuri de muncă",
+      "subtitle": "Suntem alături de tine în călătoria ta în carieră"
+    },
+    "benefits": {
+      "title": "De ce să alegi Hirovo?",
+      "free": {
+        "title": "Complet gratuit",
+        "description": "Toate funcțiile noastre sunt gratuite pentru cei care caută un loc de muncă. Nu există taxe ascunse."
+      },
+      "thousands": {
+        "title": "Mii de reclame",
+        "description": "Mii de postări actuale de locuri de muncă din fiecare sector și fiecare nivel."
+      },
+      "easy": {
+        "title": "Aplicare ușoară",
+        "description": "Aplica cu un singur clic, nu pierde timpul."
+      },
+      "track": {
+        "title": "Urmărirea aplicației",
+        "description": "Urmăriți toate aplicațiile dvs. într-un singur loc."
+      },
+      "notifications": {
+        "title": "Notificări inteligente",
+        "description": "Fii informat instantaneu despre noile reclame potrivite pentru tine."
+      },
+      "privacy": {
+        "title": "Securitate",
+        "description": "Informațiile dvs. sunt partajate numai cu companiile la care aplicați."
+      }
+    },
+    "tips": {
+      "title": "Sfaturi pentru o aplicare de succes",
+      "tip1": {
+        "title": "Completează-ți profilul",
+        "description": "Profilele complet completate atrag de 3 ori mai multă atenție."
+      },
+      "tip2": {
+        "title": "Fii la curent",
+        "description": "Actualizați-vă profilul pe măsură ce adăugați noi abilități și experiențe."
+      },
+      "tip3": {
+        "title": "Păstrați notificările activate",
+        "description": "Permite notificări pentru a evita oportunitățile ratate."
+      },
+      "tip4": {
+        "title": "Aplicați rapid",
+        "description": "Cei care aplică rapid la noile postări vin în prim-plan."
+      }
+    },
+    "categories": {
+      "title": "Categorii populare",
+      "subtitle": "Cele mai căutate categorii de locuri de muncă"
+    },
+    "cta": {
+      "title": "Găsește-ți jobul de vis",
+      "subtitle": "Descărcați Hirovo acum și descoperiți mii de oportunități."
+    }
+  },
+  "employers": {
+    "metaTitle": "Pentru angajatori - Hirovo",
+    "metaDescription": "Găsiți talentul potrivit cu Hirovo. Soluții de achiziție rapide, eficiente și economice.",
+    "hero": {
+      "title": "Pentru Angajatori",
+      "subtitle": "Cel mai simplu mod de a găsi talentele potrivite"
+    },
+    "benefits": {
+      "title": "Avantajele Hirovo",
+      "reach": {
+        "title": "Aria largă",
+        "description": "Ajungeți instantaneu la mii de solicitanți activi de locuri de muncă."
+      },
+      "quality": {
+        "title": "Candidați de calitate",
+        "description": "Profiluri verificate și CV-uri detaliate."
+      },
+      "fast": {
+        "title": "Rezultat rapid",
+        "description": "Primiți primele cereri în aproximativ 48 de ore."
+      },
+      "affordable": {
+        "title": "Preț accesibil",
+        "description": "Este mult mai economic decât metodele tradiționale."
+      },
+      "easy": {
+        "title": "Gestionare ușoară",
+        "description": "Gestionați toate aplicațiile dintr-un singur panou."
+      },
+      "support": {
+        "title": "Sprijin",
+        "description": "Vă asistăm în procesul de recrutare."
+      }
+    },
+    "process": {
+      "title": "Procesul de recrutare",
+      "step1": "Creați un cont de companie",
+      "step2": "Publicați-vă postarea de locuri de muncă",
+      "step3": "Examinați aplicațiile",
+      "step4": "Întâlnește-te cu candidații",
+      "step5": "Recruta"
+    },
+    "pricing": {
+      "title": "Prețuri",
+      "subtitle": "Alege planul care se potrivește nevoilor tale",
+      "basic": {
+        "title": "Început",
+        "price": "Gratuit",
+        "features": {
+          "0": "1 anunt pe luna",
+          "1": "Filtrare de bază",
+          "2": "Asistență prin e-mail"
+        }
+      },
+      "pro": {
+        "title": "Profesional",
+        "price": "Contactaţi-ne",
+        "features": {
+          "0": "Reclame nelimitate",
+          "1": "Filtrare avansată",
+          "2": "Sprijin prioritar",
+          "3": "Recomandări ale candidaților"
+        }
+      },
+      "enterprise": {
+        "title": "Instituţional",
+        "price": "Pret Special",
+        "features": {
+          "0": "Toate funcțiile Pro",
+          "1": "Acces API",
+          "2": "Integrare personalizată",
+          "3": "Manager Conturi"
+        }
+      }
+    },
+    "cta": {
+      "title": "Găsiți talentele potrivite",
+      "subtitle": "Începe acum și ajunge la cei mai buni candidați."
+    }
+  },
+  "faq": {
+    "metaTitle": "Întrebări frecvente - Hirovo",
+    "metaDescription": "Întrebări frecvente și răspunsuri despre Hirovo. Informații despre căutarea unui loc de muncă, aplicarea și utilizarea aplicației.",
+    "hero": {
+      "title": "Întrebări frecvente",
+      "subtitle": "Tot ce vă întrebați"
+    },
+    "categories": {
+      "general": "General",
+      "account": "Proiect de lege",
+      "application": "Aplicație",
+      "employers": "angajatorii",
+      "technical": "Tehnic"
+    },
+    "general": {
+      "q1": {
+        "question": "Ce este Hirovo?",
+        "answer": "Hirovo este o platformă mobilă de angajare care reunește solicitanții de locuri de muncă și angajatori. Puteți căuta printre mii de postări de locuri de muncă, puteți aplica cu un singur clic și puteți urmări oportunitățile de carieră."
+      },
+      "q2": {
+        "question": "Este Hirovo gratuit?",
+        "answer": "Da, Hirovo este complet gratuit pentru cei care caută un loc de muncă. Puteți folosi gratuit toate funcțiile noastre."
+      },
+      "q3": {
+        "question": "De unde pot descărca Hirovo?",
+        "answer": "Puteți descărca Hirovo gratuit din Magazinul Google Play. Versiunea iOS va fi lansată în curând."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Cum îmi pot crea un cont?",
+        "answer": "După descărcarea aplicației, vă puteți înregistra în câteva secunde cu adresa de e-mail sau numărul de telefon."
+      },
+      "q2": {
+        "question": "Mi-am uitat parola, ce ar trebui să fac?",
+        "answer": "Vă puteți reseta parola prin e-mail sau SMS făcând clic pe opțiunea „Mi-am uitat parola” de pe ecranul de conectare."
+      },
+      "q3": {
+        "question": "Cum îmi pot șterge contul?",
+        "answer": "Puteți solicita ștergerea contului din setările din aplicație sau din pagina „Ștergerea contului” de pe site-ul nostru."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Cum îmi urmăresc aplicația?",
+        "answer": "Puteți vedea toate aplicațiile și starea acestora în secțiunea „Aplicațiile mele” din aplicație."
+      },
+      "q2": {
+        "question": "Îmi pot retrage cererea?",
+        "answer": "Da, vă puteți retrage aplicațiile care nu au fost încă examinate."
+      },
+      "q3": {
+        "question": "De ce mi-a fost respinsă cererea?",
+        "answer": "Angajatorii fac evaluări după propriile criterii. Îți poți crește șansele actualizându-ți profilul și aplicând la mai multe postări."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Cum se deschide un cont de companie?",
+        "answer": "Vă puteți înregistra compania prin intermediul aplicației sau pe site-ul nostru. Procesul de verificare este finalizat în 24-48 de ore."
+      },
+      "q2": {
+        "question": "Există o taxă pentru a publica un anunț?",
+        "answer": "Pachetul nostru de bază este gratuit. Pentru mai multe anunțuri și funcții avansate, puteți consulta pachetele noastre profesionale."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "Aplicația nu se deschide, ce ar trebui să fac?",
+        "answer": "Mai întâi actualizați aplicația. Dacă problema persistă, ștergeți aplicația și reinstalați-o. Dacă întâmpinați în continuare probleme, contactați echipa noastră de asistență."
+      },
+      "q2": {
+        "question": "Notificările nu vin?",
+        "answer": "Asigurați-vă că permiteți notificări pentru Hirovo în setările telefonului. De asemenea, verificați preferințele de notificare în setările din aplicație."
+      }
+    },
+    "contact": {
+      "title": "Ai întrebări?",
+      "subtitle": "Contactați-ne pentru întrebări la care nu găsiți răspunsuri."
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact – Hirovo",
+    "metaDescription": "Contactați Hirovo. Contactați-ne pentru întrebări, sugestii și feedback.",
+    "hero": {
+      "title": "Comunicare",
+      "subtitle": "Am fi bucuroși să vă ajutăm"
+    },
+    "info": {
+      "title": "Informații de contact",
+      "email": {
+        "title": "E-mail",
+        "value": "salut@hirovo.com",
+        "description": "Asistență prin e-mail 24/7"
+      },
+      "phone": {
+        "title": "Telefon",
+        "value": "+90 (212) 000 00 00",
+        "description": "Luni - Vineri, 09:00 - 18:00"
+      },
+      "address": {
+        "title": "Adresa",
+        "value": "Istanbul, Turcia",
+        "description": "Sediul nostru central"
+      }
+    },
+    "form": {
+      "title": "Scrie-ne",
+      "name": "Numele și Prenumele dvs",
+      "email": "Adresa dvs. de e-mail",
+      "subject": "Subiect",
+      "message": "Mesajul dvs",
+      "submit": "Trimite",
+      "subjects": {
+        "general": "Întrebare generală",
+        "support": "Suport tehnic",
+        "partnership": "Parteneriat",
+        "feedback": "Feedback",
+        "other": "Alte"
+      },
+      "success": "Mesajul dvs. a fost trimis cu succes. Vă vom reveni cât mai curând posibil.",
+      "error": "A apărut o eroare. Vă rugăm să încercați din nou mai târziu."
+    },
+    "social": {
+      "title": "Social Media",
+      "subtitle": "Urmărește-ne pe rețelele sociale"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Sfaturi în carieră - Hirovo",
+    "metaDescription": "Sfaturi de specialitate în căutarea unui loc de muncă, pregătirea CV-ului, tehnicile de interviu și dezvoltarea carierei.",
+    "hero": {
+      "title": "Sfaturi în carieră",
+      "subtitle": "Du-ți cariera la următorul nivel"
+    },
+    "categories": {
+      "resume": "Pregatire CV",
+      "interview": "Tehnici de interviu",
+      "career": "Dezvoltarea carierei",
+      "workplace": "Viața de afaceri"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Cum să pregătești un CV eficient?",
+        "summary": "Un ghid profesional de pregătire a CV-ului care atrage atenția angajatorilor.",
+        "content": "CV-ul tău este prima impresie a cererii tale de angajare. Un CV bine pregătit te deosebește de alți candidați și îți crește șansele de a primi o invitație la interviu. Iată sfaturi pentru un CV eficient:\n\n1. Folosiți un format clar și concis\n2. Evidențiați experiențele dvs. relevante\n3. Susține-ți realizările concrete cu cifre\n4. Folosiți corect cuvintele cheie\n5. Verificați cu atenție erorile"
+      },
+      "resume2": {
+        "title": "Cele mai frecvente greșeli făcute în CV",
+        "summary": "Greșeli de CV care ar putea determina respingerea cererilor dvs. și cum să le evitați.",
+        "content": "Mulți candidați fac greșeli critice în CV-urile lor fără să-și dea seama. Recunoașterea și corectarea acestor greșeli vă va accelera procesul de găsire a unui loc de muncă."
+      },
+      "interview1": {
+        "title": "Secretele succesului în interviuri",
+        "summary": "Tehnici pe care trebuie să le cunoști pentru a avea succes la interviurile de angajare.",
+        "content": "Interviul este cea mai critică etapă a procesului de solicitare a unui loc de muncă. Candidații bine pregătiți pot face față stresului și se pot exprima cel mai bine."
+      },
+      "interview2": {
+        "title": "Cele mai frecvente întrebări la interviu",
+        "summary": "Întrebări pe care le vei întâlni la interviurile de angajare și strategii eficiente de răspuns.",
+        "content": "Anumite întrebări sunt aproape întotdeauna puse în interviuri. Pregătirea pentru aceste întrebări în avans vă crește încrederea în sine."
+      },
+      "career1": {
+        "title": "Pentru cei care doresc să facă o schimbare în carieră",
+        "summary": "Un ghid pas cu pas pentru cei care doresc să schimbe sectoarele sau pozițiile.",
+        "content": "O schimbare în carieră poate părea înfricoșătoare, dar cu o planificare adecvată poate fi realizată cu succes."
+      },
+      "career2": {
+        "title": "Rețele profesionale",
+        "summary": "Modalități de a construi relații care îți vor avansa cariera.",
+        "content": "O rețea profesională puternică crește oportunitățile de carieră și vă ține la curent cu evoluțiile din industrie."
+      },
+      "workplace1": {
+        "title": "Lucruri de luat în considerare atunci când începeți un nou loc de muncă",
+        "summary": "Sfaturi practice pentru a avea succes încă din prima zi la serviciu.",
+        "content": "Să începi ceva nou poate fi interesant, dar stresant. Cu abordarea corectă, vă puteți adapta rapid și aveți un început de succes."
+      },
+      "workplace2": {
+        "title": "Cum să stabiliți un echilibru între viața profesională și viața privată?",
+        "summary": "Modalități de a-ți echilibra cariera și viața privată.",
+        "content": "Un echilibru sănătos dintre muncă și viață este esențial atât pentru succesul în carieră, cât și pentru fericirea personală."
+      }
+    },
+    "newsletter": {
+      "title": "Obțineți sfaturi pentru carieră",
+      "subtitle": "Abonați-vă la buletinul nostru informativ pentru cele mai recente sfaturi în carieră și oportunități de angajare.",
+      "placeholder": "Adresa dvs. de e-mail",
+      "button": "Abonați-vă"
+    }
+  },
+  "privacy": {
+    "title": "Politica de confidențialitate",
+    "metaTitle": "Politica de confidențialitate - Hirovo",
+    "metaDescription": "Politica de confidențialitate Hirovo - Informații despre modul în care datele dumneavoastră cu caracter personal sunt colectate, utilizate și protejate.",
+    "lastUpdate": "Ultima actualizare: ianuarie 2025",
+    "intro": "La Hirovo, acordăm o mare importanță confidențialității utilizatorilor noștri. Această Politică de confidențialitate explică modul în care sunt procesate datele personale pe care le colectăm prin intermediul aplicației mobile Hirovo („Aplicația”).",
+    "section1": {
+      "title": "1. Informații pe care le colectăm",
+      "intro": "Este posibil să colectăm următoarele informații atunci când utilizați aplicația noastră:",
+      "items": {
+        "account": "Informații despre cont: nume, prenume, adresă de e-mail, număr de telefon",
+        "profile": "Informații de profil: CV, experiență de muncă, informații educaționale, competențe",
+        "location": "Informații despre locație: date despre locație pentru a afișa postări de locuri de muncă în apropierea dvs. (cu permisiunea dvs.)",
+        "device": "Informații despre dispozitiv: turul dispozitivului, sistemul de operare, versiunea aplicației",
+        "usage": "Date de utilizare: interacțiuni în aplicație, anunțuri vizualizate, aplicații"
+      }
+    },
+    "section2": {
+      "title": "2. Scopurile utilizării informațiilor",
+      "intro": "Folosim informațiile pe care le colectăm în următoarele scopuri:",
+      "items": {
+        "account": "Crearea și gestionarea contului dvs",
+        "jobs": "Se afișează postări de locuri de muncă potrivite pentru dvs",
+        "applications": "Redirecționarea cererilor de angajare către angajatori",
+        "improve": "Îmbunătățirea experienței aplicației",
+        "support": "Oferirea de suport tehnic",
+        "legal": "Pentru a ne îndeplini obligațiile legale"
+      }
+    },
+    "section3": {
+      "title": "3. Partajarea informațiilor",
+      "intro": "Nu împărtășim datele dumneavoastră cu caracter personal cu terțe părți, cu excepția următoarelor cazuri:",
+      "items": {
+        "employers": "Angajatorii: împărtășim informațiile de profil cu proprietarii postărilor de locuri de muncă la care aplicați.",
+        "providers": "Furnizori de servicii: Parteneri de încredere care oferă servicii tehnice necesare pentru funcționarea aplicației noastre.",
+        "legal": "Obligații legale: În conformitate cu procesele legale sau cu cererea autorităților competente"
+      }
+    },
+    "section4": {
+      "title": "4. Securitatea datelor",
+      "intro": "Implementăm măsuri de securitate standard în industrie pentru a vă proteja datele personale:",
+      "items": {
+        "ssl": "Criptare SSL/TLS",
+        "datacenter": "Centre de date securizate",
+        "audits": "Audituri regulate de securitate",
+        "access": "Controlul accesului și autorizarea"
+      }
+    },
+    "section5": {
+      "title": "5. Drepturile tale",
+      "intro": "Aveți următoarele drepturi în domeniul de aplicare al Legii privind protecția datelor cu caracter personal nr. 6698 (KVKK):",
+      "items": {
+        "know": "Aflați dacă datele dumneavoastră cu caracter personal sunt sau nu prelucrate",
+        "info": "Solicitarea de informații despre datele dumneavoastră cu caracter personal dacă acestea au fost prelucrate",
+        "purpose": "Aflați scopul prelucrării datelor dumneavoastră cu caracter personal și dacă acestea sunt utilizate în scopul propus",
+        "thirdParty": "Cunoașterea terților cărora le sunt transferate datele cu caracter personal în țară sau în străinătate",
+        "correct": "Solicitarea corectării datelor cu caracter personal dacă acestea sunt incomplete sau prelucrate incorect",
+        "delete": "Solicitați ștergerea sau distrugerea datelor dumneavoastră personale"
+      }
+    },
+    "section6": {
+      "title": "6. Cookie-uri și tehnologii de urmărire",
+      "content": "Aplicația noastră poate folosi module cookie și tehnologii similare pentru a vă îmbunătăți experiența. Datorită acestor tehnologii, ne amintim preferințele dumneavoastră și analizăm performanța aplicației."
+    },
+    "section7": {
+      "title": "7. Confidențialitatea copiilor",
+      "content": "Aplicația noastră nu este direcționată către persoane sub 18 ani. Nu colectăm cu bună știință date cu caracter personal de la persoane sub 18 ani."
+    },
+    "section8": {
+      "title": "8. Schimbări de politică",
+      "content": "Este posibil să actualizăm această Politică de confidențialitate din când în când. În cazul unor modificări semnificative, vă vom anunța prin notificări în aplicație."
+    },
+    "section9": {
+      "title": "9. Comunicare",
+      "intro": "Pentru întrebările dvs. legate de confidențialitate, ne puteți contacta:"
+    }
+  },
+  "terms": {
+    "title": "Termeni de utilizare",
+    "metaTitle": "Termeni de utilizare - Hirovo",
+    "metaDescription": "Termeni de utilizare Hirovo - Reguli și condiții pe care trebuie să le respectați atunci când utilizați aplicația noastră.",
+    "lastUpdate": "Ultima actualizare: ianuarie 2025",
+    "intro": "Prin utilizarea aplicației mobile Hirovo („Aplicația”), se consideră că ați acceptat următorii termeni de utilizare. Vă rugăm să citiți cu atenție acești termeni.",
+    "section1": {
+      "title": "1. Descrierea Serviciului",
+      "intro": "Hirovo este o platformă de căutare de locuri de muncă care își propune să conecteze solicitanții de locuri de muncă cu angajatorii. Prin aplicația noastră:",
+      "items": {
+        "view": "Puteți vizualiza anunțurile de locuri de muncă și puteți aplica",
+        "profile": "Îți poți crea profilul profesional",
+        "offers": "Puteți evalua ofertele de la angajatori",
+        "track": "Puteți urmări oportunitățile de carieră"
+      }
+    },
+    "section2": {
+      "title": "2. Crearea contului și securitatea",
+      "intro": "Trebuie să vă creați un cont pentru a utiliza aplicația noastră. La crearea unui cont:",
+      "items": {
+        "accurate": "Sunteți de acord să furnizați informații corecte și actuale",
+        "responsible": "Sunteți responsabil pentru confidențialitatea informațiilor contului dvs.",
+        "activity": "Sunteți responsabil pentru toate activitățile care au loc în contul dvs.",
+        "notify": "În cazul accesului neautorizat trebuie să ne anunțați imediat"
+      }
+    },
+    "section3": {
+      "title": "3. Obligațiile utilizatorului",
+      "intro": "Când utilizați aplicația noastră, sunteți de acord să respectați următoarele reguli:",
+      "items": {
+        "legal": "Acționează în conformitate cu legile și reglementările",
+        "honest": "Partajarea de informații corecte și neînșelătoare",
+        "respect": "Respectarea drepturilor altor utilizatori",
+        "noSpam": "Nu distribuiți spam, programe malware sau conținut rău intenționat",
+        "security": "Evitarea acțiunilor care pot pune în pericol securitatea aplicației",
+        "identity": "Nu pentru a-i uzurpa pe alții"
+      }
+    },
+    "section4": {
+      "title": "4. Comportamente interzise",
+      "intro": "Următoarele comportamente sunt strict interzise:",
+      "items": {
+        "fake": "Crearea de postări de locuri de muncă sau profiluri false",
+        "harass": "Hărțuirea sau hărțuirea altor utilizatori",
+        "illegal": "Utilizarea aplicației în scopuri ilegale",
+        "damage": "Deteriorarea infrastructurii tehnice a aplicației",
+        "bots": "Folosind sisteme automate sau roboți",
+        "ip": "Încălcarea drepturilor de proprietate intelectuală"
+      }
+    },
+    "section5": {
+      "title": "5. Conținut și proprietate intelectuală",
+      "intro": "Toate drepturile asupra aplicației și conținutului acesteia aparțin Hirovo:",
+      "items": {
+        "ownership": "Logo-ul, designul și interfața sunt proprietatea Hirovo",
+        "userContent": "Conținutul încărcat de utilizator este responsabilitatea utilizatorului.",
+        "license": "Ne acordați licențele necesare pentru informațiile pe care le partajați în profilul dvs.",
+        "thirdParty": "Conținutul dvs. nu trebuie să încalce drepturile terților"
+      }
+    },
+    "section6": {
+      "title": "6. Limitarea răspunderii",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Nu garantează acuratețea afișărilor de locuri de muncă",
+        "relationship": "Nu este parte a relației angajator-angajat",
+        "disputes": "Nu este responsabil pentru litigiile dintre utilizatori",
+        "uptime": "Nu garantează că serviciul va funcționa fără întrerupere.",
+        "damages": "Nu este responsabil pentru nicio daune indirecte sau consecutive."
+      }
+    },
+    "section7": {
+      "title": "7. Suspendarea și Închiderea Contului",
+      "intro": "Vă putem suspenda sau închide contul în următoarele situații:",
+      "items": {
+        "violation": "Încălcarea condițiilor de utilizare",
+        "illegal": "Activități ilegale",
+        "harm": "Comportamente care dăunează altor utilizatori",
+        "false": "Furnizarea de informații false sau înșelătoare"
+      }
+    },
+    "section8": {
+      "title": "8. Schimbări",
+      "content": "Ne rezervăm dreptul de a modifica acești termeni de utilizare fără notificare prealabilă. Modificările importante vor fi anunțate prin notificări în aplicație. Continuarea utilizării aplicației după modificări înseamnă că acceptați noii termeni."
+    },
+    "section9": {
+      "title": "9. Legea aplicabilă",
+      "content": "Acești termeni de utilizare sunt supuși legilor Republicii Turcia. În caz de dispută, tribunalele și birourile de executare din Istanbul au jurisdicție."
+    },
+    "section10": {
+      "title": "10. Comunicare",
+      "intro": "Pentru întrebările dvs. despre termenii de utilizare:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Solicitare de ștergere a contului",
+    "metaTitle": "Ștergerea contului - Hirovo",
+    "metaDescription": "Solicitați ștergerea contului dvs. Hirovo.",
+    "description": "Dacă doriți să vă ștergeți contul, completați formularul de mai jos. Odată ce solicitarea dvs. este examinată, contul dvs. și toate datele dvs. vor fi șterse definitiv.",
+    "warning": "Odată ce contul tău este șters, toate datele tale (informații de profil, aplicații, mesaje) vor fi șterse definitiv și nu pot fi recuperate.",
+    "form": {
+      "emailLabel": "Adresa de e-mail",
+      "emailPlaceholder": "exemplu@email.com",
+      "phoneLabel": "Număr de telefon",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Motivul ștergerii",
+      "reasonPlaceholder": "De ce doriți să vă ștergeți contul?",
+      "submitButton": "Trimiteți cererea de ștergere a contului"
+    },
+    "errors": {
+      "emailOrPhone": "Vă rugăm să introduceți adresa dvs. de e-mail sau numărul de telefon.",
+      "generic": "A apărut o eroare. Vă rugăm să încercați din nou mai târziu.",
+      "connection": "Eroare de conectare. Vă rugăm să vă verificați conexiunea la internet."
+    },
+    "success": {
+      "title": "Solicitarea dvs. a fost primită",
+      "message": "Solicitarea dvs. de ștergere a contului a fost primită cu succes. Solicitarea dumneavoastră va fi examinată cât mai curând posibil și veți fi informat prin e-mail sau SMS.",
+      "processingTime": "Timp de procesare: 1-3 zile lucrătoare"
+    },
+    "contactNote": "Ne puteti contacta la."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Selectați Limbă",
+    "popularLanguages": "Limbi populare"
+  }
+}

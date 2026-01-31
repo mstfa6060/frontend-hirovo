@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Unduh",
+    "downloadApp": "Unduh Aplikasinya",
+    "googlePlay": "Google Bermain",
+    "email": "E-mail",
+    "phone": "Telepon",
+    "or": "atau",
+    "loading": "Memuat...",
+    "sending": "Mengirim...",
+    "error": "Kesalahan",
+    "success": "Berhasil",
+    "submit": "Mengirim",
+    "optional": "opsional",
+    "important": "Penting",
+    "contact": "Komunikasi",
+    "questions": "Untuk pertanyaan Anda",
+    "learnMore": "Informasi Lebih Lanjut",
+    "getStarted": "Mulai Sekarang",
+    "readMore": "Baca selengkapnya",
+    "viewAll": "Lihat Semua",
+    "free": "Bebas",
+    "new": "Baru"
+  },
+  "metadata": {
+    "title": "Hirovo - Platform Pencarian Kerja & Iklan",
+    "description": "Hirovo adalah platform pencarian kerja dan periklanan. Temukan lowongan pekerjaan, lamar dengan mudah, dan ikuti peluang karier.",
+    "keywords": "mencari pekerjaan, lowongan pekerjaan, karir, pencarian kerja, posting personel, pencari personel, rekrutmen, Hirovo",
+    "ogTitle": "Hirovo - Platform Ketenagakerjaan & Karir",
+    "ogDescription": "Temukan lowongan pekerjaan, lamar, dan ikuti peluang karier bersama Hirovo."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Tentang kami",
+    "howItWorks": "Cara Kerjanya",
+    "forJobSeekers": "Pencari Kerja",
+    "forEmployers": "majikan",
+    "faq": "Pertanyaan Umum",
+    "contact": "Komunikasi",
+    "careerTips": "Nasihat Karir"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Penggunaan",
+    "deleteAccount": "Penghapusan Akun",
+    "home": "Halaman Beranda",
+    "about": "Tentang kami",
+    "contact": "Komunikasi",
+    "faq": "Pertanyaan Umum",
+    "howItWorks": "Cara Kerjanya",
+    "forJobSeekers": "Untuk Pencari Kerja",
+    "forEmployers": "Untuk Pengusaha",
+    "careerTips": "Nasihat Karir",
+    "company": "Perusahaan",
+    "resources": "Sumber daya",
+    "legal": "Legal",
+    "followUs": "Ikuti Kami",
+    "description": "Platform ketenagakerjaan paling inovatif di Turki. Impian Anda akan selangkah lebih dekat."
+  },
+  "home": {
+    "hero": {
+      "title": "Temukan Pekerjaan Impian Anda",
+      "subtitle": "Temukan ribuan lowongan pekerjaan, lamar dengan mudah, dan ikuti peluang karier bersama Hirovo.",
+      "stats": {
+        "jobs": "Postingan Pekerjaan Aktif",
+        "users": "Pengguna Terdaftar",
+        "companies": "Perusahaan Mitra",
+        "placements": "Pencocokan yang Berhasil"
+      }
+    },
+    "features": {
+      "title": "Mengapa Hirovo?",
+      "subtitle": "Fitur kami yang memudahkan pencarian kerja Anda",
+      "easySearch": {
+        "title": "Pencarian Mudah",
+        "description": "Telusuri dengan cepat di antara ribuan lowongan pekerjaan dan temukan peluang yang cocok untuk Anda."
+      },
+      "quickApply": {
+        "title": "Aplikasi Cepat",
+        "description": "Terapkan hanya dengan satu klik, jangan buang waktu. Buat profil Anda sekali, gunakan di mana saja."
+      },
+      "notifications": {
+        "title": "Pemberitahuan Dorong",
+        "description": "Pelajari tentang postingan baru dan status lamaran secara instan, jangan lewatkan kesempatan ini."
+      },
+      "smartMatch": {
+        "title": "Pencocokan Cerdas",
+        "description": "Sistem yang didukung kecerdasan buatan merekomendasikan pekerjaan yang paling sesuai dengan keahlian Anda."
+      },
+      "secureProfile": {
+        "title": "Profil Aman",
+        "description": "Informasi pribadi Anda disimpan dengan aman dan dibagikan kepada perusahaan hanya saat Anda melamar."
+      },
+      "careerSupport": {
+        "title": "Dukungan Karir",
+        "description": "Kami di sini untuk membantu Anda dengan persiapan CV, teknik wawancara, dan saran karier."
+      }
+    },
+    "categories": {
+      "title": "Kategori Bisnis Populer",
+      "subtitle": "Temukan peluang di sektor yang paling dicari",
+      "technology": "Teknologi",
+      "healthcare": "Kesehatan",
+      "finance": "Keuangan",
+      "education": "Pendidikan",
+      "retail": "Pengecer",
+      "manufacturing": "Produksi",
+      "hospitality": "Pariwisata & Perhotelan",
+      "construction": "Bangunan"
+    },
+    "howItWorks": {
+      "title": "Bagaimana cara kerjanya?",
+      "subtitle": "Temukan pekerjaan dalam tiga langkah sederhana",
+      "step1": {
+        "title": "Unduh Aplikasinya",
+        "description": "Unduh Hirovo secara gratis dari Google Play dan buat akun Anda."
+      },
+      "step2": {
+        "title": "Buat Profil Anda",
+        "description": "Tambahkan pengalaman, keterampilan, dan preferensi Anda."
+      },
+      "step3": {
+        "title": "Lamar dan Mulai Bisnis",
+        "description": "Lamar ke lowongan pekerjaan yang cocok untuk Anda dan hubungi pemberi kerja."
+      }
+    },
+    "testimonials": {
+      "title": "Komentar Pengguna",
+      "subtitle": "Pengalaman pengguna kami yang mendapatkan pekerjaan di Hirovo"
+    },
+    "cta": {
+      "title": "Mulai Sekarang",
+      "subtitle": "Unduh Hirovo, impian Anda akan selangkah lebih dekat.",
+      "downloadFree": "Unduhan Gratis"
+    }
+  },
+  "about": {
+    "metaTitle": "Tentang Kami - Hirovo",
+    "metaDescription": "Pelajari tentang Hirovo. Misi kami, visi kami dan perspektif kami terhadap industri ketenagakerjaan.",
+    "hero": {
+      "title": "Tentang kami",
+      "subtitle": "Kami berangkat untuk mengubah dunia bisnis"
+    },
+    "mission": {
+      "title": "Misi kami",
+      "description": "Untuk mempertemukan pencari kerja dan pemberi kerja dengan cara yang paling efisien, untuk memfasilitasi proses pencarian kerja bagi semua orang dan untuk menciptakan kesempatan kerja yang adil."
+    },
+    "vision": {
+      "title": "Visi kami",
+      "description": "Sebagai platform ketenagakerjaan digital terkemuka di Turki dan kawasan, membantu jutaan orang mencapai tujuan karier mereka."
+    },
+    "story": {
+      "title": "Kisah kita",
+      "content1": "Hirovo didirikan pada tahun 2024 untuk memecahkan tantangan yang dihadapi para pencari kerja. Melihat ketidakefisienan metode pencarian kerja tradisional dan rasa frustrasi yang dialami para pencari kerja, kami memutuskan untuk menciptakan solusi yang lebih baik dengan menggunakan teknologi.",
+      "content2": "Saat ini, ribuan pencari kerja dan ratusan perusahaan memilih Hirovo. Dengan pendekatan kami yang berorientasi pada pengguna dan teknologi yang terus ditingkatkan, kami meningkatkan pengalaman mencari kerja setiap hari."
+    },
+    "values": {
+      "title": "Nilai-nilai kita",
+      "transparency": {
+        "title": "Transparansi",
+        "description": "Kami memberikan transparansi penuh dalam lowongan pekerjaan dan proses kami."
+      },
+      "equality": {
+        "title": "Persamaan",
+        "description": "Kami menawarkan kesempatan yang sama kepada semua orang dan menentang diskriminasi."
+      },
+      "innovation": {
+        "title": "inovasi",
+        "description": "Kami terus meningkatkan dan menggunakan teknologi terbaru."
+      },
+      "userFirst": {
+        "title": "Fokus Pengguna",
+        "description": "Kami memprioritaskan pengalaman pengguna dalam semua keputusan."
+      }
+    },
+    "team": {
+      "title": "tim kami",
+      "description": "Tim profesional kami yang berpengalaman membawa pengetahuan bertahun-tahun di sektor ketenagakerjaan ke Hirovo."
+    },
+    "stats": {
+      "title": "Hirovo dalam jumlah",
+      "downloads": "Unduh",
+      "activeUsers": "Pengguna Aktif",
+      "partnerCompanies": "Perusahaan Mitra",
+      "successfulMatches": "Pencocokan yang Berhasil"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Cara Kerjanya - Hirovo",
+    "metaDescription": "Bagaimana cara kerja Hirovo? Pelajari pencarian kerja dan proses lamaran langkah demi langkah.",
+    "hero": {
+      "title": "Bagaimana cara kerjanya?",
+      "subtitle": "Kami membuatnya begitu mudah untuk mendapatkan pekerjaan"
+    },
+    "forJobSeekers": {
+      "title": "Untuk Pencari Kerja",
+      "step1": {
+        "title": "Unduh Aplikasinya",
+        "description": "Unduh aplikasi Hirovo secara gratis dari Google Play. Instalasi cepat dan aman."
+      },
+      "step2": {
+        "title": "Buat Akun",
+        "description": "Daftar dalam hitungan detik dengan email atau nomor telepon Anda."
+      },
+      "step3": {
+        "title": "Lengkapi Profil Anda",
+        "description": "Tambahkan pengalaman kerja, pendidikan, dan keterampilan Anda. Unggah CV Anda."
+      },
+      "step4": {
+        "title": "Jelajahi Postingan Pekerjaan",
+        "description": "Temukan listingan yang sesuai dengan Anda menggunakan filter. Lokasi, gaji, industri, dan lainnya."
+      },
+      "step5": {
+        "title": "Terapkan dengan Satu Klik",
+        "description": "Terapkan langsung ke iklan yang Anda suka. Profil Anda dikirimkan secara otomatis."
+      },
+      "step6": {
+        "title": "Ikuti Prosesnya",
+        "description": "Ikuti status aplikasi Anda secara real time. Tetap terinformasi dengan pemberitahuan."
+      }
+    },
+    "forEmployers": {
+      "title": "Untuk Pengusaha",
+      "step1": {
+        "title": "Buat Akun Perusahaan",
+        "description": "Daftarkan perusahaan Anda dan selesaikan proses verifikasi."
+      },
+      "step2": {
+        "title": "Publikasikan Iklan Pekerjaan",
+        "description": "Buat postingan pekerjaan dengan deskripsi dan persyaratan pekerjaan terperinci."
+      },
+      "step3": {
+        "title": "Tinjau Aplikasi",
+        "description": "Saring lamaran yang masuk dan pilih kandidat yang sesuai."
+      },
+      "step4": {
+        "title": "Hubungi Kandidat",
+        "description": "Hubungi kandidat langsung melalui aplikasi."
+      }
+    },
+    "features": {
+      "title": "Fitur",
+      "ai": {
+        "title": "Dukungan Kecerdasan Buatan",
+        "description": "Algoritme cerdas merekomendasikan pekerjaan yang paling sesuai untuk Anda."
+      },
+      "realtime": {
+        "title": "Pemberitahuan Dorong",
+        "description": "Dapatkan pemberitahuan instan untuk postingan baru dan pembaruan aplikasi."
+      },
+      "secure": {
+        "title": "Infrastruktur Aman",
+        "description": "Data Anda dilindungi dengan standar keamanan tertinggi."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Untuk Pencari Kerja - Hirovo",
+    "metaDescription": "Jika Anda sedang mencari pekerjaan, Hirovo cocok untuk Anda. Ribuan lowongan pekerjaan, lamaran mudah, dan peluang karier.",
+    "hero": {
+      "title": "Untuk Pencari Kerja",
+      "subtitle": "Kami bersama Anda dalam perjalanan karier Anda"
+    },
+    "benefits": {
+      "title": "Mengapa Memilih Hirovo?",
+      "free": {
+        "title": "Sepenuhnya Gratis",
+        "description": "Semua fitur kami gratis untuk pencari kerja. Tidak ada biaya tersembunyi."
+      },
+      "thousands": {
+        "title": "Ribuan Iklan",
+        "description": "Ribuan lowongan pekerjaan terkini dari setiap sektor dan tingkatan."
+      },
+      "easy": {
+        "title": "Aplikasi Mudah",
+        "description": "Terapkan dengan satu klik, jangan buang waktu."
+      },
+      "track": {
+        "title": "Pelacakan Aplikasi",
+        "description": "Lacak semua aplikasi Anda di satu tempat."
+      },
+      "notifications": {
+        "title": "Notifikasi Cerdas",
+        "description": "Dapatkan informasi langsung tentang iklan baru yang cocok untuk Anda."
+      },
+      "privacy": {
+        "title": "Keamanan",
+        "description": "Informasi Anda hanya dibagikan kepada perusahaan tempat Anda melamar."
+      }
+    },
+    "tips": {
+      "title": "Kiat untuk Aplikasi yang Berhasil",
+      "tip1": {
+        "title": "Lengkapi Profil Anda",
+        "description": "Profil yang terisi penuh menarik perhatian 3 kali lebih banyak."
+      },
+      "tip2": {
+        "title": "Tetap Terkini",
+        "description": "Perbarui profil Anda saat Anda menambahkan keterampilan dan pengalaman baru."
+      },
+      "tip3": {
+        "title": "Tetap Aktifkan Notifikasi",
+        "description": "Izinkan pemberitahuan untuk menghindari hilangnya peluang."
+      },
+      "tip4": {
+        "title": "Lamar dengan Cepat",
+        "description": "Mereka yang cepat melamar postingan baru akan tampil kedepan."
+      }
+    },
+    "categories": {
+      "title": "Kategori Populer",
+      "subtitle": "Kategori pekerjaan yang paling banyak dicari"
+    },
+    "cta": {
+      "title": "Temukan Pekerjaan Impian Anda",
+      "subtitle": "Unduh Hirovo sekarang dan temukan ribuan peluang."
+    }
+  },
+  "employers": {
+    "metaTitle": "Untuk Pengusaha - Hirovo",
+    "metaDescription": "Temukan bakat yang tepat bersama Hirovo. Solusi pembelian yang cepat, efektif dan ekonomis.",
+    "hero": {
+      "title": "Untuk Pengusaha",
+      "subtitle": "Cara termudah untuk menemukan talenta yang tepat"
+    },
+    "benefits": {
+      "title": "Keunggulan Hirovo",
+      "reach": {
+        "title": "Jangkauan Luas",
+        "description": "Jangkau ribuan pencari kerja aktif secara instan."
+      },
+      "quality": {
+        "title": "Kandidat Berkualitas",
+        "description": "Profil terverifikasi dan resume terperinci."
+      },
+      "fast": {
+        "title": "Hasil Cepat",
+        "description": "Terima lamaran pertama dalam waktu sekitar 48 jam."
+      },
+      "affordable": {
+        "title": "Harga Terjangkau",
+        "description": "Ini jauh lebih ekonomis dibandingkan metode tradisional."
+      },
+      "easy": {
+        "title": "Manajemen Mudah",
+        "description": "Kelola semua aplikasi dari satu panel."
+      },
+      "support": {
+        "title": "Mendukung",
+        "description": "Kami membantu Anda dalam proses rekrutmen."
+      }
+    },
+    "process": {
+      "title": "Proses Rekrutmen",
+      "step1": "Buat akun perusahaan",
+      "step2": "Publikasikan postingan pekerjaan Anda",
+      "step3": "Tinjau aplikasinya",
+      "step4": "Bertemu dengan kandidat",
+      "step5": "Rekrut"
+    },
+    "pricing": {
+      "title": "Harga",
+      "subtitle": "Pilih paket yang sesuai dengan kebutuhan Anda",
+      "basic": {
+        "title": "Awal",
+        "price": "Bebas",
+        "features": {
+          "0": "1 iklan per bulan",
+          "1": "Pemfilteran dasar",
+          "2": "Dukungan email"
+        }
+      },
+      "pro": {
+        "title": "Profesional",
+        "price": "Hubungi kami",
+        "features": {
+          "0": "Iklan tanpa batas",
+          "1": "Pemfilteran tingkat lanjut",
+          "2": "Dukungan prioritas",
+          "3": "Rekomendasi kandidat"
+        }
+      },
+      "enterprise": {
+        "title": "Kelembagaan",
+        "price": "Harga Spesial",
+        "features": {
+          "0": "Semua fitur Pro",
+          "1": "akses API",
+          "2": "Integrasi khusus",
+          "3": "manajer akun"
+        }
+      }
+    },
+    "cta": {
+      "title": "Temukan Bakat yang Tepat",
+      "subtitle": "Mulailah sekarang dan jangkau kandidat terbaik."
+    }
+  },
+  "faq": {
+    "metaTitle": "Pertanyaan yang Sering Diajukan - Hirovo",
+    "metaDescription": "Pertanyaan dan jawaban yang sering diajukan tentang Hirovo. Informasi tentang pencarian pekerjaan, melamar dan menggunakan aplikasi.",
+    "hero": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "subtitle": "Segala sesuatu yang Anda ingin tahu"
+    },
+    "categories": {
+      "general": "Umum",
+      "account": "Tagihan",
+      "application": "Aplikasi",
+      "employers": "majikan",
+      "technical": "Teknis"
+    },
+    "general": {
+      "q1": {
+        "question": "Apa itu Hirovo?",
+        "answer": "Hirovo adalah platform ketenagakerjaan mobile yang mempertemukan pencari kerja dan pemberi kerja. Anda dapat mencari di antara ribuan lowongan pekerjaan, melamar dengan satu klik, dan mengikuti peluang karier."
+      },
+      "q2": {
+        "question": "Apakah Hirovo gratis?",
+        "answer": "Ya, Hirovo sepenuhnya gratis untuk pencari kerja. Anda dapat menggunakan semua fitur kami secara gratis."
+      },
+      "q3": {
+        "question": "Di mana saya bisa mengunduh Hirovo?",
+        "answer": "Anda dapat mengunduh Hirovo secara gratis dari Google Play Store. Versi iOS akan segera dirilis."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Bagaimana cara membuat akun?",
+        "answer": "Setelah mengunduh aplikasi, Anda dapat mendaftar dalam hitungan detik dengan alamat email atau nomor telepon Anda."
+      },
+      "q2": {
+        "question": "Saya lupa kata sandi saya, apa yang harus saya lakukan?",
+        "answer": "Anda dapat mengatur ulang kata sandi Anda melalui email atau SMS dengan mengklik opsi 'Lupa Kata Sandi Saya' di layar login."
+      },
+      "q3": {
+        "question": "Bagaimana cara menghapus akun saya?",
+        "answer": "Anda dapat meminta penghapusan akun dari pengaturan dalam aplikasi atau dari halaman 'Penghapusan Akun' di situs web kami."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Bagaimana cara melacak permohonan saya?",
+        "answer": "Anda dapat melihat semua aplikasi Anda dan statusnya di bagian 'Aplikasi Saya' di aplikasi."
+      },
+      "q2": {
+        "question": "Bisakah saya menarik permohonan saya?",
+        "answer": "Ya, Anda dapat menarik permohonan Anda yang belum ditinjau."
+      },
+      "q3": {
+        "question": "Mengapa lamaran saya ditolak?",
+        "answer": "Pengusaha melakukan evaluasi berdasarkan kriteria mereka sendiri. Anda dapat meningkatkan peluang Anda dengan memperbarui profil Anda dan melamar lebih banyak postingan."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Bagaimana cara membuka rekening perusahaan?",
+        "answer": "Anda dapat mendaftarkan perusahaan Anda melalui aplikasi atau di website kami. Proses verifikasi selesai dalam waktu 24-48 jam."
+      },
+      "q2": {
+        "question": "Apakah ada biaya untuk mempublikasikan iklan?",
+        "answer": "Paket dasar kami gratis. Untuk pengumuman lebih lanjut dan fitur lanjutan, Anda dapat melihat paket profesional kami."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "Aplikasi tidak terbuka, apa yang harus saya lakukan?",
+        "answer": "Update dulu aplikasinya. Jika masalah masih berlanjut, hapus aplikasi dan instal ulang. Jika Anda masih mengalami masalah, hubungi tim dukungan kami."
+      },
+      "q2": {
+        "question": "Notifikasi tidak datang?",
+        "answer": "Pastikan Anda mengizinkan notifikasi untuk Hirovo di pengaturan ponsel Anda. Periksa juga preferensi notifikasi Anda di pengaturan dalam aplikasi."
+      }
+    },
+    "contact": {
+      "title": "Apakah Anda memiliki pertanyaan?",
+      "subtitle": "Hubungi kami untuk pertanyaan yang Anda tidak dapat menemukan jawabannya."
+    }
+  },
+  "contact": {
+    "metaTitle": "Kontak – Hirovo",
+    "metaDescription": "Hubungi Hirovo. Hubungi kami untuk pertanyaan, saran, dan masukan Anda.",
+    "hero": {
+      "title": "Komunikasi",
+      "subtitle": "Kami akan dengan senang hati membantu Anda"
+    },
+    "info": {
+      "title": "Informasi Kontak",
+      "email": {
+        "title": "E-mail",
+        "value": "halo@hirovo.com",
+        "description": "dukungan email 24/7"
+      },
+      "phone": {
+        "title": "Telepon",
+        "value": "+90 (212) 000 00 00",
+        "description": "Senin - Jumat, pukul 09:00 - 18:00"
+      },
+      "address": {
+        "title": "Alamat",
+        "value": "Istanbul, Turki",
+        "description": "Kantor pusat kami"
+      }
+    },
+    "form": {
+      "title": "Menulis kepada kami",
+      "name": "Nama dan Nama Belakang Anda",
+      "email": "Alamat Email Anda",
+      "subject": "Subjek",
+      "message": "Pesan Anda",
+      "submit": "Mengirim",
+      "subjects": {
+        "general": "Pertanyaan Umum",
+        "support": "Dukungan Teknis",
+        "partnership": "Kemitraan",
+        "feedback": "Masukan",
+        "other": "Lainnya"
+      },
+      "success": "Pesan Anda telah berhasil terkirim. Kami akan menghubungi Anda kembali sesegera mungkin.",
+      "error": "Telah terjadi kesalahan. Silakan coba lagi nanti."
+    },
+    "social": {
+      "title": "Media Sosial",
+      "subtitle": "Ikuti kami di media sosial"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Nasihat Karir - Hirovo",
+    "metaDescription": "Nasihat ahli tentang pencarian kerja, persiapan CV, teknik wawancara dan pengembangan karir.",
+    "hero": {
+      "title": "Nasihat Karir",
+      "subtitle": "Tingkatkan karier Anda ke level selanjutnya"
+    },
+    "categories": {
+      "resume": "Persiapan CV",
+      "interview": "Teknik Wawancara",
+      "career": "Pengembangan Karir",
+      "workplace": "Kehidupan Bisnis"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Bagaimana Mempersiapkan CV yang Efektif?",
+        "summary": "Panduan persiapan CV profesional yang menarik perhatian pemberi kerja.",
+        "content": "CV Anda adalah kesan pertama dari lamaran pekerjaan Anda. CV yang dipersiapkan dengan baik membedakan Anda dari kandidat lain dan meningkatkan peluang Anda untuk menerima undangan wawancara. Berikut tips membuat CV yang efektif:\n\n1. Gunakan format yang jelas dan ringkas\n2. Soroti pengalaman Anda yang relevan\n3. Dukung pencapaian konkrit Anda dengan angka\n4. Gunakan kata kunci dengan benar\n5. Periksa kesalahan dengan cermat"
+      },
+      "resume2": {
+        "title": "Kesalahan Paling Umum Dilakukan di CV",
+        "summary": "Kesalahan CV yang bisa menyebabkan lamaran Anda ditolak dan cara menghindarinya.",
+        "content": "Banyak kandidat membuat kesalahan kritis dalam CV mereka tanpa menyadarinya. Mengenali dan memperbaiki kesalahan ini akan mempercepat proses pencarian kerja Anda."
+      },
+      "interview1": {
+        "title": "Rahasia Sukses dalam Wawancara",
+        "summary": "Teknik yang perlu Anda ketahui agar sukses dalam wawancara kerja.",
+        "content": "Wawancara adalah tahap paling penting dalam proses lamaran kerja. Kandidat yang dipersiapkan dengan baik dapat mengatasi stres dan mengekspresikan diri mereka sebaik mungkin."
+      },
+      "interview2": {
+        "title": "Pertanyaan Wawancara yang Paling Sering Diajukan",
+        "summary": "Pertanyaan yang akan Anda temui dalam wawancara kerja dan strategi jawaban yang efektif.",
+        "content": "Pertanyaan-pertanyaan tertentu hampir selalu ditanyakan dalam wawancara. Mempersiapkan pertanyaan-pertanyaan ini sebelumnya akan meningkatkan kepercayaan diri Anda."
+      },
+      "career1": {
+        "title": "Bagi Mereka Yang Ingin Melakukan Perubahan Karir",
+        "summary": "Panduan langkah demi langkah bagi mereka yang ingin berpindah sektor atau posisi.",
+        "content": "Perubahan karier mungkin tampak menakutkan, tetapi dengan perencanaan yang tepat hal itu dapat dicapai dengan sukses."
+      },
+      "career2": {
+        "title": "Jaringan Profesional",
+        "summary": "Cara membangun hubungan yang akan memajukan karier Anda.",
+        "content": "Jaringan profesional yang kuat meningkatkan peluang karier dan terus memberi Anda informasi tentang perkembangan industri."
+      },
+      "workplace1": {
+        "title": "Hal yang Perlu Dipertimbangkan Saat Memulai Pekerjaan Baru",
+        "summary": "Nasihat praktis agar sukses sejak hari pertama Anda bekerja.",
+        "content": "Memulai sesuatu yang baru bisa jadi mengasyikkan namun menegangkan. Dengan pendekatan yang tepat, Anda dapat beradaptasi dengan cepat dan memulai dengan sukses."
+      },
+      "workplace2": {
+        "title": "Bagaimana Membangun Keseimbangan Kehidupan-Kerja?",
+        "summary": "Cara untuk menyeimbangkan karier dan kehidupan pribadi Anda.",
+        "content": "Keseimbangan kehidupan kerja dan kehidupan yang sehat sangat penting bagi kesuksesan karier dan kebahagiaan pribadi Anda."
+      }
+    },
+    "newsletter": {
+      "title": "Dapatkan Tips Karir",
+      "subtitle": "Berlangganan buletin kami untuk mendapatkan saran karier dan peluang kerja terbaru.",
+      "placeholder": "Alamat email Anda",
+      "button": "Berlangganan"
+    }
+  },
+  "privacy": {
+    "title": "Kebijakan Privasi",
+    "metaTitle": "Kebijakan Privasi - Hirovo",
+    "metaDescription": "Kebijakan Privasi Hirovo - Informasi tentang bagaimana data pribadi Anda dikumpulkan, digunakan dan dilindungi.",
+    "lastUpdate": "Pembaruan terakhir: Januari 2025",
+    "intro": "Di Hirovo, kami sangat mementingkan privasi pengguna kami. Kebijakan Privasi ini menjelaskan bagaimana data pribadi yang kami kumpulkan melalui aplikasi seluler Hirovo (\"Aplikasi\") diproses.",
+    "section1": {
+      "title": "1. Informasi yang Kami Kumpulkan",
+      "intro": "Kami dapat mengumpulkan informasi berikut saat Anda menggunakan aplikasi kami:",
+      "items": {
+        "account": "Informasi Akun: Nama, nama keluarga, alamat email, nomor telepon",
+        "profile": "Informasi Profil: CV, pengalaman kerja, informasi pendidikan, keterampilan",
+        "location": "Informasi Lokasi: Data lokasi untuk menampilkan lowongan pekerjaan di dekat Anda (dengan izin Anda)",
+        "device": "Informasi Perangkat: Tur perangkat, sistem operasi, versi aplikasi",
+        "usage": "Data Penggunaan: Interaksi dalam aplikasi, iklan yang dilihat, aplikasi"
+      }
+    },
+    "section2": {
+      "title": "2. Tujuan Penggunaan Informasi",
+      "intro": "Kami menggunakan informasi yang kami kumpulkan untuk tujuan berikut:",
+      "items": {
+        "account": "Membuat dan mengelola akun Anda",
+        "jobs": "Menampilkan lowongan pekerjaan yang cocok untuk Anda",
+        "applications": "Meneruskan lamaran pekerjaan Anda ke pemberi kerja",
+        "improve": "Meningkatkan pengalaman aplikasi",
+        "support": "Memberikan dukungan teknis",
+        "legal": "Untuk memenuhi kewajiban hukum kami"
+      }
+    },
+    "section3": {
+      "title": "3. Berbagi Informasi",
+      "intro": "Kami tidak membagikan data pribadi Anda kepada pihak ketiga kecuali dalam kasus berikut:",
+      "items": {
+        "employers": "Pengusaha: Kami membagikan informasi profil Anda dengan pemilik lowongan pekerjaan yang Anda lamar.",
+        "providers": "Penyedia Layanan: Mitra tepercaya yang menyediakan layanan teknis yang diperlukan untuk pengoperasian aplikasi kami.",
+        "legal": "Kewajiban Hukum: Sesuai dengan proses hukum atau permintaan pihak yang berwenang"
+      }
+    },
+    "section4": {
+      "title": "4. Keamanan Data",
+      "intro": "Kami menerapkan langkah-langkah keamanan standar industri untuk melindungi data pribadi Anda:",
+      "items": {
+        "ssl": "Enkripsi SSL/TLS",
+        "datacenter": "Pusat data yang aman",
+        "audits": "Audit keamanan rutin",
+        "access": "Kontrol akses dan otorisasi"
+      }
+    },
+    "section5": {
+      "title": "5. Hak Anda",
+      "intro": "Anda mempunyai hak-hak berikut dalam lingkup Undang-Undang Perlindungan Data Pribadi No. 6698 (KVKK):",
+      "items": {
+        "know": "Mempelajari apakah data pribadi Anda sedang diproses atau tidak",
+        "info": "Meminta informasi mengenai data pribadi Anda jika sudah diproses",
+        "purpose": "Mempelajari tujuan pemrosesan data pribadi Anda dan apakah data tersebut digunakan untuk tujuan yang dimaksudkan",
+        "thirdParty": "Mengetahui pihak ketiga kepada siapa data pribadi ditransfer di dalam atau di luar negeri",
+        "correct": "Meminta koreksi data pribadi jika tidak lengkap atau salah diproses",
+        "delete": "Meminta penghapusan atau penghancuran data pribadi Anda"
+      }
+    },
+    "section6": {
+      "title": "6. Cookie dan Teknologi Pelacakan",
+      "content": "Aplikasi kami mungkin menggunakan cookie dan teknologi serupa untuk meningkatkan pengalaman Anda. Berkat teknologi ini, kami mengingat preferensi Anda dan menganalisis kinerja aplikasi."
+    },
+    "section7": {
+      "title": "7. Privasi Anak",
+      "content": "Aplikasi kami tidak ditujukan kepada individu yang berusia di bawah 18 tahun. Kami tidak dengan sengaja mengumpulkan data pribadi dari orang yang berusia di bawah 18 tahun."
+    },
+    "section8": {
+      "title": "8. Perubahan Kebijakan",
+      "content": "Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Jika terjadi perubahan signifikan, kami akan memberi tahu Anda melalui notifikasi dalam aplikasi."
+    },
+    "section9": {
+      "title": "9. Komunikasi",
+      "intro": "Untuk pertanyaan terkait privasi, Anda dapat menghubungi kami:"
+    }
+  },
+  "terms": {
+    "title": "Ketentuan Penggunaan",
+    "metaTitle": "Ketentuan Penggunaan - Hirovo",
+    "metaDescription": "Syarat Penggunaan Hirovo - Aturan dan ketentuan yang harus Anda patuhi saat menggunakan aplikasi kami.",
+    "lastUpdate": "Pembaruan terakhir: Januari 2025",
+    "intro": "Dengan menggunakan aplikasi seluler Hirovo (\"Aplikasi\") Anda dianggap telah menerima ketentuan penggunaan berikut. Harap baca ketentuan ini dengan cermat.",
+    "section1": {
+      "title": "1. Deskripsi Layanan",
+      "intro": "Hirovo adalah platform pencarian kerja yang bertujuan untuk menghubungkan pencari kerja dengan pemberi kerja. Melalui aplikasi kami:",
+      "items": {
+        "view": "Anda dapat melihat postingan pekerjaan dan melamar",
+        "profile": "Anda dapat membuat profil profesional Anda",
+        "offers": "Anda dapat mengevaluasi tawaran dari pemberi kerja",
+        "track": "Anda dapat mengikuti peluang karir"
+      }
+    },
+    "section2": {
+      "title": "2. Pembuatan dan Keamanan Akun",
+      "intro": "Anda perlu membuat akun untuk menggunakan aplikasi kami. Saat membuat akun:",
+      "items": {
+        "accurate": "Anda setuju untuk memberikan informasi yang akurat dan terkini",
+        "responsible": "Anda bertanggung jawab atas kerahasiaan informasi akun Anda.",
+        "activity": "Anda bertanggung jawab atas semua aktivitas yang terjadi pada akun Anda.",
+        "notify": "Jika terjadi akses tidak sah, Anda harus segera memberi tahu kami"
+      }
+    },
+    "section3": {
+      "title": "3. Kewajiban Pengguna",
+      "intro": "Saat menggunakan aplikasi kami, Anda setuju untuk mematuhi aturan berikut:",
+      "items": {
+        "legal": "Bertindak sesuai dengan hukum dan peraturan",
+        "honest": "Berbagi informasi yang akurat dan tidak menyesatkan",
+        "respect": "Menghormati hak pengguna lain",
+        "noSpam": "Tidak membagikan spam, malware, atau konten berbahaya",
+        "security": "Menghindari tindakan yang dapat membahayakan keamanan aplikasi",
+        "identity": "Bukan untuk meniru orang lain"
+      }
+    },
+    "section4": {
+      "title": "4. Perilaku yang Dilarang",
+      "intro": "Perilaku berikut sangat dilarang:",
+      "items": {
+        "fake": "Membuat postingan atau profil pekerjaan palsu",
+        "harass": "Melecehkan atau melecehkan pengguna lain",
+        "illegal": "Menggunakan aplikasi untuk tujuan ilegal",
+        "damage": "Merusak infrastruktur teknis aplikasi",
+        "bots": "Menggunakan sistem otomatis atau bot",
+        "ip": "Melanggar hak kekayaan intelektual"
+      }
+    },
+    "section5": {
+      "title": "5. Konten dan Kekayaan Intelektual",
+      "intro": "Semua hak dalam aplikasi dan kontennya adalah milik Hirovo:",
+      "items": {
+        "ownership": "Logo, desain, dan antarmuka adalah milik Hirovo",
+        "userContent": "Konten yang diunggah oleh pengguna adalah tanggung jawab pengguna.",
+        "license": "Anda memberi kami lisensi yang diperlukan untuk informasi yang Anda bagikan di profil Anda.",
+        "thirdParty": "Konten Anda tidak boleh melanggar hak pihak ketiga"
+      }
+    },
+    "section6": {
+      "title": "6. Batasan Tanggung Jawab",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Tidak menjamin keakuratan postingan pekerjaan",
+        "relationship": "Bukan merupakan pihak dalam hubungan majikan-karyawan",
+        "disputes": "Tidak bertanggung jawab atas perselisihan antar pengguna",
+        "uptime": "Hal ini tidak menjamin bahwa layanan akan beroperasi tanpa gangguan.",
+        "damages": "Tidak bertanggung jawab atas segala kerusakan tidak langsung atau konsekuensial."
+      }
+    },
+    "section7": {
+      "title": "7. Penangguhan dan Pengakhiran Akun",
+      "intro": "Kami dapat menangguhkan atau menghentikan akun Anda dalam situasi berikut:",
+      "items": {
+        "violation": "Pelanggaran ketentuan penggunaan",
+        "illegal": "Kegiatan ilegal",
+        "harm": "Perilaku yang merugikan pengguna lain",
+        "false": "Memberikan informasi palsu atau menyesatkan"
+      }
+    },
+    "section8": {
+      "title": "8. Perubahan",
+      "content": "Kami berhak mengubah ketentuan penggunaan ini tanpa pemberitahuan sebelumnya. Perubahan penting akan diumumkan melalui notifikasi dalam aplikasi. Melanjutkan penggunaan aplikasi setelah perubahan berarti Anda menerima persyaratan baru."
+    },
+    "section9": {
+      "title": "9. Hukum yang Berlaku",
+      "content": "Ketentuan penggunaan ini tunduk pada hukum Republik Turki. Jika terjadi perselisihan, Pengadilan dan Kantor Penegakan Istanbul memiliki yurisdiksi."
+    },
+    "section10": {
+      "title": "10. Komunikasi",
+      "intro": "Untuk pertanyaan Anda tentang ketentuan penggunaan:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Permintaan Penghapusan Akun",
+    "metaTitle": "Penghapusan Akun - Hirovo",
+    "metaDescription": "Permintaan untuk menghapus akun Hirovo Anda.",
+    "description": "Jika Anda ingin menghapus akun Anda, isi formulir di bawah ini. Setelah permintaan Anda ditinjau, akun Anda dan semua data Anda akan dihapus secara permanen.",
+    "warning": "Setelah akun Anda dihapus, semua data Anda (informasi profil, aplikasi, pesan) akan dihapus secara permanen dan tidak dapat diambil kembali.",
+    "form": {
+      "emailLabel": "Alamat Surel",
+      "emailPlaceholder": "contoh@email.com",
+      "phoneLabel": "Nomor telepon",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Alasan Penghapusan",
+      "reasonPlaceholder": "Mengapa Anda ingin menghapus akun Anda?",
+      "submitButton": "Kirim Permintaan Penghapusan Akun"
+    },
+    "errors": {
+      "emailOrPhone": "Silakan masukkan email atau nomor telepon Anda.",
+      "generic": "Telah terjadi kesalahan. Silakan coba lagi nanti.",
+      "connection": "Kesalahan koneksi. Silakan periksa koneksi internet Anda."
+    },
+    "success": {
+      "title": "Permintaan Anda Telah Diterima",
+      "message": "Permintaan penghapusan akun Anda telah berhasil diterima. Permintaan Anda akan ditinjau sesegera mungkin dan Anda akan diberitahu melalui email atau SMS.",
+      "processingTime": "Waktu pemrosesan: 1-3 hari kerja"
+    },
+    "contactNote": "Anda dapat menghubungi kami di."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Pilih Bahasa",
+    "popularLanguages": "Bahasa Populer"
+  }
+}

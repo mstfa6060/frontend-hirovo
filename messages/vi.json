@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Tải xuống",
+    "downloadApp": "Tải xuống ứng dụng",
+    "googlePlay": "Google Play",
+    "email": "E-mail",
+    "phone": "Điện thoại",
+    "or": "hoặc",
+    "loading": "Đang tải...",
+    "sending": "Đang gửi...",
+    "error": "Sai lầm",
+    "success": "Thành công",
+    "submit": "Gửi",
+    "optional": "không bắt buộc",
+    "important": "Quan trọng",
+    "contact": "Giao tiếp",
+    "questions": "Đối với câu hỏi của bạn",
+    "learnMore": "Thêm thông tin",
+    "getStarted": "Bắt đầu ngay bây giờ",
+    "readMore": "Đọc thêm",
+    "viewAll": "Xem Tất Cả",
+    "free": "Miễn phí",
+    "new": "Mới"
+  },
+  "metadata": {
+    "title": "Hirovo - Nền tảng tìm việc và quảng cáo",
+    "description": "Hirovo là một nền tảng tìm kiếm và quảng cáo việc làm. Khám phá các tin tuyển dụng, nộp hồ sơ dễ dàng và theo dõi các cơ hội nghề nghiệp.",
+    "keywords": "tìm việc, tin tuyển dụng, nghề nghiệp, tìm việc làm, tin tuyển dụng, người tìm nhân sự, tuyển dụng, Hirovo",
+    "ogTitle": "Hirovo - Nền tảng việc làm và nghề nghiệp",
+    "ogDescription": "Khám phá các tin tuyển dụng, ứng tuyển và theo dõi các cơ hội nghề nghiệp cùng Hirovo."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Về chúng tôi",
+    "howItWorks": "Nó hoạt động như thế nào",
+    "forJobSeekers": "Người tìm việc",
+    "forEmployers": "người sử dụng lao động",
+    "faq": "Câu hỏi thường gặp",
+    "contact": "Giao tiếp",
+    "careerTips": "Lời khuyên nghề nghiệp"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản sử dụng",
+    "deleteAccount": "Xóa tài khoản",
+    "home": "Trang chủ",
+    "about": "Về chúng tôi",
+    "contact": "Giao tiếp",
+    "faq": "Câu hỏi thường gặp",
+    "howItWorks": "Nó hoạt động như thế nào",
+    "forJobSeekers": "Dành cho người tìm việc",
+    "forEmployers": "Dành cho nhà tuyển dụng",
+    "careerTips": "Lời khuyên nghề nghiệp",
+    "company": "Công ty",
+    "resources": "Tài nguyên",
+    "legal": "Hợp pháp",
+    "followUs": "Theo dõi chúng tôi",
+    "description": "Nền tảng việc làm sáng tạo nhất của Thổ Nhĩ Kỳ. Ước mơ của bạn sẽ tiến gần hơn một bước."
+  },
+  "home": {
+    "hero": {
+      "title": "Tìm công việc mơ ước của bạn",
+      "subtitle": "Khám phá hàng nghìn tin tuyển dụng, nộp đơn dễ dàng và theo dõi các cơ hội nghề nghiệp với Hirovo.",
+      "stats": {
+        "jobs": "Đăng việc làm đang hoạt động",
+        "users": "Người dùng đã đăng ký",
+        "companies": "Công ty đối tác",
+        "placements": "Kết hợp thành công"
+      }
+    },
+    "features": {
+      "title": "Tại sao lại là Hirovo?",
+      "subtitle": "Các tính năng của chúng tôi giúp bạn tìm kiếm việc làm dễ dàng hơn",
+      "easySearch": {
+        "title": "Tìm kiếm dễ dàng",
+        "description": "Tìm kiếm nhanh chóng giữa hàng nghìn tin tuyển dụng và tìm thấy cơ hội phù hợp với bạn."
+      },
+      "quickApply": {
+        "title": "Ứng dụng nhanh",
+        "description": "Áp dụng chỉ bằng một cú nhấp chuột, đừng lãng phí thời gian. Tạo hồ sơ của bạn một lần, sử dụng nó ở mọi nơi."
+      },
+      "notifications": {
+        "title": "Thông báo đẩy",
+        "description": "Tìm hiểu về các bài đăng mới và trạng thái ứng dụng ngay lập tức, đừng bỏ lỡ cơ hội."
+      },
+      "smartMatch": {
+        "title": "Kết hợp thông minh",
+        "description": "Hệ thống hỗ trợ trí tuệ nhân tạo sẽ gợi ý cho bạn những công việc phù hợp nhất với kỹ năng của bạn."
+      },
+      "secureProfile": {
+        "title": "Hồ sơ bảo mật",
+        "description": "Thông tin cá nhân của bạn được lưu trữ an toàn và chỉ chia sẻ với nhà tuyển dụng khi bạn nộp đơn."
+      },
+      "careerSupport": {
+        "title": "Hỗ trợ nghề nghiệp",
+        "description": "Chúng tôi ở đây để giúp bạn chuẩn bị CV, kỹ thuật phỏng vấn và tư vấn nghề nghiệp."
+      }
+    },
+    "categories": {
+      "title": "Danh mục doanh nghiệp phổ biến",
+      "subtitle": "Khám phá cơ hội trong các lĩnh vực được tìm kiếm nhiều nhất",
+      "technology": "Công nghệ",
+      "healthcare": "Sức khỏe",
+      "finance": "Tài chính",
+      "education": "Giáo dục",
+      "retail": "Bán lẻ",
+      "manufacturing": "Sản xuất",
+      "hospitality": "Du lịch & Khách sạn",
+      "construction": "Xây dựng"
+    },
+    "howItWorks": {
+      "title": "Nó hoạt động như thế nào?",
+      "subtitle": "Tìm việc làm trong ba bước đơn giản",
+      "step1": {
+        "title": "Tải xuống ứng dụng",
+        "description": "Tải xuống Hirovo miễn phí từ Google Play và tạo tài khoản của bạn."
+      },
+      "step2": {
+        "title": "Tạo hồ sơ của bạn",
+        "description": "Thêm kinh nghiệm, kỹ năng và sở thích của bạn."
+      },
+      "step3": {
+        "title": "Đăng ký và bắt đầu kinh doanh",
+        "description": "Đăng ký các tin tuyển dụng phù hợp với bạn và liên hệ với nhà tuyển dụng."
+      }
+    },
+    "testimonials": {
+      "title": "Nhận xét của người dùng",
+      "subtitle": "Trải nghiệm của những người dùng đã tìm được việc làm với Hirovo"
+    },
+    "cta": {
+      "title": "Bắt đầu ngay bây giờ",
+      "subtitle": "Tải xuống Hirovo, ước mơ của bạn sẽ tiến gần hơn một bước.",
+      "downloadFree": "Tải xuống miễn phí"
+    }
+  },
+  "about": {
+    "metaTitle": "Về chúng tôi - Hirovo",
+    "metaDescription": "Tìm hiểu về Hirovo. Sứ mệnh, tầm nhìn và quan điểm của chúng tôi về ngành việc làm.",
+    "hero": {
+      "title": "Về chúng tôi",
+      "subtitle": "Chúng tôi đặt mục tiêu thay đổi thế giới kinh doanh"
+    },
+    "mission": {
+      "title": "Sứ mệnh của chúng tôi",
+      "description": "Để gắn kết người tìm việc và nhà tuyển dụng với nhau một cách hiệu quả nhất, tạo điều kiện thuận lợi cho quá trình tìm việc làm của mọi người và tạo cơ hội việc làm công bằng."
+    },
+    "vision": {
+      "title": "Tầm nhìn của chúng tôi",
+      "description": "Là nền tảng việc làm kỹ thuật số hàng đầu của Thổ Nhĩ Kỳ và khu vực, giúp hàng triệu người đạt được mục tiêu nghề nghiệp của họ."
+    },
+    "story": {
+      "title": "Câu chuyện của chúng tôi",
+      "content1": "Hirovo được thành lập vào năm 2024 để giải quyết những thách thức mà người tìm việc phải đối mặt. Nhận thấy sự kém hiệu quả của các phương pháp tìm kiếm việc làm truyền thống và sự thất vọng của người tìm việc, chúng tôi quyết định tạo ra một giải pháp tốt hơn bằng cách sử dụng công nghệ.",
+      "content2": "Ngày nay, hàng nghìn người tìm việc và hàng trăm công ty lựa chọn Hirovo. Với cách tiếp cận hướng đến người dùng và không ngừng cải tiến công nghệ, chúng tôi cải thiện trải nghiệm tìm việc làm mỗi ngày."
+    },
+    "values": {
+      "title": "Giá trị của chúng tôi",
+      "transparency": {
+        "title": "Minh bạch",
+        "description": "Chúng tôi cung cấp sự minh bạch hoàn toàn trong các tin tuyển dụng và quy trình của chúng tôi."
+      },
+      "equality": {
+        "title": "Bình đẳng",
+        "description": "Chúng tôi mang lại cơ hội bình đẳng cho mọi người và chống lại sự phân biệt đối xử."
+      },
+      "innovation": {
+        "title": "sự đổi mới",
+        "description": "Chúng tôi không ngừng cải tiến và sử dụng các công nghệ mới nhất."
+      },
+      "userFirst": {
+        "title": "Tập trung vào người dùng",
+        "description": "Chúng tôi ưu tiên trải nghiệm người dùng trong mọi quyết định."
+      }
+    },
+    "team": {
+      "title": "Đội ngũ của chúng tôi",
+      "description": "Đội ngũ chuyên gia giàu kinh nghiệm của chúng tôi mang lại kiến ​​thức nhiều năm trong lĩnh vực việc làm cho Hirovo."
+    },
+    "stats": {
+      "title": "Hirovo qua những con số",
+      "downloads": "Tải xuống",
+      "activeUsers": "Người dùng đang hoạt động",
+      "partnerCompanies": "Công ty đối tác",
+      "successfulMatches": "Kết hợp thành công"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Cách thức hoạt động - Hirovo",
+    "metaDescription": "Hirovo hoạt động như thế nào? Tìm hiểu từng bước quá trình tìm kiếm việc làm và nộp đơn.",
+    "hero": {
+      "title": "Nó hoạt động như thế nào?",
+      "subtitle": "Chúng tôi đã giúp việc tìm việc làm trở nên thật dễ dàng"
+    },
+    "forJobSeekers": {
+      "title": "Dành cho người tìm việc",
+      "step1": {
+        "title": "Tải xuống ứng dụng",
+        "description": "Tải xuống ứng dụng Hirovo miễn phí từ Google Play. Lắp đặt nhanh chóng và an toàn."
+      },
+      "step2": {
+        "title": "Tạo tài khoản",
+        "description": "Đăng ký trong vài giây với email hoặc số điện thoại của bạn."
+      },
+      "step3": {
+        "title": "Hoàn thiện hồ sơ của bạn",
+        "description": "Thêm kinh nghiệm làm việc, trình độ học vấn và kỹ năng của bạn. Tải lên CV của bạn."
+      },
+      "step4": {
+        "title": "Khám phá tin tuyển dụng",
+        "description": "Tìm danh sách phù hợp với bạn bằng cách sử dụng bộ lọc. Vị trí, mức lương, ngành nghề và nhiều hơn nữa."
+      },
+      "step5": {
+        "title": "Đăng ký chỉ bằng một cú nhấp chuột",
+        "description": "Áp dụng ngay lập tức cho các quảng cáo bạn thích. Hồ sơ của bạn được tự động truyền đi."
+      },
+      "step6": {
+        "title": "Thực hiện theo quy trình",
+        "description": "Theo dõi trạng thái ứng dụng của bạn trong thời gian thực. Cập nhật thông tin với các thông báo."
+      }
+    },
+    "forEmployers": {
+      "title": "Dành cho nhà tuyển dụng",
+      "step1": {
+        "title": "Tạo Tài khoản Công ty",
+        "description": "Đăng ký công ty của bạn và hoàn tất quá trình xác minh."
+      },
+      "step2": {
+        "title": "Đăng quảng cáo việc làm",
+        "description": "Tạo một tin tuyển dụng với các mô tả và yêu cầu công việc chi tiết."
+      },
+      "step3": {
+        "title": "Đánh giá ứng dụng",
+        "description": "Lọc hồ sơ gửi đến và lựa chọn ứng viên phù hợp."
+      },
+      "step4": {
+        "title": "Liên hệ ứng viên",
+        "description": "Liên hệ trực tiếp với ứng viên thông qua ứng dụng."
+      }
+    },
+    "features": {
+      "title": "Đặc trưng",
+      "ai": {
+        "title": "Hỗ trợ trí tuệ nhân tạo",
+        "description": "Các thuật toán thông minh đề xuất những công việc phù hợp nhất cho bạn."
+      },
+      "realtime": {
+        "title": "Thông báo đẩy",
+        "description": "Nhận thông báo tức thì về các bài đăng mới và cập nhật ứng dụng."
+      },
+      "secure": {
+        "title": "Cơ sở hạ tầng an toàn",
+        "description": "Dữ liệu của bạn được bảo vệ với các tiêu chuẩn bảo mật cao nhất."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Dành cho người tìm việc - Hirovo",
+    "metaDescription": "Nếu bạn đang tìm việc làm, Hirovo chính là nơi dành cho bạn. Hàng nghìn tin tuyển dụng, đơn xin việc dễ dàng và cơ hội nghề nghiệp.",
+    "hero": {
+      "title": "Dành cho người tìm việc",
+      "subtitle": "Chúng tôi đồng hành cùng bạn trên chặng đường sự nghiệp"
+    },
+    "benefits": {
+      "title": "Tại sao chọn Hirovo?",
+      "free": {
+        "title": "Hoàn toàn miễn phí",
+        "description": "Tất cả các tính năng của chúng tôi đều miễn phí cho người tìm việc. Không có phí ẩn."
+      },
+      "thousands": {
+        "title": "Hàng ngàn quảng cáo",
+        "description": "Hàng nghìn tin tuyển dụng hiện tại từ mọi lĩnh vực và mọi cấp độ."
+      },
+      "easy": {
+        "title": "Ứng dụng dễ dàng",
+        "description": "Áp dụng chỉ bằng một cú nhấp chuột, đừng lãng phí thời gian."
+      },
+      "track": {
+        "title": "Theo dõi ứng dụng",
+        "description": "Theo dõi tất cả các ứng dụng của bạn ở một nơi."
+      },
+      "notifications": {
+        "title": "Thông báo thông minh",
+        "description": "Được thông báo ngay lập tức về các quảng cáo mới phù hợp với bạn."
+      },
+      "privacy": {
+        "title": "Bảo vệ",
+        "description": "Thông tin của bạn chỉ được chia sẻ với các công ty mà bạn đăng ký."
+      }
+    },
+    "tips": {
+      "title": "Lời khuyên để đăng ký thành công",
+      "tip1": {
+        "title": "Hoàn thiện hồ sơ của bạn",
+        "description": "Hồ sơ được điền đầy đủ sẽ thu hút sự chú ý gấp 3 lần."
+      },
+      "tip2": {
+        "title": "Luôn cập nhật",
+        "description": "Cập nhật hồ sơ của bạn khi bạn thêm các kỹ năng và kinh nghiệm mới."
+      },
+      "tip3": {
+        "title": "Luôn bật thông báo",
+        "description": "Cho phép thông báo để tránh bỏ lỡ cơ hội."
+      },
+      "tip4": {
+        "title": "Đăng ký nhanh chóng",
+        "description": "Những người nhanh chóng đăng ký các bài đăng mới sẽ được ưu tiên."
+      }
+    },
+    "categories": {
+      "title": "Danh mục phổ biến",
+      "subtitle": "Danh mục công việc được tìm kiếm nhiều nhất"
+    },
+    "cta": {
+      "title": "Tìm công việc mơ ước của bạn",
+      "subtitle": "Tải xuống Hirovo ngay bây giờ và khám phá hàng nghìn cơ hội."
+    }
+  },
+  "employers": {
+    "metaTitle": "Dành cho nhà tuyển dụng - Hirovo",
+    "metaDescription": "Tìm nhân tài phù hợp với Hirovo. Giải pháp mua hàng nhanh chóng, hiệu quả và tiết kiệm.",
+    "hero": {
+      "title": "Dành cho nhà tuyển dụng",
+      "subtitle": "Cách dễ nhất để tìm được nhân tài phù hợp"
+    },
+    "benefits": {
+      "title": "Ưu điểm của Hirovo",
+      "reach": {
+        "title": "Phạm vi tiếp cận rộng",
+        "description": "Tiếp cận ngay hàng ngàn người đang tìm việc làm."
+      },
+      "quality": {
+        "title": "Ứng viên chất lượng",
+        "description": "Hồ sơ đã được xác minh và sơ yếu lý lịch chi tiết."
+      },
+      "fast": {
+        "title": "Kết quả nhanh",
+        "description": "Nhận đơn đăng ký đầu tiên trong khoảng 48 giờ."
+      },
+      "affordable": {
+        "title": "Giá cả phải chăng",
+        "description": "Tiết kiệm hơn rất nhiều so với các phương pháp truyền thống."
+      },
+      "easy": {
+        "title": "Quản lý dễ dàng",
+        "description": "Quản lý tất cả các ứng dụng từ một bảng điều khiển duy nhất."
+      },
+      "support": {
+        "title": "Ủng hộ",
+        "description": "Chúng tôi hỗ trợ bạn trong quá trình tuyển dụng."
+      }
+    },
+    "process": {
+      "title": "Quy trình tuyển dụng",
+      "step1": "Tạo tài khoản công ty",
+      "step2": "Xuất bản tin tuyển dụng của bạn",
+      "step3": "Xem xét các ứng dụng",
+      "step4": "Gặp gỡ ứng viên",
+      "step5": "tuyển dụng"
+    },
+    "pricing": {
+      "title": "Định giá",
+      "subtitle": "Chọn gói phù hợp với nhu cầu của bạn",
+      "basic": {
+        "title": "Bắt đầu",
+        "price": "Miễn phí",
+        "features": {
+          "0": "1 quảng cáo mỗi tháng",
+          "1": "Lọc cơ bản",
+          "2": "Hỗ trợ qua email"
+        }
+      },
+      "pro": {
+        "title": "Chuyên nghiệp",
+        "price": "Liên hệ với chúng tôi",
+        "features": {
+          "0": "Quảng cáo không giới hạn",
+          "1": "Lọc nâng cao",
+          "2": "Hỗ trợ ưu tiên",
+          "3": "Đề xuất ứng viên"
+        }
+      },
+      "enterprise": {
+        "title": "Thể chế",
+        "price": "Giá đặc biệt",
+        "features": {
+          "0": "Tất cả các tính năng chuyên nghiệp",
+          "1": "Truy cập API",
+          "2": "Tích hợp tùy chỉnh",
+          "3": "người quản lý tài khoản"
+        }
+      }
+    },
+    "cta": {
+      "title": "Tìm nhân tài phù hợp",
+      "subtitle": "Hãy bắt đầu ngay bây giờ và tiếp cận những ứng viên tốt nhất."
+    }
+  },
+  "faq": {
+    "metaTitle": "Câu hỏi thường gặp - Hirovo",
+    "metaDescription": "Các câu hỏi và câu trả lời thường gặp về Hirovo. Thông tin về tìm kiếm việc làm, nộp đơn và sử dụng ứng dụng.",
+    "hero": {
+      "title": "Câu hỏi thường gặp",
+      "subtitle": "Mọi thứ bạn thắc mắc"
+    },
+    "categories": {
+      "general": "Tổng quan",
+      "account": "Hóa đơn",
+      "application": "Ứng dụng",
+      "employers": "người sử dụng lao động",
+      "technical": "Kỹ thuật"
+    },
+    "general": {
+      "q1": {
+        "question": "Hirovo là gì?",
+        "answer": "Hirovo là một nền tảng việc làm di động tập hợp người tìm việc và nhà tuyển dụng. Bạn có thể tìm kiếm trong số hàng nghìn tin tuyển dụng, ứng tuyển chỉ bằng một cú nhấp chuột và theo dõi các cơ hội nghề nghiệp."
+      },
+      "q2": {
+        "question": "Hirovo có rảnh không?",
+        "answer": "Có, Hirovo hoàn toàn miễn phí cho người tìm việc. Bạn có thể sử dụng tất cả các tính năng của chúng tôi miễn phí."
+      },
+      "q3": {
+        "question": "Tôi có thể tải xuống Hirovo ở đâu?",
+        "answer": "Bạn có thể tải xuống Hirovo miễn phí từ Cửa hàng Google Play. Phiên bản iOS sẽ sớm được phát hành."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Làm cách nào để tạo tài khoản?",
+        "answer": "Sau khi tải xuống ứng dụng, bạn có thể đăng ký sau vài giây bằng địa chỉ email hoặc số điện thoại của mình."
+      },
+      "q2": {
+        "question": "Tôi quên mật khẩu, tôi phải làm gì?",
+        "answer": "Bạn có thể đặt lại mật khẩu của mình qua e-mail hoặc SMS bằng cách nhấp vào tùy chọn 'Quên mật khẩu của tôi' trên màn hình đăng nhập."
+      },
+      "q3": {
+        "question": "Làm cách nào để xóa tài khoản của tôi?",
+        "answer": "Bạn có thể yêu cầu xóa tài khoản từ cài đặt trong ứng dụng hoặc từ trang 'Xóa tài khoản' trên trang web của chúng tôi."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Làm cách nào để theo dõi đơn đăng ký của tôi?",
+        "answer": "Bạn có thể xem tất cả các ứng dụng của mình và trạng thái của chúng trong phần 'Ứng dụng của tôi' trong ứng dụng."
+      },
+      "q2": {
+        "question": "Tôi có thể rút đơn đăng ký của mình không?",
+        "answer": "Có, bạn có thể rút đơn đăng ký chưa được xem xét."
+      },
+      "q3": {
+        "question": "Tại sao đơn đăng ký của tôi bị từ chối?",
+        "answer": "Nhà tuyển dụng thực hiện đánh giá theo tiêu chí riêng của họ. Bạn có thể tăng cơ hội bằng cách cập nhật hồ sơ của mình và đăng ký nhiều bài đăng hơn."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Làm thế nào để mở tài khoản công ty?",
+        "answer": "Bạn có thể đăng ký công ty của mình thông qua ứng dụng hoặc trên trang web của chúng tôi. Quá trình xác minh được hoàn thành trong vòng 24-48 giờ."
+      },
+      "q2": {
+        "question": "Có phải trả phí để xuất bản một quảng cáo?",
+        "answer": "Gói cơ bản của chúng tôi là miễn phí. Để biết thêm thông báo và các tính năng nâng cao, bạn có thể xem các gói chuyên nghiệp của chúng tôi."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "Ứng dụng không mở được, tôi phải làm sao?",
+        "answer": "Đầu tiên hãy cập nhật ứng dụng. Nếu sự cố vẫn tiếp diễn, hãy xóa ứng dụng và cài đặt lại. Nếu bạn vẫn gặp sự cố, hãy liên hệ với nhóm hỗ trợ của chúng tôi."
+      },
+      "q2": {
+        "question": "Thông báo không đến?",
+        "answer": "Đảm bảo bạn cho phép thông báo dành cho Hirovo trong cài đặt điện thoại của mình. Đồng thời kiểm tra tùy chọn thông báo của bạn trong cài đặt trong ứng dụng."
+      }
+    },
+    "contact": {
+      "title": "Bạn có câu hỏi nào không?",
+      "subtitle": "Hãy liên hệ với chúng tôi nếu có những câu hỏi mà bạn không thể tìm thấy câu trả lời."
+    }
+  },
+  "contact": {
+    "metaTitle": "Liên Hệ – Hirovo",
+    "metaDescription": "Hãy liên hệ với Hirovo. Liên hệ với chúng tôi nếu có câu hỏi, đề xuất và phản hồi của bạn.",
+    "hero": {
+      "title": "Giao tiếp",
+      "subtitle": "Chúng tôi rất vui được hỗ trợ bạn"
+    },
+    "info": {
+      "title": "Thông tin liên hệ",
+      "email": {
+        "title": "E-mail",
+        "value": "xin chào@hirovo.com",
+        "description": "Hỗ trợ qua email 24/7"
+      },
+      "phone": {
+        "title": "Điện thoại",
+        "value": "+90 (212) 000 00 00",
+        "description": "Thứ Hai - Thứ Sáu, 09:00 - 18:00"
+      },
+      "address": {
+        "title": "Địa chỉ",
+        "value": "Istanbul, Thổ Nhĩ Kỳ",
+        "description": "Trụ sở chính của chúng tôi"
+      }
+    },
+    "form": {
+      "title": "Viết thư cho chúng tôi",
+      "name": "Tên và họ của bạn",
+      "email": "Địa chỉ Email của bạn",
+      "subject": "Chủ thể",
+      "message": "Tin nhắn của bạn",
+      "submit": "Gửi",
+      "subjects": {
+        "general": "Câu hỏi chung",
+        "support": "Hỗ trợ kỹ thuật",
+        "partnership": "quan hệ đối tác",
+        "feedback": "Nhận xét",
+        "other": "Khác"
+      },
+      "success": "Tin nhắn của bạn đã được gửi thành công. Chúng tôi sẽ liên hệ lại với bạn sớm nhất có thể.",
+      "error": "Đã xảy ra lỗi. Vui lòng thử lại sau."
+    },
+    "social": {
+      "title": "Truyền thông xã hội",
+      "subtitle": "Theo dõi chúng tôi trên mạng xã hội"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Lời khuyên nghề nghiệp - Hirovo",
+    "metaDescription": "Lời khuyên của chuyên gia về săn việc, chuẩn bị CV, kỹ thuật phỏng vấn và phát triển nghề nghiệp.",
+    "hero": {
+      "title": "Lời khuyên nghề nghiệp",
+      "subtitle": "Đưa sự nghiệp của bạn lên một tầm cao mới"
+    },
+    "categories": {
+      "resume": "Chuẩn bị CV",
+      "interview": "Kỹ thuật phỏng vấn",
+      "career": "Phát triển nghề nghiệp",
+      "workplace": "Cuộc sống kinh doanh"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Làm thế nào để chuẩn bị một CV hiệu quả?",
+        "summary": "Hướng dẫn chuẩn bị CV chuyên nghiệp, thu hút sự chú ý của nhà tuyển dụng.",
+        "content": "CV của bạn là ấn tượng đầu tiên về đơn xin việc của bạn. Một CV được chuẩn bị tốt sẽ giúp bạn nổi bật hơn so với các ứng viên khác và tăng cơ hội nhận được lời mời phỏng vấn. Dưới đây là những lời khuyên để có một CV hiệu quả:\n\n1. Sử dụng định dạng rõ ràng và ngắn gọn\n2. Nêu bật những trải nghiệm liên quan của bạn\n3. Hỗ trợ những thành tựu cụ thể của bạn bằng những con số\n4. Sử dụng từ khóa chính xác\n5. Kiểm tra kỹ các lỗi"
+      },
+      "resume2": {
+        "title": "Những lỗi thường gặp nhất trong CV",
+        "summary": "Những lỗi CV có thể khiến hồ sơ của bạn bị từ chối và cách tránh chúng.",
+        "content": "Nhiều ứng viên mắc phải những lỗi nghiêm trọng trong CV mà không hề nhận ra. Nhận biết và sửa chữa những sai lầm này sẽ đẩy nhanh quá trình tìm việc của bạn."
+      },
+      "interview1": {
+        "title": "Bí quyết thành công trong các cuộc phỏng vấn",
+        "summary": "Những kỹ thuật bạn cần biết để thành công khi phỏng vấn xin việc.",
+        "content": "Phỏng vấn là giai đoạn quan trọng nhất của quá trình xin việc. Các ứng viên được chuẩn bị tốt có thể xử lý căng thẳng và thể hiện bản thân một cách tốt nhất."
+      },
+      "interview2": {
+        "title": "Câu hỏi phỏng vấn thường gặp nhất",
+        "summary": "Những câu hỏi bạn sẽ gặp trong các cuộc phỏng vấn việc làm và các chiến lược trả lời hiệu quả.",
+        "content": "Một số câu hỏi hầu như luôn được hỏi trong các cuộc phỏng vấn. Chuẩn bị trước cho những câu hỏi này sẽ làm tăng sự tự tin của bạn."
+      },
+      "career1": {
+        "title": "Dành cho những ai muốn thay đổi nghề nghiệp",
+        "summary": "Hướng dẫn từng bước cho những ai muốn thay đổi ngành nghề hoặc vị trí.",
+        "content": "Việc thay đổi nghề nghiệp có vẻ đáng sợ, nhưng nếu lập kế hoạch phù hợp, bạn có thể thực hiện thành công."
+      },
+      "career2": {
+        "title": "Mạng chuyên nghiệp",
+        "summary": "Những cách để xây dựng các mối quan hệ sẽ thúc đẩy sự nghiệp của bạn.",
+        "content": "Mạng lưới chuyên nghiệp mạnh mẽ sẽ tăng cơ hội nghề nghiệp và giúp bạn cập nhật thông tin về sự phát triển của ngành."
+      },
+      "workplace1": {
+        "title": "Những điều cần cân nhắc khi bắt đầu một công việc mới",
+        "summary": "Lời khuyên thiết thực để thành công ngay từ ngày đầu tiên đi làm.",
+        "content": "Bắt đầu một cái gì đó mới có thể thú vị nhưng căng thẳng. Với cách tiếp cận phù hợp, bạn có thể thích nghi nhanh chóng và có một khởi đầu thành công."
+      },
+      "workplace2": {
+        "title": "Làm thế nào để thiết lập sự cân bằng giữa công việc và cuộc sống?",
+        "summary": "Những cách để cân bằng sự nghiệp và cuộc sống riêng tư của bạn.",
+        "content": "Sự cân bằng lành mạnh giữa công việc và cuộc sống là rất quan trọng đối với cả thành công trong sự nghiệp và hạnh phúc cá nhân của bạn."
+      }
+    },
+    "newsletter": {
+      "title": "Nhận lời khuyên nghề nghiệp",
+      "subtitle": "Đăng ký nhận bản tin của chúng tôi để nhận được lời khuyên nghề nghiệp và cơ hội việc làm mới nhất.",
+      "placeholder": "Địa chỉ email của bạn",
+      "button": "Đặt mua"
+    }
+  },
+  "privacy": {
+    "title": "Chính sách bảo mật",
+    "metaTitle": "Chính sách bảo mật - Hirovo",
+    "metaDescription": "Chính sách quyền riêng tư của Hirovo - Thông tin về cách thu thập, sử dụng và bảo vệ dữ liệu cá nhân của bạn.",
+    "lastUpdate": "Cập nhật lần cuối: Tháng 1 năm 2025",
+    "intro": "Tại Hirovo, chúng tôi rất coi trọng quyền riêng tư của người dùng. Chính sách quyền riêng tư này giải thích cách xử lý dữ liệu cá nhân mà chúng tôi thu thập thông qua ứng dụng di động Hirovo (\"Ứng dụng\").",
+    "section1": {
+      "title": "1. Thông tin chúng tôi thu thập",
+      "intro": "Chúng tôi có thể thu thập những thông tin sau khi bạn sử dụng ứng dụng của chúng tôi:",
+      "items": {
+        "account": "Thông tin tài khoản: Họ tên, địa chỉ email, số điện thoại",
+        "profile": "Thông tin hồ sơ: CV, kinh nghiệm làm việc, thông tin học vấn, kỹ năng",
+        "location": "Thông tin vị trí: Dữ liệu vị trí để hiển thị các tin tuyển dụng gần bạn (với sự cho phép của bạn)",
+        "device": "Thông tin thiết bị: Tham quan thiết bị, hệ điều hành, phiên bản ứng dụng",
+        "usage": "Dữ liệu sử dụng: Tương tác trong ứng dụng, quảng cáo đã xem, ứng dụng"
+      }
+    },
+    "section2": {
+      "title": "2. Mục đích sử dụng thông tin",
+      "intro": "Chúng tôi sử dụng thông tin chúng tôi thu thập cho các mục đích sau:",
+      "items": {
+        "account": "Tạo và quản lý tài khoản của bạn",
+        "jobs": "Hiển thị tin tuyển dụng phù hợp với bạn",
+        "applications": "Chuyển tiếp đơn xin việc của bạn đến nhà tuyển dụng",
+        "improve": "Cải thiện trải nghiệm ứng dụng",
+        "support": "Cung cấp hỗ trợ kỹ thuật",
+        "legal": "Để thực hiện nghĩa vụ pháp lý của chúng tôi"
+      }
+    },
+    "section3": {
+      "title": "3. Chia sẻ thông tin",
+      "intro": "Chúng tôi không chia sẻ dữ liệu cá nhân của bạn với bên thứ ba ngoại trừ các trường hợp sau:",
+      "items": {
+        "employers": "Nhà tuyển dụng: Chúng tôi chia sẻ thông tin hồ sơ của bạn với chủ sở hữu các tin tuyển dụng mà bạn ứng tuyển.",
+        "providers": "Nhà cung cấp dịch vụ: Các đối tác đáng tin cậy cung cấp các dịch vụ kỹ thuật cần thiết cho hoạt động của ứng dụng của chúng tôi.",
+        "legal": "Nghĩa vụ pháp lý: Theo thủ tục pháp lý hoặc theo yêu cầu của cơ quan có thẩm quyền"
+      }
+    },
+    "section4": {
+      "title": "4. Bảo mật dữ liệu",
+      "intro": "Chúng tôi thực hiện các biện pháp bảo mật tiêu chuẩn ngành để bảo vệ dữ liệu cá nhân của bạn:",
+      "items": {
+        "ssl": "Mã hóa SSL/TLS",
+        "datacenter": "Trung tâm dữ liệu an toàn",
+        "audits": "Kiểm tra an ninh thường xuyên",
+        "access": "Kiểm soát truy cập và ủy quyền"
+      }
+    },
+    "section5": {
+      "title": "5. Quyền của bạn",
+      "intro": "Bạn có các quyền sau trong phạm vi của Luật bảo vệ dữ liệu cá nhân số 6698 (KVKK):",
+      "items": {
+        "know": "Tìm hiểu xem dữ liệu cá nhân của bạn có đang được xử lý hay không",
+        "info": "Yêu cầu thông tin về dữ liệu cá nhân của bạn nếu nó đã được xử lý",
+        "purpose": "Tìm hiểu mục đích xử lý dữ liệu cá nhân của bạn và liệu chúng có được sử dụng đúng mục đích hay không",
+        "thirdParty": "Biết các bên thứ ba mà dữ liệu cá nhân được chuyển giao trong hoặc ngoài nước",
+        "correct": "Yêu cầu chỉnh sửa dữ liệu cá nhân nếu chúng không đầy đủ hoặc được xử lý không chính xác",
+        "delete": "Yêu cầu xóa hoặc hủy dữ liệu cá nhân của bạn"
+      }
+    },
+    "section6": {
+      "title": "6. Cookie và công nghệ theo dõi",
+      "content": "Ứng dụng của chúng tôi có thể sử dụng cookie và các công nghệ tương tự để cải thiện trải nghiệm của bạn. Nhờ những công nghệ này, chúng tôi ghi nhớ sở thích của bạn và phân tích hiệu suất ứng dụng."
+    },
+    "section7": {
+      "title": "7. Quyền riêng tư của trẻ em",
+      "content": "Ứng dụng của chúng tôi không hướng tới các cá nhân dưới 18 tuổi. Chúng tôi không cố ý thu thập dữ liệu cá nhân từ những người dưới 18 tuổi."
+    },
+    "section8": {
+      "title": "8. Thay đổi chính sách",
+      "content": "Thỉnh thoảng chúng tôi có thể cập nhật Chính sách quyền riêng tư này. Trong trường hợp có thay đổi đáng kể, chúng tôi sẽ thông báo cho bạn bằng thông báo trong ứng dụng."
+    },
+    "section9": {
+      "title": "9. Giao tiếp",
+      "intro": "Đối với các câu hỏi liên quan đến quyền riêng tư, bạn có thể liên hệ với chúng tôi:"
+    }
+  },
+  "terms": {
+    "title": "Điều khoản sử dụng",
+    "metaTitle": "Điều khoản sử dụng - Hirovo",
+    "metaDescription": "Điều khoản sử dụng của Hirovo - Các quy tắc và điều kiện bạn phải tuân thủ khi sử dụng ứng dụng của chúng tôi.",
+    "lastUpdate": "Cập nhật lần cuối: Tháng 1 năm 2025",
+    "intro": "Bằng cách sử dụng ứng dụng di động Hirovo (\"Ứng dụng\"), bạn được coi là đã chấp nhận các điều khoản sử dụng sau. Vui lòng đọc kỹ các điều khoản này.",
+    "section1": {
+      "title": "1. Mô tả Dịch vụ",
+      "intro": "Hirovo là một nền tảng tìm kiếm việc làm nhằm mục đích kết nối người tìm việc với nhà tuyển dụng. Thông qua ứng dụng của chúng tôi:",
+      "items": {
+        "view": "Bạn có thể xem tin tuyển dụng và ứng tuyển",
+        "profile": "Bạn có thể tạo hồ sơ chuyên nghiệp của mình",
+        "offers": "Bạn có thể đánh giá các đề nghị từ nhà tuyển dụng",
+        "track": "Bạn có thể theo dõi các cơ hội nghề nghiệp"
+      }
+    },
+    "section2": {
+      "title": "2. Tạo tài khoản và bảo mật",
+      "intro": "Bạn cần tạo một tài khoản để sử dụng ứng dụng của chúng tôi. Khi tạo tài khoản:",
+      "items": {
+        "accurate": "Bạn đồng ý cung cấp thông tin chính xác và cập nhật",
+        "responsible": "Bạn chịu trách nhiệm bảo mật thông tin tài khoản của mình.",
+        "activity": "Bạn chịu trách nhiệm về mọi hoạt động xảy ra trên tài khoản của mình.",
+        "notify": "Trong trường hợp truy cập trái phép bạn phải thông báo ngay cho chúng tôi"
+      }
+    },
+    "section3": {
+      "title": "3. Nghĩa vụ của người dùng",
+      "intro": "Khi sử dụng ứng dụng của chúng tôi, bạn đồng ý tuân thủ các quy tắc sau:",
+      "items": {
+        "legal": "Hoạt động theo pháp luật và quy định",
+        "honest": "Chia sẻ thông tin chính xác và không gây hiểu lầm",
+        "respect": "Tôn trọng quyền của người dùng khác",
+        "noSpam": "Không chia sẻ thư rác, phần mềm độc hại hoặc nội dung độc hại",
+        "security": "Tránh các hành động có thể gây nguy hiểm cho tính bảo mật của ứng dụng",
+        "identity": "Không mạo danh người khác"
+      }
+    },
+    "section4": {
+      "title": "4. Những hành vi bị nghiêm cấm",
+      "intro": "Nghiêm cấm các hành vi sau đây:",
+      "items": {
+        "fake": "Tạo tin tuyển dụng hoặc hồ sơ giả mạo",
+        "harass": "Quấy rối hoặc quấy rối người dùng khác",
+        "illegal": "Sử dụng ứng dụng vào mục đích bất hợp pháp",
+        "damage": "Làm hư hỏng hạ tầng kỹ thuật của ứng dụng",
+        "bots": "Sử dụng hệ thống tự động hoặc bot",
+        "ip": "Vi phạm quyền sở hữu trí tuệ"
+      }
+    },
+    "section5": {
+      "title": "5. Nội dung và sở hữu trí tuệ",
+      "intro": "Mọi quyền trong ứng dụng và nội dung của nó thuộc về Hirovo:",
+      "items": {
+        "ownership": "Logo, thiết kế và giao diện là tài sản của Hirovo",
+        "userContent": "Nội dung do người dùng tải lên là trách nhiệm của người dùng.",
+        "license": "Bạn cấp cho chúng tôi các giấy phép cần thiết đối với thông tin bạn chia sẻ trong hồ sơ của mình.",
+        "thirdParty": "Nội dung của bạn không được vi phạm quyền của bên thứ ba"
+      }
+    },
+    "section6": {
+      "title": "6. Giới hạn trách nhiệm pháp lý",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Không đảm bảo tính chính xác của tin tuyển dụng",
+        "relationship": "Không phải là một bên trong mối quan hệ người sử dụng lao động-người lao động",
+        "disputes": "Không chịu trách nhiệm về tranh chấp giữa người dùng",
+        "uptime": "Nó không đảm bảo rằng dịch vụ sẽ hoạt động mà không bị gián đoạn.",
+        "damages": "Không chịu trách nhiệm về bất kỳ thiệt hại gián tiếp hoặc do hậu quả nào."
+      }
+    },
+    "section7": {
+      "title": "7. Đình chỉ và chấm dứt tài khoản",
+      "intro": "Chúng tôi có thể đình chỉ hoặc chấm dứt tài khoản của bạn trong các trường hợp sau:",
+      "items": {
+        "violation": "Vi phạm điều khoản sử dụng",
+        "illegal": "Hoạt động trái pháp luật",
+        "harm": "Hành vi gây hại cho người dùng khác",
+        "false": "Cung cấp thông tin sai lệch hoặc gây hiểu nhầm"
+      }
+    },
+    "section8": {
+      "title": "8. Thay đổi",
+      "content": "Chúng tôi có quyền thay đổi các điều khoản sử dụng này mà không cần thông báo trước. Những thay đổi quan trọng sẽ được thông báo qua thông báo trong ứng dụng. Việc tiếp tục sử dụng ứng dụng sau khi thay đổi có nghĩa là bạn chấp nhận các điều khoản mới."
+    },
+    "section9": {
+      "title": "9. Luật áp dụng",
+      "content": "Các điều khoản sử dụng này tuân theo luật pháp của Cộng hòa Thổ Nhĩ Kỳ. Trong trường hợp có tranh chấp, Tòa án và Cơ quan thi hành án Istanbul có thẩm quyền."
+    },
+    "section10": {
+      "title": "10. Giao tiếp",
+      "intro": "Đối với câu hỏi của bạn về các điều khoản sử dụng:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Yêu cầu xóa tài khoản",
+    "metaTitle": "Xóa tài khoản - Hirovo",
+    "metaDescription": "Yêu cầu xóa tài khoản Hirovo của bạn.",
+    "description": "Nếu bạn muốn xóa tài khoản của mình, hãy điền vào mẫu dưới đây. Sau khi yêu cầu của bạn được xem xét, tài khoản và tất cả dữ liệu của bạn sẽ bị xóa vĩnh viễn.",
+    "warning": "Khi tài khoản của bạn bị xóa, tất cả dữ liệu của bạn (thông tin hồ sơ, ứng dụng, tin nhắn) sẽ bị xóa vĩnh viễn và không thể lấy lại được.",
+    "form": {
+      "emailLabel": "Địa chỉ email",
+      "emailPlaceholder": "ví dụ@email.com",
+      "phoneLabel": "Số điện thoại",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Lý do xóa",
+      "reasonPlaceholder": "Tại sao bạn muốn xóa tài khoản của mình?",
+      "submitButton": "Gửi yêu cầu xóa tài khoản"
+    },
+    "errors": {
+      "emailOrPhone": "Vui lòng nhập email hoặc số điện thoại của bạn.",
+      "generic": "Đã xảy ra lỗi. Vui lòng thử lại sau.",
+      "connection": "Lỗi kết nối. Vui lòng kiểm tra kết nối internet của bạn."
+    },
+    "success": {
+      "title": "Yêu cầu của bạn đã được nhận",
+      "message": "Yêu cầu xóa tài khoản của bạn đã được nhận thành công. Yêu cầu của bạn sẽ được xem xét sớm nhất có thể và bạn sẽ được thông báo qua e-mail hoặc SMS.",
+      "processingTime": "Thời gian xử lý: 1-3 ngày làm việc"
+    },
+    "contactNote": "Bạn có thể liên hệ với chúng tôi tại."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Chọn ngôn ngữ",
+    "popularLanguages": "Ngôn ngữ phổ biến"
+  }
+}

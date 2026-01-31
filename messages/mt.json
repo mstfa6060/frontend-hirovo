@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Niżżel",
+    "downloadApp": "Niżżel l-App",
+    "googlePlay": "Google Play",
+    "email": "Email",
+    "phone": "Telefon",
+    "or": "jew",
+    "loading": "Tagħbija...",
+    "sending": "Tibgħat...",
+    "error": "Żball",
+    "success": "Suċċess",
+    "submit": "Ibgħat",
+    "optional": "fakultattiv",
+    "important": "Importanti",
+    "contact": "Komunikazzjoni",
+    "questions": "Għall-mistoqsijiet tiegħek",
+    "learnMore": "Aktar Informazzjoni",
+    "getStarted": "Ibda Issa",
+    "readMore": "Aqra aktar",
+    "viewAll": "Ara Kollha",
+    "free": "Ħieles",
+    "new": "Ġdid"
+  },
+  "metadata": {
+    "title": "Hirovo - Pjattaforma ta' Tfittxija ta' Impjiegi u Reklami",
+    "description": "Hirovo hija pjattaforma ta' tfittxija ta' impjieg u reklami. Skopri impjiegi, applika faċilment u segwi opportunitajiet ta' karriera.",
+    "keywords": "sejba ta' impjieg, impjiegi, karriera, tfittxija ta' impjieg, impjiegi, persuni li jfittxu persunal, reklutaġġ, Hirovo",
+    "ogTitle": "Hirovo - Pjattaforma ta' Impjiegi u Karriera",
+    "ogDescription": "Skopri postijiet tax-xogħol, applika u segwi opportunitajiet ta' karriera ma' Hirovo."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Dwarna",
+    "howItWorks": "Kif Taħdem",
+    "forJobSeekers": "Dawk li jfittxu impjieg",
+    "forEmployers": "min iħaddem",
+    "faq": "FAQ",
+    "contact": "Komunikazzjoni",
+    "careerTips": "Pariri dwar Karriera"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Politika ta' Privatezza",
+    "terms": "Termini ta' Użu",
+    "deleteAccount": "Tħassir tal-Kont",
+    "home": "Home Page",
+    "about": "Dwarna",
+    "contact": "Komunikazzjoni",
+    "faq": "FAQ",
+    "howItWorks": "Kif Taħdem",
+    "forJobSeekers": "Għal Dawk li jfittxu Xogħol",
+    "forEmployers": "Għal Min Iħaddem",
+    "careerTips": "Pariri dwar Karriera",
+    "company": "Kumpanija",
+    "resources": "Riżorsi",
+    "legal": "Legali",
+    "followUs": "Segwina",
+    "description": "L-aktar pjattaforma tal-impjiegi innovattiva tat-Turkija. Il-ħolma tiegħek tkun pass eqreb."
+  },
+  "home": {
+    "hero": {
+      "title": "Sib l-Impjieg tal-Ħolma Tiegħek",
+      "subtitle": "Skopri eluf ta' impjiegi, applika faċilment u segwi opportunitajiet ta' karriera ma' Hirovo.",
+      "stats": {
+        "jobs": "Posting Attiv ta' Impjiegi",
+        "users": "Utent Reġistrat",
+        "companies": "Kumpanija Msieħba",
+        "placements": "Tqabbil b'suċċess"
+      }
+    },
+    "features": {
+      "title": "Għaliex Hirovo?",
+      "subtitle": "Il-karatteristiċi tagħna li jagħmlu t-tiftix tax-xogħol tiegħek aktar faċli",
+      "easySearch": {
+        "title": "Tiftix Faċli",
+        "description": "Fittex malajr fost eluf ta’ impjiegi u sib opportunitajiet li jixirqulek."
+      },
+      "quickApply": {
+        "title": "Applikazzjoni ta 'malajr",
+        "description": "Applika bi klikk waħda biss, taħlix ħin. Oħloq il-profil tiegħek darba, użah kullimkien."
+      },
+      "notifications": {
+        "title": "Imbotta Notifiki",
+        "description": "Tgħallem dwar stazzjonamenti ġodda u status ta' applikazzjoni istantanjament, titlifx l-opportunità."
+      },
+      "smartMatch": {
+        "title": "Tqabbil intelliġenti",
+        "description": "Is-sistema appoġġjata mill-intelliġenza artifiċjali tirrakkomandalek l-impjiegi li l-aktar jaqdu l-ħiliet tiegħek."
+      },
+      "secureProfile": {
+        "title": "Profil Sikur",
+        "description": "L-informazzjoni personali tiegħek tinħażen b'mod sigur u tinqasam ma' min iħaddem biss meta tapplika."
+      },
+      "careerSupport": {
+        "title": "Appoġġ għall-Karriera",
+        "description": "Aħna qegħdin hawn biex ngħinuk fil-preparazzjoni ta' CV, tekniki ta' intervisti u pariri dwar il-karriera."
+      }
+    },
+    "categories": {
+      "title": "Kategoriji tan-Negozju Popolari",
+      "subtitle": "Skopri opportunitajiet fl-aktar setturi mfittxija",
+      "technology": "Teknoloġija",
+      "healthcare": "Saħħa",
+      "finance": "Finanzi",
+      "education": "Edukazzjoni",
+      "retail": "Bejgħ bl-imnut",
+      "manufacturing": "Produzzjoni",
+      "hospitality": "Turiżmu u Ospitalità",
+      "construction": "Bini"
+    },
+    "howItWorks": {
+      "title": "Kif Taħdem?",
+      "subtitle": "Sib impjieg fi tliet passi sempliċi",
+      "step1": {
+        "title": "Niżżel l-App",
+        "description": "Niżżel Hirovo b'xejn minn Google Play u oħloq il-kont tiegħek."
+      },
+      "step2": {
+        "title": "Oħloq il-Profil Tiegħek",
+        "description": "Żid l-esperjenzi, il-ħiliet u l-preferenzi tiegħek."
+      },
+      "step3": {
+        "title": "Applika u Ibda n-Negozju",
+        "description": "Applika għal postijiet tax-xogħol adattati għalik u ikkuntattja lil min iħaddem."
+      }
+    },
+    "testimonials": {
+      "title": "Kummenti tal-Utenti",
+      "subtitle": "Esperjenzi tal-utenti tagħna li sabu impjieg ma' Hirovo"
+    },
+    "cta": {
+      "title": "Ibda Issa",
+      "subtitle": "Niżżel Hirovo, il-ħolma tiegħek se tkun pass eqreb.",
+      "downloadFree": "Free Download"
+    }
+  },
+  "about": {
+    "metaTitle": "Dwarna - Hirovo",
+    "metaDescription": "Tgħallem dwar Hirovo. Il-missjoni tagħna, il-viżjoni tagħna u l-perspettiva tagħna dwar l-industrija tal-impjiegi.",
+    "hero": {
+      "title": "Dwarna",
+      "subtitle": "Bdejna li nbiddlu d-dinja tan-negozju"
+    },
+    "mission": {
+      "title": "Il-missjoni tagħna",
+      "description": "Biex tgħaqqad lil dawk li qed ifittxu xogħol u lil min iħaddem bl-aktar mod effiċjenti, biex jiġi ffaċilitat il-proċess ta’ tfittxija tax-xogħol għal kulħadd u biex jinħolqu opportunitajiet ta’ xogħol ġusti."
+    },
+    "vision": {
+      "title": "Il-Viżjoni Tagħna",
+      "description": "Bħala l-pjattaforma ewlenija tal-impjiegi diġitali tat-Turkija u tar-reġjun, tgħin lil miljuni ta’ nies jilħqu l-għanijiet tal-karriera tagħhom."
+    },
+    "story": {
+      "title": "L-istorja tagħna",
+      "content1": "Hirovo twaqqfet fl-2024 biex issolvi l-isfidi li jiffaċċjaw dawk li qed ifittxu xogħol. Billi naraw l-ineffiċjenza tal-metodi tradizzjonali tat-tiftix tax-xogħol u l-frustrazzjonijiet esperjenzati minn dawk li qed ifittxu xogħol, iddeċidejna li noħolqu soluzzjoni aħjar bl-użu tat-teknoloġija.",
+      "content2": "Illum, eluf ta’ persuni li qed ifittxu xogħol u mijiet ta’ kumpaniji jagħżlu Hirovo. Bl-approċċ tagħna orjentat lejn l-utent u t-teknoloġija li ntejbu kontinwament, intejbu l-esperjenza tas-sejba tax-xogħol kuljum."
+    },
+    "values": {
+      "title": "Il-valuri tagħna",
+      "transparency": {
+        "title": "Trasparenza",
+        "description": "Aħna nipprovdu trasparenza sħiħa fil-postijiet tax-xogħol u l-proċessi tagħna."
+      },
+      "equality": {
+        "title": "Ugwaljanza",
+        "description": "Noffru opportunitajiet indaqs lil kulħadd u noqogħdu kontra d-diskriminazzjoni."
+      },
+      "innovation": {
+        "title": "innovazzjoni",
+        "description": "Il-ħin kollu qed intejbu u nużaw l-aħħar teknoloġiji."
+      },
+      "userFirst": {
+        "title": "Focus fuq l-Utent",
+        "description": "Aħna nipprijoritizzaw l-esperjenza tal-utent fid-deċiżjonijiet kollha."
+      }
+    },
+    "team": {
+      "title": "It-tim tagħna",
+      "description": "It-tim tagħna ta 'professjonisti b'esperjenza jġib snin ta' għarfien fis-settur tal-impjiegi għal Hirovo."
+    },
+    "stats": {
+      "title": "Hirovo fin-numri",
+      "downloads": "Niżżel",
+      "activeUsers": "Utent Attiv",
+      "partnerCompanies": "Kumpanija Msieħba",
+      "successfulMatches": "Tqabbil b'suċċess"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Kif Taħdem - Hirovo",
+    "metaDescription": "Kif jaħdem Hirovo? Tgħallem il-proċess tat-tfittxija għall-impjieg u l-applikazzjoni pass pass.",
+    "hero": {
+      "title": "Kif Taħdem?",
+      "subtitle": "Għamilna daqshekk faċli biex issib xogħol"
+    },
+    "forJobSeekers": {
+      "title": "Għal Dawk li jfittxu Xogħol",
+      "step1": {
+        "title": "Niżżel l-App",
+        "description": "Niżżel l-app Hirovo b'xejn minn Google Play. Installazzjoni rapida u sigura."
+      },
+      "step2": {
+        "title": "Oħloq Kont",
+        "description": "Irreġistra f'sekondi bl-email jew in-numru tat-telefon tiegħek."
+      },
+      "step3": {
+        "title": "Imla l-Profil Tiegħek",
+        "description": "Żid l-esperjenza tax-xogħol, l-edukazzjoni u l-ħiliet tiegħek. Tella' s-CV tiegħek."
+      },
+      "step4": {
+        "title": "Esplora Postings ta' Impjiegi",
+        "description": "Sib listi li jixirqu għalik billi tuża filtri. Post, salarju, industrija u aktar."
+      },
+      "step5": {
+        "title": "Applika b'One Click",
+        "description": "Applika istantanjament għar-reklami li tixtieq. Il-profil tiegħek jiġi trażmess awtomatikament."
+      },
+      "step6": {
+        "title": "Segwi l-Proċess",
+        "description": "Segwi l-istatus tal-applikazzjonijiet tiegħek f'ħin reali. Ibqa' infurmat bin-notifiki."
+      }
+    },
+    "forEmployers": {
+      "title": "Għal Min Iħaddem",
+      "step1": {
+        "title": "Oħloq Kont tal-Kumpanija",
+        "description": "Irreġistra l-kumpanija tiegħek u tlesti l-proċess ta’ verifika."
+      },
+      "step2": {
+        "title": "Ippubblika Riklam ta' Xogħol",
+        "description": "Oħloq post tax-xogħol b'deskrizzjonijiet u rekwiżiti dettaljati tax-xogħol."
+      },
+      "step3": {
+        "title": "Applikazzjonijiet ta' reviżjoni",
+        "description": "Iffiltra l-applikazzjonijiet deħlin u agħżel kandidati xierqa."
+      },
+      "step4": {
+        "title": "Ikkuntattja l-Kandidati",
+        "description": "Ikkuntattja lill-kandidati direttament permezz tal-applikazzjoni."
+      }
+    },
+    "features": {
+      "title": "Karatteristiċi",
+      "ai": {
+        "title": "Appoġġ għall-Intelliġenza Artifiċjali",
+        "description": "Algoritmi intelliġenti jirrakkomandaw l-aktar impjiegi adattati għalik."
+      },
+      "realtime": {
+        "title": "Imbotta Notifiki",
+        "description": "Ikseb notifiki immedjati għal assenjazzjonijiet ġodda u aġġornamenti tal-applikazzjoni."
+      },
+      "secure": {
+        "title": "Infrastruttura Sikura",
+        "description": "Id-dejta tiegħek hija protetta bl-ogħla standards ta’ sigurtà."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Għal dawk li jfittxu impjieg - Hirovo",
+    "metaDescription": "Jekk qed tfittex xogħol, Hirovo huwa biss għalik. Eluf ta’ impjiegi, applikazzjonijiet faċli u opportunitajiet ta’ karriera.",
+    "hero": {
+      "title": "Għal Dawk li jfittxu Xogħol",
+      "subtitle": "Aħna qegħdin miegħek fil-vjaġġ tal-karriera tiegħek"
+    },
+    "benefits": {
+      "title": "Għaliex Agħżel Hirovo?",
+      "free": {
+        "title": "Kompletament Ħieles",
+        "description": "Il-karatteristiċi kollha tagħna huma b'xejn għal dawk li qed ifittxu xogħol. M'hemm l-ebda miżati moħbija."
+      },
+      "thousands": {
+        "title": "Eluf ta' Riklami",
+        "description": "Eluf ta’ impjiegi kurrenti minn kull settur u kull livell."
+      },
+      "easy": {
+        "title": "Applikazzjoni faċli",
+        "description": "Applika bi klikk waħda, taħlix ħin."
+      },
+      "track": {
+        "title": "Traċċar tal-Applikazzjoni",
+        "description": "Issegwi l-applikazzjonijiet kollha tiegħek f'post wieħed."
+      },
+      "notifications": {
+        "title": "Notifiki Smart",
+        "description": "Kun infurmat istantanjament dwar reklami ġodda adattati għalik."
+      },
+      "privacy": {
+        "title": "Sigurtà",
+        "description": "L-informazzjoni tiegħek tinqasam biss mal-kumpaniji li tapplika għalihom."
+      }
+    },
+    "tips": {
+      "title": "Għajnuniet għal Applikazzjoni b'suċċess",
+      "tip1": {
+        "title": "Imla l-Profil Tiegħek",
+        "description": "Profili mimlija għal kollox jattiraw 3 darbiet aktar attenzjoni."
+      },
+      "tip2": {
+        "title": "Żomm Aġġornata",
+        "description": "Aġġorna l-profil tiegħek hekk kif iżżid ħiliet u esperjenzi ġodda."
+      },
+      "tip3": {
+        "title": "Żomm Notifiki Mixgħula",
+        "description": "Ħalli n-notifiki biex tevita opportunitajiet mitlufa."
+      },
+      "tip4": {
+        "title": "Applika Malajr",
+        "description": "Dawk li japplikaw malajr għal assenjazzjonijiet ġodda jiġu fuq quddiem."
+      }
+    },
+    "categories": {
+      "title": "Kategoriji Popolari",
+      "subtitle": "L-aktar kategoriji ta' xogħol imfittxija"
+    },
+    "cta": {
+      "title": "Sib l-Impjieg tal-Ħolma Tiegħek",
+      "subtitle": "Niżżel Hirovo issa u skopri eluf ta 'opportunitajiet."
+    }
+  },
+  "employers": {
+    "metaTitle": "Għal Min Iħaddem - Hirovo",
+    "metaDescription": "Sib it-talent it-tajjeb ma' Hirovo. Soluzzjonijiet ta 'xiri veloċi, effettivi u ekonomiċi.",
+    "hero": {
+      "title": "Għal Min Iħaddem",
+      "subtitle": "L-eħfef mod biex issib it-talenti t-tajbin"
+    },
+    "benefits": {
+      "title": "Vantaġġi Hirovo",
+      "reach": {
+        "title": "Wide Reach",
+        "description": "Ilħaq istantanjament eluf ta' persuni attivi li qed ifittxu xogħol."
+      },
+      "quality": {
+        "title": "Kandidati ta' Kwalità",
+        "description": "Profili verifikati u tkomplija dettaljata."
+      },
+      "fast": {
+        "title": "Riżultat Mgħaġġel",
+        "description": "Irċievi l-ewwel applikazzjonijiet fi żmien madwar 48 siegħa."
+      },
+      "affordable": {
+        "title": "Prezz affordabbli",
+        "description": "Huwa ħafna aktar ekonomiku minn metodi tradizzjonali."
+      },
+      "easy": {
+        "title": "Ġestjoni faċli",
+        "description": "Immaniġġja l-applikazzjonijiet kollha minn panel wieħed."
+      },
+      "support": {
+        "title": "Appoġġ",
+        "description": "Aħna ngħinuk fil-proċess ta’ reklutaġġ."
+      }
+    },
+    "process": {
+      "title": "Proċess ta' Reklutaġġ",
+      "step1": "Oħloq kont tal-kumpanija",
+      "step2": "Ippubblika l-istazzjon tax-xogħol tiegħek",
+      "step3": "Irrevedi l-applikazzjonijiet",
+      "step4": "Iltaqa' mal-kandidati",
+      "step5": "Rekluta"
+    },
+    "pricing": {
+      "title": "Ipprezzar",
+      "subtitle": "Agħżel il-pjan li jaqbel mal-bżonnijiet tiegħek",
+      "basic": {
+        "title": "Bidu",
+        "price": "Ħieles",
+        "features": {
+          "0": "1 ad kull xahar",
+          "1": "Iffiltrar bażiku",
+          "2": "Appoġġ bl-email"
+        }
+      },
+      "pro": {
+        "title": "Professjonali",
+        "price": "Ikkuntattjana",
+        "features": {
+          "0": "Reklami bla limitu",
+          "1": "Iffiltrar avvanzat",
+          "2": "Appoġġ prijoritarju",
+          "3": "Rakkomandazzjonijiet tal-kandidati"
+        }
+      },
+      "enterprise": {
+        "title": "Istituzzjonali",
+        "price": "Prezz Speċjali",
+        "features": {
+          "0": "Il-karatteristiċi kollha Pro",
+          "1": "Aċċess għall-API",
+          "2": "Integrazzjoni tad-dwana",
+          "3": "maniġer tal-kont"
+        }
+      }
+    },
+    "cta": {
+      "title": "Sib it-Talenti It-Tajjeb",
+      "subtitle": "Ibda issa u tilħaq l-aħjar kandidati."
+    }
+  },
+  "faq": {
+    "metaTitle": "Mistoqsijiet Frekwenti - Hirovo",
+    "metaDescription": "Mistoqsijiet u tweġibiet ta' spiss dwar Hirovo. Informazzjoni dwar it-tiftix ta' impjieg, l-applikazzjoni u l-użu tal-applikazzjoni.",
+    "hero": {
+      "title": "Mistoqsijiet Frekwenti",
+      "subtitle": "Dak kollu li inti tistaqsi dwar"
+    },
+    "categories": {
+      "general": "Ġenerali",
+      "account": "Bill",
+      "application": "Applikazzjoni",
+      "employers": "min iħaddem",
+      "technical": "Tekniku"
+    },
+    "general": {
+      "q1": {
+        "question": "X'inhu Hirovo?",
+        "answer": "Hirovo hija pjattaforma ta' impjieg mobbli li tgħaqqad lil dawk li qed ifittxu xogħol u lil min iħaddem. Tista' tfittex fost eluf ta' impjiegi, tapplika b'klikk waħda, u ssegwi opportunitajiet ta' karriera."
+      },
+      "q2": {
+        "question": "Hirovo huwa ħieles?",
+        "answer": "Iva, Hirovo huwa kompletament b'xejn għal dawk li qed ifittxu xogħol. Tista 'tuża l-karatteristiċi kollha tagħna b'xejn."
+      },
+      "q3": {
+        "question": "Fejn nista' tniżżel Hirovo?",
+        "answer": "Tista' tniżżel Hirovo b'xejn minn Google Play Store. Il-verżjoni tal-iOS se tiġi rilaxxata dalwaqt."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Kif nista' noħloq kont?",
+        "answer": "Wara li tniżżel l-applikazzjoni, tista' tirreġistra f'sekondi bl-indirizz tal-email jew in-numru tat-telefon tiegħek."
+      },
+      "q2": {
+        "question": "Insejt il-password tiegħi, x'għandi nagħmel?",
+        "answer": "Tista' tirrisettja l-password tiegħek permezz ta' e-mail jew SMS billi tikklikkja l-għażla 'Insejt il-Password Tiegħi' fuq l-iskrin tal-login."
+      },
+      "q3": {
+        "question": "Kif nista' nħassar il-kont tiegħi?",
+        "answer": "Tista' titlob it-tħassir tal-kont mis-settings fl-app jew mill-paġna 'Tħassir tal-Kont' fuq il-websajt tagħna."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Kif insegwi l-applikazzjoni tiegħi?",
+        "answer": "Tista' tara l-applikazzjonijiet kollha tiegħek u l-istatus tagħhom fit-taqsima 'L-Applikazzjonijiet Tiegħi' fl-applikazzjoni."
+      },
+      "q2": {
+        "question": "Nista' nirtira l-applikazzjoni tiegħi?",
+        "answer": "Iva, tista' tirtira l-applikazzjonijiet tiegħek li għadhom ma ġewx riveduti."
+      },
+      "q3": {
+        "question": "Għaliex l-applikazzjoni tiegħi ġiet miċħuda?",
+        "answer": "Min iħaddem jagħmel evalwazzjonijiet skont il-kriterji tagħhom stess. Tista' żżid iċ-ċansijiet tiegħek billi taġġorna l-profil tiegħek u tapplika għal aktar stazzjonamenti."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Kif tiftaħ kont tal-kumpanija?",
+        "answer": "Tista' tirreġistra l-kumpanija tiegħek permezz tal-applikazzjoni jew fuq il-websajt tagħna. Il-proċess ta 'verifika jitlesta fi żmien 24-48 siegħa."
+      },
+      "q2": {
+        "question": "Hemm ħlas biex tippubblika reklam?",
+        "answer": "Il-pakkett bażiku tagħna huwa b'xejn. Għal aktar avviżi u karatteristiċi avvanzati, tista 'tiċċekkja l-pakketti professjonali tagħna."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "L-applikazzjoni ma tiftaħx, x'għandi nagħmel?",
+        "answer": "L-ewwel aġġorna l-applikazzjoni. Jekk il-problema tippersisti, ħassar l-app u installaha mill-ġdid. Jekk għadek għandek problemi, ikkuntattja lit-tim ta' appoġġ tagħna."
+      },
+      "q2": {
+        "question": "Notifiki mhux ġejjin?",
+        "answer": "Kun żgur li tippermetti notifiki għal Hirovo fis-settings tat-telefon tiegħek. Iċċekkja wkoll il-preferenzi tan-notifika tiegħek fis-settings fl-app."
+      }
+    },
+    "contact": {
+      "title": "Għandek xi mistoqsijiet?",
+      "subtitle": "Ikkuntattjana għal mistoqsijiet li ma tistax issib it-tweġibiet għalihom."
+    }
+  },
+  "contact": {
+    "metaTitle": "Kuntatt – Hirovo",
+    "metaDescription": "Ikkuntattja lil Hirovo. Ikkuntattjana għall-mistoqsijiet, suġġerimenti u feedback tiegħek.",
+    "hero": {
+      "title": "Komunikazzjoni",
+      "subtitle": "Inkunu kuntenti li ngħinuk"
+    },
+    "info": {
+      "title": "Informazzjoni ta' Kuntatt",
+      "email": {
+        "title": "Email",
+        "value": "hello@hirovo.com",
+        "description": "Appoġġ bl-email 24/7"
+      },
+      "phone": {
+        "title": "Telefon",
+        "value": "+90 (212) 000 00 00",
+        "description": "It-Tnejn sal-Ġimgħa, 09:00 - 18:00"
+      },
+      "address": {
+        "title": "Indirizz",
+        "value": "Istanbul, it-Turkija",
+        "description": "L-uffiċċju ewlieni tagħna"
+      }
+    },
+    "form": {
+      "title": "Iktbilna",
+      "name": "Isem u Kunjom",
+      "email": "Indirizz Email Tiegħek",
+      "subject": "Suġġett",
+      "message": "Il-messaġġ tiegħek",
+      "submit": "Ibgħat",
+      "subjects": {
+        "general": "Mistoqsija Ġenerali",
+        "support": "Appoġġ Tekniku",
+        "partnership": "Sħubija",
+        "feedback": "Feedback",
+        "other": "Oħrajn"
+      },
+      "success": "Il-messaġġ tiegħek intbagħat b'suċċess. Aħna ser nerġgħu lura lilek malajr kemm jista 'jkun.",
+      "error": "Sar żball. Jekk jogħġbok erġa' pprova aktar tard."
+    },
+    "social": {
+      "title": "Midja Soċjali",
+      "subtitle": "Segwina fuq il-midja soċjali"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Pariri dwar il-Karriera - Hirovo",
+    "metaDescription": "Pariri esperti dwar il-kaċċa tax-xogħol, it-tħejjija ta' CV, tekniki ta' intervisti u żvilupp tal-karriera.",
+    "hero": {
+      "title": "Pariri dwar Karriera",
+      "subtitle": "Ħu l-karriera tiegħek għal-livell li jmiss"
+    },
+    "categories": {
+      "resume": "Tħejjija ta' CV",
+      "interview": "Tekniki ta' Intervisti",
+      "career": "Żvilupp tal-Karriera",
+      "workplace": "Ħajja tan-Negozju"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Kif tipprepara CV effettiv?",
+        "summary": "Gwida professjonali ta' preparazzjoni ta' CV li tiġbed l-attenzjoni ta' min iħaddem.",
+        "content": "Is-CV tiegħek huwa l-ewwel impressjoni tal-applikazzjoni tiegħek għall-impjieg. CV ippreparat tajjeb jiddistingwek minn kandidati oħra u jżid iċ-ċansijiet tiegħek li tirċievi stedina għal intervista. Hawn huma pariri għal CV effettiv:\n\n1. Uża format ċar u konċiż\n2. Enfasizza l-esperjenzi rilevanti tiegħek\n3. Appoġġa l-kisbiet konkreti tiegħek bin-numri\n4. Uża l-kliem kjavi b'mod korrett\n5. Iċċekkja bir-reqqa għal żbalji"
+      },
+      "resume2": {
+        "title": "Ħafna Żbalji Komuni Magħmula fis-CV",
+        "summary": "Żbalji tas-CV li jistgħu jikkawżaw li l-applikazzjonijiet tiegħek jiġu miċħuda u kif tevitahom.",
+        "content": "Ħafna kandidati jagħmlu żbalji kritiċi fis-CVs tagħhom mingħajr ma jirrealizzaw. Li tirrikonoxxi u tikkoreġi dawn l-iżbalji se tħaffef il-proċess ta' sejba tax-xogħol tiegħek."
+      },
+      "interview1": {
+        "title": "Sigrieti tas-Suċċess fl-Intervisti",
+        "summary": "Tekniki li trid tkun taf biex tirnexxi fl-intervisti tax-xogħol.",
+        "content": "L-intervista hija l-aktar stadju kritiku tal-proċess tal-applikazzjoni tax-xogħol. Kandidati ppreparati tajjeb jistgħu jimmaniġġjaw l-istress u jesprimu lilhom infushom fl-aħjar tagħhom."
+      },
+      "interview2": {
+        "title": "L-aktar Mistoqsijiet ta' Intervisti Mistoqsija Frekwenti",
+        "summary": "Mistoqsijiet li tiltaqa' magħhom f'intervisti tax-xogħol u strateġiji ta' tweġibiet effettivi.",
+        "content": "Ċerti mistoqsijiet huma kważi dejjem isiru fl-intervisti. Il-preparazzjoni għal dawn il-mistoqsijiet bil-quddiem iżid il-kunfidenza tiegħek innifsek."
+      },
+      "career1": {
+        "title": "Għal Dawk Li Jixtiequ Jagħmlu Bidla fil-Karriera",
+        "summary": "Gwida pass pass għal dawk li jridu jibdlu setturi jew pożizzjonijiet.",
+        "content": "Bidla fil-karriera tista 'tidher tal-biża', iżda bi ppjanar xieraq tista 'titwettaq b'suċċess."
+      },
+      "career2": {
+        "title": "Netwerking Professjonali",
+        "summary": "Modi kif tibni relazzjonijiet li javvanzaw il-karriera tiegħek.",
+        "content": "Netwerk professjonali b'saħħtu jżid l-opportunitajiet ta' karriera u jżommok infurmat dwar l-iżviluppi tal-industrija."
+      },
+      "workplace1": {
+        "title": "Affarijiet li Għandek Tikkunsidra Meta Tibda Impjieg Ġdid",
+        "summary": "Pariri prattiċi biex tkun suċċess mill-ewwel jum tiegħek fuq ix-xogħol.",
+        "content": "Li tibda xi ħaġa ġdida jista 'jkun eċċitanti iżda stressanti. Bl-approċċ it-tajjeb, tista' tadatta malajr u tibda b'suċċess."
+      },
+      "workplace2": {
+        "title": "Kif Tistabbilixxi Bilanċ bejn ix-Xogħol u l-Ħajja?",
+        "summary": "Modi kif tibbilanċja l-karriera u l-ħajja privata tiegħek.",
+        "content": "Bilanċ b'saħħtu bejn ix-xogħol u l-ħajja privata huwa kritiku kemm għas-suċċess fil-karriera tiegħek kif ukoll għall-kuntentizza personali."
+      }
+    },
+    "newsletter": {
+      "title": "Ikseb Pariri dwar il-Karriera",
+      "subtitle": "Abbona man-newsletter tagħna għall-aħħar pariri dwar il-karriera u opportunitajiet ta' xogħol.",
+      "placeholder": "L-indirizz elettroniku tiegħek",
+      "button": "Abbona"
+    }
+  },
+  "privacy": {
+    "title": "Politika ta' Privatezza",
+    "metaTitle": "Politika ta' Privatezza - Hirovo",
+    "metaDescription": "Politika ta' Privatezza ta' Hirovo - Informazzjoni dwar kif id-dejta personali tiegħek tinġabar, tintuża u tiġi protetta.",
+    "lastUpdate": "L-aħħar aġġornament: Jannar 2025",
+    "intro": "F'Hirovo, aħna nagħtu importanza kbira lill-privatezza tal-utenti tagħna. Din il-Politika ta' Privatezza tispjega kif id-data personali li niġbru permezz tal-applikazzjoni mobbli Hirovo (\"Applikazzjoni\") tiġi pproċessata.",
+    "section1": {
+      "title": "1. Informazzjoni li Niġbru",
+      "intro": "Aħna nistgħu niġbru l-informazzjoni li ġejja meta tuża l-applikazzjoni tagħna:",
+      "items": {
+        "account": "Informazzjoni dwar il-Kont: Isem, kunjom, indirizz elettroniku, numru tat-telefon",
+        "profile": "Informazzjoni dwar il-Profil: CV, esperjenza tax-xogħol, informazzjoni edukattiva, ħiliet",
+        "location": "Informazzjoni dwar il-post: Dejta dwar il-post biex turi impjiegi qrib tiegħek (bil-permess tiegħek)",
+        "device": "Informazzjoni dwar l-Apparat: Tour tal-apparat, sistema operattiva, verżjoni tal-applikazzjoni",
+        "usage": "Dejta dwar l-Użu: Interazzjonijiet fl-app, reklami meqjusa, applikazzjonijiet"
+      }
+    },
+    "section2": {
+      "title": "2. Għanijiet ta' Użu ta' Informazzjoni",
+      "intro": "Aħna nużaw l-informazzjoni li niġbru għall-għanijiet li ġejjin:",
+      "items": {
+        "account": "Ħolqien u ġestjoni tal-kont tiegħek",
+        "jobs": "Juri l-postijiet tax-xogħol adattati għalik",
+        "applications": "Tgħaddi l-applikazzjonijiet tax-xogħol tiegħek lil min iħaddem",
+        "improve": "Titjib tal-esperjenza tal-applikazzjoni",
+        "support": "Jipprovdu appoġġ tekniku",
+        "legal": "Biex inwettqu l-obbligi legali tagħna"
+      }
+    },
+    "section3": {
+      "title": "3. Qsim ta' Informazzjoni",
+      "intro": "Aħna ma naqsmux id-dejta personali tiegħek ma’ partijiet terzi ħlief fil-każijiet li ġejjin:",
+      "items": {
+        "employers": "Min iħaddem: Aħna naqsmu l-informazzjoni tal-profil tiegħek mas-sidien tal-postijiet tax-xogħol li tapplika għalihom.",
+        "providers": "Fornituri tas-Servizz: Imsieħba ta' fiduċja li jipprovdu servizzi tekniċi meħtieġa għat-tħaddim tal-applikazzjoni tagħna.",
+        "legal": "Obbligi Legali: Skont il-proċessi legali jew it-talba tal-awtoritajiet kompetenti"
+      }
+    },
+    "section4": {
+      "title": "4. Sigurtà tad-Dejta",
+      "intro": "Aħna nimplimentaw miżuri ta' sigurtà standard tal-industrija biex nipproteġu d-dejta personali tiegħek:",
+      "items": {
+        "ssl": "Encryption SSL/TLS",
+        "datacenter": "Ċentri tad-data siguri",
+        "audits": "Verifiki tas-sigurtà regolari",
+        "access": "Kontroll ta' aċċess u awtorizzazzjoni"
+      }
+    },
+    "section5": {
+      "title": "5. Id-drittijiet tiegħek",
+      "intro": "Għandek id-drittijiet li ġejjin fl-ambitu tal-Liġi dwar il-Protezzjoni tad-Dejta Personali Nru 6698 (KVKK):",
+      "items": {
+        "know": "Tgħallem jekk id-data personali tiegħek tkunx qed tiġi pproċessata jew le",
+        "info": "Li titlob informazzjoni dwar id-dejta personali tiegħek jekk tkun ġiet ipproċessata",
+        "purpose": "Tgħallem l-iskop tal-ipproċessar tad-dejta personali tiegħek u jekk tintużax għall-iskop maħsub tagħha",
+        "thirdParty": "Li tkun taf il-partijiet terzi li lilhom tiġi trasferita d-dejta personali f'pajjiżhom jew barra",
+        "correct": "It-talba għal korrezzjoni ta' data personali jekk ma tkunx kompluta jew ipproċessata ħażin",
+        "delete": "Itlob it-tħassir jew il-qerda tad-dejta personali tiegħek"
+      }
+    },
+    "section6": {
+      "title": "6. Cookies u Teknoloġiji ta’ Traċċar",
+      "content": "L-app tagħna tista' tuża cookies u teknoloġiji simili biex ittejjeb l-esperjenza tiegħek. Grazzi għal dawn it-teknoloġiji, niftakru l-preferenzi tiegħek u nanalizzaw il-prestazzjoni tal-applikazzjoni."
+    },
+    "section7": {
+      "title": "7. Privatezza tat-Tfal",
+      "content": "L-applikazzjoni tagħna mhix diretta għal individwi taħt it-18-il sena. Aħna ma niġbrux xjentement data personali minn persuni taħt it-18-il sena."
+    },
+    "section8": {
+      "title": "8. Bidliet fil-Politika",
+      "content": "Nistgħu naġġornaw din il-Politika ta' Privatezza minn żmien għal żmien. F'każ ta' bidliet sinifikanti, aħna ninnotifikawk b'notifiki fl-app."
+    },
+    "section9": {
+      "title": "9. Komunikazzjoni",
+      "intro": "Għall-mistoqsijiet tiegħek relatati mal-privatezza, tista' tikkuntattjana:"
+    }
+  },
+  "terms": {
+    "title": "Termini ta' Użu",
+    "metaTitle": "Termini ta 'Użu - Hirovo",
+    "metaDescription": "Termini ta 'Użu ta' Hirovo - Regoli u kundizzjonijiet li trid tikkonforma magħhom meta tuża l-applikazzjoni tagħna.",
+    "lastUpdate": "L-aħħar aġġornament: Jannar 2025",
+    "intro": "Billi tuża l-applikazzjoni mobbli Hirovo (\"Applikazzjoni\") inti meqjus li aċċettajt it-termini tal-użu li ġejjin. Jekk jogħġbok aqra dawn it-termini bir-reqqa.",
+    "section1": {
+      "title": "1. Deskrizzjoni tas-Servizz",
+      "intro": "Hirovo hija pjattaforma ta’ tfittxija ta’ xogħol li għandha l-għan li tgħaqqad lil dawk li qed ifittxu xogħol ma’ min iħaddem. Permezz tal-applikazzjoni tagħna:",
+      "items": {
+        "view": "Tista' tara l-postijiet tax-xogħol u tapplika",
+        "profile": "Tista' toħloq il-profil professjonali tiegħek",
+        "offers": "Tista' tevalwa l-offerti minn min iħaddem",
+        "track": "Tista' ssegwi opportunitajiet ta' karriera"
+      }
+    },
+    "section2": {
+      "title": "2. Ħolqien ta' Kont u Sigurtà",
+      "intro": "Għandek bżonn toħloq kont biex tuża l-applikazzjoni tagħna. Meta toħloq kont:",
+      "items": {
+        "accurate": "Inti taqbel li tipprovdi informazzjoni preċiża u attwali",
+        "responsible": "Inti responsabbli għall-kunfidenzjalità tal-informazzjoni tal-kont tiegħek.",
+        "activity": "Inti responsabbli għall-attività kollha li sseħħ fil-kont tiegħek.",
+        "notify": "F'każ ta' aċċess mhux awtorizzat trid tinnotifikana immedjatament"
+      }
+    },
+    "section3": {
+      "title": "3. Obbligi tal-Utent",
+      "intro": "Meta tuża l-applikazzjoni tagħna taqbel li tikkonforma mar-regoli li ġejjin:",
+      "items": {
+        "legal": "Jaġixxi skond il-liġijiet u r-regolamenti",
+        "honest": "Qsim ta’ informazzjoni preċiża u li ma tiżgwidax",
+        "respect": "Ir-rispett tad-drittijiet ta' utenti oħra",
+        "noSpam": "Mhux taqsam spam, malware jew kontenut malizzjuż",
+        "security": "Evitar azzjonijiet li jistgħu jipperikolaw is-sigurtà tal-applikazzjoni",
+        "identity": "Mhux biex jippersona lil ħaddieħor"
+      }
+    },
+    "section4": {
+      "title": "4. Imġieba Projbiti",
+      "intro": "L-imġieba li ġejja hija strettament ipprojbita:",
+      "items": {
+        "fake": "Ħolqien ta' impjiegi jew profili foloz",
+        "harass": "Tfixkil jew fastidju lil utenti oħra",
+        "illegal": "Uża l-applikazzjoni għal skopijiet illegali",
+        "damage": "Il-ħsara lill-infrastruttura teknika tal-applikazzjoni",
+        "bots": "Bl-użu ta' sistemi awtomatizzati jew bots",
+        "ip": "Il-ksur tad-drittijiet tal-proprjetà intellettwali"
+      }
+    },
+    "section5": {
+      "title": "5. Kontenut u Proprjetà Intellettwali",
+      "intro": "Id-drittijiet kollha fl-applikazzjoni u l-kontenut tagħha jappartjenu għal Hirovo:",
+      "items": {
+        "ownership": "Il-logo, id-disinn u l-interface huma proprjetà ta' Hirovo",
+        "userContent": "Il-kontenut imtella' mill-utent huwa r-responsabbiltà tal-utent.",
+        "license": "Inti tagħtina l-liċenzji meħtieġa għall-informazzjoni li taqsam fil-profil tiegħek.",
+        "thirdParty": "Il-kontenut tiegħek m'għandux jikser id-drittijiet ta' partijiet terzi"
+      }
+    },
+    "section6": {
+      "title": "6. Limitazzjoni tar-Responsabbiltà",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Ma jiggarantixxix l-eżattezza tal-postijiet tax-xogħol",
+        "relationship": "Mhux parti fir-relazzjoni bejn min iħaddem u l-impjegat",
+        "disputes": "Mhux responsabbli għal tilwim bejn l-utenti",
+        "uptime": "Ma jiggarantixxix li s-servizz se jopera mingħajr interruzzjoni.",
+        "damages": "Mhux responsabbli għal kwalunkwe ħsara indiretta jew konsegwenzjali."
+      }
+    },
+    "section7": {
+      "title": "7. Sospensjoni u Terminazzjoni tal-Kont",
+      "intro": "Nistgħu nissospendiw jew intemmu l-kont tiegħek fis-sitwazzjonijiet li ġejjin:",
+      "items": {
+        "violation": "Ksur ta' termini ta' użu",
+        "illegal": "Attivitajiet illegali",
+        "harm": "Imġieba li jagħmlu ħsara lil utenti oħra",
+        "false": "Provvista ta' informazzjoni falza jew qarrieqa"
+      }
+    },
+    "section8": {
+      "title": "8. Bidliet",
+      "content": "Aħna nirriżervaw id-dritt li nbiddlu dawn it-termini tal-użu mingħajr avviż minn qabel. Bidliet importanti se jitħabbru permezz ta' notifiki fl-app. Li tkompli tuża l-applikazzjoni wara l-bidliet tfisser li taċċetta t-termini l-ġodda."
+    },
+    "section9": {
+      "title": "9. Liġi Applikabbli",
+      "content": "Dawn it-termini tal-użu huma suġġetti għal-liġijiet tar-Repubblika tat-Turkija. F'każ ta' tilwima, il-Qrati u l-Uffiċċji tal-Infurzar ta' Istanbul għandhom ġurisdizzjoni."
+    },
+    "section10": {
+      "title": "10. Komunikazzjoni",
+      "intro": "Għall-mistoqsijiet tiegħek dwar it-termini tal-użu:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Talba għat-Tħassir tal-Kont",
+    "metaTitle": "Tħassir tal-Kont - Hirovo",
+    "metaDescription": "Talba biex tħassar il-kont Hirovo tiegħek.",
+    "description": "Jekk trid tħassar il-kont tiegħek, imla l-formola hawn taħt. Ladarba t-talba tiegħek tiġi riveduta, il-kont tiegħek u d-dejta kollha tiegħek se jitħassru b'mod permanenti.",
+    "warning": "Ladarba l-kont tiegħek jitħassar, id-dejta kollha tiegħek (informazzjoni tal-profil, applikazzjonijiet, messaġġi) titħassar b'mod permanenti u ma tistax tiġi rkuprata.",
+    "form": {
+      "emailLabel": "Indirizz elettroniku",
+      "emailPlaceholder": "eżempju@email.com",
+      "phoneLabel": "Numru tat-Telefon",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Raġuni għat-Tħassir",
+      "reasonPlaceholder": "Għaliex trid tħassar il-kont tiegħek?",
+      "submitButton": "Ibgħat Talba għat-Tħassir tal-Kont"
+    },
+    "errors": {
+      "emailOrPhone": "Jekk jogħġbok daħħal l-email jew in-numru tat-telefon tiegħek.",
+      "generic": "Sar żball. Jekk jogħġbok erġa' pprova aktar tard.",
+      "connection": "Żball fil-konnessjoni. Jekk jogħġbok iċċekkja l-konnessjoni tal-internet tiegħek."
+    },
+    "success": {
+      "title": "It-Talba Tiegħek Ġiet Riċevuta",
+      "message": "It-talba tiegħek għat-tħassir tal-kont waslet b'suċċess. It-talba tiegħek tiġi riveduta kemm jista' jkun malajr u tkun infurmat permezz ta' e-mail jew SMS.",
+      "processingTime": "Ħin tal-ipproċessar: 1-3 ijiem ta 'negozju"
+    },
+    "contactNote": "Tista' tilħaqna fuq."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Agħżel Lingwa",
+    "popularLanguages": "Lingwi Popolari"
+  }
+}

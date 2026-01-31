@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Stiahnuť",
+    "downloadApp": "Stiahnite si aplikáciu",
+    "googlePlay": "Google Play",
+    "email": "Email",
+    "phone": "Telefón",
+    "or": "alebo",
+    "loading": "Načítava sa...",
+    "sending": "Odosiela sa...",
+    "error": "Omyl",
+    "success": "Úspešný",
+    "submit": "Odoslať",
+    "optional": "voliteľné",
+    "important": "Dôležité",
+    "contact": "Komunikácia",
+    "questions": "Pre vaše otázky",
+    "learnMore": "Viac informácií",
+    "getStarted": "Začnite hneď",
+    "readMore": "Prečítajte si viac",
+    "viewAll": "Zobraziť všetko",
+    "free": "Zadarmo",
+    "new": "Nové"
+  },
+  "metadata": {
+    "title": "Hirovo – platforma na hľadanie zamestnania a inzerciu",
+    "description": "Hirovo je platforma na hľadanie zamestnania a inzerciu. Objavujte pracovné ponuky, jednoducho sa uchádzajte a sledujte kariérne príležitosti.",
+    "keywords": "hľadanie práce, pracovné ponuky, kariéra, hľadanie práce, personálne ponuky, uchádzači o zamestnanie, nábor, Hirovo",
+    "ogTitle": "Hirovo - Platforma zamestnanosti a kariéry",
+    "ogDescription": "Objavte ponuky práce, prihláste sa a sledujte kariérne príležitosti s Hirovo."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "O nás",
+    "howItWorks": "Ako to funguje",
+    "forJobSeekers": "Uchádzači o prácu",
+    "forEmployers": "zamestnávatelia",
+    "faq": "FAQ",
+    "contact": "Komunikácia",
+    "careerTips": "Kariérne poradenstvo"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Zásady ochrany osobných údajov",
+    "terms": "Podmienky používania",
+    "deleteAccount": "Vymazanie účtu",
+    "home": "Domovská stránka",
+    "about": "O nás",
+    "contact": "Komunikácia",
+    "faq": "FAQ",
+    "howItWorks": "Ako to funguje",
+    "forJobSeekers": "Pre uchádzačov o zamestnanie",
+    "forEmployers": "Pre zamestnávateľov",
+    "careerTips": "Kariérne poradenstvo",
+    "company": "Spoločnosť",
+    "resources": "Zdroje",
+    "legal": "Právne",
+    "followUs": "Sledujte nás",
+    "description": "Najinovatívnejšia platforma zamestnanosti v Turecku. Váš sen bude o krok bližšie."
+  },
+  "home": {
+    "hero": {
+      "title": "Nájdite svoju vysnívanú prácu",
+      "subtitle": "Objavte tisíce pracovných ponúk, jednoducho sa prihláste a sledujte kariérne príležitosti s Hirovo.",
+      "stats": {
+        "jobs": "Aktívne pracovné ponuky",
+        "users": "Registrovaný užívateľ",
+        "companies": "Partnerská spoločnosť",
+        "placements": "Úspešné párovanie"
+      }
+    },
+    "features": {
+      "title": "Prečo práve Hirovo?",
+      "subtitle": "Naše funkcie, ktoré vám uľahčia hľadanie práce",
+      "easySearch": {
+        "title": "Jednoduché vyhľadávanie",
+        "description": "Rýchlo hľadajte medzi tisíckami pracovných ponúk a nájdite príležitosti, ktoré vám vyhovujú."
+      },
+      "quickApply": {
+        "title": "Rýchla aplikácia",
+        "description": "Aplikujte jediným kliknutím, nestrácajte čas. Vytvorte si svoj profil raz a používajte ho všade."
+      },
+      "notifications": {
+        "title": "Upozornenia push",
+        "description": "Okamžite sa dozviete o nových príspevkoch a stave žiadostí, nenechajte si ujsť príležitosť."
+      },
+      "smartMatch": {
+        "title": "Smart Matching",
+        "description": "Systém s podporou umelej inteligencie vám odporučí pracovné miesta, ktoré najlepšie vyhovujú vašim schopnostiam."
+      },
+      "secureProfile": {
+        "title": "Zabezpečený profil",
+        "description": "Vaše osobné údaje sú bezpečne uložené a zdieľané so zamestnávateľom iba vtedy, keď o to požiadate."
+      },
+      "careerSupport": {
+        "title": "Podpora kariéry",
+        "description": "Sme tu, aby sme vám pomohli s prípravou životopisu, technikami pohovoru a kariérnym poradenstvom."
+      }
+    },
+    "categories": {
+      "title": "Populárne obchodné kategórie",
+      "subtitle": "Objavte príležitosti v najvyhľadávanejších odvetviach",
+      "technology": "Technológia",
+      "healthcare": "Zdravie",
+      "finance": "Financie",
+      "education": "Vzdelávanie",
+      "retail": "Maloobchod",
+      "manufacturing": "Výroba",
+      "hospitality": "Cestovný ruch a pohostinstvo",
+      "construction": "Budovanie"
+    },
+    "howItWorks": {
+      "title": "Ako to funguje?",
+      "subtitle": "Nájdite si prácu v troch jednoduchých krokoch",
+      "step1": {
+        "title": "Stiahnite si aplikáciu",
+        "description": "Stiahnite si Hirovo zadarmo z Google Play a vytvorte si účet."
+      },
+      "step2": {
+        "title": "Vytvorte si svoj profil",
+        "description": "Pridajte svoje skúsenosti, zručnosti a preferencie."
+      },
+      "step3": {
+        "title": "Prihláste sa a začnite podnikať",
+        "description": "Prihláste sa na pracovné ponuky vhodné pre vás a kontaktujte zamestnávateľov."
+      }
+    },
+    "testimonials": {
+      "title": "Komentáre používateľov",
+      "subtitle": "Skúsenosti našich užívateľov, ktorí našli zamestnanie v Hirove"
+    },
+    "cta": {
+      "title": "Začnite hneď",
+      "subtitle": "Stiahnite si Hirovo, váš sen bude o krok bližšie.",
+      "downloadFree": "Stiahnutie zadarmo"
+    }
+  },
+  "about": {
+    "metaTitle": "O nás - Hirovo",
+    "metaDescription": "Zistite viac o meste Hirovo. Naše poslanie, naša vízia a náš pohľad na odvetvie zamestnanosti.",
+    "hero": {
+      "title": "O nás",
+      "subtitle": "Rozhodli sme sa zmeniť svet podnikania"
+    },
+    "mission": {
+      "title": "Naša misia",
+      "description": "Čo najefektívnejšie spojiť uchádzačov o zamestnanie a zamestnávateľov, uľahčiť proces hľadania práce pre všetkých a vytvoriť spravodlivé pracovné príležitosti."
+    },
+    "vision": {
+      "title": "Naša vízia",
+      "description": "Ako popredná platforma digitálnej zamestnanosti v Turecku a regióne pomáha miliónom ľudí dosiahnuť ich kariérne ciele."
+    },
+    "story": {
+      "title": "Náš príbeh",
+      "content1": "Spoločnosť Hirovo bola založená v roku 2024, aby riešila výzvy, ktorým čelia uchádzači o zamestnanie. Keďže sme videli neefektívnosť tradičných metód hľadania zamestnania a frustráciu, ktorú zažívajú uchádzači o zamestnanie, rozhodli sme sa vytvoriť lepšie riešenie s využitím technológie.",
+      "content2": "Dnes si Hirovo vyberajú tisíce uchádzačov o zamestnanie a stovky spoločností. Vďaka nášmu užívateľsky orientovanému prístupu a neustálemu zdokonaľovaniu technológií zlepšujeme skúsenosti s hľadaním práce každý deň."
+    },
+    "values": {
+      "title": "Naše hodnoty",
+      "transparency": {
+        "title": "Transparentnosť",
+        "description": "Zabezpečujeme plnú transparentnosť pracovných ponúk a našich procesov."
+      },
+      "equality": {
+        "title": "Rovnosť",
+        "description": "Ponúkame rovnaké príležitosti pre každého a vystupujeme proti diskriminácii."
+      },
+      "innovation": {
+        "title": "inovácie",
+        "description": "Neustále sa zlepšujeme a využívame najnovšie technológie."
+      },
+      "userFirst": {
+        "title": "Zameranie na používateľa",
+        "description": "Pri všetkých rozhodnutiach uprednostňujeme používateľskú skúsenosť."
+      }
+    },
+    "team": {
+      "title": "Náš tím",
+      "description": "Náš tím skúsených odborníkov prináša do Hirova dlhoročné znalosti v oblasti zamestnanosti."
+    },
+    "stats": {
+      "title": "Hirovo v číslach",
+      "downloads": "Stiahnuť",
+      "activeUsers": "Aktívny používateľ",
+      "partnerCompanies": "Partnerská spoločnosť",
+      "successfulMatches": "Úspešné párovanie"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Ako to funguje - Hirovo",
+    "metaDescription": "Akým spôsobom liek Hirovo účinkuje? Naučte sa proces hľadania práce a žiadosti krok za krokom.",
+    "hero": {
+      "title": "Ako to funguje?",
+      "subtitle": "Uľahčili sme si nájsť si prácu"
+    },
+    "forJobSeekers": {
+      "title": "Pre uchádzačov o zamestnanie",
+      "step1": {
+        "title": "Stiahnite si aplikáciu",
+        "description": "Stiahnite si zadarmo aplikáciu Hirovo z Google Play. Rýchla a bezpečná inštalácia."
+      },
+      "step2": {
+        "title": "Vytvoriť účet",
+        "description": "Zaregistrujte sa v priebehu niekoľkých sekúnd pomocou svojho e-mailu alebo telefónneho čísla."
+      },
+      "step3": {
+        "title": "Vyplňte svoj profil",
+        "description": "Pridajte svoje pracovné skúsenosti, vzdelanie a zručnosti. Nahrajte svoj životopis."
+      },
+      "step4": {
+        "title": "Preskúmajte ponuky práce",
+        "description": "Nájdite záznamy, ktoré vám vyhovujú, pomocou filtrov. Miesto, plat, odvetvie a ďalšie."
+      },
+      "step5": {
+        "title": "Aplikujte jedným kliknutím",
+        "description": "Okamžite použite na reklamy, ktoré sa vám páčia. Váš profil sa odošle automaticky."
+      },
+      "step6": {
+        "title": "Postupujte podľa Procesu",
+        "description": "Sledujte stav svojich aplikácií v reálnom čase. Zostaňte informovaní pomocou upozornení."
+      }
+    },
+    "forEmployers": {
+      "title": "Pre zamestnávateľov",
+      "step1": {
+        "title": "Vytvorte si firemný účet",
+        "description": "Zaregistrujte svoju spoločnosť a dokončite proces overenia."
+      },
+      "step2": {
+        "title": "Zverejnite pracovný inzerát",
+        "description": "Vytvorte pracovnú ponuku s podrobnými popismi práce a požiadavkami."
+      },
+      "step3": {
+        "title": "Kontrola aplikácií",
+        "description": "Filtrujte prichádzajúce žiadosti a vyberte vhodných kandidátov."
+      },
+      "step4": {
+        "title": "Kontaktujte kandidátov",
+        "description": "Kontaktujte kandidátov priamo prostredníctvom aplikácie."
+      }
+    },
+    "features": {
+      "title": "Vlastnosti",
+      "ai": {
+        "title": "Podpora umelej inteligencie",
+        "description": "Inteligentné algoritmy odporúčajú pre vás najvhodnejšie úlohy."
+      },
+      "realtime": {
+        "title": "Upozornenia push",
+        "description": "Získajte okamžité upozornenia na nové príspevky a aktualizácie aplikácií."
+      },
+      "secure": {
+        "title": "Bezpečná infraštruktúra",
+        "description": "Vaše údaje sú chránené podľa najvyšších bezpečnostných štandardov."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Pre uchádzačov o zamestnanie - Hirovo",
+    "metaDescription": "Ak hľadáte prácu, Hirovo je práve pre vás. Tisíce pracovných ponúk, jednoduché aplikácie a kariérne príležitosti.",
+    "hero": {
+      "title": "Pre uchádzačov o zamestnanie",
+      "subtitle": "Sme s vami na vašej kariérnej ceste"
+    },
+    "benefits": {
+      "title": "Prečo si vybrať Hirovo?",
+      "free": {
+        "title": "Úplne zadarmo",
+        "description": "Všetky naše funkcie sú pre uchádzačov o zamestnanie bezplatné. Neexistujú žiadne skryté poplatky."
+      },
+      "thousands": {
+        "title": "Tisíce inzerátov",
+        "description": "Tisíce aktuálnych pracovných ponúk z každého odvetvia a každej úrovne."
+      },
+      "easy": {
+        "title": "Jednoduchá aplikácia",
+        "description": "Aplikujte jedným kliknutím, nestrácajte čas."
+      },
+      "track": {
+        "title": "Sledovanie aplikácií",
+        "description": "Sledujte všetky svoje aplikácie na jednom mieste."
+      },
+      "notifications": {
+        "title": "Inteligentné upozornenia",
+        "description": "Buďte okamžite informovaní o nových reklamách vhodných pre vás."
+      },
+      "privacy": {
+        "title": "Bezpečnosť",
+        "description": "Vaše informácie sú zdieľané iba so spoločnosťami, ktorým sa uchádzate."
+      }
+    },
+    "tips": {
+      "title": "Tipy pre úspešnú aplikáciu",
+      "tip1": {
+        "title": "Vyplňte svoj profil",
+        "description": "Plne vyplnené profily priťahujú 3x väčšiu pozornosť."
+      },
+      "tip2": {
+        "title": "Udržujte si aktuálne informácie",
+        "description": "Aktualizujte svoj profil, keď pridáte nové zručnosti a skúsenosti."
+      },
+      "tip3": {
+        "title": "Nechajte upozornenia zapnuté",
+        "description": "Povoľte upozornenia, aby ste nezmeškali príležitosti."
+      },
+      "tip4": {
+        "title": "Aplikujte rýchlo",
+        "description": "Do popredia sa dostávajú tí, ktorí sa rýchlo uchádzajú o nové príspevky."
+      }
+    },
+    "categories": {
+      "title": "Obľúbené kategórie",
+      "subtitle": "Najhľadanejšie pracovné kategórie"
+    },
+    "cta": {
+      "title": "Nájdite svoju vysnívanú prácu",
+      "subtitle": "Stiahnite si Hirovo teraz a objavte tisíce príležitostí."
+    }
+  },
+  "employers": {
+    "metaTitle": "Pre zamestnávateľov - Hirovo",
+    "metaDescription": "Nájdite ten správny talent s Hirovom. Rýchle, efektívne a ekonomické riešenia nákupu.",
+    "hero": {
+      "title": "Pre zamestnávateľov",
+      "subtitle": "Najjednoduchší spôsob, ako nájsť správne talenty"
+    },
+    "benefits": {
+      "title": "Výhody Hirovo",
+      "reach": {
+        "title": "Široký dosah",
+        "description": "Okamžite oslovte tisíce aktívnych uchádzačov o prácu."
+      },
+      "quality": {
+        "title": "Kvalitní kandidáti",
+        "description": "Overené profily a podrobné životopisy."
+      },
+      "fast": {
+        "title": "Rýchly výsledok",
+        "description": "Prijímajte prvé žiadosti do približne 48 hodín."
+      },
+      "affordable": {
+        "title": "Dostupná cena",
+        "description": "Je to oveľa ekonomickejšie ako tradičné metódy."
+      },
+      "easy": {
+        "title": "Jednoduchá správa",
+        "description": "Spravujte všetky aplikácie z jedného panela."
+      },
+      "support": {
+        "title": "Podpora",
+        "description": "Pomáhame vám pri náborovom procese."
+      }
+    },
+    "process": {
+      "title": "Proces náboru",
+      "step1": "Vytvorte si firemný účet",
+      "step2": "Zverejnite svoju pracovnú ponuku",
+      "step3": "Skontrolujte aplikácie",
+      "step4": "Stretnite sa s kandidátmi",
+      "step5": "Naverbovať"
+    },
+    "pricing": {
+      "title": "Stanovenie cien",
+      "subtitle": "Vyberte si plán, ktorý vyhovuje vašim potrebám",
+      "basic": {
+        "title": "Začiatok",
+        "price": "Zadarmo",
+        "features": {
+          "0": "1 inzerát za mesiac",
+          "1": "Základné filtrovanie",
+          "2": "E-mailová podpora"
+        }
+      },
+      "pro": {
+        "title": "Profesionálny",
+        "price": "Kontaktujte nás",
+        "features": {
+          "0": "Neobmedzené reklamy",
+          "1": "Pokročilé filtrovanie",
+          "2": "Prioritná podpora",
+          "3": "Odporúčania kandidátov"
+        }
+      },
+      "enterprise": {
+        "title": "Inštitucionálne",
+        "price": "Špeciálna cena",
+        "features": {
+          "0": "Všetky funkcie Pro",
+          "1": "API prístup",
+          "2": "Vlastná integrácia",
+          "3": "správca účtu"
+        }
+      }
+    },
+    "cta": {
+      "title": "Nájdite tie správne talenty",
+      "subtitle": "Začnite hneď a oslovte tých najlepších kandidátov."
+    }
+  },
+  "faq": {
+    "metaTitle": "Často kladené otázky - Hirovo",
+    "metaDescription": "Často kladené otázky a odpovede o Hirove. Informácie o hľadaní zamestnania, žiadosti a používaní aplikácie.",
+    "hero": {
+      "title": "Často kladené otázky",
+      "subtitle": "Všetko, čo vás zaujíma"
+    },
+    "categories": {
+      "general": "generál",
+      "account": "Bill",
+      "application": "Aplikácia",
+      "employers": "zamestnávatelia",
+      "technical": "Technická"
+    },
+    "general": {
+      "q1": {
+        "question": "Čo je Hirovo?",
+        "answer": "Hirovo je mobilná platforma zamestnania, ktorá spája uchádzačov o zamestnanie a zamestnávateľov. Môžete vyhľadávať medzi tisíckami pracovných ponúk, prihlásiť sa jediným kliknutím a sledovať kariérne príležitosti."
+      },
+      "q2": {
+        "question": "Je Hirovo voľné?",
+        "answer": "Áno, Hirovo je pre uchádzačov o prácu úplne zadarmo. Všetky naše funkcie môžete využívať zadarmo."
+      },
+      "q3": {
+        "question": "Kde si môžem stiahnuť Hirovo?",
+        "answer": "Hirovo si môžete stiahnuť zadarmo z Google Play Store. Verzia pre iOS bude vydaná čoskoro."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Ako si môžem vytvoriť účet?",
+        "answer": "Po stiahnutí aplikácie sa môžete zaregistrovať v priebehu niekoľkých sekúnd pomocou svojej e-mailovej adresy alebo telefónneho čísla."
+      },
+      "q2": {
+        "question": "Zabudol som heslo, čo mám robiť?",
+        "answer": "Svoje heslo môžete obnoviť prostredníctvom e-mailu alebo SMS kliknutím na možnosť „Zabudli ste moje heslo“ na prihlasovacej obrazovke."
+      },
+      "q3": {
+        "question": "Ako môžem odstrániť svoj účet?",
+        "answer": "Môžete požiadať o vymazanie účtu z nastavení v aplikácii alebo zo stránky „Vymazanie účtu“ na našej webovej stránke."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Ako môžem sledovať svoju žiadosť?",
+        "answer": "Všetky svoje prihlášky a ich stav môžete vidieť v aplikácii v časti „Moje prihlášky“."
+      },
+      "q2": {
+        "question": "Môžem stiahnuť svoju žiadosť?",
+        "answer": "Áno, svoje žiadosti, ktoré ešte neboli skontrolované, môžete stiahnuť."
+      },
+      "q3": {
+        "question": "Prečo bola moja žiadosť zamietnutá?",
+        "answer": "Zamestnávatelia robia hodnotenia podľa vlastných kritérií. Svoje šance môžete zvýšiť aktualizáciou svojho profilu a prihlásením sa na ďalšie príspevky."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Ako si založiť firemný účet?",
+        "answer": "Svoju spoločnosť môžete zaregistrovať prostredníctvom aplikácie alebo na našej webovej stránke. Proces overenia je dokončený do 24-48 hodín."
+      },
+      "q2": {
+        "question": "Platí sa za zverejnenie inzerátu?",
+        "answer": "Náš základný balík je zadarmo. Ďalšie oznámenia a pokročilé funkcie nájdete v našich profesionálnych balíkoch."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "Aplikácia sa neotvorí, čo mám robiť?",
+        "answer": "Najprv aktualizujte aplikáciu. Ak problém pretrváva, odstráňte aplikáciu a znova ju nainštalujte. Ak problémy pretrvávajú, kontaktujte náš tím podpory."
+      },
+      "q2": {
+        "question": "Neprichádzajú upozornenia?",
+        "answer": "Uistite sa, že ste v nastaveniach telefónu povolili upozornenia pre Hirovo. Skontrolujte tiež predvoľby upozornení v nastaveniach aplikácie."
+      }
+    },
+    "contact": {
+      "title": "Máte nejaké otázky?",
+      "subtitle": "Kontaktujte nás pre otázky, na ktoré nenájdete odpovede."
+    }
+  },
+  "contact": {
+    "metaTitle": "Kontakt – Hirovo",
+    "metaDescription": "Kontaktujte Hirovo. Kontaktujte nás pre vaše otázky, návrhy a spätnú väzbu.",
+    "hero": {
+      "title": "Komunikácia",
+      "subtitle": "Radi vám pomôžeme"
+    },
+    "info": {
+      "title": "Kontaktné informácie",
+      "email": {
+        "title": "Email",
+        "value": "ahoj@hirovo.com",
+        "description": "24/7 e-mailová podpora"
+      },
+      "phone": {
+        "title": "Telefón",
+        "value": "+90 (212) 000 00 00",
+        "description": "pondelok - piatok, 09:00 - 18:00"
+      },
+      "address": {
+        "title": "Adresa",
+        "value": "Istanbul, Turecko",
+        "description": "Naša centrála"
+      }
+    },
+    "form": {
+      "title": "Napíšte nám",
+      "name": "Vaše meno a priezvisko",
+      "email": "Vaša e-mailová adresa",
+      "subject": "Predmet",
+      "message": "Vaša správa",
+      "submit": "Odoslať",
+      "subjects": {
+        "general": "Všeobecná otázka",
+        "support": "Technická podpora",
+        "partnership": "partnerstvo",
+        "feedback": "Spätná väzba",
+        "other": "Iné"
+      },
+      "success": "Vaša správa bola úspešne odoslaná. Čo najskôr sa vám ozveme.",
+      "error": "Vyskytla sa chyba. Skúste to znova neskôr."
+    },
+    "social": {
+      "title": "sociálne médiá",
+      "subtitle": "Sledujte nás na sociálnych sieťach"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Kariérne poradenstvo - Hirovo",
+    "metaDescription": "Odborné poradenstvo pri hľadaní zamestnania, príprave životopisu, technike pohovoru a kariérnom raste.",
+    "hero": {
+      "title": "Kariérne poradenstvo",
+      "subtitle": "Posuňte svoju kariéru na vyššiu úroveň"
+    },
+    "categories": {
+      "resume": "Príprava životopisu",
+      "interview": "Techniky rozhovoru",
+      "career": "Kariérny rozvoj",
+      "workplace": "Obchodný život"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Ako pripraviť efektívny životopis?",
+        "summary": "Sprievodca prípravou profesionálneho životopisu, ktorý priťahuje pozornosť zamestnávateľov.",
+        "content": "Váš životopis je prvým dojmom vašej žiadosti o zamestnanie. Dobre pripravený životopis vás odlišuje od ostatných kandidátov a zvyšuje vaše šance na pozvanie na pohovor. Tu sú tipy na efektívny životopis:\n\n1. Použite jasný a stručný formát\n2. Zvýraznite svoje relevantné skúsenosti\n3. Podporte svoje konkrétne úspechy číslami\n4. Používajte kľúčové slová správne\n5. Starostlivo skontrolujte chyby"
+      },
+      "resume2": {
+        "title": "Najčastejšie chyby v životopise",
+        "summary": "Chyby v životopise, ktoré by mohli spôsobiť zamietnutie vašich žiadostí a ako sa im vyhnúť.",
+        "content": "Mnoho kandidátov robí vo svojom životopise kritické chyby bez toho, aby si to uvedomovali. Rozpoznanie a náprava týchto chýb urýchli váš proces hľadania práce."
+      },
+      "interview1": {
+        "title": "Tajomstvo úspechu v rozhovoroch",
+        "summary": "Techniky, ktoré potrebujete vedieť, aby ste boli úspešní na pracovných pohovoroch.",
+        "content": "Pohovor je najdôležitejšou fázou procesu uchádzania sa o zamestnanie. Dobre pripravení kandidáti dokážu zvládnuť stres a prejaviť sa čo najlepšie."
+      },
+      "interview2": {
+        "title": "Najčastejšie otázky na pohovore",
+        "summary": "Otázky, s ktorými sa stretnete na pracovných pohovoroch a efektívne stratégie odpovedí.",
+        "content": "Na pohovoroch sa takmer vždy kladú určité otázky. Príprava na tieto otázky vopred zvyšuje vaše sebavedomie."
+      },
+      "career1": {
+        "title": "Pre tých, ktorí chcú zmeniť kariéru",
+        "summary": "Sprievodca krok za krokom pre tých, ktorí chcú zmeniť sektory alebo pozície.",
+        "content": "Kariérna zmena sa môže zdať strašidelná, ale pri správnom plánovaní ju možno úspešne uskutočniť."
+      },
+      "career2": {
+        "title": "Profesionálne vytváranie sietí",
+        "summary": "Spôsoby, ako budovať vzťahy, ktoré posunú vašu kariéru dopredu.",
+        "content": "Silná profesionálna sieť zvyšuje kariérne príležitosti a informuje vás o vývoji v odvetví."
+      },
+      "workplace1": {
+        "title": "Čo treba zvážiť pri nástupe do novej práce",
+        "summary": "Praktické rady, ako byť úspešný od prvého dňa v práci.",
+        "content": "Začať niečo nové môže byť vzrušujúce, ale stresujúce. So správnym prístupom sa dokážete rýchlo adaptovať a mať úspešný štart."
+      },
+      "workplace2": {
+        "title": "Ako vytvoriť rovnováhu medzi pracovným a súkromným životom?",
+        "summary": "Spôsoby, ako zosúladiť svoju kariéru a súkromný život.",
+        "content": "Zdravá rovnováha medzi pracovným a súkromným životom je rozhodujúca pre váš kariérny úspech aj osobné šťastie."
+      }
+    },
+    "newsletter": {
+      "title": "Získajte kariérne tipy",
+      "subtitle": "Prihláste sa na odber nášho newslettera a získajte najnovšie kariérne rady a pracovné príležitosti.",
+      "placeholder": "Vaša e-mailová adresa",
+      "button": "Prihlásiť sa na odber"
+    }
+  },
+  "privacy": {
+    "title": "Zásady ochrany osobných údajov",
+    "metaTitle": "Zásady ochrany osobných údajov – Hirovo",
+    "metaDescription": "Zásady ochrany osobných údajov Hirovo – Informácie o tom, ako sa zhromažďujú, používajú a chránia vaše osobné údaje.",
+    "lastUpdate": "Posledná aktualizácia: január 2025",
+    "intro": "V Hirovo kladieme veľký dôraz na súkromie našich používateľov. Tieto zásady ochrany osobných údajov vysvetľujú, ako sa spracúvajú osobné údaje, ktoré zhromažďujeme prostredníctvom mobilnej aplikácie Hirovo (ďalej len „aplikácia“).",
+    "section1": {
+      "title": "1. Informácie, ktoré zhromažďujeme",
+      "intro": "Keď používate našu aplikáciu, môžeme zhromažďovať nasledujúce informácie:",
+      "items": {
+        "account": "Informácie o účte: Meno, priezvisko, e-mailová adresa, telefónne číslo",
+        "profile": "Profilové informácie: CV, pracovné skúsenosti, informácie o vzdelaní, zručnosti",
+        "location": "Informácie o polohe: Údaje o polohe na zobrazenie pracovných ponúk vo vašej blízkosti (s vaším povolením)",
+        "device": "Informácie o zariadení: Prehliadka zariadenia, operačný systém, verzia aplikácie",
+        "usage": "Údaje o používaní: Interakcie v aplikácii, zobrazené reklamy, aplikácie"
+      }
+    },
+    "section2": {
+      "title": "2. Účely použitia informácií",
+      "intro": "Informácie, ktoré zhromažďujeme, používame na nasledujúce účely:",
+      "items": {
+        "account": "Vytvorenie a správa účtu",
+        "jobs": "Zobrazujú sa pracovné ponuky vhodné pre vás",
+        "applications": "Posielanie žiadostí o zamestnanie zamestnávateľom",
+        "improve": "Zlepšenie zážitku z aplikácie",
+        "support": "Poskytovanie technickej podpory",
+        "legal": "Aby sme splnili naše zákonné povinnosti"
+      }
+    },
+    "section3": {
+      "title": "3. Zdieľanie informácií",
+      "intro": "Vaše osobné údaje nezdieľame s tretími stranami okrem nasledujúcich prípadov:",
+      "items": {
+        "employers": "Zamestnávatelia: Informácie o vašom profile zdieľame s vlastníkmi pracovných ponúk, o ktoré sa uchádzate.",
+        "providers": "Poskytovatelia služieb: Dôveryhodní partneri, ktorí poskytujú technické služby potrebné na fungovanie našej aplikácie.",
+        "legal": "Právne povinnosti: V súlade so zákonnými procesmi alebo žiadosťou príslušných orgánov"
+      }
+    },
+    "section4": {
+      "title": "4. Bezpečnosť údajov",
+      "intro": "Zavádzame štandardné bezpečnostné opatrenia na ochranu vašich osobných údajov:",
+      "items": {
+        "ssl": "SSL/TLS šifrovanie",
+        "datacenter": "Zabezpečené dátové centrá",
+        "audits": "Pravidelné bezpečnostné audity",
+        "access": "Kontrola prístupu a autorizácia"
+      }
+    },
+    "section5": {
+      "title": "5. Vaše práva",
+      "intro": "V rámci zákona o ochrane osobných údajov č. 6698 (KVKK) máte nasledujúce práva:",
+      "items": {
+        "know": "Zistite, či sa vaše osobné údaje spracúvajú alebo nie",
+        "info": "Vyžiadanie informácií o vašich osobných údajoch, ak boli spracované",
+        "purpose": "Zistite účel spracovania vašich osobných údajov a či sa používajú na zamýšľaný účel",
+        "thirdParty": "Poznať tretie strany, ktorým sa osobné údaje prenášajú doma alebo v zahraničí",
+        "correct": "Žiadosť o opravu osobných údajov, ak sú neúplné alebo nesprávne spracované",
+        "delete": "Požiadať o vymazanie alebo zničenie vašich osobných údajov"
+      }
+    },
+    "section6": {
+      "title": "6. Súbory cookie a technológie sledovania",
+      "content": "Naša aplikácia môže používať súbory cookie a podobné technológie na zlepšenie vášho zážitku. Vďaka týmto technológiám si pamätáme vaše preferencie a analyzujeme výkon aplikácie."
+    },
+    "section7": {
+      "title": "7. Súkromie detí",
+      "content": "Naša aplikácia nie je zameraná na osoby mladšie ako 18 rokov. Vedome nezhromažďujeme osobné údaje od osôb mladších ako 18 rokov."
+    },
+    "section8": {
+      "title": "8. Zmeny zásad",
+      "content": "Tieto Zásady ochrany osobných údajov môžeme z času na čas aktualizovať. V prípade významných zmien vás budeme informovať prostredníctvom upozornení v aplikácii."
+    },
+    "section9": {
+      "title": "9. Komunikácia",
+      "intro": "V prípade otázok týkajúcich sa ochrany osobných údajov nás môžete kontaktovať:"
+    }
+  },
+  "terms": {
+    "title": "Podmienky používania",
+    "metaTitle": "Podmienky používania - Hirovo",
+    "metaDescription": "Podmienky používania Hirovo - Pravidlá a podmienky, ktoré musíte dodržiavať pri používaní našej aplikácie.",
+    "lastUpdate": "Posledná aktualizácia: január 2025",
+    "intro": "Používaním mobilnej aplikácie Hirovo (ďalej len „aplikácia“) sa považuje za súhlas s nasledujúcimi podmienkami používania. Pozorne si prečítajte tieto podmienky.",
+    "section1": {
+      "title": "1. Popis Služby",
+      "intro": "Hirovo je platforma na hľadanie zamestnania, ktorej cieľom je spojiť uchádzačov o zamestnanie so zamestnávateľmi. Prostredníctvom našej aplikácie:",
+      "items": {
+        "view": "Môžete si prezerať pracovné ponuky a prihlásiť sa",
+        "profile": "Môžete si vytvoriť svoj profesionálny profil",
+        "offers": "Môžete vyhodnocovať ponuky od zamestnávateľov",
+        "track": "Môžete sledovať kariérne príležitosti"
+      }
+    },
+    "section2": {
+      "title": "2. Vytvorenie účtu a zabezpečenie",
+      "intro": "Ak chcete používať našu aplikáciu, musíte si vytvoriť účet. Pri vytváraní účtu:",
+      "items": {
+        "accurate": "Súhlasíte s poskytnutím presných a aktuálnych informácií",
+        "responsible": "Zodpovedáte za dôvernosť informácií o svojom účte.",
+        "activity": "Ste zodpovedný za všetku aktivitu, ktorá sa vyskytne na vašom účte.",
+        "notify": "V prípade neoprávneného prístupu nás musíte okamžite informovať"
+      }
+    },
+    "section3": {
+      "title": "3. Povinnosti používateľa",
+      "intro": "Používaním našej aplikácie súhlasíte s dodržiavaním nasledujúcich pravidiel:",
+      "items": {
+        "legal": "Konanie v súlade so zákonmi a predpismi",
+        "honest": "Zdieľanie presných a nezavádzajúcich informácií",
+        "respect": "Rešpektovanie práv ostatných používateľov",
+        "noSpam": "Nezdieľa spam, malvér alebo škodlivý obsah",
+        "security": "Vyhýbanie sa činnostiam, ktoré môžu ohroziť bezpečnosť aplikácie",
+        "identity": "Nevydávať sa za iných"
+      }
+    },
+    "section4": {
+      "title": "4. Zakázané správanie",
+      "intro": "Nasledujúce správanie je prísne zakázané:",
+      "items": {
+        "fake": "Vytváranie falošných pracovných ponúk alebo profilov",
+        "harass": "Obťažovanie alebo obťažovanie iných používateľov",
+        "illegal": "Používanie aplikácie na nelegálne účely",
+        "damage": "Poškodenie technickej infraštruktúry aplikácie",
+        "bots": "Používanie automatizovaných systémov alebo robotov",
+        "ip": "Porušovanie práv duševného vlastníctva"
+      }
+    },
+    "section5": {
+      "title": "5. Obsah a duševné vlastníctvo",
+      "intro": "Všetky práva v aplikácii a jej obsahu patria spoločnosti Hirovo:",
+      "items": {
+        "ownership": "Logo, dizajn a rozhranie sú majetkom spoločnosti Hirovo",
+        "userContent": "Za obsah nahraný používateľom je zodpovedný používateľ.",
+        "license": "Udeľujete nám potrebné licencie na informácie, ktoré zdieľate vo svojom profile.",
+        "thirdParty": "Váš obsah nesmie porušovať práva tretích strán"
+      }
+    },
+    "section6": {
+      "title": "6. Obmedzenie zodpovednosti",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Nezaručuje presnosť pracovných ponúk",
+        "relationship": "Nie je účastníkom vzťahu zamestnávateľ – zamestnanec",
+        "disputes": "Nezodpovedá za spory medzi užívateľmi",
+        "uptime": "Nezaručuje, že služba bude fungovať bez prerušenia.",
+        "damages": "Nezodpovedá za žiadne nepriame alebo následné škody."
+      }
+    },
+    "section7": {
+      "title": "7. Pozastavenie a zrušenie účtu",
+      "intro": "Váš účet môžeme pozastaviť alebo zrušiť v nasledujúcich situáciách:",
+      "items": {
+        "violation": "Porušenie podmienok používania",
+        "illegal": "Nelegálne aktivity",
+        "harm": "Správanie, ktoré poškodzuje ostatných používateľov",
+        "false": "Poskytovanie nepravdivých alebo zavádzajúcich informácií"
+      }
+    },
+    "section8": {
+      "title": "8. Zmeny",
+      "content": "Vyhradzujeme si právo zmeniť tieto podmienky používania bez predchádzajúceho upozornenia. Dôležité zmeny budú oznámené prostredníctvom upozornení v aplikácii. Pokračovanie v používaní aplikácie po zmenách znamená, že súhlasíte s novými podmienkami."
+    },
+    "section9": {
+      "title": "9. Rozhodné právo",
+      "content": "Tieto podmienky používania podliehajú zákonom Tureckej republiky. V prípade sporu majú jurisdikciu istanbulské súdy a exekučné úrady."
+    },
+    "section10": {
+      "title": "10. Komunikácia",
+      "intro": "Pre vaše otázky o podmienkach používania:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Žiadosť o vymazanie účtu",
+    "metaTitle": "Vymazanie účtu - Hirovo",
+    "metaDescription": "Žiadosť o odstránenie účtu Hirovo.",
+    "description": "Ak chcete svoj účet odstrániť, vyplňte formulár nižšie. Po posúdení vašej žiadosti bude váš účet a všetky vaše údaje natrvalo odstránené.",
+    "warning": "Po odstránení vášho účtu budú všetky vaše údaje (profilové informácie, aplikácie, správy) natrvalo vymazané a nebude ich možné obnoviť.",
+    "form": {
+      "emailLabel": "E-mailová adresa",
+      "emailPlaceholder": "example@email.com",
+      "phoneLabel": "Telefónne číslo",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Dôvod vymazania",
+      "reasonPlaceholder": "Prečo chcete odstrániť svoj účet?",
+      "submitButton": "Odoslať žiadosť o vymazanie účtu"
+    },
+    "errors": {
+      "emailOrPhone": "Zadajte svoj e-mail alebo telefónne číslo.",
+      "generic": "Vyskytla sa chyba. Skúste to znova neskôr.",
+      "connection": "Chyba pripojenia. Skontrolujte svoje internetové pripojenie."
+    },
+    "success": {
+      "title": "Vaša žiadosť bola prijatá",
+      "message": "Vaša žiadosť o odstránenie účtu bola úspešne prijatá. Vaša žiadosť bude čo najskôr posúdená a budete informovaní prostredníctvom e-mailu alebo SMS.",
+      "processingTime": "Doba spracovania: 1-3 pracovné dni"
+    },
+    "contactNote": "Môžete nás kontaktovať na adrese."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Vyberte Jazyk",
+    "popularLanguages": "Populárne jazyky"
+  }
+}

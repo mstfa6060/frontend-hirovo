@@ -1,0 +1,133 @@
+{
+  "sectors": {
+    "common": {
+      "jobsIn": "Sektorunde Is Ilanlari",
+      "findJobs": "Is Bul",
+      "topPositions": "One Cikan Pozisyonlar",
+      "requiredSkills": "Aranan Beceriler",
+      "salaryRange": "Maas Araligi",
+      "careerPath": "Kariyer Yolu",
+      "industryTrends": "Sektor Trendleri"
+    },
+    "teknoloji": {
+      "name": "Teknoloji",
+      "slug": "teknoloji",
+      "metaTitle": "Teknoloji Is Ilanlari - Hirovo",
+      "metaDescription": "Yazilim, IT ve teknoloji sektorunde binlerce is ilani. Yazilim gelistirici, veri analisti, siber guvenlik uzmani pozisyonlarini kesfedin.",
+      "heroTitle": "Teknoloji Sektorunde Is Ilanlari",
+      "heroSubtitle": "Dijital dunyanin firsatlarini yakalayin",
+      "description": "Teknoloji sektoru, Turkiye'de ve dunyada en hizli buyuyen ve en yuksek maaslari sunan sektorlerden biridir. Dijitallesmenin hiz kazanmasiyla birlikte yazilim gelistiriciler, veri bilimciler, siber guvenlik uzmanlari ve yapay zeka muhendisleri buyuk talep gormektedir. Turkiye'de teknoloji sektoru ozellikle Istanbul, Ankara ve Izmir'de yogunlasmistir. Buyuk teknoloji sirketleri, startup'lar ve dijital ajanslar surekli olarak nitelikli personel aramaktadir. Uzaktan calisma imkanlari bu sektorde oldukca yaygindir, bu da cografi esneklik saglamaktadir. Teknoloji alaninda kariyer yapmak isteyenler icin surekli ogrenme ve kendini gelistirme onemlidir. Yeni programlama dilleri, framework'ler ve teknolojiler hizla ortaya cikmaktadir. Sektorun sunduğu yuksek maaslar, esnek calisma kosullari ve global kariyer firsatlari, teknolojiyi cazip bir kariyer alani haline getirmektedir. Hirovo uzerinden binlerce teknoloji is ilanina ulasabilirsiniz.",
+      "positions": ["Yazilim Gelistirici", "Frontend Developer", "Backend Developer", "Full Stack Developer", "Mobil Uygulama Gelistirici", "DevOps Muhendisi", "Veri Bilimci", "Veri Analisti", "Siber Guvenlik Uzmani", "UI/UX Tasarimcisi", "Proje Yoneticisi", "Sistem Yoneticisi"],
+      "skills": ["JavaScript", "Python", "Java", "React", "Node.js", "SQL", "AWS", "Docker", "Git", "Agile/Scrum"],
+      "trends": "Yapay zeka, makine ogrenimi, bulut bilisim ve siber guvenlik en hizli buyuyen alanlardir. Remote calisma kalici hale gelmistir."
+    },
+    "saglik": {
+      "name": "Saglik",
+      "slug": "saglik",
+      "metaTitle": "Saglik Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Hemsire, doktor, saglik teknisyeni ve saglik yonetimi pozisyonlari. Saglik sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Saglik Sektorunde Is Ilanlari",
+      "heroSubtitle": "Insanlara yardim ederek kariyer yapin",
+      "description": "Saglik sektoru, toplumun en temel ihtiyaclarindan birini karsilayan ve surekli buyuyen bir alandir. Turkiye'de hem kamu hem de ozel saglik kuruluslari nitelikli saglik personeli aramaktadir. Ozellikle hemsireler, saglik teknisyenleri ve uzman doktorlar icin buyuk bir talep vardir. Saglik turizmi de Turkiye'de hizla gelisen bir alan olup, bu alanda da istihdam firsatlari artmaktadir. Istanbul, Ankara ve Antalya saglik turizminin merkezleri haline gelmistir. Pandemi sonrasi saglik sektorune olan ilgi ve yatirimlar artmistir. Dijital saglik, telemedicine ve saglik teknolojileri yeni kariyer alanlari olusturmaktadir. Saglik sektorunde calismanin en buyuk avantajlarindan biri is guvenligidir. Saglik hizmetlerine olan talep ekonomik dalgalanmalardan bagimsiz olarak devam etmektedir. Ayrica insanlara yardim etmenin verdigi tatmin, bu sektoru anlamli kilan en onemli faktorlerden biridir.",
+      "positions": ["Hemsire", "Doktor", "Saglik Teknisyeni", "Eczaci", "Fizyoterapist", "Diyetisyen", "Psikolog", "Laboratuvar Teknisyeni", "Radyoloji Teknisyeni", "Saglik Yonetisi", "Tibbi Sekreter", "Hasta Bakim Elemani"],
+      "skills": ["Tibbi Bilgi", "Hasta Iliskisi", "Acil Mudahale", "Tibbi Cihaz Kullanimi", "Iletisim", "Stres Yonetimi", "Takim Calismasi", "Hijyen Bilinci"],
+      "trends": "Dijital saglik, telemedicine, yasli bakimi ve saglik turizmi en hizli buyuyen alanlardir."
+    },
+    "finans": {
+      "name": "Finans",
+      "slug": "finans",
+      "metaTitle": "Finans Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Bankacilik, sigorta, yatirim ve finans alanlarinda is ilanlari. Finans sektorunde kariyerinizi insa edin.",
+      "heroTitle": "Finans Sektorunde Is Ilanlari",
+      "heroSubtitle": "Finansin kalbinde kariyer firsatlari",
+      "description": "Finans sektoru, ekonominin can damarini olusturan ve yuksek maaslar sunan prestijli bir alandir. Bankacilik, sigorta, yatirim yonetimi ve fintech sirketleri nitelikli profesyoneller aramaktadir. Istanbul, Turkiye'nin finans merkezi olup, buyuk bankalarin ve finansal kuruluslarin genel merkezleri burada bulunmaktadir. Levent ve Maslak bolgeleri finans sektorunun kalbidir. Finans sektorunde kariyer yapmak icin analitik dusunme, sayisal yetenek ve ekonomi bilgisi onemlidir. CFA, CPA gibi uluslararasi sertifikalar kariyer gelisiminde buyuk avantaj saglamaktadir. Fintech devrimi geleneksel finansi donusturmektedir. Dijital bankacilik, kripto paralar ve blockchain teknolojisi yeni kariyer alanlari yaratmaktadir. Risk yonetimi, uyum ve regülasyon uzmanlari icin talep artmaktadir. Finans sektoru rekabetci bir ortam sunsa da, basarili profesyoneller icin yuksek kazanc ve hizli kariyer ilerleme firsatlari mevcuttur.",
+      "positions": ["Banka Memuru", "Kredi Uzmani", "Yatirim Danismani", "Finansal Analist", "Risk Yonetisi", "Sigorta Uzmani", "Ic Denetci", "Hazine Uzmani", "Portfoy Yoneticisi", "Uyum Uzmani", "Finansal Planlama Uzmani"],
+      "skills": ["Finansal Analiz", "Excel", "Muhasebe", "Risk Degerlendirme", "Regülasyonlar", "Bloomberg Terminal", "SQL", "Finansal Modelleme"],
+      "trends": "Fintech, dijital bankacilik, kripto varliklar ve surdurulebilir finans en hizli buyuyen alanlardir."
+    },
+    "egitim": {
+      "name": "Egitim",
+      "slug": "egitim",
+      "metaTitle": "Egitim Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Ogretmen, akademisyen, egitim danismani pozisyonlari. Egitim sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Egitim Sektorunde Is Ilanlari",
+      "heroSubtitle": "Gelecegi sekillendiren kariyerler",
+      "description": "Egitim sektoru, toplumun en onemli yapilarindan birini olusturan ve anlamli bir kariyer sunan alandir. Turkiye'de devlet okullari, ozel okullar, universiteler, dil okullari ve online egitim platformlari nitelikli egitimciler aramaktadir. Ogretmenlik, sabir, iletisim becerileri ve alan uzmanligi gerektiren ozel bir meslektir. Ingilizce ogretmenleri, matematik ve fen bilimleri ogretmenleri ozellikle yuksek talep gormektedir. Ozel dershaneler ve egitim kurumlari rekabetci maaslar sunmaktadir. Dijital donusum egitim sektorunu de etkilemistir. Online egitim platformlari, e-ogrenme icerigi gelistiricileri ve egitim teknolojisi uzmanlari icin yeni firsatlar ortaya cikmistir. Pandemi sonrasi hibrit egitim modelleri yayginlasmistir. Universite akademisyenligi, arastirma firsatlari ve entelektuel tatmin arayanlar icin ideal bir kariyer yoludur. Egitim danismanligi ve egitim yonetimi de buyuyen alanlardir.",
+      "positions": ["Ogretmen", "Akademisyen", "Egitim Danismani", "Okul Muduru", "Rehber Ogretmen", "Ozel Egitim Uzmani", "Dil Ogretmeni", "Online Egitim Uzmani", "Egitim Koordinatoru", "Arastirma Gorevlisi", "Kurs Egitmeni"],
+      "skills": ["Pedagoji", "Iletisim", "Sabir", "Alan Uzmanligi", "Teknoloji Kullanimi", "Sinif Yonetimi", "Degerlendirme", "Adaptasyon"],
+      "trends": "Online egitim, egitim teknolojisi, STEM egitimi ve yasam boyu ogrenme en hizli buyuyen alanlardir."
+    },
+    "perakende": {
+      "name": "Perakende",
+      "slug": "perakende",
+      "metaTitle": "Perakende Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Magazacilik, satis, e-ticaret pozisyonlari. Perakende sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Perakende Sektorunde Is Ilanlari",
+      "heroSubtitle": "Satisin on saflarinda kariyer",
+      "description": "Perakende sektoru, Turkiye'nin en buyuk istihdam saglayan sektorlerinden biridir. Marketler, magazalar, alisveris merkezleri ve e-ticaret platformlari milyonlarca kisiye is imkani sunmaktadir. Satis danismanligi, magaza mudürlugu ve bolge yoneticiligi gibi pozisyonlar kariyer basamaklari olusturmaktadir. E-ticaretin hizla buyumesiyle birlikte online satis, dijital pazarlama ve lojistik alanlarinda yeni firsatlar ortaya cikmistir. Turkiye'nin buyuk e-ticaret platformlari ve perakende zincirleri surekli personel aramaktadir. Perakende sektorunde basari icin musteri odaklilik, iletisim becerileri ve satis yetenegi onemlidir. Esnek calisma saatleri ve performansa dayali prim sistemleri sektorun karakteristik ozelliklerindendir. Yonetici pozisyonlarina terfi firsatlari mevcuttur. Lüks perakende, organik urunler ve surdurulebilir moda gibi niş alanlar da gelismektedir.",
+      "positions": ["Satis Danismani", "Magaza Muduru", "Bolge Yoneticisi", "Kasiyer", "Depo Gorevlisi", "Visual Merchandiser", "E-ticaret Uzmani", "Musteri Hizmetleri", "Satin Alma Uzmani", "Stok Kontrol Uzmani"],
+      "skills": ["Satis Teknikleri", "Musteri Iliskileri", "Urun Bilgisi", "Ikna Kabiliyeti", "Takım Calismasi", "Hedef Odaklilik", "Problem Cozme", "Iletisim"],
+      "trends": "E-ticaret, omnichannel perakende, surdurulebilir urunler ve kisisellestirme en hizli buyuyen alanlardir."
+    },
+    "uretim": {
+      "name": "Uretim ve Imalat",
+      "slug": "uretim",
+      "metaTitle": "Uretim Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Fabrika, uretim, kalite kontrol ve muhendislik pozisyonlari. Uretim sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Uretim Sektorunde Is Ilanlari",
+      "heroSubtitle": "Sanayinin kalbinde kariyer",
+      "description": "Uretim ve imalat sektoru, Turkiye ekonomisinin bel kemigini olusturmaktadir. Otomotiv, tekstil, gida, kimya ve makine sanayi basta olmak uzere pek cok alanda uretim yapilmaktadir. Bursa, Kocaeli, Gaziantep ve Kayseri gibi sanayi sehirleri, uretim sektorunun merkezleridir. Uretim sektorunde muhendisler, teknisyenler, operatorler ve kalite kontrol uzmanlari icin genis istihdam firsatlari bulunmaktadir. Endustri 4.0 ve otomasyon, sektoru donusturmektedir. Robotik, yapay zeka ve nesnelerin interneti (IoT) bilgisi onem kazanmaktadir. Is guvenligi ve kalite standartlari uretim sektorunde kritik oneme sahiptir. ISO sertifikalari ve yalin uretim metodolojileri yaygin olarak kullanilmaktadir. Uretim planlama, tedarik zinciri yonetimi ve surekli iyilestirme (Kaizen) becerileri aranan yetkinliklerdir.",
+      "positions": ["Uretim Muduru", "Kalite Kontrol Uzmani", "Makine Operatoru", "Bakim Teknisyeni", "Uretim Planlama Uzmani", "Endustri Muhendisi", "Kalip Uzmani", "Is Guvenligi Uzmani", "Tedarik Zinciri Uzmani", "Formen"],
+      "skills": ["Teknik Bilgi", "Kalite Standartlari", "Is Guvenligi", "Problem Cozme", "Yalin Uretim", "ERP Sistemleri", "Otomasyon", "Takım Yonetimi"],
+      "trends": "Endustri 4.0, otomasyon, akilli fabrikalar ve surdurulebilir uretim en hizli buyuyen alanlardir."
+    },
+    "turizm": {
+      "name": "Turizm ve Otelcilik",
+      "slug": "turizm",
+      "metaTitle": "Turizm Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Otel, restoran, seyahat acentesi ve etkinlik yonetimi pozisyonlari. Turizm sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Turizm Sektorunde Is Ilanlari",
+      "heroSubtitle": "Misafirperverlikte kariyer",
+      "description": "Turkiye, dunyanin en cok turist agirlayan ulkelerinden biri olup, turizm sektoru ulke ekonomisinde onemli bir paya sahiptir. Antalya, Istanbul, Mugla ve Izmir gibi turistik sehirlerde otelcilik, restoran ve seyahat sektorlerinde genis istihdam firsatlari bulunmaktadir. Otelcilik sektoru, resepsiyon gorevlisinden genel mudure kadar farkli seviyelerde kariyer basamaklari sunmaktadir. Yiyecek-icecek departmani, kat hizmetleri, satis-pazarlama ve insan kaynaklari gibi birimler istihdama katki saglamaktadir. Uluslararasi otel zincirleri global kariyer firsatlari sunmaktadir. Yabanci dil bilgisi, ozellikle Ingilizce, Almanca ve Rusca, turizm sektorunde buyuk avantaj saglamaktadir. Saglik turizmi, gastronomi turizmi ve kulturel turizm gibi niche alanlar da hizla buyumektedir. Sezonluk istihdam yaygin olmakla birlikte, yil boyu calisan pozisyonlar da mevcuttur.",
+      "positions": ["Otel Resepsiyonisti", "Otel Muduru", "Sef", "Garson", "Tur Rehberi", "Seyahat Danismani", "Etkinlik Yoneticisi", "Housekeeper", "Concierge", "Rezervasyon Uzmani", "F&B Muduru"],
+      "skills": ["Misafir Iliskileri", "Yabanci Dil", "Iletisim", "Problem Cozme", "Esneklik", "Kulturel Farkindalik", "Satis Becerileri", "Takim Calismasi"],
+      "trends": "Surdurulebilir turizm, deneyim odakli seyahat, dijital rezervasyon ve saglik turizmi en hizli buyuyen alanlardir."
+    },
+    "insaat": {
+      "name": "Insaat",
+      "slug": "insaat",
+      "metaTitle": "Insaat Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Mimar, insaat muhendisi, santiye sefi ve tekniker pozisyonlari. Insaat sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Insaat Sektorunde Is Ilanlari",
+      "heroSubtitle": "Gelecegi insa edin",
+      "description": "Insaat sektoru, Turkiye'nin en buyuk ve en dinamik sektorlerinden biridir. Konut, ticari binalar, altyapi projeleri ve mega projeler sektoru canli tutmaktadir. Istanbul, Ankara ve diger buyuk sehirlerde kentsel donusum projeleri devam etmektedir. Insaat sektorunde mimarlar, insaat muhendisleri, santiye sefleri, teknisyenler ve usta isci gruplari icin genis istihdam firsatlari bulunmaktadir. Proje yonetimi, metraj ve kesif, ihaleler ve sozlesmeler gibi alanlarda uzmanlar aranmaktadir. Yesil bina, surdurulebilir insaat ve BIM (Building Information Modeling) teknolojileri sektoru donusturmektedir. Depreme dayanikli yapi tasarimi Turkiye'de ozellikle onem kazanmaktadir. Is guvenligi ve kalite standartlari sektorde kritik oneme sahiptir. Buyuk insaat firmalari yurt disi projelerde de faaliyet gostermektedir.",
+      "positions": ["Insaat Muhendisi", "Mimar", "Santiye Sefi", "Proje Muduru", "Tekniker", "Metrajci", "Is Guvenligi Uzmani", "Kalite Kontrol Muhendisi", "Harita Muhendisi", "Saha Muhendisi"],
+      "skills": ["Teknik Cizim", "AutoCAD", "Proje Yonetimi", "Is Guvenligi", "Metraj-Kesif", "BIM", "MS Project", "Problem Cozme"],
+      "trends": "Yesil binalar, akilli sehirler, prefabrik yapi ve BIM teknolojisi en hizli buyuyen alanlardir."
+    },
+    "lojistik": {
+      "name": "Lojistik ve Tasimacılik",
+      "slug": "lojistik",
+      "metaTitle": "Lojistik Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Depo yonetimi, operasyon, gumrukleme ve filo yonetimi pozisyonlari. Lojistik sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Lojistik Sektorunde Is Ilanlari",
+      "heroSubtitle": "Tedarik zincirinin kalbinde kariyer",
+      "description": "Lojistik ve tasimacılık sektoru, e-ticaretin buyumesi ve kuresellesmesiyle birlikte hizla buyuyen alanlardan biridir. Turkiye'nin stratejik cografi konumu, ulkeyi Avrupa, Asya ve Ortadogu arasinda onemli bir lojistik hub haline getirmistir. Mersin, Istanbul ve Izmir limanlari uluslararasi ticarette kritik rol oynamaktadir. Depo yonetimi, operasyon planlama, gumrukleme ve dis ticaret uzmanligi gibi alanlarda nitelikli personel aranmaktadir. E-ticaret lojistigi, son mil teslimat ve soğuk zincir lojistigi buyuyen alanlardır. Filo yonetimi, tedarik zinciri optimizasyonu ve lojistik yazilimlari konularinda uzmanlik onem kazanmaktadir. Uluslararası lojistik firmalari Turkiye'de faaliyet gostermekte ve global kariyer firsatlari sunmaktadir. Sektorde dijitallesme hiz kazanmakta, otonom araclar ve drone teslimat gelecekte istihdam yapisini degistirebilir.",
+      "positions": ["Lojistik Muduru", "Depo Muduru", "Operasyon Uzmani", "Gumruk Muşaviri", "Filo Yoneticisi", "Forklift Operatoru", "Dis Ticaret Uzmani", "Dagitim Sorumlusu", "Tedarik Zinciri Analisti", "Sofor"],
+      "skills": ["Tedarik Zinciri Yonetimi", "ERP Sistemleri", "Gumruk Mevzuati", "Depo Yonetim Sistemleri", "Excel", "Problem Cozme", "Koordinasyon", "Maliyet Analizi"],
+      "trends": "E-ticaret lojistigi, son mil teslimat, otomasyon ve surdurulebilir lojistik en hizli buyuyen alanlardir."
+    },
+    "medya": {
+      "name": "Medya ve Iletisim",
+      "slug": "medya",
+      "metaTitle": "Medya Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Gazetecilik, dijital icerik, halkla iliskiler ve reklam pozisyonlari. Medya sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Medya Sektorunde Is Ilanlari",
+      "heroSubtitle": "Iletisimin on saflarinda kariyer",
+      "description": "Medya ve iletisim sektoru, dijital donusumle birlikte buyuk bir degisim yasayan dinamik bir alandir. Geleneksel medya kurumlarinin yani sira dijital medya platformlari, sosyal medya ajanslari ve icerik uretim studyolari hizla buyumektedir. Istanbul, Turkiye'nin medya merkezi olup, buyuk televizyon kanallari, gazeteler ve reklam ajanslari burada bulunmaktadir. Dijital pazarlama, sosyal medya yonetimi, SEO ve icerik pazarlamasi gibi alanlarda uzmanlar buyuk talep gormektedir. Video produksiyonu, podcast ve influencer pazarlamasi yeni kariyer alanlari olusturmustur. Kurumsal iletisim ve halkla iliskiler da onemli istihdam alanlarindan biridir. Yaraticilik, yazma becerileri ve dijital araclara hakimiyet sektorde basari icin temel yetkinliklerdir. Freelance calisma ve uzaktan is imkanlari sektorde yaygindir.",
+      "positions": ["Dijital Pazarlama Uzmani", "Sosyal Medya Yoneticisi", "Icerik Yazari", "Gazeteci", "Video Produksiyon", "Grafik Tasarimci", "Halkla Iliskiler Uzmani", "Reklam Muhasebecisi", "SEO Uzmani", "Podcast Yapimcisi"],
+      "skills": ["Dijital Pazarlama", "Sosyal Medya", "Icerik Uretimi", "Adobe Creative Suite", "SEO/SEM", "Analitik Dusunme", "Yazim Becerileri", "Video Produksiyon"],
+      "trends": "Dijital video, influencer marketing, veri odakli pazarlama ve yapay zeka destekli icerik en hizli buyuyen alanlardir."
+    }
+  }
+}

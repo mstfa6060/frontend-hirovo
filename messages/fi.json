@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Lataa",
+    "downloadApp": "Lataa sovellus",
+    "googlePlay": "Google Play",
+    "email": "Sähköposti",
+    "phone": "Puhelin",
+    "or": "tai",
+    "loading": "Ladataan...",
+    "sending": "Lähetetään...",
+    "error": "Virhe",
+    "success": "Onnistunut",
+    "submit": "Lähetä",
+    "optional": "valinnainen",
+    "important": "Tärkeää",
+    "contact": "Viestintä",
+    "questions": "kysymyksiisi",
+    "learnMore": "Lisätietoja",
+    "getStarted": "Aloita nyt",
+    "readMore": "Lue lisää",
+    "viewAll": "Katso kaikki",
+    "free": "Ilmainen",
+    "new": "Uusi"
+  },
+  "metadata": {
+    "title": "Hirovo – työnhaku- ja mainosalusta",
+    "description": "Hirovo on työnhaku- ja ilmoitusalusta. Löydä työpaikkailmoituksia, hae helposti ja seuraa uramahdollisuuksia.",
+    "keywords": "työnhaku, työpaikkailmoitukset, ura, työnhaku, henkilöstöilmoitukset, henkilöstön hakijat, rekrytointi, Hirovo",
+    "ogTitle": "Hirovo - Työllisyys- ja urafoorumi",
+    "ogDescription": "Löydä työpaikkailmoituksia, hae ja seuraa uramahdollisuuksia Hirovossa."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Tietoja meistä",
+    "howItWorks": "Miten se toimii",
+    "forJobSeekers": "Työnhakijat",
+    "forEmployers": "työnantajat",
+    "faq": "FAQ",
+    "contact": "Viestintä",
+    "careerTips": "Uraneuvoja"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot",
+    "deleteAccount": "Tilin poistaminen",
+    "home": "Kotisivu",
+    "about": "Tietoja meistä",
+    "contact": "Viestintä",
+    "faq": "FAQ",
+    "howItWorks": "Miten se toimii",
+    "forJobSeekers": "Työnhakijoille",
+    "forEmployers": "Työnantajille",
+    "careerTips": "Uraneuvoja",
+    "company": "Yritys",
+    "resources": "Resurssit",
+    "legal": "Laillinen",
+    "followUs": "Seuraa meitä",
+    "description": "Turkin innovatiivisin työllistämisalusta. Unelmasi on askeleen lähempänä."
+  },
+  "home": {
+    "hero": {
+      "title": "Löydä unelmatyösi",
+      "subtitle": "Löydä tuhansia työpaikkailmoituksia, hae helposti ja seuraa uramahdollisuuksia Hirovossa.",
+      "stats": {
+        "jobs": "Aktiivinen työpaikkailmoitus",
+        "users": "Rekisteröity käyttäjä",
+        "companies": "Yhteistyökumppaniyritys",
+        "placements": "Onnistunut sovitus"
+      }
+    },
+    "features": {
+      "title": "Miksi Hirovo?",
+      "subtitle": "Ominaisuutemme, jotka helpottavat työnhakua",
+      "easySearch": {
+        "title": "Helppo haku",
+        "description": "Hae nopeasti tuhansien työpaikkailmoitusten joukosta ja löydä sinulle sopivat mahdollisuudet."
+      },
+      "quickApply": {
+        "title": "Nopea sovellus",
+        "description": "Hae yhdellä napsautuksella, älä tuhlaa aikaa. Luo profiilisi kerran, käytä sitä kaikkialla."
+      },
+      "notifications": {
+        "title": "Push-ilmoitukset",
+        "description": "Opi uusista julkaisuista ja hakemustiloista välittömästi, älä missaa tilaisuutta."
+      },
+      "smartMatch": {
+        "title": "Älykäs sovitus",
+        "description": "Tekoälyn tukema järjestelmä suosittelee sinulle parhaiten taitojasi vastaavia töitä."
+      },
+      "secureProfile": {
+        "title": "Suojattu profiili",
+        "description": "Henkilötietosi tallennetaan turvallisesti ja jaetaan työnantajan kanssa vain, kun haet."
+      },
+      "careerSupport": {
+        "title": "Uratuki",
+        "description": "Autamme sinua CV:n valmistelussa, haastattelutekniikoissa ja uraneuvoissa."
+      }
+    },
+    "categories": {
+      "title": "Suositut yritysluokat",
+      "subtitle": "Löydä mahdollisuuksia halutuimmilla aloilla",
+      "technology": "Tekniikka",
+      "healthcare": "Terveys",
+      "finance": "Rahoitus",
+      "education": "koulutus",
+      "retail": "Vähittäiskauppa",
+      "manufacturing": "Tuotanto",
+      "hospitality": "Matkailu ja vieraanvaraisuus",
+      "construction": "Rakentaminen"
+    },
+    "howItWorks": {
+      "title": "Miten se toimii?",
+      "subtitle": "Löydä työpaikka kolmessa yksinkertaisessa vaiheessa",
+      "step1": {
+        "title": "Lataa sovellus",
+        "description": "Lataa Hirovo ilmaiseksi Google Playsta ja luo tili."
+      },
+      "step2": {
+        "title": "Luo profiilisi",
+        "description": "Lisää kokemuksesi, taitosi ja mieltymyksesi."
+      },
+      "step3": {
+        "title": "Hae ja aloita liiketoiminta",
+        "description": "Hae itsellesi sopiviin työpaikkailmoituksiin ja ota yhteyttä työnantajiin."
+      }
+    },
+    "testimonials": {
+      "title": "Käyttäjien kommentit",
+      "subtitle": "Käyttäjiemme kokemukset, jotka ovat löytäneet työpaikan Hirovosta"
+    },
+    "cta": {
+      "title": "Aloita nyt",
+      "subtitle": "Lataa Hirovo, unelmasi on askeleen lähempänä.",
+      "downloadFree": "Ilmainen lataus"
+    }
+  },
+  "about": {
+    "metaTitle": "Tietoja meistä - Hirovo",
+    "metaDescription": "Lisätietoja Hirovosta. Missiomme, visiomme ja näkemyksemme työllisyysalasta.",
+    "hero": {
+      "title": "Tietoja meistä",
+      "subtitle": "Päätimme muuttaa yritysmaailmaa"
+    },
+    "mission": {
+      "title": "Meidän tehtävämme",
+      "description": "Tuoda työnhakijat ja työnantajat yhteen mahdollisimman tehokkaasti, helpottaa työnhakuprosessia kaikille ja luoda oikeudenmukaisia ​​työmahdollisuuksia."
+    },
+    "vision": {
+      "title": "Visiomme",
+      "description": "Turkin ja alueen johtavana digitaalisena työllistämisalustana, joka auttaa miljoonia ihmisiä saavuttamaan uratavoitteensa."
+    },
+    "story": {
+      "title": "Meidän tarinamme",
+      "content1": "Hirovo perustettiin vuonna 2024 ratkaisemaan työnhakijoiden kohtaamia haasteita. Perinteisten työnhakumenetelmien tehottomuuden ja työnhakijoiden kokeman turhautumisen vuoksi päätimme luoda paremman ratkaisun teknologian avulla.",
+      "content2": "Nykyään tuhannet työnhakijat ja sadat yritykset valitsevat Hirovon. Käyttäjälähtöisellä lähestymistavallamme ja jatkuvasti kehittyvällä teknologiallamme parannamme työnhakukokemusta joka päivä."
+    },
+    "values": {
+      "title": "Arvomme",
+      "transparency": {
+        "title": "Läpinäkyvyys",
+        "description": "Tarjoamme täyden läpinäkyvyyden työpaikkailmoituksissa ja prosesseissamme."
+      },
+      "equality": {
+        "title": "Tasa-arvo",
+        "description": "Tarjoamme kaikille tasa-arvoiset mahdollisuudet ja vastustamme syrjintää."
+      },
+      "innovation": {
+        "title": "innovaatio",
+        "description": "Kehitämme jatkuvasti ja käytämme uusinta teknologiaa."
+      },
+      "userFirst": {
+        "title": "User Focus",
+        "description": "Panostamme käyttökokemuksen etusijalle kaikissa päätöksissä."
+      }
+    },
+    "team": {
+      "title": "Meidän tiimimme",
+      "description": "Kokeneiden ammattilaisten tiimimme tuo Hirovoon vuosien tietämystä työelämästä."
+    },
+    "stats": {
+      "title": "Hirovo numeroina",
+      "downloads": "Lataa",
+      "activeUsers": "Aktiivinen käyttäjä",
+      "partnerCompanies": "Yhteistyökumppaniyritys",
+      "successfulMatches": "Onnistunut sovitus"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Kuinka se toimii - Hirovo",
+    "metaDescription": "Miten Hirovo toimii? Opi työnhaku- ja hakuprosessi vaihe vaiheelta.",
+    "hero": {
+      "title": "Miten se toimii?",
+      "subtitle": "Teimme työn löytämisen niin helpoksi"
+    },
+    "forJobSeekers": {
+      "title": "Työnhakijoille",
+      "step1": {
+        "title": "Lataa sovellus",
+        "description": "Lataa Hirovo-sovellus ilmaiseksi Google Playsta. Nopea ja turvallinen asennus."
+      },
+      "step2": {
+        "title": "Luo tili",
+        "description": "Rekisteröidy hetkessä sähköpostiosoitteellasi tai puhelinnumerollasi."
+      },
+      "step3": {
+        "title": "Täytä profiilisi",
+        "description": "Lisää työkokemuksesi, koulutuksesi ja taitosi. Lataa CV."
+      },
+      "step4": {
+        "title": "Tutustu työpaikkailmoituksiin",
+        "description": "Etsi itsellesi sopivia tietoja suodattimien avulla. Sijainti, palkka, toimiala ja paljon muuta."
+      },
+      "step5": {
+        "title": "Hae yhdellä napsautuksella",
+        "description": "Käytä välittömästi mainoksissa, joista pidät. Profiilisi lähetetään automaattisesti."
+      },
+      "step6": {
+        "title": "Seuraa prosessia",
+        "description": "Seuraa hakemustesi tilaa reaaliajassa. Pysy ajan tasalla ilmoituksilla."
+      }
+    },
+    "forEmployers": {
+      "title": "Työnantajille",
+      "step1": {
+        "title": "Luo yritystili",
+        "description": "Rekisteröi yrityksesi ja suorita vahvistusprosessi."
+      },
+      "step2": {
+        "title": "Julkaise työpaikkailmoitus",
+        "description": "Luo työpaikkailmoitus, jossa on yksityiskohtaiset työnkuvaukset ja vaatimukset."
+      },
+      "step3": {
+        "title": "Tarkista sovellukset",
+        "description": "Suodata saapuvat hakemukset ja valitse sopivat ehdokkaat."
+      },
+      "step4": {
+        "title": "Ota yhteyttä ehdokkaisiin",
+        "description": "Ota hakijoihin yhteyttä suoraan hakemuksen kautta."
+      }
+    },
+    "features": {
+      "title": "Ominaisuudet",
+      "ai": {
+        "title": "Tekoälyn tuki",
+        "description": "Älykkäät algoritmit suosittelevat sinulle sopivimpia töitä."
+      },
+      "realtime": {
+        "title": "Push-ilmoitukset",
+        "description": "Saat välittömiä ilmoituksia uusista julkaisuista ja sovelluspäivityksistä."
+      },
+      "secure": {
+        "title": "Turvallinen infrastruktuuri",
+        "description": "Tietosi on suojattu korkeimpien turvallisuusstandardien mukaisesti."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Työnhakijoille - Hirovo",
+    "metaDescription": "Jos etsit työtä, Hirovo on juuri sinua varten. Tuhansia työpaikkailmoituksia, helppoja hakemuksia ja uramahdollisuuksia.",
+    "hero": {
+      "title": "Työnhakijoille",
+      "subtitle": "Olemme kanssasi uramatkallasi"
+    },
+    "benefits": {
+      "title": "Miksi valita Hirovo?",
+      "free": {
+        "title": "Täysin ilmainen",
+        "description": "Kaikki ominaisuudet ovat ilmaisia ​​työnhakijoille. Ei ole piilotettuja maksuja."
+      },
+      "thousands": {
+        "title": "Tuhansia mainoksia",
+        "description": "Tuhansia ajankohtaisia ​​työpaikkailmoituksia kaikilta aloilta ja kaikilta tasoilta."
+      },
+      "easy": {
+        "title": "Helppo sovellus",
+        "description": "Hae yhdellä napsautuksella, älä tuhlaa aikaa."
+      },
+      "track": {
+        "title": "Sovelluksen seuranta",
+        "description": "Seuraa kaikkia sovelluksiasi yhdessä paikassa."
+      },
+      "notifications": {
+        "title": "Älykkäät ilmoitukset",
+        "description": "Saat välittömästi tietoa uusista sinulle sopivista mainoksista."
+      },
+      "privacy": {
+        "title": "Turvallisuus",
+        "description": "Tietojasi jaetaan vain yrityksille, joihin haet."
+      }
+    },
+    "tips": {
+      "title": "Vinkkejä onnistuneeseen hakemukseen",
+      "tip1": {
+        "title": "Täydennä profiilisi",
+        "description": "Täysin täytetyt profiilit herättävät 3 kertaa enemmän huomiota."
+      },
+      "tip2": {
+        "title": "Pysy ajan tasalla",
+        "description": "Päivitä profiilisi, kun lisäät uusia taitoja ja kokemuksia."
+      },
+      "tip3": {
+        "title": "Pidä ilmoitukset päällä",
+        "description": "Salli ilmoitukset, jotta et menetä mahdollisuuksia."
+      },
+      "tip4": {
+        "title": "Hae nopeasti",
+        "description": "Ne, jotka hakevat nopeasti uusiin julkaisuihin, tulevat etualalle."
+      }
+    },
+    "categories": {
+      "title": "Suositut luokat",
+      "subtitle": "Haetuimmat työluokat"
+    },
+    "cta": {
+      "title": "Löydä unelmatyösi",
+      "subtitle": "Lataa Hirovo nyt ja löydä tuhansia mahdollisuuksia."
+    }
+  },
+  "employers": {
+    "metaTitle": "Työnantajille - Hirovo",
+    "metaDescription": "Löydä oikeat kyvyt Hirovon kanssa. Nopeat, tehokkaat ja edulliset ostoratkaisut.",
+    "hero": {
+      "title": "Työnantajille",
+      "subtitle": "Helpoin tapa löytää oikeat kyvyt"
+    },
+    "benefits": {
+      "title": "Hirovon edut",
+      "reach": {
+        "title": "Laaja ulottuvuus",
+        "description": "Tavoita välittömästi tuhansia aktiivisia työnhakijoita."
+      },
+      "quality": {
+        "title": "Laadukkaat ehdokkaat",
+        "description": "Vahvistetut profiilit ja yksityiskohtaiset ansioluettelot."
+      },
+      "fast": {
+        "title": "Nopea Tulos",
+        "description": "Vastaanota ensimmäiset hakemukset noin 48 tunnin sisällä."
+      },
+      "affordable": {
+        "title": "Edullinen hinta",
+        "description": "Se on paljon taloudellisempaa kuin perinteiset menetelmät."
+      },
+      "easy": {
+        "title": "Helppo hallinta",
+        "description": "Hallitse kaikkia sovelluksia yhdestä paneelista."
+      },
+      "support": {
+        "title": "Tukea",
+        "description": "Autamme sinua rekrytointiprosessissa."
+      }
+    },
+    "process": {
+      "title": "Rekrytointiprosessi",
+      "step1": "Luo yritystili",
+      "step2": "Julkaise työpaikkailmoituksesi",
+      "step3": "Tarkista hakemukset",
+      "step4": "Tapaa ehdokkaita",
+      "step5": "Rekrytoida"
+    },
+    "pricing": {
+      "title": "Hinnoittelu",
+      "subtitle": "Valitse tarpeisiisi sopiva suunnitelma",
+      "basic": {
+        "title": "Alku",
+        "price": "Ilmainen",
+        "features": {
+          "0": "1 mainos kuukaudessa",
+          "1": "Perussuodatus",
+          "2": "Sähköpostituki"
+        }
+      },
+      "pro": {
+        "title": "Ammattilainen",
+        "price": "Ota yhteyttä",
+        "features": {
+          "0": "Rajoittamaton määrä mainoksia",
+          "1": "Edistynyt suodatus",
+          "2": "Ensisijainen tuki",
+          "3": "Ehdokkaiden suositukset"
+        }
+      },
+      "enterprise": {
+        "title": "Institutionaalinen",
+        "price": "Erikoishinta",
+        "features": {
+          "0": "Kaikki Pro-ominaisuudet",
+          "1": "API-käyttöoikeus",
+          "2": "Mukautettu integrointi",
+          "3": "tilivastaava"
+        }
+      }
+    },
+    "cta": {
+      "title": "Löydä oikeat kyvyt",
+      "subtitle": "Aloita nyt ja tavoita parhaat ehdokkaat."
+    }
+  },
+  "faq": {
+    "metaTitle": "Usein kysytyt kysymykset - Hirovo",
+    "metaDescription": "Usein kysyttyjä kysymyksiä ja vastauksia Hirovosta. Tietoja työnhausta, hakemisesta ja sovelluksen käytöstä.",
+    "hero": {
+      "title": "Usein kysytyt kysymykset",
+      "subtitle": "Kaikki mitä ihmettelet"
+    },
+    "categories": {
+      "general": "Kenraali",
+      "account": "Laskuttaa",
+      "application": "Sovellus",
+      "employers": "työnantajat",
+      "technical": "Tekninen"
+    },
+    "general": {
+      "q1": {
+        "question": "Mikä on Hirovo?",
+        "answer": "Hirovo on mobiili työllistämisalusta, joka kokoaa yhteen työnhakijat ja työnantajat. Voit etsiä tuhansien työpaikkailmoitusten joukosta, hakea yhdellä napsautuksella ja seurata uramahdollisuuksia."
+      },
+      "q2": {
+        "question": "Onko Hirovo vapaa?",
+        "answer": "Kyllä, Hirovo on työnhakijoille täysin ilmainen. Voit käyttää kaikkia ominaisuuksiamme ilmaiseksi."
+      },
+      "q3": {
+        "question": "Mistä voin ladata Hirovo?",
+        "answer": "Voit ladata Hirovon ilmaiseksi Google Play Kaupasta. iOS-versio julkaistaan ​​pian."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Kuinka voin luoda tilin?",
+        "answer": "Sovelluksen lataamisen jälkeen voit rekisteröityä hetkessä sähköpostiosoitteellasi tai puhelinnumerollasi."
+      },
+      "q2": {
+        "question": "Unohdin salasanani, mitä minun pitäisi tehdä?",
+        "answer": "Voit nollata salasanasi sähköpostilla tai tekstiviestillä napsauttamalla kirjautumisruudun Unohdin salasanani -vaihtoehtoa."
+      },
+      "q3": {
+        "question": "Kuinka voin poistaa tilini?",
+        "answer": "Voit pyytää tilin poistamista sovelluksen sisäisistä asetuksista tai verkkosivustomme \"Tilin poisto\" -sivulta."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Kuinka seuraan hakemustani?",
+        "answer": "Näet kaikki hakemuksesi ja niiden tilan sovelluksen \"Omat sovellukset\" -osiossa."
+      },
+      "q2": {
+        "question": "Voinko peruuttaa hakemukseni?",
+        "answer": "Kyllä, voit peruuttaa hakemuksesi, joita ei ole vielä tarkistettu."
+      },
+      "q3": {
+        "question": "Miksi hakemukseni hylättiin?",
+        "answer": "Työnantajat tekevät arvioinnit omien kriteeriensä mukaan. Voit parantaa mahdollisuuksiasi päivittämällä profiilisi ja hakemalla lisää julkaisuja."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Kuinka avata yritystili?",
+        "answer": "Voit rekisteröidä yrityksesi hakemuksen kautta tai verkkosivuillamme. Vahvistusprosessi suoritetaan 24–48 tunnin kuluessa."
+      },
+      "q2": {
+        "question": "Onko mainoksen julkaisemisesta maksu?",
+        "answer": "Peruspakettimme on ilmainen. Lisää ilmoituksia ja lisäominaisuuksia saat tutustumalla ammattipaketteihimme."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "Sovellus ei avaudu, mitä minun pitäisi tehdä?",
+        "answer": "Päivitä ensin sovellus. Jos ongelma jatkuu, poista sovellus ja asenna se uudelleen. Jos sinulla on edelleen ongelmia, ota yhteyttä tukitiimiimme."
+      },
+      "q2": {
+        "question": "Eikö ilmoituksia tule?",
+        "answer": "Varmista, että sallit Hirovon ilmoitukset puhelimen asetuksissa. Tarkista myös ilmoitusasetuksesi sovelluksen sisäisistä asetuksista."
+      }
+    },
+    "contact": {
+      "title": "Onko sinulla kysyttävää?",
+      "subtitle": "Ota yhteyttä kysymyksissä, joihin et löydä vastausta."
+    }
+  },
+  "contact": {
+    "metaTitle": "Ota yhteyttä – Hirovo",
+    "metaDescription": "Ota yhteyttä Hirovoon. Ota meihin yhteyttä saadaksesi kysymyksiä, ehdotuksia ja palautetta.",
+    "hero": {
+      "title": "Viestintä",
+      "subtitle": "Autamme sinua mielellämme"
+    },
+    "info": {
+      "title": "Yhteystiedot",
+      "email": {
+        "title": "Sähköposti",
+        "value": "hello@hirovo.com",
+        "description": "24/7 sähköpostituki"
+      },
+      "phone": {
+        "title": "Puhelin",
+        "value": "+90 (212) 000 00 00",
+        "description": "Maanantai-perjantai 09.00-18.00"
+      },
+      "address": {
+        "title": "Osoite",
+        "value": "Istanbul, Turkki",
+        "description": "Pääkonttorimme"
+      }
+    },
+    "form": {
+      "title": "Kirjoita meille",
+      "name": "Nimesi ja sukunimesi",
+      "email": "Sähköpostiosoitteesi",
+      "subject": "Aihe",
+      "message": "Sinun viestisi",
+      "submit": "Lähetä",
+      "subjects": {
+        "general": "Yleinen kysymys",
+        "support": "Tekninen tuki",
+        "partnership": "Kumppanuus",
+        "feedback": "Palaute",
+        "other": "muu"
+      },
+      "success": "Viestisi on lähetetty onnistuneesti. Palaamme sinulle mahdollisimman pian.",
+      "error": "Tapahtui virhe. Yritä myöhemmin uudelleen."
+    },
+    "social": {
+      "title": "Sosiaalinen media",
+      "subtitle": "Seuraa meitä sosiaalisessa mediassa"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Uraneuvoja - Hirovo",
+    "metaDescription": "Asiantuntijaneuvoja työnhakuun, CV:n laatimiseen, haastattelutekniikoihin ja urakehitykseen.",
+    "hero": {
+      "title": "Uraneuvoja",
+      "subtitle": "Vie urasi uudelle tasolle"
+    },
+    "categories": {
+      "resume": "CV:n valmistelu",
+      "interview": "Haastattelutekniikat",
+      "career": "Urakehitys",
+      "workplace": "Liikeelämä"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Kuinka tehdä tehokas CV?",
+        "summary": "Ammattimainen CV-valmisteluopas, joka herättää työnantajien huomion.",
+        "content": "CV on ensimmäinen vaikutelma työhakemuksestasi. Hyvin valmisteltu CV erottaa sinut muista hakijoista ja lisää mahdollisuuksiasi saada haastattelukutsu. Tässä vinkkejä tehokkaaseen CV:hen:\n\n1. Käytä selkeää ja tiivistä muotoa\n2. Korosta asiaankuuluvia kokemuksiasi\n3. Tue konkreettisia saavutuksiasi numeroilla\n4. Käytä avainsanoja oikein\n5. Tarkista huolellisesti virheiden varalta"
+      },
+      "resume2": {
+        "title": "Yleisimmät CV:ssä tehdyt virheet",
+        "summary": "CV-virheet, jotka voivat aiheuttaa hakemuksesi hylkäämisen ja kuinka välttää niitä.",
+        "content": "Monet hakijat tekevät vakavia virheitä ansioluettelossaan huomaamattaan. Näiden virheiden tunnistaminen ja korjaaminen nopeuttaa työnhakuprosessia."
+      },
+      "interview1": {
+        "title": "Menestyksen salaisuudet haastatteluissa",
+        "summary": "Tekniikat, jotka sinun tulee tietää menestyäksesi työhaastatteluissa.",
+        "content": "Haastattelu on työpaikan hakuprosessin kriittisin vaihe. Hyvin valmistautunut ehdokas pystyy käsittelemään stressiä ja ilmaisemaan itseään parhaimmillaan."
+      },
+      "interview2": {
+        "title": "Usein kysytyt haastattelukysymykset",
+        "summary": "Työhaastatteluissa kohtaamasi kysymykset ja tehokkaat vastausstrategiat.",
+        "content": "Haastatteluissa kysytään melkein aina tiettyjä kysymyksiä. Näihin kysymyksiin etukäteen valmistautuminen lisää itseluottamustasi."
+      },
+      "career1": {
+        "title": "Niille, jotka haluavat muuttaa uraa",
+        "summary": "Vaiheittainen opas niille, jotka haluavat vaihtaa alaa tai asemaa.",
+        "content": "Uramuutos voi tuntua pelottavalta, mutta asianmukaisella suunnittelulla se voidaan toteuttaa onnistuneesti."
+      },
+      "career2": {
+        "title": "Ammattimainen verkostoituminen",
+        "summary": "Tapoja rakentaa suhteita, jotka edistävät uraasi.",
+        "content": "Vahva ammattiverkosto lisää uramahdollisuuksia ja pitää sinut ajan tasalla alan kehityksestä."
+      },
+      "workplace1": {
+        "title": "Huomioivia asioita uudessa työpaikassa",
+        "summary": "Käytännön neuvoja menestyäksesi ensimmäisestä työpäivästä lähtien.",
+        "content": "Uuden aloittaminen voi olla jännittävää, mutta stressaavaa. Oikealla lähestymistavalla voit sopeutua nopeasti ja saada onnistuneen alun."
+      },
+      "workplace2": {
+        "title": "Kuinka saada työn ja perhe-elämän tasapaino?",
+        "summary": "Tapoja tasapainottaa urasi ja yksityiselämäsi.",
+        "content": "Terve työn ja perhe-elämän tasapaino on ratkaisevan tärkeää sekä urasi menestykselle että henkilökohtaiselle onnellisuudelle."
+      }
+    },
+    "newsletter": {
+      "title": "Hanki uravinkkejä",
+      "subtitle": "Tilaa uutiskirjeemme saadaksesi viimeisimmät uraneuvot ja työmahdollisuudet.",
+      "placeholder": "Sähköpostiosoitteesi",
+      "button": "Tilaa"
+    }
+  },
+  "privacy": {
+    "title": "Tietosuojakäytäntö",
+    "metaTitle": "Tietosuojakäytäntö - Hirovo",
+    "metaDescription": "Hirovon tietosuojakäytäntö - Tietoja siitä, kuinka henkilötietojasi kerätään, käytetään ja suojataan.",
+    "lastUpdate": "Viimeisin päivitys: tammikuu 2025",
+    "intro": "Me Hirovossa pidämme erittäin tärkeänä käyttäjiemme yksityisyyttä. Tämä tietosuojakäytäntö selittää, kuinka Hirovo-mobiilisovelluksen (\"Sovellus\") kautta keräämiämme henkilötietoja käsitellään.",
+    "section1": {
+      "title": "1. Keräämämme tiedot",
+      "intro": "Saatamme kerätä seuraavat tiedot, kun käytät sovellusta:",
+      "items": {
+        "account": "Tilitiedot: Nimi, sukunimi, sähköpostiosoite, puhelinnumero",
+        "profile": "Profiilitiedot: CV, työkokemus, koulutustiedot, taidot",
+        "location": "Sijaintitiedot: Sijaintitiedot lähelläsi olevien työpaikkailmoitusten näyttämiseksi (luvallasi)",
+        "device": "Laitetiedot: Laitteen esittely, käyttöjärjestelmä, sovellusversio",
+        "usage": "Käyttötiedot: sovelluksen sisäiset vuorovaikutukset, katsotut mainokset, sovellukset"
+      }
+    },
+    "section2": {
+      "title": "2. Tietojen käyttötarkoitukset",
+      "intro": "Käytämme keräämiämme tietoja seuraaviin tarkoituksiin:",
+      "items": {
+        "account": "Tilin luominen ja hallinta",
+        "jobs": "Näytetään sinulle sopivat työpaikkailmoitukset",
+        "applications": "Työhakemusten välittäminen työnantajille",
+        "improve": "Sovelluskokemuksen parantaminen",
+        "support": "Teknisen tuen tarjoaminen",
+        "legal": "Täyttääksemme lailliset velvoitteemme"
+      }
+    },
+    "section3": {
+      "title": "3. Tietojen jakaminen",
+      "intro": "Emme jaa henkilötietojasi kolmansille osapuolille paitsi seuraavissa tapauksissa:",
+      "items": {
+        "employers": "Työnantajat: Jaamme profiilitietosi niiden työpaikkailmoitusten omistajille, joihin haet.",
+        "providers": "Palveluntarjoajat: Luotetut kumppanit, jotka tarjoavat sovelluksemme toiminnan edellyttämiä teknisiä palveluita.",
+        "legal": "Lailliset velvoitteet: Oikeudellisten prosessien tai toimivaltaisten viranomaisten pyynnöstä"
+      }
+    },
+    "section4": {
+      "title": "4. Tietoturva",
+      "intro": "Toteutamme alan standardien mukaisia ​​turvatoimenpiteitä henkilötietojesi suojaamiseksi:",
+      "items": {
+        "ssl": "SSL/TLS-salaus",
+        "datacenter": "Turvalliset datakeskukset",
+        "audits": "Säännölliset turvatarkastukset",
+        "access": "Kulunvalvonta ja valtuutus"
+      }
+    },
+    "section5": {
+      "title": "5. Sinun oikeutesi",
+      "intro": "Sinulla on seuraavat oikeudet henkilötietolain nro 6698 (KVKK) puitteissa:",
+      "items": {
+        "know": "Selvitä, käsitelläänkö henkilötietojasi vai ei",
+        "info": "Pyydä tietoja henkilötiedoistasi, jos niitä on käsitelty",
+        "purpose": "Opi henkilötietojesi käsittelyn tarkoituksesta ja siitä, käytetäänkö niitä aiottuun tarkoitukseen",
+        "thirdParty": "Tietoa kolmansista osapuolista, joille henkilötietoja siirretään kotimaassa tai ulkomailla",
+        "correct": "Pyydä henkilötietojen oikaisua, jos ne ovat puutteellisia tai niitä on käsitelty väärin",
+        "delete": "Pyydä henkilötietojesi poistamista tai tuhoamista"
+      }
+    },
+    "section6": {
+      "title": "6. Evästeet ja seurantatekniikat",
+      "content": "Sovelluksemme voi käyttää evästeitä ja vastaavia teknologioita parantaakseen käyttökokemustasi. Näiden tekniikoiden ansiosta muistamme mieltymyksesi ja analysoimme sovellusten suorituskykyä."
+    },
+    "section7": {
+      "title": "7. Lasten yksityisyys",
+      "content": "Hakemuksemme ei ole suunnattu alle 18-vuotiaille henkilöille. Emme tietoisesti kerää henkilötietoja alle 18-vuotiailta."
+    },
+    "section8": {
+      "title": "8. Käytännön muutokset",
+      "content": "Saatamme päivittää tätä tietosuojakäytäntöä ajoittain. Huomattavista muutoksista ilmoitamme sinulle sovelluksen sisäisillä ilmoituksilla."
+    },
+    "section9": {
+      "title": "9. Viestintä",
+      "intro": "Yksityisyyteen liittyvissä kysymyksissä voit ottaa meihin yhteyttä:"
+    }
+  },
+  "terms": {
+    "title": "Käyttöehdot",
+    "metaTitle": "Käyttöehdot - Hirovo",
+    "metaDescription": "Hirovo-käyttöehdot - Säännöt ja ehdot, joita sinun on noudatettava käyttäessäsi sovellusta.",
+    "lastUpdate": "Viimeisin päivitys: tammikuu 2025",
+    "intro": "Käyttämällä Hirovo-mobiilisovellusta (\"Sovellus\") sinun katsotaan hyväksyneen seuraavat käyttöehdot. Lue nämä ehdot huolellisesti.",
+    "section1": {
+      "title": "1. Palvelun kuvaus",
+      "intro": "Hirovo on työnhakualusta, jonka tavoitteena on yhdistää työnhakijat työnantajiin. Sovelluksemme kautta:",
+      "items": {
+        "view": "Voit katsoa työpaikkailmoituksia ja hakea",
+        "profile": "Voit luoda ammattiprofiilisi",
+        "offers": "Voit arvioida työnantajien tarjouksia",
+        "track": "Voit seurata uramahdollisuuksia"
+      }
+    },
+    "section2": {
+      "title": "2. Tilin luominen ja suojaus",
+      "intro": "Sinun on luotava tili voidaksesi käyttää sovellustamme. Kun luot tilin:",
+      "items": {
+        "accurate": "Suostut antamaan tarkkoja ja ajantasaisia ​​tietoja",
+        "responsible": "Olet vastuussa tilitietojesi luottamuksellisuudesta.",
+        "activity": "Olet vastuussa kaikesta tililläsi tapahtuvasta toiminnasta.",
+        "notify": "Luvattomasta pääsystä tulee ilmoittaa meille välittömästi"
+      }
+    },
+    "section3": {
+      "title": "3. Käyttäjän velvollisuudet",
+      "intro": "Kun käytät sovellusta, sitoudut noudattamaan seuraavia sääntöjä:",
+      "items": {
+        "legal": "Toimii lakien ja määräysten mukaisesti",
+        "honest": "Tarkkojen ja harhaanjohtamattomien tietojen jakaminen",
+        "respect": "Toisten käyttäjien oikeuksien kunnioittaminen",
+        "noSpam": "Älä jaa roskapostia, haittaohjelmia tai haitallista sisältöä",
+        "security": "Vältä toimia, jotka voivat vaarantaa sovelluksen turvallisuuden",
+        "identity": "Ei matkia muita"
+      }
+    },
+    "section4": {
+      "title": "4. Kielletyt käytökset",
+      "intro": "Seuraavat käytökset ovat ehdottomasti kiellettyjä:",
+      "items": {
+        "fake": "Väärennettyjen työpaikkailmoitusten tai -profiilien luominen",
+        "harass": "Muiden käyttäjien häirintä tai häirintä",
+        "illegal": "Sovelluksen käyttö laittomiin tarkoituksiin",
+        "damage": "Sovelluksen teknisen infrastruktuurin vahingoittaminen",
+        "bots": "Automaattisten järjestelmien tai bottien käyttäminen",
+        "ip": "Rikkoo immateriaalioikeuksia"
+      }
+    },
+    "section5": {
+      "title": "5. Sisältö ja immateriaalioikeudet",
+      "intro": "Kaikki oikeudet sovellukseen ja sen sisältöön kuuluvat Hirovolle:",
+      "items": {
+        "ownership": "Logo, suunnittelu ja käyttöliittymä ovat Hirovon omaisuutta",
+        "userContent": "Käyttäjän lataama sisältö on käyttäjän vastuulla.",
+        "license": "Myönnät meille tarvittavat lisenssit profiilissasi jakamillesi tiedoille.",
+        "thirdParty": "Sisältösi ei saa loukata kolmannen osapuolen oikeuksia"
+      }
+    },
+    "section6": {
+      "title": "6. Vastuun rajoitus",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Ei takaa työpaikkailmoitusten tarkkuutta",
+        "relationship": "Ei ole osapuolena työnantaja-työntekijäsuhteessa",
+        "disputes": "Ei ole vastuussa käyttäjien välisistä riita-asioista",
+        "uptime": "Se ei takaa, että palvelu toimii keskeytyksettä.",
+        "damages": "Ei vastuussa mistään välillisistä tai välillisistä vahingoista."
+      }
+    },
+    "section7": {
+      "title": "7. Tilin jäädytys ja lopettaminen",
+      "intro": "Saatamme jäädyttää tai sulkea tilisi seuraavissa tilanteissa:",
+      "items": {
+        "violation": "Käyttöehtojen rikkominen",
+        "illegal": "Laiton toiminta",
+        "harm": "Käyttäytyminen, joka vahingoittaa muita käyttäjiä",
+        "false": "Väärän tai harhaanjohtavan tiedon antaminen"
+      }
+    },
+    "section8": {
+      "title": "8. Muutokset",
+      "content": "Pidätämme oikeuden muuttaa näitä käyttöehtoja ilman ennakkoilmoitusta. Tärkeistä muutoksista ilmoitetaan sovelluksen sisäisillä ilmoituksilla. Sovelluksen käytön jatkaminen muutosten jälkeen tarkoittaa, että hyväksyt uudet ehdot."
+    },
+    "section9": {
+      "title": "9. Sovellettava laki",
+      "content": "Nämä käyttöehdot ovat Turkin tasavallan lakien alaisia. Kiistatapauksissa Istanbulin tuomioistuimet ja täytäntöönpanovirastot ovat toimivaltaisia."
+    },
+    "section10": {
+      "title": "10. Viestintä",
+      "intro": "Jos sinulla on kysyttävää käyttöehdoista:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Tilin poistopyyntö",
+    "metaTitle": "Tilin poistaminen - Hirovo",
+    "metaDescription": "Pyydä Hirovo-tilisi poistamista.",
+    "description": "Jos haluat poistaa tilisi, täytä alla oleva lomake. Kun pyyntösi on tarkistettu, tilisi ja kaikki tietosi poistetaan pysyvästi.",
+    "warning": "Kun tilisi on poistettu, kaikki tietosi (profiilitiedot, sovellukset, viestit) poistetaan pysyvästi, eikä niitä voi palauttaa.",
+    "form": {
+      "emailLabel": "Sähköpostiosoite",
+      "emailPlaceholder": "esimerkki@sähköposti.com",
+      "phoneLabel": "Puhelinnumero",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Poiston syy",
+      "reasonPlaceholder": "Miksi haluat poistaa tilisi?",
+      "submitButton": "Lähetä tilin poistopyyntö"
+    },
+    "errors": {
+      "emailOrPhone": "Anna sähköpostiosoitteesi tai puhelinnumerosi.",
+      "generic": "Tapahtui virhe. Yritä myöhemmin uudelleen.",
+      "connection": "Yhteysvirhe. Tarkista Internet-yhteytesi."
+    },
+    "success": {
+      "title": "Pyyntösi on vastaanotettu",
+      "message": "Tilin poistopyyntösi on vastaanotettu onnistuneesti. Pyyntösi käsitellään mahdollisimman pian ja sinulle ilmoitetaan sähköpostitse tai tekstiviestillä.",
+      "processingTime": "Käsittelyaika: 1-3 arkipäivää"
+    },
+    "contactNote": "Voit tavoittaa meidät osoitteessa."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Valitse Kieli",
+    "popularLanguages": "Suositut kielet"
+  }
+}

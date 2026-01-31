@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "preuzimanje",
+    "downloadApp": "Preuzmite aplikaciju",
+    "googlePlay": "Google Play",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "or": "ili",
+    "loading": "Učitavanje...",
+    "sending": "Slanje...",
+    "error": "Pogreška",
+    "success": "Uspješno",
+    "submit": "Poslati",
+    "optional": "neobavezan",
+    "important": "Važno",
+    "contact": "Komunikacija",
+    "questions": "Za vaša pitanja",
+    "learnMore": "Više informacija",
+    "getStarted": "Počni sada",
+    "readMore": "Pročitaj više",
+    "viewAll": "Vidi sve",
+    "free": "Besplatno",
+    "new": "Novi"
+  },
+  "metadata": {
+    "title": "Hirovo - Platforma za traženje posla i oglašavanje",
+    "description": "Hirovo je platforma za traženje posla i oglašavanje. Otkrijte oglase za posao, lako se prijavite i pratite prilike za karijeru.",
+    "keywords": "pronalaženje posla, oglasi za posao, karijera, traženje posla, oglasi za osoblje, tražitelji osoblja, regrutacija, Hirovo",
+    "ogTitle": "Hirovo - Platforma za zapošljavanje i karijeru",
+    "ogDescription": "Otkrijte oglase za posao, prijavite se i pratite prilike za karijeru uz Hirovo."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "O nama",
+    "howItWorks": "Kako to radi",
+    "forJobSeekers": "Tražitelji posla",
+    "forEmployers": "poslodavci",
+    "faq": "FAQ",
+    "contact": "Komunikacija",
+    "careerTips": "Savjeti za karijeru"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Politika privatnosti",
+    "terms": "Uvjeti korištenja",
+    "deleteAccount": "Brisanje računa",
+    "home": "Početna stranica",
+    "about": "O nama",
+    "contact": "Komunikacija",
+    "faq": "FAQ",
+    "howItWorks": "Kako to radi",
+    "forJobSeekers": "Za tražitelje posla",
+    "forEmployers": "Za poslodavce",
+    "careerTips": "Savjeti za karijeru",
+    "company": "Tvrtka",
+    "resources": "Resursi",
+    "legal": "Pravno",
+    "followUs": "Pratite nas",
+    "description": "Najinovativnija platforma za zapošljavanje u Turskoj. Vaš san će biti korak bliže."
+  },
+  "home": {
+    "hero": {
+      "title": "Pronađite svoj posao iz snova",
+      "subtitle": "Otkrijte tisuće oglasa za posao, lako se prijavite i pratite prilike za karijeru uz Hirovo.",
+      "stats": {
+        "jobs": "Aktivan oglas za posao",
+        "users": "Registrirani korisnik",
+        "companies": "Tvrtka partner",
+        "placements": "Uspješno podudaranje"
+      }
+    },
+    "features": {
+      "title": "Zašto Hirovo?",
+      "subtitle": "Naše značajke koje vam olakšavaju traženje posla",
+      "easySearch": {
+        "title": "Jednostavno pretraživanje",
+        "description": "Brzo pretražite među tisućama oglasa za posao i pronađite prilike koje vam odgovaraju."
+      },
+      "quickApply": {
+        "title": "Brza primjena",
+        "description": "Prijavite se samo jednim klikom, ne gubite vrijeme. Napravite svoj profil jednom, koristite ga svugdje."
+      },
+      "notifications": {
+        "title": "Push obavijesti",
+        "description": "Odmah saznajte o novim objavama i statusima prijava, ne propustite priliku."
+      },
+      "smartMatch": {
+        "title": "Pametno podudaranje",
+        "description": "Sustav podržan umjetnom inteligencijom preporučuje vam poslove koji najbolje odgovaraju vašim vještinama."
+      },
+      "secureProfile": {
+        "title": "Sigurni profil",
+        "description": "Vaši osobni podaci pohranjuju se na siguran način i dijele se s poslodavcem samo kada se prijavite."
+      },
+      "careerSupport": {
+        "title": "Podrška za karijeru",
+        "description": "Ovdje smo da vam pomognemo oko pripreme životopisa, tehnika intervjua i savjetovanja o karijeri."
+      }
+    },
+    "categories": {
+      "title": "Popularne poslovne kategorije",
+      "subtitle": "Otkrijte prilike u najtraženijim sektorima",
+      "technology": "Tehnologija",
+      "healthcare": "Zdravlje",
+      "finance": "Financije",
+      "education": "Obrazovanje",
+      "retail": "Maloprodaja",
+      "manufacturing": "Proizvodnja",
+      "hospitality": "Turizam i ugostiteljstvo",
+      "construction": "zgrada"
+    },
+    "howItWorks": {
+      "title": "Kako radi?",
+      "subtitle": "Pronađite posao u tri jednostavna koraka",
+      "step1": {
+        "title": "Preuzmite aplikaciju",
+        "description": "Preuzmite Hirovo besplatno s Google Playa i izradite svoj račun."
+      },
+      "step2": {
+        "title": "Napravite svoj profil",
+        "description": "Dodajte svoja iskustva, vještine i preferencije."
+      },
+      "step3": {
+        "title": "Prijavite se i pokrenite posao",
+        "description": "Prijavite se na oglase koji vam odgovaraju i kontaktirajte poslodavce."
+      }
+    },
+    "testimonials": {
+      "title": "Komentari korisnika",
+      "subtitle": "Iskustva naših korisnika koji su se zaposlili u Hirovu"
+    },
+    "cta": {
+      "title": "Počni sada",
+      "subtitle": "Preuzmite Hirovo, vaš san će biti korak bliže.",
+      "downloadFree": "Besplatno preuzimanje"
+    }
+  },
+  "about": {
+    "metaTitle": "O nama - Hirovo",
+    "metaDescription": "Saznajte više o Hirovu. Naša misija, naša vizija i naš pogled na industriju zapošljavanja.",
+    "hero": {
+      "title": "O nama",
+      "subtitle": "Krenuli smo promijeniti poslovni svijet"
+    },
+    "mission": {
+      "title": "Naša misija",
+      "description": "Zbližiti tražitelje posla i poslodavce na najučinkovitiji način, olakšati proces pronalaska posla za sve i stvoriti pravedne prilike za posao."
+    },
+    "vision": {
+      "title": "Naša vizija",
+      "description": "Kao vodeća platforma za digitalno zapošljavanje u Turskoj i regiji, koja pomaže milijunima ljudi da postignu svoje ciljeve u karijeri."
+    },
+    "story": {
+      "title": "Naša priča",
+      "content1": "Hirovo je osnovan 2024. godine kako bi riješio izazove s kojima se suočavaju tražitelji posla. Uvidjevši neučinkovitost tradicionalnih metoda traženja posla i frustracije koje doživljavaju tražitelji posla, odlučili smo stvoriti bolje rješenje korištenjem tehnologije.",
+      "content2": "Danas tisuće tražitelja posla i stotine tvrtki biraju Hirovo. Našim korisnički orijentiranim pristupom i tehnologijom koja se neprestano poboljšava, svakodnevno poboljšavamo iskustvo pronalaska posla."
+    },
+    "values": {
+      "title": "Naše vrijednosti",
+      "transparency": {
+        "title": "Transparentnost",
+        "description": "Pružamo potpunu transparentnost u oglasima za posao i našim procesima."
+      },
+      "equality": {
+        "title": "Jednakost",
+        "description": "Nudimo jednake mogućnosti svima i protivimo se diskriminaciji."
+      },
+      "innovation": {
+        "title": "inovacija",
+        "description": "Stalno se usavršavamo i koristimo najnovije tehnologije."
+      },
+      "userFirst": {
+        "title": "Fokus na korisnika",
+        "description": "U svim odlukama prioritet nam je korisničko iskustvo."
+      }
+    },
+    "team": {
+      "title": "Naš tim",
+      "description": "Naš tim iskusnih profesionalaca u Hirovo donosi godine znanja u sektoru zapošljavanja."
+    },
+    "stats": {
+      "title": "Hirovo u brojkama",
+      "downloads": "preuzimanje",
+      "activeUsers": "Aktivni korisnik",
+      "partnerCompanies": "Tvrtka partner",
+      "successfulMatches": "Uspješno podudaranje"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Kako to radi - Hirovo",
+    "metaDescription": "Kako Hirovo djeluje? Naučite postupak traženja posla i prijave korak po korak.",
+    "hero": {
+      "title": "Kako radi?",
+      "subtitle": "Olakšali smo pronalazak posla"
+    },
+    "forJobSeekers": {
+      "title": "Za tražitelje posla",
+      "step1": {
+        "title": "Preuzmite aplikaciju",
+        "description": "Preuzmite aplikaciju Hirovo besplatno s Google Playa. Brza i sigurna montaža."
+      },
+      "step2": {
+        "title": "Napravi račun",
+        "description": "Registrirajte se u nekoliko sekundi sa svojom e-poštom ili telefonskim brojem."
+      },
+      "step3": {
+        "title": "Ispunite svoj profil",
+        "description": "Dodajte svoje radno iskustvo, obrazovanje i vještine. Učitajte svoj životopis."
+      },
+      "step4": {
+        "title": "Istražite oglase za posao",
+        "description": "Pomoću filtara pronađite popise koji vam odgovaraju. Lokacija, plaća, djelatnost i više."
+      },
+      "step5": {
+        "title": "Prijavite se jednim klikom",
+        "description": "Prijavite se odmah na oglase koji vam se sviđaju. Vaš profil se automatski prenosi."
+      },
+      "step6": {
+        "title": "Slijedite proces",
+        "description": "Pratite status svojih prijava u stvarnom vremenu. Ostanite informirani s obavijestima."
+      }
+    },
+    "forEmployers": {
+      "title": "Za poslodavce",
+      "step1": {
+        "title": "Napravite račun tvrtke",
+        "description": "Registrirajte svoju tvrtku i dovršite postupak verifikacije."
+      },
+      "step2": {
+        "title": "Objavite oglas za posao",
+        "description": "Napravite oglas za posao s detaljnim opisima poslova i zahtjevima."
+      },
+      "step3": {
+        "title": "Pregledajte aplikacije",
+        "description": "Filtrirajte pristigle prijave i odaberite odgovarajuće kandidate."
+      },
+      "step4": {
+        "title": "Kontaktirajte kandidate",
+        "description": "Kontaktirajte kandidate izravno putem aplikacije."
+      }
+    },
+    "features": {
+      "title": "Značajke",
+      "ai": {
+        "title": "Podrška za umjetnu inteligenciju",
+        "description": "Inteligentni algoritmi preporučuju najprikladnije poslove za vas."
+      },
+      "realtime": {
+        "title": "Push obavijesti",
+        "description": "Primajte trenutne obavijesti o novim objavama i ažuriranjima aplikacija."
+      },
+      "secure": {
+        "title": "Sigurna infrastruktura",
+        "description": "Vaši podaci zaštićeni su najvišim sigurnosnim standardima."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Za osobe koje traže posao - Hirovo",
+    "metaDescription": "Ako tražite posao, Hirovo je baš za vas. Tisuće oglasa za posao, jednostavne prijave i prilike za karijeru.",
+    "hero": {
+      "title": "Za tražitelje posla",
+      "subtitle": "Uz vas smo na vašem putu karijere"
+    },
+    "benefits": {
+      "title": "Zašto odabrati Hirovo?",
+      "free": {
+        "title": "Potpuno besplatno",
+        "description": "Sve naše značajke su besplatne za tražitelje posla. Nema skrivenih naknada."
+      },
+      "thousands": {
+        "title": "Tisuće oglasa",
+        "description": "Tisuće aktualnih oglasa za posao iz svih sektora i svih razina."
+      },
+      "easy": {
+        "title": "Jednostavna primjena",
+        "description": "Prijavite se jednim klikom, ne gubite vrijeme."
+      },
+      "track": {
+        "title": "Praćenje aplikacija",
+        "description": "Pratite sve svoje prijave na jednom mjestu."
+      },
+      "notifications": {
+        "title": "Pametne obavijesti",
+        "description": "Budite odmah obaviješteni o novim oglasima koji vam odgovaraju."
+      },
+      "privacy": {
+        "title": "Sigurnost",
+        "description": "Vaši se podaci dijele samo s tvrtkama kojima se prijavite."
+      }
+    },
+    "tips": {
+      "title": "Savjeti za uspješnu prijavu",
+      "tip1": {
+        "title": "Ispunite svoj profil",
+        "description": "Potpuno popunjeni profili privlače 3 puta više pažnje."
+      },
+      "tip2": {
+        "title": "Budite u toku",
+        "description": "Ažurirajte svoj profil dok dodajete nove vještine i iskustva."
+      },
+      "tip3": {
+        "title": "Neka obavijesti budu uključene",
+        "description": "Dopustite obavijesti kako biste izbjegli propuštanje prilika."
+      },
+      "tip4": {
+        "title": "Prijavite se brzo",
+        "description": "Do izražaja dolaze oni koji se brzo prijavljuju na nove objave."
+      }
+    },
+    "categories": {
+      "title": "Popularne kategorije",
+      "subtitle": "Najtraženije kategorije poslova"
+    },
+    "cta": {
+      "title": "Pronađite svoj posao iz snova",
+      "subtitle": "Preuzmite Hirovo sada i otkrijte tisuće mogućnosti."
+    }
+  },
+  "employers": {
+    "metaTitle": "Za poslodavce - Hirovo",
+    "metaDescription": "Pronađite pravi talent s Hirovom. Brza, učinkovita i ekonomična rješenja za kupnju.",
+    "hero": {
+      "title": "Za poslodavce",
+      "subtitle": "Najlakši način da pronađete prave talente"
+    },
+    "benefits": {
+      "title": "Hirovo prednosti",
+      "reach": {
+        "title": "Širok doseg",
+        "description": "Odmah dosegnite tisuće aktivnih tražitelja posla."
+      },
+      "quality": {
+        "title": "Kvalitetni kandidati",
+        "description": "Potvrđeni profili i detaljni životopisi."
+      },
+      "fast": {
+        "title": "Brzi rezultat",
+        "description": "Zaprimite prve prijave unutar približno 48 sati."
+      },
+      "affordable": {
+        "title": "Pristupačna cijena",
+        "description": "Mnogo je ekonomičnije od tradicionalnih metoda."
+      },
+      "easy": {
+        "title": "Jednostavno upravljanje",
+        "description": "Upravljajte svim aplikacijama s jedne ploče."
+      },
+      "support": {
+        "title": "podrška",
+        "description": "Pomažemo vam u procesu zapošljavanja."
+      }
+    },
+    "process": {
+      "title": "Proces zapošljavanja",
+      "step1": "Napravite račun tvrtke",
+      "step2": "Objavite svoj oglas za posao",
+      "step3": "Pregledajte aplikacije",
+      "step4": "Upoznajte se s kandidatima",
+      "step5": "novačiti"
+    },
+    "pricing": {
+      "title": "Cijene",
+      "subtitle": "Odaberite plan koji odgovara vašim potrebama",
+      "basic": {
+        "title": "Početak",
+        "price": "Besplatno",
+        "features": {
+          "0": "1 oglas mjesečno",
+          "1": "Osnovno filtriranje",
+          "2": "Podrška e-poštom"
+        }
+      },
+      "pro": {
+        "title": "Profesionalni",
+        "price": "Kontaktirajte nas",
+        "features": {
+          "0": "Neograničeni oglasi",
+          "1": "Napredno filtriranje",
+          "2": "Prioritetna podrška",
+          "3": "Preporuke kandidata"
+        }
+      },
+      "enterprise": {
+        "title": "Institucionalni",
+        "price": "Posebna cijena",
+        "features": {
+          "0": "Sve Pro značajke",
+          "1": "API pristup",
+          "2": "Prilagođena integracija",
+          "3": "upravitelj računa"
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronađite prave talente",
+      "subtitle": "Započnite sada i dođite do najboljih kandidata."
+    }
+  },
+  "faq": {
+    "metaTitle": "Često postavljana pitanja - Hirovo",
+    "metaDescription": "Često postavljana pitanja i odgovori o Hirovu. Informacije o traženju posla, prijavi i korištenju aplikacije.",
+    "hero": {
+      "title": "Često postavljana pitanja",
+      "subtitle": "Sve što se pitate"
+    },
+    "categories": {
+      "general": "General",
+      "account": "Račun",
+      "application": "Primjena",
+      "employers": "poslodavci",
+      "technical": "tehnički"
+    },
+    "general": {
+      "q1": {
+        "question": "Što je Hirovo?",
+        "answer": "Hirovo je mobilna platforma za zapošljavanje koja spaja tražitelje posla i poslodavce. Možete pretraživati ​​među tisućama oglasa za posao, prijaviti se jednim klikom i pratiti prilike za karijeru."
+      },
+      "q2": {
+        "question": "Je li Hirovo besplatan?",
+        "answer": "Da, Hirovo je potpuno besplatan za tražitelje posla. Sve naše značajke možete koristiti besplatno."
+      },
+      "q3": {
+        "question": "Gdje mogu preuzeti Hirovo?",
+        "answer": "Hirovo možete besplatno preuzeti iz trgovine Google Play. Verzija za iOS bit će objavljena uskoro."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Kako mogu kreirati račun?",
+        "answer": "Nakon preuzimanja aplikacije, možete se registrirati za nekoliko sekundi sa svojom e-mail adresom ili telefonskim brojem."
+      },
+      "q2": {
+        "question": "Zaboravio sam lozinku, što da radim?",
+        "answer": "Zaporku možete poništiti putem e-pošte ili SMS-a klikom na opciju 'Zaboravio sam lozinku' na ekranu za prijavu."
+      },
+      "q3": {
+        "question": "Kako mogu izbrisati svoj račun?",
+        "answer": "Možete zatražiti brisanje računa iz postavki u aplikaciji ili sa stranice 'Brisanje računa' na našoj web stranici."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Kako mogu pratiti svoju prijavu?",
+        "answer": "Sve svoje prijave i njihov status možete vidjeti u odjeljku 'Moje prijave' u aplikaciji."
+      },
+      "q2": {
+        "question": "Mogu li povući svoju prijavu?",
+        "answer": "Da, možete povući svoje prijave koje još nisu pregledane."
+      },
+      "q3": {
+        "question": "Zašto je moja prijava odbijena?",
+        "answer": "Poslodavci ocjenjuju prema svojim kriterijima. Možete povećati svoje šanse ažuriranjem svog profila i prijavom na više objava."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Kako otvoriti račun tvrtke?",
+        "answer": "Svoju tvrtku možete registrirati putem aplikacije ili na našoj web stranici. Proces verifikacije je dovršen unutar 24-48 sati."
+      },
+      "q2": {
+        "question": "Plaća li se objava oglasa?",
+        "answer": "Naš osnovni paket je besplatan. Za više najava i naprednih značajki, možete pogledati naše profesionalne pakete."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "Aplikacija se ne otvara, što da radim?",
+        "answer": "Prvo ažurirajte aplikaciju. Ako se problem nastavi, izbrišite aplikaciju i ponovno je instalirajte. Ako i dalje imate problema, obratite se našem timu za podršku."
+      },
+      "q2": {
+        "question": "Obavijesti ne dolaze?",
+        "answer": "Provjerite jeste li dopustili obavijesti za Hirovo u postavkama telefona. Također provjerite svoje postavke obavijesti u postavkama aplikacije."
+      }
+    },
+    "contact": {
+      "title": "Imate li kakvih pitanja?",
+      "subtitle": "Kontaktirajte nas za pitanja na koja ne možete pronaći odgovore."
+    }
+  },
+  "contact": {
+    "metaTitle": "Kontakt – Hirovo",
+    "metaDescription": "Kontaktirajte Hirovo. Kontaktirajte nas za svoja pitanja, prijedloge i povratne informacije.",
+    "hero": {
+      "title": "Komunikacija",
+      "subtitle": "Rado ćemo vam pomoći"
+    },
+    "info": {
+      "title": "Podaci za kontakt",
+      "email": {
+        "title": "E-mail",
+        "value": "hello@hirovo.com",
+        "description": "24/7 podrška e-poštom"
+      },
+      "phone": {
+        "title": "Telefon",
+        "value": "+90 (212) 000 00 00",
+        "description": "ponedjeljak - petak, 09:00 - 18:00 sati"
+      },
+      "address": {
+        "title": "Adresa",
+        "value": "Istanbul, Turska",
+        "description": "Naš glavni ured"
+      }
+    },
+    "form": {
+      "title": "Pišite nam",
+      "name": "Vaše ime i prezime",
+      "email": "Vaša adresa e-pošte",
+      "subject": "Predmet",
+      "message": "Vaša poruka",
+      "submit": "Poslati",
+      "subjects": {
+        "general": "Općenito pitanje",
+        "support": "Tehnička podrška",
+        "partnership": "Partnerstvo",
+        "feedback": "Povratne informacije",
+        "other": "ostalo"
+      },
+      "success": "Vaša poruka je uspješno poslana. Javit ćemo vam se što je prije moguće.",
+      "error": "Došlo je do pogreške. Pokušajte ponovno kasnije."
+    },
+    "social": {
+      "title": "Društveni mediji",
+      "subtitle": "Pratite nas na društvenim mrežama"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Savjeti za karijeru - Hirovo",
+    "metaDescription": "Stručni savjeti o traženju posla, pripremi životopisa, tehnikama razgovora i razvoju karijere.",
+    "hero": {
+      "title": "Savjeti za karijeru",
+      "subtitle": "Podignite svoju karijeru na višu razinu"
+    },
+    "categories": {
+      "resume": "Priprema životopisa",
+      "interview": "Tehnike intervjua",
+      "career": "Razvoj karijere",
+      "workplace": "Poslovni život"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Kako pripremiti učinkovit CV?",
+        "summary": "Profesionalni vodič za izradu životopisa koji privlači pažnju poslodavaca.",
+        "content": "Vaš CV je prvi dojam vaše prijave za posao. Dobro pripremljen životopis izdvaja vas od ostalih kandidata i povećava vam šanse da dobijete poziv na intervju. Evo savjeta za učinkovit CV:\n\n1. Koristite jasan i koncizan format\n2. Istaknite svoja relevantna iskustva\n3. Potkrijepite svoja konkretna postignuća brojevima\n4. Koristite ključne riječi ispravno\n5. Pažljivo provjerite pogreške"
+      },
+      "resume2": {
+        "title": "Najčešće greške u životopisu",
+        "summary": "Pogreške u životopisu zbog kojih bi vaše prijave mogle biti odbijene i kako ih izbjeći.",
+        "content": "Mnogi kandidati čine kritične pogreške u svojim životopisima, a da toga nisu svjesni. Prepoznavanje i ispravljanje ovih pogrešaka ubrzat će vaš proces pronalaska posla."
+      },
+      "interview1": {
+        "title": "Tajne uspjeha na intervjuima",
+        "summary": "Tehnike koje trebate znati da biste bili uspješni na razgovorima za posao.",
+        "content": "Intervju je najkritičnija faza procesa prijave za posao. Dobro pripremljeni kandidati mogu se nositi sa stresom i izraziti se na najbolji način."
+      },
+      "interview2": {
+        "title": "Najčešća pitanja za intervju",
+        "summary": "Pitanja s kojima ćete se susresti na razgovorima za posao i učinkovite strategije odgovora.",
+        "content": "Na intervjuima se gotovo uvijek postavljaju određena pitanja. Priprema za ova pitanja unaprijed povećava vaše samopouzdanje."
+      },
+      "career1": {
+        "title": "Za one koji žele promijeniti karijeru",
+        "summary": "Vodič korak po korak za one koji žele promijeniti sektore ili pozicije.",
+        "content": "Promjena karijere može se činiti zastrašujućom, ali uz pravilno planiranje može se uspješno ostvariti."
+      },
+      "career2": {
+        "title": "Profesionalno umrežavanje",
+        "summary": "Načini izgradnje odnosa koji će unaprijediti vašu karijeru.",
+        "content": "Snažna profesionalna mreža povećava prilike za karijeru i informira vas o razvoju industrije."
+      },
+      "workplace1": {
+        "title": "Stvari koje treba uzeti u obzir kada započinjete novi posao",
+        "summary": "Praktični savjeti za uspjeh od prvog dana na poslu.",
+        "content": "Pokretanje nečeg novog može biti uzbudljivo, ali i stresno. Pravilnim pristupom možete se brzo prilagoditi i imati uspješan početak."
+      },
+      "workplace2": {
+        "title": "Kako uspostaviti ravnotežu između poslovnog i privatnog života?",
+        "summary": "Načini za balansiranje karijere i privatnog života.",
+        "content": "Zdrava ravnoteža između poslovnog i privatnog života ključna je i za uspjeh u karijeri i za osobnu sreću."
+      }
+    },
+    "newsletter": {
+      "title": "Dobijte savjete za karijeru",
+      "subtitle": "Pretplatite se na naš newsletter za najnovije savjete o karijeri i mogućnosti zapošljavanja.",
+      "placeholder": "Vaša email adresa",
+      "button": "Pretplatite se"
+    }
+  },
+  "privacy": {
+    "title": "Politika privatnosti",
+    "metaTitle": "Politika privatnosti - Hirovo",
+    "metaDescription": "Hirovo Politika privatnosti - Informacije o tome kako se vaši osobni podaci prikupljaju, koriste i štite.",
+    "lastUpdate": "Zadnje ažuriranje: siječanj 2025",
+    "intro": "U Hirovu veliku važnost pridajemo privatnosti naših korisnika. Ova Pravila privatnosti objašnjavaju kako se obrađuju osobni podaci koje prikupljamo putem mobilne aplikacije Hirovo (\"Aplikacija\").",
+    "section1": {
+      "title": "1. Podaci koje prikupljamo",
+      "intro": "Možemo prikupljati sljedeće informacije kada koristite našu aplikaciju:",
+      "items": {
+        "account": "Podaci o računu: Ime, prezime, e-mail adresa, broj telefona",
+        "profile": "Podaci o profilu: CV, radno iskustvo, podaci o obrazovanju, vještine",
+        "location": "Podaci o lokaciji: podaci o lokaciji za prikaz oglasa za posao u vašoj blizini (uz vaše dopuštenje)",
+        "device": "Informacije o uređaju: obilazak uređaja, operativni sustav, verzija aplikacije",
+        "usage": "Podaci o korištenju: interakcije unutar aplikacije, pregledani oglasi, aplikacije"
+      }
+    },
+    "section2": {
+      "title": "2. Svrhe korištenja informacija",
+      "intro": "Podatke koje prikupljamo koristimo u sljedeće svrhe:",
+      "items": {
+        "account": "Izrada i upravljanje vašim računom",
+        "jobs": "Prikazuju se oglasi za posao koji odgovaraju vama",
+        "applications": "Prosljeđivanje vaših prijava za posao poslodavcima",
+        "improve": "Poboljšanje iskustva primjene",
+        "support": "Pružanje tehničke podrške",
+        "legal": "Kako bismo ispunili svoje zakonske obveze"
+      }
+    },
+    "section3": {
+      "title": "3. Dijeljenje informacija",
+      "intro": "Vaše osobne podatke ne dijelimo s trećim stranama osim u sljedećim slučajevima:",
+      "items": {
+        "employers": "Poslodavci: Vaše podatke o profilu dijelimo s vlasnicima oglasa za posao na koje se prijavljujete.",
+        "providers": "Pružatelji usluga: Pouzdani partneri koji pružaju tehničke usluge potrebne za rad naše aplikacije.",
+        "legal": "Pravne obveze: Sukladno pravnim procesima ili zahtjevima nadležnih tijela"
+      }
+    },
+    "section4": {
+      "title": "4. Sigurnost podataka",
+      "intro": "Provodimo standardne sigurnosne mjere za zaštitu vaših osobnih podataka:",
+      "items": {
+        "ssl": "SSL/TLS enkripcija",
+        "datacenter": "Sigurni podatkovni centri",
+        "audits": "Redovite sigurnosne revizije",
+        "access": "Kontrola pristupa i autorizacija"
+      }
+    },
+    "section5": {
+      "title": "5. Vaša prava",
+      "intro": "U okviru Zakona o zaštiti osobnih podataka br. 6698 (KVKK) imate sljedeća prava:",
+      "items": {
+        "know": "Saznati obrađuju li se vaši osobni podaci ili ne",
+        "info": "Traženje informacija o Vašim osobnim podacima ako su obrađeni",
+        "purpose": "Saznati svrhu obrade Vaših osobnih podataka i koriste li se u svrhu za koju su namijenjeni",
+        "thirdParty": "Poznavanje trećih strana kojima se osobni podaci prenose u zemlji ili inozemstvu",
+        "correct": "Zahtjev za ispravak osobnih podataka ako su nepotpuni ili neispravno obrađeni",
+        "delete": "Zatražite brisanje ili uništenje Vaših osobnih podataka"
+      }
+    },
+    "section6": {
+      "title": "6. Kolačići i tehnologije praćenja",
+      "content": "Naša aplikacija može koristiti kolačiće i slične tehnologije za poboljšanje vašeg iskustva. Zahvaljujući ovim tehnologijama pamtimo vaše preferencije i analiziramo performanse aplikacija."
+    },
+    "section7": {
+      "title": "7. Privatnost djece",
+      "content": "Naša aplikacija nije usmjerena na osobe mlađe od 18 godina. Ne prikupljamo svjesno osobne podatke od osoba mlađih od 18 godina."
+    },
+    "section8": {
+      "title": "8. Promjene politike",
+      "content": "S vremena na vrijeme možemo ažurirati ovu Politiku privatnosti. U slučaju značajnih promjena, obavijestit ćemo vas putem obavijesti unutar aplikacije."
+    },
+    "section9": {
+      "title": "9. Komunikacija",
+      "intro": "Za vaša pitanja vezana uz privatnost, možete nas kontaktirati:"
+    }
+  },
+  "terms": {
+    "title": "Uvjeti korištenja",
+    "metaTitle": "Uvjeti korištenja - Hirovo",
+    "metaDescription": "Hirovo Uvjeti korištenja - Pravila i uvjeti kojih se morate pridržavati kada koristite našu aplikaciju.",
+    "lastUpdate": "Zadnje ažuriranje: siječanj 2025",
+    "intro": "Korištenjem mobilne aplikacije Hirovo (\"Aplikacija\") smatra se da ste prihvatili sljedeće uvjete korištenja. Molimo pažljivo pročitajte ove uvjete.",
+    "section1": {
+      "title": "1. Opis usluge",
+      "intro": "Hirovo je platforma za traženje posla koja ima za cilj povezati tražitelje posla s poslodavcima. Kroz našu aplikaciju:",
+      "items": {
+        "view": "Možete pogledati oglase za posao i prijaviti se",
+        "profile": "Možete kreirati svoj profesionalni profil",
+        "offers": "Možete procijeniti ponude poslodavaca",
+        "track": "Možete pratiti prilike za karijeru"
+      }
+    },
+    "section2": {
+      "title": "2. Izrada računa i sigurnost",
+      "intro": "Za korištenje naše aplikacije morate otvoriti račun. Prilikom izrade računa:",
+      "items": {
+        "accurate": "Suglasni ste pružiti točne i aktualne informacije",
+        "responsible": "Vi ste odgovorni za povjerljivost podataka o svom računu.",
+        "activity": "Vi ste odgovorni za sve aktivnosti koje se dogode na vašem računu.",
+        "notify": "U slučaju neovlaštenog pristupa morate nas odmah obavijestiti"
+      }
+    },
+    "section3": {
+      "title": "3. Obveze korisnika",
+      "intro": "Prilikom korištenja naše aplikacije prihvaćate sljedeća pravila:",
+      "items": {
+        "legal": "Postupanje u skladu sa zakonima i propisima",
+        "honest": "Dijeljenje točnih informacija koje ne obmanjuju",
+        "respect": "Poštivanje prava drugih korisnika",
+        "noSpam": "Bez dijeljenja neželjene pošte, zlonamjernog softvera ili zlonamjernog sadržaja",
+        "security": "Izbjegavanje radnji koje mogu ugroziti sigurnost aplikacije",
+        "identity": "Ne glumiti druge"
+      }
+    },
+    "section4": {
+      "title": "4. Zabranjena ponašanja",
+      "intro": "Sljedeća ponašanja su strogo zabranjena:",
+      "items": {
+        "fake": "Izrada lažnih oglasa za posao ili profila",
+        "harass": "Uznemiravanje ili uznemiravanje drugih korisnika",
+        "illegal": "Korištenje aplikacije u nezakonite svrhe",
+        "damage": "Oštećivanje tehničke infrastrukture aplikacije",
+        "bots": "Korištenje automatiziranih sustava ili botova",
+        "ip": "Kršenje prava intelektualnog vlasništva"
+      }
+    },
+    "section5": {
+      "title": "5. Sadržaj i intelektualno vlasništvo",
+      "intro": "Sva prava na aplikaciju i njen sadržaj pripadaju Hirovu:",
+      "items": {
+        "ownership": "Logo, dizajn i sučelje vlasništvo su Hirova",
+        "userContent": "Sadržaj koji je postavio korisnik odgovornost je korisnika.",
+        "license": "Dajete nam potrebne licence za informacije koje dijelite na svom profilu.",
+        "thirdParty": "Vaš sadržaj ne smije kršiti prava trećih strana"
+      }
+    },
+    "section6": {
+      "title": "6. Ograničenje odgovornosti",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Ne jamči točnost oglasa za posao",
+        "relationship": "Nije stranka u odnosu poslodavac-zaposlenik",
+        "disputes": "Ne odgovara za sporove između korisnika",
+        "uptime": "Ne jamči da će usluga raditi bez prekida.",
+        "damages": "Nije odgovoran za bilo kakvu neizravnu ili posljedičnu štetu."
+      }
+    },
+    "section7": {
+      "title": "7. Obustava i ukidanje računa",
+      "intro": "Možemo obustaviti ili ukinuti vaš račun u sljedećim situacijama:",
+      "items": {
+        "violation": "Kršenje uvjeta korištenja",
+        "illegal": "Ilegalne aktivnosti",
+        "harm": "Ponašanje koje šteti drugim korisnicima",
+        "false": "Pružanje lažnih ili pogrešnih informacija"
+      }
+    },
+    "section8": {
+      "title": "8. Promjene",
+      "content": "Zadržavamo pravo izmjene ovih uvjeta korištenja bez prethodne najave. Važne promjene bit će najavljene putem obavijesti unutar aplikacije. Nastavak korištenja aplikacije nakon promjena znači da prihvaćate nove uvjete."
+    },
+    "section9": {
+      "title": "9. Mjerodavno pravo",
+      "content": "Ovi uvjeti korištenja podliježu zakonima Republike Turske. U slučaju spora, nadležni su istanbulski sudovi i uredi za izvršenje."
+    },
+    "section10": {
+      "title": "10. Komunikacija",
+      "intro": "Za vaša pitanja o uvjetima korištenja:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Zahtjev za brisanje računa",
+    "metaTitle": "Brisanje računa - Hirovo",
+    "metaDescription": "Zahtjev za brisanje vašeg Hirovo računa.",
+    "description": "Ako želite izbrisati svoj račun, ispunite donji obrazac. Nakon što se vaš zahtjev pregleda, vaš račun i svi vaši podaci bit će trajno izbrisani.",
+    "warning": "Nakon što se vaš račun izbriše, svi vaši podaci (informacije o profilu, aplikacije, poruke) bit će trajno izbrisani i neće se moći vratiti.",
+    "form": {
+      "emailLabel": "E-mail adresa",
+      "emailPlaceholder": "primjer@e-pošta.com",
+      "phoneLabel": "Broj telefona",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Razlog za brisanje",
+      "reasonPlaceholder": "Zašto želite izbrisati svoj račun?",
+      "submitButton": "Podnesite zahtjev za brisanje računa"
+    },
+    "errors": {
+      "emailOrPhone": "Molimo unesite svoju e-mail adresu ili broj telefona.",
+      "generic": "Došlo je do pogreške. Pokušajte ponovno kasnije.",
+      "connection": "Pogreška veze. Provjerite svoju internetsku vezu."
+    },
+    "success": {
+      "title": "Vaš zahtjev je primljen",
+      "message": "Vaš zahtjev za brisanje računa je uspješno primljen. Vaš zahtjev će biti pregledan u najkraćem mogućem roku i bit ćete obaviješteni putem e-maila ili SMS-a.",
+      "processingTime": "Vrijeme obrade: 1-3 radna dana"
+    },
+    "contactNote": "Možete nas kontaktirati na."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Odaberite jezik",
+    "popularLanguages": "Popularni jezici"
+  }
+}

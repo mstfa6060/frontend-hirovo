@@ -1,0 +1,167 @@
+{
+  "cities": {
+    "common": {
+      "jobsIn": "Is Ilanlari",
+      "findJobsIn": "Is Bul",
+      "popularSectors": "Populer Sektorler",
+      "averageSalary": "Ortalama Maas",
+      "activeJobs": "Aktif Ilan",
+      "companies": "Sirket",
+      "applyNow": "Hemen Basvur",
+      "seeAllJobs": "Tum Ilanlari Gor",
+      "whyWorkHere": "Neden Burada Calismaliyim?",
+      "topEmployers": "One Cikan Isverenler",
+      "jobCategories": "Is Kategorileri"
+    },
+    "istanbul": {
+      "name": "Istanbul",
+      "metaTitle": "Istanbul Is Ilanlari - Hirovo",
+      "metaDescription": "Istanbul'da binlerce is ilani sizi bekliyor. Turkiye'nin ekonomi baskenti Istanbul'da kariyer firsatlarini kesfedin, hemen basvurun.",
+      "heroTitle": "Istanbul'da Is Ilanlari",
+      "heroSubtitle": "Turkiye'nin en buyuk is pazarinda hayalindeki kariyer firsatini bul",
+      "description": "Istanbul, Turkiye'nin ekonomik kalbi ve en buyuk is pazaridir. 16 milyonu askin nufusuyla ulkenin en dinamik sehri olan Istanbul, finans, teknoloji, perakende, turizm ve uretim basta olmak uzere hemen her sektorde binlerce is firsati sunmaktadir. Bogazin iki yakasinda yayilan bu metropol, hem yerel hem de uluslararasi sirketlere ev sahipligi yapmaktadir. Levent, Maslak ve Atasehir gibi is merkezleri, bankacilik ve finans sektorunun kalbi konumundadir. Teknoloji sirketleri ise genellikle Maslak, Levent ve son yillarda gelisen Atasehir bolgesinde yogunlasmistir. Istanbul ayni zamanda Turkiye'nin en onemli liman sehri olmasi nedeniyle lojistik ve dis ticaret alaninda da onemli istihdam firsatlari sunmaktadir. Sehrin zengin tarihi ve kulturel mirasi, turizm ve otelcilik sektorunde de buyuk bir istihdam potansiyeli olusturmaktadir.",
+      "highlights": ["Turkiye'nin en buyuk is pazari", "Uluslararasi sirket yogunlugu", "Yuksek maas ortalamasi", "Gelismis ulasim agi", "Cok sektorlu istihdam firsati"],
+      "sectors": ["Finans ve Bankacilik", "Teknoloji ve Yazilim", "Perakende ve E-ticaret", "Turizm ve Otelcilik", "Lojistik ve Tasimacılık", "Medya ve Reklam"]
+    },
+    "ankara": {
+      "name": "Ankara",
+      "metaTitle": "Ankara Is Ilanlari - Hirovo",
+      "metaDescription": "Ankara'da kamu ve ozel sektor is ilanlari. Baskent'te kariyer firsatlarini kesfedin, Hirovo ile hemen basvurun.",
+      "heroTitle": "Ankara'da Is Ilanlari",
+      "heroSubtitle": "Baskent'te kamu ve ozel sektor kariyer firsatlari",
+      "description": "Ankara, Turkiye Cumhuriyeti'nin baskenti ve ulkenin ikinci buyuk sehridir. Yaklasik 5.7 milyon nufusa sahip olan Ankara, kamu sektoru istihdaminin merkezi konumundadir. Bakanlıklar, kamu kuruluslari ve devlet kurumlari baskent'te yogunlasmistir. Ancak Ankara sadece kamu sektoru ile sinirli degildir. Sehir ayni zamanda savunma sanayi, teknoloji ve egitim alanlarinda da onemli bir merkez haline gelmistir. ODTU Teknokent ve Bilkent Cyberpark gibi teknoloji gelistirme bolgeleri, yazilim ve muhendislik alaninda binlerce is firsati sunmaktadir. Savunma sanayi sirketleri de Ankara'da yogunlasmis olup, ASELSAN, TAI, ROKETSAN gibi dev sirketler nitelikli is gucu aramaktadir. Universite sehri olma ozelligi ile egitim sektorunde de genis istihdam imkanlari mevcuttur.",
+      "highlights": ["Kamu sektoru merkezi", "Savunma sanayi kalesi", "Teknokent ve AR-GE merkezleri", "Universite sehri", "Uygun yasam maliyeti"],
+      "sectors": ["Kamu ve Devlet Kurumlari", "Savunma Sanayi", "Teknoloji ve AR-GE", "Egitim ve Akademi", "Saglik Sektoru", "Insaat ve Altyapi"]
+    },
+    "izmir": {
+      "name": "Izmir",
+      "metaTitle": "Izmir Is Ilanlari - Hirovo",
+      "metaDescription": "Izmir'de is firsatlari sizi bekliyor. Ege'nin incisi Izmir'de turizm, ticaret ve sanayi alanlarinda kariyer yapin.",
+      "heroTitle": "Izmir'de Is Ilanlari",
+      "heroSubtitle": "Ege'nin ekonomik merkezinde kariyer firsatlari",
+      "description": "Izmir, Turkiye'nin ucuncu buyuk sehri ve Ege Bolgesi'nin ekonomik merkezidir. Yaklasik 4.5 milyon nufusuyla onemli bir liman ve sanayi sehri olan Izmir, dis ticarette kritik bir rol ustlenmektedir. Aliaga petrokimya tesisleri ve organize sanayi bolgeleri, uretim sektorunde binlerce kisiye istihdam saglamaktadir. Sehrin Akdeniz iklimi ve uzun kıyı seridi, turizm sektorunu canli tutmaktadir. Cesme, Alacati ve Foca gibi bolgeler ozellikle yaz aylarinda turizm istihdaminda onemli artislar gostermektedir. Izmir ayni zamanda tarim ve gida sanayinde de guclu bir konuma sahiptir. Zeytinyagi, uzum ve incir uretimi bolgenin ekonomik dayanaklarindan birini olusturmaktadir. Sehirdeki universite ve arastirma kurumlari, egitim ve AR-GE alanlarinda da kariyer firsatlari sunmaktadir.",
+      "highlights": ["Onemli liman sehri", "Guclu sanayi altyapisi", "Turizm potansiyeli", "Yuksek yasam kalitesi", "Dis ticaret merkezi"],
+      "sectors": ["Dis Ticaret ve Lojistik", "Uretim ve Sanayi", "Turizm ve Otelcilik", "Tarim ve Gida", "Enerji Sektoru", "Denizcilik"]
+    },
+    "bursa": {
+      "name": "Bursa",
+      "metaTitle": "Bursa Is Ilanlari - Hirovo",
+      "metaDescription": "Bursa'da otomotiv, tekstil ve uretim sektorlerinde is firsatlari. Sanayi sehri Bursa'da kariyerinizi insa edin.",
+      "heroTitle": "Bursa'da Is Ilanlari",
+      "heroSubtitle": "Turkiye'nin sanayi devinde kariyer firsatlari",
+      "description": "Bursa, Turkiye'nin dort buyuk sehrinden biri ve en onemli sanayi merkezlerinden biridir. 3 milyonu askin nufusuyla ulkenin otomotiv baskenti olarak bilinmektedir. TOFAS, Oyak Renault ve yuzlerce yan sanayi kurulusu Bursa'da faaliyet gostermektedir. Otomotiv sektorunun yani sira tekstil ve konfeksiyon sektoru de sehrin ekonomik dayanaklarindan birini olusturmaktadir. Bursa ayni zamanda tarihi Ipek Yolu'nun onemli duraklarindan biri olmasi nedeniyle ticaret gelenegine sahiptir. Uludag'in eteklerinde yer alan sehir, kis turizmi ile de ekonomisine katki saglamaktadir. Organize sanayi bolgelerinde binlerce fabrika faaliyet gostermekte ve nitelikli teknik personel ile muhendis ihtiyaci surekli devam etmektedir. Sehrin Istanbul'a yakinligi, lojistik avantaj saglamaktadir.",
+      "highlights": ["Otomotiv sektorunun kalbi", "Guclu tekstil sanayi", "Organize sanayi bolgeleri", "Istanbul'a yakinlik", "Turizm potansiyeli"],
+      "sectors": ["Otomotiv Sanayi", "Tekstil ve Konfeksiyon", "Makine ve Metal", "Gida Sanayi", "Turizm", "Lojistik"]
+    },
+    "antalya": {
+      "name": "Antalya",
+      "metaTitle": "Antalya Is Ilanlari - Hirovo",
+      "metaDescription": "Antalya'da turizm ve hizmet sektoru is ilanlari. Turkiye'nin turizm baskentinde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Antalya'da Is Ilanlari",
+      "heroSubtitle": "Turizmin baskentinde kariyer firsatlari",
+      "description": "Antalya, Turkiye'nin turizm baskenti ve dunyaca unlu bir tatil destinasyonudur. Yillik 15 milyonun uzerinde turist agirlayan sehir, ozellikle turizm ve otelcilik sektorunde muazzam istihdam firsatlari sunmaktadir. Belek, Kemer, Side ve Alanya gibi turistik bolgeler, otel, restoran ve eglence sektorlerinde binlerce kisiye is imkani saglamaktadir. Sehirde turizm sezonunun uzamasi ve kis turizmine yonelik yatirimlar, yil boyu istihdam olanaklari yaratmaktadir. Golf turizmi, saglik turizmi ve kongre turizmi gibi niş alanlar da gelismektedir. Antalya ayni zamanda tarim sektorunde, ozellikle sera tariminda onemli bir merkezdir. Narenciye ve sebze uretimi bolge ekonomisine katki saglamaktadir. Sehrin hizli buyumesi, insaat ve gayrimenkul sektorunde de firsatlar olusturmaktadir.",
+      "highlights": ["Turkiye'nin turizm merkezi", "Yil boyu istihdam", "Uluslararasi is ortami", "Yuksek yasam kalitesi", "Gelisen saglik turizmi"],
+      "sectors": ["Turizm ve Otelcilik", "Yiyecek ve Icecek", "Saglik Turizmi", "Tarim ve Sera", "Insaat ve Gayrimenkul", "Etkinlik Yonetimi"]
+    },
+    "adana": {
+      "name": "Adana",
+      "metaTitle": "Adana Is Ilanlari - Hirovo",
+      "metaDescription": "Adana'da tarim, sanayi ve ticaret alanlarinda is firsatlari. Cukurova'nin merkezi Adana'da kariyerinizi gelistirin.",
+      "heroTitle": "Adana'da Is Ilanlari",
+      "heroSubtitle": "Cukurova'nin ekonomik merkezinde kariyer firsatlari",
+      "description": "Adana, Turkiye'nin altinci buyuk sehri ve Cukurova Bolgesi'nin ekonomik merkezidir. Verimli Cukurova ovasi sayesinde tarim ve tarimsal sanayi sehrin ekonomik temelini olusturmaktadir. Pamuk, misir, soya ve narenciye uretiminde Turkiye'nin oncu sehirlerinden biridir. Tarimsal urunlerin islenmesi, paketlenmesi ve ihracati binlerce kisiye istihdam saglamaktadir. Adana ayni zamanda guclu bir sanayi altyapisına sahiptir. Tekstil, gida isleme, plastik ve kimya sektörleri organize sanayi bolgelerinde faaliyet gostermektedir. Sehrin Akdeniz'e yakinligi ve Iskenderun limani baglantisi, lojistik ve dis ticaret alaninda avantaj yaratmaktadir. Saglik sektoru de sehirde hizla gelismekte olup, ozel hastaneler nitelikli saglik personeli aramaktadir.",
+      "highlights": ["Tarimsal sanayi merkezi", "Guclu tekstil sektoru", "Lojistik avantaji", "Gelisen saglik sektoru", "Uygun yasam maliyeti"],
+      "sectors": ["Tarim ve Gida Sanayi", "Tekstil ve Konfeksiyon", "Kimya ve Plastik", "Lojistik", "Saglik Sektoru", "Ticaret"]
+    },
+    "konya": {
+      "name": "Konya",
+      "metaTitle": "Konya Is Ilanlari - Hirovo",
+      "metaDescription": "Konya'da tarim, makine sanayi ve ticaret alanlarinda is firsatlari. Anadolu'nun kalbi Konya'da kariyer yapın.",
+      "heroTitle": "Konya'da Is Ilanlari",
+      "heroSubtitle": "Anadolu'nun kalbinde kariyer firsatlari",
+      "description": "Konya, Turkiye'nin yuzolcumu en buyuk sehri ve Ic Anadolu'nun ekonomik merkezlerinden biridir. Genis tarim arazileri ile Turkiye'nin tahil ambari olarak bilinmektedir. Bugday, arpa ve seker pancari uretiminde ulkenin oncu sehirlerinden biridir. Tarimsal makine ve ekipman uretimi de Konya'nin guclu oldugu alanlardan biridir. Sehirde faaliyet gosteren makine imalat firmalari, tum Turkiye'ye ve yurt disina urun ihrac etmektedir. Konya ayni zamanda otomotiv yan sanayi, metal isleme ve plastik sektorlerinde de onemli bir uretim merkezi haline gelmistir. Sehrin dini ve kulturel onemi, turizm sektorunde de istihdam yaratmaktadir. Mevlana Muzesi her yil milyonlarca ziyaretci cekmektedir. Universite sehri olmasi nedeniyle egitim sektorunde de kariyer firsatlari mevcuttur.",
+      "highlights": ["Tarim ve makine sanayi", "Otomotiv yan sanayi", "Kulturel turizm", "Universite sehri", "Stratejik konum"],
+      "sectors": ["Tarim ve Tarim Makineleri", "Otomotiv Yan Sanayi", "Metal ve Makine", "Gida Sanayi", "Egitim", "Turizm"]
+    },
+    "gaziantep": {
+      "name": "Gaziantep",
+      "metaTitle": "Gaziantep Is Ilanlari - Hirovo",
+      "metaDescription": "Gaziantep'te sanayi, ticaret ve gida sektorlerinde is firsatlari. Turkiye'nin sanayi devi Gaziantep'te kariyer yapin.",
+      "heroTitle": "Gaziantep'te Is Ilanlari",
+      "heroSubtitle": "Guneydogu'nun sanayi devinde kariyer firsatlari",
+      "description": "Gaziantep, Turkiye'nin en dinamik sanayi sehirlerinden biri ve Guneydogu Anadolu'nun ekonomik merkezidir. Sehir, ozellikle tekstil, hali, gida ve makine sektorlerinde ulke capinda one cikmaktadir. Dunyaca unlu Antep baklavasi ve Antep fistigi, sehrin gastronomik kimliginin temel taslarıdır. Gida sanayi ve gastronomi turizmi onemli istihdam alanlari olusturmaktadir. Gaziantep ayni zamanda Turkiye'nin en buyuk hali ihracatcisidir. Tekstil ve konfeksiyon sektorunde de guclu bir altyapiya sahiptir. Organize sanayi bolgeleri surekli buyumekte ve yeni yatirimlar cekmektedir. Sehrin Suriye sinirindaki konumu, sinir ticareti ve lojistik sektorunde de onemli firsatlar yaratmaktadir. Girisimcilik kulturu guclu olan Gaziantep'te kucuk ve orta olcekli isletmeler ekonominin bel kemigini olusturmaktadir.",
+      "highlights": ["Guclu sanayi altyapisi", "Ihracat odakli ekonomi", "Gastronomi merkezi", "Girisimcilik kulturu", "Hizli ekonomik buyume"],
+      "sectors": ["Tekstil ve Hali", "Gida Sanayi", "Makine Imalat", "Dis Ticaret", "Gastronomi", "Lojistik"]
+    },
+    "kocaeli": {
+      "name": "Kocaeli",
+      "metaTitle": "Kocaeli Is Ilanlari - Hirovo",
+      "metaDescription": "Kocaeli'de otomotiv, kimya ve sanayi sektorlerinde is firsatlari. Marmara'nin sanayi kenti Kocaeli'de kariyer yapin.",
+      "heroTitle": "Kocaeli'de Is Ilanlari",
+      "heroSubtitle": "Marmara'nin sanayi kentinde kariyer firsatlari",
+      "description": "Kocaeli, Turkiye'nin en onemli sanayi merkezlerinden biri ve Marmara Bolgesi'nin sanayi kalesidir. Istanbul ile Ankara arasindaki stratejik konumu, sehri lojistik ve uretim icin ideal bir nokta haline getirmistir. Otomotiv sektoru Kocaeli'nin ekonomik dayanaklarinin basinda gelmektedir. Ford, Hyundai ve Honda gibi dev markalar burada uretim yapmaktadir. Petrokimya sektoru de sehrin ekonomisinde buyuk bir paya sahiptir. TUPRAS rafinerisi ve cevresindeki kimya tesisleri binlerce kisiye istihdam saglamaktadir. Kocaeli ayni zamanda Turkiye'nin en buyuk organize sanayi bolgelerinden bazilarina ev sahipligi yapmaktadir. Gebze ve Dilovasi bolgeleri yogun sanayi faaliyetlerine sahne olmaktadir. Sehrin limanlari, deniz ticareti ve lojistik sektorunde de onemli is firsatlari sunmaktadir.",
+      "highlights": ["Otomotiv uretim merkezi", "Petrokimya sanayi", "Stratejik konum", "Buyuk OSB'ler", "Liman altyapisi"],
+      "sectors": ["Otomotiv Sanayi", "Petrokimya", "Kimya Sanayi", "Lojistik ve Depolama", "Metal Sanayi", "Enerji"]
+    },
+    "mersin": {
+      "name": "Mersin",
+      "metaTitle": "Mersin Is Ilanlari - Hirovo",
+      "metaDescription": "Mersin'de liman, lojistik ve turizm sektorlerinde is firsatlari. Akdeniz'in incisi Mersin'de kariyerinizi insa edin.",
+      "heroTitle": "Mersin'de Is Ilanlari",
+      "heroSubtitle": "Akdeniz'in liman kentinde kariyer firsatlari",
+      "description": "Mersin, Turkiye'nin en buyuk liman sehri ve Akdeniz Bolgesi'nin onemli ekonomik merkezlerinden biridir. Mersin Limani, Turkiye'nin en islek konteyner limani olup, ulkenin dis ticaretinde kritik bir rol ustlenmektedir. Bu durum lojistik, gumruk, tasimacılık ve depolama sektorlerinde genis istihdam firsatlari yaratmaktadir. Sehir ayni zamanda serbest bolge avantajina sahiptir. Mersin Serbest Bolgesi, ozellikle ihracata yonelik uretim yapan firmalar icin cazip firsatlar sunmaktadir. Tarim sektoru de Mersin ekonomisinde onemli bir yere sahiptir. Narenciye, muz ve sebze uretimi bolgenin tarimsal zenginligini olusturmaktadir. Petrokimya sektoru de sehirde gelismekte olup, rafineriler ve kimya tesisleri istihdam saglamaktadir. Turizm potansiyeli de her gecen gun artmaktadir.",
+      "highlights": ["Turkiye'nin en buyuk limani", "Serbest bolge avantaji", "Dis ticaret merkezi", "Tarim potansiyeli", "Gelisen turizm"],
+      "sectors": ["Lojistik ve Liman Hizmetleri", "Dis Ticaret", "Tarim ve Narenciye", "Petrokimya", "Serbest Bolge", "Turizm"]
+    },
+    "diyarbakir": {
+      "name": "Diyarbakir",
+      "metaTitle": "Diyarbakir Is Ilanlari - Hirovo",
+      "metaDescription": "Diyarbakir'da tarim, ticaret ve hizmet sektorlerinde is firsatlari. Guneydogu'nun kalbi Diyarbakir'da kariyer yapin.",
+      "heroTitle": "Diyarbakir'da Is Ilanlari",
+      "heroSubtitle": "Guneydogu Anadolu'nun merkezinde kariyer firsatlari",
+      "description": "Diyarbakir, Guneydogu Anadolu Bolgesi'nin en buyuk sehri ve bolgenin ekonomik, kulturel merkezidir. Tarihi surları ile UNESCO Dunya Mirasi Listesi'nde yer alan sehir, kulturel turizm potansiyeline sahiptir. Tarim sektoru Diyarbakir ekonomisinin temelini olusturmaktadir. Bugday, pamuk, karpuz ve kavun uretiminde Turkiye'nin onde gelen sehirlerinden biridir. Gida isleme ve tarimsal sanayi de istihdam saglamaktadir. Sehir son yillarda saglik ve egitim sektorlerinde de onemli gelismeler kaydetmistir. Dicle Universitesi ve yeni acılan ozel universiteler, egitim sektorunde istihdam yaratmaktadir. Saglik turizmi potansiyeli de degerlendirilmektedir. Ticaret ve hizmet sektorleri, buyuyen sehir ekonomisinin onemli bilesenleridir. Perakende ve AVM yatirimlari artmaktadir.",
+      "highlights": ["Bolgesel ekonomik merkez", "Tarim potansiyeli", "Kulturel turizm", "Gelisen saglik sektoru", "Universite sehri"],
+      "sectors": ["Tarim ve Gida", "Ticaret ve Perakende", "Saglik Sektoru", "Egitim", "Turizm", "Insaat"]
+    },
+    "kayseri": {
+      "name": "Kayseri",
+      "metaTitle": "Kayseri Is Ilanlari - Hirovo",
+      "metaDescription": "Kayseri'de mobilya, tekstil ve sanayi sektorlerinde is firsatlari. Anadolu kaplani Kayseri'de kariyerinizi gelistirin.",
+      "heroTitle": "Kayseri'de Is Ilanlari",
+      "heroSubtitle": "Anadolu kaplaninda kariyer firsatlari",
+      "description": "Kayseri, Turkiye'nin Anadolu kaplanlari olarak bilinen sanayilesmis sehirlerinin basında gelmektedir. Guclu girisimcilik kulturu ve is ahlaki ile taninan sehir, ozellikle mobilya, tekstil ve gida sektorlerinde ulke capinda soz sahibidir. Turkiye'nin en buyuk mobilya uretim merkezlerinden biri olan Kayseri, hem ic piyasaya hem de ihracata yonelik uretim yapmaktadir. Tekstil ve hali sektoru de sehrin ekonomik dayanaklarindan birini olusturmaktadir. Kayseri'de uretilen halı ve kilimler dunyanin dort bir yanina ihrac edilmektedir. Gida sektoru, ozellikle sucuk ve pastirma uretimi ile unlu olan sehirde onemli bir istihdam alani olusturmaktadir. Sehrin organize sanayi bolgeleri surekli buyumekte ve yeni yatirimlar cekmektedir. Erciyes Dagı'nin eteklerinde yer alan sehir, kis turizmi ile de ekonomisine katki saglamaktadir.",
+      "highlights": ["Mobilya sektoru lideri", "Guclu girisimcilik kulturu", "Tekstil ve hali uretimi", "Geleneksel gida sanayi", "Kis turizmi"],
+      "sectors": ["Mobilya Sanayi", "Tekstil ve Hali", "Gida Sanayi", "Metal Sanayi", "Insaat Malzemeleri", "Turizm"]
+    },
+    "eskisehir": {
+      "name": "Eskisehir",
+      "metaTitle": "Eskisehir Is Ilanlari - Hirovo",
+      "metaDescription": "Eskisehir'de egitim, havacilik ve sanayi sektorlerinde is firsatlari. Universite sehri Eskisehir'de kariyer yapin.",
+      "heroTitle": "Eskisehir'de Is Ilanlari",
+      "heroSubtitle": "Universite ve sanayi sehrinde kariyer firsatlari",
+      "description": "Eskisehir, Turkiye'nin en yasanabilir sehirlerinden biri ve onemli bir egitim, kultur merkezidir. Anadolu Universitesi ve Eskisehir Teknik Universitesi ile ogrenci nufusu yuksek olan sehir, genc ve dinamik bir yapiya sahiptir. Egitim sektoru sehir ekonomisinin onemli bir bilesenini olusturmaktadir. Havacilik sanayi Eskisehir'in en guclu oldugu alanlardan biridir. Turk Havacilik ve Uzay Sanayii (TUSAS) ve THY Teknik tesisleri burada yer almaktadir. Seramik ve porselen sanayi de sehrin geleneksel uretim alanlarindan biridir. Eskisehir luletasi el sanatlari ile de unludur. Sehir son yillarda kentsel donusum ve modernlesme ile dikkat cekmektedir. Porsuk Cayi kiyisindaki duzenleme, sehri bir cezbe merkezi haline getirmistir. Yasam kalitesi ve kultur-sanat etkinlikleri ile one cikmaktadir.",
+      "highlights": ["Universite sehri", "Havacilik sanayi merkezi", "Yuksek yasam kalitesi", "Kultur ve sanat", "Genc ve dinamik nufus"],
+      "sectors": ["Havacilik Sanayi", "Egitim", "Seramik ve Cam", "Makine Sanayi", "Kultur ve Sanat", "Hizmet Sektoru"]
+    },
+    "samsun": {
+      "name": "Samsun",
+      "metaTitle": "Samsun Is Ilanlari - Hirovo",
+      "metaDescription": "Samsun'da lojistik, tarim ve sanayi sektorlerinde is firsatlari. Karadeniz'in incisi Samsun'da kariyerinizi insa edin.",
+      "heroTitle": "Samsun'da Is Ilanlari",
+      "heroSubtitle": "Karadeniz'in merkezinde kariyer firsatlari",
+      "description": "Samsun, Karadeniz Bolgesi'nin en buyuk sehri ve bolgenin ekonomik, ticari merkezidir. Stratejik limani ile Karadeniz ticaretinde onemli bir rol ustlenmektedir. Lojistik ve deniz tasimaciligi sektoru sehir ekonomisinin temel taslarindan birini olusturmaktadir. Tarim ve gida sanayi de Samsun ekonomisinde buyuk bir paya sahiptir. Tutun, findik ve misir uretimi bolgenin tarimsal zenginligini yansitmaktadir. Gida isleme tesisleri tarimsal urunleri katma degerli urunlere donusturmektedir. Samsun ayni zamanda Karadeniz Teknik Universitesi ve Ondokuz Mayis Universitesi ile egitim alaninda da onemli bir merkezdir. Saglik sektoru de gelismekte olup, bolge insanlarina hizmet veren buyuk hastaneler bulunmaktadir. Turizm potansiyeli, ozellikle yayla turizmi ve kaplica turizmi ile degerlendirilmektedir.",
+      "highlights": ["Karadeniz'in ticaret merkezi", "Stratejik liman", "Tarim ve gida sanayi", "Universite sehri", "Bolgesel saglik merkezi"],
+      "sectors": ["Lojistik ve Liman", "Tarim ve Gida", "Egitim", "Saglik", "Turizm", "Ticaret"]
+    },
+    "denizli": {
+      "name": "Denizli",
+      "metaTitle": "Denizli Is Ilanlari - Hirovo",
+      "metaDescription": "Denizli'de tekstil, turizm ve sanayi sektorlerinde is firsatlari. Pamukkale'nin sehri Denizli'de kariyer yapin.",
+      "heroTitle": "Denizli'de Is Ilanlari",
+      "heroSubtitle": "Tekstil ve turizm sehrinde kariyer firsatlari",
+      "description": "Denizli, Turkiye'nin en onemli tekstil uretim merkezlerinden biri ve Ege Bolgesi'nin dinamik sanayi sehirlerindendir. Ozellikle ev tekstili, havlu ve bornoz uretiminde dunya capinda taninan Denizli, bu urunlerin ihracatında Turkiye'nin lideridir. Tekstil sektoru binlerce kisiye istihdam saglamakta ve sehir ekonomisinin bel kemigini olusturmaktadir. UNESCO Dunya Mirasi Listesi'ndeki Pamukkale travertenleri, sehre buyuk bir turizm potansiyeli kazandirmaktadir. Her yil milyonlarca yerli ve yabanci turist Pamukkale'yi ziyaret etmektedir. Bu durum otelcilik, restoran ve turizm hizmetlerinde genis istihdam firsatlari yaratmaktadir. Denizli ayni zamanda tarim ve hayvancilik alanında da gucludur. Uzum, incir ve zeytin uretimi bolgenin tarimsal zenginligini yansitmaktadir. Organize sanayi bolgeleri yeni yatirimlara açiktir.",
+      "highlights": ["Tekstil sanayi merkezi", "Pamukkale turizmi", "Ihracat odakli ekonomi", "Tarimsal cesitilik", "Girisimci ruh"],
+      "sectors": ["Tekstil ve Ev Tekstili", "Turizm ve Otelcilik", "Tarim ve Gida", "Mermer Sanayi", "Makine Sanayi", "Ticaret"]
+    }
+  }
+}

@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Pakua",
+    "downloadApp": "Pakua Programu",
+    "googlePlay": "Google Play",
+    "email": "Barua pepe",
+    "phone": "Simu",
+    "or": "au",
+    "loading": "Inapakia...",
+    "sending": "Inatuma...",
+    "error": "Kosa",
+    "success": "Imefanikiwa",
+    "submit": "Tuma",
+    "optional": "hiari",
+    "important": "Muhimu",
+    "contact": "Mawasiliano",
+    "questions": "Kwa maswali yako",
+    "learnMore": "Taarifa Zaidi",
+    "getStarted": "Anza Sasa",
+    "readMore": "Soma zaidi",
+    "viewAll": "Tazama Yote",
+    "free": "Bure",
+    "new": "Mpya"
+  },
+  "metadata": {
+    "title": "Hirovo - Jukwaa la Kupata Kazi na Matangazo",
+    "description": "Hirovo ni jukwaa la kutafuta kazi na matangazo. Gundua machapisho ya kazi, tuma maombi kwa urahisi na ufuate fursa za kazi.",
+    "keywords": "kutafuta kazi, matangazo ya kazi, kazi, utafutaji wa kazi, matangazo ya wafanyakazi, wanaotafuta wafanyakazi, kuajiri, Hirovo",
+    "ogTitle": "Hirovo - Jukwaa la Ajira na Kazi",
+    "ogDescription": "Gundua machapisho ya kazi, tuma na ufuate fursa za kazi na Hirovo."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Kuhusu sisi",
+    "howItWorks": "Jinsi Inavyofanya Kazi",
+    "forJobSeekers": "Watafuta Kazi",
+    "forEmployers": "waajiri",
+    "faq": "Maswali Yanayoulizwa Mara kwa Mara",
+    "contact": "Mawasiliano",
+    "careerTips": "Ushauri wa Kazi"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Sera ya Faragha",
+    "terms": "Masharti ya Matumizi",
+    "deleteAccount": "Ufutaji wa Akaunti",
+    "home": "Ukurasa wa Nyumbani",
+    "about": "Kuhusu sisi",
+    "contact": "Mawasiliano",
+    "faq": "Maswali Yanayoulizwa Mara kwa Mara",
+    "howItWorks": "Jinsi Inavyofanya Kazi",
+    "forJobSeekers": "Kwa Wanaotafuta Kazi",
+    "forEmployers": "Kwa Waajiri",
+    "careerTips": "Ushauri wa Kazi",
+    "company": "Kampuni",
+    "resources": "Rasilimali",
+    "legal": "Kisheria",
+    "followUs": "Tufuate",
+    "description": "Jukwaa la ubunifu zaidi la ajira la Uturuki. Ndoto yako itakuwa hatua moja karibu."
+  },
+  "home": {
+    "hero": {
+      "title": "Tafuta Kazi ya Ndoto yako",
+      "subtitle": "Gundua maelfu ya machapisho ya kazi, tuma maombi kwa urahisi na ufuate fursa za kazi na Hirovo.",
+      "stats": {
+        "jobs": "Utumaji Kazi Inayotumika",
+        "users": "Mtumiaji aliyesajiliwa",
+        "companies": "Kampuni ya Washirika",
+        "placements": "Kulinganisha kwa Mafanikio"
+      }
+    },
+    "features": {
+      "title": "Kwa nini Hirovo?",
+      "subtitle": "Vipengele vyetu vinavyorahisisha utafutaji wako wa kazi",
+      "easySearch": {
+        "title": "Utafutaji Rahisi",
+        "description": "Tafuta kwa haraka kati ya maelfu ya matangazo ya kazi na upate fursa zinazokufaa."
+      },
+      "quickApply": {
+        "title": "Maombi ya Haraka",
+        "description": "Omba kwa kubofya mara moja tu, usipoteze muda. Unda wasifu wako mara moja, utumie kila mahali."
+      },
+      "notifications": {
+        "title": "Arifa za Push",
+        "description": "Jifunze kuhusu machapisho mapya na hali za programu papo hapo, usikose fursa."
+      },
+      "smartMatch": {
+        "title": "Ulinganishaji Mahiri",
+        "description": "Mfumo bandia unaoungwa mkono na akili unapendekeza kazi zinazofaa zaidi ujuzi wako."
+      },
+      "secureProfile": {
+        "title": "Salama Profaili",
+        "description": "Taarifa zako za kibinafsi huhifadhiwa kwa usalama na kushirikiwa na mwajiri pale tu unapotuma ombi."
+      },
+      "careerSupport": {
+        "title": "Usaidizi wa Kazi",
+        "description": "Tuko hapa kukusaidia kwa utayarishaji wa CV, mbinu za usaili na ushauri wa kazi."
+      }
+    },
+    "categories": {
+      "title": "Vitengo Maarufu vya Biashara",
+      "subtitle": "Gundua fursa katika sekta zinazotafutwa sana",
+      "technology": "Teknolojia",
+      "healthcare": "Afya",
+      "finance": "Fedha",
+      "education": "Elimu",
+      "retail": "Rejareja",
+      "manufacturing": "Uzalishaji",
+      "hospitality": "Utalii na Ukarimu",
+      "construction": "Jengo"
+    },
+    "howItWorks": {
+      "title": "Je, Inafanyaje Kazi?",
+      "subtitle": "Tafuta kazi katika hatua tatu rahisi",
+      "step1": {
+        "title": "Pakua Programu",
+        "description": "Pakua Hirovo bila malipo kutoka Google Play na uunde akaunti yako."
+      },
+      "step2": {
+        "title": "Unda Wasifu Wako",
+        "description": "Ongeza uzoefu wako, ujuzi na mapendeleo."
+      },
+      "step3": {
+        "title": "Omba na Anzisha Biashara",
+        "description": "Omba kwa machapisho ya kazi yanayokufaa na uwasiliane na waajiri."
+      }
+    },
+    "testimonials": {
+      "title": "Maoni ya Mtumiaji",
+      "subtitle": "Uzoefu wa watumiaji wetu ambao walipata ajira na Hirovo"
+    },
+    "cta": {
+      "title": "Anza Sasa",
+      "subtitle": "Pakua Hirovo, ndoto yako itakuwa hatua moja karibu.",
+      "downloadFree": "Upakuaji wa Bure"
+    }
+  },
+  "about": {
+    "metaTitle": "Kuhusu sisi - Hirovo",
+    "metaDescription": "Pata maelezo zaidi kuhusu Hirovo. Dhamira yetu, maono yetu na mtazamo wetu kuhusu sekta ya ajira.",
+    "hero": {
+      "title": "Kuhusu sisi",
+      "subtitle": "Tumedhamiria kubadilisha ulimwengu wa biashara"
+    },
+    "mission": {
+      "title": "Dhamira yetu",
+      "description": "Kuwaleta watafuta kazi na waajiri pamoja kwa njia ya ufanisi zaidi, kuwezesha mchakato wa kutafuta kazi kwa kila mtu na kuunda fursa za kazi za haki."
+    },
+    "vision": {
+      "title": "Maono Yetu",
+      "description": "Kama jukwaa linaloongoza la uajiri wa kidijitali la Uturuki na kanda, na kusaidia mamilioni ya watu kufikia malengo yao ya kazi."
+    },
+    "story": {
+      "title": "Hadithi yetu",
+      "content1": "Hirovo ilianzishwa mnamo 2024 ili kutatua changamoto zinazowakabili wanaotafuta kazi. Kwa kuona uzembe wa mbinu za kitamaduni za kutafuta kazi na kukatishwa tamaa kwa wanaotafuta kazi, tuliamua kuunda suluhisho bora zaidi kwa kutumia teknolojia.",
+      "content2": "Leo, maelfu ya wanaotafuta kazi na mamia ya makampuni huchagua Hirovo. Kwa mbinu yetu inayolenga watumiaji na kuboresha teknolojia kila mara, tunaboresha uzoefu wa kutafuta kazi kila siku."
+    },
+    "values": {
+      "title": "Maadili yetu",
+      "transparency": {
+        "title": "Uwazi",
+        "description": "Tunatoa uwazi kamili katika machapisho ya kazi na michakato yetu."
+      },
+      "equality": {
+        "title": "Usawa",
+        "description": "Tunatoa fursa sawa kwa kila mtu na kupinga ubaguzi."
+      },
+      "innovation": {
+        "title": "uvumbuzi",
+        "description": "Tunaboresha kila wakati na kutumia teknolojia za hivi karibuni."
+      },
+      "userFirst": {
+        "title": "Mtazamo wa Mtumiaji",
+        "description": "Tunatanguliza matumizi ya mtumiaji katika maamuzi yote."
+      }
+    },
+    "team": {
+      "title": "Timu yetu",
+      "description": "Timu yetu ya wataalamu wenye uzoefu huleta ujuzi wa miaka mingi katika sekta ya ajira kwa Hirovo."
+    },
+    "stats": {
+      "title": "Hirovo kwa idadi",
+      "downloads": "Pakua",
+      "activeUsers": "Mtumiaji Amilifu",
+      "partnerCompanies": "Kampuni ya Washirika",
+      "successfulMatches": "Kulinganisha kwa Mafanikio"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Jinsi Inafanya Kazi - Hirovo",
+    "metaDescription": "Hirovo inafanya kazi vipi? Jifunze mchakato wa kutafuta kazi na maombi hatua kwa hatua.",
+    "hero": {
+      "title": "Je, Inafanyaje Kazi?",
+      "subtitle": "Tulifanya iwe rahisi sana kupata kazi"
+    },
+    "forJobSeekers": {
+      "title": "Kwa Wanaotafuta Kazi",
+      "step1": {
+        "title": "Pakua Programu",
+        "description": "Pakua programu ya Hirovo bila malipo kutoka Google Play. Ufungaji wa haraka na salama."
+      },
+      "step2": {
+        "title": "Fungua Akaunti",
+        "description": "Jisajili kwa sekunde na barua pepe yako au nambari ya simu."
+      },
+      "step3": {
+        "title": "Kamilisha Wasifu Wako",
+        "description": "Ongeza uzoefu wako wa kazi, elimu na ujuzi. Pakia CV yako."
+      },
+      "step4": {
+        "title": "Chunguza Machapisho ya Kazi",
+        "description": "Tafuta orodha zinazokufaa kwa kutumia vichujio. Mahali, mshahara, tasnia na zaidi."
+      },
+      "step5": {
+        "title": "Tumia kwa Bonyeza Moja",
+        "description": "Omba papo hapo kwa matangazo unayopenda. Wasifu wako unasambazwa kiotomatiki."
+      },
+      "step6": {
+        "title": "Fuata Mchakato",
+        "description": "Fuata hali ya programu zako kwa wakati halisi. Endelea kufahamishwa na arifa."
+      }
+    },
+    "forEmployers": {
+      "title": "Kwa Waajiri",
+      "step1": {
+        "title": "Unda Akaunti ya Kampuni",
+        "description": "Sajili kampuni yako na ukamilishe mchakato wa uthibitishaji."
+      },
+      "step2": {
+        "title": "Chapisha Tangazo la Kazi",
+        "description": "Unda chapisho la kazi na maelezo ya kina ya kazi na mahitaji."
+      },
+      "step3": {
+        "title": "Kagua Maombi",
+        "description": "Chuja programu zinazoingia na uchague wagombea wanaofaa."
+      },
+      "step4": {
+        "title": "Wasiliana na Wagombea",
+        "description": "Wasiliana na wagombea moja kwa moja kupitia maombi."
+      }
+    },
+    "features": {
+      "title": "Vipengele",
+      "ai": {
+        "title": "Usaidizi wa Usanii wa Bandia",
+        "description": "Algorithms yenye akili inapendekeza kazi zinazokufaa zaidi."
+      },
+      "realtime": {
+        "title": "Arifa za Push",
+        "description": "Pata arifa za papo hapo za machapisho mapya na masasisho ya programu."
+      },
+      "secure": {
+        "title": "Miundombinu salama",
+        "description": "Data yako inalindwa kwa viwango vya juu zaidi vya usalama."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Kwa Wanaotafuta Kazi - Hirovo",
+    "metaDescription": "Ikiwa unatafuta kazi, Hirovo ni kwa ajili yako tu. Maelfu ya matangazo ya kazi, maombi rahisi na fursa za kazi.",
+    "hero": {
+      "title": "Kwa Wanaotafuta Kazi",
+      "subtitle": "Tuko pamoja nawe kwenye safari yako ya kikazi"
+    },
+    "benefits": {
+      "title": "Kwa nini Chagua Hirovo?",
+      "free": {
+        "title": "Bure Kabisa",
+        "description": "Vipengele vyetu vyote ni bure kwa wanaotafuta kazi. Hakuna ada zilizofichwa."
+      },
+      "thousands": {
+        "title": "Maelfu ya Matangazo",
+        "description": "Maelfu ya machapisho ya kazi ya sasa kutoka kwa kila sekta na kila ngazi."
+      },
+      "easy": {
+        "title": "Utumiaji Rahisi",
+        "description": "Omba kwa kubofya mara moja, usipoteze muda."
+      },
+      "track": {
+        "title": "Ufuatiliaji wa Maombi",
+        "description": "Fuatilia programu zako zote katika sehemu moja."
+      },
+      "notifications": {
+        "title": "Arifa Mahiri",
+        "description": "Pata taarifa papo hapo kuhusu matangazo mapya yanayokufaa."
+      },
+      "privacy": {
+        "title": "Usalama",
+        "description": "Maelezo yako yanashirikiwa tu na kampuni unazotuma ombi."
+      }
+    },
+    "tips": {
+      "title": "Vidokezo vya Utumiaji Wenye Mafanikio",
+      "tip1": {
+        "title": "Kamilisha Wasifu Wako",
+        "description": "Profaili zilizojaa kikamilifu huvutia umakini mara 3 zaidi."
+      },
+      "tip2": {
+        "title": "Endelea Kusasisha",
+        "description": "Sasisha wasifu wako unapoongeza ujuzi na matumizi mapya."
+      },
+      "tip3": {
+        "title": "Weka Arifa",
+        "description": "Ruhusu arifa ili kuepuka kukosa fursa."
+      },
+      "tip4": {
+        "title": "Omba Haraka",
+        "description": "Wale wanaotuma maombi haraka kwa machapisho mapya huja mbele."
+      }
+    },
+    "categories": {
+      "title": "Jamii Maarufu",
+      "subtitle": "Kategoria za kazi zilizotafutwa zaidi"
+    },
+    "cta": {
+      "title": "Tafuta Kazi ya Ndoto yako",
+      "subtitle": "Pakua Hirovo sasa na ugundue maelfu ya fursa."
+    }
+  },
+  "employers": {
+    "metaTitle": "Kwa Waajiri - Hirovo",
+    "metaDescription": "Tafuta talanta inayofaa na Hirovo. Ufumbuzi wa ununuzi wa haraka, ufanisi na wa kiuchumi.",
+    "hero": {
+      "title": "Kwa Waajiri",
+      "subtitle": "Njia rahisi zaidi ya kupata talanta sahihi"
+    },
+    "benefits": {
+      "title": "Faida za Hirovo",
+      "reach": {
+        "title": "Ufikiaji mpana",
+        "description": "Fikia maelfu ya watu wanaotafuta kazi mara moja."
+      },
+      "quality": {
+        "title": "Wagombea Ubora",
+        "description": "Wasifu uliothibitishwa na wasifu wa kina."
+      },
+      "fast": {
+        "title": "Matokeo ya Haraka",
+        "description": "Pokea maombi ya kwanza ndani ya takriban saa 48."
+      },
+      "affordable": {
+        "title": "Bei Nafuu",
+        "description": "Ni zaidi ya kiuchumi kuliko mbinu za jadi."
+      },
+      "easy": {
+        "title": "Usimamizi Rahisi",
+        "description": "Dhibiti programu zote kutoka kwa paneli moja."
+      },
+      "support": {
+        "title": "Msaada",
+        "description": "Tunakusaidia katika mchakato wa kuajiri."
+      }
+    },
+    "process": {
+      "title": "Mchakato wa Kuajiri",
+      "step1": "Unda akaunti ya kampuni",
+      "step2": "Chapisha chapisho lako la kazi",
+      "step3": "Kagua maombi",
+      "step4": "Kutana na wagombea",
+      "step5": "Kuajiri"
+    },
+    "pricing": {
+      "title": "Bei",
+      "subtitle": "Chagua mpango unaofaa mahitaji yako",
+      "basic": {
+        "title": "Mwanzo",
+        "price": "Bure",
+        "features": {
+          "0": "Tangazo 1 kwa mwezi",
+          "1": "Kuchuja msingi",
+          "2": "Msaada wa barua pepe"
+        }
+      },
+      "pro": {
+        "title": "Mtaalamu",
+        "price": "Wasiliana Nasi",
+        "features": {
+          "0": "Matangazo yasiyo na kikomo",
+          "1": "Uchujaji wa hali ya juu",
+          "2": "Msaada wa kipaumbele",
+          "3": "Mapendekezo ya mgombea"
+        }
+      },
+      "enterprise": {
+        "title": "Taasisi",
+        "price": "Bei Maalum",
+        "features": {
+          "0": "Vipengele vyote vya Pro",
+          "1": "Ufikiaji wa API",
+          "2": "Ujumuishaji maalum",
+          "3": "meneja wa akaunti"
+        }
+      }
+    },
+    "cta": {
+      "title": "Tafuta Vipaji Sahihi",
+      "subtitle": "Anza sasa na ufikie wagombeaji bora."
+    }
+  },
+  "faq": {
+    "metaTitle": "Maswali Yanayoulizwa Mara Kwa Mara - Hirovo",
+    "metaDescription": "Maswali na majibu yanayoulizwa mara kwa mara kuhusu Hirovo. Taarifa kuhusu kutafuta kazi, kuomba na kutumia maombi.",
+    "hero": {
+      "title": "Maswali Yanayoulizwa Mara Kwa Mara",
+      "subtitle": "Kila kitu unashangaa"
+    },
+    "categories": {
+      "general": "Mkuu",
+      "account": "Bill",
+      "application": "Maombi",
+      "employers": "waajiri",
+      "technical": "Kiufundi"
+    },
+    "general": {
+      "q1": {
+        "question": "Hirovo ni nini?",
+        "answer": "Hirovo ni jukwaa la uajiri la rununu ambalo huleta pamoja wanaotafuta kazi na waajiri. Unaweza kutafuta kati ya maelfu ya machapisho ya kazi, kutuma maombi kwa kubofya mara moja, na kufuata fursa za kazi."
+      },
+      "q2": {
+        "question": "Je, Hirovo ni bure?",
+        "answer": "Ndiyo, Hirovo ni bure kabisa kwa wanaotafuta kazi. Unaweza kutumia vipengele vyetu vyote bila malipo."
+      },
+      "q3": {
+        "question": "Ninaweza kupakua wapi Hirovo?",
+        "answer": "Unaweza kupakua Hirovo bila malipo kutoka Hifadhi ya Google Play. Toleo la iOS litatolewa hivi karibuni."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Ninawezaje kuunda akaunti?",
+        "answer": "Baada ya kupakua programu, unaweza kujiandikisha kwa sekunde na anwani yako ya barua pepe au nambari ya simu."
+      },
+      "q2": {
+        "question": "Nimesahau nenosiri langu, nifanye nini?",
+        "answer": "Unaweza kuweka upya nenosiri lako kupitia barua pepe au SMS kwa kubofya chaguo la 'Nimesahau Nenosiri Langu' kwenye skrini ya kuingia."
+      },
+      "q3": {
+        "question": "Je, ninawezaje kufuta akaunti yangu?",
+        "answer": "Unaweza kuomba kufutwa kwa akaunti kutoka kwa mipangilio ya ndani ya programu au kutoka kwa ukurasa wa 'Kufuta Akaunti' kwenye tovuti yetu."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Je, ninawezaje kufuatilia maombi yangu?",
+        "answer": "Unaweza kuona programu zako zote na hali zao katika sehemu ya 'Maombi Yangu' katika programu."
+      },
+      "q2": {
+        "question": "Je, ninaweza kuondoa ombi langu?",
+        "answer": "Ndiyo, unaweza kuondoa maombi yako ambayo bado hayajakaguliwa."
+      },
+      "q3": {
+        "question": "Kwa nini ombi langu lilikataliwa?",
+        "answer": "Waajiri hufanya tathmini kulingana na vigezo vyao wenyewe. Unaweza kuongeza nafasi zako kwa kusasisha wasifu wako na kutuma maombi kwa machapisho zaidi."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Jinsi ya kufungua akaunti ya kampuni?",
+        "answer": "Unaweza kusajili kampuni yako kupitia programu au kwenye tovuti yetu. Mchakato wa uthibitishaji unakamilika ndani ya masaa 24-48."
+      },
+      "q2": {
+        "question": "Je, kuna ada ya kuchapisha tangazo?",
+        "answer": "Kifurushi chetu cha msingi ni bure. Kwa matangazo zaidi na vipengele vya kina, unaweza kuangalia vifurushi vyetu vya kitaaluma."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "Maombi hayafunguki, nifanye nini?",
+        "answer": "Kwanza sasisha programu. Tatizo likiendelea, futa programu na uisakinishe upya. Ikiwa bado una matatizo, wasiliana na timu yetu ya usaidizi."
+      },
+      "q2": {
+        "question": "Arifa hazija?",
+        "answer": "Hakikisha umeruhusu arifa za Hirovo katika mipangilio ya simu yako. Pia angalia mapendeleo yako ya arifa katika mipangilio ya ndani ya programu."
+      }
+    },
+    "contact": {
+      "title": "Je, una maswali yoyote?",
+      "subtitle": "Wasiliana nasi kwa maswali ambayo huwezi kupata majibu yake."
+    }
+  },
+  "contact": {
+    "metaTitle": "Mawasiliano - Hirovo",
+    "metaDescription": "Wasiliana na Hirovo. Wasiliana nasi kwa maswali, mapendekezo na maoni yako.",
+    "hero": {
+      "title": "Mawasiliano",
+      "subtitle": "Tutafurahi kukusaidia"
+    },
+    "info": {
+      "title": "Maelezo ya Mawasiliano",
+      "email": {
+        "title": "Barua pepe",
+        "value": "habari@hirovo.com",
+        "description": "Usaidizi wa barua pepe 24/7"
+      },
+      "phone": {
+        "title": "Simu",
+        "value": "+90 (212) 000 00 00",
+        "description": "Jumatatu - Ijumaa, 09:00 - 18:00"
+      },
+      "address": {
+        "title": "Anwani",
+        "value": "Istanbul, Uturuki",
+        "description": "Ofisi yetu kuu"
+      }
+    },
+    "form": {
+      "title": "Tuandikie",
+      "name": "Jina lako na Jina lako",
+      "email": "Anwani yako ya barua pepe",
+      "subject": "Somo",
+      "message": "Ujumbe wako",
+      "submit": "Tuma",
+      "subjects": {
+        "general": "Swali la Jumla",
+        "support": "Msaada wa Kiufundi",
+        "partnership": "Ushirikiano",
+        "feedback": "Maoni",
+        "other": "Nyingine"
+      },
+      "success": "Ujumbe wako umetumwa kwa mafanikio. Tutarudi kwako haraka iwezekanavyo.",
+      "error": "Hitilafu imetokea. Tafadhali jaribu tena baadaye."
+    },
+    "social": {
+      "title": "Mitandao ya Kijamii",
+      "subtitle": "Tufuate kwenye mitandao ya kijamii"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Ushauri wa Kazi - Hirovo",
+    "metaDescription": "Ushauri wa kitaalam juu ya kutafuta kazi, utayarishaji wa CV, mbinu za usaili na ukuzaji wa taaluma.",
+    "hero": {
+      "title": "Ushauri wa Kazi",
+      "subtitle": "Chukua taaluma yako hadi kiwango kinachofuata"
+    },
+    "categories": {
+      "resume": "Maandalizi ya CV",
+      "interview": "Mbinu za Mahojiano",
+      "career": "Maendeleo ya Kazi",
+      "workplace": "Maisha ya Biashara"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Jinsi ya kuandaa CV yenye ufanisi?",
+        "summary": "Mwongozo wa kitaalamu wa kuandaa CV unaovutia umakini wa waajiri.",
+        "content": "CV yako ndio mwonekano wa kwanza wa ombi lako la kazi. CV iliyotayarishwa vyema hukutofautisha na watahiniwa wengine na huongeza nafasi zako za kupokea mwaliko wa usaili. Hapa kuna vidokezo vya CV inayofaa:\n\n1. Tumia umbizo la wazi na fupi\n2. Angazia uzoefu wako unaofaa\n3. Saidia mafanikio yako madhubuti kwa nambari\n4. Tumia maneno muhimu kwa usahihi\n5. Angalia kwa makini kwa makosa"
+      },
+      "resume2": {
+        "title": "Makosa Mengi Yanayofanywa katika CV",
+        "summary": "Makosa ya CV ambayo yanaweza kusababisha maombi yako kukataliwa na jinsi ya kuyaepuka.",
+        "content": "Watahiniwa wengi hufanya makosa makubwa katika CV zao bila kujua. Kutambua na kusahihisha makosa haya kutaharakisha mchakato wako wa kutafuta kazi."
+      },
+      "interview1": {
+        "title": "Siri za Mafanikio katika Mahojiano",
+        "summary": "Mbinu unazohitaji kujua ili kufanikiwa katika usaili wa kazi.",
+        "content": "Mahojiano ni hatua muhimu zaidi ya mchakato wa maombi ya kazi. Wagombea waliojitayarisha vyema wanaweza kushughulikia mafadhaiko na kujieleza kwa ubora wao."
+      },
+      "interview2": {
+        "title": "Maswali ya Mahojiano Yanayoulizwa Sana",
+        "summary": "Maswali utakayokutana nayo katika usaili wa kazi na mikakati madhubuti ya kujibu.",
+        "content": "Maswali fulani karibu kila mara huulizwa katika mahojiano. Kujitayarisha kwa maswali haya mapema huongeza kujiamini kwako."
+      },
+      "career1": {
+        "title": "Kwa Wanaotaka Kufanya Mabadiliko ya Kazi",
+        "summary": "Mwongozo wa hatua kwa hatua kwa wale wanaotaka kubadilisha sekta au nafasi.",
+        "content": "Mabadiliko ya kazi yanaweza kuonekana kuwa ya kutisha, lakini kwa mipango sahihi inaweza kutimizwa kwa mafanikio."
+      },
+      "career2": {
+        "title": "Mitandao ya Kitaalam",
+        "summary": "Njia za kujenga mahusiano ambayo yataendeleza kazi yako.",
+        "content": "Mtandao thabiti wa kitaalamu huongeza nafasi za kazi na hukufahamisha kuhusu maendeleo ya sekta hiyo."
+      },
+      "workplace1": {
+        "title": "Mambo ya Kuzingatia Unapoanza Kazi Mpya",
+        "summary": "Ushauri wa vitendo ili kufanikiwa kutoka siku yako ya kwanza kazini.",
+        "content": "Kuanza kitu kipya kunaweza kusisimua lakini kusumbua. Kwa mbinu sahihi, unaweza kukabiliana haraka na kuwa na mwanzo mzuri."
+      },
+      "workplace2": {
+        "title": "Jinsi ya Kuweka Mizani ya Maisha ya Kazi?",
+        "summary": "Njia za kusawazisha kazi yako na maisha ya kibinafsi.",
+        "content": "Usawa mzuri wa maisha ya kazi ni muhimu kwa mafanikio yako ya kazi na furaha ya kibinafsi."
+      }
+    },
+    "newsletter": {
+      "title": "Pata Vidokezo vya Kazi",
+      "subtitle": "Jiandikishe kwa jarida letu kwa ushauri wa hivi punde wa kazi na nafasi za kazi.",
+      "placeholder": "Barua pepe yako",
+      "button": "Jisajili"
+    }
+  },
+  "privacy": {
+    "title": "Sera ya Faragha",
+    "metaTitle": "Sera ya Faragha - Hirovo",
+    "metaDescription": "Sera ya Faragha ya Hirovo - Taarifa kuhusu jinsi data yako ya kibinafsi inavyokusanywa, kutumiwa na kulindwa.",
+    "lastUpdate": "Sasisho la mwisho: Januari 2025",
+    "intro": "Huko Hirovo, tunashikilia umuhimu mkubwa kwa faragha ya watumiaji wetu. Sera hii ya Faragha inafafanua jinsi data ya kibinafsi tunayokusanya kupitia programu ya simu ya Hirovo (\"Maombi\") inachakatwa.",
+    "section1": {
+      "title": "1. Taarifa Tunazokusanya",
+      "intro": "Tunaweza kukusanya taarifa zifuatazo unapotumia programu yetu:",
+      "items": {
+        "account": "Maelezo ya Akaunti: Jina, jina la ukoo, anwani ya barua pepe, nambari ya simu",
+        "profile": "Maelezo ya Wasifu: CV, uzoefu wa kazi, habari ya elimu, ujuzi",
+        "location": "Taarifa ya Mahali: Data ya eneo ili kuonyesha machapisho ya kazi karibu nawe (kwa ruhusa yako)",
+        "device": "Maelezo ya Kifaa: Ziara ya kifaa, mfumo wa uendeshaji, toleo la programu",
+        "usage": "Data ya Matumizi: Mwingiliano wa ndani ya programu, matangazo yaliyotazamwa, programu"
+      }
+    },
+    "section2": {
+      "title": "2. Madhumuni ya Matumizi ya Taarifa",
+      "intro": "Tunatumia maelezo tunayokusanya kwa madhumuni yafuatayo:",
+      "items": {
+        "account": "Kuunda na kudhibiti akaunti yako",
+        "jobs": "Inaonyesha machapisho ya kazi yanayokufaa",
+        "applications": "Kutuma maombi yako ya kazi kwa waajiri",
+        "improve": "Kuboresha uzoefu wa maombi",
+        "support": "Kutoa msaada wa kiufundi",
+        "legal": "Ili kutimiza wajibu wetu wa kisheria"
+      }
+    },
+    "section3": {
+      "title": "3. Kushirikishana Taarifa",
+      "intro": "Hatushiriki data yako ya kibinafsi na wahusika wengine isipokuwa katika hali zifuatazo:",
+      "items": {
+        "employers": "Waajiri: Tunashiriki maelezo yako mafupi na wamiliki wa machapisho ya kazi unayotuma maombi kwao.",
+        "providers": "Watoa Huduma: Washirika wanaoaminika ambao hutoa huduma za kiufundi zinazohitajika kwa ajili ya uendeshaji wa maombi yetu.",
+        "legal": "Majukumu ya Kisheria: Kwa mujibu wa taratibu za kisheria au ombi la mamlaka husika"
+      }
+    },
+    "section4": {
+      "title": "4. Usalama wa Data",
+      "intro": "Tunatekeleza hatua za usalama za kawaida za sekta ili kulinda data yako ya kibinafsi:",
+      "items": {
+        "ssl": "Usimbaji fiche wa SSL/TLS",
+        "datacenter": "Hifadhi vituo vya data",
+        "audits": "Ukaguzi wa mara kwa mara wa usalama",
+        "access": "Udhibiti wa ufikiaji na idhini"
+      }
+    },
+    "section5": {
+      "title": "5. Haki zako",
+      "intro": "Una haki zifuatazo ndani ya upeo wa Sheria ya Ulinzi wa Data ya Kibinafsi Nambari 6698 (KVKK):",
+      "items": {
+        "know": "Kujifunza ikiwa data yako ya kibinafsi inachakatwa au la",
+        "info": "Kuomba maelezo kuhusu data yako ya kibinafsi ikiwa imechakatwa",
+        "purpose": "Kujifunza madhumuni ya kuchakata data yako ya kibinafsi na kama inatumika kwa madhumuni yaliyokusudiwa",
+        "thirdParty": "Kujua wahusika wa tatu ambao data ya kibinafsi huhamishiwa nyumbani au nje ya nchi",
+        "correct": "Kuomba marekebisho ya data ya kibinafsi ikiwa haijakamilika au kuchakatwa vibaya",
+        "delete": "Omba kufutwa au uharibifu wa data yako ya kibinafsi"
+      }
+    },
+    "section6": {
+      "title": "6. Vidakuzi na Teknolojia za Ufuatiliaji",
+      "content": "Programu yetu inaweza kutumia vidakuzi na teknolojia sawa ili kuboresha matumizi yako. Shukrani kwa teknolojia hizi, tunakumbuka mapendeleo yako na kuchanganua utendaji wa programu."
+    },
+    "section7": {
+      "title": "7. Faragha ya Watoto",
+      "content": "Ombi letu halielekezwi kwa watu walio chini ya umri wa miaka 18. Hatukusanyi data ya kibinafsi kutoka kwa watu walio chini ya umri wa miaka 18 kimakusudi."
+    },
+    "section8": {
+      "title": "8. Mabadiliko ya Sera",
+      "content": "Tunaweza kusasisha Sera hii ya Faragha mara kwa mara. Kukitokea mabadiliko makubwa, tutakuarifu kwa arifa za ndani ya programu."
+    },
+    "section9": {
+      "title": "9. Mawasiliano",
+      "intro": "Kwa maswali yako yanayohusiana na faragha, unaweza kuwasiliana nasi:"
+    }
+  },
+  "terms": {
+    "title": "Masharti ya Matumizi",
+    "metaTitle": "Masharti ya Matumizi - Hirovo",
+    "metaDescription": "Sheria na Masharti ya Hirovo - Sheria na masharti ambayo lazima uzingatie unapotumia programu yetu.",
+    "lastUpdate": "Sasisho la mwisho: Januari 2025",
+    "intro": "Kwa kutumia programu ya simu ya Hirovo (\"Maombi\") unachukuliwa kuwa umekubali sheria na masharti yafuatayo. Tafadhali soma masharti haya kwa makini.",
+    "section1": {
+      "title": "1. Maelezo ya Huduma",
+      "intro": "Hirovo ni jukwaa la kutafuta kazi ambalo linalenga kuunganisha wanaotafuta kazi na waajiri. Kupitia maombi yetu:",
+      "items": {
+        "view": "Unaweza kutazama matangazo ya kazi na kutuma maombi",
+        "profile": "Unaweza kuunda wasifu wako wa kitaalamu",
+        "offers": "Unaweza kutathmini matoleo kutoka kwa waajiri",
+        "track": "Unaweza kufuata fursa za kazi"
+      }
+    },
+    "section2": {
+      "title": "2. Uundaji wa Akaunti na Usalama",
+      "intro": "Unahitaji kuunda akaunti ili kutumia programu yetu. Wakati wa kuunda akaunti:",
+      "items": {
+        "accurate": "Unakubali kutoa taarifa sahihi na za sasa",
+        "responsible": "Unawajibika kwa usiri wa maelezo ya akaunti yako.",
+        "activity": "Unawajibika kwa shughuli zote zinazotokea kwenye akaunti yako.",
+        "notify": "Katika kesi ya ufikiaji ambao haujaidhinishwa lazima utuarifu mara moja"
+      }
+    },
+    "section3": {
+      "title": "3. Wajibu wa Mtumiaji",
+      "intro": "Unapotumia programu yetu unakubali kufuata sheria zifuatazo:",
+      "items": {
+        "legal": "Kufanya kazi kwa mujibu wa sheria na kanuni",
+        "honest": "Kushiriki habari sahihi na zisizo za kupotosha",
+        "respect": "Kuheshimu haki za watumiaji wengine",
+        "noSpam": "Kutoshiriki barua taka, programu hasidi au maudhui hasidi",
+        "security": "Kuepuka vitendo ambavyo vinaweza kuhatarisha usalama wa programu",
+        "identity": "Sio kuiga wengine"
+      }
+    },
+    "section4": {
+      "title": "4. Tabia Zilizokatazwa",
+      "intro": "Tabia zifuatazo ni marufuku kabisa:",
+      "items": {
+        "fake": "Kuunda machapisho ya kazi bandia au wasifu",
+        "harass": "Kunyanyasa au kunyanyasa watumiaji wengine",
+        "illegal": "Kutumia maombi kwa madhumuni haramu",
+        "damage": "Kuharibu miundombinu ya kiufundi ya programu",
+        "bots": "Kutumia mifumo otomatiki au roboti",
+        "ip": "Ukiukaji wa haki miliki"
+      }
+    },
+    "section5": {
+      "title": "5. Maudhui na Haki Miliki",
+      "intro": "Haki zote katika programu na maudhui yake ni ya Hirovo:",
+      "items": {
+        "ownership": "Nembo, muundo na kiolesura ni mali ya Hirovo",
+        "userContent": "Maudhui yaliyopakiwa na mtumiaji ni wajibu wa mtumiaji.",
+        "license": "Unatupa leseni zinazohitajika kwa maelezo unayoshiriki katika wasifu wako.",
+        "thirdParty": "Maudhui yako lazima yasikiuke haki za wahusika wengine"
+      }
+    },
+    "section6": {
+      "title": "6. Ukomo wa Dhima",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Haihakikishi usahihi wa machapisho ya kazi",
+        "relationship": "Sio mhusika katika uhusiano wa mwajiri na mwajiriwa",
+        "disputes": "Si kuwajibika kwa migogoro kati ya watumiaji",
+        "uptime": "Haihakikishi kuwa huduma itafanya kazi bila usumbufu.",
+        "damages": "Hawajibiki kwa uharibifu wowote usio wa moja kwa moja au wa matokeo."
+      }
+    },
+    "section7": {
+      "title": "7. Kusimamishwa kwa Akaunti na Kusimamishwa",
+      "intro": "Tunaweza kusimamisha au kusimamisha akaunti yako katika hali zifuatazo:",
+      "items": {
+        "violation": "Ukiukaji wa masharti ya matumizi",
+        "illegal": "Shughuli zisizo halali",
+        "harm": "Tabia zinazodhuru watumiaji wengine",
+        "false": "Kutoa taarifa za uongo au za kupotosha"
+      }
+    },
+    "section8": {
+      "title": "8. Mabadiliko",
+      "content": "Tuna haki ya kubadilisha masharti haya ya matumizi bila taarifa ya awali. Mabadiliko muhimu yatatangazwa kupitia arifa za ndani ya programu. Kuendelea kutumia programu baada ya mabadiliko kunamaanisha kuwa unakubali masharti mapya."
+    },
+    "section9": {
+      "title": "9. Sheria Inayotumika",
+      "content": "Masharti haya ya matumizi yanategemea sheria za Jamhuri ya Uturuki. Katika kesi ya mzozo, Mahakama za Istanbul na Ofisi za Utekelezaji zina mamlaka."
+    },
+    "section10": {
+      "title": "10. Mawasiliano",
+      "intro": "Kwa maswali yako kuhusu masharti ya matumizi:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Ombi la Kufuta Akaunti",
+    "metaTitle": "Ufutaji wa Akaunti - Hirovo",
+    "metaDescription": "Ombi la kufuta akaunti yako ya Hirovo.",
+    "description": "Ikiwa ungependa kufuta akaunti yako, jaza fomu iliyo hapa chini. Baada ya ombi lako kukaguliwa, akaunti yako na data yako yote itafutwa kabisa.",
+    "warning": "Baada ya akaunti yako kufutwa, data yako yote (maelezo ya wasifu, programu, ujumbe) itafutwa kabisa na haiwezi kurejeshwa.",
+    "form": {
+      "emailLabel": "Anwani ya Barua Pepe",
+      "emailPlaceholder": "mfano@email.com",
+      "phoneLabel": "Nambari ya Simu",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Sababu ya Kufutwa",
+      "reasonPlaceholder": "Kwa nini unataka kufuta akaunti yako?",
+      "submitButton": "Wasilisha Ombi la Kufuta Akaunti"
+    },
+    "errors": {
+      "emailOrPhone": "Tafadhali weka barua pepe yako au nambari ya simu.",
+      "generic": "Hitilafu imetokea. Tafadhali jaribu tena baadaye.",
+      "connection": "Hitilafu ya muunganisho. Tafadhali angalia muunganisho wako wa intaneti."
+    },
+    "success": {
+      "title": "Ombi Lako Limepokelewa",
+      "message": "Ombi lako la kufuta akaunti limepokelewa. Ombi lako litapitiwa haraka iwezekanavyo na utaarifiwa kupitia barua pepe au SMS.",
+      "processingTime": "Wakati wa usindikaji: siku 1-3 za kazi"
+    },
+    "contactNote": "Unaweza kutufikia kwa."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Chagua Lugha",
+    "popularLanguages": "Lugha Maarufu"
+  }
+}

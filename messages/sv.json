@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Ladda ner",
+    "downloadApp": "Ladda ner appen",
+    "googlePlay": "Google Play",
+    "email": "E-post",
+    "phone": "Telefon",
+    "or": "eller",
+    "loading": "Belastning...",
+    "sending": "Sändning...",
+    "error": "Misstag",
+    "success": "Framgångsrik",
+    "submit": "Skicka",
+    "optional": "frivillig",
+    "important": "Viktig",
+    "contact": "Kommunikation",
+    "questions": "För dina frågor",
+    "learnMore": "Mer information",
+    "getStarted": "Börja nu",
+    "readMore": "Läs mer",
+    "viewAll": "Se alla",
+    "free": "Gratis",
+    "new": "Ny"
+  },
+  "metadata": {
+    "title": "Hirovo - plattform för jobbsökning och annonsering",
+    "description": "Hirovo är en jobbsöknings- och annonsplattform. Upptäck jobbannonser, ansök enkelt och följ karriärmöjligheter.",
+    "keywords": "hitta ett jobb, jobbannonser, karriär, jobbsökning, personalannonser, personalsökande, rekrytering, Hirovo",
+    "ogTitle": "Hirovo - Sysselsättnings- och karriärplattform",
+    "ogDescription": "Upptäck jobbannonser, ansök och följ karriärmöjligheter med Hirovo."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Om oss",
+    "howItWorks": "Hur det fungerar",
+    "forJobSeekers": "Arbetssökande",
+    "forEmployers": "arbetsgivare",
+    "faq": "FAQ",
+    "contact": "Kommunikation",
+    "careerTips": "Karriärråd"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Sekretesspolicy",
+    "terms": "Användarvillkor",
+    "deleteAccount": "Radering av konto",
+    "home": "Hemsida",
+    "about": "Om oss",
+    "contact": "Kommunikation",
+    "faq": "FAQ",
+    "howItWorks": "Hur det fungerar",
+    "forJobSeekers": "För arbetssökande",
+    "forEmployers": "För arbetsgivare",
+    "careerTips": "Karriärråd",
+    "company": "Företag",
+    "resources": "Resurser",
+    "legal": "Rättslig",
+    "followUs": "Följ oss",
+    "description": "Turkiets mest innovativa sysselsättningsplattform. Din dröm kommer ett steg närmare."
+  },
+  "home": {
+    "hero": {
+      "title": "Hitta ditt drömjobb",
+      "subtitle": "Upptäck tusentals jobbannonser, ansök enkelt och följ karriärmöjligheter med Hirovo.",
+      "stats": {
+        "jobs": "Aktiv platsannons",
+        "users": "Registrerad användare",
+        "companies": "Partnerföretag",
+        "placements": "Framgångsrik matchning"
+      }
+    },
+    "features": {
+      "title": "Varför Hirovo?",
+      "subtitle": "Våra funktioner som gör ditt jobbsökande enklare",
+      "easySearch": {
+        "title": "Enkel sökning",
+        "description": "Sök snabbt bland tusentals jobbannonser och hitta möjligheter som passar dig."
+      },
+      "quickApply": {
+        "title": "Snabb applikation",
+        "description": "Ansök med bara ett klick, slösa inte tid. Skapa din profil en gång, använd den överallt."
+      },
+      "notifications": {
+        "title": "Push-meddelanden",
+        "description": "Lär dig om nya inlägg och ansökningsstatusar direkt, missa inte tillfället."
+      },
+      "smartMatch": {
+        "title": "Smart matchning",
+        "description": "Det artificiella intelligensstödda systemet rekommenderar dig de jobb som passar dina kunskaper bäst."
+      },
+      "secureProfile": {
+        "title": "Säker profil",
+        "description": "Dina personuppgifter lagras säkert och delas med arbetsgivaren först när du ansöker."
+      },
+      "careerSupport": {
+        "title": "Karriärstöd",
+        "description": "Vi finns här för att hjälpa dig med CV-förberedelser, intervjutekniker och karriärrådgivning."
+      }
+    },
+    "categories": {
+      "title": "Populära företagskategorier",
+      "subtitle": "Upptäck möjligheter inom de mest eftertraktade sektorerna",
+      "technology": "Teknologi",
+      "healthcare": "Hälsa",
+      "finance": "Finansiera",
+      "education": "Utbildning",
+      "retail": "Detaljhandel",
+      "manufacturing": "Produktion",
+      "hospitality": "Turism & gästfrihet",
+      "construction": "Byggnad"
+    },
+    "howItWorks": {
+      "title": "Hur fungerar det?",
+      "subtitle": "Hitta ett jobb i tre enkla steg",
+      "step1": {
+        "title": "Ladda ner appen",
+        "description": "Ladda ner Hirovo gratis från Google Play och skapa ditt konto."
+      },
+      "step2": {
+        "title": "Skapa din profil",
+        "description": "Lägg till dina erfarenheter, färdigheter och preferenser."
+      },
+      "step3": {
+        "title": "Ansök och starta företag",
+        "description": "Ansök på platsannonser som passar dig och kontakta arbetsgivare."
+      }
+    },
+    "testimonials": {
+      "title": "Användarkommentarer",
+      "subtitle": "Erfarenheter från våra användare som fick anställning hos Hirovo"
+    },
+    "cta": {
+      "title": "Börja nu",
+      "subtitle": "Ladda ner Hirovo, din dröm kommer ett steg närmare.",
+      "downloadFree": "Gratis nedladdning"
+    }
+  },
+  "about": {
+    "metaTitle": "Om oss - Hirovo",
+    "metaDescription": "Lär dig mer om Hirovo. Vårt uppdrag, vår vision och vårt perspektiv på arbetsmarknadsbranschen.",
+    "hero": {
+      "title": "Om oss",
+      "subtitle": "Vi satsade på att förändra affärsvärlden"
+    },
+    "mission": {
+      "title": "Vårt uppdrag",
+      "description": "Att föra samman arbetssökande och arbetsgivare på det mest effektiva sättet, underlätta jobbsökning för alla och skapa rättvisa arbetstillfällen."
+    },
+    "vision": {
+      "title": "Vår vision",
+      "description": "Som Turkiets och regionens ledande digitala sysselsättningsplattform som hjälper miljontals människor att nå sina karriärmål."
+    },
+    "story": {
+      "title": "Vår historia",
+      "content1": "Hirovo grundades 2024 för att lösa de utmaningar som arbetssökande möter. Eftersom vi såg ineffektiviteten hos traditionella jobbsökningsmetoder och de frustrationer som arbetssökande upplevde, bestämde vi oss för att skapa en bättre lösning med hjälp av teknik.",
+      "content2": "Idag väljer tusentals arbetssökande och hundratals företag Hirovo. Med vårt användarorienterade tillvägagångssätt och ständigt förbättrande teknik förbättrar vi upplevelsen att hitta jobb varje dag."
+    },
+    "values": {
+      "title": "Våra värderingar",
+      "transparency": {
+        "title": "Genomskinlighet",
+        "description": "Vi tillhandahåller full transparens i jobbannonser och våra processer."
+      },
+      "equality": {
+        "title": "Jämställdhet",
+        "description": "Vi erbjuder lika möjligheter för alla och står emot diskriminering."
+      },
+      "innovation": {
+        "title": "innovation",
+        "description": "Vi förbättrar ständigt och använder den senaste tekniken."
+      },
+      "userFirst": {
+        "title": "Användarfokus",
+        "description": "Vi prioriterar användarupplevelse i alla beslut."
+      }
+    },
+    "team": {
+      "title": "Vårt team",
+      "description": "Vårt team av erfarna yrkesmän tar med sig år av kunskap inom sysselsättningssektorn till Hirovo."
+    },
+    "stats": {
+      "title": "Hirovo i siffror",
+      "downloads": "Ladda ner",
+      "activeUsers": "Aktiv användare",
+      "partnerCompanies": "Partnerföretag",
+      "successfulMatches": "Framgångsrik matchning"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Hur det fungerar - Hirovo",
+    "metaDescription": "Hur fungerar Hirovo? Lär dig arbetssökandet och ansökningsprocessen steg för steg.",
+    "hero": {
+      "title": "Hur fungerar det?",
+      "subtitle": "Vi gjorde det så enkelt att hitta ett jobb"
+    },
+    "forJobSeekers": {
+      "title": "För arbetssökande",
+      "step1": {
+        "title": "Ladda ner appen",
+        "description": "Ladda ner Hirovo-appen gratis från Google Play. Snabb och säker installation."
+      },
+      "step2": {
+        "title": "Skapa konto",
+        "description": "Registrera dig på några sekunder med din e-postadress eller ditt telefonnummer."
+      },
+      "step3": {
+        "title": "Komplettera din profil",
+        "description": "Lägg till din arbetserfarenhet, utbildning och kompetens. Ladda upp ditt CV."
+      },
+      "step4": {
+        "title": "Utforska jobbannonser",
+        "description": "Hitta listor som passar dig med hjälp av filter. Plats, lön, bransch med mera."
+      },
+      "step5": {
+        "title": "Ansök med ett klick",
+        "description": "Ansök omedelbart på de annonser du gillar. Din profil överförs automatiskt."
+      },
+      "step6": {
+        "title": "Följ processen",
+        "description": "Följ statusen för dina applikationer i realtid. Håll dig informerad med aviseringar."
+      }
+    },
+    "forEmployers": {
+      "title": "För arbetsgivare",
+      "step1": {
+        "title": "Skapa ett företagskonto",
+        "description": "Registrera ditt företag och slutför verifieringsprocessen."
+      },
+      "step2": {
+        "title": "Publicera en platsannons",
+        "description": "Skapa en platsannons med detaljerade arbetsbeskrivningar och krav."
+      },
+      "step3": {
+        "title": "Granska ansökningar",
+        "description": "Filtrera inkommande ansökningar och välj lämpliga kandidater."
+      },
+      "step4": {
+        "title": "Kontakta kandidater",
+        "description": "Kontakta kandidater direkt via ansökan."
+      }
+    },
+    "features": {
+      "title": "Drag",
+      "ai": {
+        "title": "Stöd för artificiell intelligens",
+        "description": "Intelligenta algoritmer rekommenderar de mest lämpliga jobben för dig."
+      },
+      "realtime": {
+        "title": "Push-meddelanden",
+        "description": "Få omedelbara aviseringar om nya inlägg och programuppdateringar."
+      },
+      "secure": {
+        "title": "Säker infrastruktur",
+        "description": "Dina data är skyddade med högsta säkerhetsstandard."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "För arbetssökande - Hirovo",
+    "metaDescription": "Om du letar efter ett jobb är Hirovo precis för dig. Tusentals jobbannonser, enkla ansökningar och karriärmöjligheter.",
+    "hero": {
+      "title": "För arbetssökande",
+      "subtitle": "Vi är med dig på din karriärresa"
+    },
+    "benefits": {
+      "title": "Varför välja Hirovo?",
+      "free": {
+        "title": "Helt gratis",
+        "description": "Alla våra funktioner är gratis för arbetssökande. Det finns inga dolda avgifter."
+      },
+      "thousands": {
+        "title": "Tusentals annonser",
+        "description": "Tusentals aktuella jobbannonser från alla sektorer och nivåer."
+      },
+      "easy": {
+        "title": "Enkel applikation",
+        "description": "Applicera med ett klick, slösa inte tid."
+      },
+      "track": {
+        "title": "Applikationsspårning",
+        "description": "Spåra alla dina applikationer på ett ställe."
+      },
+      "notifications": {
+        "title": "Smarta aviseringar",
+        "description": "Bli direkt informerad om nya annonser som passar dig."
+      },
+      "privacy": {
+        "title": "Säkerhet",
+        "description": "Din information delas endast med de företag du ansöker till."
+      }
+    },
+    "tips": {
+      "title": "Tips för framgångsrik ansökan",
+      "tip1": {
+        "title": "Komplettera din profil",
+        "description": "Fullt fyllda profiler drar till sig 3 gånger mer uppmärksamhet."
+      },
+      "tip2": {
+        "title": "Håll dig uppdaterad",
+        "description": "Uppdatera din profil när du lägger till nya kunskaper och erfarenheter."
+      },
+      "tip3": {
+        "title": "Håll aviseringar på",
+        "description": "Tillåt aviseringar för att undvika att missa möjligheter."
+      },
+      "tip4": {
+        "title": "Applicera snabbt",
+        "description": "De som ansöker snabbt till nya poster kommer i förgrunden."
+      }
+    },
+    "categories": {
+      "title": "Populära kategorier",
+      "subtitle": "Mest sökta jobbkategorier"
+    },
+    "cta": {
+      "title": "Hitta ditt drömjobb",
+      "subtitle": "Ladda ner Hirovo nu och upptäck tusentals möjligheter."
+    }
+  },
+  "employers": {
+    "metaTitle": "För arbetsgivare - Hirovo",
+    "metaDescription": "Hitta rätt talang med Hirovo. Snabba, effektiva och ekonomiska inköpslösningar.",
+    "hero": {
+      "title": "För arbetsgivare",
+      "subtitle": "Det enklaste sättet att hitta rätt talanger"
+    },
+    "benefits": {
+      "title": "Hirovo fördelar",
+      "reach": {
+        "title": "Bred räckvidd",
+        "description": "Nå omedelbart tusentals aktiva arbetssökande."
+      },
+      "quality": {
+        "title": "Kvalitetskandidater",
+        "description": "Verifierade profiler och detaljerade meritförteckningar."
+      },
+      "fast": {
+        "title": "Snabbt resultat",
+        "description": "Få första ansökningar inom cirka 48 timmar."
+      },
+      "affordable": {
+        "title": "Överkomligt pris",
+        "description": "Det är mycket mer ekonomiskt än traditionella metoder."
+      },
+      "easy": {
+        "title": "Enkel hantering",
+        "description": "Hantera alla applikationer från en enda panel."
+      },
+      "support": {
+        "title": "Stöd",
+        "description": "Vi hjälper dig i rekryteringsprocessen."
+      }
+    },
+    "process": {
+      "title": "Rekryteringsprocess",
+      "step1": "Skapa ett företagskonto",
+      "step2": "Publicera din platsannons",
+      "step3": "Granska ansökningarna",
+      "step4": "Träffa kandidater",
+      "step5": "Rekrytera"
+    },
+    "pricing": {
+      "title": "Prissättning",
+      "subtitle": "Välj den plan som passar dina behov",
+      "basic": {
+        "title": "Början",
+        "price": "Gratis",
+        "features": {
+          "0": "1 annons per månad",
+          "1": "Grundläggande filtrering",
+          "2": "E-postsupport"
+        }
+      },
+      "pro": {
+        "title": "Professionell",
+        "price": "Kontakta oss",
+        "features": {
+          "0": "Obegränsade annonser",
+          "1": "Avancerad filtrering",
+          "2": "Prioriterat stöd",
+          "3": "Kandidatrekommendationer"
+        }
+      },
+      "enterprise": {
+        "title": "Institutionell",
+        "price": "Specialpris",
+        "features": {
+          "0": "Alla Pro-funktioner",
+          "1": "API-åtkomst",
+          "2": "Anpassad integration",
+          "3": "kontoansvarig"
+        }
+      }
+    },
+    "cta": {
+      "title": "Hitta rätt talanger",
+      "subtitle": "Börja nu och nå de bästa kandidaterna."
+    }
+  },
+  "faq": {
+    "metaTitle": "Vanliga frågor - Hirovo",
+    "metaDescription": "Vanliga frågor och svar om Hirovo. Information om jobbsökning, ansökning och användning av applikationen.",
+    "hero": {
+      "title": "Vanliga frågor",
+      "subtitle": "Allt du undrar över"
+    },
+    "categories": {
+      "general": "Allmän",
+      "account": "Fakturera",
+      "application": "Ansökan",
+      "employers": "arbetsgivare",
+      "technical": "Teknisk"
+    },
+    "general": {
+      "q1": {
+        "question": "Vad är Hirovo?",
+        "answer": "Hirovo är en mobil anställningsplattform som sammanför arbetssökande och arbetsgivare. Du kan söka bland tusentals jobbannonser, ansöka med ett enda klick och följa karriärmöjligheter."
+      },
+      "q2": {
+        "question": "Är Hirovo gratis?",
+        "answer": "Ja, Hirovo är helt gratis för arbetssökande. Du kan använda alla våra funktioner gratis."
+      },
+      "q3": {
+        "question": "Var kan jag ladda ner Hirovo?",
+        "answer": "Du kan ladda ner Hirovo gratis från Google Play Store. iOS-versionen släpps snart."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Hur skapar jag ett konto?",
+        "answer": "Efter att ha laddat ner applikationen kan du registrera dig på några sekunder med din e-postadress eller ditt telefonnummer."
+      },
+      "q2": {
+        "question": "Jag har glömt mitt lösenord, vad ska jag göra?",
+        "answer": "Du kan återställa ditt lösenord via e-post eller SMS genom att klicka på alternativet \"Glömt mitt lösenord\" på inloggningsskärmen."
+      },
+      "q3": {
+        "question": "Hur kan jag radera mitt konto?",
+        "answer": "Du kan begära borttagning av konto från inställningarna i appen eller från sidan \"Radera konto\" på vår webbplats."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Hur spårar jag min ansökan?",
+        "answer": "Du kan se alla dina ansökningar och deras status i avsnittet \"Mina ansökningar\" i applikationen."
+      },
+      "q2": {
+        "question": "Kan jag dra tillbaka min ansökan?",
+        "answer": "Ja, du kan dra tillbaka dina ansökningar som inte har granskats ännu."
+      },
+      "q3": {
+        "question": "Varför avslogs min ansökan?",
+        "answer": "Arbetsgivare gör utvärderingar efter sina egna kriterier. Du kan öka dina chanser genom att uppdatera din profil och ansöka om fler inlägg."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Hur öppnar man ett företagskonto?",
+        "answer": "Du kan registrera ditt företag genom applikationen eller på vår hemsida. Verifieringsprocessen slutförs inom 24-48 timmar."
+      },
+      "q2": {
+        "question": "Finns det en avgift för att publicera en annons?",
+        "answer": "Vårt grundpaket är gratis. För fler meddelanden och avancerade funktioner kan du kolla in våra professionella paket."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "Applikationen öppnas inte, vad ska jag göra?",
+        "answer": "Uppdatera först applikationen. Om problemet kvarstår, ta bort appen och installera om den. Om du fortfarande har problem, kontakta vårt supportteam."
+      },
+      "q2": {
+        "question": "Kommer inte aviseringar?",
+        "answer": "Se till att du tillåter aviseringar för Hirovo i dina telefoninställningar. Kontrollera även dina aviseringsinställningar i inställningarna i appen."
+      }
+    },
+    "contact": {
+      "title": "Har du några frågor?",
+      "subtitle": "Kontakta oss för frågor du inte hittar svaren på."
+    }
+  },
+  "contact": {
+    "metaTitle": "Kontakt – Hirovo",
+    "metaDescription": "Kontakta Hirovo. Kontakta oss för dina frågor, förslag och feedback.",
+    "hero": {
+      "title": "Kommunikation",
+      "subtitle": "Vi hjälper dig gärna"
+    },
+    "info": {
+      "title": "Kontaktinformation",
+      "email": {
+        "title": "E-post",
+        "value": "hej@hirovo.com",
+        "description": "24/7 e-postsupport"
+      },
+      "phone": {
+        "title": "Telefon",
+        "value": "+90 (212) 000 00 00",
+        "description": "Måndag - fredag, kl. 09.00 - 18.00"
+      },
+      "address": {
+        "title": "Adress",
+        "value": "Istanbul, Turkiet",
+        "description": "Vårt huvudkontor"
+      }
+    },
+    "form": {
+      "title": "Skriv till oss",
+      "name": "Ditt namn och efternamn",
+      "email": "Din e-postadress",
+      "subject": "Ämne",
+      "message": "Ditt meddelande",
+      "submit": "Skicka",
+      "subjects": {
+        "general": "Allmän fråga",
+        "support": "Teknisk support",
+        "partnership": "Partnerskap",
+        "feedback": "Feed-back",
+        "other": "Andra"
+      },
+      "success": "Ditt meddelande har skickats. Vi återkommer till dig så snart som möjligt.",
+      "error": "Ett fel har uppstått. Försök igen senare."
+    },
+    "social": {
+      "title": "Sociala medier",
+      "subtitle": "Följ oss på sociala medier"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Karriärråd - Hirovo",
+    "metaDescription": "Expertråd om jobbsökning, CV-förberedelse, intervjutekniker och karriärutveckling.",
+    "hero": {
+      "title": "Karriärråd",
+      "subtitle": "Ta din karriär till nästa nivå"
+    },
+    "categories": {
+      "resume": "CV-förberedelse",
+      "interview": "Intervjutekniker",
+      "career": "Karriärutveckling",
+      "workplace": "Affärsliv"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Hur förbereder man ett effektivt CV?",
+        "summary": "En professionell CV-förberedande guide som lockar arbetsgivarnas uppmärksamhet.",
+        "content": "Ditt CV är första intrycket av din jobbansökan. Ett väl förberett CV skiljer dig från andra kandidater och ökar dina chanser att få en intervjuinbjudan. Här är tipsen för ett effektivt CV:\n\n1. Använd ett tydligt och kortfattat format\n2. Markera dina relevanta erfarenheter\n3. Stöd dina konkreta prestationer med siffror\n4. Använd nyckelord på rätt sätt\n5. Kontrollera noga efter fel"
+      },
+      "resume2": {
+        "title": "De vanligaste misstagen i CV",
+        "summary": "CV-fel som kan leda till att dina ansökningar avvisas och hur man undviker dem.",
+        "content": "Många kandidater gör kritiska misstag i sina CV:n utan att inse det. Att känna igen och korrigera dessa misstag kommer att påskynda din jobbsökningsprocess."
+      },
+      "interview1": {
+        "title": "Framgångshemligheter i intervjuer",
+        "summary": "Tekniker du behöver känna till för att bli framgångsrik på anställningsintervjuer.",
+        "content": "Intervjun är det mest kritiska steget i ansökningsprocessen. Väl förberedda kandidater kan hantera stress och uttrycka sig som bäst."
+      },
+      "interview2": {
+        "title": "De vanligaste intervjufrågorna",
+        "summary": "Frågor du kommer att stöta på i anställningsintervjuer och effektiva svarsstrategier.",
+        "content": "Vissa frågor ställs nästan alltid i intervjuer. Att förbereda sig för dessa frågor i förväg ökar ditt självförtroende."
+      },
+      "career1": {
+        "title": "För dig som vill göra ett karriärbyte",
+        "summary": "En steg-för-steg-guide för dig som vill byta sektor eller befattning.",
+        "content": "Ett karriärbyte kan verka skrämmande, men med ordentlig planering kan det genomföras framgångsrikt."
+      },
+      "career2": {
+        "title": "Professionellt nätverk",
+        "summary": "Sätt att bygga relationer som kommer att främja din karriär.",
+        "content": "Ett starkt professionellt nätverk ökar karriärmöjligheterna och håller dig informerad om utvecklingen i branschen."
+      },
+      "workplace1": {
+        "title": "Saker att tänka på när du startar ett nytt jobb",
+        "summary": "Praktiska råd för att lyckas från din första dag på jobbet.",
+        "content": "Att börja något nytt kan vara spännande men stressigt. Med rätt tillvägagångssätt kan du anpassa dig snabbt och få en framgångsrik start."
+      },
+      "workplace2": {
+        "title": "Hur upprättar man en balans mellan arbete och privatliv?",
+        "summary": "Sätt att balansera din karriär och ditt privatliv.",
+        "content": "En hälsosam balans mellan arbete och privatliv är avgörande för både din karriärframgång och personlig lycka."
+      }
+    },
+    "newsletter": {
+      "title": "Få karriärtips",
+      "subtitle": "Prenumerera på vårt nyhetsbrev för de senaste karriärråden och jobbmöjligheterna.",
+      "placeholder": "Din e-postadress",
+      "button": "Prenumerera"
+    }
+  },
+  "privacy": {
+    "title": "Sekretesspolicy",
+    "metaTitle": "Sekretesspolicy - Hirovo",
+    "metaDescription": "Hirovo Integritetspolicy - Information om hur dina personuppgifter samlas in, används och skyddas.",
+    "lastUpdate": "Senaste uppdatering: januari 2025",
+    "intro": "På Hirovo lägger vi stor vikt vid våra användares integritet. Denna integritetspolicy förklarar hur personuppgifter vi samlar in via Hirovos mobilapplikation (\"Applikation\") behandlas.",
+    "section1": {
+      "title": "1. Information vi samlar in",
+      "intro": "Vi kan samla in följande information när du använder vår applikation:",
+      "items": {
+        "account": "Kontoinformation: Namn, efternamn, e-postadress, telefonnummer",
+        "profile": "Profilinformation: CV, arbetslivserfarenhet, utbildningsinformation, kompetens",
+        "location": "Platsinformation: Platsdata för att visa jobbannonser nära dig (med din tillåtelse)",
+        "device": "Enhetsinformation: Enhetsrundtur, operativsystem, applikationsversion",
+        "usage": "Användningsdata: Interaktioner i appen, visade annonser, applikationer"
+      }
+    },
+    "section2": {
+      "title": "2. Syfte med användning av information",
+      "intro": "Vi använder informationen vi samlar in för följande ändamål:",
+      "items": {
+        "account": "Skapa och hantera ditt konto",
+        "jobs": "Visar platsannonser som passar dig",
+        "applications": "Vidarebefordra dina jobbansökningar till arbetsgivare",
+        "improve": "Förbättra applikationsupplevelsen",
+        "support": "Tillhandahålla teknisk support",
+        "legal": "För att uppfylla våra juridiska skyldigheter"
+      }
+    },
+    "section3": {
+      "title": "3. Dela information",
+      "intro": "Vi delar inte dina personuppgifter med tredje part förutom i följande fall:",
+      "items": {
+        "employers": "Arbetsgivare: Vi delar din profilinformation med ägarna av de platsannonser du ansöker till.",
+        "providers": "Tjänsteleverantörer: Pålitliga partners som tillhandahåller tekniska tjänster som är nödvändiga för driften av vår applikation.",
+        "legal": "Rättsliga skyldigheter: I enlighet med rättsliga processer eller begäran från behöriga myndigheter"
+      }
+    },
+    "section4": {
+      "title": "4. Datasäkerhet",
+      "intro": "Vi implementerar branschstandardiserade säkerhetsåtgärder för att skydda dina personuppgifter:",
+      "items": {
+        "ssl": "SSL/TLS-kryptering",
+        "datacenter": "Säkra datacenter",
+        "audits": "Regelbundna säkerhetsrevisioner",
+        "access": "Tillträdeskontroll och behörighet"
+      }
+    },
+    "section5": {
+      "title": "5. Dina rättigheter",
+      "intro": "Du har följande rättigheter inom ramen för personuppgiftslagen nr 6698 (KVKK):",
+      "items": {
+        "know": "Lär dig om dina personuppgifter behandlas eller inte",
+        "info": "Begär information om dina personuppgifter om de har behandlats",
+        "purpose": "Lär dig syftet med att behandla dina personuppgifter och om de används för det avsedda syftet",
+        "thirdParty": "Att känna till de tredje parter till vilka personuppgifter överförs hemma eller utomlands",
+        "correct": "Begär rättelse av personuppgifter om de är ofullständiga eller felaktigt behandlade",
+        "delete": "Begär radering eller förstörelse av dina personuppgifter"
+      }
+    },
+    "section6": {
+      "title": "6. Cookies och spårningstekniker",
+      "content": "Vår app kan använda cookies och liknande tekniker för att förbättra din upplevelse. Tack vare dessa teknologier kommer vi ihåg dina preferenser och analyserar applikationsprestanda."
+    },
+    "section7": {
+      "title": "7. Barns integritet",
+      "content": "Vår ansökan riktar sig inte till individer under 18 år. Vi samlar inte medvetet in personuppgifter från personer under 18 år."
+    },
+    "section8": {
+      "title": "8. Policyändringar",
+      "content": "Vi kan uppdatera denna integritetspolicy då och då. I händelse av betydande förändringar kommer vi att meddela dig med aviseringar i appen."
+    },
+    "section9": {
+      "title": "9. Kommunikation",
+      "intro": "För dina integritetsrelaterade frågor kan du kontakta oss:"
+    }
+  },
+  "terms": {
+    "title": "Användarvillkor",
+    "metaTitle": "Användarvillkor - Hirovo",
+    "metaDescription": "Hirovo Användarvillkor - Regler och villkor som du måste följa när du använder vår applikation.",
+    "lastUpdate": "Senaste uppdatering: januari 2025",
+    "intro": "Genom att använda Hirovo mobilapplikation (\"Applikation\") anses du ha accepterat följande användarvillkor. Läs dessa villkor noggrant.",
+    "section1": {
+      "title": "1. Beskrivning av tjänsten",
+      "intro": "Hirovo är en jobbsökningsplattform som syftar till att koppla samman arbetssökande med arbetsgivare. Genom vår ansökan:",
+      "items": {
+        "view": "Du kan se jobbannonser och ansöka",
+        "profile": "Du kan skapa din professionella profil",
+        "offers": "Du kan utvärdera erbjudanden från arbetsgivare",
+        "track": "Du kan följa karriärmöjligheter"
+      }
+    },
+    "section2": {
+      "title": "2. Skapa konto och säkerhet",
+      "intro": "Du måste skapa ett konto för att använda vår applikation. När du skapar ett konto:",
+      "items": {
+        "accurate": "Du samtycker till att tillhandahålla korrekt och aktuell information",
+        "responsible": "Du ansvarar för sekretessen för din kontoinformation.",
+        "activity": "Du är ansvarig för all aktivitet som sker på ditt konto.",
+        "notify": "Vid obehörig åtkomst måste du omedelbart meddela oss"
+      }
+    },
+    "section3": {
+      "title": "3. Användarens skyldigheter",
+      "intro": "När du använder vår applikation samtycker du till att följa följande regler:",
+      "items": {
+        "legal": "Agerar i enlighet med lagar och förordningar",
+        "honest": "Dela korrekt och icke-vilseledande information",
+        "respect": "Respektera andra användares rättigheter",
+        "noSpam": "Dela inte spam, skadlig programvara eller skadligt innehåll",
+        "security": "Undvika åtgärder som kan äventyra applikationens säkerhet",
+        "identity": "Att inte utge sig för att vara andra"
+      }
+    },
+    "section4": {
+      "title": "4. Förbjudna beteenden",
+      "intro": "Följande beteenden är strängt förbjudna:",
+      "items": {
+        "fake": "Skapa falska jobbannonser eller profiler",
+        "harass": "Trakassera eller trakassera andra användare",
+        "illegal": "Använder applikationen för olagliga ändamål",
+        "damage": "Skada applikationens tekniska infrastruktur",
+        "bots": "Använda automatiserade system eller bots",
+        "ip": "Brott mot immateriella rättigheter"
+      }
+    },
+    "section5": {
+      "title": "5. Innehåll och immateriella rättigheter",
+      "intro": "Alla rättigheter i applikationen och dess innehåll tillhör Hirovo:",
+      "items": {
+        "ownership": "Logotyp, design och gränssnitt tillhör Hirovo",
+        "userContent": "Innehåll som laddas upp av användaren är användarens ansvar.",
+        "license": "Du ger oss nödvändiga licenser för informationen du delar i din profil.",
+        "thirdParty": "Ditt innehåll får inte bryta mot tredje parts rättigheter"
+      }
+    },
+    "section6": {
+      "title": "6. Ansvarsbegränsning",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Garanterar inte riktigheten av jobbannonser",
+        "relationship": "Inte part i förhållandet mellan arbetsgivare och arbetstagare",
+        "disputes": "Ej ansvarig för tvister mellan användare",
+        "uptime": "Det garanterar inte att tjänsten kommer att fungera utan avbrott.",
+        "damages": "Ej ansvarig för några indirekta skador eller följdskador."
+      }
+    },
+    "section7": {
+      "title": "7. Avstängning och uppsägning av konto",
+      "intro": "Vi kan stänga av eller avsluta ditt konto i följande situationer:",
+      "items": {
+        "violation": "Brott mot användarvillkoren",
+        "illegal": "Olaglig verksamhet",
+        "harm": "Beteenden som skadar andra användare",
+        "false": "Att tillhandahålla falsk eller vilseledande information"
+      }
+    },
+    "section8": {
+      "title": "8. Ändringar",
+      "content": "Vi förbehåller oss rätten att ändra dessa användarvillkor utan föregående meddelande. Viktiga ändringar kommer att meddelas via aviseringar i appen. Att fortsätta använda applikationen efter ändringarna innebär att du accepterar de nya villkoren."
+    },
+    "section9": {
+      "title": "9. Tillämplig lag",
+      "content": "Dessa användarvillkor är föremål för lagarna i Republiken Turkiet. I händelse av tvist har Istanbuls domstolar och tillsynsmyndigheter jurisdiktion."
+    },
+    "section10": {
+      "title": "10. Kommunikation",
+      "intro": "För dina frågor om användarvillkoren:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Begäran om borttagning av konto",
+    "metaTitle": "Radering av konto - Hirovo",
+    "metaDescription": "Begär att ta bort ditt Hirovo-konto.",
+    "description": "Om du vill ta bort ditt konto, fyll i formuläret nedan. När din begäran har granskats kommer ditt konto och all din data att raderas permanent.",
+    "warning": "När ditt konto har raderats kommer all din data (profilinformation, applikationer, meddelanden) att raderas permanent och kan inte återställas.",
+    "form": {
+      "emailLabel": "E-postadress",
+      "emailPlaceholder": "exempel@e-post.com",
+      "phoneLabel": "Telefonnummer",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Orsak till radering",
+      "reasonPlaceholder": "Varför vill du ta bort ditt konto?",
+      "submitButton": "Skicka begäran om borttagning av konto"
+    },
+    "errors": {
+      "emailOrPhone": "Vänligen ange din e-postadress eller ditt telefonnummer.",
+      "generic": "Ett fel har uppstått. Försök igen senare.",
+      "connection": "Anslutningsfel. Kontrollera din internetanslutning."
+    },
+    "success": {
+      "title": "Din förfrågan har tagits emot",
+      "message": "Din begäran om borttagning av konto har tagits emot framgångsrikt. Din förfrågan kommer att granskas så snart som möjligt och du kommer att informeras via e-post eller SMS.",
+      "processingTime": "Handläggningstid: 1-3 arbetsdagar"
+    },
+    "contactNote": "Du når oss på."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Välj Språk",
+    "popularLanguages": "Populära språk"
+  }
+}

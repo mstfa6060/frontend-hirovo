@@ -1,0 +1,108 @@
+{
+  "positions": {
+    "hero": {
+      "title": "Pozisyona Göre İş İlanları",
+      "subtitle": "Kariyer hedeflerinize uygun iş fırsatlarını keşfedin"
+    },
+    "yazilimci": {
+      "slug": "yazilimci",
+      "title": "Yazılımcı İş İlanları",
+      "metaTitle": "Yazılımcı İş İlanları 2024 - Hirovo",
+      "metaDescription": "Türkiye'nin en güncel yazılımcı iş ilanları. Junior, Mid ve Senior seviye yazılım geliştirici pozisyonları Hirovo'da.",
+      "description": "Türkiye'de yazılım geliştirme sektörü, dijital dönüşümün hız kazanmasıyla birlikte benzeri görülmemiş bir büyüme yaşamaktadır. Yazılımcı pozisyonları, frontend, backend, full-stack, mobil uygulama ve DevOps gibi çeşitli uzmanlık alanlarını kapsamaktadır. Hirovo üzerinden yazılımcı iş ilanlarına başvurarak, Türkiye'nin önde gelen teknoloji şirketlerinde kariyer fırsatı yakalayabilirsiniz. Junior seviyeden senior pozisyonlara kadar geniş bir yelpazede ilanlar sunulmaktadır. Yazılım geliştirici olarak çalışmak isteyenler için Java, Python, JavaScript, C#, Go, Rust gibi programlama dillerinde uzmanlaşmış pozisyonlar mevcuttur. Remote çalışma imkanı sunan şirketler de platformumuzda yer almaktadır. Startup'lardan kurumsal firmalara kadar her ölçekte işveren, Hirovo aracılığıyla yetenekli yazılımcılar aramaktadır. Yazılım mühendisliği kariyerinizi bir üst seviyeye taşımak için hemen başvurun.",
+      "keySkills": ["JavaScript", "Python", "Java", "React", "Node.js", "SQL", "Git", "Docker"],
+      "salaryRange": "25.000 TL - 150.000 TL",
+      "experienceLevels": ["Junior (0-2 yıl)", "Mid-Level (2-5 yıl)", "Senior (5+ yıl)"]
+    },
+    "satis": {
+      "slug": "satis",
+      "title": "Satış Temsilcisi İş İlanları",
+      "metaTitle": "Satış Temsilcisi İş İlanları 2024 - Hirovo",
+      "metaDescription": "Türkiye genelinde satış temsilcisi ve satış danışmanı iş ilanları. Komisyon ve prim imkanlı satış pozisyonları.",
+      "description": "Satış temsilcisi pozisyonları, Türkiye'de en çok aranan iş pozisyonları arasında yer almaktadır. Bu rol, şirketlerin büyümesinde kritik öneme sahip olup, ürün ve hizmetlerin müşterilere ulaştırılmasında köprü görevi görmektedir. Hirovo'da yer alan satış ilanları, saha satışından kurumsal satışa, B2B'den B2C'ye kadar geniş bir yelpazeyi kapsamaktadır. Satış temsilcisi olarak çalışmak, yüksek kazanç potansiyeli sunan dinamik bir kariyer yoludur. Komisyon ve prim sistemleriyle desteklenen maaş paketleri, başarılı satış profesyonellerinin gelirlerini önemli ölçüde artırmalarına olanak tanımaktadır. Perakende, otomotiv, sigorta, telekomünikasyon, gayrimenkul ve FMCG sektörlerinde sayısız satış pozisyonu bulunmaktadır. İletişim becerileri güçlü, ikna kabiliyeti yüksek ve hedef odaklı çalışabilen adaylar için ideal kariyer fırsatları Hirovo'da sizi bekliyor.",
+      "keySkills": ["İletişim", "İkna", "Müzakere", "CRM", "Sunum", "Hedef Odaklılık"],
+      "salaryRange": "18.000 TL - 80.000 TL + Prim",
+      "experienceLevels": ["Deneyimsiz", "1-3 yıl deneyimli", "Kıdemli"]
+    },
+    "muhasebe": {
+      "slug": "muhasebe",
+      "title": "Muhasebe İş İlanları",
+      "metaTitle": "Muhasebe ve Finans İş İlanları 2024 - Hirovo",
+      "metaDescription": "Muhasebeci, mali müşavir ve finans uzmanı iş ilanları. Türkiye'nin her yerinden muhasebe pozisyonları.",
+      "description": "Muhasebe ve finans sektörü, her işletmenin temel taşını oluşturmaktadır. Muhasebeci pozisyonları, işletmelerin mali sağlığını korumak, vergi yükümlülüklerini yerine getirmek ve finansal raporlama yapmak gibi kritik görevleri içermektedir. Hirovo platformunda yer alan muhasebe iş ilanları, genel muhasebeden maliyet muhasebesine, denetimden vergi danışmanlığına kadar çeşitli uzmanlık alanlarını kapsamaktadır. SMMM ve YMM belgeli profesyoneller için özel pozisyonlar da mevcuttur. Logo, Mikro, Netsis, SAP gibi muhasebe programlarında deneyimli adaylar için cazip fırsatlar sunulmaktadır. Küçük işletmelerden çok uluslu şirketlere kadar her ölçekte firma, nitelikli muhasebe personeli aramaktadır. E-dönüşüm süreçlerine hakim, güncel mevzuatı takip eden ve analitik düşünme becerisine sahip muhasebe profesyonelleri için kariyer kapıları Hirovo'da açık.",
+      "keySkills": ["Logo", "Netsis", "SAP", "Excel", "E-Fatura", "Vergi Mevzuatı", "TFRS"],
+      "salaryRange": "20.000 TL - 70.000 TL",
+      "experienceLevels": ["Junior", "Uzman", "Müdür"]
+    },
+    "ik": {
+      "slug": "insan-kaynaklari",
+      "title": "İnsan Kaynakları İş İlanları",
+      "metaTitle": "İK Uzmanı ve HR İş İlanları 2024 - Hirovo",
+      "metaDescription": "İnsan kaynakları uzmanı, işe alım uzmanı ve İK müdürü pozisyonları. Türkiye genelinde HR iş fırsatları.",
+      "description": "İnsan kaynakları departmanları, şirketlerin en değerli varlığı olan çalışanların yönetiminde kritik rol oynamaktadır. İK pozisyonları, işe alımdan bordro yönetimine, performans değerlendirmeden eğitim planlamaya kadar geniş bir sorumluluk alanını kapsamaktadır. Hirovo'da yer alan İK iş ilanları, İK asistanından İK direktörüne kadar farklı seviyelerde kariyer fırsatları sunmaktadır. Modern insan kaynakları yaklaşımları, çalışan deneyimi, employer branding ve yetenek yönetimi konularında uzmanlaşmış profesyoneller için önemli pozisyonlar mevcuttur. İş hukuku bilgisi, SGK mevzuatına hakimiyet ve İK yazılımları konusunda deneyim, bu alanda aranan temel yetkinlikler arasındadır. Çok uluslu şirketlerde uluslararası İK deneyimi kazanma fırsatı da bulunmaktadır. İnsan odaklı yaklaşımı benimseyen, iletişim becerileri güçlü İK profesyonelleri için ideal kariyer fırsatları Hirovo'da.",
+      "keySkills": ["İşe Alım", "Bordro", "İş Hukuku", "Performans Yönetimi", "SAP HR", "Yetenek Yönetimi"],
+      "salaryRange": "22.000 TL - 90.000 TL",
+      "experienceLevels": ["Asistan", "Uzman", "Müdür", "Direktör"]
+    },
+    "pazarlama": {
+      "slug": "pazarlama",
+      "title": "Pazarlama İş İlanları",
+      "metaTitle": "Dijital Pazarlama ve Marketing İş İlanları 2024 - Hirovo",
+      "metaDescription": "Pazarlama uzmanı, sosyal medya yöneticisi ve marka yöneticisi pozisyonları. Dijital marketing iş fırsatları.",
+      "description": "Pazarlama sektörü, dijital dönüşümle birlikte köklü bir değişim geçirmektedir. Geleneksel pazarlamanın yanı sıra dijital pazarlama, içerik pazarlama, influencer marketing ve performance marketing gibi yeni uzmanlık alanları ortaya çıkmıştır. Hirovo'da yer alan pazarlama iş ilanları, sosyal medya yöneticiliğinden marka müdürlüğüne, SEO uzmanlığından growth hacking pozisyonlarına kadar geniş bir yelpazeyi kapsamaktadır. Dijital pazarlama araçlarına hakim, veri odaklı karar alabilen ve yaratıcı düşünme becerisine sahip pazarlama profesyonelleri için sayısız fırsat sunulmaktadır. Google Analytics, Meta Business Suite, Google Ads, e-mail marketing platformları ve CRM sistemleri konusunda deneyimli adaylar tercih edilmektedir. Startup'lardan kurumsal markalara kadar her ölçekte şirket, yetenekli pazarlama profesyonelleri aramaktadır. Markaların dijital varlığını güçlendirmek ve müşteri deneyimini iyileştirmek için kariyer fırsatları sizi bekliyor.",
+      "keySkills": ["Dijital Pazarlama", "SEO/SEM", "Sosyal Medya", "Google Analytics", "İçerik Üretimi", "CRM"],
+      "salaryRange": "20.000 TL - 100.000 TL",
+      "experienceLevels": ["Junior", "Specialist", "Manager", "Director"]
+    },
+    "musteri-hizmetleri": {
+      "slug": "musteri-hizmetleri",
+      "title": "Müşteri Hizmetleri İş İlanları",
+      "metaTitle": "Müşteri Temsilcisi ve Çağrı Merkezi İş İlanları 2024 - Hirovo",
+      "metaDescription": "Müşteri hizmetleri temsilcisi, call center ve destek pozisyonları. Türkiye genelinde müşteri hizmetleri iş fırsatları.",
+      "description": "Müşteri hizmetleri, şirketlerin müşteri memnuniyetini ve sadakatini belirleyen kritik bir fonksiyondur. Bu alanda çalışan profesyoneller, müşteri şikayetlerini çözmek, bilgi vermek ve marka temsilciliği yapmak gibi önemli görevleri üstlenmektedir. Hirovo'da yer alan müşteri hizmetleri iş ilanları, inbound ve outbound çağrı merkezi pozisyonlarından, canlı destek uzmanlığına, sosyal medya müşteri ilişkilerinden teknik destek pozisyonlarına kadar çeşitli fırsatlar sunmaktadır. Çok dilli müşteri hizmetleri pozisyonları da yabancı dil bilen adaylar için cazip seçenekler arasındadır. Sabırlı, çözüm odaklı ve empati kurma becerisine sahip adaylar için ideal kariyer yolu olan bu alan, aynı zamanda yöneticilik pozisyonlarına ilerleme fırsatı da sunmaktadır. Bankacılık, e-ticaret, telekomünikasyon ve teknoloji sektörlerinde müşteri hizmetleri pozisyonları sizi bekliyor.",
+      "keySkills": ["İletişim", "Problem Çözme", "CRM", "Çağrı Merkezi Sistemleri", "Empati", "Sabır"],
+      "salaryRange": "17.500 TL - 45.000 TL",
+      "experienceLevels": ["Başlangıç", "Deneyimli", "Takım Lideri", "Yönetici"]
+    },
+    "grafik": {
+      "slug": "grafik-tasarim",
+      "title": "Grafik Tasarımcı İş İlanları",
+      "metaTitle": "Grafik Tasarımcı ve UI/UX Designer İş İlanları 2024 - Hirovo",
+      "metaDescription": "Grafik tasarımcı, UI/UX designer ve görsel tasarımcı pozisyonları. Türkiye'de tasarım iş fırsatları.",
+      "description": "Görsel iletişimin gücü, markaların başarısında belirleyici rol oynamaktadır. Grafik tasarımcı pozisyonları, logo tasarımından ambalaj tasarımına, dijital içeriklerden basılı materyallere kadar geniş bir yaratıcı alanı kapsamaktadır. Hirovo'da yer alan tasarım iş ilanları, grafik tasarımın yanı sıra UI/UX design, motion graphics, 3D modelleme ve illüstrasyon gibi uzmanlık alanlarını da içermektedir. Adobe Creative Suite (Photoshop, Illustrator, InDesign, After Effects), Figma, Sketch gibi profesyonel tasarım araçlarına hakim adaylar için sayısız fırsat sunulmaktadır. Ajanslardan in-house tasarım departmanlarına, startup'lardan kurumsal markalara kadar çeşitli çalışma ortamları mevcuttur. Freelance çalışma imkanı sunan projeler de platformumuzda yer almaktadır. Yaratıcı düşünme, estetik anlayış ve teknik beceriyi bir araya getiren tasarımcılar için kariyer kapıları Hirovo'da açık.",
+      "keySkills": ["Adobe Photoshop", "Illustrator", "Figma", "UI/UX", "Typography", "Branding"],
+      "salaryRange": "18.000 TL - 80.000 TL",
+      "experienceLevels": ["Junior", "Mid-Level", "Senior", "Lead"]
+    },
+    "proje-yoneticisi": {
+      "slug": "proje-yoneticisi",
+      "title": "Proje Yöneticisi İş İlanları",
+      "metaTitle": "Proje Yöneticisi ve Project Manager İş İlanları 2024 - Hirovo",
+      "metaDescription": "Proje yöneticisi, scrum master ve program yöneticisi pozisyonları. Türkiye'de PM iş fırsatları.",
+      "description": "Proje yönetimi, organizasyonların stratejik hedeflerini gerçekleştirmek için yürüttükleri projelerin başarıyla tamamlanmasını sağlayan kritik bir disiplindir. Proje yöneticisi pozisyonları, IT projelerinden inşaat projelerine, pazarlama kampanyalarından ürün lansmanlarına kadar çeşitli sektörlerde talep görmektedir. Hirovo'da yer alan proje yönetimi iş ilanları, junior PM pozisyonlarından program direktörlüğüne kadar farklı seviyelerde kariyer fırsatları sunmaktadır. PMP, PRINCE2, Agile/Scrum sertifikalarına sahip adaylar için özel pozisyonlar mevcuttur. Jira, Asana, Monday.com, MS Project gibi proje yönetim araçlarında deneyim, bu pozisyonlar için önemli bir avantaj sağlamaktadır. Liderlik becerileri, zaman yönetimi, risk analizi ve paydaş yönetimi konularında güçlü adaylar için ideal kariyer fırsatları. Çok disiplinli ekipleri yöneterek projeleri başarıya taşımak isteyen profesyoneller için kapılarımız açık.",
+      "keySkills": ["PMP", "Agile/Scrum", "Jira", "MS Project", "Risk Yönetimi", "Bütçe Yönetimi"],
+      "salaryRange": "30.000 TL - 120.000 TL",
+      "experienceLevels": ["Junior PM", "PM", "Senior PM", "Program Manager"]
+    },
+    "veri-analisti": {
+      "slug": "veri-analisti",
+      "title": "Veri Analisti İş İlanları",
+      "metaTitle": "Data Analyst ve Veri Bilimci İş İlanları 2024 - Hirovo",
+      "metaDescription": "Veri analisti, data scientist ve BI uzmanı pozisyonları. Türkiye'de veri bilimi kariyer fırsatları.",
+      "description": "Veri, 21. yüzyılın en değerli kaynağı olarak kabul edilmektedir. Veri analisti pozisyonları, bu kaynağı anlamlandırarak işletmelerin stratejik kararlar almasına yardımcı olan kritik roller üstlenmektedir. Hirovo'da yer alan veri analizi iş ilanları, business intelligence analistliğinden data science pozisyonlarına, marketing analistliğinden financial analistliğe kadar geniş bir yelpazeyi kapsamaktadır. SQL, Python, R, Tableau, Power BI gibi araçlarda uzman adaylar için sayısız fırsat sunulmaktadır. Makine öğrenmesi, yapay zeka ve büyük veri teknolojileri konularında deneyimli profesyoneller için özellikle cazip pozisyonlar mevcuttur. E-ticaret, finans, telekomünikasyon ve teknoloji sektörlerinde veri odaklı karar alma süreçlerine katkı sağlamak isteyen analistler için ideal kariyer fırsatları. Analitik düşünme, istatistik bilgisi ve veri görselleştirme becerisine sahip adaylar Hirovo'da aradıkları pozisyonu bulabilir.",
+      "keySkills": ["SQL", "Python", "Tableau", "Power BI", "Excel", "İstatistik", "Machine Learning"],
+      "salaryRange": "25.000 TL - 110.000 TL",
+      "experienceLevels": ["Junior Analyst", "Analyst", "Senior Analyst", "Lead/Manager"]
+    },
+    "sofor": {
+      "slug": "sofor",
+      "title": "Şoför İş İlanları",
+      "metaTitle": "Şoför ve Sürücü İş İlanları 2024 - Hirovo",
+      "metaDescription": "Ağır vasıta şoförü, kurye, servis şoförü ve VIP şoför pozisyonları. Türkiye genelinde şoför iş fırsatları.",
+      "description": "Lojistik ve ulaşım sektörünün temel taşı olan şoförlük, Türkiye'de sürekli talep gören meslekler arasındadır. Şoför pozisyonları, kurye ve paket dağıtımından ağır vasıta nakliyesine, personel servisinden VIP transfere kadar geniş bir yelpazeyi kapsamaktadır. Hirovo'da yer alan şoför iş ilanları, B, C, D ve E sınıfı ehliyet gerektiren çeşitli pozisyonları içermektedir. SRC belgesi gerektiren profesyonel taşımacılık pozisyonları da mevcuttur. E-ticaretin büyümesiyle birlikte kurye ve son mil teslimat pozisyonları özellikle talep görmektedir. Şehir içi ve şehirlerarası sefer yapan pozisyonlar, yurt dışı TIR şoförlüğü fırsatları platformumuzda yer almaktadır. Düzenli çalışma saatleri, yol masrafları ve yemek yardımı gibi yan haklar sunan işverenler de ilanlar arasındadır. Güvenli sürüş, yol bilgisi ve müşteri ilişkileri konusunda deneyimli şoförler için kariyer fırsatları Hirovo'da.",
+      "keySkills": ["Ehliyet (B/C/D/E)", "SRC Belgesi", "Psikoteknik", "Şehir Bilgisi", "Güvenli Sürüş"],
+      "salaryRange": "20.000 TL - 60.000 TL",
+      "experienceLevels": ["Deneyimsiz", "1-3 yıl", "5+ yıl", "Uzman"]
+    }
+  }
+}

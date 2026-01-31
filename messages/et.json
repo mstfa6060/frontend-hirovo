@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Laadi alla",
+    "downloadApp": "Laadige rakendus alla",
+    "googlePlay": "Google Play",
+    "email": "Meil",
+    "phone": "Telefon",
+    "or": "või",
+    "loading": "Laadimine...",
+    "sending": "Saatmine...",
+    "error": "Viga",
+    "success": "Edukas",
+    "submit": "Saada",
+    "optional": "valikuline",
+    "important": "Tähtis",
+    "contact": "Suhtlemine",
+    "questions": "Teie küsimustele",
+    "learnMore": "Rohkem teavet",
+    "getStarted": "Alusta kohe",
+    "readMore": "Loe edasi",
+    "viewAll": "Vaata kõiki",
+    "free": "Tasuta",
+    "new": "Uus"
+  },
+  "metadata": {
+    "title": "Hirovo – tööotsimis- ja reklaamiplatvorm",
+    "description": "Hirovo on tööotsingu- ja kuulutusplatvorm. Avastage töökuulutusi, kandideerige lihtsalt ja jälgige karjäärivõimalusi.",
+    "keywords": "töö leidmine, töökuulutused, karjäär, tööotsing, personalikuulutused, personaliotsijad, värbamine, Hirovo",
+    "ogTitle": "Hirovo – tööhõive- ja karjääriplatvorm",
+    "ogDescription": "Avastage töökuulutusi, kandideerige ja jälgige karjäärivõimalusi koos Hirovoga."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Meie kohta",
+    "howItWorks": "Kuidas see töötab",
+    "forJobSeekers": "Tööotsijad",
+    "forEmployers": "tööandjad",
+    "faq": "KKK",
+    "contact": "Suhtlemine",
+    "careerTips": "Karjäärinõuanded"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Privaatsuspoliitika",
+    "terms": "Kasutustingimused",
+    "deleteAccount": "Konto kustutamine",
+    "home": "Avaleht",
+    "about": "Meie kohta",
+    "contact": "Suhtlemine",
+    "faq": "KKK",
+    "howItWorks": "Kuidas see töötab",
+    "forJobSeekers": "Tööotsijatele",
+    "forEmployers": "Tööandjatele",
+    "careerTips": "Karjäärinõuanded",
+    "company": "Ettevõte",
+    "resources": "Vahendid",
+    "legal": "Juriidiline",
+    "followUs": "Jälgi meid",
+    "description": "Türgi kõige uuenduslikum tööhõiveplatvorm. Teie unistus on sammu võrra lähemal."
+  },
+  "home": {
+    "hero": {
+      "title": "Leidke oma unistuste töö",
+      "subtitle": "Avastage tuhandeid töökuulutusi, kandideerige hõlpsalt ja jälgige Hirovo karjäärivõimalusi.",
+      "stats": {
+        "jobs": "Aktiivne töökuulutus",
+        "users": "Registreeritud kasutaja",
+        "companies": "Partnerettevõte",
+        "placements": "Edukas sobitamine"
+      }
+    },
+    "features": {
+      "title": "Miks Hirovo?",
+      "subtitle": "Meie funktsioonid, mis muudavad teie tööotsimise lihtsamaks",
+      "easySearch": {
+        "title": "Lihtne otsing",
+        "description": "Otsige kiiresti tuhandete töökuulutuste hulgast ja leidke endale sobivad võimalused."
+      },
+      "quickApply": {
+        "title": "Kiire rakendus",
+        "description": "Taotlege vaid ühe klõpsuga, ärge raisake aega. Looge oma profiil üks kord ja kasutage seda kõikjal."
+      },
+      "notifications": {
+        "title": "Tõukemärguanded",
+        "description": "Lisateavet uute postituste ja rakenduste olekute kohta kohe, ärge jätke võimalust kasutamata."
+      },
+      "smartMatch": {
+        "title": "Nutikas sobitamine",
+        "description": "Tehisintellekti toega süsteem soovitab sulle töid, mis sinu oskustele kõige paremini vastavad."
+      },
+      "secureProfile": {
+        "title": "Turvaline profiil",
+        "description": "Teie isikuandmeid säilitatakse turvaliselt ja jagatakse tööandjaga ainult siis, kui kandideerite."
+      },
+      "careerSupport": {
+        "title": "Karjääri tugi",
+        "description": "Aitame Sind CV koostamise, intervjuu tehnikate ja karjäärinõustamise osas."
+      }
+    },
+    "categories": {
+      "title": "Populaarsed ärikategooriad",
+      "subtitle": "Avastage võimalused kõige ihaldatumates sektorites",
+      "technology": "Tehnoloogia",
+      "healthcare": "Tervis",
+      "finance": "Rahandus",
+      "education": "Haridus",
+      "retail": "Jaemüük",
+      "manufacturing": "Tootmine",
+      "hospitality": "Turism ja külalislahkus",
+      "construction": "Hoone"
+    },
+    "howItWorks": {
+      "title": "Kuidas see toimib?",
+      "subtitle": "Leidke töö kolme lihtsa sammuga",
+      "step1": {
+        "title": "Laadige rakendus alla",
+        "description": "Laadige Hirovo Google Playst tasuta alla ja looge oma konto."
+      },
+      "step2": {
+        "title": "Looge oma profiil",
+        "description": "Lisage oma kogemused, oskused ja eelistused."
+      },
+      "step3": {
+        "title": "Taotlege ja alustage äri",
+        "description": "Kandideeri endale sobivatele töökuulutustele ja võta ühendust tööandjatega."
+      }
+    },
+    "testimonials": {
+      "title": "Kasutajate kommentaarid",
+      "subtitle": "Meie kasutajate kogemused, kes leidsid töö Hirovos"
+    },
+    "cta": {
+      "title": "Alusta kohe",
+      "subtitle": "Laadige alla Hirovo, teie unistus on sammu võrra lähemal.",
+      "downloadFree": "Tasuta allalaadimine"
+    }
+  },
+  "about": {
+    "metaTitle": "Meist – Hirovo",
+    "metaDescription": "Lisateave Hirovo kohta. Meie missioon, visioon ja vaatenurk tööhõivesektorile.",
+    "hero": {
+      "title": "Meie kohta",
+      "subtitle": "Võtsime ette ärimaailma muutmise"
+    },
+    "mission": {
+      "title": "Meie missioon",
+      "description": "Viia tööotsijad ja tööandjad võimalikult tõhusalt kokku, hõlbustada tööotsimise protsessi kõigile ja luua ausaid töövõimalusi."
+    },
+    "vision": {
+      "title": "Meie visioon",
+      "description": "Türgi ja piirkonna juhtiva digitaalse tööhõiveplatvormina, mis aitab miljonitel inimestel saavutada oma karjäärieesmärke."
+    },
+    "story": {
+      "title": "Meie lugu",
+      "content1": "Hirovo asutati 2024. aastal, et lahendada tööotsijate ees seisvaid väljakutseid. Nähes traditsiooniliste tööotsimismeetodite ebaefektiivsust ja tööotsijate pettumust, otsustasime luua tehnoloogia abil parema lahenduse.",
+      "content2": "Täna valivad Hirovo tuhanded tööotsijad ja sajad ettevõtted. Oma kasutajakeskse lähenemise ja pidevalt täiustatava tehnoloogiaga parandame iga päev tööotsimise kogemust."
+    },
+    "values": {
+      "title": "Meie väärtused",
+      "transparency": {
+        "title": "Läbipaistvus",
+        "description": "Pakume töökuulutuste ja protsesside täielikku läbipaistvust."
+      },
+      "equality": {
+        "title": "Võrdsus",
+        "description": "Pakume kõigile võrdseid võimalusi ja seisame diskrimineerimise vastu."
+      },
+      "innovation": {
+        "title": "uuenduslikkust",
+        "description": "Täiustame pidevalt ja kasutame uusimaid tehnoloogiaid."
+      },
+      "userFirst": {
+        "title": "Kasutaja fookus",
+        "description": "Seame kõigi otsuste tegemisel esikohale kasutajakogemuse."
+      }
+    },
+    "team": {
+      "title": "Meie meeskond",
+      "description": "Meie kogenud spetsialistide meeskond toob Hirovosse aastatepikkused teadmised tööhõivesektorist."
+    },
+    "stats": {
+      "title": "Hirovo numbrites",
+      "downloads": "Laadi alla",
+      "activeUsers": "Aktiivne kasutaja",
+      "partnerCompanies": "Partnerettevõte",
+      "successfulMatches": "Edukas sobitamine"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Kuidas see töötab – Hirovo",
+    "metaDescription": "Kuidas Hirovo töötab? Õppige samm-sammult tööotsimise ja kandideerimise protsessi.",
+    "hero": {
+      "title": "Kuidas see toimib?",
+      "subtitle": "Tegime töö leidmise nii lihtsaks"
+    },
+    "forJobSeekers": {
+      "title": "Tööotsijatele",
+      "step1": {
+        "title": "Laadige rakendus alla",
+        "description": "Laadige Hirovo rakendus Google Playst tasuta alla. Kiire ja turvaline paigaldamine."
+      },
+      "step2": {
+        "title": "Loo konto",
+        "description": "Registreeruge sekunditega oma e-posti või telefoninumbriga."
+      },
+      "step3": {
+        "title": "Täitke oma profiil",
+        "description": "Lisage oma töökogemus, haridus ja oskused. Laadi üles oma CV."
+      },
+      "step4": {
+        "title": "Tutvuge töökuulutustega",
+        "description": "Otsige filtrite abil teile sobivaid kirjeid. Asukoht, palk, tööstus ja palju muud."
+      },
+      "step5": {
+        "title": "Taotlege ühe klõpsuga",
+        "description": "Rakendage koheselt teile meeldivatele reklaamidele. Teie profiil edastatakse automaatselt."
+      },
+      "step6": {
+        "title": "Järgige protsessi",
+        "description": "Jälgige oma rakenduste olekut reaalajas. Olge märguannetega kursis."
+      }
+    },
+    "forEmployers": {
+      "title": "Tööandjatele",
+      "step1": {
+        "title": "Looge ettevõtte konto",
+        "description": "Registreerige oma ettevõte ja viige kinnitusprotsess lõpule."
+      },
+      "step2": {
+        "title": "Avalda töökuulutus",
+        "description": "Koostage töökuulutus koos üksikasjalike töökirjelduste ja nõuetega."
+      },
+      "step3": {
+        "title": "Vaadake rakendused üle",
+        "description": "Filtreerige sissetulevad taotlused ja valige sobivad kandidaadid."
+      },
+      "step4": {
+        "title": "Võtke ühendust kandidaatidega",
+        "description": "Kandidaatidega ühendust võtta otse taotluse kaudu."
+      }
+    },
+    "features": {
+      "title": "Omadused",
+      "ai": {
+        "title": "Tehisintellekti tugi",
+        "description": "Nutikad algoritmid soovitavad teile kõige sobivamaid töid."
+      },
+      "realtime": {
+        "title": "Tõukemärguanded",
+        "description": "Saate vahetuid teateid uute postituste ja rakenduste värskenduste kohta."
+      },
+      "secure": {
+        "title": "Turvaline infrastruktuur",
+        "description": "Teie andmed on kaitstud kõrgeimate turvastandarditega."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Tööotsijatele – Hirovo",
+    "metaDescription": "Kui otsite tööd, on Hirovo just teile. Tuhanded töökuulutused, lihtsad kandideerimised ja karjäärivõimalused.",
+    "hero": {
+      "title": "Tööotsijatele",
+      "subtitle": "Oleme teiega teie karjääriteel"
+    },
+    "benefits": {
+      "title": "Miks valida Hirovo?",
+      "free": {
+        "title": "Täiesti tasuta",
+        "description": "Kõik meie funktsioonid on tööotsijatele tasuta. Varjatud tasusid pole."
+      },
+      "thousands": {
+        "title": "Tuhanded kuulutused",
+        "description": "Tuhanded praegused töökuulutused igast sektorist ja igal tasandil."
+      },
+      "easy": {
+        "title": "Lihtne rakendus",
+        "description": "Kandke ühe klõpsuga, ärge raisake aega."
+      },
+      "track": {
+        "title": "Rakenduste jälgimine",
+        "description": "Jälgige kõiki oma rakendusi ühes kohas."
+      },
+      "notifications": {
+        "title": "Nutikad märguanded",
+        "description": "Olge kohe kursis teile sobivate uute kuulutustega."
+      },
+      "privacy": {
+        "title": "Turvalisus",
+        "description": "Teie teavet jagatakse ainult ettevõtetega, kuhu kandideerite."
+      }
+    },
+    "tips": {
+      "title": "Näpunäiteid edukaks rakendamiseks",
+      "tip1": {
+        "title": "Täitke oma profiil",
+        "description": "Täielikult täidetud profiilid tõmbavad 3 korda rohkem tähelepanu."
+      },
+      "tip2": {
+        "title": "Hoidke end kursis",
+        "description": "Uuendage oma profiili, kui lisate uusi oskusi ja kogemusi."
+      },
+      "tip3": {
+        "title": "Hoidke märguanded sees",
+        "description": "Lubage märguanded, et vältida võimaluste kaotamist."
+      },
+      "tip4": {
+        "title": "Rakenda kiiresti",
+        "description": "Esiplaanile tulevad need, kes kandideerivad kiiresti uutele postitustele."
+      }
+    },
+    "categories": {
+      "title": "Populaarsed kategooriad",
+      "subtitle": "Enimotsitud töökategooriad"
+    },
+    "cta": {
+      "title": "Leidke oma unistuste töö",
+      "subtitle": "Laadige kohe alla Hirovo ja avastage tuhandeid võimalusi."
+    }
+  },
+  "employers": {
+    "metaTitle": "Tööandjatele – Hirovo",
+    "metaDescription": "Leidke Hirovoga õige talent. Kiired, tõhusad ja ökonoomsed ostulahendused.",
+    "hero": {
+      "title": "Tööandjatele",
+      "subtitle": "Lihtsaim viis õigete talentide leidmiseks"
+    },
+    "benefits": {
+      "title": "Hirovo eelised",
+      "reach": {
+        "title": "Lai haardega",
+        "description": "Jõua kohe tuhandete aktiivsete tööotsijateni."
+      },
+      "quality": {
+        "title": "Kvaliteetsed kandidaadid",
+        "description": "Kontrollitud profiilid ja üksikasjalikud CV."
+      },
+      "fast": {
+        "title": "Kiire tulemus",
+        "description": "Saate esimesed taotlused umbes 48 tunni jooksul."
+      },
+      "affordable": {
+        "title": "Taskukohane hind",
+        "description": "See on palju säästlikum kui traditsioonilised meetodid."
+      },
+      "easy": {
+        "title": "Lihtne juhtimine",
+        "description": "Hallake kõiki rakendusi ühelt paneelilt."
+      },
+      "support": {
+        "title": "Toetus",
+        "description": "Aitame teid värbamisprotsessis."
+      }
+    },
+    "process": {
+      "title": "Värbamisprotsess",
+      "step1": "Looge ettevõtte konto",
+      "step2": "Avaldage oma töökuulutus",
+      "step3": "Vaadake rakendused üle",
+      "step4": "Kohtumine kandidaatidega",
+      "step5": "Värbata"
+    },
+    "pricing": {
+      "title": "Hinnakujundus",
+      "subtitle": "Valige oma vajadustele vastav plaan",
+      "basic": {
+        "title": "Algus",
+        "price": "Tasuta",
+        "features": {
+          "0": "1 kuulutus kuus",
+          "1": "Põhiline filtreerimine",
+          "2": "Meili tugi"
+        }
+      },
+      "pro": {
+        "title": "Professionaalne",
+        "price": "Võtke meiega ühendust",
+        "features": {
+          "0": "Piiramatu arv reklaame",
+          "1": "Täiustatud filtreerimine",
+          "2": "Prioriteetne toetus",
+          "3": "Kandidaatide soovitused"
+        }
+      },
+      "enterprise": {
+        "title": "Institutsionaalne",
+        "price": "Erihind",
+        "features": {
+          "0": "Kõik Pro funktsioonid",
+          "1": "API juurdepääs",
+          "2": "Kohandatud integreerimine",
+          "3": "kontohaldur"
+        }
+      }
+    },
+    "cta": {
+      "title": "Leidke õiged talendid",
+      "subtitle": "Alustage kohe ja jõudke parimate kandidaatideni."
+    }
+  },
+  "faq": {
+    "metaTitle": "Korduma kippuvad küsimused – Hirovo",
+    "metaDescription": "Korduma kippuvad küsimused ja vastused Hirovo kohta. Info tööotsimise, kandideerimise ja rakenduse kasutamise kohta.",
+    "hero": {
+      "title": "Korduma kippuvad küsimused",
+      "subtitle": "Kõik, mille üle sa imestad"
+    },
+    "categories": {
+      "general": "Kindral",
+      "account": "Bill",
+      "application": "Rakendus",
+      "employers": "tööandjad",
+      "technical": "Tehniline"
+    },
+    "general": {
+      "q1": {
+        "question": "Mis on Hirovo?",
+        "answer": "Hirovo on mobiilne tööhõiveplatvorm, mis toob kokku tööotsijad ja tööandjad. Saate otsida tuhandete töökuulutuste hulgast, kandideerida ühe klõpsuga ja jälgida karjäärivõimalusi."
+      },
+      "q2": {
+        "question": "Kas Hirovo on vaba?",
+        "answer": "Jah, Hirovo on tööotsijatele täiesti tasuta. Saate kasutada kõiki meie funktsioone tasuta."
+      },
+      "q3": {
+        "question": "Kust saab Hirovo alla laadida?",
+        "answer": "Hirovo saate Google Play poest tasuta alla laadida. Varsti ilmub iOS-i versioon."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Kuidas ma saan konto luua?",
+        "answer": "Pärast rakenduse allalaadimist saate registreeruda mõne sekundiga oma e-posti aadressi või telefoninumbriga."
+      },
+      "q2": {
+        "question": "Unustasin parooli, mida teha?",
+        "answer": "Saate oma parooli lähtestada e-posti või SMS-i teel, klõpsates sisselogimiskuval valikul \"Unustasin parooli\"."
+      },
+      "q3": {
+        "question": "Kuidas ma saan oma konto kustutada?",
+        "answer": "Konto kustutamist saate taotleda rakendusesiseste seadete kaudu või meie veebisaidi lehel Konto kustutamine."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Kuidas oma taotlust jälgida?",
+        "answer": "Kõiki oma rakendusi ja nende olekut näete rakenduse jaotises 'Minu rakendused'."
+      },
+      "q2": {
+        "question": "Kas ma saan oma avalduse tagasi võtta?",
+        "answer": "Jah, saate tagasi võtta oma taotlused, mida pole veel läbi vaadatud."
+      },
+      "q3": {
+        "question": "Miks minu taotlus tagasi lükati?",
+        "answer": "Tööandjad annavad hinnanguid oma kriteeriumide järgi. Saate oma võimalusi suurendada, värskendades oma profiili ja kandideerides rohkematele postitustele."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Kuidas ettevõtte kontot avada?",
+        "answer": "Saate oma ettevõtte registreerida rakenduse kaudu või meie veebisaidil. Kinnitusprotsess viiakse lõpule 24–48 tunni jooksul."
+      },
+      "q2": {
+        "question": "Kas kuulutuse avaldamine on tasuline?",
+        "answer": "Meie põhipakett on tasuta. Rohkemate teadaannete ja täiustatud funktsioonide vaatamiseks vaadake meie professionaalseid pakette."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "Rakendus ei avane, mida ma peaksin tegema?",
+        "answer": "Esmalt värskendage rakendust. Kui probleem püsib, kustutage rakendus ja installige see uuesti. Kui teil on endiselt probleeme, võtke ühendust meie tugimeeskonnaga."
+      },
+      "q2": {
+        "question": "Kas teateid ei tule?",
+        "answer": "Veenduge, et lubaksite oma telefoni seadetes Hirovo jaoks märguanded. Kontrollige ka oma teavituse eelistusi rakendusesiseste seadete alt."
+      }
+    },
+    "contact": {
+      "title": "Kas teil on küsimusi?",
+      "subtitle": "Küsimuste korral, millele te ei leia vastust, võtke meiega ühendust."
+    }
+  },
+  "contact": {
+    "metaTitle": "Kontakt – Hirovo",
+    "metaDescription": "Võtke ühendust Hirovoga. Küsimuste, ettepanekute ja tagasiside saamiseks võtke meiega ühendust.",
+    "hero": {
+      "title": "Suhtlemine",
+      "subtitle": "Aitame teid hea meelega"
+    },
+    "info": {
+      "title": "Kontaktandmed",
+      "email": {
+        "title": "Meil",
+        "value": "hello@hirovo.com",
+        "description": "24/7 e-posti tugi"
+      },
+      "phone": {
+        "title": "Telefon",
+        "value": "+90 (212) 000 00 00",
+        "description": "Esmaspäevast reedeni 09.00-18.00"
+      },
+      "address": {
+        "title": "Aadress",
+        "value": "Istanbul, Türgi",
+        "description": "Meie peakontor"
+      }
+    },
+    "form": {
+      "title": "Kirjuta meile",
+      "name": "Teie nimi ja perekonnanimi",
+      "email": "Teie e-posti aadress",
+      "subject": "Teema",
+      "message": "Sinu sõnum",
+      "submit": "Saada",
+      "subjects": {
+        "general": "Üldine küsimus",
+        "support": "Tehniline tugi",
+        "partnership": "Partnerlus",
+        "feedback": "Tagasiside",
+        "other": "muud"
+      },
+      "success": "Teie sõnum on edukalt saadetud. Võtame teiega esimesel võimalusel ühendust.",
+      "error": "Ilmnes viga. Proovige hiljem uuesti."
+    },
+    "social": {
+      "title": "Sotsiaalmeedia",
+      "subtitle": "Jälgi meid sotsiaalmeedias"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Karjäärinõuanded – Hirovo",
+    "metaDescription": "Asjatundlik nõustamine tööotsingute, CV koostamise, intervjuu tehnikate ja karjääri kujundamise alal.",
+    "hero": {
+      "title": "Karjäärinõuanded",
+      "subtitle": "Viige oma karjäär järgmisele tasemele"
+    },
+    "categories": {
+      "resume": "CV koostamine",
+      "interview": "Intervjuu tehnikad",
+      "career": "Karjääri arendamine",
+      "workplace": "Ärielu"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Kuidas koostada tõhus CV?",
+        "summary": "Professionaalne CV koostamise juhend, mis tõmbab tööandjate tähelepanu.",
+        "content": "Teie CV on esimene mulje teie tööle kandideerimisest. Hästi koostatud CV eristab teid teistest kandidaatidest ja suurendab teie võimalusi saada vestluskutse. Siin on näpunäiteid tõhusa CV jaoks:\n\n1. Kasutage selget ja kokkuvõtlikku vormingut\n2. Tõstke esile oma asjakohased kogemused\n3. Toetage oma konkreetseid saavutusi numbritega\n4. Kasutage märksõnu õigesti\n5. Kontrollige hoolikalt vigu"
+      },
+      "resume2": {
+        "title": "Enimlevinud CV-s tehtud vead",
+        "summary": "CV vead, mis võivad põhjustada teie avalduste tagasilükkamise ja kuidas neid vältida.",
+        "content": "Paljud kandidaadid teevad oma CV-s kriitilisi vigu, ise sellest teadmata. Nende vigade äratundmine ja parandamine kiirendab teie tööotsimise protsessi."
+      },
+      "interview1": {
+        "title": "Intervjuude edu saladused",
+        "summary": "Tehnikad, mida pead teadma, et tööintervjuul edukas olla.",
+        "content": "Intervjuu on tööle kandideerimise protsessi kõige kriitilisem etapp. Hästi ettevalmistatud kandidaadid suudavad taluda stressi ja väljendada end parimast küljest."
+      },
+      "interview2": {
+        "title": "Kõige sagedamini küsitud intervjuuküsimused",
+        "summary": "Küsimused, millega tööintervjuudel kokku puutute, ja tõhusad vastusestrateegiad.",
+        "content": "Intervjuudel esitatakse peaaegu alati teatud küsimusi. Eelnevalt nendeks küsimusteks valmistumine tõstab sinu enesekindlust."
+      },
+      "career1": {
+        "title": "Neile, kes soovivad karjääri muuta",
+        "summary": "Samm-sammuline juhend neile, kes soovivad sektorit või ametikohta vahetada.",
+        "content": "Karjäärimuutus võib tunduda hirmutav, kuid korraliku planeerimisega saab seda edukalt teha."
+      },
+      "career2": {
+        "title": "Professionaalne võrgustik",
+        "summary": "Võimalusi suhete loomiseks, mis teie karjääri edendavad.",
+        "content": "Tugev professionaalne võrgustik suurendab karjäärivõimalusi ja hoiab teid kursis valdkonna arengutega."
+      },
+      "workplace1": {
+        "title": "Asjad, mida uuel töökohal alustades arvestada",
+        "summary": "Praktilised nõuanded edukaks olemiseks alates esimesest tööpäevast.",
+        "content": "Millegi uue alustamine võib olla põnev, kuid stressirohke. Õige lähenemisega saate kiiresti kohaneda ja alustada edukalt."
+      },
+      "workplace2": {
+        "title": "Kuidas luua tasakaal töö- ja eraelu vahel?",
+        "summary": "Võimalusi oma karjääri ja eraelu tasakaalustamiseks.",
+        "content": "Tervislik töö- ja eraelu tasakaal on ülioluline nii teie karjääriedu kui ka isikliku õnne jaoks."
+      }
+    },
+    "newsletter": {
+      "title": "Hankige karjäärinõuandeid",
+      "subtitle": "Liituge meie uudiskirjaga, et saada uusimaid karjäärinõuandeid ja töövõimalusi.",
+      "placeholder": "Teie e-posti aadress",
+      "button": "Telli"
+    }
+  },
+  "privacy": {
+    "title": "Privaatsuspoliitika",
+    "metaTitle": "Privaatsuspoliitika – Hirovo",
+    "metaDescription": "Hirovo privaatsuspoliitika – teave selle kohta, kuidas teie isikuandmeid kogutakse, kasutatakse ja kaitstakse.",
+    "lastUpdate": "Viimane värskendus: jaanuar 2025",
+    "intro": "Hirovos peame väga tähtsaks oma kasutajate privaatsust. See privaatsuspoliitika selgitab, kuidas töödeldakse Hirovo mobiilirakenduse (edaspidi \"rakendus\") kaudu kogutavaid isikuandmeid.",
+    "section1": {
+      "title": "1. Kogutav teave",
+      "intro": "Kui kasutate meie rakendust, võime koguda järgmist teavet:",
+      "items": {
+        "account": "Konto teave: nimi, perekonnanimi, e-posti aadress, telefoninumber",
+        "profile": "Profiili teave: CV, töökogemus, haridusteave, oskused",
+        "location": "Asukohateave: asukohaandmed teie läheduses olevate töökuulutuste kuvamiseks (teie loal)",
+        "device": "Seadme teave: seadme tutvustus, operatsioonisüsteem, rakenduse versioon",
+        "usage": "Kasutusandmed: rakendusesisesed interaktsioonid, vaadatud reklaamid, rakendused"
+      }
+    },
+    "section2": {
+      "title": "2. Teabe kasutamise eesmärgid",
+      "intro": "Kasutame kogutud teavet järgmistel eesmärkidel:",
+      "items": {
+        "account": "Konto loomine ja haldamine",
+        "jobs": "Kuvatakse teile sobivad töökuulutused",
+        "applications": "Teie tööavalduste edastamine tööandjatele",
+        "improve": "Rakenduskogemuse parandamine",
+        "support": "Tehnilise toe pakkumine",
+        "legal": "Et täita oma juriidilisi kohustusi"
+      }
+    },
+    "section3": {
+      "title": "3. Teabe jagamine",
+      "intro": "Me ei jaga teie isikuandmeid kolmandate isikutega, välja arvatud järgmistel juhtudel:",
+      "items": {
+        "employers": "Tööandjad: jagame teie profiiliteavet nende töökuulutuste omanikega, millele kandideerite.",
+        "providers": "Teenusepakkujad: usaldusväärsed partnerid, kes pakuvad meie rakenduse tööks vajalikke tehnilisi teenuseid.",
+        "legal": "Õiguslikud kohustused: vastavalt juriidilistele protsessidele või pädevate asutuste nõudele"
+      }
+    },
+    "section4": {
+      "title": "4. Andmete turvalisus",
+      "intro": "Rakendame teie isikuandmete kaitsmiseks tööstusharu standardseid turvameetmeid:",
+      "items": {
+        "ssl": "SSL/TLS krüptimine",
+        "datacenter": "Turvalised andmekeskused",
+        "audits": "Regulaarsed turvaauditid",
+        "access": "Juurdepääsu kontroll ja autoriseerimine"
+      }
+    },
+    "section5": {
+      "title": "5. Teie õigused",
+      "intro": "Teil on isikuandmete kaitse seaduse nr 6698 (KVKK) raames järgmised õigused:",
+      "items": {
+        "know": "Saate teada, kas teie isikuandmeid töödeldakse või mitte",
+        "info": "Teabe küsimine teie isikuandmete kohta, kui neid on töödeldud",
+        "purpose": "Saate teada, mis on teie isikuandmete töötlemise eesmärk ja kas neid kasutatakse sihtotstarbeliselt",
+        "thirdParty": "Kolmandate isikute tundmine, kellele isikuandmeid kodu- või välismaal edastatakse",
+        "correct": "Isikuandmete parandamise nõudmine, kui need on puudulikud või ebaõigesti töödeldud",
+        "delete": "Taotlege oma isikuandmete kustutamist või hävitamist"
+      }
+    },
+    "section6": {
+      "title": "6. Küpsised ja jälgimistehnoloogiad",
+      "content": "Meie rakendus võib teie kasutuskogemuse parandamiseks kasutada küpsiseid ja sarnaseid tehnoloogiaid. Tänu nendele tehnoloogiatele jätame teie eelistused meelde ja analüüsime rakenduse jõudlust."
+    },
+    "section7": {
+      "title": "7. Laste privaatsus",
+      "content": "Meie taotlus ei ole suunatud alla 18-aastastele isikutele. Me ei kogu teadlikult isikuandmeid alla 18-aastastelt isikutelt."
+    },
+    "section8": {
+      "title": "8. Poliitikamuudatused",
+      "content": "Võime seda privaatsuspoliitikat aeg-ajalt värskendada. Oluliste muudatuste korral teavitame teid rakendusesiseste märguannetega."
+    },
+    "section9": {
+      "title": "9. Suhtlemine",
+      "intro": "Privaatsusega seotud küsimuste korral võite meiega ühendust võtta:"
+    }
+  },
+  "terms": {
+    "title": "Kasutustingimused",
+    "metaTitle": "Kasutustingimused – Hirovo",
+    "metaDescription": "Hirovo kasutustingimused – reeglid ja tingimused, mida peate meie rakenduse kasutamisel järgima.",
+    "lastUpdate": "Viimane värskendus: jaanuar 2025",
+    "intro": "Kasutades Hirovo mobiilirakendust (\"Rakendus\"), loetakse, et olete nõustunud järgmiste kasutustingimustega. Lugege need tingimused hoolikalt läbi.",
+    "section1": {
+      "title": "1. Teenuse kirjeldus",
+      "intro": "Hirovo on tööotsinguplatvorm, mille eesmärk on ühendada tööotsijad tööandjatega. Meie rakenduse kaudu:",
+      "items": {
+        "view": "Saate vaadata töökuulutusi ja kandideerida",
+        "profile": "Saate luua oma professionaalse profiili",
+        "offers": "Saate hinnata tööandjate pakkumisi",
+        "track": "Saate jälgida karjäärivõimalusi"
+      }
+    },
+    "section2": {
+      "title": "2. Konto loomine ja turvalisus",
+      "intro": "Meie rakenduse kasutamiseks peate looma konto. Konto loomisel:",
+      "items": {
+        "accurate": "Nõustute esitama täpset ja ajakohast teavet",
+        "responsible": "Vastutate oma kontoteabe konfidentsiaalsuse eest.",
+        "activity": "Vastutate kogu teie kontol toimuva tegevuse eest.",
+        "notify": "Volitamata juurdepääsu korral peate meid sellest viivitamatult teavitama"
+      }
+    },
+    "section3": {
+      "title": "3. Kasutaja kohustused",
+      "intro": "Meie rakendust kasutades nõustute järgima järgmisi reegleid:",
+      "items": {
+        "legal": "Toimides vastavalt seadustele ja määrustele",
+        "honest": "Täpse ja mitteeksitava teabe jagamine",
+        "respect": "Teiste kasutajate õiguste austamine",
+        "noSpam": "Ärge jagage rämpsposti, pahavara ega pahatahtlikku sisu",
+        "security": "Vältige toiminguid, mis võivad ohustada rakenduse turvalisust",
+        "identity": "Mitte esineda teistena"
+      }
+    },
+    "section4": {
+      "title": "4. Keelatud käitumine",
+      "intro": "Järgmised käitumisviisid on rangelt keelatud:",
+      "items": {
+        "fake": "Võltstöökuulutuste või -profiilide loomine",
+        "harass": "Teiste kasutajate ahistamine või ahistamine",
+        "illegal": "Rakenduse kasutamine ebaseaduslikel eesmärkidel",
+        "damage": "Rakenduse tehnilise infrastruktuuri kahjustamine",
+        "bots": "Automatiseeritud süsteemide või robotite kasutamine",
+        "ip": "Intellektuaalomandi õiguste rikkumine"
+      }
+    },
+    "section5": {
+      "title": "5. Sisu ja intellektuaalomand",
+      "intro": "Kõik rakenduse ja selle sisu õigused kuuluvad Hirovole:",
+      "items": {
+        "ownership": "Logo, disain ja liides on Hirovo omand",
+        "userContent": "Kasutaja poolt üles laaditud sisu vastutab kasutaja.",
+        "license": "Annate meile oma profiilis jagatava teabe jaoks vajalikud litsentsid.",
+        "thirdParty": "Teie sisu ei tohi rikkuda kolmanda osapoole õigusi"
+      }
+    },
+    "section6": {
+      "title": "6. Vastutuse piirang",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Ei garanteeri töökuulutuste täpsust",
+        "relationship": "Ei ole tööandja ja töötaja suhete osapool",
+        "disputes": "Ei vastuta kasutajate vaheliste vaidluste eest",
+        "uptime": "See ei garanteeri teenuse katkestusteta toimimist.",
+        "damages": "Ei vastuta kaudsete ega kaudsete kahjude eest."
+      }
+    },
+    "section7": {
+      "title": "7. Konto peatamine ja lõpetamine",
+      "intro": "Võime teie konto peatada või lõpetada järgmistes olukordades:",
+      "items": {
+        "violation": "Kasutustingimuste rikkumine",
+        "illegal": "Ebaseaduslik tegevus",
+        "harm": "Teisi kasutajaid kahjustav käitumine",
+        "false": "Vale või eksitava teabe esitamine"
+      }
+    },
+    "section8": {
+      "title": "8. Muudatused",
+      "content": "Jätame endale õiguse neid kasutustingimusi ilma ette teatamata muuta. Olulistest muudatustest teavitatakse rakendusesiseste märguannete kaudu. Rakenduse kasutamise jätkamine pärast muudatusi tähendab, et nõustute uute tingimustega."
+    },
+    "section9": {
+      "title": "9. Kohaldatav õigus",
+      "content": "Nendele kasutustingimustele kehtivad Türgi Vabariigi seadused. Vaidluste korral on jurisdiktsiooni all Istanbuli kohtud ja täitevasutused."
+    },
+    "section10": {
+      "title": "10. Suhtlemine",
+      "intro": "Kui teil on küsimusi kasutustingimuste kohta:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Konto kustutamise taotlus",
+    "metaTitle": "Konto kustutamine – Hirovo",
+    "metaDescription": "Taotlege oma Hirovo konto kustutamist.",
+    "description": "Kui soovite oma konto kustutada, täitke allolev vorm. Kui teie taotlus on üle vaadatud, kustutatakse teie konto ja kõik teie andmed jäädavalt.",
+    "warning": "Kui teie konto on kustutatud, kustutatakse kõik teie andmed (profiiliteave, rakendused, sõnumid) jäädavalt ja neid ei saa enam taastada.",
+    "form": {
+      "emailLabel": "E-posti aadress",
+      "emailPlaceholder": "example@email.com",
+      "phoneLabel": "Telefoninumber",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Kustutamise põhjus",
+      "reasonPlaceholder": "Miks soovite oma konto kustutada?",
+      "submitButton": "Esitage konto kustutamise taotlus"
+    },
+    "errors": {
+      "emailOrPhone": "Palun sisesta oma e-mail või telefoninumber.",
+      "generic": "Ilmnes viga. Proovige hiljem uuesti.",
+      "connection": "Ühenduse viga. Kontrollige oma Interneti-ühendust."
+    },
+    "success": {
+      "title": "Teie taotlus on vastu võetud",
+      "message": "Teie konto kustutamise taotlus on edukalt vastu võetud. Teie taotlus vaadatakse läbi esimesel võimalusel ja teid teavitatakse e-posti või SMS-i teel.",
+      "processingTime": "Töötlemise aeg: 1-3 tööpäeva"
+    },
+    "contactNote": "Meiega saate ühendust aadressil."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Valige keel",
+    "popularLanguages": "Populaarsed keeled"
+  }
+}

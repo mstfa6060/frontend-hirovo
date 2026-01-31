@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Download",
+    "downloadApp": "Download the App",
+    "googlePlay": "Google Play",
+    "email": "Email",
+    "phone": "Telephone",
+    "or": "or",
+    "loading": "Loading...",
+    "sending": "Sending...",
+    "error": "Mistake",
+    "success": "Successful",
+    "submit": "Send",
+    "optional": "optional",
+    "important": "Important",
+    "contact": "Communication",
+    "questions": "For your questions",
+    "learnMore": "More Information",
+    "getStarted": "Start Now",
+    "readMore": "Read more",
+    "viewAll": "See All",
+    "free": "Free",
+    "new": "New"
+  },
+  "metadata": {
+    "title": "Hirovo - Job Finding & Advertisement Platform",
+    "description": "Hirovo is a job search and advertisement platform. Discover job postings, apply easily and follow career opportunities.",
+    "keywords": "finding a job, job postings, career, job search, personnel postings, personnel seekers, recruitment, Hirovo",
+    "ogTitle": "Hirovo - Employment & Career Platform",
+    "ogDescription": "Discover job postings, apply and follow career opportunities with Hirovo."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "About us",
+    "howItWorks": "How It Works",
+    "forJobSeekers": "Job Seekers",
+    "forEmployers": "employers",
+    "faq": "FAQ",
+    "contact": "Communication",
+    "careerTips": "Career Advice"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "deleteAccount": "Account Deletion",
+    "home": "Home Page",
+    "about": "About us",
+    "contact": "Communication",
+    "faq": "FAQ",
+    "howItWorks": "How It Works",
+    "forJobSeekers": "For Job Seekers",
+    "forEmployers": "For Employers",
+    "careerTips": "Career Advice",
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal",
+    "followUs": "Follow Us",
+    "description": "Turkey's most innovative employment platform. Your dream will be one step closer."
+  },
+  "home": {
+    "hero": {
+      "title": "Find Your Dream Job",
+      "subtitle": "Discover thousands of job postings, apply easily and follow career opportunities with Hirovo.",
+      "stats": {
+        "jobs": "Active Job Posting",
+        "users": "Registered User",
+        "companies": "Partner Company",
+        "placements": "Successful Matching"
+      }
+    },
+    "features": {
+      "title": "Why Hirovo?",
+      "subtitle": "Our features that make your job search easier",
+      "easySearch": {
+        "title": "Easy Search",
+        "description": "Quickly search among thousands of job postings and find opportunities that suit you."
+      },
+      "quickApply": {
+        "title": "Quick Application",
+        "description": "Apply with just one click, don't waste time. Create your profile once, use it everywhere."
+      },
+      "notifications": {
+        "title": "Push Notifications",
+        "description": "Learn about new postings and application statuses instantly, don't miss the opportunity."
+      },
+      "smartMatch": {
+        "title": "Smart Matching",
+        "description": "The artificial intelligence-supported system recommends you the jobs that best suit your skills."
+      },
+      "secureProfile": {
+        "title": "Secure Profile",
+        "description": "Your personal information is stored securely and shared with the employer only when you apply."
+      },
+      "careerSupport": {
+        "title": "Career Support",
+        "description": "We are here to help you with CV preparation, interview techniques and career advice."
+      }
+    },
+    "categories": {
+      "title": "Popular Business Categories",
+      "subtitle": "Discover opportunities in the most sought-after sectors",
+      "technology": "Technology",
+      "healthcare": "Health",
+      "finance": "Finance",
+      "education": "Education",
+      "retail": "Retail",
+      "manufacturing": "Production",
+      "hospitality": "Tourism & Hospitality",
+      "construction": "Building"
+    },
+    "howItWorks": {
+      "title": "How Does It Work?",
+      "subtitle": "Find a job in three simple steps",
+      "step1": {
+        "title": "Download the App",
+        "description": "Download Hirovo for free from Google Play and create your account."
+      },
+      "step2": {
+        "title": "Create Your Profile",
+        "description": "Add your experiences, skills and preferences."
+      },
+      "step3": {
+        "title": "Apply and Start Business",
+        "description": "Apply to job postings suitable for you and contact employers."
+      }
+    },
+    "testimonials": {
+      "title": "User Comments",
+      "subtitle": "Experiences of our users who found employment with Hirovo"
+    },
+    "cta": {
+      "title": "Start Now",
+      "subtitle": "Download Hirovo, your dream will be one step closer.",
+      "downloadFree": "Free Download"
+    }
+  },
+  "about": {
+    "metaTitle": "About Us - Hirovo",
+    "metaDescription": "Learn about Hirovo. Our mission, our vision and our perspective on the employment industry.",
+    "hero": {
+      "title": "About us",
+      "subtitle": "We set out to change the business world"
+    },
+    "mission": {
+      "title": "Our mission",
+      "description": "To bring job seekers and employers together in the most efficient way, to facilitate the job finding process for everyone and to create fair job opportunities."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "As Turkey's and the region's leading digital employment platform, helping millions of people achieve their career goals."
+    },
+    "story": {
+      "title": "Our story",
+      "content1": "Hirovo was founded in 2024 to solve the challenges faced by job seekers. Seeing the inefficiency of traditional job search methods and the frustrations experienced by job seekers, we decided to create a better solution using technology.",
+      "content2": "Today, thousands of job seekers and hundreds of companies choose Hirovo. With our user-oriented approach and constantly improving technology, we improve the job finding experience every day."
+    },
+    "values": {
+      "title": "Our values",
+      "transparency": {
+        "title": "Transparency",
+        "description": "We provide full transparency in job postings and our processes."
+      },
+      "equality": {
+        "title": "Equality",
+        "description": "We offer equal opportunities to everyone and stand against discrimination."
+      },
+      "innovation": {
+        "title": "innovation",
+        "description": "We are constantly improving and using the latest technologies."
+      },
+      "userFirst": {
+        "title": "User Focus",
+        "description": "We prioritize user experience in all decisions."
+      }
+    },
+    "team": {
+      "title": "Our team",
+      "description": "Our team of experienced professionals brings years of knowledge in the employment sector to Hirovo."
+    },
+    "stats": {
+      "title": "Hirovo in numbers",
+      "downloads": "Download",
+      "activeUsers": "Active User",
+      "partnerCompanies": "Partner Company",
+      "successfulMatches": "Successful Matching"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "How It Works - Hirovo",
+    "metaDescription": "How does Hirovo work? Learn the job search and application process step by step.",
+    "hero": {
+      "title": "How Does It Work?",
+      "subtitle": "We made it so easy to find a job"
+    },
+    "forJobSeekers": {
+      "title": "For Job Seekers",
+      "step1": {
+        "title": "Download the App",
+        "description": "Download the Hirovo app for free from Google Play. Quick and safe installation."
+      },
+      "step2": {
+        "title": "Create Account",
+        "description": "Register in seconds with your email or phone number."
+      },
+      "step3": {
+        "title": "Complete Your Profile",
+        "description": "Add your work experience, education and skills. Upload your CV."
+      },
+      "step4": {
+        "title": "Explore Job Postings",
+        "description": "Find listings that suit you using filters. Location, salary, industry and more."
+      },
+      "step5": {
+        "title": "Apply with One Click",
+        "description": "Apply instantly to the ads you like. Your profile is automatically transmitted."
+      },
+      "step6": {
+        "title": "Follow the Process",
+        "description": "Follow the status of your applications in real time. Stay informed with notifications."
+      }
+    },
+    "forEmployers": {
+      "title": "For Employers",
+      "step1": {
+        "title": "Create a Company Account",
+        "description": "Register your company and complete the verification process."
+      },
+      "step2": {
+        "title": "Publish a Job Advertisement",
+        "description": "Create a job posting with detailed job descriptions and requirements."
+      },
+      "step3": {
+        "title": "Review Applications",
+        "description": "Filter incoming applications and select suitable candidates."
+      },
+      "step4": {
+        "title": "Contact Candidates",
+        "description": "Contact candidates directly through the application."
+      }
+    },
+    "features": {
+      "title": "Features",
+      "ai": {
+        "title": "Artificial Intelligence Support",
+        "description": "Intelligent algorithms recommend the most suitable jobs for you."
+      },
+      "realtime": {
+        "title": "Push Notifications",
+        "description": "Get instant notifications for new postings and application updates."
+      },
+      "secure": {
+        "title": "Secure Infrastructure",
+        "description": "Your data is protected with the highest security standards."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "For Job Seekers - Hirovo",
+    "metaDescription": "If you are looking for a job, Hirovo is just for you. Thousands of job postings, easy applications and career opportunities.",
+    "hero": {
+      "title": "For Job Seekers",
+      "subtitle": "We are with you on your career journey"
+    },
+    "benefits": {
+      "title": "Why Choose Hirovo?",
+      "free": {
+        "title": "Completely Free",
+        "description": "All our features are free for job seekers. There are no hidden fees."
+      },
+      "thousands": {
+        "title": "Thousands of Advertisements",
+        "description": "Thousands of current job postings from every sector and every level."
+      },
+      "easy": {
+        "title": "Easy Application",
+        "description": "Apply with one click, do not waste time."
+      },
+      "track": {
+        "title": "Application Tracking",
+        "description": "Track all your applications in one place."
+      },
+      "notifications": {
+        "title": "Smart Notifications",
+        "description": "Be instantly informed about new ads suitable for you."
+      },
+      "privacy": {
+        "title": "Security",
+        "description": "Your information is shared only with the companies you apply to."
+      }
+    },
+    "tips": {
+      "title": "Tips for Successful Application",
+      "tip1": {
+        "title": "Complete Your Profile",
+        "description": "Fully filled profiles attract 3 times more attention."
+      },
+      "tip2": {
+        "title": "Keep Up to Date",
+        "description": "Update your profile as you add new skills and experiences."
+      },
+      "tip3": {
+        "title": "Keep Notifications On",
+        "description": "Allow notifications to avoid missing opportunities."
+      },
+      "tip4": {
+        "title": "Apply Quickly",
+        "description": "Those who apply quickly to new postings come to the fore."
+      }
+    },
+    "categories": {
+      "title": "Popular Categories",
+      "subtitle": "Most searched job categories"
+    },
+    "cta": {
+      "title": "Find Your Dream Job",
+      "subtitle": "Download Hirovo now and discover thousands of opportunities."
+    }
+  },
+  "employers": {
+    "metaTitle": "For Employers - Hirovo",
+    "metaDescription": "Find the right talent with Hirovo. Fast, effective and economical purchasing solutions.",
+    "hero": {
+      "title": "For Employers",
+      "subtitle": "The easiest way to find the right talents"
+    },
+    "benefits": {
+      "title": "Hirovo Advantages",
+      "reach": {
+        "title": "Wide Reach",
+        "description": "Instantly reach thousands of active job seekers."
+      },
+      "quality": {
+        "title": "Quality Candidates",
+        "description": "Verified profiles and detailed resumes."
+      },
+      "fast": {
+        "title": "Fast Result",
+        "description": "Receive first applications within approximately 48 hours."
+      },
+      "affordable": {
+        "title": "Affordable Price",
+        "description": "It is much more economical than traditional methods."
+      },
+      "easy": {
+        "title": "Easy Management",
+        "description": "Manage all applications from a single panel."
+      },
+      "support": {
+        "title": "Support",
+        "description": "We assist you in the recruitment process."
+      }
+    },
+    "process": {
+      "title": "Recruitment Process",
+      "step1": "Create a company account",
+      "step2": "Publish your job posting",
+      "step3": "Review the applications",
+      "step4": "Meet with candidates",
+      "step5": "Recruit"
+    },
+    "pricing": {
+      "title": "Pricing",
+      "subtitle": "Choose the plan that suits your needs",
+      "basic": {
+        "title": "Beginning",
+        "price": "Free",
+        "features": {
+          "0": "1 ad per month",
+          "1": "Basic filtering",
+          "2": "Email support"
+        }
+      },
+      "pro": {
+        "title": "Professional",
+        "price": "Contact Us",
+        "features": {
+          "0": "Unlimited ads",
+          "1": "Advanced filtering",
+          "2": "Priority support",
+          "3": "Candidate recommendations"
+        }
+      },
+      "enterprise": {
+        "title": "Institutional",
+        "price": "Special Price",
+        "features": {
+          "0": "All Pro features",
+          "1": "API access",
+          "2": "Custom integration",
+          "3": "account manager"
+        }
+      }
+    },
+    "cta": {
+      "title": "Find the Right Talents",
+      "subtitle": "Start now and reach the best candidates."
+    }
+  },
+  "faq": {
+    "metaTitle": "Frequently Asked Questions - Hirovo",
+    "metaDescription": "Frequently asked questions and answers about Hirovo. Information about job searching, applying and using the application.",
+    "hero": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you wonder about"
+    },
+    "categories": {
+      "general": "General",
+      "account": "Bill",
+      "application": "Application",
+      "employers": "employers",
+      "technical": "Technical"
+    },
+    "general": {
+      "q1": {
+        "question": "What is Hirovo?",
+        "answer": "Hirovo is a mobile employment platform that brings together job seekers and employers. You can search among thousands of job postings, apply with a single click, and follow career opportunities."
+      },
+      "q2": {
+        "question": "Is Hirovo free?",
+        "answer": "Yes, Hirovo is completely free for job seekers. You can use all our features for free."
+      },
+      "q3": {
+        "question": "Where can I download Hirovo?",
+        "answer": "You can download Hirovo for free from Google Play Store. The iOS version will be released soon."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "How can I create an account?",
+        "answer": "After downloading the application, you can register in seconds with your e-mail address or phone number."
+      },
+      "q2": {
+        "question": "I forgot my password, what should I do?",
+        "answer": "You can reset your password via e-mail or SMS by clicking the 'Forgot My Password' option on the login screen."
+      },
+      "q3": {
+        "question": "How can I delete my account?",
+        "answer": "You can request account deletion from the in-app settings or from the 'Account Deletion' page on our website."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "How do I track my application?",
+        "answer": "You can see all your applications and their status in the 'My Applications' section in the application."
+      },
+      "q2": {
+        "question": "Can I withdraw my application?",
+        "answer": "Yes, you can withdraw your applications that have not been reviewed yet."
+      },
+      "q3": {
+        "question": "Why was my application rejected?",
+        "answer": "Employers make evaluations according to their own criteria. You can increase your chances by updating your profile and applying to more postings."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "How to open a company account?",
+        "answer": "You can register your company through the application or on our website. The verification process is completed within 24-48 hours."
+      },
+      "q2": {
+        "question": "Is there a fee to publish an ad?",
+        "answer": "Our basic package is free. For more announcements and advanced features, you can check out our professional packages."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "The application does not open, what should I do?",
+        "answer": "First update the application. If the problem persists, delete the app and reinstall it. If you are still having problems, contact our support team."
+      },
+      "q2": {
+        "question": "Notifications not coming?",
+        "answer": "Make sure you allow notifications for Hirovo in your phone settings. Also check your notification preferences in in-app settings."
+      }
+    },
+    "contact": {
+      "title": "Do you have any questions?",
+      "subtitle": "Contact us for questions you cannot find the answers to."
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact – Hirovo",
+    "metaDescription": "Contact Hirovo. Contact us for your questions, suggestions and feedback.",
+    "hero": {
+      "title": "Communication",
+      "subtitle": "We would be happy to assist you"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": {
+        "title": "Email",
+        "value": "hello@hirovo.com",
+        "description": "24/7 email support"
+      },
+      "phone": {
+        "title": "Telephone",
+        "value": "+90 (212) 000 00 00",
+        "description": "Monday - Friday, 09:00 - 18:00"
+      },
+      "address": {
+        "title": "Address",
+        "value": "Istanbul, Turkey",
+        "description": "Our head office"
+      }
+    },
+    "form": {
+      "title": "Write to us",
+      "name": "Your Name and Surname",
+      "email": "Your Email Address",
+      "subject": "Subject",
+      "message": "Your message",
+      "submit": "Send",
+      "subjects": {
+        "general": "General Question",
+        "support": "Technical Support",
+        "partnership": "Partnership",
+        "feedback": "Feedback",
+        "other": "Other"
+      },
+      "success": "Your message has been sent successfully. We will get back to you as soon as possible.",
+      "error": "An error has occurred. Please try again later."
+    },
+    "social": {
+      "title": "Social Media",
+      "subtitle": "Follow us on social media"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Career Advice - Hirovo",
+    "metaDescription": "Expert advice on job hunting, CV preparation, interview techniques and career development.",
+    "hero": {
+      "title": "Career Advice",
+      "subtitle": "Take your career to the next level"
+    },
+    "categories": {
+      "resume": "CV Preparation",
+      "interview": "Interview Techniques",
+      "career": "Career Development",
+      "workplace": "Business Life"
+    },
+    "articles": {
+      "resume1": {
+        "title": "How to Prepare an Effective CV?",
+        "summary": "A professional CV preparation guide that attracts the attention of employers.",
+        "content": "Your CV is the first impression of your job application. A well-prepared CV distinguishes you from other candidates and increases your chances of receiving an interview invitation. Here are tips for an effective CV: \n\n1. Use a clear and concise format \n2. Highlight your relevant experiences \n3. Support your concrete achievements with numbers \n4. Use keywords correctly \n5. Check carefully for errors"
+      },
+      "resume2": {
+        "title": "Most Common Mistakes Made in CV",
+        "summary": "CV mistakes that could cause your applications to be rejected and how to avoid them.",
+        "content": "Many candidates make critical mistakes in their CVs without realizing it. Recognizing and correcting these mistakes will speed up your job finding process."
+      },
+      "interview1": {
+        "title": "Secrets of Success in Interviews",
+        "summary": "Techniques you need to know to be successful in job interviews.",
+        "content": "The interview is the most critical stage of the job application process. Well-prepared candidates can handle stress and express themselves at their best."
+      },
+      "interview2": {
+        "title": "Most Frequently Asked Interview Questions",
+        "summary": "Questions you will encounter in job interviews and effective answer strategies.",
+        "content": "Certain questions are almost always asked in interviews. Preparing for these questions in advance increases your self-confidence."
+      },
+      "career1": {
+        "title": "For Those Who Want to Make a Career Change",
+        "summary": "A step-by-step guide for those who want to change sectors or positions.",
+        "content": "A career change may seem scary, but with proper planning it can be accomplished successfully."
+      },
+      "career2": {
+        "title": "Professional Networking",
+        "summary": "Ways to build relationships that will advance your career.",
+        "content": "A strong professional network increases career opportunities and keeps you informed of industry developments."
+      },
+      "workplace1": {
+        "title": "Things to Consider When Starting a New Job",
+        "summary": "Practical advice to be successful from your first day at work.",
+        "content": "Starting something new can be exciting but stressful. With the right approach, you can adapt quickly and have a successful start."
+      },
+      "workplace2": {
+        "title": "How to Establish Work-Life Balance?",
+        "summary": "Ways to balance your career and private life.",
+        "content": "A healthy work-life balance is critical to both your career success and personal happiness."
+      }
+    },
+    "newsletter": {
+      "title": "Get Career Tips",
+      "subtitle": "Subscribe to our newsletter for the latest career advice and job opportunities.",
+      "placeholder": "Your email address",
+      "button": "Subscribe"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "metaTitle": "Privacy Policy - Hirovo",
+    "metaDescription": "Hirovo Privacy Policy - Information about how your personal data is collected, used and protected.",
+    "lastUpdate": "Last update: January 2025",
+    "intro": "At Hirovo, we attach great importance to the privacy of our users. This Privacy Policy explains how personal data we collect through the Hirovo mobile application (\"Application\") is processed.",
+    "section1": {
+      "title": "1. Information We Collect",
+      "intro": "We may collect the following information when you use our application:",
+      "items": {
+        "account": "Account Information: Name, surname, e-mail address, phone number",
+        "profile": "Profile Information: CV, work experience, educational information, skills",
+        "location": "Location Information: Location data to display job postings near you (with your permission)",
+        "device": "Device Information: Device tour, operating system, application version",
+        "usage": "Usage Data: In-app interactions, ads viewed, applications"
+      }
+    },
+    "section2": {
+      "title": "2. Purposes of Use of Information",
+      "intro": "We use the information we collect for the following purposes:",
+      "items": {
+        "account": "Creating and managing your account",
+        "jobs": "Showing job postings suitable for you",
+        "applications": "Forwarding your job applications to employers",
+        "improve": "Improving the application experience",
+        "support": "Providing technical support",
+        "legal": "To fulfill our legal obligations"
+      }
+    },
+    "section3": {
+      "title": "3. Sharing of Information",
+      "intro": "We do not share your personal data with third parties except in the following cases:",
+      "items": {
+        "employers": "Employers: We share your profile information with the owners of the job postings you apply to.",
+        "providers": "Service Providers: Trusted partners who provide technical services necessary for the operation of our application.",
+        "legal": "Legal Obligations: In accordance with legal processes or the request of competent authorities"
+      }
+    },
+    "section4": {
+      "title": "4. Data Security",
+      "intro": "We implement industry standard security measures to protect your personal data:",
+      "items": {
+        "ssl": "SSL/TLS encryption",
+        "datacenter": "Secure data centers",
+        "audits": "Regular security audits",
+        "access": "Access control and authorization"
+      }
+    },
+    "section5": {
+      "title": "5. Your rights",
+      "intro": "You have the following rights within the scope of the Personal Data Protection Law No. 6698 (KVKK):",
+      "items": {
+        "know": "Learning whether your personal data is being processed or not",
+        "info": "Requesting information about your personal data if it has been processed",
+        "purpose": "Learning the purpose of processing your personal data and whether they are used for their intended purpose",
+        "thirdParty": "Knowing the third parties to whom personal data is transferred at home or abroad",
+        "correct": "Requesting correction of personal data if they are incomplete or incorrectly processed",
+        "delete": "Request deletion or destruction of your personal data"
+      }
+    },
+    "section6": {
+      "title": "6. Cookies and Tracking Technologies",
+      "content": "Our app may use cookies and similar technologies to improve your experience. Thanks to these technologies, we remember your preferences and analyze application performance."
+    },
+    "section7": {
+      "title": "7. Children's Privacy",
+      "content": "Our application is not directed to individuals under the age of 18. We do not knowingly collect personal data from persons under 18 years of age."
+    },
+    "section8": {
+      "title": "8. Policy Changes",
+      "content": "We may update this Privacy Policy from time to time. In case of significant changes, we will notify you with in-app notifications."
+    },
+    "section9": {
+      "title": "9. Communication",
+      "intro": "For your privacy-related questions, you can contact us:"
+    }
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "metaTitle": "Terms of Use - Hirovo",
+    "metaDescription": "Hirovo Terms of Use - Rules and conditions you must comply with when using our application.",
+    "lastUpdate": "Last update: January 2025",
+    "intro": "By using the Hirovo mobile application (\"Application\") you are deemed to have accepted the following terms of use. Please read these terms carefully.",
+    "section1": {
+      "title": "1. Description of the Service",
+      "intro": "Hirovo is a job search platform that aims to connect job seekers with employers. Through our application:",
+      "items": {
+        "view": "You can view job postings and apply",
+        "profile": "You can create your professional profile",
+        "offers": "You can evaluate offers from employers",
+        "track": "You can follow career opportunities"
+      }
+    },
+    "section2": {
+      "title": "2. Account Creation and Security",
+      "intro": "You need to create an account to use our application. When creating an account:",
+      "items": {
+        "accurate": "You agree to provide accurate and current information",
+        "responsible": "You are responsible for the confidentiality of your account information.",
+        "activity": "You are responsible for all activity that occurs on your account.",
+        "notify": "In case of unauthorized access you must notify us immediately"
+      }
+    },
+    "section3": {
+      "title": "3. User Obligations",
+      "intro": "When using our application you agree to comply with the following rules:",
+      "items": {
+        "legal": "Acting in accordance with laws and regulations",
+        "honest": "Sharing accurate and non-misleading information",
+        "respect": "Respecting the rights of other users",
+        "noSpam": "Not sharing spam, malware or malicious content",
+        "security": "Avoiding actions that may endanger the security of the application",
+        "identity": "Not to impersonate others"
+      }
+    },
+    "section4": {
+      "title": "4. Prohibited Behaviors",
+      "intro": "The following behaviors are strictly prohibited:",
+      "items": {
+        "fake": "Creating fake job postings or profiles",
+        "harass": "Harassing or harassing other users",
+        "illegal": "Using the application for illegal purposes",
+        "damage": "Damaging the technical infrastructure of the application",
+        "bots": "Using automated systems or bots",
+        "ip": "Violating intellectual property rights"
+      }
+    },
+    "section5": {
+      "title": "5. Content and Intellectual Property",
+      "intro": "All rights in the application and its content belong to Hirovo:",
+      "items": {
+        "ownership": "Logo, design and interface are the property of Hirovo",
+        "userContent": "Content uploaded by the user is the responsibility of the user.",
+        "license": "You grant us the necessary licenses for the information you share in your profile.",
+        "thirdParty": "Your content must not violate third party rights"
+      }
+    },
+    "section6": {
+      "title": "6. Limitation of Liability",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Does not guarantee the accuracy of job postings",
+        "relationship": "Not a party to the employer-employee relationship",
+        "disputes": "Not responsible for disputes between users",
+        "uptime": "It does not guarantee that the service will operate without interruption.",
+        "damages": "Not responsible for any indirect or consequential damages."
+      }
+    },
+    "section7": {
+      "title": "7. Account Suspension and Termination",
+      "intro": "We may suspend or terminate your account in the following situations:",
+      "items": {
+        "violation": "Violation of terms of use",
+        "illegal": "Illegal activities",
+        "harm": "Behaviors that harm other users",
+        "false": "Providing false or misleading information"
+      }
+    },
+    "section8": {
+      "title": "8. Changes",
+      "content": "We reserve the right to change these terms of use without prior notice. Important changes will be announced via in-app notifications. Continuing to use the application after the changes means that you accept the new terms."
+    },
+    "section9": {
+      "title": "9. Applicable Law",
+      "content": "These terms of use are subject to the laws of the Republic of Turkey. In case of dispute, Istanbul Courts and Enforcement Offices have jurisdiction."
+    },
+    "section10": {
+      "title": "10. Communication",
+      "intro": "For your questions about the terms of use:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Account Deletion Request",
+    "metaTitle": "Account Deletion - Hirovo",
+    "metaDescription": "Request to delete your Hirovo account.",
+    "description": "If you want to delete your account, fill out the form below. Once your request is reviewed, your account and all your data will be permanently deleted.",
+    "warning": "Once your account is deleted, all your data (profile information, applications, messages) will be permanently deleted and cannot be retrieved.",
+    "form": {
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "example@email.com",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Reason for Deletion",
+      "reasonPlaceholder": "Why do you want to delete your account?",
+      "submitButton": "Submit Account Deletion Request"
+    },
+    "errors": {
+      "emailOrPhone": "Please enter your e-mail or phone number.",
+      "generic": "An error has occurred. Please try again later.",
+      "connection": "Connection error. Please check your internet connection."
+    },
+    "success": {
+      "title": "Your Request Has Been Received",
+      "message": "Your account deletion request has been received successfully. Your request will be reviewed as soon as possible and you will be informed via e-mail or SMS.",
+      "processingTime": "Processing time: 1-3 business days"
+    },
+    "contactNote": "You can reach us at."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Select Language",
+    "popularLanguages": "Popular Languages"
+  }
+}

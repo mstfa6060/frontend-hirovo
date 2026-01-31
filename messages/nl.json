@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Downloaden",
+    "downloadApp": "Download de app",
+    "googlePlay": "Google Spelen",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "or": "of",
+    "loading": "Laden...",
+    "sending": "Verzenden...",
+    "error": "Fout",
+    "success": "Succesvol",
+    "submit": "Versturen",
+    "optional": "optioneel",
+    "important": "Belangrijk",
+    "contact": "Mededeling",
+    "questions": "Voor uw vragen",
+    "learnMore": "Meer informatie",
+    "getStarted": "Begin nu",
+    "readMore": "Lees meer",
+    "viewAll": "Bekijk alles",
+    "free": "Vrij",
+    "new": "Nieuw"
+  },
+  "metadata": {
+    "title": "Hirovo - Platform voor het vinden van werk en advertenties",
+    "description": "Hirovo is een zoek- en advertentieplatform voor vacatures. Ontdek vacatures, solliciteer eenvoudig en volg carrièremogelijkheden.",
+    "keywords": "een baan vinden, vacatures, carrière, zoeken naar werk, personeelsadvertenties, personeelszoekers, werving, Hirovo",
+    "ogTitle": "Hirovo - Platform voor werkgelegenheid en carrière",
+    "ogDescription": "Ontdek vacatures, solliciteer en volg carrièremogelijkheden bij Hirovo."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Over ons",
+    "howItWorks": "Hoe het werkt",
+    "forJobSeekers": "Werkzoekenden",
+    "forEmployers": "werkgevers",
+    "faq": "Veelgestelde vragen",
+    "contact": "Mededeling",
+    "careerTips": "Loopbaanadvies"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
+    "deleteAccount": "Accountverwijdering",
+    "home": "Startpagina",
+    "about": "Over ons",
+    "contact": "Mededeling",
+    "faq": "Veelgestelde vragen",
+    "howItWorks": "Hoe het werkt",
+    "forJobSeekers": "Voor werkzoekenden",
+    "forEmployers": "Voor werkgevers",
+    "careerTips": "Loopbaanadvies",
+    "company": "Bedrijf",
+    "resources": "Bronnen",
+    "legal": "Legaal",
+    "followUs": "Volg ons",
+    "description": "Het meest innovatieve werkgelegenheidsplatform van Turkije. Jouw droom komt een stap dichterbij."
+  },
+  "home": {
+    "hero": {
+      "title": "Vind uw droombaan",
+      "subtitle": "Ontdek duizenden vacatures, solliciteer eenvoudig en volg carrièremogelijkheden bij Hirovo.",
+      "stats": {
+        "jobs": "Actieve vacatureplaatsing",
+        "users": "Geregistreerde gebruiker",
+        "companies": "Partnerbedrijf",
+        "placements": "Succesvol matchen"
+      }
+    },
+    "features": {
+      "title": "Waarom Hirovo?",
+      "subtitle": "Onze functies die uw zoektocht naar een baan gemakkelijker maken",
+      "easySearch": {
+        "title": "Eenvoudig zoeken",
+        "description": "Zoek snel tussen duizenden vacatures en vind vacatures die bij u passen."
+      },
+      "quickApply": {
+        "title": "Snelle toepassing",
+        "description": "Solliciteer met slechts één klik, verspil geen tijd. Maak uw profiel één keer aan en gebruik het overal."
+      },
+      "notifications": {
+        "title": "Pushmeldingen",
+        "description": "Leer direct over nieuwe berichten en sollicitatiestatussen, mis deze kans niet."
+      },
+      "smartMatch": {
+        "title": "Slim matchen",
+        "description": "Het door kunstmatige intelligentie ondersteunde systeem beveelt u de banen aan die het beste bij uw vaardigheden passen."
+      },
+      "secureProfile": {
+        "title": "Veilig profiel",
+        "description": "Uw persoonlijke gegevens worden alleen veilig opgeslagen en gedeeld met de werkgever wanneer u solliciteert."
+      },
+      "careerSupport": {
+        "title": "Loopbaanondersteuning",
+        "description": "Wij zijn hier om u te helpen met het opstellen van een CV, interviewtechnieken en loopbaanadvies."
+      }
+    },
+    "categories": {
+      "title": "Populaire bedrijfscategorieën",
+      "subtitle": "Ontdek kansen in de meest gewilde sectoren",
+      "technology": "Technologie",
+      "healthcare": "Gezondheid",
+      "finance": "Financiën",
+      "education": "Onderwijs",
+      "retail": "Detailhandel",
+      "manufacturing": "Productie",
+      "hospitality": "Toerisme & Gastvrijheid",
+      "construction": "Gebouw"
+    },
+    "howItWorks": {
+      "title": "Hoe werkt het?",
+      "subtitle": "Vind een baan in drie eenvoudige stappen",
+      "step1": {
+        "title": "Download de app",
+        "description": "Download Hirovo gratis via Google Play en maak uw account aan."
+      },
+      "step2": {
+        "title": "Creëer uw profiel",
+        "description": "Voeg uw ervaringen, vaardigheden en voorkeuren toe."
+      },
+      "step3": {
+        "title": "Solliciteer en start met ondernemen",
+        "description": "Solliciteer op vacatures die voor u geschikt zijn en neem contact op met werkgevers."
+      }
+    },
+    "testimonials": {
+      "title": "Gebruikersopmerkingen",
+      "subtitle": "Ervaringen van onze gebruikers die bij Hirovo een baan hebben gevonden"
+    },
+    "cta": {
+      "title": "Begin nu",
+      "subtitle": "Download Hirovo, je droom komt een stap dichterbij.",
+      "downloadFree": "Gratis downloaden"
+    }
+  },
+  "about": {
+    "metaTitle": "Over ons - Hirovo",
+    "metaDescription": "Meer informatie over Hirovo. Onze missie, onze visie en onze visie op de arbeidsbranche.",
+    "hero": {
+      "title": "Over ons",
+      "subtitle": "Wij wilden de zakenwereld veranderen"
+    },
+    "mission": {
+      "title": "Onze missie",
+      "description": "Om werkzoekenden en werkgevers op de meest efficiënte manier bij elkaar te brengen, om het vinden van een baan voor iedereen te vergemakkelijken en om eerlijke kansen op werk te creëren."
+    },
+    "vision": {
+      "title": "Onze visie",
+      "description": "Als het toonaangevende digitale werkgelegenheidsplatform van Turkije en de regio, dat miljoenen mensen helpt hun carrièredoelen te bereiken."
+    },
+    "story": {
+      "title": "Ons verhaal",
+      "content1": "Hirovo werd in 2024 opgericht om de uitdagingen van werkzoekenden op te lossen. Gezien de inefficiëntie van traditionele methoden voor het zoeken naar werk en de frustraties die werkzoekenden ervaren, hebben we besloten een betere oplossing te creëren met behulp van technologie.",
+      "content2": "Tegenwoordig kiezen duizenden werkzoekenden en honderden bedrijven voor Hirovo. Met onze gebruikersgerichte aanpak en voortdurend verbeterende technologie verbeteren we de zoekervaring elke dag."
+    },
+    "values": {
+      "title": "Onze waarden",
+      "transparency": {
+        "title": "Transparantie",
+        "description": "Wij bieden volledige transparantie in vacatures en onze processen."
+      },
+      "equality": {
+        "title": "Gelijkwaardigheid",
+        "description": "Wij bieden iedereen gelijke kansen en zijn tegen discriminatie."
+      },
+      "innovation": {
+        "title": "innovatie",
+        "description": "Wij verbeteren voortdurend en maken gebruik van de nieuwste technologieën."
+      },
+      "userFirst": {
+        "title": "Gebruikersfocus",
+        "description": "Bij alle beslissingen geven we prioriteit aan de gebruikerservaring."
+      }
+    },
+    "team": {
+      "title": "Ons team",
+      "description": "Ons team van ervaren professionals brengt jarenlange kennis in de arbeidssector naar Hirovo."
+    },
+    "stats": {
+      "title": "Hirovo in cijfers",
+      "downloads": "Downloaden",
+      "activeUsers": "Actieve gebruiker",
+      "partnerCompanies": "Partnerbedrijf",
+      "successfulMatches": "Succesvol matchen"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Hoe het werkt - Hirovo",
+    "metaDescription": "Hoe werkt Hirovo? Leer stap voor stap hoe u een baan zoekt en solliciteert.",
+    "hero": {
+      "title": "Hoe werkt het?",
+      "subtitle": "We hebben het zo gemakkelijk gemaakt om een ​​baan te vinden"
+    },
+    "forJobSeekers": {
+      "title": "Voor werkzoekenden",
+      "step1": {
+        "title": "Download de app",
+        "description": "Download de Hirovo-app gratis via Google Play. Snelle en veilige installatie."
+      },
+      "step2": {
+        "title": "Account aanmaken",
+        "description": "Registreer u binnen enkele seconden met uw e-mailadres of telefoonnummer."
+      },
+      "step3": {
+        "title": "Voltooi uw profiel",
+        "description": "Voeg uw werkervaring, opleiding en vaardigheden toe. Upload uw CV."
+      },
+      "step4": {
+        "title": "Ontdek vacatures",
+        "description": "Vind vermeldingen die bij u passen met behulp van filters. Locatie, salaris, branche en meer."
+      },
+      "step5": {
+        "title": "Solliciteer met één klik",
+        "description": "Solliciteer direct op de advertenties die u leuk vindt. Uw profiel wordt automatisch verzonden."
+      },
+      "step6": {
+        "title": "Volg het proces",
+        "description": "Volg de status van uw sollicitaties in realtime. Blijf op de hoogte met meldingen."
+      }
+    },
+    "forEmployers": {
+      "title": "Voor werkgevers",
+      "step1": {
+        "title": "Maak een bedrijfsaccount aan",
+        "description": "Registreer uw bedrijf en voltooi het verificatieproces."
+      },
+      "step2": {
+        "title": "Publiceer een vacatureadvertentie",
+        "description": "Maak een vacatureplaatsing met gedetailleerde functiebeschrijvingen en vereisten."
+      },
+      "step3": {
+        "title": "Beoordeel toepassingen",
+        "description": "Filter binnenkomende sollicitaties en selecteer geschikte kandidaten."
+      },
+      "step4": {
+        "title": "Neem contact op met kandidaten",
+        "description": "Neem rechtstreeks contact op met kandidaten via de applicatie."
+      }
+    },
+    "features": {
+      "title": "Functies",
+      "ai": {
+        "title": "Ondersteuning voor kunstmatige intelligentie",
+        "description": "Intelligente algoritmen bevelen de meest geschikte banen voor u aan."
+      },
+      "realtime": {
+        "title": "Pushmeldingen",
+        "description": "Ontvang direct meldingen voor nieuwe berichten en applicatie-updates."
+      },
+      "secure": {
+        "title": "Veilige infrastructuur",
+        "description": "Uw gegevens worden beschermd met de hoogste beveiligingsnormen."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Voor werkzoekenden - Hirovo",
+    "metaDescription": "Als je op zoek bent naar een baan, dan is Hirovo iets voor jou. Duizenden vacatures, eenvoudige sollicitaties en carrièremogelijkheden.",
+    "hero": {
+      "title": "Voor werkzoekenden",
+      "subtitle": "Wij begeleiden u op uw carrièrereis"
+    },
+    "benefits": {
+      "title": "Waarom kiezen voor Hirovo?",
+      "free": {
+        "title": "Volledig gratis",
+        "description": "Al onze functies zijn gratis voor werkzoekenden. Er zijn geen verborgen kosten."
+      },
+      "thousands": {
+        "title": "Duizenden advertenties",
+        "description": "Duizenden actuele vacatures uit elke sector en elk niveau."
+      },
+      "easy": {
+        "title": "Gemakkelijke toepassing",
+        "description": "Solliciteer met één klik, verspil geen tijd."
+      },
+      "track": {
+        "title": "Applicatie volgen",
+        "description": "Volg al uw applicaties op één plek."
+      },
+      "notifications": {
+        "title": "Slimme meldingen",
+        "description": "Blijf direct op de hoogte van nieuwe advertenties die bij u passen."
+      },
+      "privacy": {
+        "title": "Beveiliging",
+        "description": "Uw gegevens worden alleen gedeeld met de bedrijven waarbij u solliciteert."
+      }
+    },
+    "tips": {
+      "title": "Tips voor een succesvolle toepassing",
+      "tip1": {
+        "title": "Voltooi uw profiel",
+        "description": "Volledig gevulde profielen trekken 3 keer meer aandacht."
+      },
+      "tip2": {
+        "title": "Blijf op de hoogte",
+        "description": "Werk uw profiel bij terwijl u nieuwe vaardigheden en ervaringen toevoegt."
+      },
+      "tip3": {
+        "title": "Houd meldingen ingeschakeld",
+        "description": "Sta meldingen toe om te voorkomen dat u kansen mist."
+      },
+      "tip4": {
+        "title": "Solliciteer snel",
+        "description": "Degenen die snel solliciteren op nieuwe vacatures komen op de voorgrond."
+      }
+    },
+    "categories": {
+      "title": "Populaire categorieën",
+      "subtitle": "Meest gezochte functiecategorieën"
+    },
+    "cta": {
+      "title": "Vind uw droombaan",
+      "subtitle": "Download Hirovo nu en ontdek duizenden mogelijkheden."
+    }
+  },
+  "employers": {
+    "metaTitle": "Voor werkgevers - Hirovo",
+    "metaDescription": "Vind het juiste talent met Hirovo. Snelle, effectieve en voordelige inkoopoplossingen.",
+    "hero": {
+      "title": "Voor werkgevers",
+      "subtitle": "De gemakkelijkste manier om de juiste talenten te vinden"
+    },
+    "benefits": {
+      "title": "Hirovo-voordelen",
+      "reach": {
+        "title": "Groot bereik",
+        "description": "Bereik direct duizenden actieve werkzoekenden."
+      },
+      "quality": {
+        "title": "Kwaliteit kandidaten",
+        "description": "Geverifieerde profielen en gedetailleerde cv's."
+      },
+      "fast": {
+        "title": "Snel resultaat",
+        "description": "Ontvang de eerste sollicitaties binnen ongeveer 48 uur."
+      },
+      "affordable": {
+        "title": "Betaalbare prijs",
+        "description": "Het is veel zuiniger dan traditionele methoden."
+      },
+      "easy": {
+        "title": "Eenvoudig beheer",
+        "description": "Beheer alle applicaties vanuit één paneel."
+      },
+      "support": {
+        "title": "Steun",
+        "description": "Wij assisteren u bij het rekruteringsproces."
+      }
+    },
+    "process": {
+      "title": "Rekruteringsproces",
+      "step1": "Maak een bedrijfsaccount aan",
+      "step2": "Publiceer uw vacature",
+      "step3": "Bekijk de toepassingen",
+      "step4": "Maak kennis met kandidaten",
+      "step5": "Werven"
+    },
+    "pricing": {
+      "title": "Prijzen",
+      "subtitle": "Kies het plan dat bij uw behoeften past",
+      "basic": {
+        "title": "Begin",
+        "price": "Vrij",
+        "features": {
+          "0": "1 advertentie per maand",
+          "1": "Basisfiltering",
+          "2": "E-mailondersteuning"
+        }
+      },
+      "pro": {
+        "title": "Professioneel",
+        "price": "Neem contact met ons op",
+        "features": {
+          "0": "Onbeperkte advertenties",
+          "1": "Geavanceerde filtering",
+          "2": "Prioritaire ondersteuning",
+          "3": "Aanbevelingen van kandidaten"
+        }
+      },
+      "enterprise": {
+        "title": "Institutioneel",
+        "price": "Speciale prijs",
+        "features": {
+          "0": "Alle Pro-functies",
+          "1": "API-toegang",
+          "2": "Aangepaste integratie",
+          "3": "accountmanager"
+        }
+      }
+    },
+    "cta": {
+      "title": "Vind de juiste talenten",
+      "subtitle": "Begin nu en bereik de beste kandidaten."
+    }
+  },
+  "faq": {
+    "metaTitle": "Veelgestelde vragen - Hirovo",
+    "metaDescription": "Veelgestelde vragen en antwoorden over Hirovo. Informatie over het zoeken naar een baan, solliciteren en het gebruik van de applicatie.",
+    "hero": {
+      "title": "Veelgestelde vragen",
+      "subtitle": "Alles wat je je afvraagt"
+    },
+    "categories": {
+      "general": "Algemeen",
+      "account": "Rekening",
+      "application": "Sollicitatie",
+      "employers": "werkgevers",
+      "technical": "Technisch"
+    },
+    "general": {
+      "q1": {
+        "question": "Wat is Hirovo?",
+        "answer": "Hirovo is een mobiel werkgelegenheidsplatform dat werkzoekenden en werkgevers samenbrengt. U kunt zoeken tussen duizenden vacatures, met één klik solliciteren en carrièremogelijkheden volgen."
+      },
+      "q2": {
+        "question": "Is Hirovo vrij?",
+        "answer": "Ja, Hirovo is volledig gratis voor werkzoekenden. Je kunt al onze functies gratis gebruiken."
+      },
+      "q3": {
+        "question": "Waar kan ik Hirovo downloaden?",
+        "answer": "Je kunt Hirovo gratis downloaden via de Google Play Store. De iOS-versie zal binnenkort verschijnen."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Hoe kan ik een account aanmaken?",
+        "answer": "Na het downloaden van de applicatie kunt u zich binnen enkele seconden registreren met uw e-mailadres of telefoonnummer."
+      },
+      "q2": {
+        "question": "Ik ben mijn wachtwoord vergeten, wat moet ik doen?",
+        "answer": "U kunt uw wachtwoord opnieuw instellen via e-mail of sms door in het inlogscherm op de optie 'Mijn wachtwoord vergeten' te klikken."
+      },
+      "q3": {
+        "question": "Hoe kan ik mijn account verwijderen?",
+        "answer": "U kunt een accountverwijdering aanvragen via de in-app-instellingen of via de pagina 'Accountverwijdering' op onze website."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Hoe volg ik mijn aanvraag?",
+        "answer": "U kunt al uw aanvragen en de status ervan zien in het gedeelte 'Mijn aanvragen' in de aanvraag."
+      },
+      "q2": {
+        "question": "Kan ik mijn aanvraag intrekken?",
+        "answer": "Ja, u kunt uw nog niet beoordeelde aanvragen intrekken."
+      },
+      "q3": {
+        "question": "Waarom is mijn aanvraag afgewezen?",
+        "answer": "Werkgevers maken evaluaties op basis van hun eigen criteria. U kunt uw kansen vergroten door uw profiel bij te werken en op meer berichten te solliciteren."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Hoe een bedrijfsrekening openen?",
+        "answer": "U kunt uw bedrijf registreren via de applicatie of op onze website. Het verificatieproces wordt binnen 24-48 uur voltooid."
+      },
+      "q2": {
+        "question": "Zijn er kosten verbonden aan het publiceren van een advertentie?",
+        "answer": "Ons basispakket is gratis. Voor meer aankondigingen en geavanceerde functies kunt u onze professionele pakketten bekijken."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "De applicatie opent niet, wat moet ik doen?",
+        "answer": "Update eerst de applicatie. Als het probleem zich blijft voordoen, verwijdert u de app en installeert u deze opnieuw. Als u nog steeds problemen ondervindt, neem dan contact op met ons ondersteuningsteam."
+      },
+      "q2": {
+        "question": "Meldingen komen niet?",
+        "answer": "Zorg ervoor dat je meldingen voor Hirovo toestaat in je telefooninstellingen. Controleer ook uw meldingsvoorkeuren in de in-app-instellingen."
+      }
+    },
+    "contact": {
+      "title": "Heeft u vragen?",
+      "subtitle": "Neem contact met ons op voor vragen waar u het antwoord niet op kunt vinden."
+    }
+  },
+  "contact": {
+    "metaTitle": "Contact – Hirovo",
+    "metaDescription": "Neem contact op met Hirovo. Neem contact met ons op voor uw vragen, suggesties en feedback.",
+    "hero": {
+      "title": "Mededeling",
+      "subtitle": "Wij helpen u graag verder"
+    },
+    "info": {
+      "title": "Contactgegevens",
+      "email": {
+        "title": "E-mail",
+        "value": "hallo@hirovo.com",
+        "description": "24/7 e-mailondersteuning"
+      },
+      "phone": {
+        "title": "Telefoon",
+        "value": "+90 (212) 000 00 00",
+        "description": "Maandag - vrijdag, 09:00 - 18:00 uur"
+      },
+      "address": {
+        "title": "Adres",
+        "value": "Istanboel, Turkije",
+        "description": "Ons hoofdkantoor"
+      }
+    },
+    "form": {
+      "title": "Schrijf ons",
+      "name": "Uw naam en achternaam",
+      "email": "Uw e-mailadres",
+      "subject": "Onderwerp",
+      "message": "Jouw bericht",
+      "submit": "Versturen",
+      "subjects": {
+        "general": "Algemene vraag",
+        "support": "Technische ondersteuning",
+        "partnership": "Partnerschap",
+        "feedback": "Feedback",
+        "other": "Ander"
+      },
+      "success": "Uw bericht is succesvol verzonden. Wij nemen zo snel mogelijk contact met u op.",
+      "error": "Er is een fout opgetreden. Probeer het later opnieuw."
+    },
+    "social": {
+      "title": "Sociale media",
+      "subtitle": "Volg ons op sociale media"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Loopbaanadvies - Hirovo",
+    "metaDescription": "Deskundig advies over het zoeken naar een baan, CV-voorbereiding, interviewtechnieken en loopbaanontwikkeling.",
+    "hero": {
+      "title": "Loopbaanadvies",
+      "subtitle": "Breng je carrière naar een hoger niveau"
+    },
+    "categories": {
+      "resume": "CV-voorbereiding",
+      "interview": "Interviewtechnieken",
+      "career": "Loopbaanontwikkeling",
+      "workplace": "Zakenleven"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Hoe maak je een effectief CV?",
+        "summary": "Een professionele CV-voorbereidingsgids die de aandacht van werkgevers trekt.",
+        "content": "Je CV is de eerste indruk van je sollicitatie. Met een goed opgemaakt CV onderscheid je je van andere kandidaten en vergroot je de kans op een uitnodiging voor een sollicitatiegesprek. Hier zijn tips voor een effectief CV:\n\n1. Gebruik een duidelijk en beknopt format\n2. Benadruk uw relevante ervaringen\n3. Onderbouw uw concrete prestaties met cijfers\n4. Gebruik trefwoorden correct\n5. Controleer zorgvuldig op fouten"
+      },
+      "resume2": {
+        "title": "Meest voorkomende fouten gemaakt in CV",
+        "summary": "CV-fouten die ertoe kunnen leiden dat uw sollicitatie wordt afgewezen en hoe u deze kunt vermijden.",
+        "content": "Veel kandidaten maken cruciale fouten in hun cv zonder dat ze het beseffen. Het herkennen en corrigeren van deze fouten zal het vinden van een baan versnellen."
+      },
+      "interview1": {
+        "title": "Geheimen van succes in sollicitatiegesprekken",
+        "summary": "Technieken die je moet kennen om succesvol te zijn in sollicitatiegesprekken.",
+        "content": "Het sollicitatiegesprek is de meest kritische fase van het sollicitatieproces. Goed voorbereide kandidaten kunnen omgaan met stress en kunnen zich op hun best uitdrukken."
+      },
+      "interview2": {
+        "title": "Meest gestelde sollicitatievragen",
+        "summary": "Vragen die je tegenkomt tijdens sollicitatiegesprekken en effectieve antwoordstrategieën.",
+        "content": "In interviews worden vrijwel altijd bepaalde vragen gesteld. Door je vooraf op deze vragen voor te bereiden, vergroot je je zelfvertrouwen."
+      },
+      "career1": {
+        "title": "Voor degenen die een carrièreswitch willen maken",
+        "summary": "Een stap-voor-stap handleiding voor wie van sector of functie wil veranderen.",
+        "content": "Een carrièreverandering lijkt misschien beangstigend, maar met de juiste planning kan dit met succes worden gerealiseerd."
+      },
+      "career2": {
+        "title": "Professioneel netwerken",
+        "summary": "Manieren om relaties op te bouwen die uw carrière vooruit helpen.",
+        "content": "Een sterk professioneel netwerk vergroot de carrièremogelijkheden en houdt u op de hoogte van ontwikkelingen in de branche."
+      },
+      "workplace1": {
+        "title": "Dingen om te overwegen bij het starten van een nieuwe baan",
+        "summary": "Praktisch advies om vanaf uw eerste werkdag succesvol te zijn.",
+        "content": "Aan iets nieuws beginnen kan spannend maar stressvol zijn. Met de juiste aanpak kun je je snel aanpassen en een succesvolle start maken."
+      },
+      "workplace2": {
+        "title": "Hoe kunt u de balans tussen werk en privé bereiken?",
+        "summary": "Manieren om uw carrière en privéleven in evenwicht te brengen.",
+        "content": "Een gezond evenwicht tussen werk en privéleven is van cruciaal belang voor zowel uw carrièresucces als persoonlijk geluk."
+      }
+    },
+    "newsletter": {
+      "title": "Ontvang carrièretips",
+      "subtitle": "Abonneer u op onze nieuwsbrief voor het laatste carrièreadvies en vacatures.",
+      "placeholder": "Uw e-mailadres",
+      "button": "Abonneren"
+    }
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "metaTitle": "Privacybeleid - Hirovo",
+    "metaDescription": "Hirovo Privacybeleid - Informatie over hoe uw persoonlijke gegevens worden verzameld, gebruikt en beschermd.",
+    "lastUpdate": "Laatste update: januari 2025",
+    "intro": "Bij Hirovo hechten wij veel belang aan de privacy van onze gebruikers. In dit privacybeleid wordt uitgelegd hoe persoonlijke gegevens die we verzamelen via de mobiele applicatie van Hirovo (\"Applicatie\") worden verwerkt.",
+    "section1": {
+      "title": "1. Informatie die we verzamelen",
+      "intro": "Wanneer u onze applicatie gebruikt, kunnen wij de volgende gegevens verzamelen:",
+      "items": {
+        "account": "Accountgegevens: naam, achternaam, e-mailadres, telefoonnummer",
+        "profile": "Profielinformatie: CV, werkervaring, opleidingsinformatie, vaardigheden",
+        "location": "Locatie-informatie: locatiegegevens om vacatures bij u in de buurt weer te geven (met uw toestemming)",
+        "device": "Apparaatinformatie: apparaatrondleiding, besturingssysteem, applicatieversie",
+        "usage": "Gebruiksgegevens: in-app-interacties, bekeken advertenties, applicaties"
+      }
+    },
+    "section2": {
+      "title": "2. Doeleinden van het gebruik van informatie",
+      "intro": "Wij gebruiken de informatie die wij verzamelen voor de volgende doeleinden:",
+      "items": {
+        "account": "Aanmaken en beheren van uw account",
+        "jobs": "Het tonen van vacatures die bij u passen",
+        "applications": "Het doorsturen van uw sollicitaties naar werkgevers",
+        "improve": "Verbetering van de applicatie-ervaring",
+        "support": "Het bieden van technische ondersteuning",
+        "legal": "Om aan onze wettelijke verplichtingen te voldoen"
+      }
+    },
+    "section3": {
+      "title": "3. Het delen van informatie",
+      "intro": "Wij delen uw persoonsgegevens niet met derden, behalve in de volgende gevallen:",
+      "items": {
+        "employers": "Werkgevers: Wij delen uw profielinformatie met de eigenaren van de vacatures waarop u solliciteert.",
+        "providers": "Serviceproviders: vertrouwde partners die technische diensten leveren die nodig zijn voor de werking van onze applicatie.",
+        "legal": "Wettelijke verplichtingen: In overeenstemming met juridische processen of op verzoek van bevoegde autoriteiten"
+      }
+    },
+    "section4": {
+      "title": "4. Gegevensbeveiliging",
+      "intro": "We implementeren industriestandaard beveiligingsmaatregelen om uw persoonlijke gegevens te beschermen:",
+      "items": {
+        "ssl": "SSL/TLS-codering",
+        "datacenter": "Beveiligde datacenters",
+        "audits": "Regelmatige veiligheidsaudits",
+        "access": "Toegangscontrole en autorisatie"
+      }
+    },
+    "section5": {
+      "title": "5. Uw rechten",
+      "intro": "In het kader van de Wet bescherming persoonsgegevens nr. 6698 (KVKK) heeft u de volgende rechten:",
+      "items": {
+        "know": "Leren of uw persoonlijke gegevens worden verwerkt of niet",
+        "info": "Het opvragen van informatie over uw persoonsgegevens als deze zijn verwerkt",
+        "purpose": "Het doel van de verwerking van uw persoonsgegevens leren kennen en of deze voor het beoogde doel worden gebruikt",
+        "thirdParty": "Het kennen van de derde partijen aan wie persoonsgegevens worden doorgegeven in binnen- of buitenland",
+        "correct": "Het verzoeken om correctie van persoonsgegevens als deze onvolledig of onjuist zijn verwerkt",
+        "delete": "Verzoek om verwijdering of vernietiging van uw persoonlijke gegevens"
+      }
+    },
+    "section6": {
+      "title": "6. Cookies en trackingtechnologieën",
+      "content": "Onze app kan cookies en soortgelijke technologieën gebruiken om uw ervaring te verbeteren. Dankzij deze technologieën onthouden we uw voorkeuren en analyseren we de prestaties van applicaties."
+    },
+    "section7": {
+      "title": "7. Privacy van kinderen",
+      "content": "Onze aanvraag is niet gericht op personen jonger dan 18 jaar. Wij verzamelen niet bewust persoonsgegevens van personen jonger dan 18 jaar."
+    },
+    "section8": {
+      "title": "8. Beleidswijzigingen",
+      "content": "We kunnen dit privacybeleid van tijd tot tijd bijwerken. Bij belangrijke wijzigingen zullen wij u hiervan op de hoogte stellen via in-app-meldingen."
+    },
+    "section9": {
+      "title": "9. Communicatie",
+      "intro": "Voor uw privacygerelateerde vragen kunt u contact met ons opnemen:"
+    }
+  },
+  "terms": {
+    "title": "Gebruiksvoorwaarden",
+    "metaTitle": "Gebruiksvoorwaarden - Hirovo",
+    "metaDescription": "Gebruiksvoorwaarden van Hirovo - Regels en voorwaarden waaraan u moet voldoen bij het gebruik van onze applicatie.",
+    "lastUpdate": "Laatste update: januari 2025",
+    "intro": "Door gebruik te maken van de mobiele applicatie van Hirovo (\"Applicatie\") wordt u geacht de volgende gebruiksvoorwaarden te hebben aanvaard. Lees deze voorwaarden aandachtig door.",
+    "section1": {
+      "title": "1. Beschrijving van de Dienst",
+      "intro": "Hirovo is een zoekplatform voor werk dat tot doel heeft werkzoekenden in contact te brengen met werkgevers. Via onze applicatie:",
+      "items": {
+        "view": "Je kunt vacatures bekijken en solliciteren",
+        "profile": "U kunt uw professionele profiel aanmaken",
+        "offers": "U kunt aanbiedingen van werkgevers beoordelen",
+        "track": "Je kunt carrièremogelijkheden volgen"
+      }
+    },
+    "section2": {
+      "title": "2. Account aanmaken en beveiligen",
+      "intro": "Om onze applicatie te gebruiken, moet u een account aanmaken. Bij het aanmaken van een account:",
+      "items": {
+        "accurate": "U gaat ermee akkoord nauwkeurige en actuele informatie te verstrekken",
+        "responsible": "U bent verantwoordelijk voor de vertrouwelijkheid van uw accountgegevens.",
+        "activity": "U bent verantwoordelijk voor alle activiteiten die plaatsvinden op uw account.",
+        "notify": "Bij ongeoorloofde toegang dient u ons onmiddellijk op de hoogte te stellen"
+      }
+    },
+    "section3": {
+      "title": "3. Gebruikersverplichtingen",
+      "intro": "Wanneer u onze applicatie gebruikt, gaat u ermee akkoord dat u zich aan de volgende regels houdt:",
+      "items": {
+        "legal": "Handelen in overeenstemming met wet- en regelgeving",
+        "honest": "Het delen van nauwkeurige en niet-misleidende informatie",
+        "respect": "Het respecteren van de rechten van andere gebruikers",
+        "noSpam": "Geen spam, malware of kwaadaardige inhoud delen",
+        "security": "Het vermijden van acties die de veiligheid van de applicatie in gevaar kunnen brengen",
+        "identity": "Niet om zich voor te doen als anderen"
+      }
+    },
+    "section4": {
+      "title": "4. Verboden gedrag",
+      "intro": "De volgende gedragingen zijn ten strengste verboden:",
+      "items": {
+        "fake": "Het creëren van valse vacatures of profielen",
+        "harass": "Andere gebruikers lastigvallen of lastigvallen",
+        "illegal": "Gebruik van de applicatie voor illegale doeleinden",
+        "damage": "Beschadiging van de technische infrastructuur van de applicatie",
+        "bots": "Het gebruik van geautomatiseerde systemen of bots",
+        "ip": "Het schenden van intellectuele eigendomsrechten"
+      }
+    },
+    "section5": {
+      "title": "5. Inhoud en intellectueel eigendom",
+      "intro": "Alle rechten op de applicatie en de inhoud ervan behoren toe aan Hirovo:",
+      "items": {
+        "ownership": "Logo, ontwerp en interface zijn eigendom van Hirovo",
+        "userContent": "Inhoud die door de gebruiker wordt geüpload, valt onder de verantwoordelijkheid van de gebruiker.",
+        "license": "U verleent ons de benodigde licenties voor de informatie die u deelt in uw profiel.",
+        "thirdParty": "Uw inhoud mag de rechten van derden niet schenden"
+      }
+    },
+    "section6": {
+      "title": "6. Beperking van aansprakelijkheid",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Garandeert niet de juistheid van vacatures",
+        "relationship": "Geen partij in de werkgever-werknemerrelatie",
+        "disputes": "Niet verantwoordelijk voor geschillen tussen gebruikers",
+        "uptime": "Het garandeert niet dat de dienst zonder onderbreking zal werken.",
+        "damages": "Niet verantwoordelijk voor enige indirecte schade of gevolgschade."
+      }
+    },
+    "section7": {
+      "title": "7. Accountopschorting en -beëindiging",
+      "intro": "In de volgende situaties kunnen wij uw account opschorten of beëindigen:",
+      "items": {
+        "violation": "Schending van de gebruiksvoorwaarden",
+        "illegal": "Illegale activiteiten",
+        "harm": "Gedrag dat andere gebruikers schaadt",
+        "false": "Het verstrekken van valse of misleidende informatie"
+      }
+    },
+    "section8": {
+      "title": "8. Wijzigingen",
+      "content": "Wij behouden ons het recht voor om deze gebruiksvoorwaarden zonder voorafgaande kennisgeving te wijzigen. Belangrijke wijzigingen worden aangekondigd via in-app-meldingen. Als u de applicatie na de wijzigingen blijft gebruiken, betekent dit dat u de nieuwe voorwaarden accepteert."
+    },
+    "section9": {
+      "title": "9. Toepasselijk recht",
+      "content": "Op deze gebruiksvoorwaarden is het recht van de Republiek Turkije van toepassing. In geval van geschillen zijn de rechtbanken en handhavingsbureaus van Istanbul bevoegd."
+    },
+    "section10": {
+      "title": "10. Communicatie",
+      "intro": "Voor uw vragen over de gebruiksvoorwaarden:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Verzoek om accountverwijdering",
+    "metaTitle": "Accountverwijdering - Hirovo",
+    "metaDescription": "Verzoek om uw Hirovo-account te verwijderen.",
+    "description": "Als u uw account wilt verwijderen, vult u het onderstaande formulier in. Zodra uw verzoek is beoordeeld, worden uw account en al uw gegevens permanent verwijderd.",
+    "warning": "Zodra uw account is verwijderd, worden al uw gegevens (profielinformatie, applicaties, berichten) permanent verwijderd en kunnen deze niet meer worden opgehaald.",
+    "form": {
+      "emailLabel": "E-mailadres",
+      "emailPlaceholder": "voorbeeld@e-mail.com",
+      "phoneLabel": "Telefoonnummer",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Reden voor verwijdering",
+      "reasonPlaceholder": "Waarom wil je je account verwijderen?",
+      "submitButton": "Verzoek om accountverwijdering indienen"
+    },
+    "errors": {
+      "emailOrPhone": "Voer uw e-mailadres of telefoonnummer in.",
+      "generic": "Er is een fout opgetreden. Probeer het later opnieuw.",
+      "connection": "Verbindingsfout. Controleer uw internetverbinding."
+    },
+    "success": {
+      "title": "Uw verzoek is ontvangen",
+      "message": "Uw verzoek om accountverwijdering is succesvol ontvangen. Uw verzoek wordt zo snel mogelijk beoordeeld en u wordt hiervan op de hoogte gesteld via e-mail of sms.",
+      "processingTime": "Verwerkingstijd: 1-3 werkdagen"
+    },
+    "contactNote": "U kunt ons bereiken op."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Selecteer Taal",
+    "popularLanguages": "Populaire talen"
+  }
+}

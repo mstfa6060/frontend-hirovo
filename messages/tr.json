@@ -1,0 +1,1836 @@
+{
+  "common": {
+    "download": "Indir",
+    "downloadApp": "Uygulamayi Indir",
+    "googlePlay": "Google Play",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "or": "veya",
+    "loading": "Yukleniyor...",
+    "sending": "Gonderiliyor...",
+    "error": "Hata",
+    "success": "Basarili",
+    "submit": "Gonder",
+    "optional": "Istege bagli",
+    "important": "Onemli",
+    "contact": "Iletisim",
+    "questions": "Sorulariniz icin",
+    "learnMore": "Daha Fazla Bilgi",
+    "getStarted": "Hemen Basla",
+    "readMore": "Devamini Oku",
+    "viewAll": "Tumunu Gor",
+    "free": "Ucretsiz",
+    "new": "Yeni"
+  },
+  "metadata": {
+    "title": "Hirovo - Is Bulma & Ilan Platformu",
+    "description": "Hirovo, is arama ve ilan platformudur. Is ilanlarini kesfet, kolayca basvur ve kariyer firsatlarini takip et.",
+    "keywords": "is bulma, is ilanlari, kariyer, is arama, personel ilanlari, eleman arayanlar, ise alim, Hirovo",
+    "ogTitle": "Hirovo - Is Bulma & Kariyer Platformu",
+    "ogDescription": "Hirovo ile is ilanlarini kesfet, basvur ve kariyer firsatlarini takip et."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Hakkimizda",
+    "howItWorks": "Nasil Calisir",
+    "forJobSeekers": "Is Arayanlar",
+    "forEmployers": "Isverenler",
+    "faq": "SSS",
+    "contact": "Iletisim",
+    "careerTips": "Kariyer Tavsiyeleri"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Gizlilik Politikasi",
+    "terms": "Kullanim Sartlari",
+    "deleteAccount": "Hesap Silme",
+    "home": "Ana Sayfa",
+    "about": "Hakkimizda",
+    "contact": "Iletisim",
+    "faq": "SSS",
+    "howItWorks": "Nasil Calisir",
+    "forJobSeekers": "Is Arayanlar Icin",
+    "forEmployers": "Isverenler Icin",
+    "careerTips": "Kariyer Tavsiyeleri",
+    "company": "Sirket",
+    "resources": "Kaynaklar",
+    "legal": "Yasal",
+    "followUs": "Bizi Takip Edin",
+    "description": "Turkiye'nin en yenilikci is bulma platformu. Hayalindeki ise bir adim daha yaklac."
+  },
+  "home": {
+    "hero": {
+      "title": "Hayalindeki Isi Bul",
+      "subtitle": "Hirovo ile binlerce is ilanini kesfet, kolayca basvur ve kariyer firsatlarini takip et.",
+      "stats": {
+        "jobs": "Aktif Is Ilani",
+        "users": "Kayitli Kullanici",
+        "companies": "Partner Sirket",
+        "placements": "Basarili Eslestirme"
+      }
+    },
+    "features": {
+      "title": "Neden Hirovo?",
+      "subtitle": "Is aramanizi kolaylastiran ozelliklerimiz",
+      "easySearch": {
+        "title": "Kolay Arama",
+        "description": "Binlerce is ilani arasinda hizlica arama yap, sana uygun firsatlari bul."
+      },
+      "quickApply": {
+        "title": "Hizli Basvuru",
+        "description": "Tek tikla basvur, zaman kaybetme. Profilini bir kez olustur, her yerde kullan."
+      },
+      "notifications": {
+        "title": "Anlik Bildirimler",
+        "description": "Yeni ilanlari ve basvuru durumlarini aninda ogren, firsat kacirma."
+      },
+      "smartMatch": {
+        "title": "Akilli Eslestirme",
+        "description": "Yapay zeka destekli sistem, becerilerine en uygun isleri sana onerir."
+      },
+      "secureProfile": {
+        "title": "Guvenli Profil",
+        "description": "Kisisel bilgilerin guvenle saklanir, sadece basvurdugunda isverenle paylasilir."
+      },
+      "careerSupport": {
+        "title": "Kariyer Destegi",
+        "description": "CV hazirlama, mulakat teknikleri ve kariyer tavsiyeleri ile yanindayiz."
+      }
+    },
+    "categories": {
+      "title": "Populer Is Kategorileri",
+      "subtitle": "En cok aranan sektorlerde firsatlari kesfet",
+      "technology": "Teknoloji",
+      "healthcare": "Saglik",
+      "finance": "Finans",
+      "education": "Egitim",
+      "retail": "Perakende",
+      "manufacturing": "Uretim",
+      "hospitality": "Turizm & Otelcilik",
+      "construction": "Insaat"
+    },
+    "howItWorks": {
+      "title": "Nasil Calisir?",
+      "subtitle": "Uc basit adimda is bul",
+      "step1": {
+        "title": "Uygulamayi Indir",
+        "description": "Google Play'den Hirovo'yu ucretsiz indir ve hesabini olustur."
+      },
+      "step2": {
+        "title": "Profilini Olustur",
+        "description": "Deneyimlerini, becerilerini ve tercihlerini ekle."
+      },
+      "step3": {
+        "title": "Basvur ve Isle Basla",
+        "description": "Sana uygun ilanlara basvur, isverenlerle iletisime gec."
+      }
+    },
+    "testimonials": {
+      "title": "Kullanici Yorumlari",
+      "subtitle": "Hirovo ile is bulan kullanicilarimizin deneyimleri"
+    },
+    "cta": {
+      "title": "Hemen Basla",
+      "subtitle": "Hirovo'yu indir, hayalindeki ise bir adim daha yaklac.",
+      "downloadFree": "Ucretsiz Indir"
+    }
+  },
+  "about": {
+    "metaTitle": "Hakkimizda - Hirovo",
+    "metaDescription": "Hirovo hakkinda bilgi edinin. Misyonumuz, vizyonumuz ve is bulma sektorune bakisimiz.",
+    "hero": {
+      "title": "Hakkimizda",
+      "subtitle": "Is dnyasini degistirmek icin yola ciktik"
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Is arayanlar ile isverenleri en verimli sekilde bulusturmak, is bulma surecini herkes icin kolaylastirmak ve adaletli is firsatlari yaratmak."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Turkiye'nin ve bolgenin lider dijital is bulma platformu olarak, milyonlarca insanin kariyer hedeflerine ulasmalarına yardimci olmak."
+    },
+    "story": {
+      "title": "Hikayemiz",
+      "content1": "Hirovo, 2024 yilinda is arayanların karsilastigi zorlukları cozmek icin kuruldu. Geleneksel is arama yontemlerinin verimsizligini ve is arayanlarin yasadigi hayal kirikliklarini gorerek, teknolojiyi kullanarak daha iyi bir cozum olusturmaya karar verdik.",
+      "content2": "Bugün, binlerce is arayan ve yuuzlerce sirket Hirovo'yu tercih ediyor. Kullanici odakli yaklasimimiz ve surekli gelistirdigimiz teknolojimizle, is bulma deneyimini her gun daha da iyilestiriyoruz."
+    },
+    "values": {
+      "title": "Degerlerimiz",
+      "transparency": {
+        "title": "Seffaflik",
+        "description": "Is ilanlarinda ve sureclerimizde tam seffaflik sagliyoruz."
+      },
+      "equality": {
+        "title": "Esitlik",
+        "description": "Herkese esit firsatlar sunuyor, ayrimciliga karsı duruyoruz."
+      },
+      "innovation": {
+        "title": "Yenilikcilik",
+        "description": "Surekli gelistiyor, en son teknolojileri kullaniyoruz."
+      },
+      "userFirst": {
+        "title": "Kullanici Odaklilik",
+        "description": "Tum kararlarda kullanici deneyimini on planda tutuyoruz."
+      }
+    },
+    "team": {
+      "title": "Ekibimiz",
+      "description": "Deneyimli profesyonellerden olusan ekibimiz, is bulma sektorunde yillarının bilgi birikimini Hirovo'ya tasiyor."
+    },
+    "stats": {
+      "title": "Rakamlarla Hirovo",
+      "downloads": "Indirme",
+      "activeUsers": "Aktif Kullanici",
+      "partnerCompanies": "Partner Sirket",
+      "successfulMatches": "Basarili Eslestirme"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Nasil Calisir - Hirovo",
+    "metaDescription": "Hirovo nasil calisir? Is arama ve basvuru surecini adim adim ogrein.",
+    "hero": {
+      "title": "Nasil Calisir?",
+      "subtitle": "Is bulmayi bu kadar kolaylastirdik"
+    },
+    "forJobSeekers": {
+      "title": "Is Arayanlar Icin",
+      "step1": {
+        "title": "Uygulamayi Indir",
+        "description": "Google Play'den Hirovo uygulamasini ucretsiz indirin. Hizli ve guvenli kurulum."
+      },
+      "step2": {
+        "title": "Hesap Olustur",
+        "description": "E-posta veya telefon numaranizla saniyeler icinde kayit olun."
+      },
+      "step3": {
+        "title": "Profilinizi Tamamlayin",
+        "description": "Is deneyiminizi, egitim bilgilerinizi ve becerilerinizi ekleyin. CV'nizi yukleyin."
+      },
+      "step4": {
+        "title": "Is Ilanlarini Kesfedin",
+        "description": "Filtreleri kullanarak size uygun ilanlari bulun. Konum, maas, sektor ve daha fazlasi."
+      },
+      "step5": {
+        "title": "Tek Tikla Basvurun",
+        "description": "Begendigniz ilanlara aninda basvurun. Profiliniz otomatik olarak iletilir."
+      },
+      "step6": {
+        "title": "Sureci Takip Edin",
+        "description": "Basvurularinizin durumunu anlik takip edin. Bildirimlerle haberdar olun."
+      }
+    },
+    "forEmployers": {
+      "title": "Isverenler Icin",
+      "step1": {
+        "title": "Sirket Hesabi Olusturun",
+        "description": "Sirketinizi kaydedin ve dogrulama surecini tamamlayin."
+      },
+      "step2": {
+        "title": "Is Ilani Yayinlayin",
+        "description": "Detayli is tanimlari ve gereksinimlerle ilan olusturun."
+      },
+      "step3": {
+        "title": "Basvurulari Inceleyin",
+        "description": "Gelen basvurulari filtreleyin ve uygun adaylari secin."
+      },
+      "step4": {
+        "title": "Adaylarla Iletisime Gecin",
+        "description": "Uygulama uzerinden adaylarla dogrudan iletisim kurun."
+      }
+    },
+    "features": {
+      "title": "Ozellikler",
+      "ai": {
+        "title": "Yapay Zeka Destegi",
+        "description": "Akilli algoritmalar size en uygun isleri onerir."
+      },
+      "realtime": {
+        "title": "Anlik Bildirimler",
+        "description": "Yeni ilanlar ve basvuru guncellemeleri icin aninda bildirim alin."
+      },
+      "secure": {
+        "title": "Guvenli Altyapi",
+        "description": "Verileriniz en yuksek guvenlik standartlariyla korunur."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Is Arayanlar Icin - Hirovo",
+    "metaDescription": "Is ariyorsanız Hirovo tam size gore. Binlerce is ilani, kolay basvuru ve kariyer firsatlari.",
+    "hero": {
+      "title": "Is Arayanlar Icin",
+      "subtitle": "Kariyer yolculugunuzda yaninzdayiz"
+    },
+    "benefits": {
+      "title": "Neden Hirovo'yu Secmelisiniz?",
+      "free": {
+        "title": "Tamamen Ucretsiz",
+        "description": "Tum ozelliklerimiz is arayanlar icin ucretsizdir. Gizli ucret yok."
+      },
+      "thousands": {
+        "title": "Binlerce Ilan",
+        "description": "Her sektorden, her seviyeden binlerce guncel is ilani."
+      },
+      "easy": {
+        "title": "Kolay Basvuru",
+        "description": "Tek tikla basvurun, zaman kaybetmeyin."
+      },
+      "track": {
+        "title": "Basvuru Takibi",
+        "description": "Tum basvurularinizi tek yerden takip edin."
+      },
+      "notifications": {
+        "title": "Akilli Bildirimler",
+        "description": "Size uygun yeni ilanlardan aninda haberdar olun."
+      },
+      "privacy": {
+        "title": "Gizlilik",
+        "description": "Bilgileriniz sadece basvurduggunuz sirketlerle paylasilir."
+      }
+    },
+    "tips": {
+      "title": "Basarili Basvuru Icin Ipuclari",
+      "tip1": {
+        "title": "Profilinizi Eksiksiz Doldurun",
+        "description": "Tam doldurulmus profiller 3 kat daha fazla ilgi gorur."
+      },
+      "tip2": {
+        "title": "Guncel Tutun",
+        "description": "Yeni beceriler ve deneyimler ekledikce profilinizi guncelleyin."
+      },
+      "tip3": {
+        "title": "Bildirimleri Acik Tutun",
+        "description": "Firsatlari kacirmamak icin bildirimlere izin verin."
+      },
+      "tip4": {
+        "title": "Hizli Basvurun",
+        "description": "Yeni ilanlara hizli basvuranlar one cikar."
+      }
+    },
+    "categories": {
+      "title": "Populer Kategoriler",
+      "subtitle": "En cok aranan is kategorileri"
+    },
+    "cta": {
+      "title": "Hayalindeki Isi Bul",
+      "subtitle": "Simdi Hirovo'yu indirin ve binlerce firsati kesfedin."
+    }
+  },
+  "employers": {
+    "metaTitle": "Isverenler Icin - Hirovo",
+    "metaDescription": "Hirovo ile dogru yetenekleri bulun. Hizli, etkili ve ekonomik ise alim cozumleri.",
+    "hero": {
+      "title": "Isverenler Icin",
+      "subtitle": "Dogru yetenekleri bulmanin en kolay yolu"
+    },
+    "benefits": {
+      "title": "Hirovo Avantajlari",
+      "reach": {
+        "title": "Genis Erisim",
+        "description": "Binlerce aktif is arayan adaya anında ulasin."
+      },
+      "quality": {
+        "title": "Kaliteli Adaylar",
+        "description": "Dogrulanmis profiller ve detayli ozgecmisler."
+      },
+      "fast": {
+        "title": "Hizli Sonuc",
+        "description": "Ortalama 48 saat icinde ilk basvurulari alin."
+      },
+      "affordable": {
+        "title": "Uygun Fiyat",
+        "description": "Geleneksel yontemlere gore cok daha ekonomik."
+      },
+      "easy": {
+        "title": "Kolay Yonetim",
+        "description": "Tum basvurulari tek panelden yonetin."
+      },
+      "support": {
+        "title": "Destek",
+        "description": "Ise alim surecinde size yardimci oluyoruz."
+      }
+    },
+    "process": {
+      "title": "Ise Alim Sureci",
+      "step1": "Sirket hesabi olusturun",
+      "step2": "Is ilaninizi yayinlayin",
+      "step3": "Basvurulari inceleyin",
+      "step4": "Adaylarla gorusun",
+      "step5": "Ise alim yapin"
+    },
+    "pricing": {
+      "title": "Fiyatlandirma",
+      "subtitle": "Ihtiyaciniza uygun plani secin",
+      "basic": {
+        "title": "Baslangic",
+        "price": "Ucretsiz",
+        "features": [
+          "Ayda 1 ilan",
+          "Temel filtreleme",
+          "E-posta destegi"
+        ]
+      },
+      "pro": {
+        "title": "Profesyonel",
+        "price": "Iletisime Gecin",
+        "features": [
+          "Sinirsiz ilan",
+          "Gelismis filtreleme",
+          "Oncelikli destek",
+          "Aday onerileri"
+        ]
+      },
+      "enterprise": {
+        "title": "Kurumsal",
+        "price": "Ozel Fiyat",
+        "features": [
+          "Tum Pro ozellikleri",
+          "API erisimi",
+          "Ozel entegrasyon",
+          "Hesap yoneticisi"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Dogru Yetenekleri Bulun",
+      "subtitle": "Hemen baslayın ve en iyi adaylara ulasin."
+    }
+  },
+  "faq": {
+    "metaTitle": "Sikca Sorulan Sorular - Hirovo",
+    "metaDescription": "Hirovo hakkinda sikca sorulan sorular ve cevaplari. Is arama, basvuru ve uygulama kullanimi hakkinda bilgi.",
+    "hero": {
+      "title": "Sikca Sorulan Sorular",
+      "subtitle": "Merak ettiginiz her sey"
+    },
+    "categories": {
+      "general": "Genel",
+      "account": "Hesap",
+      "application": "Basvuru",
+      "employers": "Isverenler",
+      "technical": "Teknik"
+    },
+    "general": {
+      "q1": {
+        "question": "Hirovo nedir?",
+        "answer": "Hirovo, is arayanlar ile isverenleri bulusturan mobil bir is bulma platformudur. Binlerce is ilani arasinda arama yapabilir, tek tikla basvurabilir ve kariyer firsatlarini takip edebilirsiniz."
+      },
+      "q2": {
+        "question": "Hirovo ucretsiz mi?",
+        "answer": "Evet, Hirovo is arayanlar icin tamamen ucretsizdir. Tum ozelliklerimizi ucretsiz kullanabilirsiniz."
+      },
+      "q3": {
+        "question": "Hirovo'yu nereden indirebilirim?",
+        "answer": "Hirovo'yu Google Play Store'dan ucretsiz indirebilirsiniz. iOS surumu yakinda yayinlanacaktir."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Nasil hesap olusturabilirim?",
+        "answer": "Uygulamayi indirdikten sonra e-posta adresiniz veya telefon numaranizla saniyeler icinde kayit olabilirsiniz."
+      },
+      "q2": {
+        "question": "Sifremi unuttum, ne yapmaliyim?",
+        "answer": "Giris ekranindaki 'Sifremi Unuttum' secenegine tiklayarak e-posta veya SMS ile sifrenizi sifirlayabilirsiniz."
+      },
+      "q3": {
+        "question": "Hesabimi nasil silebilirim?",
+        "answer": "Hesap silme talebi icin uygulama ici ayarlardan veya web sitemizdeki 'Hesap Silme' sayfasindan talepte bulunabilirsiniz."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Basvurumu nasil takip ederim?",
+        "answer": "Uygulamadaki 'Basvurularim' bolumunden tum basvurularinizi ve durumlarini gorebilirsiniz."
+      },
+      "q2": {
+        "question": "Basvurumu geri cekebilir miyim?",
+        "answer": "Evet, henuz incelenmemis basvurularinizi geri cekebilirsiniz."
+      },
+      "q3": {
+        "question": "Neden basvurum reddedildi?",
+        "answer": "Isverenler kendi kriterlerine gore degerlendirme yapar. Profilinizi guncelleyerek ve daha fazla ilana basvurarak sansınızı artirabilirsiniz."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Sirket hesabi nasil acilir?",
+        "answer": "Uygulama uzerinden veya web sitemizden sirket kaydi yapabilirsiniz. Dogrulama sureci 24-48 saat icinde tamamlanir."
+      },
+      "q2": {
+        "question": "Ilan yayinlamak ucretli mi?",
+        "answer": "Temel paketimiz ucretsizdir. Daha fazla ilan ve gelismis ozellikler icin profesyonel paketlerimize bakabilirsiniz."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "Uygulama acilmiyor, ne yapmaliyim?",
+        "answer": "Once uygulamayi guncelleyin. Sorun devam ederse uygulamayi silip yeniden yukleyin. Hala sorun yasiyorsaniz destek ekibimizle iletisime gecin."
+      },
+      "q2": {
+        "question": "Bildirimler gelmiyor?",
+        "answer": "Telefon ayarlarindan Hirovo icin bildirimlere izin verdiginizden emin olun. Uygulama ici ayarlardan da bildirim tercihlerinizi kontrol edin."
+      }
+    },
+    "contact": {
+      "title": "Sorunuz mu var?",
+      "subtitle": "Cevabini bulamadiginiz sorular icin bize ulasin."
+    }
+  },
+  "contact": {
+    "metaTitle": "Iletisim - Hirovo",
+    "metaDescription": "Hirovo ile iletisime gecin. Sorulariniz, onerileriniz ve geri bildirimleriniz icin bize ulasin.",
+    "hero": {
+      "title": "Iletisim",
+      "subtitle": "Size yardimci olmaktan mutluluk duyariz"
+    },
+    "info": {
+      "title": "Iletisim Bilgileri",
+      "email": {
+        "title": "E-posta",
+        "value": "hello@hirovo.com",
+        "description": "7/24 e-posta destegi"
+      },
+      "phone": {
+        "title": "Telefon",
+        "value": "+90 (212) 000 00 00",
+        "description": "Pazartesi - Cuma, 09:00 - 18:00"
+      },
+      "address": {
+        "title": "Adres",
+        "value": "Istanbul, Turkiye",
+        "description": "Merkez ofisimiz"
+      }
+    },
+    "form": {
+      "title": "Bize Yazin",
+      "name": "Adiniz Soyadiniz",
+      "email": "E-posta Adresiniz",
+      "subject": "Konu",
+      "message": "Mesajiniz",
+      "submit": "Gonder",
+      "subjects": {
+        "general": "Genel Soru",
+        "support": "Teknik Destek",
+        "partnership": "Is Birligi",
+        "feedback": "Geri Bildirim",
+        "other": "Diger"
+      },
+      "success": "Mesajiniz basariyla gonderildi. En kisa surede size donuus yapacagiz.",
+      "error": "Bir hata olustu. Lutfen daha sonra tekrar deneyin."
+    },
+    "social": {
+      "title": "Sosyal Medya",
+      "subtitle": "Bizi sosyal medyada takip edin"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Kariyer Tavsiyeleri - Hirovo",
+    "metaDescription": "Is arama, CV hazirlama, mulakat teknikleri ve kariyer gelistirme hakkinda uzman tavsiyeleri.",
+    "hero": {
+      "title": "Kariyer Tavsiyeleri",
+      "subtitle": "Kariyerinizi bir ust seviyeye tasiyin"
+    },
+    "categories": {
+      "resume": "CV Hazirlama",
+      "interview": "Mulakat Teknikleri",
+      "career": "Kariyer Gelistirme",
+      "workplace": "Is Hayati"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Etkili CV Nasil Hazirlanir?",
+        "summary": "Isverenlerin dikkatini ceken, profesyonel bir CV hazirlama rehberi.",
+        "content": "CV'niz is basvurunuzun ilk izlenimidir. Iyi hazirlanmis bir CV, sizi diger adaylardan ayirir ve mulakat davetiyesi alma sansinizi artirir. Iste etkili bir CV icin ipuclari:\n\n1. Net ve ozlu bir format kullanin\n2. Ilgili deneyimlerinizi one cikarin\n3. Somut basarilarinizi rakamlarla destekleyin\n4. Anahtar kelimeleri dogru kullanin\n5. Hatalara karsi dikkatli kontrol edin"
+      },
+      "resume2": {
+        "title": "CV'de Yapilan En Sik Hatalar",
+        "summary": "Basvurularinizin reddedilmesine neden olabilecek CV hatalari ve bunlardan nasil kacinirsiniz.",
+        "content": "Birçok aday, farkinda olmadan CV'lerinde kritik hatalar yapar. Bu hatalari tanimak ve duzeltmek, is bulma sureciizi hizlandirir."
+      },
+      "interview1": {
+        "title": "Mulakatta Basarinin Sirlari",
+        "summary": "Is gorusmelerinde basarili olmak icin bilmeniz gereken teknikler.",
+        "content": "Mulakat, is basvuru surecinin en kritik asamasidir. Iyi hazirlanmis adaylar, stresle basa çıkabilir ve kendilerini en iyi sekilde ifade edebilir."
+      },
+      "interview2": {
+        "title": "En Sik Sorulan Mulakat Sorulari",
+        "summary": "Is gorusmelerinde karsilasacaginiz sorular ve etkili cevap stratejileri.",
+        "content": "Mulakatlarda bazi sorular neredeyse her zaman sorulur. Bu sorulara onceden hazirlanmak, ozguveninizi artirir."
+      },
+      "career1": {
+        "title": "Kariyer Degisikligi Yapmak Isteyenlere",
+        "summary": "Sektor veya pozisyon degistirmek isteyenler icin adim adim rehber.",
+        "content": "Kariyer degisikligi korkutucu gorunebilir, ancak dogru planlama ile basariyla gerceklestirilebilir."
+      },
+      "career2": {
+        "title": "Profesyonel Ag Olusturma",
+        "summary": "Kariyerinizi ilerletecek iliskiler kurmanin yollari.",
+        "content": "Guclu bir profesyonel ag, kariyer firsatlarini artirir ve sizi sektordeki gelismelerden haberdar tutar."
+      },
+      "workplace1": {
+        "title": "Yeni Ise Baslarken Dikkat Edilmesi Gerekenler",
+        "summary": "Ilk is gununuzden itibaren basarili olmak icin pratik oneriler.",
+        "content": "Yeni bir ise baslamak heyecan verici ama stresli olabilir. Dogru yaklaşimla, hizla adapte olabilir ve basarili bir baslangic yapabilirsiniz."
+      },
+      "workplace2": {
+        "title": "Is-Yasam Dengesi Nasil Kurulur?",
+        "summary": "Kariyer ve ozel hayatinizi dengelemenin yollari.",
+        "content": "Saglikli bir is-yasam dengesi, hem kariyer basariniz hem de kisisel mutlulugunuz icin kritik oneme sahiptir."
+      }
+    },
+    "newsletter": {
+      "title": "Kariyer Ipuclari Alin",
+      "subtitle": "En son kariyer tavsiyeleri ve is firsatlari icin bultenimize abone olun.",
+      "placeholder": "E-posta adresiniz",
+      "button": "Abone Ol"
+    }
+  },
+  "privacy": {
+    "title": "Gizlilik Politikasi",
+    "metaTitle": "Gizlilik Politikasi - Hirovo",
+    "metaDescription": "Hirovo Gizlilik Politikasi - Kisisel verilerinizin nasil toplandigi, kullanildigi ve korundugu hakkinda bilgi.",
+    "lastUpdate": "Son guncelleme: Ocak 2025",
+    "intro": "Hirovo olarak, kullanicilarimizin gizliligine buyuk onem veriyoruz. Bu Gizlilik Politikasi, Hirovo mobil uygulamasi (\"Uygulama\") araciligiyla topladigimiz kisisel verilerin nasil islendigini aciklamaktadir.",
+    "section1": {
+      "title": "1. Topladigimiz Bilgiler",
+      "intro": "Uygulamamizi kullanirken asagidaki bilgileri toplayabiliriz:",
+      "items": {
+        "account": "Hesap Bilgileri: Ad, soyad, e-posta adresi, telefon numarasi",
+        "profile": "Profil Bilgileri: Ozgecmis, is deneyimi, egitim bilgileri, beceriler",
+        "location": "Konum Bilgileri: Yakininızdaki is ilanlarini gosterebilmek icin konum verisi (izninizle)",
+        "device": "Cihaz Bilgileri: Cihaz turu, isletim sistemi, uygulama surumu",
+        "usage": "Kullanim Verileri: Uygulama ici etkilesimler, goruntulenen ilanlar, basvurular"
+      }
+    },
+    "section2": {
+      "title": "2. Bilgilerin Kullanim Amaclari",
+      "intro": "Topladigimiz bilgileri su amaclarla kullaniyoruz:",
+      "items": {
+        "account": "Hesabinizi olusturmak ve yonetmek",
+        "jobs": "Size uygun is ilanlarini gostermek",
+        "applications": "Is basvurularinizi isverenlere iletmek",
+        "improve": "Uygulama deneyimini iyilestirmek",
+        "support": "Teknik destek saglamak",
+        "legal": "Yasal yukumluluklerimizi yerine getirmek"
+      }
+    },
+    "section3": {
+      "title": "3. Bilgilerin Paylasimi",
+      "intro": "Kisisel verilerinizi su durumlar disinda ucuncu taraflarla paylasmiyoruz:",
+      "items": {
+        "employers": "Isverenler: Basvuru yaptiginiz is ilanlarinin sahipleriyle profil bilgilerinizi paylasıriz",
+        "providers": "Hizmet Saglayicilar: Uygulamamizin calismasi icin gerekli teknik hizmetleri sunan guvenilir ortaklarla",
+        "legal": "Yasal Zorunluluklar: Yasal surecler veya yetkili makamlarin talebi dogrultusunda"
+      }
+    },
+    "section4": {
+      "title": "4. Veri Guvenligi",
+      "intro": "Kisisel verilerinizi korumak icin endustri standardi guvenlik onlemleri uyguluyoruz:",
+      "items": {
+        "ssl": "SSL/TLS sifreleme",
+        "datacenter": "Guvenli veri merkezleri",
+        "audits": "Duzenli guvenlik denetimleri",
+        "access": "Erisim kontrolu ve yetkilendirme"
+      }
+    },
+    "section5": {
+      "title": "5. Haklariniz",
+      "intro": "6698 sayili Kisisel Verilerin Korunmasi Kanunu (KVKK) kapsaminda asagidaki haklara sahipsiniz:",
+      "items": {
+        "know": "Kisisel verilerinizin islenip islenmedigini ogrenme",
+        "info": "Kisisel verileriniz islenmisse buna iliskin bilgi talep etme",
+        "purpose": "Kisisel verilerinizin islenme amacini ve bunlarin amacina uygun kullanilip kullanilmadigini ogrenme",
+        "thirdParty": "Yurt icinde veya yurt disinda kisisel verilerin aktarildigi ucuncu kisileri bilme",
+        "correct": "Kisisel verilerin eksik veya yanlis islenmis olmasi halinde bunlarin duzeltilmesini isteme",
+        "delete": "Kisisel verilerinizin silinmesini veya yok edilmesini isteme"
+      }
+    },
+    "section6": {
+      "title": "6. Cerezler ve Takip Teknolojileri",
+      "content": "Uygulamamiz, deneyiminizi iyilestirmek icin cerezler ve benzer teknolojiler kullanabilir. Bu teknolojiler sayesinde tercihlerinizi hatirlar ve uygulama performansini analiz ederiz."
+    },
+    "section7": {
+      "title": "7. Cocuklarin Gizliligi",
+      "content": "Uygulamamiz 18 yasın altindaki bireylere yonelik degildir. Bilerek 18 yasin altindaki kisilerden kisisel veri toplamiyoruz."
+    },
+    "section8": {
+      "title": "8. Politika Degisiklikleri",
+      "content": "Bu Gizlilik Politikasi'ni zaman zaman guncelleyebiliriz. Onemli degisiklikler olmasi durumunda sizi uygulama ici bildirimlerle bilgilendireceğiz."
+    },
+    "section9": {
+      "title": "9. Iletisim",
+      "intro": "Gizlilik ile ilgili sorulariniz icin bizimle iletisime gecebilirsiniz:"
+    }
+  },
+  "terms": {
+    "title": "Kullanim Sartlari",
+    "metaTitle": "Kullanim Sartlari - Hirovo",
+    "metaDescription": "Hirovo Kullanim Sartlari - Uygulamamizi kullanirken uymaniz gereken kurallar ve kosullar.",
+    "lastUpdate": "Son guncelleme: Ocak 2025",
+    "intro": "Hirovo mobil uygulamasini (\"Uygulama\") kullanarak asagidaki kullanim sartlarini kabul etmis sayilirsiniz. Lutfen bu sartlari dikkatlice okuyunuz.",
+    "section1": {
+      "title": "1. Hizmetin Tanimi",
+      "intro": "Hirovo, is arayanlar ile isverenler arasinda baglanti kurmayi amaclayan bir is bulma platformudur. Uygulamamiz araciligiyla:",
+      "items": {
+        "view": "Is ilanlarini goruntuleyebilir ve basvurabilirsiniz",
+        "profile": "Profesyonel profilinizi olusturabilirsiniz",
+        "offers": "Isverenlerden gelen teklifleri degerlendirebilirsiniz",
+        "track": "Kariyer firsatlarini takip edebilirsiniz"
+      }
+    },
+    "section2": {
+      "title": "2. Hesap Olusturma ve Guvenlik",
+      "intro": "Uygulamamizi kullanmak icin bir hesap olusturmaniz gerekmektedir. Hesap olustururken:",
+      "items": {
+        "accurate": "Dogru ve guncel bilgiler saglamayi kabul edersiniz",
+        "responsible": "Hesap bilgilerinizin gizliliginden siz sorumlusunuz",
+        "activity": "Hesabinizda gerceklesen tum aktivitelerden siz sorumlusunuz",
+        "notify": "Yetkisiz erisim durumunda derhal bizi bilgilendirmelisiniz"
+      }
+    },
+    "section3": {
+      "title": "3. Kullanici Yukumlulukleri",
+      "intro": "Uygulamamizi kullanirken asagidaki kurallara uymayi kabul edersiniz:",
+      "items": {
+        "legal": "Yasalara ve duzenlemelere uygun davranmak",
+        "honest": "Dogru ve yaniltici olmayan bilgiler paylasmak",
+        "respect": "Diger kullanicilarin haklarina saygi gostermek",
+        "noSpam": "Spam, zararli yazilim veya kotu amacli icerik paylasmamak",
+        "security": "Uygulamanin guvenligini tehlikeye atacak eylemlerden kacinmak",
+        "identity": "Baskalarinin kimligine burunmemek"
+      }
+    },
+    "section4": {
+      "title": "4. Yasaklanan Davranislar",
+      "intro": "Asagidaki davranislar kesinlikle yasaktir:",
+      "items": {
+        "fake": "Sahte is ilanlari veya profiller olusturmak",
+        "harass": "Diger kullanicilari taciz etmek veya rahatsiz etmek",
+        "illegal": "Uygulamayi yasadisi amaclarla kullanmak",
+        "damage": "Uygulamanin teknik altyapisina zarar vermek",
+        "bots": "Otomatik sistemler veya botlar kullanmak",
+        "ip": "Fikri mulkiyet haklarini ihlal etmek"
+      }
+    },
+    "section5": {
+      "title": "5. Icerik ve Fikri Mulkiyet",
+      "intro": "Uygulama ve icerigindeki tum haklar Hirovo'ya aittir:",
+      "items": {
+        "ownership": "Logo, tasarim ve arayuz Hirovo'nun mulkiyetindedir",
+        "userContent": "Kullanici tarafindan yuklenen icerikler kullanicinin sorumluluğundadir",
+        "license": "Profilinizde paylastiginiz bilgiler icin gerekli lisanslari bize verirsiniz",
+        "thirdParty": "Iceriklerinizin ucuncu taraf haklarini ihlal etmemesi gerekmektedir"
+      }
+    },
+    "section6": {
+      "title": "6. Sorumluluk Sinirlamasi",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Is ilanlarinin dogruluğunu garanti etmez",
+        "relationship": "Isveren-calisan iliskisinin tarafi degildir",
+        "disputes": "Kullanicilar arasi anlasmazliklardan sorumlu degildir",
+        "uptime": "Hizmetin kesintisiz calisacagini garanti etmez",
+        "damages": "Dolayli veya sonuc olarak ortaya cikan zararlardan sorumlu degildir"
+      }
+    },
+    "section7": {
+      "title": "7. Hesap Askiya Alma ve Sonlandirma",
+      "intro": "Asagidaki durumlarda hesabinizi askiya alabilir veya sonlandirabiliriz:",
+      "items": {
+        "violation": "Kullanim sartlarinin ihlali",
+        "illegal": "Yasadisi faaliyetler",
+        "harm": "Diger kullanicilara zarar veren davranislar",
+        "false": "Sahte veya yaniltici bilgi saglanmasi"
+      }
+    },
+    "section8": {
+      "title": "8. Degisiklikler",
+      "content": "Bu kullanim sartlarini onceden haber vermeksizin degistirme hakkini sakli tutariz. Onemli degisiklikler uygulama ici bildirimlerle duyurulacaktir. Degisikliklerden sonra uygulamayi kullanmaya devam etmeniz, yeni sartlari kabul ettiginiz anlamina gelir."
+    },
+    "section9": {
+      "title": "9. Uygulanacak Hukuk",
+      "content": "Bu kullanim sartlari Turkiye Cumhuriyeti yasalarina tabidir. Uyusmazlik durumunda Istanbul Mahkemeleri ve Icra Daireleri yetkilidir."
+    },
+    "section10": {
+      "title": "10. Iletisim",
+      "intro": "Kullanim sartlari ile ilgili sorulariniz icin:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Hesap Silme Talebi",
+    "metaTitle": "Hesap Silme - Hirovo",
+    "metaDescription": "Hirovo hesabinizi silmek icin talepte bulunun.",
+    "description": "Hesabinizi silmek istiyorsaniz asagidaki formu doldurun. Talebiniz incelendikten sonra hesabiniz ve tum verileriniz kalici olarak silinecektir.",
+    "warning": "Hesabiniz silindikten sonra tum verileriniz (profil bilgileri, basvurular, mesajlar) kalici olarak silinecek ve geri alinamayacaktir.",
+    "form": {
+      "emailLabel": "E-posta Adresi",
+      "emailPlaceholder": "ornek@email.com",
+      "phoneLabel": "Telefon Numarasi",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Silme Sebebi",
+      "reasonPlaceholder": "Hesabinizi neden silmek istiyorsunuz?",
+      "submitButton": "Hesap Silme Talebini Gonder"
+    },
+    "errors": {
+      "emailOrPhone": "Lutfen e-posta veya telefon numaranizi girin.",
+      "generic": "Bir hata olustu. Lutfen daha sonra tekrar deneyin.",
+      "connection": "Baglanti hatasi. Lutfen internet baglantinizi kontrol edin."
+    },
+    "success": {
+      "title": "Talebiniz Alindi",
+      "message": "Hesap silme talebiniz basariyla alindi. Talebiniz en kisa surede incelenecek ve size e-posta veya SMS ile bilgi verilecektir.",
+      "processingTime": "Islem suresi: 1-3 is gunu"
+    },
+    "contactNote": "adresinden bize ulasabilirsiniz."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Dil Sec",
+    "popularLanguages": "Populer Diller"
+  },
+  "cities": {
+    "common": {
+      "jobsIn": "Is Ilanlari",
+      "findJobsIn": "Is Bul",
+      "popularSectors": "Populer Sektorler",
+      "averageSalary": "Ortalama Maas",
+      "activeJobs": "Aktif Ilan",
+      "companies": "Sirket",
+      "applyNow": "Hemen Basvur",
+      "seeAllJobs": "Tum Ilanlari Gor",
+      "whyWorkHere": "Neden Burada Calismaliyim?",
+      "topEmployers": "One Cikan Isverenler",
+      "jobCategories": "Is Kategorileri"
+    },
+    "istanbul": {
+      "name": "Istanbul",
+      "metaTitle": "Istanbul Is Ilanlari - Hirovo",
+      "metaDescription": "Istanbul'da binlerce is ilani sizi bekliyor. Turkiye'nin ekonomi baskenti Istanbul'da kariyer firsatlarini kesfedin, hemen basvurun.",
+      "heroTitle": "Istanbul'da Is Ilanlari",
+      "heroSubtitle": "Turkiye'nin en buyuk is pazarinda hayalindeki kariyer firsatini bul",
+      "description": "Istanbul, Turkiye'nin ekonomik kalbi ve en buyuk is pazaridir. 16 milyonu askin nufusuyla ulkenin en dinamik sehri olan Istanbul, finans, teknoloji, perakende, turizm ve uretim basta olmak uzere hemen her sektorde binlerce is firsati sunmaktadir. Bogazin iki yakasinda yayilan bu metropol, hem yerel hem de uluslararasi sirketlere ev sahipligi yapmaktadir. Levent, Maslak ve Atasehir gibi is merkezleri, bankacilik ve finans sektorunun kalbi konumundadir. Teknoloji sirketleri ise genellikle Maslak, Levent ve son yillarda gelisen Atasehir bolgesinde yogunlasmistir. Istanbul ayni zamanda Turkiye'nin en onemli liman sehri olmasi nedeniyle lojistik ve dis ticaret alaninda da onemli istihdam firsatlari sunmaktadir. Sehrin zengin tarihi ve kulturel mirasi, turizm ve otelcilik sektorunde de buyuk bir istihdam potansiyeli olusturmaktadir.",
+      "highlights": [
+        "Turkiye'nin en buyuk is pazari",
+        "Uluslararasi sirket yogunlugu",
+        "Yuksek maas ortalamasi",
+        "Gelismis ulasim agi",
+        "Cok sektorlu istihdam firsati"
+      ],
+      "sectors": [
+        "Finans ve Bankacilik",
+        "Teknoloji ve Yazilim",
+        "Perakende ve E-ticaret",
+        "Turizm ve Otelcilik",
+        "Lojistik ve Tasimacılık",
+        "Medya ve Reklam"
+      ]
+    },
+    "ankara": {
+      "name": "Ankara",
+      "metaTitle": "Ankara Is Ilanlari - Hirovo",
+      "metaDescription": "Ankara'da kamu ve ozel sektor is ilanlari. Baskent'te kariyer firsatlarini kesfedin, Hirovo ile hemen basvurun.",
+      "heroTitle": "Ankara'da Is Ilanlari",
+      "heroSubtitle": "Baskent'te kamu ve ozel sektor kariyer firsatlari",
+      "description": "Ankara, Turkiye Cumhuriyeti'nin baskenti ve ulkenin ikinci buyuk sehridir. Yaklasik 5.7 milyon nufusa sahip olan Ankara, kamu sektoru istihdaminin merkezi konumundadir. Bakanlıklar, kamu kuruluslari ve devlet kurumlari baskent'te yogunlasmistir. Ancak Ankara sadece kamu sektoru ile sinirli degildir. Sehir ayni zamanda savunma sanayi, teknoloji ve egitim alanlarinda da onemli bir merkez haline gelmistir. ODTU Teknokent ve Bilkent Cyberpark gibi teknoloji gelistirme bolgeleri, yazilim ve muhendislik alaninda binlerce is firsati sunmaktadir. Savunma sanayi sirketleri de Ankara'da yogunlasmis olup, ASELSAN, TAI, ROKETSAN gibi dev sirketler nitelikli is gucu aramaktadir. Universite sehri olma ozelligi ile egitim sektorunde de genis istihdam imkanlari mevcuttur.",
+      "highlights": [
+        "Kamu sektoru merkezi",
+        "Savunma sanayi kalesi",
+        "Teknokent ve AR-GE merkezleri",
+        "Universite sehri",
+        "Uygun yasam maliyeti"
+      ],
+      "sectors": [
+        "Kamu ve Devlet Kurumlari",
+        "Savunma Sanayi",
+        "Teknoloji ve AR-GE",
+        "Egitim ve Akademi",
+        "Saglik Sektoru",
+        "Insaat ve Altyapi"
+      ]
+    },
+    "izmir": {
+      "name": "Izmir",
+      "metaTitle": "Izmir Is Ilanlari - Hirovo",
+      "metaDescription": "Izmir'de is firsatlari sizi bekliyor. Ege'nin incisi Izmir'de turizm, ticaret ve sanayi alanlarinda kariyer yapin.",
+      "heroTitle": "Izmir'de Is Ilanlari",
+      "heroSubtitle": "Ege'nin ekonomik merkezinde kariyer firsatlari",
+      "description": "Izmir, Turkiye'nin ucuncu buyuk sehri ve Ege Bolgesi'nin ekonomik merkezidir. Yaklasik 4.5 milyon nufusuyla onemli bir liman ve sanayi sehri olan Izmir, dis ticarette kritik bir rol ustlenmektedir. Aliaga petrokimya tesisleri ve organize sanayi bolgeleri, uretim sektorunde binlerce kisiye istihdam saglamaktadir. Sehrin Akdeniz iklimi ve uzun kıyı seridi, turizm sektorunu canli tutmaktadir. Cesme, Alacati ve Foca gibi bolgeler ozellikle yaz aylarinda turizm istihdaminda onemli artislar gostermektedir. Izmir ayni zamanda tarim ve gida sanayinde de guclu bir konuma sahiptir. Zeytinyagi, uzum ve incir uretimi bolgenin ekonomik dayanaklarindan birini olusturmaktadir. Sehirdeki universite ve arastirma kurumlari, egitim ve AR-GE alanlarinda da kariyer firsatlari sunmaktadir.",
+      "highlights": [
+        "Onemli liman sehri",
+        "Guclu sanayi altyapisi",
+        "Turizm potansiyeli",
+        "Yuksek yasam kalitesi",
+        "Dis ticaret merkezi"
+      ],
+      "sectors": [
+        "Dis Ticaret ve Lojistik",
+        "Uretim ve Sanayi",
+        "Turizm ve Otelcilik",
+        "Tarim ve Gida",
+        "Enerji Sektoru",
+        "Denizcilik"
+      ]
+    },
+    "bursa": {
+      "name": "Bursa",
+      "metaTitle": "Bursa Is Ilanlari - Hirovo",
+      "metaDescription": "Bursa'da otomotiv, tekstil ve uretim sektorlerinde is firsatlari. Sanayi sehri Bursa'da kariyerinizi insa edin.",
+      "heroTitle": "Bursa'da Is Ilanlari",
+      "heroSubtitle": "Turkiye'nin sanayi devinde kariyer firsatlari",
+      "description": "Bursa, Turkiye'nin dort buyuk sehrinden biri ve en onemli sanayi merkezlerinden biridir. 3 milyonu askin nufusuyla ulkenin otomotiv baskenti olarak bilinmektedir. TOFAS, Oyak Renault ve yuzlerce yan sanayi kurulusu Bursa'da faaliyet gostermektedir. Otomotiv sektorunun yani sira tekstil ve konfeksiyon sektoru de sehrin ekonomik dayanaklarindan birini olusturmaktadir. Bursa ayni zamanda tarihi Ipek Yolu'nun onemli duraklarindan biri olmasi nedeniyle ticaret gelenegine sahiptir. Uludag'in eteklerinde yer alan sehir, kis turizmi ile de ekonomisine katki saglamaktadir. Organize sanayi bolgelerinde binlerce fabrika faaliyet gostermekte ve nitelikli teknik personel ile muhendis ihtiyaci surekli devam etmektedir. Sehrin Istanbul'a yakinligi, lojistik avantaj saglamaktadir.",
+      "highlights": [
+        "Otomotiv sektorunun kalbi",
+        "Guclu tekstil sanayi",
+        "Organize sanayi bolgeleri",
+        "Istanbul'a yakinlik",
+        "Turizm potansiyeli"
+      ],
+      "sectors": [
+        "Otomotiv Sanayi",
+        "Tekstil ve Konfeksiyon",
+        "Makine ve Metal",
+        "Gida Sanayi",
+        "Turizm",
+        "Lojistik"
+      ]
+    },
+    "antalya": {
+      "name": "Antalya",
+      "metaTitle": "Antalya Is Ilanlari - Hirovo",
+      "metaDescription": "Antalya'da turizm ve hizmet sektoru is ilanlari. Turkiye'nin turizm baskentinde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Antalya'da Is Ilanlari",
+      "heroSubtitle": "Turizmin baskentinde kariyer firsatlari",
+      "description": "Antalya, Turkiye'nin turizm baskenti ve dunyaca unlu bir tatil destinasyonudur. Yillik 15 milyonun uzerinde turist agirlayan sehir, ozellikle turizm ve otelcilik sektorunde muazzam istihdam firsatlari sunmaktadir. Belek, Kemer, Side ve Alanya gibi turistik bolgeler, otel, restoran ve eglence sektorlerinde binlerce kisiye is imkani saglamaktadir. Sehirde turizm sezonunun uzamasi ve kis turizmine yonelik yatirimlar, yil boyu istihdam olanaklari yaratmaktadir. Golf turizmi, saglik turizmi ve kongre turizmi gibi niş alanlar da gelismektedir. Antalya ayni zamanda tarim sektorunde, ozellikle sera tariminda onemli bir merkezdir. Narenciye ve sebze uretimi bolge ekonomisine katki saglamaktadir. Sehrin hizli buyumesi, insaat ve gayrimenkul sektorunde de firsatlar olusturmaktadir.",
+      "highlights": [
+        "Turkiye'nin turizm merkezi",
+        "Yil boyu istihdam",
+        "Uluslararasi is ortami",
+        "Yuksek yasam kalitesi",
+        "Gelisen saglik turizmi"
+      ],
+      "sectors": [
+        "Turizm ve Otelcilik",
+        "Yiyecek ve Icecek",
+        "Saglik Turizmi",
+        "Tarim ve Sera",
+        "Insaat ve Gayrimenkul",
+        "Etkinlik Yonetimi"
+      ]
+    },
+    "adana": {
+      "name": "Adana",
+      "metaTitle": "Adana Is Ilanlari - Hirovo",
+      "metaDescription": "Adana'da tarim, sanayi ve ticaret alanlarinda is firsatlari. Cukurova'nin merkezi Adana'da kariyerinizi gelistirin.",
+      "heroTitle": "Adana'da Is Ilanlari",
+      "heroSubtitle": "Cukurova'nin ekonomik merkezinde kariyer firsatlari",
+      "description": "Adana, Turkiye'nin altinci buyuk sehri ve Cukurova Bolgesi'nin ekonomik merkezidir. Verimli Cukurova ovasi sayesinde tarim ve tarimsal sanayi sehrin ekonomik temelini olusturmaktadir. Pamuk, misir, soya ve narenciye uretiminde Turkiye'nin oncu sehirlerinden biridir. Tarimsal urunlerin islenmesi, paketlenmesi ve ihracati binlerce kisiye istihdam saglamaktadir. Adana ayni zamanda guclu bir sanayi altyapisına sahiptir. Tekstil, gida isleme, plastik ve kimya sektörleri organize sanayi bolgelerinde faaliyet gostermektedir. Sehrin Akdeniz'e yakinligi ve Iskenderun limani baglantisi, lojistik ve dis ticaret alaninda avantaj yaratmaktadir. Saglik sektoru de sehirde hizla gelismekte olup, ozel hastaneler nitelikli saglik personeli aramaktadir.",
+      "highlights": [
+        "Tarimsal sanayi merkezi",
+        "Guclu tekstil sektoru",
+        "Lojistik avantaji",
+        "Gelisen saglik sektoru",
+        "Uygun yasam maliyeti"
+      ],
+      "sectors": [
+        "Tarim ve Gida Sanayi",
+        "Tekstil ve Konfeksiyon",
+        "Kimya ve Plastik",
+        "Lojistik",
+        "Saglik Sektoru",
+        "Ticaret"
+      ]
+    },
+    "konya": {
+      "name": "Konya",
+      "metaTitle": "Konya Is Ilanlari - Hirovo",
+      "metaDescription": "Konya'da tarim, makine sanayi ve ticaret alanlarinda is firsatlari. Anadolu'nun kalbi Konya'da kariyer yapın.",
+      "heroTitle": "Konya'da Is Ilanlari",
+      "heroSubtitle": "Anadolu'nun kalbinde kariyer firsatlari",
+      "description": "Konya, Turkiye'nin yuzolcumu en buyuk sehri ve Ic Anadolu'nun ekonomik merkezlerinden biridir. Genis tarim arazileri ile Turkiye'nin tahil ambari olarak bilinmektedir. Bugday, arpa ve seker pancari uretiminde ulkenin oncu sehirlerinden biridir. Tarimsal makine ve ekipman uretimi de Konya'nin guclu oldugu alanlardan biridir. Sehirde faaliyet gosteren makine imalat firmalari, tum Turkiye'ye ve yurt disina urun ihrac etmektedir. Konya ayni zamanda otomotiv yan sanayi, metal isleme ve plastik sektorlerinde de onemli bir uretim merkezi haline gelmistir. Sehrin dini ve kulturel onemi, turizm sektorunde de istihdam yaratmaktadir. Mevlana Muzesi her yil milyonlarca ziyaretci cekmektedir. Universite sehri olmasi nedeniyle egitim sektorunde de kariyer firsatlari mevcuttur.",
+      "highlights": [
+        "Tarim ve makine sanayi",
+        "Otomotiv yan sanayi",
+        "Kulturel turizm",
+        "Universite sehri",
+        "Stratejik konum"
+      ],
+      "sectors": [
+        "Tarim ve Tarim Makineleri",
+        "Otomotiv Yan Sanayi",
+        "Metal ve Makine",
+        "Gida Sanayi",
+        "Egitim",
+        "Turizm"
+      ]
+    },
+    "gaziantep": {
+      "name": "Gaziantep",
+      "metaTitle": "Gaziantep Is Ilanlari - Hirovo",
+      "metaDescription": "Gaziantep'te sanayi, ticaret ve gida sektorlerinde is firsatlari. Turkiye'nin sanayi devi Gaziantep'te kariyer yapin.",
+      "heroTitle": "Gaziantep'te Is Ilanlari",
+      "heroSubtitle": "Guneydogu'nun sanayi devinde kariyer firsatlari",
+      "description": "Gaziantep, Turkiye'nin en dinamik sanayi sehirlerinden biri ve Guneydogu Anadolu'nun ekonomik merkezidir. Sehir, ozellikle tekstil, hali, gida ve makine sektorlerinde ulke capinda one cikmaktadir. Dunyaca unlu Antep baklavasi ve Antep fistigi, sehrin gastronomik kimliginin temel taslarıdır. Gida sanayi ve gastronomi turizmi onemli istihdam alanlari olusturmaktadir. Gaziantep ayni zamanda Turkiye'nin en buyuk hali ihracatcisidir. Tekstil ve konfeksiyon sektorunde de guclu bir altyapiya sahiptir. Organize sanayi bolgeleri surekli buyumekte ve yeni yatirimlar cekmektedir. Sehrin Suriye sinirindaki konumu, sinir ticareti ve lojistik sektorunde de onemli firsatlar yaratmaktadir. Girisimcilik kulturu guclu olan Gaziantep'te kucuk ve orta olcekli isletmeler ekonominin bel kemigini olusturmaktadir.",
+      "highlights": [
+        "Guclu sanayi altyapisi",
+        "Ihracat odakli ekonomi",
+        "Gastronomi merkezi",
+        "Girisimcilik kulturu",
+        "Hizli ekonomik buyume"
+      ],
+      "sectors": [
+        "Tekstil ve Hali",
+        "Gida Sanayi",
+        "Makine Imalat",
+        "Dis Ticaret",
+        "Gastronomi",
+        "Lojistik"
+      ]
+    },
+    "kocaeli": {
+      "name": "Kocaeli",
+      "metaTitle": "Kocaeli Is Ilanlari - Hirovo",
+      "metaDescription": "Kocaeli'de otomotiv, kimya ve sanayi sektorlerinde is firsatlari. Marmara'nin sanayi kenti Kocaeli'de kariyer yapin.",
+      "heroTitle": "Kocaeli'de Is Ilanlari",
+      "heroSubtitle": "Marmara'nin sanayi kentinde kariyer firsatlari",
+      "description": "Kocaeli, Turkiye'nin en onemli sanayi merkezlerinden biri ve Marmara Bolgesi'nin sanayi kalesidir. Istanbul ile Ankara arasindaki stratejik konumu, sehri lojistik ve uretim icin ideal bir nokta haline getirmistir. Otomotiv sektoru Kocaeli'nin ekonomik dayanaklarinin basinda gelmektedir. Ford, Hyundai ve Honda gibi dev markalar burada uretim yapmaktadir. Petrokimya sektoru de sehrin ekonomisinde buyuk bir paya sahiptir. TUPRAS rafinerisi ve cevresindeki kimya tesisleri binlerce kisiye istihdam saglamaktadir. Kocaeli ayni zamanda Turkiye'nin en buyuk organize sanayi bolgelerinden bazilarina ev sahipligi yapmaktadir. Gebze ve Dilovasi bolgeleri yogun sanayi faaliyetlerine sahne olmaktadir. Sehrin limanlari, deniz ticareti ve lojistik sektorunde de onemli is firsatlari sunmaktadir.",
+      "highlights": [
+        "Otomotiv uretim merkezi",
+        "Petrokimya sanayi",
+        "Stratejik konum",
+        "Buyuk OSB'ler",
+        "Liman altyapisi"
+      ],
+      "sectors": [
+        "Otomotiv Sanayi",
+        "Petrokimya",
+        "Kimya Sanayi",
+        "Lojistik ve Depolama",
+        "Metal Sanayi",
+        "Enerji"
+      ]
+    },
+    "mersin": {
+      "name": "Mersin",
+      "metaTitle": "Mersin Is Ilanlari - Hirovo",
+      "metaDescription": "Mersin'de liman, lojistik ve turizm sektorlerinde is firsatlari. Akdeniz'in incisi Mersin'de kariyerinizi insa edin.",
+      "heroTitle": "Mersin'de Is Ilanlari",
+      "heroSubtitle": "Akdeniz'in liman kentinde kariyer firsatlari",
+      "description": "Mersin, Turkiye'nin en buyuk liman sehri ve Akdeniz Bolgesi'nin onemli ekonomik merkezlerinden biridir. Mersin Limani, Turkiye'nin en islek konteyner limani olup, ulkenin dis ticaretinde kritik bir rol ustlenmektedir. Bu durum lojistik, gumruk, tasimacılık ve depolama sektorlerinde genis istihdam firsatlari yaratmaktadir. Sehir ayni zamanda serbest bolge avantajina sahiptir. Mersin Serbest Bolgesi, ozellikle ihracata yonelik uretim yapan firmalar icin cazip firsatlar sunmaktadir. Tarim sektoru de Mersin ekonomisinde onemli bir yere sahiptir. Narenciye, muz ve sebze uretimi bolgenin tarimsal zenginligini olusturmaktadir. Petrokimya sektoru de sehirde gelismekte olup, rafineriler ve kimya tesisleri istihdam saglamaktadir. Turizm potansiyeli de her gecen gun artmaktadir.",
+      "highlights": [
+        "Turkiye'nin en buyuk limani",
+        "Serbest bolge avantaji",
+        "Dis ticaret merkezi",
+        "Tarim potansiyeli",
+        "Gelisen turizm"
+      ],
+      "sectors": [
+        "Lojistik ve Liman Hizmetleri",
+        "Dis Ticaret",
+        "Tarim ve Narenciye",
+        "Petrokimya",
+        "Serbest Bolge",
+        "Turizm"
+      ]
+    },
+    "diyarbakir": {
+      "name": "Diyarbakir",
+      "metaTitle": "Diyarbakir Is Ilanlari - Hirovo",
+      "metaDescription": "Diyarbakir'da tarim, ticaret ve hizmet sektorlerinde is firsatlari. Guneydogu'nun kalbi Diyarbakir'da kariyer yapin.",
+      "heroTitle": "Diyarbakir'da Is Ilanlari",
+      "heroSubtitle": "Guneydogu Anadolu'nun merkezinde kariyer firsatlari",
+      "description": "Diyarbakir, Guneydogu Anadolu Bolgesi'nin en buyuk sehri ve bolgenin ekonomik, kulturel merkezidir. Tarihi surları ile UNESCO Dunya Mirasi Listesi'nde yer alan sehir, kulturel turizm potansiyeline sahiptir. Tarim sektoru Diyarbakir ekonomisinin temelini olusturmaktadir. Bugday, pamuk, karpuz ve kavun uretiminde Turkiye'nin onde gelen sehirlerinden biridir. Gida isleme ve tarimsal sanayi de istihdam saglamaktadir. Sehir son yillarda saglik ve egitim sektorlerinde de onemli gelismeler kaydetmistir. Dicle Universitesi ve yeni acılan ozel universiteler, egitim sektorunde istihdam yaratmaktadir. Saglik turizmi potansiyeli de degerlendirilmektedir. Ticaret ve hizmet sektorleri, buyuyen sehir ekonomisinin onemli bilesenleridir. Perakende ve AVM yatirimlari artmaktadir.",
+      "highlights": [
+        "Bolgesel ekonomik merkez",
+        "Tarim potansiyeli",
+        "Kulturel turizm",
+        "Gelisen saglik sektoru",
+        "Universite sehri"
+      ],
+      "sectors": [
+        "Tarim ve Gida",
+        "Ticaret ve Perakende",
+        "Saglik Sektoru",
+        "Egitim",
+        "Turizm",
+        "Insaat"
+      ]
+    },
+    "kayseri": {
+      "name": "Kayseri",
+      "metaTitle": "Kayseri Is Ilanlari - Hirovo",
+      "metaDescription": "Kayseri'de mobilya, tekstil ve sanayi sektorlerinde is firsatlari. Anadolu kaplani Kayseri'de kariyerinizi gelistirin.",
+      "heroTitle": "Kayseri'de Is Ilanlari",
+      "heroSubtitle": "Anadolu kaplaninda kariyer firsatlari",
+      "description": "Kayseri, Turkiye'nin Anadolu kaplanlari olarak bilinen sanayilesmis sehirlerinin basında gelmektedir. Guclu girisimcilik kulturu ve is ahlaki ile taninan sehir, ozellikle mobilya, tekstil ve gida sektorlerinde ulke capinda soz sahibidir. Turkiye'nin en buyuk mobilya uretim merkezlerinden biri olan Kayseri, hem ic piyasaya hem de ihracata yonelik uretim yapmaktadir. Tekstil ve hali sektoru de sehrin ekonomik dayanaklarindan birini olusturmaktadir. Kayseri'de uretilen halı ve kilimler dunyanin dort bir yanina ihrac edilmektedir. Gida sektoru, ozellikle sucuk ve pastirma uretimi ile unlu olan sehirde onemli bir istihdam alani olusturmaktadir. Sehrin organize sanayi bolgeleri surekli buyumekte ve yeni yatirimlar cekmektedir. Erciyes Dagı'nin eteklerinde yer alan sehir, kis turizmi ile de ekonomisine katki saglamaktadir.",
+      "highlights": [
+        "Mobilya sektoru lideri",
+        "Guclu girisimcilik kulturu",
+        "Tekstil ve hali uretimi",
+        "Geleneksel gida sanayi",
+        "Kis turizmi"
+      ],
+      "sectors": [
+        "Mobilya Sanayi",
+        "Tekstil ve Hali",
+        "Gida Sanayi",
+        "Metal Sanayi",
+        "Insaat Malzemeleri",
+        "Turizm"
+      ]
+    },
+    "eskisehir": {
+      "name": "Eskisehir",
+      "metaTitle": "Eskisehir Is Ilanlari - Hirovo",
+      "metaDescription": "Eskisehir'de egitim, havacilik ve sanayi sektorlerinde is firsatlari. Universite sehri Eskisehir'de kariyer yapin.",
+      "heroTitle": "Eskisehir'de Is Ilanlari",
+      "heroSubtitle": "Universite ve sanayi sehrinde kariyer firsatlari",
+      "description": "Eskisehir, Turkiye'nin en yasanabilir sehirlerinden biri ve onemli bir egitim, kultur merkezidir. Anadolu Universitesi ve Eskisehir Teknik Universitesi ile ogrenci nufusu yuksek olan sehir, genc ve dinamik bir yapiya sahiptir. Egitim sektoru sehir ekonomisinin onemli bir bilesenini olusturmaktadir. Havacilik sanayi Eskisehir'in en guclu oldugu alanlardan biridir. Turk Havacilik ve Uzay Sanayii (TUSAS) ve THY Teknik tesisleri burada yer almaktadir. Seramik ve porselen sanayi de sehrin geleneksel uretim alanlarindan biridir. Eskisehir luletasi el sanatlari ile de unludur. Sehir son yillarda kentsel donusum ve modernlesme ile dikkat cekmektedir. Porsuk Cayi kiyisindaki duzenleme, sehri bir cezbe merkezi haline getirmistir. Yasam kalitesi ve kultur-sanat etkinlikleri ile one cikmaktadir.",
+      "highlights": [
+        "Universite sehri",
+        "Havacilik sanayi merkezi",
+        "Yuksek yasam kalitesi",
+        "Kultur ve sanat",
+        "Genc ve dinamik nufus"
+      ],
+      "sectors": [
+        "Havacilik Sanayi",
+        "Egitim",
+        "Seramik ve Cam",
+        "Makine Sanayi",
+        "Kultur ve Sanat",
+        "Hizmet Sektoru"
+      ]
+    },
+    "samsun": {
+      "name": "Samsun",
+      "metaTitle": "Samsun Is Ilanlari - Hirovo",
+      "metaDescription": "Samsun'da lojistik, tarim ve sanayi sektorlerinde is firsatlari. Karadeniz'in incisi Samsun'da kariyerinizi insa edin.",
+      "heroTitle": "Samsun'da Is Ilanlari",
+      "heroSubtitle": "Karadeniz'in merkezinde kariyer firsatlari",
+      "description": "Samsun, Karadeniz Bolgesi'nin en buyuk sehri ve bolgenin ekonomik, ticari merkezidir. Stratejik limani ile Karadeniz ticaretinde onemli bir rol ustlenmektedir. Lojistik ve deniz tasimaciligi sektoru sehir ekonomisinin temel taslarindan birini olusturmaktadir. Tarim ve gida sanayi de Samsun ekonomisinde buyuk bir paya sahiptir. Tutun, findik ve misir uretimi bolgenin tarimsal zenginligini yansitmaktadir. Gida isleme tesisleri tarimsal urunleri katma degerli urunlere donusturmektedir. Samsun ayni zamanda Karadeniz Teknik Universitesi ve Ondokuz Mayis Universitesi ile egitim alaninda da onemli bir merkezdir. Saglik sektoru de gelismekte olup, bolge insanlarina hizmet veren buyuk hastaneler bulunmaktadir. Turizm potansiyeli, ozellikle yayla turizmi ve kaplica turizmi ile degerlendirilmektedir.",
+      "highlights": [
+        "Karadeniz'in ticaret merkezi",
+        "Stratejik liman",
+        "Tarim ve gida sanayi",
+        "Universite sehri",
+        "Bolgesel saglik merkezi"
+      ],
+      "sectors": [
+        "Lojistik ve Liman",
+        "Tarim ve Gida",
+        "Egitim",
+        "Saglik",
+        "Turizm",
+        "Ticaret"
+      ]
+    },
+    "denizli": {
+      "name": "Denizli",
+      "metaTitle": "Denizli Is Ilanlari - Hirovo",
+      "metaDescription": "Denizli'de tekstil, turizm ve sanayi sektorlerinde is firsatlari. Pamukkale'nin sehri Denizli'de kariyer yapin.",
+      "heroTitle": "Denizli'de Is Ilanlari",
+      "heroSubtitle": "Tekstil ve turizm sehrinde kariyer firsatlari",
+      "description": "Denizli, Turkiye'nin en onemli tekstil uretim merkezlerinden biri ve Ege Bolgesi'nin dinamik sanayi sehirlerindendir. Ozellikle ev tekstili, havlu ve bornoz uretiminde dunya capinda taninan Denizli, bu urunlerin ihracatında Turkiye'nin lideridir. Tekstil sektoru binlerce kisiye istihdam saglamakta ve sehir ekonomisinin bel kemigini olusturmaktadir. UNESCO Dunya Mirasi Listesi'ndeki Pamukkale travertenleri, sehre buyuk bir turizm potansiyeli kazandirmaktadir. Her yil milyonlarca yerli ve yabanci turist Pamukkale'yi ziyaret etmektedir. Bu durum otelcilik, restoran ve turizm hizmetlerinde genis istihdam firsatlari yaratmaktadir. Denizli ayni zamanda tarim ve hayvancilik alanında da gucludur. Uzum, incir ve zeytin uretimi bolgenin tarimsal zenginligini yansitmaktadir. Organize sanayi bolgeleri yeni yatirimlara açiktir.",
+      "highlights": [
+        "Tekstil sanayi merkezi",
+        "Pamukkale turizmi",
+        "Ihracat odakli ekonomi",
+        "Tarimsal cesitilik",
+        "Girisimci ruh"
+      ],
+      "sectors": [
+        "Tekstil ve Ev Tekstili",
+        "Turizm ve Otelcilik",
+        "Tarim ve Gida",
+        "Mermer Sanayi",
+        "Makine Sanayi",
+        "Ticaret"
+      ]
+    }
+  },
+  "sectors": {
+    "common": {
+      "jobsIn": "Sektorunde Is Ilanlari",
+      "findJobs": "Is Bul",
+      "topPositions": "One Cikan Pozisyonlar",
+      "requiredSkills": "Aranan Beceriler",
+      "salaryRange": "Maas Araligi",
+      "careerPath": "Kariyer Yolu",
+      "industryTrends": "Sektor Trendleri"
+    },
+    "teknoloji": {
+      "name": "Teknoloji",
+      "slug": "teknoloji",
+      "metaTitle": "Teknoloji Is Ilanlari - Hirovo",
+      "metaDescription": "Yazilim, IT ve teknoloji sektorunde binlerce is ilani. Yazilim gelistirici, veri analisti, siber guvenlik uzmani pozisyonlarini kesfedin.",
+      "heroTitle": "Teknoloji Sektorunde Is Ilanlari",
+      "heroSubtitle": "Dijital dunyanin firsatlarini yakalayin",
+      "description": "Teknoloji sektoru, Turkiye'de ve dunyada en hizli buyuyen ve en yuksek maaslari sunan sektorlerden biridir. Dijitallesmenin hiz kazanmasiyla birlikte yazilim gelistiriciler, veri bilimciler, siber guvenlik uzmanlari ve yapay zeka muhendisleri buyuk talep gormektedir. Turkiye'de teknoloji sektoru ozellikle Istanbul, Ankara ve Izmir'de yogunlasmistir. Buyuk teknoloji sirketleri, startup'lar ve dijital ajanslar surekli olarak nitelikli personel aramaktadir. Uzaktan calisma imkanlari bu sektorde oldukca yaygindir, bu da cografi esneklik saglamaktadir. Teknoloji alaninda kariyer yapmak isteyenler icin surekli ogrenme ve kendini gelistirme onemlidir. Yeni programlama dilleri, framework'ler ve teknolojiler hizla ortaya cikmaktadir. Sektorun sunduğu yuksek maaslar, esnek calisma kosullari ve global kariyer firsatlari, teknolojiyi cazip bir kariyer alani haline getirmektedir. Hirovo uzerinden binlerce teknoloji is ilanina ulasabilirsiniz.",
+      "positions": [
+        "Yazilim Gelistirici",
+        "Frontend Developer",
+        "Backend Developer",
+        "Full Stack Developer",
+        "Mobil Uygulama Gelistirici",
+        "DevOps Muhendisi",
+        "Veri Bilimci",
+        "Veri Analisti",
+        "Siber Guvenlik Uzmani",
+        "UI/UX Tasarimcisi",
+        "Proje Yoneticisi",
+        "Sistem Yoneticisi"
+      ],
+      "skills": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "React",
+        "Node.js",
+        "SQL",
+        "AWS",
+        "Docker",
+        "Git",
+        "Agile/Scrum"
+      ],
+      "trends": "Yapay zeka, makine ogrenimi, bulut bilisim ve siber guvenlik en hizli buyuyen alanlardir. Remote calisma kalici hale gelmistir."
+    },
+    "saglik": {
+      "name": "Saglik",
+      "slug": "saglik",
+      "metaTitle": "Saglik Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Hemsire, doktor, saglik teknisyeni ve saglik yonetimi pozisyonlari. Saglik sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Saglik Sektorunde Is Ilanlari",
+      "heroSubtitle": "Insanlara yardim ederek kariyer yapin",
+      "description": "Saglik sektoru, toplumun en temel ihtiyaclarindan birini karsilayan ve surekli buyuyen bir alandir. Turkiye'de hem kamu hem de ozel saglik kuruluslari nitelikli saglik personeli aramaktadir. Ozellikle hemsireler, saglik teknisyenleri ve uzman doktorlar icin buyuk bir talep vardir. Saglik turizmi de Turkiye'de hizla gelisen bir alan olup, bu alanda da istihdam firsatlari artmaktadir. Istanbul, Ankara ve Antalya saglik turizminin merkezleri haline gelmistir. Pandemi sonrasi saglik sektorune olan ilgi ve yatirimlar artmistir. Dijital saglik, telemedicine ve saglik teknolojileri yeni kariyer alanlari olusturmaktadir. Saglik sektorunde calismanin en buyuk avantajlarindan biri is guvenligidir. Saglik hizmetlerine olan talep ekonomik dalgalanmalardan bagimsiz olarak devam etmektedir. Ayrica insanlara yardim etmenin verdigi tatmin, bu sektoru anlamli kilan en onemli faktorlerden biridir.",
+      "positions": [
+        "Hemsire",
+        "Doktor",
+        "Saglik Teknisyeni",
+        "Eczaci",
+        "Fizyoterapist",
+        "Diyetisyen",
+        "Psikolog",
+        "Laboratuvar Teknisyeni",
+        "Radyoloji Teknisyeni",
+        "Saglik Yonetisi",
+        "Tibbi Sekreter",
+        "Hasta Bakim Elemani"
+      ],
+      "skills": [
+        "Tibbi Bilgi",
+        "Hasta Iliskisi",
+        "Acil Mudahale",
+        "Tibbi Cihaz Kullanimi",
+        "Iletisim",
+        "Stres Yonetimi",
+        "Takim Calismasi",
+        "Hijyen Bilinci"
+      ],
+      "trends": "Dijital saglik, telemedicine, yasli bakimi ve saglik turizmi en hizli buyuyen alanlardir."
+    },
+    "finans": {
+      "name": "Finans",
+      "slug": "finans",
+      "metaTitle": "Finans Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Bankacilik, sigorta, yatirim ve finans alanlarinda is ilanlari. Finans sektorunde kariyerinizi insa edin.",
+      "heroTitle": "Finans Sektorunde Is Ilanlari",
+      "heroSubtitle": "Finansin kalbinde kariyer firsatlari",
+      "description": "Finans sektoru, ekonominin can damarini olusturan ve yuksek maaslar sunan prestijli bir alandir. Bankacilik, sigorta, yatirim yonetimi ve fintech sirketleri nitelikli profesyoneller aramaktadir. Istanbul, Turkiye'nin finans merkezi olup, buyuk bankalarin ve finansal kuruluslarin genel merkezleri burada bulunmaktadir. Levent ve Maslak bolgeleri finans sektorunun kalbidir. Finans sektorunde kariyer yapmak icin analitik dusunme, sayisal yetenek ve ekonomi bilgisi onemlidir. CFA, CPA gibi uluslararasi sertifikalar kariyer gelisiminde buyuk avantaj saglamaktadir. Fintech devrimi geleneksel finansi donusturmektedir. Dijital bankacilik, kripto paralar ve blockchain teknolojisi yeni kariyer alanlari yaratmaktadir. Risk yonetimi, uyum ve regülasyon uzmanlari icin talep artmaktadir. Finans sektoru rekabetci bir ortam sunsa da, basarili profesyoneller icin yuksek kazanc ve hizli kariyer ilerleme firsatlari mevcuttur.",
+      "positions": [
+        "Banka Memuru",
+        "Kredi Uzmani",
+        "Yatirim Danismani",
+        "Finansal Analist",
+        "Risk Yonetisi",
+        "Sigorta Uzmani",
+        "Ic Denetci",
+        "Hazine Uzmani",
+        "Portfoy Yoneticisi",
+        "Uyum Uzmani",
+        "Finansal Planlama Uzmani"
+      ],
+      "skills": [
+        "Finansal Analiz",
+        "Excel",
+        "Muhasebe",
+        "Risk Degerlendirme",
+        "Regülasyonlar",
+        "Bloomberg Terminal",
+        "SQL",
+        "Finansal Modelleme"
+      ],
+      "trends": "Fintech, dijital bankacilik, kripto varliklar ve surdurulebilir finans en hizli buyuyen alanlardir."
+    },
+    "egitim": {
+      "name": "Egitim",
+      "slug": "egitim",
+      "metaTitle": "Egitim Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Ogretmen, akademisyen, egitim danismani pozisyonlari. Egitim sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Egitim Sektorunde Is Ilanlari",
+      "heroSubtitle": "Gelecegi sekillendiren kariyerler",
+      "description": "Egitim sektoru, toplumun en onemli yapilarindan birini olusturan ve anlamli bir kariyer sunan alandir. Turkiye'de devlet okullari, ozel okullar, universiteler, dil okullari ve online egitim platformlari nitelikli egitimciler aramaktadir. Ogretmenlik, sabir, iletisim becerileri ve alan uzmanligi gerektiren ozel bir meslektir. Ingilizce ogretmenleri, matematik ve fen bilimleri ogretmenleri ozellikle yuksek talep gormektedir. Ozel dershaneler ve egitim kurumlari rekabetci maaslar sunmaktadir. Dijital donusum egitim sektorunu de etkilemistir. Online egitim platformlari, e-ogrenme icerigi gelistiricileri ve egitim teknolojisi uzmanlari icin yeni firsatlar ortaya cikmistir. Pandemi sonrasi hibrit egitim modelleri yayginlasmistir. Universite akademisyenligi, arastirma firsatlari ve entelektuel tatmin arayanlar icin ideal bir kariyer yoludur. Egitim danismanligi ve egitim yonetimi de buyuyen alanlardir.",
+      "positions": [
+        "Ogretmen",
+        "Akademisyen",
+        "Egitim Danismani",
+        "Okul Muduru",
+        "Rehber Ogretmen",
+        "Ozel Egitim Uzmani",
+        "Dil Ogretmeni",
+        "Online Egitim Uzmani",
+        "Egitim Koordinatoru",
+        "Arastirma Gorevlisi",
+        "Kurs Egitmeni"
+      ],
+      "skills": [
+        "Pedagoji",
+        "Iletisim",
+        "Sabir",
+        "Alan Uzmanligi",
+        "Teknoloji Kullanimi",
+        "Sinif Yonetimi",
+        "Degerlendirme",
+        "Adaptasyon"
+      ],
+      "trends": "Online egitim, egitim teknolojisi, STEM egitimi ve yasam boyu ogrenme en hizli buyuyen alanlardir."
+    },
+    "perakende": {
+      "name": "Perakende",
+      "slug": "perakende",
+      "metaTitle": "Perakende Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Magazacilik, satis, e-ticaret pozisyonlari. Perakende sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Perakende Sektorunde Is Ilanlari",
+      "heroSubtitle": "Satisin on saflarinda kariyer",
+      "description": "Perakende sektoru, Turkiye'nin en buyuk istihdam saglayan sektorlerinden biridir. Marketler, magazalar, alisveris merkezleri ve e-ticaret platformlari milyonlarca kisiye is imkani sunmaktadir. Satis danismanligi, magaza mudürlugu ve bolge yoneticiligi gibi pozisyonlar kariyer basamaklari olusturmaktadir. E-ticaretin hizla buyumesiyle birlikte online satis, dijital pazarlama ve lojistik alanlarinda yeni firsatlar ortaya cikmistir. Turkiye'nin buyuk e-ticaret platformlari ve perakende zincirleri surekli personel aramaktadir. Perakende sektorunde basari icin musteri odaklilik, iletisim becerileri ve satis yetenegi onemlidir. Esnek calisma saatleri ve performansa dayali prim sistemleri sektorun karakteristik ozelliklerindendir. Yonetici pozisyonlarina terfi firsatlari mevcuttur. Lüks perakende, organik urunler ve surdurulebilir moda gibi niş alanlar da gelismektedir.",
+      "positions": [
+        "Satis Danismani",
+        "Magaza Muduru",
+        "Bolge Yoneticisi",
+        "Kasiyer",
+        "Depo Gorevlisi",
+        "Visual Merchandiser",
+        "E-ticaret Uzmani",
+        "Musteri Hizmetleri",
+        "Satin Alma Uzmani",
+        "Stok Kontrol Uzmani"
+      ],
+      "skills": [
+        "Satis Teknikleri",
+        "Musteri Iliskileri",
+        "Urun Bilgisi",
+        "Ikna Kabiliyeti",
+        "Takım Calismasi",
+        "Hedef Odaklilik",
+        "Problem Cozme",
+        "Iletisim"
+      ],
+      "trends": "E-ticaret, omnichannel perakende, surdurulebilir urunler ve kisisellestirme en hizli buyuyen alanlardir."
+    },
+    "uretim": {
+      "name": "Uretim ve Imalat",
+      "slug": "uretim",
+      "metaTitle": "Uretim Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Fabrika, uretim, kalite kontrol ve muhendislik pozisyonlari. Uretim sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Uretim Sektorunde Is Ilanlari",
+      "heroSubtitle": "Sanayinin kalbinde kariyer",
+      "description": "Uretim ve imalat sektoru, Turkiye ekonomisinin bel kemigini olusturmaktadir. Otomotiv, tekstil, gida, kimya ve makine sanayi basta olmak uzere pek cok alanda uretim yapilmaktadir. Bursa, Kocaeli, Gaziantep ve Kayseri gibi sanayi sehirleri, uretim sektorunun merkezleridir. Uretim sektorunde muhendisler, teknisyenler, operatorler ve kalite kontrol uzmanlari icin genis istihdam firsatlari bulunmaktadir. Endustri 4.0 ve otomasyon, sektoru donusturmektedir. Robotik, yapay zeka ve nesnelerin interneti (IoT) bilgisi onem kazanmaktadir. Is guvenligi ve kalite standartlari uretim sektorunde kritik oneme sahiptir. ISO sertifikalari ve yalin uretim metodolojileri yaygin olarak kullanilmaktadir. Uretim planlama, tedarik zinciri yonetimi ve surekli iyilestirme (Kaizen) becerileri aranan yetkinliklerdir.",
+      "positions": [
+        "Uretim Muduru",
+        "Kalite Kontrol Uzmani",
+        "Makine Operatoru",
+        "Bakim Teknisyeni",
+        "Uretim Planlama Uzmani",
+        "Endustri Muhendisi",
+        "Kalip Uzmani",
+        "Is Guvenligi Uzmani",
+        "Tedarik Zinciri Uzmani",
+        "Formen"
+      ],
+      "skills": [
+        "Teknik Bilgi",
+        "Kalite Standartlari",
+        "Is Guvenligi",
+        "Problem Cozme",
+        "Yalin Uretim",
+        "ERP Sistemleri",
+        "Otomasyon",
+        "Takım Yonetimi"
+      ],
+      "trends": "Endustri 4.0, otomasyon, akilli fabrikalar ve surdurulebilir uretim en hizli buyuyen alanlardir."
+    },
+    "turizm": {
+      "name": "Turizm ve Otelcilik",
+      "slug": "turizm",
+      "metaTitle": "Turizm Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Otel, restoran, seyahat acentesi ve etkinlik yonetimi pozisyonlari. Turizm sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Turizm Sektorunde Is Ilanlari",
+      "heroSubtitle": "Misafirperverlikte kariyer",
+      "description": "Turkiye, dunyanin en cok turist agirlayan ulkelerinden biri olup, turizm sektoru ulke ekonomisinde onemli bir paya sahiptir. Antalya, Istanbul, Mugla ve Izmir gibi turistik sehirlerde otelcilik, restoran ve seyahat sektorlerinde genis istihdam firsatlari bulunmaktadir. Otelcilik sektoru, resepsiyon gorevlisinden genel mudure kadar farkli seviyelerde kariyer basamaklari sunmaktadir. Yiyecek-icecek departmani, kat hizmetleri, satis-pazarlama ve insan kaynaklari gibi birimler istihdama katki saglamaktadir. Uluslararasi otel zincirleri global kariyer firsatlari sunmaktadir. Yabanci dil bilgisi, ozellikle Ingilizce, Almanca ve Rusca, turizm sektorunde buyuk avantaj saglamaktadir. Saglik turizmi, gastronomi turizmi ve kulturel turizm gibi niche alanlar da hizla buyumektedir. Sezonluk istihdam yaygin olmakla birlikte, yil boyu calisan pozisyonlar da mevcuttur.",
+      "positions": [
+        "Otel Resepsiyonisti",
+        "Otel Muduru",
+        "Sef",
+        "Garson",
+        "Tur Rehberi",
+        "Seyahat Danismani",
+        "Etkinlik Yoneticisi",
+        "Housekeeper",
+        "Concierge",
+        "Rezervasyon Uzmani",
+        "F&B Muduru"
+      ],
+      "skills": [
+        "Misafir Iliskileri",
+        "Yabanci Dil",
+        "Iletisim",
+        "Problem Cozme",
+        "Esneklik",
+        "Kulturel Farkindalik",
+        "Satis Becerileri",
+        "Takim Calismasi"
+      ],
+      "trends": "Surdurulebilir turizm, deneyim odakli seyahat, dijital rezervasyon ve saglik turizmi en hizli buyuyen alanlardir."
+    },
+    "insaat": {
+      "name": "Insaat",
+      "slug": "insaat",
+      "metaTitle": "Insaat Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Mimar, insaat muhendisi, santiye sefi ve tekniker pozisyonlari. Insaat sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Insaat Sektorunde Is Ilanlari",
+      "heroSubtitle": "Gelecegi insa edin",
+      "description": "Insaat sektoru, Turkiye'nin en buyuk ve en dinamik sektorlerinden biridir. Konut, ticari binalar, altyapi projeleri ve mega projeler sektoru canli tutmaktadir. Istanbul, Ankara ve diger buyuk sehirlerde kentsel donusum projeleri devam etmektedir. Insaat sektorunde mimarlar, insaat muhendisleri, santiye sefleri, teknisyenler ve usta isci gruplari icin genis istihdam firsatlari bulunmaktadir. Proje yonetimi, metraj ve kesif, ihaleler ve sozlesmeler gibi alanlarda uzmanlar aranmaktadir. Yesil bina, surdurulebilir insaat ve BIM (Building Information Modeling) teknolojileri sektoru donusturmektedir. Depreme dayanikli yapi tasarimi Turkiye'de ozellikle onem kazanmaktadir. Is guvenligi ve kalite standartlari sektorde kritik oneme sahiptir. Buyuk insaat firmalari yurt disi projelerde de faaliyet gostermektedir.",
+      "positions": [
+        "Insaat Muhendisi",
+        "Mimar",
+        "Santiye Sefi",
+        "Proje Muduru",
+        "Tekniker",
+        "Metrajci",
+        "Is Guvenligi Uzmani",
+        "Kalite Kontrol Muhendisi",
+        "Harita Muhendisi",
+        "Saha Muhendisi"
+      ],
+      "skills": [
+        "Teknik Cizim",
+        "AutoCAD",
+        "Proje Yonetimi",
+        "Is Guvenligi",
+        "Metraj-Kesif",
+        "BIM",
+        "MS Project",
+        "Problem Cozme"
+      ],
+      "trends": "Yesil binalar, akilli sehirler, prefabrik yapi ve BIM teknolojisi en hizli buyuyen alanlardir."
+    },
+    "lojistik": {
+      "name": "Lojistik ve Tasimacılik",
+      "slug": "lojistik",
+      "metaTitle": "Lojistik Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Depo yonetimi, operasyon, gumrukleme ve filo yonetimi pozisyonlari. Lojistik sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Lojistik Sektorunde Is Ilanlari",
+      "heroSubtitle": "Tedarik zincirinin kalbinde kariyer",
+      "description": "Lojistik ve tasimacılık sektoru, e-ticaretin buyumesi ve kuresellesmesiyle birlikte hizla buyuyen alanlardan biridir. Turkiye'nin stratejik cografi konumu, ulkeyi Avrupa, Asya ve Ortadogu arasinda onemli bir lojistik hub haline getirmistir. Mersin, Istanbul ve Izmir limanlari uluslararasi ticarette kritik rol oynamaktadir. Depo yonetimi, operasyon planlama, gumrukleme ve dis ticaret uzmanligi gibi alanlarda nitelikli personel aranmaktadir. E-ticaret lojistigi, son mil teslimat ve soğuk zincir lojistigi buyuyen alanlardır. Filo yonetimi, tedarik zinciri optimizasyonu ve lojistik yazilimlari konularinda uzmanlik onem kazanmaktadir. Uluslararası lojistik firmalari Turkiye'de faaliyet gostermekte ve global kariyer firsatlari sunmaktadir. Sektorde dijitallesme hiz kazanmakta, otonom araclar ve drone teslimat gelecekte istihdam yapisini degistirebilir.",
+      "positions": [
+        "Lojistik Muduru",
+        "Depo Muduru",
+        "Operasyon Uzmani",
+        "Gumruk Muşaviri",
+        "Filo Yoneticisi",
+        "Forklift Operatoru",
+        "Dis Ticaret Uzmani",
+        "Dagitim Sorumlusu",
+        "Tedarik Zinciri Analisti",
+        "Sofor"
+      ],
+      "skills": [
+        "Tedarik Zinciri Yonetimi",
+        "ERP Sistemleri",
+        "Gumruk Mevzuati",
+        "Depo Yonetim Sistemleri",
+        "Excel",
+        "Problem Cozme",
+        "Koordinasyon",
+        "Maliyet Analizi"
+      ],
+      "trends": "E-ticaret lojistigi, son mil teslimat, otomasyon ve surdurulebilir lojistik en hizli buyuyen alanlardir."
+    },
+    "medya": {
+      "name": "Medya ve Iletisim",
+      "slug": "medya",
+      "metaTitle": "Medya Sektoru Is Ilanlari - Hirovo",
+      "metaDescription": "Gazetecilik, dijital icerik, halkla iliskiler ve reklam pozisyonlari. Medya sektorunde kariyer firsatlarini kesfedin.",
+      "heroTitle": "Medya Sektorunde Is Ilanlari",
+      "heroSubtitle": "Iletisimin on saflarinda kariyer",
+      "description": "Medya ve iletisim sektoru, dijital donusumle birlikte buyuk bir degisim yasayan dinamik bir alandir. Geleneksel medya kurumlarinin yani sira dijital medya platformlari, sosyal medya ajanslari ve icerik uretim studyolari hizla buyumektedir. Istanbul, Turkiye'nin medya merkezi olup, buyuk televizyon kanallari, gazeteler ve reklam ajanslari burada bulunmaktadir. Dijital pazarlama, sosyal medya yonetimi, SEO ve icerik pazarlamasi gibi alanlarda uzmanlar buyuk talep gormektedir. Video produksiyonu, podcast ve influencer pazarlamasi yeni kariyer alanlari olusturmustur. Kurumsal iletisim ve halkla iliskiler da onemli istihdam alanlarindan biridir. Yaraticilik, yazma becerileri ve dijital araclara hakimiyet sektorde basari icin temel yetkinliklerdir. Freelance calisma ve uzaktan is imkanlari sektorde yaygindir.",
+      "positions": [
+        "Dijital Pazarlama Uzmani",
+        "Sosyal Medya Yoneticisi",
+        "Icerik Yazari",
+        "Gazeteci",
+        "Video Produksiyon",
+        "Grafik Tasarimci",
+        "Halkla Iliskiler Uzmani",
+        "Reklam Muhasebecisi",
+        "SEO Uzmani",
+        "Podcast Yapimcisi"
+      ],
+      "skills": [
+        "Dijital Pazarlama",
+        "Sosyal Medya",
+        "Icerik Uretimi",
+        "Adobe Creative Suite",
+        "SEO/SEM",
+        "Analitik Dusunme",
+        "Yazim Becerileri",
+        "Video Produksiyon"
+      ],
+      "trends": "Dijital video, influencer marketing, veri odakli pazarlama ve yapay zeka destekli icerik en hizli buyuyen alanlardir."
+    }
+  },
+  "positions": {
+    "hero": {
+      "title": "Pozisyona Göre İş İlanları",
+      "subtitle": "Kariyer hedeflerinize uygun iş fırsatlarını keşfedin"
+    },
+    "yazilimci": {
+      "slug": "yazilimci",
+      "title": "Yazılımcı İş İlanları",
+      "metaTitle": "Yazılımcı İş İlanları 2024 - Hirovo",
+      "metaDescription": "Türkiye'nin en güncel yazılımcı iş ilanları. Junior, Mid ve Senior seviye yazılım geliştirici pozisyonları Hirovo'da.",
+      "description": "Türkiye'de yazılım geliştirme sektörü, dijital dönüşümün hız kazanmasıyla birlikte benzeri görülmemiş bir büyüme yaşamaktadır. Yazılımcı pozisyonları, frontend, backend, full-stack, mobil uygulama ve DevOps gibi çeşitli uzmanlık alanlarını kapsamaktadır. Hirovo üzerinden yazılımcı iş ilanlarına başvurarak, Türkiye'nin önde gelen teknoloji şirketlerinde kariyer fırsatı yakalayabilirsiniz. Junior seviyeden senior pozisyonlara kadar geniş bir yelpazede ilanlar sunulmaktadır. Yazılım geliştirici olarak çalışmak isteyenler için Java, Python, JavaScript, C#, Go, Rust gibi programlama dillerinde uzmanlaşmış pozisyonlar mevcuttur. Remote çalışma imkanı sunan şirketler de platformumuzda yer almaktadır. Startup'lardan kurumsal firmalara kadar her ölçekte işveren, Hirovo aracılığıyla yetenekli yazılımcılar aramaktadır. Yazılım mühendisliği kariyerinizi bir üst seviyeye taşımak için hemen başvurun.",
+      "keySkills": [
+        "JavaScript",
+        "Python",
+        "Java",
+        "React",
+        "Node.js",
+        "SQL",
+        "Git",
+        "Docker"
+      ],
+      "salaryRange": "25.000 TL - 150.000 TL",
+      "experienceLevels": [
+        "Junior (0-2 yıl)",
+        "Mid-Level (2-5 yıl)",
+        "Senior (5+ yıl)"
+      ]
+    },
+    "satis": {
+      "slug": "satis",
+      "title": "Satış Temsilcisi İş İlanları",
+      "metaTitle": "Satış Temsilcisi İş İlanları 2024 - Hirovo",
+      "metaDescription": "Türkiye genelinde satış temsilcisi ve satış danışmanı iş ilanları. Komisyon ve prim imkanlı satış pozisyonları.",
+      "description": "Satış temsilcisi pozisyonları, Türkiye'de en çok aranan iş pozisyonları arasında yer almaktadır. Bu rol, şirketlerin büyümesinde kritik öneme sahip olup, ürün ve hizmetlerin müşterilere ulaştırılmasında köprü görevi görmektedir. Hirovo'da yer alan satış ilanları, saha satışından kurumsal satışa, B2B'den B2C'ye kadar geniş bir yelpazeyi kapsamaktadır. Satış temsilcisi olarak çalışmak, yüksek kazanç potansiyeli sunan dinamik bir kariyer yoludur. Komisyon ve prim sistemleriyle desteklenen maaş paketleri, başarılı satış profesyonellerinin gelirlerini önemli ölçüde artırmalarına olanak tanımaktadır. Perakende, otomotiv, sigorta, telekomünikasyon, gayrimenkul ve FMCG sektörlerinde sayısız satış pozisyonu bulunmaktadır. İletişim becerileri güçlü, ikna kabiliyeti yüksek ve hedef odaklı çalışabilen adaylar için ideal kariyer fırsatları Hirovo'da sizi bekliyor.",
+      "keySkills": [
+        "İletişim",
+        "İkna",
+        "Müzakere",
+        "CRM",
+        "Sunum",
+        "Hedef Odaklılık"
+      ],
+      "salaryRange": "18.000 TL - 80.000 TL + Prim",
+      "experienceLevels": [
+        "Deneyimsiz",
+        "1-3 yıl deneyimli",
+        "Kıdemli"
+      ]
+    },
+    "muhasebe": {
+      "slug": "muhasebe",
+      "title": "Muhasebe İş İlanları",
+      "metaTitle": "Muhasebe ve Finans İş İlanları 2024 - Hirovo",
+      "metaDescription": "Muhasebeci, mali müşavir ve finans uzmanı iş ilanları. Türkiye'nin her yerinden muhasebe pozisyonları.",
+      "description": "Muhasebe ve finans sektörü, her işletmenin temel taşını oluşturmaktadır. Muhasebeci pozisyonları, işletmelerin mali sağlığını korumak, vergi yükümlülüklerini yerine getirmek ve finansal raporlama yapmak gibi kritik görevleri içermektedir. Hirovo platformunda yer alan muhasebe iş ilanları, genel muhasebeden maliyet muhasebesine, denetimden vergi danışmanlığına kadar çeşitli uzmanlık alanlarını kapsamaktadır. SMMM ve YMM belgeli profesyoneller için özel pozisyonlar da mevcuttur. Logo, Mikro, Netsis, SAP gibi muhasebe programlarında deneyimli adaylar için cazip fırsatlar sunulmaktadır. Küçük işletmelerden çok uluslu şirketlere kadar her ölçekte firma, nitelikli muhasebe personeli aramaktadır. E-dönüşüm süreçlerine hakim, güncel mevzuatı takip eden ve analitik düşünme becerisine sahip muhasebe profesyonelleri için kariyer kapıları Hirovo'da açık.",
+      "keySkills": [
+        "Logo",
+        "Netsis",
+        "SAP",
+        "Excel",
+        "E-Fatura",
+        "Vergi Mevzuatı",
+        "TFRS"
+      ],
+      "salaryRange": "20.000 TL - 70.000 TL",
+      "experienceLevels": [
+        "Junior",
+        "Uzman",
+        "Müdür"
+      ]
+    },
+    "ik": {
+      "slug": "insan-kaynaklari",
+      "title": "İnsan Kaynakları İş İlanları",
+      "metaTitle": "İK Uzmanı ve HR İş İlanları 2024 - Hirovo",
+      "metaDescription": "İnsan kaynakları uzmanı, işe alım uzmanı ve İK müdürü pozisyonları. Türkiye genelinde HR iş fırsatları.",
+      "description": "İnsan kaynakları departmanları, şirketlerin en değerli varlığı olan çalışanların yönetiminde kritik rol oynamaktadır. İK pozisyonları, işe alımdan bordro yönetimine, performans değerlendirmeden eğitim planlamaya kadar geniş bir sorumluluk alanını kapsamaktadır. Hirovo'da yer alan İK iş ilanları, İK asistanından İK direktörüne kadar farklı seviyelerde kariyer fırsatları sunmaktadır. Modern insan kaynakları yaklaşımları, çalışan deneyimi, employer branding ve yetenek yönetimi konularında uzmanlaşmış profesyoneller için önemli pozisyonlar mevcuttur. İş hukuku bilgisi, SGK mevzuatına hakimiyet ve İK yazılımları konusunda deneyim, bu alanda aranan temel yetkinlikler arasındadır. Çok uluslu şirketlerde uluslararası İK deneyimi kazanma fırsatı da bulunmaktadır. İnsan odaklı yaklaşımı benimseyen, iletişim becerileri güçlü İK profesyonelleri için ideal kariyer fırsatları Hirovo'da.",
+      "keySkills": [
+        "İşe Alım",
+        "Bordro",
+        "İş Hukuku",
+        "Performans Yönetimi",
+        "SAP HR",
+        "Yetenek Yönetimi"
+      ],
+      "salaryRange": "22.000 TL - 90.000 TL",
+      "experienceLevels": [
+        "Asistan",
+        "Uzman",
+        "Müdür",
+        "Direktör"
+      ]
+    },
+    "pazarlama": {
+      "slug": "pazarlama",
+      "title": "Pazarlama İş İlanları",
+      "metaTitle": "Dijital Pazarlama ve Marketing İş İlanları 2024 - Hirovo",
+      "metaDescription": "Pazarlama uzmanı, sosyal medya yöneticisi ve marka yöneticisi pozisyonları. Dijital marketing iş fırsatları.",
+      "description": "Pazarlama sektörü, dijital dönüşümle birlikte köklü bir değişim geçirmektedir. Geleneksel pazarlamanın yanı sıra dijital pazarlama, içerik pazarlama, influencer marketing ve performance marketing gibi yeni uzmanlık alanları ortaya çıkmıştır. Hirovo'da yer alan pazarlama iş ilanları, sosyal medya yöneticiliğinden marka müdürlüğüne, SEO uzmanlığından growth hacking pozisyonlarına kadar geniş bir yelpazeyi kapsamaktadır. Dijital pazarlama araçlarına hakim, veri odaklı karar alabilen ve yaratıcı düşünme becerisine sahip pazarlama profesyonelleri için sayısız fırsat sunulmaktadır. Google Analytics, Meta Business Suite, Google Ads, e-mail marketing platformları ve CRM sistemleri konusunda deneyimli adaylar tercih edilmektedir. Startup'lardan kurumsal markalara kadar her ölçekte şirket, yetenekli pazarlama profesyonelleri aramaktadır. Markaların dijital varlığını güçlendirmek ve müşteri deneyimini iyileştirmek için kariyer fırsatları sizi bekliyor.",
+      "keySkills": [
+        "Dijital Pazarlama",
+        "SEO/SEM",
+        "Sosyal Medya",
+        "Google Analytics",
+        "İçerik Üretimi",
+        "CRM"
+      ],
+      "salaryRange": "20.000 TL - 100.000 TL",
+      "experienceLevels": [
+        "Junior",
+        "Specialist",
+        "Manager",
+        "Director"
+      ]
+    },
+    "musteri-hizmetleri": {
+      "slug": "musteri-hizmetleri",
+      "title": "Müşteri Hizmetleri İş İlanları",
+      "metaTitle": "Müşteri Temsilcisi ve Çağrı Merkezi İş İlanları 2024 - Hirovo",
+      "metaDescription": "Müşteri hizmetleri temsilcisi, call center ve destek pozisyonları. Türkiye genelinde müşteri hizmetleri iş fırsatları.",
+      "description": "Müşteri hizmetleri, şirketlerin müşteri memnuniyetini ve sadakatini belirleyen kritik bir fonksiyondur. Bu alanda çalışan profesyoneller, müşteri şikayetlerini çözmek, bilgi vermek ve marka temsilciliği yapmak gibi önemli görevleri üstlenmektedir. Hirovo'da yer alan müşteri hizmetleri iş ilanları, inbound ve outbound çağrı merkezi pozisyonlarından, canlı destek uzmanlığına, sosyal medya müşteri ilişkilerinden teknik destek pozisyonlarına kadar çeşitli fırsatlar sunmaktadır. Çok dilli müşteri hizmetleri pozisyonları da yabancı dil bilen adaylar için cazip seçenekler arasındadır. Sabırlı, çözüm odaklı ve empati kurma becerisine sahip adaylar için ideal kariyer yolu olan bu alan, aynı zamanda yöneticilik pozisyonlarına ilerleme fırsatı da sunmaktadır. Bankacılık, e-ticaret, telekomünikasyon ve teknoloji sektörlerinde müşteri hizmetleri pozisyonları sizi bekliyor.",
+      "keySkills": [
+        "İletişim",
+        "Problem Çözme",
+        "CRM",
+        "Çağrı Merkezi Sistemleri",
+        "Empati",
+        "Sabır"
+      ],
+      "salaryRange": "17.500 TL - 45.000 TL",
+      "experienceLevels": [
+        "Başlangıç",
+        "Deneyimli",
+        "Takım Lideri",
+        "Yönetici"
+      ]
+    },
+    "grafik": {
+      "slug": "grafik-tasarim",
+      "title": "Grafik Tasarımcı İş İlanları",
+      "metaTitle": "Grafik Tasarımcı ve UI/UX Designer İş İlanları 2024 - Hirovo",
+      "metaDescription": "Grafik tasarımcı, UI/UX designer ve görsel tasarımcı pozisyonları. Türkiye'de tasarım iş fırsatları.",
+      "description": "Görsel iletişimin gücü, markaların başarısında belirleyici rol oynamaktadır. Grafik tasarımcı pozisyonları, logo tasarımından ambalaj tasarımına, dijital içeriklerden basılı materyallere kadar geniş bir yaratıcı alanı kapsamaktadır. Hirovo'da yer alan tasarım iş ilanları, grafik tasarımın yanı sıra UI/UX design, motion graphics, 3D modelleme ve illüstrasyon gibi uzmanlık alanlarını da içermektedir. Adobe Creative Suite (Photoshop, Illustrator, InDesign, After Effects), Figma, Sketch gibi profesyonel tasarım araçlarına hakim adaylar için sayısız fırsat sunulmaktadır. Ajanslardan in-house tasarım departmanlarına, startup'lardan kurumsal markalara kadar çeşitli çalışma ortamları mevcuttur. Freelance çalışma imkanı sunan projeler de platformumuzda yer almaktadır. Yaratıcı düşünme, estetik anlayış ve teknik beceriyi bir araya getiren tasarımcılar için kariyer kapıları Hirovo'da açık.",
+      "keySkills": [
+        "Adobe Photoshop",
+        "Illustrator",
+        "Figma",
+        "UI/UX",
+        "Typography",
+        "Branding"
+      ],
+      "salaryRange": "18.000 TL - 80.000 TL",
+      "experienceLevels": [
+        "Junior",
+        "Mid-Level",
+        "Senior",
+        "Lead"
+      ]
+    },
+    "proje-yoneticisi": {
+      "slug": "proje-yoneticisi",
+      "title": "Proje Yöneticisi İş İlanları",
+      "metaTitle": "Proje Yöneticisi ve Project Manager İş İlanları 2024 - Hirovo",
+      "metaDescription": "Proje yöneticisi, scrum master ve program yöneticisi pozisyonları. Türkiye'de PM iş fırsatları.",
+      "description": "Proje yönetimi, organizasyonların stratejik hedeflerini gerçekleştirmek için yürüttükleri projelerin başarıyla tamamlanmasını sağlayan kritik bir disiplindir. Proje yöneticisi pozisyonları, IT projelerinden inşaat projelerine, pazarlama kampanyalarından ürün lansmanlarına kadar çeşitli sektörlerde talep görmektedir. Hirovo'da yer alan proje yönetimi iş ilanları, junior PM pozisyonlarından program direktörlüğüne kadar farklı seviyelerde kariyer fırsatları sunmaktadır. PMP, PRINCE2, Agile/Scrum sertifikalarına sahip adaylar için özel pozisyonlar mevcuttur. Jira, Asana, Monday.com, MS Project gibi proje yönetim araçlarında deneyim, bu pozisyonlar için önemli bir avantaj sağlamaktadır. Liderlik becerileri, zaman yönetimi, risk analizi ve paydaş yönetimi konularında güçlü adaylar için ideal kariyer fırsatları. Çok disiplinli ekipleri yöneterek projeleri başarıya taşımak isteyen profesyoneller için kapılarımız açık.",
+      "keySkills": [
+        "PMP",
+        "Agile/Scrum",
+        "Jira",
+        "MS Project",
+        "Risk Yönetimi",
+        "Bütçe Yönetimi"
+      ],
+      "salaryRange": "30.000 TL - 120.000 TL",
+      "experienceLevels": [
+        "Junior PM",
+        "PM",
+        "Senior PM",
+        "Program Manager"
+      ]
+    },
+    "veri-analisti": {
+      "slug": "veri-analisti",
+      "title": "Veri Analisti İş İlanları",
+      "metaTitle": "Data Analyst ve Veri Bilimci İş İlanları 2024 - Hirovo",
+      "metaDescription": "Veri analisti, data scientist ve BI uzmanı pozisyonları. Türkiye'de veri bilimi kariyer fırsatları.",
+      "description": "Veri, 21. yüzyılın en değerli kaynağı olarak kabul edilmektedir. Veri analisti pozisyonları, bu kaynağı anlamlandırarak işletmelerin stratejik kararlar almasına yardımcı olan kritik roller üstlenmektedir. Hirovo'da yer alan veri analizi iş ilanları, business intelligence analistliğinden data science pozisyonlarına, marketing analistliğinden financial analistliğe kadar geniş bir yelpazeyi kapsamaktadır. SQL, Python, R, Tableau, Power BI gibi araçlarda uzman adaylar için sayısız fırsat sunulmaktadır. Makine öğrenmesi, yapay zeka ve büyük veri teknolojileri konularında deneyimli profesyoneller için özellikle cazip pozisyonlar mevcuttur. E-ticaret, finans, telekomünikasyon ve teknoloji sektörlerinde veri odaklı karar alma süreçlerine katkı sağlamak isteyen analistler için ideal kariyer fırsatları. Analitik düşünme, istatistik bilgisi ve veri görselleştirme becerisine sahip adaylar Hirovo'da aradıkları pozisyonu bulabilir.",
+      "keySkills": [
+        "SQL",
+        "Python",
+        "Tableau",
+        "Power BI",
+        "Excel",
+        "İstatistik",
+        "Machine Learning"
+      ],
+      "salaryRange": "25.000 TL - 110.000 TL",
+      "experienceLevels": [
+        "Junior Analyst",
+        "Analyst",
+        "Senior Analyst",
+        "Lead/Manager"
+      ]
+    },
+    "sofor": {
+      "slug": "sofor",
+      "title": "Şoför İş İlanları",
+      "metaTitle": "Şoför ve Sürücü İş İlanları 2024 - Hirovo",
+      "metaDescription": "Ağır vasıta şoförü, kurye, servis şoförü ve VIP şoför pozisyonları. Türkiye genelinde şoför iş fırsatları.",
+      "description": "Lojistik ve ulaşım sektörünün temel taşı olan şoförlük, Türkiye'de sürekli talep gören meslekler arasındadır. Şoför pozisyonları, kurye ve paket dağıtımından ağır vasıta nakliyesine, personel servisinden VIP transfere kadar geniş bir yelpazeyi kapsamaktadır. Hirovo'da yer alan şoför iş ilanları, B, C, D ve E sınıfı ehliyet gerektiren çeşitli pozisyonları içermektedir. SRC belgesi gerektiren profesyonel taşımacılık pozisyonları da mevcuttur. E-ticaretin büyümesiyle birlikte kurye ve son mil teslimat pozisyonları özellikle talep görmektedir. Şehir içi ve şehirlerarası sefer yapan pozisyonlar, yurt dışı TIR şoförlüğü fırsatları platformumuzda yer almaktadır. Düzenli çalışma saatleri, yol masrafları ve yemek yardımı gibi yan haklar sunan işverenler de ilanlar arasındadır. Güvenli sürüş, yol bilgisi ve müşteri ilişkileri konusunda deneyimli şoförler için kariyer fırsatları Hirovo'da.",
+      "keySkills": [
+        "Ehliyet (B/C/D/E)",
+        "SRC Belgesi",
+        "Psikoteknik",
+        "Şehir Bilgisi",
+        "Güvenli Sürüş"
+      ],
+      "salaryRange": "20.000 TL - 60.000 TL",
+      "experienceLevels": [
+        "Deneyimsiz",
+        "1-3 yıl",
+        "5+ yıl",
+        "Uzman"
+      ]
+    }
+  },
+  "guides": {
+    "hero": {
+      "title": "Kariyer Rehberleri",
+      "subtitle": "İş arama sürecinizde size yol gösterecek kapsamlı rehberler"
+    },
+    "cv-yazma": {
+      "slug": "cv-yazma-rehberi",
+      "title": "CV Yazma Rehberi",
+      "metaTitle": "Profesyonel CV Nasıl Yazılır? - Hirovo Kariyer Rehberi",
+      "metaDescription": "Etkili bir özgeçmiş nasıl hazırlanır? CV yazma ipuçları, şablonlar ve örneklerle profesyonel özgeçmiş oluşturma rehberi.",
+      "content": "Profesyonel bir CV, iş arama sürecinizin en kritik araçlarından biridir. İşverenler, genellikle bir CV'ye ortalama 6-7 saniye ayırır, bu nedenle ilk izlenim son derece önemlidir. Başarılı bir özgeçmiş, kişisel bilgileriniz, eğitim geçmişiniz, iş deneyimleriniz ve becerilerinizi açık ve öz bir şekilde sunmalıdır. CV'nizin üst kısmında güncel iletişim bilgileriniz ve profesyonel bir özet bulunmalıdır. Bu özet, kariyer hedeflerinizi ve öne çıkan yetkinliklerinizi 2-3 cümleyle ifade etmelidir. İş deneyimi bölümünde, en son pozisyonunuzdan başlayarak kronolojik sırayla ilerleyin. Her pozisyon için görev tanımlarınızı değil, başarılarınızı ve somut katkılarınızı vurgulayın. Rakamsal veriler kullanmak (örneğin 'satışları %30 artırdım') etkiyi artırır. Eğitim bölümünde diploma, sertifika ve ilgili kurslarınızı belirtin. Beceriler kısmında, başvurduğunuz pozisyonla ilgili teknik ve soft skill'lerinizi listeleyin. CV'niz bir sayfayı geçmemeli, temiz ve okunabilir bir formatta hazırlanmalıdır. Yazım hatalarından kaçının ve her başvuru için CV'nizi ilgili pozisyona göre özelleştirin. ATS (Aday Takip Sistemi) uyumlu formatlar kullanarak, CV'nizin otomatik taramalarda öne çıkmasını sağlayın.",
+      "tips": [
+        "CV'nizi her başvuru için özelleştirin",
+        "Somut başarılarınızı rakamlarla destekleyin",
+        "Yazım ve dilbilgisi hatalarından kaçının",
+        "Temiz ve profesyonel bir format kullanın",
+        "Bir sayfayı geçmemeye özen gösterin"
+      ]
+    },
+    "mulakat-hazirligi": {
+      "slug": "mulakat-hazirligi",
+      "title": "Mülakat Hazırlık Rehberi",
+      "metaTitle": "İş Mülakatına Nasıl Hazırlanılır? - Hirovo Kariyer Rehberi",
+      "metaDescription": "İş görüşmesinde başarılı olmanın sırları. Mülakat soruları, cevapları ve hazırlık stratejileri.",
+      "content": "İş mülakatı, kariyer yolculuğunuzun en belirleyici anlarından biridir. Başarılı bir mülakat için kapsamlı hazırlık şarttır. Öncelikle, başvurduğunuz şirketi detaylı araştırın: misyonu, vizyonu, ürünleri, sektördeki konumu ve güncel haberleri hakkında bilgi edinin. Pozisyonun gerektirdiği yetkinlikleri anlayın ve bu yetkinliklere sahip olduğunuzu gösteren deneyimlerinizi hazırlayın. STAR metodu (Durum-Görev-Eylem-Sonuç) ile yapılandırılmış cevaplar hazırlamak, deneyimlerinizi etkili şekilde anlatmanıza yardımcı olur. Sık sorulan mülakat sorularına hazırlanın: 'Kendinizden bahsedin', 'Güçlü ve zayıf yönleriniz nelerdir?', 'Neden bu şirkette çalışmak istiyorsunuz?', '5 yıl sonra kendinizi nerede görüyorsunuz?' gibi klasik sorulara özgün cevaplar geliştirin. Mülakat öncesi kıyafetinizi hazırlayın, profesyonel ve pozisyona uygun giyinin. Mülakat yerine en az 10-15 dakika erken varın. Beden dilinize dikkat edin: göz teması kurun, dik oturun ve özgüvenli durmanız gerekir. Mülakat sonunda şirkete ve pozisyona olan ilginizi gösteren sorular sorun. Mülakat bitiminde teşekkür e-postası göndermek, profesyonelliğinizi gösterir. Başarısız mülakatlardan ders çıkarın ve her deneyimi gelişim fırsatı olarak değerlendirin.",
+      "tips": [
+        "Şirketi detaylı araştırın",
+        "STAR metodu ile cevaplar hazırlayın",
+        "Profesyonel giyinin",
+        "Erken varın",
+        "Mülakat sonrası teşekkür e-postası gönderin"
+      ]
+    },
+    "maas-muzakeresi": {
+      "slug": "maas-muzakeresi",
+      "title": "Maaş Müzakeresi Rehberi",
+      "metaTitle": "Maaş Nasıl Müzakere Edilir? - Hirovo Kariyer Rehberi",
+      "metaDescription": "Maaş pazarlığı stratejileri ve taktikleri. İş teklifinde daha iyi koşullar elde etme rehberi.",
+      "content": "Maaş müzakeresi, çoğu çalışanın çekindiği ancak kariyer başarısı için kritik öneme sahip bir beceridir. Araştırmalar, maaş müzakeresi yapan adayların yapmayanlardan ortalama %5-10 daha yüksek başlangıç maaşı aldığını göstermektedir. Müzakereye başlamadan önce, pozisyonunuzun piyasa değerini araştırın. Sektör raporları, maaş anketleri ve iş ilanlarındaki maaş aralıklarını inceleyin. Kendi değerinizi objektif kriterlere dayandırın: deneyiminiz, becerileriniz, eğitiminiz ve geçmiş başarılarınız. Maaş konusunu ilk siz gündeme getirmeyin, işverenin teklifini bekleyin. Teklif geldiğinde hemen kabul etmeyin, düşünmek için zaman isteyin. Karşı teklifinizi yaparken, araştırmalarınıza ve piyasa değerine dayanan somut gerekçeler sunun. Sadece maaşı değil, toplam paketi değerlendirin: yan haklar, bonus, hisse senedi opsiyonları, esnek çalışma, eğitim bütçesi gibi unsurlar da önemlidir. Müzakerede profesyonel ve saygılı kalın, ultimatom vermekten kaçının. 'Ya bu maaşı verin ya da giderim' yerine 'Bu teklifin X TL olması benim için daha uygun olur' gibi yapıcı bir dil kullanın. Sonuç ne olursa olsun, profesyonelliğinizi koruyun ve işverene teşekkür edin.",
+      "tips": [
+        "Piyasa değerinizi araştırın",
+        "Somut verilerle müzakere edin",
+        "Toplam paketi değerlendirin",
+        "Profesyonel ve saygılı kalın",
+        "Düşünmek için zaman isteyin"
+      ]
+    },
+    "kariyer-degisikligi": {
+      "slug": "kariyer-degisikligi",
+      "title": "Kariyer Değişikliği Rehberi",
+      "metaTitle": "Kariyer Değiştirmek İsteyenler İçin Rehber - Hirovo",
+      "metaDescription": "Sektör veya meslek değişikliği yapmak isteyenler için kapsamlı kariyer geçiş rehberi.",
+      "content": "Kariyer değişikliği, profesyonel yaşamın en zorlu ama aynı zamanda en ödüllendirici kararlarından biri olabilir. Başarılı bir kariyer geçişi için stratejik planlama gereklidir. İlk adım, değişiklik nedeninizi net olarak tanımlamaktır: Mevcut işinizden memnuniyetsizlik mi, yeni bir tutkuyu keşfetmek mi, yoksa daha iyi fırsatlar mı arıyorsunuz? Hedef sektörünüzü veya pozisyonunuzu belirleyin ve bu alanda gerekli yetkinlikleri araştırın. Transferable skills (aktarılabilir beceriler) kavramını anlayın: iletişim, problem çözme, liderlik gibi beceriler sektörler arası geçerliliğe sahiptir. Eksik yetkinliklerinizi belirleyin ve bunları kazanmak için bir plan yapın: online kurslar, sertifika programları, bootcamp'ler veya gönüllü projeler bu süreçte yardımcı olabilir. Yeni sektördeki profesyonellerle network kurun, bilgi görüşmeleri yapın ve mentorlar edinin. CV'nizi ve LinkedIn profilinizi yeni kariyer hedeflerinize uygun şekilde güncelleyin. Finansal hazırlık yapın: kariyer geçişi sürecinde gelir kaybı yaşayabilirsiniz. Başlangıçta daha düşük pozisyonlardan başlamayı kabul etmeniz gerekebilir, ancak bu uzun vadede değerli bir yatırımdır. Sabırlı olun, kariyer değişikliği bir süreçtir ve zaman alabilir.",
+      "tips": [
+        "Değişiklik nedeninizi netleştirin",
+        "Transferable skills'lerinizi belirleyin",
+        "Eksik yetkinliklerinizi tamamlayın",
+        "Yeni sektörde network kurun",
+        "Finansal olarak hazırlanın"
+      ]
+    },
+    "uzaktan-calisma": {
+      "slug": "uzaktan-calisma",
+      "title": "Uzaktan Çalışma Rehberi",
+      "metaTitle": "Uzaktan Çalışma İpuçları ve Stratejileri - Hirovo",
+      "metaDescription": "Remote çalışma verimliliği nasıl artırılır? Evden çalışma düzeni ve iş-yaşam dengesi rehberi.",
+      "content": "Uzaktan çalışma, pandemi sonrası iş dünyasının yeni normallerinden biri haline gelmiştir. Evden veya herhangi bir lokasyondan çalışma esnekliği, avantajlarının yanı sıra kendine özgü zorluklar da barındırmaktadır. Başarılı bir uzaktan çalışma deneyimi için fiziksel çalışma alanınızı dikkatli bir şekilde oluşturun. Ergonomik bir masa ve sandalye, yeterli aydınlatma ve sessiz bir ortam üretkenliğinizi artıracaktır. Günlük rutininizi oluşturun: belirli saatlerde işe başlayın ve bitirin, düzenli molalar verin. İş ve özel yaşam sınırlarını net çizin: çalışma saatlerinden sonra iş maillerini kontrol etmekten kaçının. İletişim araçlarını etkin kullanın: Slack, Microsoft Teams, Zoom gibi platformlarla takımınızla düzenli iletişimde kalın. Günlük stand-up toplantıları ve haftalık check-in'ler ekip koordinasyonunu sağlar. Proaktif iletişim kurun: uzaktan çalışırken görünürlüğünüz azalabilir, bu nedenle düzenli güncellemer paylaşın. Sosyal izolasyonla mücadele edin: sanal kahve molaları, online ekip etkinlikleri veya co-working space'ler kullanarak sosyal bağlantınızı koruyun. Teknolojiyi doğru kullanın: proje yönetim araçları, zaman takibi uygulamaları ve bulut depolama çözümleri verimliliğinizi artırır.",
+      "tips": [
+        "Düzenli çalışma alanı oluşturun",
+        "Günlük rutin belirleyin",
+        "İş-yaşam dengesini koruyun",
+        "Proaktif iletişim kurun",
+        "Sosyal bağlantılarınızı sürdürün"
+      ]
+    },
+    "linkedin-optimizasyonu": {
+      "slug": "linkedin-optimizasyonu",
+      "title": "LinkedIn Profil Optimizasyonu",
+      "metaTitle": "LinkedIn Profilini Nasıl Optimize Edilir? - Hirovo",
+      "metaDescription": "İşe alım uzmanlarının dikkatini çekecek LinkedIn profili nasıl oluşturulur? Profil optimizasyon rehberi.",
+      "content": "LinkedIn, profesyonel dünyada en önemli networking ve iş arama platformudur. İşe alım uzmanlarının %90'ından fazlası aday araştırmasında LinkedIn'i kullanmaktadır. Optimize edilmiş bir profil, iş fırsatlarının kapınızı çalmasını sağlar. Profilinizin temelini oluşturan başlık kısmı kritik öneme sahiptir: sadece unvanınızı değil, uzmanlık alanlarınızı ve değer önerinizi içermelidir. Profesyonel bir fotoğraf kullanın: yüzünüz net görünmeli, arka plan sade olmalı ve iş ortamına uygun giyimli olmalısınız. 'Hakkında' bölümünü stratejik kullanın: kariyer hikayenizi, başarılarınızı ve hedeflerinizi ilgi çekici bir dille anlatın. Anahtar kelime optimizasyonu yapın: hedef pozisyonlarla ilgili terimleri profilinize doğal bir şekilde yerleştirin. Deneyim bölümünü detaylandırın: her pozisyon için sorumluluklarınızı ve başarılarınızı açıklayın. Beceriler bölümüne en az 5 yetkinlik ekleyin ve bağlantılarınızdan onay isteyin. Öneriler (recommendations) bölümü güvenilirliğinizi artırır: eski yöneticilerinizden ve meslektaşlarınızdan referans isteyin. Düzenli içerik paylaşın ve sektörünüzdeki tartışmalara katılın. LinkedIn Learning sertifikalarınızı profilinize ekleyin. Profilinizi Türkçe ve İngilizce olarak oluşturmak, uluslararası fırsatlara erişiminizi artırır.",
+      "tips": [
+        "Profesyonel bir fotoğraf kullanın",
+        "Anahtar kelime optimizasyonu yapın",
+        "Başarılarınızı detaylandırın",
+        "Düzenli içerik paylaşın",
+        "Referanslar toplayın"
+      ]
+    },
+    "freelance-baslangic": {
+      "slug": "freelance-calisma",
+      "title": "Freelance Çalışmaya Başlangıç Rehberi",
+      "metaTitle": "Freelancer Nasıl Olunur? - Hirovo Kariyer Rehberi",
+      "metaDescription": "Serbest çalışmaya nasıl başlanır? Freelance iş bulma, fiyatlandırma ve müşteri yönetimi rehberi.",
+      "content": "Freelance çalışma, özgürlük ve esneklik arayan profesyoneller için cazip bir kariyer alternatifidir. Ancak başarılı bir freelancer olmak, sadece uzmanlık alanınızda iyi olmaktan fazlasını gerektirir. İlk adım, sunacağınız hizmetleri net bir şekilde tanımlamaktır. Hangi alanlarda uzmanlaşacaksınız? Web geliştirme, grafik tasarım, içerik yazarlığı, danışmanlık veya çeviri gibi alanlarda uzmanlaşabilirsiniz. Fiyatlandırma stratejinizi belirleyin: saatlik mi, proje bazlı mı çalışacaksınız? Piyasa araştırması yaparak rekabetçi ama sürdürülebilir fiyatlar belirleyin. Portföyünüzü oluşturun: geçmiş işlerinizi, örnek projelerinizi ve müşteri referanslarınızı sergileyen profesyonel bir portfolyo web siteniz olmalıdır. Upwork, Freelancer, Fiverr gibi platformlarda profil oluşturun. LinkedIn'i aktif kullanın ve network'ünüzü genişletin. İlk müşterilerinizi edinmek zorlu olabilir: başlangıçta daha düşük fiyatlarla çalışarak portfolyönüzü ve referanslarınızı güçlendirin. Sözleşme ve fatura düzeni oluşturun: yasal koruma için her proje için yazılı anlaşma yapın. Vergi ve muhasebe konularını öğrenin: freelancer olarak vergi yükümlülüklerinizi anlayın ve düzenli kayıt tutun. Finansal tampon oluşturun: düzensiz gelire hazır olun.",
+      "tips": [
+        "Uzmanlık alanınızı belirleyin",
+        "Profesyonel portfolyo oluşturun",
+        "Freelance platformlarda profil açın",
+        "Sözleşme ve fatura düzeni kurun",
+        "Finansal tampon oluşturun"
+      ]
+    },
+    "staj-basvurusu": {
+      "slug": "staj-basvurusu",
+      "title": "Staj Başvuru Rehberi",
+      "metaTitle": "Staj Nasıl Bulunur? Staj Başvuru Rehberi - Hirovo",
+      "metaDescription": "Üniversite öğrencileri için staj bulma ve başvuru stratejileri. Staj programlarına kabul rehberi.",
+      "content": "Staj deneyimi, kariyer yolculuğunuzun temelini oluşturur. Üniversite öğrencileri için staj, teorik bilgiyi pratiğe dökme ve profesyonel dünyayı tanıma fırsatı sunar. Staj aramaya erken başlayın: büyük şirketlerin staj programları, staj döneminden 3-6 ay önce açılır. Hedef şirketlerinizin kariyer sayfalarını ve sosyal medya hesaplarını takip edin. CV'nizi staj başvurularına uygun hazırlayın: iş deneyiminiz sınırlı olsa da akademik projeleri, gönüllü çalışmaları, kulüp faaliyetlerini ve yarışma başarılarını vurgulayın. Üniversitenizin kariyer merkezinden destek alın: CV inceleme, mülakat hazırlığı ve staj ilanı paylaşımı gibi hizmetlerden yararlanın. LinkedIn profilinizi oluşturun ve ilgilendiğiniz sektördeki profesyonellerle bağlantı kurun. Bilgi görüşmeleri talep etmekten çekinmeyin. Staj fuarlarına ve kariyer günlerine katılın: işverenlerle yüz yüze tanışma fırsatı yakalayın. Başvuru mektubunuzu her şirket için özelleştirin: neden o şirkette staj yapmak istediğinizi ve neler katabileceğinizi açıklayın. Mülakatlara hazırlanın: şirketi araştırın ve sık sorulan staj mülakat sorularına hazırlanın. Staj döneminde proaktif olun, öğrenmeye açık olun ve network kurmayı ihmal etmeyin.",
+      "tips": [
+        "Erken başvurun",
+        "Akademik projeleri vurgulayın",
+        "Kariyer merkezinden destek alın",
+        "Staj fuarlarına katılın",
+        "Başvuru mektubunu özelleştirin"
+      ]
+    }
+  }
+}

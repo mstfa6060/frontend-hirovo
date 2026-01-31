@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Letöltés",
+    "downloadApp": "Töltse le az alkalmazást",
+    "googlePlay": "Google Play",
+    "email": "Email",
+    "phone": "Telefon",
+    "or": "vagy",
+    "loading": "Terhelés...",
+    "sending": "Küldés...",
+    "error": "Hiba",
+    "success": "Sikeres",
+    "submit": "Elküld",
+    "optional": "választható",
+    "important": "Fontos",
+    "contact": "Kommunikáció",
+    "questions": "Kérdéseiért",
+    "learnMore": "További információ",
+    "getStarted": "Kezdje most",
+    "readMore": "Olvass tovább",
+    "viewAll": "Összes megtekintése",
+    "free": "Ingyenes",
+    "new": "Új"
+  },
+  "metadata": {
+    "title": "Hirovo – Álláskereső és hirdetési platform",
+    "description": "A Hirovo egy álláskeresési és hirdetési platform. Fedezze fel az álláshirdetéseket, jelentkezzen egyszerűen, és kövesse a karrierlehetőségeket.",
+    "keywords": "álláskeresés, álláshirdetések, karrier, álláskeresés, személyzeti kiküldetések, munkaerő-keresők, toborzás, Hirovo",
+    "ogTitle": "Hirovo – Foglalkoztatási és Karrier Platform",
+    "ogDescription": "Fedezze fel az álláshirdetéseket, jelentkezzen, és kövesse a karrierlehetőségeket a Hirovóval."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Rólunk",
+    "howItWorks": "Hogyan működik",
+    "forJobSeekers": "Álláskeresők",
+    "forEmployers": "munkaadók",
+    "faq": "GYIK",
+    "contact": "Kommunikáció",
+    "careerTips": "Karrier tanácsok"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Adatvédelmi szabályzat",
+    "terms": "Felhasználási feltételek",
+    "deleteAccount": "Fiók törlése",
+    "home": "Kezdőlap",
+    "about": "Rólunk",
+    "contact": "Kommunikáció",
+    "faq": "GYIK",
+    "howItWorks": "Hogyan működik",
+    "forJobSeekers": "Álláskeresőknek",
+    "forEmployers": "Munkaadóknak",
+    "careerTips": "Karrier tanácsok",
+    "company": "Vállalat",
+    "resources": "Erőforrás",
+    "legal": "Jogi",
+    "followUs": "Kövess minket",
+    "description": "Törökország leginnovatívabb foglalkoztatási platformja. Az álmod egy lépéssel közelebb lesz."
+  },
+  "home": {
+    "hero": {
+      "title": "Találja meg álmai állását",
+      "subtitle": "Fedezzen fel álláshirdetések ezreit, jelentkezzen egyszerűen, és kövesse a karrierlehetőségeket a Hirovóval.",
+      "stats": {
+        "jobs": "Aktív álláshirdetés",
+        "users": "Regisztrált felhasználó",
+        "companies": "Partner cég",
+        "placements": "Sikeres egyezés"
+      }
+    },
+    "features": {
+      "title": "Miért Hirovo?",
+      "subtitle": "Funkcióink, amelyek megkönnyítik az álláskeresést",
+      "easySearch": {
+        "title": "Könnyű keresés",
+        "description": "Keressen gyorsan több ezer álláshirdetés között, és találja meg az Önnek megfelelő lehetőségeket."
+      },
+      "quickApply": {
+        "title": "Gyors alkalmazás",
+        "description": "Jelentkezzen egyetlen kattintással, ne pazarolja az időt. Hozza létre egyszer profilját, és használja mindenhol."
+      },
+      "notifications": {
+        "title": "Push értesítések",
+        "description": "Azonnal értesülhet az új bejegyzésekről és a jelentkezési állapotokról, ne hagyja ki a lehetőséget."
+      },
+      "smartMatch": {
+        "title": "Intelligens egyeztetés",
+        "description": "A mesterséges intelligencia által támogatott rendszer a képességeinek leginkább megfelelő állásokat ajánlja Önnek."
+      },
+      "secureProfile": {
+        "title": "Biztonságos profil",
+        "description": "Személyes adatait biztonságosan tároljuk, és csak akkor osztjuk meg a munkáltatóval, amikor jelentkezik."
+      },
+      "careerSupport": {
+        "title": "Karrier támogatás",
+        "description": "Azért vagyunk itt, hogy segítsünk önéletrajz-készítésben, interjútechnikában és karrier-tanácsadásban."
+      }
+    },
+    "categories": {
+      "title": "Népszerű üzleti kategóriák",
+      "subtitle": "Fedezze fel a lehetőségeket a legkeresettebb ágazatokban",
+      "technology": "Technológia",
+      "healthcare": "Egészség",
+      "finance": "Pénzügy",
+      "education": "Oktatás",
+      "retail": "Kiskereskedelem",
+      "manufacturing": "Termelés",
+      "hospitality": "Turizmus és vendéglátás",
+      "construction": "Épület"
+    },
+    "howItWorks": {
+      "title": "Hogyan működik?",
+      "subtitle": "Találjon állást három egyszerű lépésben",
+      "step1": {
+        "title": "Töltse le az alkalmazást",
+        "description": "Töltse le ingyen a Hirovot a Google Playről, és hozzon létre fiókot."
+      },
+      "step2": {
+        "title": "Hozd létre a profilodat",
+        "description": "Adja hozzá tapasztalatait, készségeit és preferenciáit."
+      },
+      "step3": {
+        "title": "Jelentkezzen és indítsa el az üzletet",
+        "description": "Jelentkezzen az Önnek megfelelő álláshirdetésekre, és lépjen kapcsolatba a munkáltatókkal."
+      }
+    },
+    "testimonials": {
+      "title": "Felhasználói megjegyzések",
+      "subtitle": "Felhasználóink ​​tapasztalatai, akik a Hirovonál helyezkedtek el"
+    },
+    "cta": {
+      "title": "Kezdje most",
+      "subtitle": "Töltse le a Hirovot, álma egy lépéssel közelebb lesz.",
+      "downloadFree": "Ingyenes letöltés"
+    }
+  },
+  "about": {
+    "metaTitle": "Rólunk - Hirovo",
+    "metaDescription": "Ismerje meg Hirovót. Küldetésünk, jövőképünk és perspektívánk a foglalkoztatási ágazatról.",
+    "hero": {
+      "title": "Rólunk",
+      "subtitle": "Elhatároztuk, hogy megváltoztatjuk az üzleti világot"
+    },
+    "mission": {
+      "title": "Küldetésünk",
+      "description": "Az álláskeresők és a munkaadók leghatékonyabb összefogása, mindenki számára megkönnyítve az álláskeresési folyamatot és méltányos munkalehetőségeket teremtve."
+    },
+    "vision": {
+      "title": "Víziónk",
+      "description": "Törökország és a régió vezető digitális foglalkoztatási platformjaként, amely emberek millióit segíti karriercéljaik elérésében."
+    },
+    "story": {
+      "title": "A mi történetünk",
+      "content1": "A Hirovo-t 2024-ben alapították, hogy megoldja az álláskeresők előtt álló kihívásokat. Látva a hagyományos álláskeresési módszerek hatékonyságát és az álláskeresők frusztrációit, úgy döntöttünk, hogy jobb megoldást alkotunk a technológia felhasználásával.",
+      "content2": "Ma álláskeresők ezrei és cégek százai választják Hirovót. Felhasználó-orientált megközelítésünkkel és folyamatosan fejlődő technológiánkkal minden nap javítjuk az álláskeresési élményt."
+    },
+    "values": {
+      "title": "Az értékeink",
+      "transparency": {
+        "title": "Átláthatóság",
+        "description": "Teljes átláthatóságot biztosítunk az álláshirdetésekben és folyamatainkban."
+      },
+      "equality": {
+        "title": "Egyenlőség",
+        "description": "Mindenkinek egyenlő esélyeket kínálunk, és fellépünk a diszkrimináció ellen."
+      },
+      "innovation": {
+        "title": "innováció",
+        "description": "Folyamatosan fejlesztjük és használjuk a legújabb technológiákat."
+      },
+      "userFirst": {
+        "title": "Felhasználói fókusz",
+        "description": "Minden döntésnél a felhasználói élményt részesítjük előnyben."
+      }
+    },
+    "team": {
+      "title": "A mi csapatunk",
+      "description": "Tapasztalt szakembereinkből álló csapatunk a foglalkoztatási szektorban szerzett több éves tudást hozza el Hirovoba."
+    },
+    "stats": {
+      "title": "Hirovo számokban",
+      "downloads": "Letöltés",
+      "activeUsers": "Aktív felhasználó",
+      "partnerCompanies": "Partner cég",
+      "successfulMatches": "Sikeres egyezés"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Hogyan működik - Hirovo",
+    "metaDescription": "Hogyan működik a Hirovo? Ismerje meg az álláskeresési és jelentkezési folyamatot lépésről lépésre.",
+    "hero": {
+      "title": "Hogyan működik?",
+      "subtitle": "Nagyon könnyűvé tettük az álláskeresést"
+    },
+    "forJobSeekers": {
+      "title": "Álláskeresőknek",
+      "step1": {
+        "title": "Töltse le az alkalmazást",
+        "description": "Töltse le ingyenesen a Hirovo alkalmazást a Google Playről. Gyors és biztonságos telepítés."
+      },
+      "step2": {
+        "title": "Fiók létrehozása",
+        "description": "Regisztráljon másodpercek alatt e-mail címével vagy telefonszámával."
+      },
+      "step3": {
+        "title": "Töltse ki profilját",
+        "description": "Adja hozzá munkatapasztalatát, végzettségét és készségeit. Töltse fel önéletrajzát."
+      },
+      "step4": {
+        "title": "Fedezze fel az álláshirdetéseket",
+        "description": "Szűrők segítségével keresse meg az Önnek megfelelő listákat. Helyszín, fizetés, iparág és egyebek."
+      },
+      "step5": {
+        "title": "Jelentkezzen egy kattintással",
+        "description": "Azonnal alkalmazza a kívánt hirdetéseket. A profilod automatikusan továbbításra kerül."
+      },
+      "step6": {
+        "title": "Kövesse a folyamatot",
+        "description": "Kövesse valós időben alkalmazásai állapotát. Legyen tájékozott az értesítésekkel."
+      }
+    },
+    "forEmployers": {
+      "title": "Munkaadóknak",
+      "step1": {
+        "title": "Hozzon létre egy vállalati fiókot",
+        "description": "Regisztrálja cégét, és fejezze be az ellenőrzési folyamatot."
+      },
+      "step2": {
+        "title": "Álláshirdetés közzététele",
+        "description": "Hozzon létre álláshirdetést részletes munkaleírásokkal és követelményekkel."
+      },
+      "step3": {
+        "title": "Alkalmazások áttekintése",
+        "description": "Szűrje ki a beérkező jelentkezéseket, és válassza ki a megfelelő jelölteket."
+      },
+      "step4": {
+        "title": "Kapcsolatfelvétel a jelöltekkel",
+        "description": "Lépjen kapcsolatba a jelöltekkel közvetlenül a pályázaton keresztül."
+      }
+    },
+    "features": {
+      "title": "Jellemzők",
+      "ai": {
+        "title": "Mesterséges intelligencia támogatása",
+        "description": "Az intelligens algoritmusok az Ön számára legmegfelelőbb munkákat ajánlják."
+      },
+      "realtime": {
+        "title": "Push értesítések",
+        "description": "Azonnali értesítéseket kaphat az új bejegyzésekről és az alkalmazásfrissítésekről."
+      },
+      "secure": {
+        "title": "Biztonságos infrastruktúra",
+        "description": "Adatait a legmagasabb biztonsági szabványok szerint védjük."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Álláskeresőknek – Hirovo",
+    "metaDescription": "Ha munkát keres, Hirovo csak neked való. Több ezer álláshirdetés, egyszerű jelentkezések és karrierlehetőségek.",
+    "hero": {
+      "title": "Álláskeresőknek",
+      "subtitle": "Veled vagyunk a karriered során"
+    },
+    "benefits": {
+      "title": "Miért válassza Hirovót?",
+      "free": {
+        "title": "Teljesen ingyenes",
+        "description": "Minden funkciónk ingyenes az álláskeresők számára. Nincsenek rejtett díjak."
+      },
+      "thousands": {
+        "title": "Több ezer hirdetés",
+        "description": "Aktuális álláshirdetések ezrei minden szektorból és minden szinten."
+      },
+      "easy": {
+        "title": "Egyszerű alkalmazás",
+        "description": "Jelentkezzen egy kattintással, ne pazarolja az időt."
+      },
+      "track": {
+        "title": "Alkalmazáskövetés",
+        "description": "Kövesse nyomon az összes alkalmazást egy helyen."
+      },
+      "notifications": {
+        "title": "Intelligens értesítések",
+        "description": "Azonnal értesülhet az Önnek megfelelő új hirdetésekről."
+      },
+      "privacy": {
+        "title": "Biztonság",
+        "description": "Adatait csak azokkal a cégekkel osztjuk meg, amelyekhez jelentkezik."
+      }
+    },
+    "tips": {
+      "title": "Tippek a sikeres alkalmazáshoz",
+      "tip1": {
+        "title": "Töltse ki profilját",
+        "description": "A teljesen kitöltött profilok háromszor nagyobb figyelmet vonzanak."
+      },
+      "tip2": {
+        "title": "Legyen naprakész",
+        "description": "Frissítse profilját, ahogy új készségekkel és tapasztalatokkal gazdagodik."
+      },
+      "tip3": {
+        "title": "Tartsa bekapcsolva az értesítéseket",
+        "description": "Engedélyezze az értesítéseket, hogy elkerülje a lehetőségek elmulasztását."
+      },
+      "tip4": {
+        "title": "Gyorsan alkalmazza",
+        "description": "Az új kiírásokra gyorsan jelentkezők kerülnek előtérbe."
+      }
+    },
+    "categories": {
+      "title": "Népszerű kategóriák",
+      "subtitle": "A legtöbbet keresett álláskategóriák"
+    },
+    "cta": {
+      "title": "Találja meg álmai állását",
+      "subtitle": "Töltse le a Hirovót most, és fedezze fel a lehetőségek ezreit."
+    }
+  },
+  "employers": {
+    "metaTitle": "Munkaadóknak - Hirovo",
+    "metaDescription": "Találja meg a megfelelő tehetséget Hirovóval. Gyors, hatékony és gazdaságos vásárlási megoldások.",
+    "hero": {
+      "title": "Munkaadóknak",
+      "subtitle": "A legegyszerűbb módja a megfelelő tehetségek megtalálásának"
+    },
+    "benefits": {
+      "title": "Hirovo előnyei",
+      "reach": {
+        "title": "Széles hatótávolság",
+        "description": "Azonnal elérheti aktív álláskeresők ezreit."
+      },
+      "quality": {
+        "title": "Minőségi jelöltek",
+        "description": "Ellenőrzött profilok és részletes önéletrajzok."
+      },
+      "fast": {
+        "title": "Gyors Eredmény",
+        "description": "Az első jelentkezéseket körülbelül 48 órán belül kapja meg."
+      },
+      "affordable": {
+        "title": "Megfizethető ár",
+        "description": "Sokkal gazdaságosabb, mint a hagyományos módszerek."
+      },
+      "easy": {
+        "title": "Egyszerű kezelés",
+        "description": "Kezelje az összes alkalmazást egyetlen panelről."
+      },
+      "support": {
+        "title": "Támogatás",
+        "description": "Segítünk a toborzási folyamatban."
+      }
+    },
+    "process": {
+      "title": "Toborzási folyamat",
+      "step1": "Hozzon létre egy céges fiókot",
+      "step2": "Tedd közzé álláshirdetésedet",
+      "step3": "Tekintse át a pályázatokat",
+      "step4": "Ismerje meg a jelölteket",
+      "step5": "Újonc"
+    },
+    "pricing": {
+      "title": "Árképzés",
+      "subtitle": "Válassza ki az igényeinek megfelelő tervet",
+      "basic": {
+        "title": "Kezdet",
+        "price": "Ingyenes",
+        "features": {
+          "0": "1 hirdetés havonta",
+          "1": "Alapvető szűrés",
+          "2": "E-mailes támogatás"
+        }
+      },
+      "pro": {
+        "title": "Szakmai",
+        "price": "Lépjen kapcsolatba velünk",
+        "features": {
+          "0": "Korlátlan számú hirdetés",
+          "1": "Speciális szűrés",
+          "2": "Kiemelt támogatás",
+          "3": "Jelölt ajánlások"
+        }
+      },
+      "enterprise": {
+        "title": "Intézményi",
+        "price": "Különleges ár",
+        "features": {
+          "0": "Minden Pro funkció",
+          "1": "API hozzáférés",
+          "2": "Egyedi integráció",
+          "3": "számlavezető"
+        }
+      }
+    },
+    "cta": {
+      "title": "Találja meg a megfelelő tehetségeket",
+      "subtitle": "Kezdje el most, és érje el a legjobb jelölteket."
+    }
+  },
+  "faq": {
+    "metaTitle": "Gyakran Ismételt Kérdések – Hirovo",
+    "metaDescription": "Gyakran ismételt kérdések és válaszok Hirovoval kapcsolatban. Információ az álláskeresésről, a jelentkezésről és az alkalmazás használatáról.",
+    "hero": {
+      "title": "Gyakran Ismételt Kérdések",
+      "subtitle": "Minden, amin csodálkozol"
+    },
+    "categories": {
+      "general": "Általános",
+      "account": "Számla",
+      "application": "Alkalmazás",
+      "employers": "munkaadók",
+      "technical": "Műszaki"
+    },
+    "general": {
+      "q1": {
+        "question": "Mi az a Hirovo?",
+        "answer": "A Hirovo egy mobil foglalkoztatási platform, amely összehozza az álláskeresőket és a munkaadókat. Több ezer álláshirdetés között kereshet, egyetlen kattintással jelentkezhet, és követheti a karrierlehetőségeket."
+      },
+      "q2": {
+        "question": "Hirovo szabad?",
+        "answer": "Igen, Hirovo teljesen ingyenes az álláskeresők számára. Minden funkciónkat ingyenesen használhatja."
+      },
+      "q3": {
+        "question": "Honnan tudom letölteni a Hirovot?",
+        "answer": "A Hirovo ingyenesen letölthető a Google Play Áruházból. Az iOS verzió hamarosan megjelenik."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Hogyan tudok fiókot létrehozni?",
+        "answer": "Az alkalmazás letöltése után e-mail címeddel vagy telefonszámoddal másodpercek alatt regisztrálhatsz."
+      },
+      "q2": {
+        "question": "Elfelejtettem a jelszavamat, mit tegyek?",
+        "answer": "Jelszavát e-mailben vagy SMS-ben állíthatja vissza, ha a bejelentkezési képernyőn az „Elfelejtettem a jelszavam” lehetőségre kattint."
+      },
+      "q3": {
+        "question": "Hogyan törölhetem a fiókomat?",
+        "answer": "A fiók törlését az alkalmazáson belüli beállításoknál vagy a weboldalunk „Fiók törlése” oldalán kérheti."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Hogyan követhetem nyomon a jelentkezésemet?",
+        "answer": "Az összes pályázatát és azok állapotát az alkalmazás „Saját alkalmazások” részében láthatja."
+      },
+      "q2": {
+        "question": "Visszavonhatom a jelentkezésemet?",
+        "answer": "Igen, visszavonhatja a még el nem vizsgált kérelmeit."
+      },
+      "q3": {
+        "question": "Miért utasították el a jelentkezésemet?",
+        "answer": "A munkaadók saját szempontjaik szerint készítenek értékeléseket. Növelheti esélyeit, ha frissíti profilját és jelentkezik több bejegyzésre."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Hogyan lehet céges számlát nyitni?",
+        "answer": "Cégét az alkalmazáson keresztül vagy weboldalunkon regisztrálhatja. Az ellenőrzési folyamat 24-48 órán belül befejeződik."
+      },
+      "q2": {
+        "question": "Van-e díja a hirdetés közzétételének?",
+        "answer": "Alapcsomagunk ingyenes. További bejelentésekért és speciális funkciókért tekintse meg professzionális csomagjainkat."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "Az alkalmazás nem nyílik meg, mit tegyek?",
+        "answer": "Először frissítse az alkalmazást. Ha a probléma továbbra is fennáll, törölje az alkalmazást, és telepítse újra. Ha továbbra is problémái vannak, forduljon ügyfélszolgálatunkhoz."
+      },
+      "q2": {
+        "question": "Nem jönnek értesítések?",
+        "answer": "Győződjön meg arról, hogy engedélyezte a Hirovo értesítéseit a telefon beállításaiban. Ellenőrizze értesítési beállításait is az alkalmazáson belüli beállításokban."
+      }
+    },
+    "contact": {
+      "title": "Van kérdésed?",
+      "subtitle": "Forduljon hozzánk olyan kérdéseivel, amelyekre nem találja meg a választ."
+    }
+  },
+  "contact": {
+    "metaTitle": "Kapcsolatfelvétel – Hirovo",
+    "metaDescription": "Lépjen kapcsolatba Hirovóval. Kérdéseiért, javaslataiért és visszajelzéseiért forduljon hozzánk.",
+    "hero": {
+      "title": "Kommunikáció",
+      "subtitle": "Szívesen segítünk Önnek"
+    },
+    "info": {
+      "title": "Elérhetőségi adatok",
+      "email": {
+        "title": "Email",
+        "value": "hello@hirovo.com",
+        "description": "24 órás e-mailes támogatás"
+      },
+      "phone": {
+        "title": "Telefon",
+        "value": "+90 (212) 000 00 00",
+        "description": "Hétfőtől péntekig 09:00-18:00"
+      },
+      "address": {
+        "title": "Cím",
+        "value": "Isztambul, Törökország",
+        "description": "Központi irodánk"
+      }
+    },
+    "form": {
+      "title": "Írjon nekünk",
+      "name": "Az Ön neve és vezetékneve",
+      "email": "Az Ön e-mail címe",
+      "subject": "Téma",
+      "message": "Az Ön üzenete",
+      "submit": "Elküld",
+      "subjects": {
+        "general": "Általános kérdés",
+        "support": "Műszaki támogatás",
+        "partnership": "Partnerség",
+        "feedback": "Visszacsatolás",
+        "other": "Más"
+      },
+      "success": "Üzenetét sikeresen elküldtük. A lehető leghamarabb visszakeresünk.",
+      "error": "Hiba történt. Kérjük, próbálja újra később."
+    },
+    "social": {
+      "title": "Social Media",
+      "subtitle": "Kövess minket a közösségi médiában"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Karriertanácsok – Hirovo",
+    "metaDescription": "Szakértői tanácsok álláskereséssel, önéletrajz-készítéssel, interjútechnikákkal és karrierfejlesztéssel kapcsolatban.",
+    "hero": {
+      "title": "Karrier tanácsok",
+      "subtitle": "Emelje karrierjét a következő szintre"
+    },
+    "categories": {
+      "resume": "CV készítés",
+      "interview": "Interjú technikák",
+      "career": "Karrierfejlesztés",
+      "workplace": "Üzleti élet"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Hogyan készítsünk hatékony önéletrajzot?",
+        "summary": "Professzionális önéletrajz-készítési útmutató, amely felkelti a munkáltatók figyelmét.",
+        "content": "Az önéletrajz az első benyomás az álláspályázatról. A jól elkészített önéletrajz megkülönbözteti Önt a többi jelölttől, és növeli az esélyét arra, hogy interjúra meghívást kapjon. Íme tippek a hatékony önéletrajzhoz:\n\n1. Használjon világos és tömör formátumot\n2. Emelje ki releváns tapasztalatait\n3. Támogassa konkrét eredményeit számokkal\n4. Használja helyesen a kulcsszavakat\n5. Gondosan ellenőrizze a hibákat"
+      },
+      "resume2": {
+        "title": "Az önéletrajzban elkövetett leggyakoribb hibák",
+        "summary": "Az önéletrajz hibái, amelyek a jelentkezések elutasítását okozhatják, és hogyan lehet ezeket elkerülni.",
+        "content": "Sok jelölt kritikus hibákat követ el önéletrajzában anélkül, hogy észrevenné. Ezen hibák felismerése és kijavítása felgyorsítja az álláskeresési folyamatot."
+      },
+      "interview1": {
+        "title": "A siker titkai az interjúkban",
+        "summary": "Technikák, amelyeket ismernie kell ahhoz, hogy sikeres legyen az állásinterjúkon.",
+        "content": "Az interjú az álláspályázati folyamat legkritikusabb szakasza. A jól felkészült jelöltek képesek kezelni a stresszt, és a legjobban fejezik ki magukat."
+      },
+      "interview2": {
+        "title": "A leggyakrabban ismételt interjúkérdések",
+        "summary": "Kérdések, amelyekkel az állásinterjúkon találkozni fog, és hatékony válaszstratégiák.",
+        "content": "Az interjúkon szinte mindig feltesznek bizonyos kérdéseket. Ha előre felkészülsz ezekre a kérdésekre, az növeli az önbizalmad."
+      },
+      "career1": {
+        "title": "Azoknak, akik karriert szeretnének változtatni",
+        "summary": "Lépésről lépésre szóló útmutató azoknak, akik szektort vagy pozíciót szeretnének váltani.",
+        "content": "A karrierváltás ijesztőnek tűnhet, de megfelelő tervezéssel sikeresen végrehajtható."
+      },
+      "career2": {
+        "title": "Professzionális hálózatépítés",
+        "summary": "Olyan kapcsolatok építésének módjai, amelyek előremozdítják karrierjét.",
+        "content": "Az erős szakmai hálózat növeli a karrierlehetőségeket, és folyamatosan tájékoztatja Önt az iparági fejleményekről."
+      },
+      "workplace1": {
+        "title": "Mit kell figyelembe venni új munka megkezdésekor",
+        "summary": "Gyakorlati tanácsok a sikerhez az első munkanaptól kezdve.",
+        "content": "Valami új elindítása izgalmas, de stresszes lehet. A megfelelő megközelítéssel gyorsan alkalmazkodhat, és sikeresen indulhat."
+      },
+      "workplace2": {
+        "title": "Hogyan lehet megteremteni a munka és a magánélet egyensúlyát?",
+        "summary": "A karrier és a magánélet egyensúlyának módjai.",
+        "content": "A munka és a magánélet egészséges egyensúlya kulcsfontosságú mind a karrier sikere, mind a személyes boldogság szempontjából."
+      }
+    },
+    "newsletter": {
+      "title": "Szerezzen karrier tippeket",
+      "subtitle": "Iratkozzon fel hírlevelünkre a legfrissebb szakmai tanácsokért és álláslehetőségekért.",
+      "placeholder": "Az Ön e-mail címe",
+      "button": "Iratkozz fel"
+    }
+  },
+  "privacy": {
+    "title": "Adatvédelmi szabályzat",
+    "metaTitle": "Adatvédelmi szabályzat – Hirovo",
+    "metaDescription": "Hirovo adatvédelmi szabályzata – Tájékoztatás arról, hogyan gyűjtik, használják és védik személyes adatait.",
+    "lastUpdate": "Utolsó frissítés: 2025. január",
+    "intro": "A Hirovonál nagy jelentőséget tulajdonítunk felhasználóiink magánéletének védelmének. Ez az adatvédelmi szabályzat elmagyarázza, hogyan dolgozzuk fel a Hirovo mobilalkalmazáson (\"Alkalmazás\") keresztül gyűjtött személyes adatokat.",
+    "section1": {
+      "title": "1. Az általunk gyűjtött információk",
+      "intro": "Alkalmazásunk használata során a következő információkat gyűjthetjük:",
+      "items": {
+        "account": "Fiókinformációk: Név, vezetéknév, e-mail cím, telefonszám",
+        "profile": "Profil információ: önéletrajz, munkatapasztalat, oktatási információk, készségek",
+        "location": "Helyinformáció: Helyadatok az Ön közelében lévő álláshirdetések megjelenítéséhez (az Ön engedélyével)",
+        "device": "Eszközinformáció: Az eszköz bemutatása, az operációs rendszer, az alkalmazás verziója",
+        "usage": "Használati adatok: Alkalmazáson belüli interakciók, megtekintett hirdetések, alkalmazások"
+      }
+    },
+    "section2": {
+      "title": "2. Az információ felhasználásának céljai",
+      "intro": "Az általunk gyűjtött információkat a következő célokra használjuk fel:",
+      "items": {
+        "account": "Fiók létrehozása és kezelése",
+        "jobs": "Az Ön számára megfelelő álláshirdetések megjelenítése",
+        "applications": "Az álláspályázatok továbbítása a munkáltatóknak",
+        "improve": "Az alkalmazási élmény javítása",
+        "support": "Technikai támogatás biztosítása",
+        "legal": "Törvényi kötelezettségeink teljesítésére"
+      }
+    },
+    "section3": {
+      "title": "3. Információ megosztása",
+      "intro": "Személyes adatait nem osztjuk meg harmadik féllel, kivéve az alábbi esetekben:",
+      "items": {
+        "employers": "Munkaadók: Megosztjuk profiladatait azoknak az álláshirdetéseknek a tulajdonosaival, amelyekre jelentkezik.",
+        "providers": "Szolgáltatók: Megbízható partnerek, akik az alkalmazásunk működéséhez szükséges műszaki szolgáltatásokat nyújtják.",
+        "legal": "Jogi kötelezettségek: A jogi eljárásoknak vagy az illetékes hatóságok kérésének megfelelően"
+      }
+    },
+    "section4": {
+      "title": "4. Adatbiztonság",
+      "intro": "Ipari szabványos biztonsági intézkedéseket vezetünk be személyes adatainak védelme érdekében:",
+      "items": {
+        "ssl": "SSL/TLS titkosítás",
+        "datacenter": "Biztonságos adatközpontok",
+        "audits": "Rendszeres biztonsági auditok",
+        "access": "Hozzáférés ellenőrzése és engedélyezése"
+      }
+    },
+    "section5": {
+      "title": "5. Az Ön jogai",
+      "intro": "A személyes adatok védelméről szóló 6698. számú törvény (KVKK) értelmében Önt az alábbi jogok illetik meg:",
+      "items": {
+        "know": "Megtudhatja, hogy személyes adatait feldolgozzák-e vagy sem",
+        "info": "Tájékoztatás kérése személyes adatairól, ha azokat feldolgozták",
+        "purpose": "Ismerje meg személyes adatai feldolgozásának célját, és azt, hogy azokat rendeltetésszerűen használják-e fel",
+        "thirdParty": "Azon harmadik felek ismerete, akiknek személyes adatokat továbbítanak belföldön vagy külföldön",
+        "correct": "Személyes adatok helyesbítésének kérése, ha azok hiányosak vagy helytelenül dolgoztak fel",
+        "delete": "Kérje személyes adatai törlését vagy megsemmisítését"
+      }
+    },
+    "section6": {
+      "title": "6. Cookie-k és nyomkövetési technológiák",
+      "content": "Alkalmazásunk cookie-kat és hasonló technológiákat használhat az élmény javítása érdekében. Ezeknek a technológiáknak köszönhetően emlékezünk az Ön preferenciáira, és elemezzük az alkalmazások teljesítményét."
+    },
+    "section7": {
+      "title": "7. Gyermekek magánélete",
+      "content": "Pályázatunk nem 18 éven aluli személyeknek szól. 18 éven aluliaktól tudatosan nem gyűjtünk személyes adatokat."
+    },
+    "section8": {
+      "title": "8. Az irányelvek változásai",
+      "content": "Időről időre frissíthetjük ezt az Adatvédelmi szabályzatot. Jelentős változások esetén alkalmazáson belüli értesítésekkel értesítjük."
+    },
+    "section9": {
+      "title": "9. Kommunikáció",
+      "intro": "Adatvédelemmel kapcsolatos kérdéseivel forduljon hozzánk:"
+    }
+  },
+  "terms": {
+    "title": "Felhasználási feltételek",
+    "metaTitle": "Felhasználási feltételek – Hirovo",
+    "metaDescription": "Hirovo használati feltételei – Szabályok és feltételek, amelyeket be kell tartania az alkalmazás használata során.",
+    "lastUpdate": "Utolsó frissítés: 2025. január",
+    "intro": "A Hirovo mobilalkalmazás (\"Alkalmazás\") használatával Ön elfogadta a következő használati feltételeket. Kérjük, figyelmesen olvassa el ezeket a feltételeket.",
+    "section1": {
+      "title": "1. A szolgáltatás leírása",
+      "intro": "A Hirovo egy álláskereső platform, amelynek célja az álláskeresők és a munkaadók összekapcsolása. Alkalmazásunkon keresztül:",
+      "items": {
+        "view": "Megtekintheti az álláshirdetéseket és jelentkezhet",
+        "profile": "Létrehozhatja szakmai profilját",
+        "offers": "Értékelheti a munkáltatók ajánlatait",
+        "track": "Követheti a karrierlehetőségeket"
+      }
+    },
+    "section2": {
+      "title": "2. Fiók létrehozása és biztonsága",
+      "intro": "Alkalmazásunk használatához fiókot kell létrehoznia. Fiók létrehozásakor:",
+      "items": {
+        "accurate": "Ön vállalja, hogy pontos és aktuális információkat ad",
+        "responsible": "Ön felelős fiókinformációinak bizalmas kezeléséért.",
+        "activity": "Ön felelős minden olyan tevékenységért, amely a fiókjában történik.",
+        "notify": "Jogosulatlan hozzáférés esetén haladéktalanul értesítenie kell bennünket"
+      }
+    },
+    "section3": {
+      "title": "3. Felhasználó kötelezettségei",
+      "intro": "Alkalmazásunk használata során elfogadja az alábbi szabályok betartását:",
+      "items": {
+        "legal": "A törvényeknek és előírásoknak megfelelően eljárva",
+        "honest": "Pontos és nem félrevezető információk megosztása",
+        "respect": "Más felhasználók jogainak tiszteletben tartása",
+        "noSpam": "Nem oszt meg spamet, rosszindulatú programokat vagy rosszindulatú tartalmat",
+        "security": "Az alkalmazás biztonságát veszélyeztető műveletek elkerülése",
+        "identity": "Nem másoknak megszemélyesíteni"
+      }
+    },
+    "section4": {
+      "title": "4. Tiltott viselkedések",
+      "intro": "A következő viselkedések szigorúan tilosak:",
+      "items": {
+        "fake": "Hamis álláshirdetések vagy profilok létrehozása",
+        "harass": "Más felhasználók zaklatása vagy zaklatása",
+        "illegal": "Az alkalmazás használata illegális célokra",
+        "damage": "Az alkalmazás műszaki infrastruktúrájának károsodása",
+        "bots": "Automatizált rendszerek vagy botok használata",
+        "ip": "Szellemi tulajdonjogok megsértése"
+      }
+    },
+    "section5": {
+      "title": "5. Tartalom és szellemi tulajdon",
+      "intro": "Az alkalmazással és annak tartalmával kapcsolatos minden jog Hirovo-t illeti meg:",
+      "items": {
+        "ownership": "A logó, a design és a felület a Hirovo tulajdonát képezi",
+        "userContent": "A felhasználó által feltöltött tartalom a felhasználó felelőssége.",
+        "license": "Ön megadja nekünk a szükséges licenceket a profiljában megosztott információkhoz.",
+        "thirdParty": "Az Ön tartalma nem sértheti harmadik fél jogait"
+      }
+    },
+    "section6": {
+      "title": "6. A felelősség korlátozása",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Nem garantálja az álláshirdetések pontosságát",
+        "relationship": "Nem részese a munkáltató-alkalmazott jogviszonynak",
+        "disputes": "Nem felelős a felhasználók közötti vitákért",
+        "uptime": "Nem garantálja, hogy a szolgáltatás megszakítás nélkül fog működni.",
+        "damages": "Nem felelős semmilyen közvetett vagy következményes károkért."
+      }
+    },
+    "section7": {
+      "title": "7. Fiók felfüggesztése és megszüntetése",
+      "intro": "A következő helyzetekben felfüggeszthetjük vagy megszüntethetjük fiókját:",
+      "items": {
+        "violation": "A felhasználási feltételek megsértése",
+        "illegal": "Illegális tevékenységek",
+        "harm": "Más felhasználókat károsító magatartások",
+        "false": "Hamis vagy félrevezető információk megadása"
+      }
+    },
+    "section8": {
+      "title": "8. Változások",
+      "content": "Fenntartjuk a jogot a jelen használati feltételek előzetes értesítés nélküli megváltoztatására. A fontos változásokat az alkalmazáson belüli értesítéseken keresztül értesítjük. Az alkalmazás használatának folytatása a változtatások után azt jelenti, hogy elfogadja az új feltételeket."
+    },
+    "section9": {
+      "title": "9. Alkalmazandó jog",
+      "content": "Ezekre a használati feltételekre a Török Köztársaság törvényei vonatkoznak. Vita esetén az isztambuli bíróságok és a végrehajtó hivatalok rendelkeznek joghatósággal."
+    },
+    "section10": {
+      "title": "10. Kommunikáció",
+      "intro": "A felhasználási feltételekkel kapcsolatos kérdéseivel:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Fióktörlési kérelem",
+    "metaTitle": "Fiók törlése – Hirovo",
+    "metaDescription": "Kérje Hirovo-fiókja törlését.",
+    "description": "Ha törölni szeretné fiókját, töltse ki az alábbi űrlapot. Kérelmének felülvizsgálatát követően fiókja és minden adata véglegesen törlődik.",
+    "warning": "Fiókja törlése után minden adata (profilinformációk, alkalmazások, üzenetek) véglegesen törlődik, és nem állítható vissza.",
+    "form": {
+      "emailLabel": "E-mail cím",
+      "emailPlaceholder": "example@email.com",
+      "phoneLabel": "Telefonszám",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "A törlés oka",
+      "reasonPlaceholder": "Miért szeretné törölni a fiókját?",
+      "submitButton": "Fióktörlési kérelem benyújtása"
+    },
+    "errors": {
+      "emailOrPhone": "Kérjük, adja meg e-mail címét vagy telefonszámát.",
+      "generic": "Hiba történt. Kérjük, próbálja újra később.",
+      "connection": "Csatlakozási hiba. Kérjük, ellenőrizze internetkapcsolatát."
+    },
+    "success": {
+      "title": "Kérését megkaptuk",
+      "message": "Fióktörlési kérelmét sikeresen megkaptuk. Kérelmét a lehető leghamarabb megvizsgáljuk, és e-mailben vagy SMS-ben értesítjük.",
+      "processingTime": "Feldolgozási idő: 1-3 munkanap"
+    },
+    "contactNote": "Elérhet minket a címen."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Válassza a Nyelv lehetőséget",
+    "popularLanguages": "Népszerű nyelvek"
+  }
+}

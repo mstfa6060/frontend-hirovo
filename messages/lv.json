@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Lejupielādēt",
+    "downloadApp": "Lejupielādējiet lietotni",
+    "googlePlay": "Google Play",
+    "email": "E-pasts",
+    "phone": "Tālrunis",
+    "or": "vai",
+    "loading": "Notiek ielāde...",
+    "sending": "Notiek sūtīšana...",
+    "error": "Kļūda",
+    "success": "Veiksmīgi",
+    "submit": "Sūtīt",
+    "optional": "pēc izvēles",
+    "important": "Svarīgi",
+    "contact": "Komunikācija",
+    "questions": "Jūsu jautājumiem",
+    "learnMore": "Vairāk informācijas",
+    "getStarted": "Sāciet tūlīt",
+    "readMore": "Lasīt vairāk",
+    "viewAll": "Skatīt visu",
+    "free": "Bezmaksas",
+    "new": "Jauns"
+  },
+  "metadata": {
+    "title": "Hirovo — darba meklēšanas un reklāmas platforma",
+    "description": "Hirovo ir darba meklēšanas un sludinājumu platforma. Atklājiet darba sludinājumus, viegli piesakieties un sekojiet karjeras iespējām.",
+    "keywords": "darba atrašana, darba sludinājumi, karjera, darba meklēšana, personāla sludinājumi, personāla meklētāji, personāla atlase, Hirovo",
+    "ogTitle": "Hirovo — nodarbinātības un karjeras platforma",
+    "ogDescription": "Atklājiet darba sludinājumus, piesakieties un sekojiet karjeras iespējām kopā ar Hirovo."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Par mums",
+    "howItWorks": "Kā tas darbojas",
+    "forJobSeekers": "Darba meklētāji",
+    "forEmployers": "darba devējiem",
+    "faq": "FAQ",
+    "contact": "Komunikācija",
+    "careerTips": "Karjeras padomi"
+  },
+  "footer": {
+    "copyright": "2025. gads Hirovo",
+    "privacy": "Privātuma politika",
+    "terms": "Lietošanas noteikumi",
+    "deleteAccount": "Konta dzēšana",
+    "home": "Mājas lapa",
+    "about": "Par mums",
+    "contact": "Komunikācija",
+    "faq": "FAQ",
+    "howItWorks": "Kā tas darbojas",
+    "forJobSeekers": "Darba meklētājiem",
+    "forEmployers": "Darba devējiem",
+    "careerTips": "Karjeras padomi",
+    "company": "Uzņēmums",
+    "resources": "Resursi",
+    "legal": "Juridisks",
+    "followUs": "Sekojiet mums",
+    "description": "Turcijas novatoriskākā nodarbinātības platforma. Jūsu sapnis būs soli tuvāk."
+  },
+  "home": {
+    "hero": {
+      "title": "Atrodiet savu sapņu darbu",
+      "subtitle": "Atklājiet tūkstošiem darba sludinājumu, viegli piesakieties un sekojiet karjeras iespējām kopā ar Hirovo.",
+      "stats": {
+        "jobs": "Aktīvs darba sludinājums",
+        "users": "Reģistrēts lietotājs",
+        "companies": "Partneru uzņēmums",
+        "placements": "Veiksmīga saskaņošana"
+      }
+    },
+    "features": {
+      "title": "Kāpēc Hirovo?",
+      "subtitle": "Mūsu funkcijas, kas atvieglo darba meklēšanu",
+      "easySearch": {
+        "title": "Vienkārša meklēšana",
+        "description": "Ātri meklējiet starp tūkstošiem darba sludinājumu un atrodiet sev piemērotas iespējas."
+      },
+      "quickApply": {
+        "title": "Ātrā lietojumprogramma",
+        "description": "Piesakieties tikai ar vienu klikšķi, netērējiet laiku. Izveidojiet savu profilu vienreiz un izmantojiet to visur."
+      },
+      "notifications": {
+        "title": "Push paziņojumi",
+        "description": "Nekavējoties uzziniet par jauniem ierakstiem un pieteikumu statusiem, nepalaidiet garām iespēju."
+      },
+      "smartMatch": {
+        "title": "Viedā saskaņošana",
+        "description": "Mākslīgā intelekta atbalstītā sistēma iesaka jums tos darbus, kas vislabāk atbilst jūsu prasmēm."
+      },
+      "secureProfile": {
+        "title": "Drošs profils",
+        "description": "Jūsu personiskā informācija tiek glabāta droši un koplietota ar darba devēju tikai tad, kad piesakāties."
+      },
+      "careerSupport": {
+        "title": "Karjeras atbalsts",
+        "description": "Mēs esam šeit, lai palīdzētu jums ar CV sagatavošanu, interviju metodēm un karjeras konsultācijām."
+      }
+    },
+    "categories": {
+      "title": "Populāras biznesa kategorijas",
+      "subtitle": "Atklājiet iespējas vispieprasītākajās nozarēs",
+      "technology": "Tehnoloģija",
+      "healthcare": "Veselība",
+      "finance": "Finanses",
+      "education": "Izglītība",
+      "retail": "Mazumtirdzniecība",
+      "manufacturing": "Ražošana",
+      "hospitality": "Tūrisms un viesmīlība",
+      "construction": "Ēka"
+    },
+    "howItWorks": {
+      "title": "Kā tas darbojas?",
+      "subtitle": "Atrodiet darbu, veicot trīs vienkāršas darbības",
+      "step1": {
+        "title": "Lejupielādējiet lietotni",
+        "description": "Lejupielādējiet Hirovo bez maksas no Google Play un izveidojiet savu kontu."
+      },
+      "step2": {
+        "title": "Izveidojiet savu profilu",
+        "description": "Pievienojiet savu pieredzi, prasmes un vēlmes."
+      },
+      "step3": {
+        "title": "Piesakieties un sāciet uzņēmējdarbību",
+        "description": "Piesakieties sev piemērotiem darba sludinājumiem un sazinieties ar darba devējiem."
+      }
+    },
+    "testimonials": {
+      "title": "Lietotāju komentāri",
+      "subtitle": "Mūsu lietotāju pieredze, kuri atrada darbu Hirovo"
+    },
+    "cta": {
+      "title": "Sāciet tūlīt",
+      "subtitle": "Lejupielādējiet Hirovo, jūsu sapnis būs soli tuvāk.",
+      "downloadFree": "Bezmaksas lejupielāde"
+    }
+  },
+  "about": {
+    "metaTitle": "Par mums - Hirovo",
+    "metaDescription": "Uzziniet par Hirovo. Mūsu misija, mūsu vīzija un mūsu skatījums uz nodarbinātības nozari.",
+    "hero": {
+      "title": "Par mums",
+      "subtitle": "Mēs nolēmām mainīt biznesa pasauli"
+    },
+    "mission": {
+      "title": "Mūsu misija",
+      "description": "Satuvināt darba meklētājus un darba devējus visefektīvākajā veidā, atvieglot darba meklēšanas procesu ikvienam un radīt godīgas darba iespējas."
+    },
+    "vision": {
+      "title": "Mūsu Vīzija",
+      "description": "Kā Turcijas un reģiona vadošā digitālās nodarbinātības platforma, kas palīdz miljoniem cilvēku sasniegt savus karjeras mērķus."
+    },
+    "story": {
+      "title": "Mūsu stāsts",
+      "content1": "Uzņēmums Hirovo tika dibināts 2024. gadā, lai atrisinātu problēmas, ar kurām saskaras darba meklētāji. Redzot tradicionālo darba meklēšanas metožu neefektivitāti un darba meklētāju neapmierinātību, nolēmām radīt labāku risinājumu, izmantojot tehnoloģijas.",
+      "content2": "Šodien tūkstošiem darba meklētāju un simtiem uzņēmumu izvēlas Hirovo. Ar mūsu uz lietotāju orientētu pieeju un nepārtraukti pilnveidojamām tehnoloģijām mēs katru dienu uzlabojam darba meklēšanas pieredzi."
+    },
+    "values": {
+      "title": "Mūsu vērtības",
+      "transparency": {
+        "title": "Caurspīdīgums",
+        "description": "Mēs nodrošinām pilnīgu darba sludinājumu un mūsu procesu caurskatāmību."
+      },
+      "equality": {
+        "title": "Vienlīdzība",
+        "description": "Mēs piedāvājam vienlīdzīgas iespējas ikvienam un iestājamies pret diskrimināciju."
+      },
+      "innovation": {
+        "title": "inovācijas",
+        "description": "Mēs pastāvīgi pilnveidojamies un izmantojam jaunākās tehnoloģijas."
+      },
+      "userFirst": {
+        "title": "Lietotāja fokuss",
+        "description": "Mēs visos lēmumos par prioritāti izvirzām lietotāja pieredzi."
+      }
+    },
+    "team": {
+      "title": "Mūsu komanda",
+      "description": "Mūsu pieredzējušo profesionāļu komanda ienes Hirovo daudzu gadu zināšanas nodarbinātības jomā."
+    },
+    "stats": {
+      "title": "Hirovo skaitļos",
+      "downloads": "Lejupielādēt",
+      "activeUsers": "Aktīvs lietotājs",
+      "partnerCompanies": "Partneru uzņēmums",
+      "successfulMatches": "Veiksmīga saskaņošana"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Kā tas darbojas - Hirovo",
+    "metaDescription": "Kā Hirovo darbojas? Uzziniet soli pa solim darba meklēšanas un pieteikšanās procesu.",
+    "hero": {
+      "title": "Kā tas darbojas?",
+      "subtitle": "Mēs padarījām tik vienkāršu darba atrašanu"
+    },
+    "forJobSeekers": {
+      "title": "Darba meklētājiem",
+      "step1": {
+        "title": "Lejupielādējiet lietotni",
+        "description": "Lejupielādējiet Hirovo lietotni bez maksas no pakalpojuma Google Play. Ātra un droša uzstādīšana."
+      },
+      "step2": {
+        "title": "Izveidot kontu",
+        "description": "Reģistrējieties dažu sekunžu laikā, izmantojot savu e-pastu vai tālruņa numuru."
+      },
+      "step3": {
+        "title": "Pabeidziet savu profilu",
+        "description": "Pievienojiet savu darba pieredzi, izglītību un prasmes. Augšupielādējiet savu CV."
+      },
+      "step4": {
+        "title": "Izpētiet darba sludinājumus",
+        "description": "Atrodiet sev piemērotus sarakstus, izmantojot filtrus. Atrašanās vieta, alga, nozare un daudz kas cits."
+      },
+      "step5": {
+        "title": "Piesakies ar vienu klikšķi",
+        "description": "Uzreiz piesakieties reklāmām, kas jums patīk. Jūsu profils tiek automātiski pārsūtīts."
+      },
+      "step6": {
+        "title": "Sekojiet procesam",
+        "description": "Sekojiet savu lietojumprogrammu statusam reāllaikā. Esiet informēts ar paziņojumiem."
+      }
+    },
+    "forEmployers": {
+      "title": "Darba devējiem",
+      "step1": {
+        "title": "Izveidojiet uzņēmuma kontu",
+        "description": "Reģistrējiet savu uzņēmumu un pabeidziet verifikācijas procesu."
+      },
+      "step2": {
+        "title": "Publicējiet darba sludinājumu",
+        "description": "Izveidojiet darba sludinājumu ar detalizētiem darba aprakstiem un prasībām."
+      },
+      "step3": {
+        "title": "Pārskatiet lietojumprogrammas",
+        "description": "Filtrējiet ienākošos pieteikumus un atlasiet piemērotus kandidātus."
+      },
+      "step4": {
+        "title": "Sazinieties ar kandidātiem",
+        "description": "Sazinieties ar kandidātiem tieši, izmantojot pieteikumu."
+      }
+    },
+    "features": {
+      "title": "Funkcijas",
+      "ai": {
+        "title": "Mākslīgā intelekta atbalsts",
+        "description": "Inteliģentie algoritmi iesaka jums piemērotākos darbus."
+      },
+      "realtime": {
+        "title": "Push paziņojumi",
+        "description": "Saņemiet tūlītējus paziņojumus par jauniem ierakstiem un lietojumprogrammu atjauninājumiem."
+      },
+      "secure": {
+        "title": "Droša infrastruktūra",
+        "description": "Jūsu dati tiek aizsargāti ar visaugstākajiem drošības standartiem."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Darba meklētājiem - Hirovo",
+    "metaDescription": "Ja meklējat darbu, Hirovo ir tieši jums. Tūkstošiem darba sludinājumu, vienkāršas pieteikšanās un karjeras iespējas.",
+    "hero": {
+      "title": "Darba meklētājiem",
+      "subtitle": "Mēs esam kopā ar jums jūsu karjeras ceļā"
+    },
+    "benefits": {
+      "title": "Kāpēc izvēlēties Hirovo?",
+      "free": {
+        "title": "Pilnīgi bezmaksas",
+        "description": "Visas mūsu funkcijas darba meklētājiem ir bez maksas. Nav slēptu maksu."
+      },
+      "thousands": {
+        "title": "Tūkstošiem sludinājumu",
+        "description": "Tūkstošiem pašreizējo darba sludinājumu no katras nozares un katrā līmenī."
+      },
+      "easy": {
+        "title": "Vienkārša pielietošana",
+        "description": "Piesakies ar vienu klikšķi, netērē laiku."
+      },
+      "track": {
+        "title": "Lietojumprogrammu izsekošana",
+        "description": "Izsekojiet visas savas lietojumprogrammas vienuviet."
+      },
+      "notifications": {
+        "title": "Viedie paziņojumi",
+        "description": "Esiet uzreiz informēts par jauniem, jums piemērotiem sludinājumiem."
+      },
+      "privacy": {
+        "title": "Drošība",
+        "description": "Jūsu informācija tiek kopīgota tikai ar uzņēmumiem, kuriem piesakāties."
+      }
+    },
+    "tips": {
+      "title": "Padomi veiksmīgai pieteikšanai",
+      "tip1": {
+        "title": "Pabeidziet savu profilu",
+        "description": "Pilnībā aizpildīti profili piesaista 3 reizes lielāku uzmanību."
+      },
+      "tip2": {
+        "title": "Seko līdzi jaunākajai informācijai",
+        "description": "Atjauniniet savu profilu, pievienojot jaunas prasmes un pieredzi."
+      },
+      "tip3": {
+        "title": "Saglabājiet paziņojumus ieslēgtus",
+        "description": "Atļaujiet paziņojumus, lai izvairītos no iespēju neizmantošanas."
+      },
+      "tip4": {
+        "title": "Piesakies Ātri",
+        "description": "Priekšplānā izvirzās tie, kas ātri piesakās jauniem ierakstiem."
+      }
+    },
+    "categories": {
+      "title": "Populāras kategorijas",
+      "subtitle": "Visbiežāk meklētās darba kategorijas"
+    },
+    "cta": {
+      "title": "Atrodiet savu sapņu darbu",
+      "subtitle": "Lejupielādējiet Hirovo tūlīt un atklājiet tūkstošiem iespēju."
+    }
+  },
+  "employers": {
+    "metaTitle": "Darba devējiem - Hirovo",
+    "metaDescription": "Atrodiet pareizo talantu kopā ar Hirovo. Ātri, efektīvi un ekonomiski iepirkšanās risinājumi.",
+    "hero": {
+      "title": "Darba devējiem",
+      "subtitle": "Vienkāršākais veids, kā atrast īstos talantus"
+    },
+    "benefits": {
+      "title": "Hirovo priekšrocības",
+      "reach": {
+        "title": "Plaša sasniedzamība",
+        "description": "Uzreiz sasniedziet tūkstošiem aktīvu darba meklētāju."
+      },
+      "quality": {
+        "title": "Kvalitatīvi kandidāti",
+        "description": "Pārbaudīti profili un detalizēti CV."
+      },
+      "fast": {
+        "title": "Ātrs Rezultāts",
+        "description": "Saņemiet pirmos pieteikumus aptuveni 48 stundu laikā."
+      },
+      "affordable": {
+        "title": "Pieejama cena",
+        "description": "Tas ir daudz ekonomiskāks nekā tradicionālās metodes."
+      },
+      "easy": {
+        "title": "Viegla vadība",
+        "description": "Pārvaldiet visas lietojumprogrammas no viena paneļa."
+      },
+      "support": {
+        "title": "Atbalsts",
+        "description": "Mēs palīdzam jums personāla atlases procesā."
+      }
+    },
+    "process": {
+      "title": "Personāla atlases process",
+      "step1": "Izveidojiet uzņēmuma kontu",
+      "step2": "Publicējiet savu darba sludinājumu",
+      "step3": "Pārskatiet pieteikumus",
+      "step4": "Tikties ar kandidātiem",
+      "step5": "Savervēt"
+    },
+    "pricing": {
+      "title": "Cenu noteikšana",
+      "subtitle": "Izvēlieties savām vajadzībām atbilstošu plānu",
+      "basic": {
+        "title": "Sākums",
+        "price": "Bezmaksas",
+        "features": {
+          "0": "1 reklāma mēnesī",
+          "1": "Pamata filtrēšana",
+          "2": "E-pasta atbalsts"
+        }
+      },
+      "pro": {
+        "title": "Profesionāls",
+        "price": "Sazinieties ar mums",
+        "features": {
+          "0": "Neierobežots reklāmu skaits",
+          "1": "Uzlabotā filtrēšana",
+          "2": "Prioritārais atbalsts",
+          "3": "Kandidātu ieteikumi"
+        }
+      },
+      "enterprise": {
+        "title": "Institucionāls",
+        "price": "Īpaša cena",
+        "features": {
+          "0": "Visas Pro funkcijas",
+          "1": "API piekļuve",
+          "2": "Pielāgota integrācija",
+          "3": "konta pārvaldnieks"
+        }
+      }
+    },
+    "cta": {
+      "title": "Atrodiet īstos talantus",
+      "subtitle": "Sāciet tūlīt un sasniedziet labākos kandidātus."
+    }
+  },
+  "faq": {
+    "metaTitle": "Bieži uzdotie jautājumi - Hirovo",
+    "metaDescription": "Bieži uzdotie jautājumi un atbildes par Hirovo. Informācija par darba meklēšanu, pieteikšanos un aplikācijas izmantošanu.",
+    "hero": {
+      "title": "Bieži uzdotie jautājumi",
+      "subtitle": "Viss, par ko jūs brīnāties"
+    },
+    "categories": {
+      "general": "Ģenerālis",
+      "account": "Bils",
+      "application": "Pieteikums",
+      "employers": "darba devējiem",
+      "technical": "Tehniski"
+    },
+    "general": {
+      "q1": {
+        "question": "Kas ir Hirovo?",
+        "answer": "Hirovo ir mobilā nodarbinātības platforma, kas apvieno darba meklētājus un darba devējus. Varat meklēt starp tūkstošiem darba sludinājumu, pieteikties ar vienu klikšķi un sekot karjeras iespējām."
+      },
+      "q2": {
+        "question": "Vai Hirovo ir brīvs?",
+        "answer": "Jā, Hirovo ir pilnīgi bez maksas darba meklētājiem. Jūs varat izmantot visas mūsu funkcijas bez maksas."
+      },
+      "q3": {
+        "question": "Kur es varu lejupielādēt Hirovo?",
+        "answer": "Hirovo varat bez maksas lejupielādēt no Google Play veikala. Drīzumā tiks izlaista iOS versija."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Kā es varu izveidot kontu?",
+        "answer": "Pēc lietojumprogrammas lejupielādes jūs varat reģistrēties dažu sekunžu laikā ar savu e-pasta adresi vai tālruņa numuru."
+      },
+      "q2": {
+        "question": "Es aizmirsu savu paroli, kas man jādara?",
+        "answer": "Jūs varat atiestatīt savu paroli, izmantojot e-pastu vai SMS, pieteikšanās ekrānā noklikšķinot uz opcijas \"Aizmirsu savu paroli\"."
+      },
+      "q3": {
+        "question": "Kā es varu izdzēst savu kontu?",
+        "answer": "Varat pieprasīt konta dzēšanu, izmantojot lietotnes iestatījumus vai mūsu vietnes lapu Konta dzēšana."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Kā es varu izsekot savu pieteikumu?",
+        "answer": "Visus savus pieteikumus un to statusu varat redzēt aplikācijas sadaļā 'Manas lietojumprogrammas'."
+      },
+      "q2": {
+        "question": "Vai varu atsaukt savu pieteikumu?",
+        "answer": "Jā, jūs varat atsaukt savus pieteikumus, kas vēl nav izskatīti."
+      },
+      "q3": {
+        "question": "Kāpēc mans pieteikums tika noraidīts?",
+        "answer": "Darba devēji veic novērtējumus pēc saviem kritērijiem. Jūs varat palielināt savas izredzes, atjauninot savu profilu un piesakoties vairākiem ierakstiem."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Kā atvērt uzņēmuma kontu?",
+        "answer": "Jūs varat reģistrēt savu uzņēmumu, izmantojot pieteikumu vai mūsu tīmekļa vietni. Verifikācijas process tiek pabeigts 24–48 stundu laikā."
+      },
+      "q2": {
+        "question": "Vai par sludinājuma publicēšanu ir jāmaksā?",
+        "answer": "Mūsu pamata pakete ir bezmaksas. Lai iegūtu vairāk paziņojumu un papildu funkcijas, varat apskatīt mūsu profesionālās pakotnes."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "Lietojumprogramma netiek atvērta, kas man jādara?",
+        "answer": "Vispirms atjauniniet lietojumprogrammu. Ja problēma joprojām pastāv, izdzēsiet lietotni un atkārtoti instalējiet to. Ja problēmas joprojām pastāv, sazinieties ar mūsu atbalsta komandu."
+      },
+      "q2": {
+        "question": "Paziņojumi nenāk?",
+        "answer": "Tālruņa iestatījumos noteikti atļaujiet Hirovo paziņojumus. Pārbaudiet arī paziņojumu preferences lietotnes iestatījumos."
+      }
+    },
+    "contact": {
+      "title": "Vai jums ir kādi jautājumi?",
+      "subtitle": "Sazinieties ar mums par jautājumiem, uz kuriem nevarat atrast atbildes."
+    }
+  },
+  "contact": {
+    "metaTitle": "Kontaktpersona – Hirovo",
+    "metaDescription": "Sazinieties ar Hirovo. Sazinieties ar mums, lai saņemtu savus jautājumus, ieteikumus un atsauksmes.",
+    "hero": {
+      "title": "Komunikācija",
+      "subtitle": "Mēs labprāt jums palīdzētu"
+    },
+    "info": {
+      "title": "Kontaktinformācija",
+      "email": {
+        "title": "E-pasts",
+        "value": "hello@hirovo.com",
+        "description": "24/7 e-pasta atbalsts"
+      },
+      "phone": {
+        "title": "Tālrunis",
+        "value": "+90 (212) 000 00 00",
+        "description": "No pirmdienas līdz piektdienai no 9:00 līdz 18:00"
+      },
+      "address": {
+        "title": "Adrese",
+        "value": "Stambula, Turcija",
+        "description": "Mūsu galvenais birojs"
+      }
+    },
+    "form": {
+      "title": "Rakstiet mums",
+      "name": "Jūsu vārds un uzvārds",
+      "email": "Jūsu e-pasta adrese",
+      "subject": "Priekšmets",
+      "message": "Jūsu ziņa",
+      "submit": "Sūtīt",
+      "subjects": {
+        "general": "Vispārīgs jautājums",
+        "support": "Tehniskais atbalsts",
+        "partnership": "Partnerība",
+        "feedback": "Atsauksmes",
+        "other": "Cits"
+      },
+      "success": "Jūsu ziņojums ir veiksmīgi nosūtīts. Mēs sazināsimies ar jums, cik drīz vien iespējams.",
+      "error": "Radās kļūda. Lūdzu, vēlāk mēģiniet vēlreiz."
+    },
+    "social": {
+      "title": "Sociālie mediji",
+      "subtitle": "Sekojiet mums sociālajos tīklos"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Karjeras padomi - Hirovo",
+    "metaDescription": "Ekspertu konsultācijas par darba meklēšanu, CV sagatavošanu, intervijas metodēm un karjeras attīstību.",
+    "hero": {
+      "title": "Karjeras padomi",
+      "subtitle": "Paceliet savu karjeru uz nākamo līmeni"
+    },
+    "categories": {
+      "resume": "CV sagatavošana",
+      "interview": "Intervijas metodes",
+      "career": "Karjeras attīstība",
+      "workplace": "Biznesa dzīve"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Kā sagatavot efektīvu CV?",
+        "summary": "Profesionāls CV sagatavošanas ceļvedis, kas piesaista darba devēju uzmanību.",
+        "content": "Jūsu CV ir pirmais iespaids par jūsu darba pieteikumu. Labi sagatavots CV atšķir jūs no citiem kandidātiem un palielina jūsu iespējas saņemt uzaicinājumu uz interviju. Šeit ir padomi efektīvam CV:\n\n1. Izmantojiet skaidru un kodolīgu formātu\n2. Izceliet savu atbilstošo pieredzi\n3. Atbalstiet savus konkrētos sasniegumus ar skaitļiem\n4. Pareizi lietojiet atslēgvārdus\n5. Rūpīgi pārbaudiet, vai nav kļūdu"
+      },
+      "resume2": {
+        "title": "Visbiežāk pieļautās kļūdas CV",
+        "summary": "CV kļūdas, kuru dēļ jūsu pieteikumi var tikt noraidīti, un kā no tām izvairīties.",
+        "content": "Daudzi kandidāti pieļauj kritiskas kļūdas savos CV, to neapzinoties. Šo kļūdu atpazīšana un labošana paātrinās jūsu darba meklēšanas procesu."
+      },
+      "interview1": {
+        "title": "Veiksmes noslēpumi intervijās",
+        "summary": "Paņēmieni, kas jums jāzina, lai gūtu panākumus darba intervijās.",
+        "content": "Intervija ir vissvarīgākais darba pieteikšanās procesa posms. Labi sagatavoti kandidāti var izturēt stresu un izpausties vislabākajā veidā."
+      },
+      "interview2": {
+        "title": "Visbiežāk uzdotie interviju jautājumi",
+        "summary": "Jautājumi, ar kuriem sastapsities darba intervijās, un efektīvas atbilžu stratēģijas.",
+        "content": "Intervijās gandrīz vienmēr tiek uzdoti daži jautājumi. Iepriekšēja sagatavošanās šiem jautājumiem vairo jūsu pašapziņu."
+      },
+      "career1": {
+        "title": "Tiem, kas vēlas mainīt karjeru",
+        "summary": "Soli pa solim ceļvedis tiem, kas vēlas mainīt sektorus vai pozīcijas.",
+        "content": "Karjeras maiņa var šķist biedējoša, taču ar pareizu plānošanu to var paveikt veiksmīgi."
+      },
+      "career2": {
+        "title": "Profesionāla tīklu veidošana",
+        "summary": "Veidi, kā veidot attiecības, kas veicinās jūsu karjeru.",
+        "content": "Spēcīgs profesionālais tīkls palielina karjeras iespējas un informē jūs par nozares attīstību."
+      },
+      "workplace1": {
+        "title": "Lietas, kas jāņem vērā, uzsākot jaunu darbu",
+        "summary": "Praktiski padomi veiksmīgai darbībai jau no pirmās darba dienas.",
+        "content": "Sākt kaut ko jaunu var būt aizraujoši, bet saspringti. Izmantojot pareizo pieeju, jūs varat ātri pielāgoties un veiksmīgi sākt."
+      },
+      "workplace2": {
+        "title": "Kā nodibināt darba un privātās dzīves līdzsvaru?",
+        "summary": "Veidi, kā līdzsvarot savu karjeru un privāto dzīvi.",
+        "content": "Veselīgs darba un privātās dzīves līdzsvars ir svarīgs gan jūsu karjeras panākumiem, gan personīgajai laimei."
+      }
+    },
+    "newsletter": {
+      "title": "Saņemiet karjeras padomus",
+      "subtitle": "Abonējiet mūsu biļetenu, lai uzzinātu jaunākos karjeras padomus un darba iespējas.",
+      "placeholder": "Jūsu e-pasta adrese",
+      "button": "Abonēt"
+    }
+  },
+  "privacy": {
+    "title": "Privātuma politika",
+    "metaTitle": "Privātuma politika - Hirovo",
+    "metaDescription": "Hirovo privātuma politika — informācija par to, kā tiek vākti, izmantoti un aizsargāti jūsu personas dati.",
+    "lastUpdate": "Pēdējā atjaunināšana: 2025. gada janvāris",
+    "intro": "Uzņēmumā Hirovo mēs lielu nozīmi piešķiram mūsu lietotāju privātumam. Šajā Privātuma politikā ir paskaidrots, kā tiek apstrādāti personas dati, kurus mēs ievācam, izmantojot Hirovo mobilo lietojumprogrammu (\"Pieteikums\").",
+    "section1": {
+      "title": "1. Informācija, ko mēs apkopojam",
+      "intro": "Mēs varam apkopot šādu informāciju, kad izmantojat mūsu lietojumprogrammu:",
+      "items": {
+        "account": "Konta informācija: Vārds, uzvārds, e-pasta adrese, tālruņa numurs",
+        "profile": "Profila informācija: CV, darba pieredze, informācija par izglītību, prasmes",
+        "location": "Informācija par atrašanās vietu: atrašanās vietas dati, lai parādītu darba sludinājumus jūsu tuvumā (ar jūsu atļauju)",
+        "device": "Informācija par ierīci: ierīces ceļvedis, operētājsistēma, lietojumprogrammas versija",
+        "usage": "Lietojuma dati: mijiedarbība lietotnē, skatītās reklāmas, lietojumprogrammas"
+      }
+    },
+    "section2": {
+      "title": "2. Informācijas izmantošanas mērķi",
+      "intro": "Mēs izmantojam apkopoto informāciju šādiem mērķiem:",
+      "items": {
+        "account": "Konta izveide un pārvaldība",
+        "jobs": "Tiek rādīti jums piemēroti darba sludinājumi",
+        "applications": "Jūsu darba pieteikumu pārsūtīšana darba devējiem",
+        "improve": "Lietojumprogrammas pieredzes uzlabošana",
+        "support": "Tehniskā atbalsta nodrošināšana",
+        "legal": "Lai izpildītu mūsu juridiskās saistības"
+      }
+    },
+    "section3": {
+      "title": "3. Informācijas apmaiņa",
+      "intro": "Mēs neizpaužam jūsu personas datus trešajām personām, izņemot šādus gadījumus:",
+      "items": {
+        "employers": "Darba devēji: mēs kopīgojam jūsu profila informāciju ar to darba sludinājumu īpašniekiem, kuriem piesakāties.",
+        "providers": "Pakalpojumu sniedzēji: uzticami partneri, kas sniedz tehniskos pakalpojumus, kas nepieciešami mūsu lietojumprogrammas darbībai.",
+        "legal": "Juridiskie pienākumi: saskaņā ar juridiskiem procesiem vai kompetento iestāžu pieprasījumu"
+      }
+    },
+    "section4": {
+      "title": "4. Datu drošība",
+      "intro": "Mēs ieviešam nozares standarta drošības pasākumus, lai aizsargātu jūsu personas datus:",
+      "items": {
+        "ssl": "SSL/TLS šifrēšana",
+        "datacenter": "Droši datu centri",
+        "audits": "Regulāras drošības pārbaudes",
+        "access": "Piekļuves kontrole un autorizācija"
+      }
+    },
+    "section5": {
+      "title": "5. Jūsu tiesības",
+      "intro": "Fizisko personu datu aizsardzības likuma Nr. 6698 (KVKK) ietvaros jums ir šādas tiesības:",
+      "items": {
+        "know": "Uzziniet, vai jūsu personas dati tiek apstrādāti vai netiek apstrādāti",
+        "info": "Informācijas pieprasīšana par jūsu personas datiem, ja tie ir apstrādāti",
+        "purpose": "Uzzinot, kāds ir jūsu personas datu apstrādes mērķis un vai tie tiek izmantoti paredzētajam mērķim",
+        "thirdParty": "Zinot trešās personas, kurām tiek nodoti personas dati mājās vai ārvalstīs",
+        "correct": "Pieprasīt personas datu labošanu, ja tie ir nepilnīgi vai nepareizi apstrādāti",
+        "delete": "Pieprasīt savu personas datu dzēšanu vai iznīcināšanu"
+      }
+    },
+    "section6": {
+      "title": "6. Sīkfaili un izsekošanas tehnoloģijas",
+      "content": "Mūsu lietotne var izmantot sīkfailus un līdzīgas tehnoloģijas, lai uzlabotu jūsu pieredzi. Pateicoties šīm tehnoloģijām, mēs atceramies jūsu preferences un analizējam lietojumprogrammu veiktspēju."
+    },
+    "section7": {
+      "title": "7. Bērnu privātums",
+      "content": "Mūsu pieteikums nav paredzēts personām, kas jaunākas par 18 gadiem. Mēs apzināti neievācam personas datus no personām, kas jaunākas par 18 gadiem."
+    },
+    "section8": {
+      "title": "8. Politikas izmaiņas",
+      "content": "Mēs varam laiku pa laikam atjaunināt šo Privātuma politiku. Būtisku izmaiņu gadījumā mēs jūs informēsim ar paziņojumiem lietotnē."
+    },
+    "section9": {
+      "title": "9. Komunikācija",
+      "intro": "Ja jums ir jautājumi, kas saistīti ar privātumu, varat sazināties ar mums:"
+    }
+  },
+  "terms": {
+    "title": "Lietošanas noteikumi",
+    "metaTitle": "Lietošanas noteikumi - Hirovo",
+    "metaDescription": "Hirovo lietošanas noteikumi — noteikumi un nosacījumi, kas jums jāievēro, izmantojot mūsu lietojumprogrammu.",
+    "lastUpdate": "Pēdējā atjaunināšana: 2025. gada janvāris",
+    "intro": "Izmantojot Hirovo mobilo lietojumprogrammu (\"Lietojumprogramma\"), tiek uzskatīts, ka esat piekritis šādiem lietošanas noteikumiem. Lūdzu, uzmanīgi izlasiet šos noteikumus.",
+    "section1": {
+      "title": "1. Pakalpojuma apraksts",
+      "intro": "Hirovo ir darba meklēšanas platforma, kuras mērķis ir savienot darba meklētājus ar darba devējiem. Izmantojot mūsu pieteikumu:",
+      "items": {
+        "view": "Jūs varat apskatīt darba sludinājumus un pieteikties",
+        "profile": "Jūs varat izveidot savu profesionālo profilu",
+        "offers": "Varat izvērtēt darba devēju piedāvājumus",
+        "track": "Var sekot līdzi karjeras iespējām"
+      }
+    },
+    "section2": {
+      "title": "2. Konta izveide un drošība",
+      "intro": "Lai izmantotu mūsu lietojumprogrammu, jums ir jāizveido konts. Izveidojot kontu:",
+      "items": {
+        "accurate": "Jūs piekrītat sniegt precīzu un aktuālu informāciju",
+        "responsible": "Jūs esat atbildīgs par sava konta informācijas konfidencialitāti.",
+        "activity": "Jūs esat atbildīgs par visām darbībām, kas notiek jūsu kontā.",
+        "notify": "Neatļautas piekļuves gadījumā jums nekavējoties jāinformē mūs"
+      }
+    },
+    "section3": {
+      "title": "3. Lietotāja pienākumi",
+      "intro": "Izmantojot mūsu lietojumprogrammu, jūs piekrītat ievērot šādus noteikumus:",
+      "items": {
+        "legal": "Rīkojoties saskaņā ar normatīvajiem aktiem",
+        "honest": "Precīzas un nemaldinošas informācijas kopīgošana",
+        "respect": "Citu lietotāju tiesību ievērošana",
+        "noSpam": "Nekopīgojiet surogātpastu, ļaunprātīgu programmatūru vai ļaunprātīgu saturu",
+        "security": "Izvairieties no darbībām, kas var apdraudēt lietojumprogrammas drošību",
+        "identity": "Neuzdoties par citiem"
+      }
+    },
+    "section4": {
+      "title": "4. Aizliegta uzvedība",
+      "intro": "Šādas darbības ir stingri aizliegtas:",
+      "items": {
+        "fake": "Viltus darba sludinājumu vai profilu izveide",
+        "harass": "Uzmākšanās vai citu lietotāju uzmākšanās",
+        "illegal": "Lietojumprogrammas izmantošana nelikumīgiem mērķiem",
+        "damage": "Lietojumprogrammas tehniskās infrastruktūras bojāšana",
+        "bots": "Izmantojot automatizētas sistēmas vai robotprogrammatūras",
+        "ip": "Intelektuālā īpašuma tiesību pārkāpšana"
+      }
+    },
+    "section5": {
+      "title": "5. Saturs un intelektuālais īpašums",
+      "intro": "Visas tiesības uz lietojumprogrammu un tās saturu pieder Hirovo:",
+      "items": {
+        "ownership": "Logotips, dizains un saskarne ir Hirovo īpašums",
+        "userContent": "Par saturu, ko augšupielādējis lietotājs, ir atbildīgs lietotājs.",
+        "license": "Jūs piešķirat mums nepieciešamās licences informācijai, kuru kopīgojat savā profilā.",
+        "thirdParty": "Jūsu saturs nedrīkst pārkāpt trešo pušu tiesības"
+      }
+    },
+    "section6": {
+      "title": "6. Atbildības ierobežojums",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Negarantē darba sludinājumu precizitāti",
+        "relationship": "Nav puse darba devēja un darbinieka attiecībās",
+        "disputes": "Neatbild par strīdiem starp lietotājiem",
+        "uptime": "Tas negarantē, ka pakalpojums darbosies bez pārtraukumiem.",
+        "damages": "Nav atbildīgs par jebkādiem netiešiem vai izrietošiem zaudējumiem."
+      }
+    },
+    "section7": {
+      "title": "7. Konta apturēšana un izbeigšana",
+      "intro": "Mēs varam apturēt vai pārtraukt jūsu konta darbību šādos gadījumos:",
+      "items": {
+        "violation": "Lietošanas noteikumu pārkāpšana",
+        "illegal": "Nelegālas darbības",
+        "harm": "Uzvedības, kas kaitē citiem lietotājiem",
+        "false": "Nepatiesas vai maldinošas informācijas sniegšana"
+      }
+    },
+    "section8": {
+      "title": "8. Izmaiņas",
+      "content": "Mēs paturam tiesības mainīt šos lietošanas noteikumus bez iepriekšēja brīdinājuma. Par svarīgām izmaiņām tiks paziņots, izmantojot paziņojumus lietotnē. Lietojumprogrammas lietošanas turpināšana pēc izmaiņām nozīmē, ka jūs piekrītat jaunajiem noteikumiem."
+    },
+    "section9": {
+      "title": "9. Piemērojamie tiesību akti",
+      "content": "Uz šiem lietošanas noteikumiem attiecas Turcijas Republikas tiesību akti. Strīdu gadījumā jurisdikcija ir Stambulas tiesām un izpildes birojiem."
+    },
+    "section10": {
+      "title": "10. Komunikācija",
+      "intro": "Ja jums ir jautājumi par lietošanas noteikumiem:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Konta dzēšanas pieprasījums",
+    "metaTitle": "Konta dzēšana — Hirovo",
+    "metaDescription": "Pieprasiet izdzēst savu Hirovo kontu.",
+    "description": "Ja vēlaties dzēst savu kontu, aizpildiet tālāk esošo veidlapu. Kad jūsu pieprasījums tiks izskatīts, jūsu konts un visi jūsu dati tiks neatgriezeniski dzēsti.",
+    "warning": "Tiklīdz jūsu konts tiks dzēsts, visi jūsu dati (profila informācija, lietojumprogrammas, ziņojumi) tiks neatgriezeniski izdzēsti, un tos nevarēs izgūt.",
+    "form": {
+      "emailLabel": "E-pasta adrese",
+      "emailPlaceholder": "example@email.com",
+      "phoneLabel": "Tālruņa numurs",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Dzēšanas iemesls",
+      "reasonPlaceholder": "Kāpēc vēlaties dzēst savu kontu?",
+      "submitButton": "Iesniedziet konta dzēšanas pieprasījumu"
+    },
+    "errors": {
+      "emailOrPhone": "Lūdzu, ievadiet savu e-pastu vai tālruņa numuru.",
+      "generic": "Radās kļūda. Lūdzu, vēlāk mēģiniet vēlreiz.",
+      "connection": "Savienojuma kļūda. Lūdzu, pārbaudiet savu interneta savienojumu."
+    },
+    "success": {
+      "title": "Jūsu pieprasījums ir saņemts",
+      "message": "Jūsu konta dzēšanas pieprasījums ir veiksmīgi saņemts. Jūsu pieprasījums tiks izskatīts pēc iespējas ātrāk un tiks informēts pa e-pastu vai SMS.",
+      "processingTime": "Apstrādes laiks: 1-3 darba dienas"
+    },
+    "contactNote": "Jūs varat sazināties ar mums plkst."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Izvēlieties valodu",
+    "popularLanguages": "Populāras valodas"
+  }
+}

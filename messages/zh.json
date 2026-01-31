@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "下载",
+    "downloadApp": "下载应用程序",
+    "googlePlay": "谷歌游戏",
+    "email": "电子邮件",
+    "phone": "电话",
+    "or": "或者",
+    "loading": "加载中...",
+    "sending": "正在发送...",
+    "error": "错误",
+    "success": "成功的",
+    "submit": "发送",
+    "optional": "选修的",
+    "important": "重要的",
+    "contact": "沟通",
+    "questions": "对于您的问题",
+    "learnMore": "更多信息",
+    "getStarted": "现在开始",
+    "readMore": "阅读更多",
+    "viewAll": "查看全部",
+    "free": "自由的",
+    "new": "新的"
+  },
+  "metadata": {
+    "title": "Hirovo - 求职和广告平台",
+    "description": "Hirovo 是一个求职和广告平台。 发现职位发布、轻松申请并关注职业机会。",
+    "keywords": "找工作、职位发布、职业生涯、求职、人事发布、求职者、招聘、Hirovo",
+    "ogTitle": "Hirovo - 就业和职业平台",
+    "ogDescription": "通过 Hirovo 发现职位发布、申请并关注职业机会。"
+  },
+  "header": {
+    "logoAlt": "希罗沃",
+    "about": "关于我们",
+    "howItWorks": "它是如何运作的",
+    "forJobSeekers": "求职者",
+    "forEmployers": "雇主",
+    "faq": "常问问题",
+    "contact": "沟通",
+    "careerTips": "职业建议"
+  },
+  "footer": {
+    "copyright": "2025 希罗沃",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "deleteAccount": "帐户删除",
+    "home": "主页",
+    "about": "关于我们",
+    "contact": "沟通",
+    "faq": "常问问题",
+    "howItWorks": "它是如何运作的",
+    "forJobSeekers": "对于求职者",
+    "forEmployers": "对于雇主",
+    "careerTips": "职业建议",
+    "company": "公司",
+    "resources": "资源",
+    "legal": "合法的",
+    "followUs": "跟着我们",
+    "description": "土耳其最具创新性的就业平台。 你的梦想将会更近一步。"
+  },
+  "home": {
+    "hero": {
+      "title": "找到你梦想的工作",
+      "subtitle": "通过 Hirovo 发现数以千计的职位发布、轻松申请并关注职业机会。",
+      "stats": {
+        "jobs": "活跃的职位发布",
+        "users": "注册用户",
+        "companies": "合作公司",
+        "placements": "配对成功"
+      }
+    },
+    "features": {
+      "title": "为什么是希罗沃？",
+      "subtitle": "我们的功能让您的求职更加轻松",
+      "easySearch": {
+        "title": "轻松搜索",
+        "description": "在数千条招聘信息中快速搜索，找到适合您的机会。"
+      },
+      "quickApply": {
+        "title": "快速申请",
+        "description": "一键申请，不浪费时间。 创建您的个人资料一次，即可随处使用。"
+      },
+      "notifications": {
+        "title": "推送通知",
+        "description": "立即了解新职位和申请状态，不要错过机会。"
+      },
+      "smartMatch": {
+        "title": "智能匹配",
+        "description": "人工智能支持的系统会向您推荐最适合您技能的工作。"
+      },
+      "secureProfile": {
+        "title": "安全配置文件",
+        "description": "您的个人信息将被安全存储，并仅在您申请时与雇主共享。"
+      },
+      "careerSupport": {
+        "title": "职业支持",
+        "description": "我们随时帮助您准备简历、面试技巧和职业建议。"
+      }
+    },
+    "categories": {
+      "title": "热门商务类别",
+      "subtitle": "发现最热门行业的机会",
+      "technology": "技术",
+      "healthcare": "健康",
+      "finance": "金融",
+      "education": "教育",
+      "retail": "零售",
+      "manufacturing": "生产",
+      "hospitality": "旅游与酒店业",
+      "construction": "建筑"
+    },
+    "howItWorks": {
+      "title": "它是如何运作的？",
+      "subtitle": "简单三步即可找到工作",
+      "step1": {
+        "title": "下载应用程序",
+        "description": "从 Google Play 免费下载 Hirovo 并创建您的帐户。"
+      },
+      "step2": {
+        "title": "创建您的个人资料",
+        "description": "添加您的经验、技能和偏好。"
+      },
+      "step3": {
+        "title": "申请并开展业务",
+        "description": "申请适合您的职位发布并联系雇主。"
+      }
+    },
+    "testimonials": {
+      "title": "用户评论",
+      "subtitle": "在 Hirovo 找到工作的用户的经历"
+    },
+    "cta": {
+      "title": "现在开始",
+      "subtitle": "下载Hirovo，您的梦想将更近一步。",
+      "downloadFree": "免费下载"
+    }
+  },
+  "about": {
+    "metaTitle": "关于我们 - Hirovo",
+    "metaDescription": "了解希罗沃。 我们的使命、愿景和对就业行业的看法。",
+    "hero": {
+      "title": "关于我们",
+      "subtitle": "我们致力于改变商业世界"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "description": "以最有效的方式将求职者和雇主聚集在一起，促进每个人的求职过程并创造公平的就业机会。"
+    },
+    "vision": {
+      "title": "我们的愿景",
+      "description": "作为土耳其和该地区领先的数字就业平台，帮助数百万人实现职业目标。"
+    },
+    "story": {
+      "title": "我们的故事",
+      "content1": "Hirovo 成立于 2024 年，旨在解决求职者面临的挑战。 看到传统求职方法的低效以及求职者所经历的挫折，我们决定利用技术创建更好的解决方案。",
+      "content2": "如今，成千上万的求职者和数百家公司选择 Hirovo。 凭借我们以用户为导向的方法和不断改进的技术，我们每天都在改善求职体验。"
+    },
+    "values": {
+      "title": "我们的价值观",
+      "transparency": {
+        "title": "透明度",
+        "description": "我们的职位发布和流程完全透明。"
+      },
+      "equality": {
+        "title": "平等",
+        "description": "我们为每个人提供平等的机会并反对歧视。"
+      },
+      "innovation": {
+        "title": "创新",
+        "description": "我们不断改进和使用最新技术。"
+      },
+      "userFirst": {
+        "title": "用户关注",
+        "description": "我们在所有决策中优先考虑用户体验。"
+      }
+    },
+    "team": {
+      "title": "我们的团队",
+      "description": "我们经验丰富的专业团队为 Hirovo 带来了就业领域多年的知识。"
+    },
+    "stats": {
+      "title": "希罗沃的数字",
+      "downloads": "下载",
+      "activeUsers": "活跃用户",
+      "partnerCompanies": "合作公司",
+      "successfulMatches": "配对成功"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "它是如何运作的 - Hirovo",
+    "metaDescription": "希罗沃如何运作？ 逐步了解求职和申请流程。",
+    "hero": {
+      "title": "它是如何运作的？",
+      "subtitle": "我们让找工作变得如此容易"
+    },
+    "forJobSeekers": {
+      "title": "对于求职者",
+      "step1": {
+        "title": "下载应用程序",
+        "description": "从 Google Play 免费下载 Hirovo 应用程序。 安装快速安全。"
+      },
+      "step2": {
+        "title": "创建账户",
+        "description": "使用您的电子邮件或电话号码在几秒钟内注册。"
+      },
+      "step3": {
+        "title": "填写您的个​​人资料",
+        "description": "添加您的工作经验、教育背景和技能。 上传您的简历。"
+      },
+      "step4": {
+        "title": "探索职位发布",
+        "description": "使用过滤器查找适合您的列表。 地点、薪资、行业等等。"
+      },
+      "step5": {
+        "title": "一键申请",
+        "description": "立即应用于您喜欢的广告。 您的个人资料将自动传输。"
+      },
+      "step6": {
+        "title": "遵循流程",
+        "description": "实时跟踪您的应用程序的状态。 通过通知随时了解情况。"
+      }
+    },
+    "forEmployers": {
+      "title": "对于雇主",
+      "step1": {
+        "title": "创建公司帐户",
+        "description": "注册您的公司并完成验证过程。"
+      },
+      "step2": {
+        "title": "发布招聘广告",
+        "description": "创建包含详细职位描述和要求的职位发布。"
+      },
+      "step3": {
+        "title": "审查申请",
+        "description": "过滤传入的申请并选择合适的候选人。"
+      },
+      "step4": {
+        "title": "联系候选人",
+        "description": "通过应用程序直接联系候选人。"
+      }
+    },
+    "features": {
+      "title": "特征",
+      "ai": {
+        "title": "人工智能支持",
+        "description": "智能算法推荐最适合您的职位。"
+      },
+      "realtime": {
+        "title": "推送通知",
+        "description": "获取新帖子和应用程序更新的即时通知。"
+      },
+      "secure": {
+        "title": "安全基础设施",
+        "description": "您的数据受到最高安全标准的保护。"
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "对于求职者 - Hirovo",
+    "metaDescription": "如果您正在找工作，Hirovo 正适合您。 数以千计的职位发布、简单的申请和职业机会。",
+    "hero": {
+      "title": "对于求职者",
+      "subtitle": "我们在您的职业生涯中与您同在"
+    },
+    "benefits": {
+      "title": "为什么选择希罗沃？",
+      "free": {
+        "title": "完全免费",
+        "description": "我们的所有功能对求职者都是免费的。 没有隐藏费用。"
+      },
+      "thousands": {
+        "title": "数以千计的广告",
+        "description": "来自各个部门和各个级别的数千个当前职位发布。"
+      },
+      "easy": {
+        "title": "申请简单",
+        "description": "一键申请，不浪费时间。"
+      },
+      "track": {
+        "title": "应用程序跟踪",
+        "description": "在一处跟踪您的所有应用程序。"
+      },
+      "notifications": {
+        "title": "智能通知",
+        "description": "立即获悉适合您的新广告。"
+      },
+      "privacy": {
+        "title": "安全",
+        "description": "您的信息仅与您申请的公司共享。"
+      }
+    },
+    "tips": {
+      "title": "成功申请的秘诀",
+      "tip1": {
+        "title": "填写您的个​​人资料",
+        "description": "完全填充的个人资料吸引的注意力增加了 3 倍。"
+      },
+      "tip2": {
+        "title": "保持最新状态",
+        "description": "当您添加新技能和经验时更新您的个人资料。"
+      },
+      "tip3": {
+        "title": "保持通知开启",
+        "description": "允许通知以避免错过机会。"
+      },
+      "tip4": {
+        "title": "快速申请",
+        "description": "那些能够快速申请新职位的人会脱颖而出。"
+      }
+    },
+    "categories": {
+      "title": "热门类别",
+      "subtitle": "搜索最多的职位类别"
+    },
+    "cta": {
+      "title": "找到你梦想的工作",
+      "subtitle": "立即下载 Hirovo 并发现数以千计的机会。"
+    }
+  },
+  "employers": {
+    "metaTitle": "对于雇主 - Hirovo",
+    "metaDescription": "与 Hirovo 一起寻找合适的人才。 快速、有效且经济的采购解决方案。",
+    "hero": {
+      "title": "对于雇主",
+      "subtitle": "寻找合适人才的最简单方法"
+    },
+    "benefits": {
+      "title": "广沃优势",
+      "reach": {
+        "title": "影响范围广",
+        "description": "立即接触数千名活跃的求职者。"
+      },
+      "quality": {
+        "title": "优质候选人",
+        "description": "经过验证的个人资料和详细简历。"
+      },
+      "fast": {
+        "title": "快速结果",
+        "description": "大约 48 小时内收到第一份申请。"
+      },
+      "affordable": {
+        "title": "价格实惠",
+        "description": "它比传统方法经济得多。"
+      },
+      "easy": {
+        "title": "轻松管理",
+        "description": "从单个面板管理所有应用程序。"
+      },
+      "support": {
+        "title": "支持",
+        "description": "我们在招聘过程中为您提供帮助。"
+      }
+    },
+    "process": {
+      "title": "招聘流程",
+      "step1": "创建公司帐户",
+      "step2": "发布您的职位发布",
+      "step3": "审查申请",
+      "step4": "与候选人会面",
+      "step5": "招募"
+    },
+    "pricing": {
+      "title": "定价",
+      "subtitle": "选择适合您需求的计划",
+      "basic": {
+        "title": "开始",
+        "price": "自由的",
+        "features": {
+          "0": "每月 1 个广告",
+          "1": "基本过滤",
+          "2": "电子邮件支持"
+        }
+      },
+      "pro": {
+        "title": "专业的",
+        "price": "联系我们",
+        "features": {
+          "0": "无限广告",
+          "1": "高级过滤",
+          "2": "优先支持",
+          "3": "候选人推荐"
+        }
+      },
+      "enterprise": {
+        "title": "制度性",
+        "price": "特价",
+        "features": {
+          "0": "所有专业版功能",
+          "1": "API访问",
+          "2": "定制集成",
+          "3": "客户经理"
+        }
+      }
+    },
+    "cta": {
+      "title": "找到合适的人才",
+      "subtitle": "从现在开始，接触到最好的候选人。"
+    }
+  },
+  "faq": {
+    "metaTitle": "常见问题 - 希罗沃",
+    "metaDescription": "关于希罗沃的常见问题和解答。 有关求职、申请和使用应用程序的信息。",
+    "hero": {
+      "title": "常见问题解答",
+      "subtitle": "你想知道的一切"
+    },
+    "categories": {
+      "general": "一般的",
+      "account": "账单",
+      "application": "应用",
+      "employers": "雇主",
+      "technical": "技术的"
+    },
+    "general": {
+      "q1": {
+        "question": "希罗沃是什么？",
+        "answer": "Hirovo是一个汇集求职者和雇主的移动就业平台。 您可以在数千个职位发布中进行搜索，只需单击一下即可申请，并关注职业机会。"
+      },
+      "q2": {
+        "question": "希罗沃免费吗？",
+        "answer": "是的，Hirovo 对求职者完全免费。 您可以免费使用我们的所有功能。"
+      },
+      "q3": {
+        "question": "在哪里可以下载 Hirovo？",
+        "answer": "您可以从 Google Play 商店免费下载 Hirovo。 iOS版本即将发布。"
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "我如何创建帐户？",
+        "answer": "下载应用程序后，您可以在几秒钟内使用您的电子邮件地址或电话号码进行注册。"
+      },
+      "q2": {
+        "question": "我忘记了密码，我该怎么办？",
+        "answer": "您可以通过单击登录屏幕上的“忘记密码”选项，通过电子邮件或短信重置密码。"
+      },
+      "q3": {
+        "question": "我如何删除我的帐户？",
+        "answer": "您可以从应用程序内设置或我们网站上的“帐户删除”页面请求删除帐户。"
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "我如何跟踪我的申请？",
+        "answer": "您可以在应用程序的“我的应用程序”部分查看所有应用程序及其状态。"
+      },
+      "q2": {
+        "question": "我可以撤回我的申请吗？",
+        "answer": "是的，您可以撤回尚未审核的申请。"
+      },
+      "q3": {
+        "question": "为什么我的申请被拒绝？",
+        "answer": "雇主根据自己的标准进行评估。 您可以通过更新您的个人资料并申请更多职位来增加机会。"
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "如何开设公司账户？",
+        "answer": "您可以通过应用程序或在我们的网站上注册您的公司。 验证过程在 24-48 小时内完成。"
+      },
+      "q2": {
+        "question": "发布广告需要付费吗？",
+        "answer": "我们的基本套餐是免费的。 如需更多公告和高级功能，您可以查看我们的专业套餐。"
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "应用程序打不开，我该怎么办？",
+        "answer": "首先更新应用程序。 如果问题仍然存在，请删除该应用程序并重新安装。 如果您仍然遇到问题，请联系我们的支持团队。"
+      },
+      "q2": {
+        "question": "通知没有来？",
+        "answer": "确保您在手机设置中允许 Hirovo 的通知。 另请检查应用内设置中的通知首选项。"
+      }
+    },
+    "contact": {
+      "title": "您还有什么疑问吗？",
+      "subtitle": "如果您无法找到答案，请联系我们。"
+    }
+  },
+  "contact": {
+    "metaTitle": "联系方式 – Hirovo",
+    "metaDescription": "联系希罗沃。 如果您有疑问、建议和反馈，请联系我们。",
+    "hero": {
+      "title": "沟通",
+      "subtitle": "我们很乐意为您提供帮助"
+    },
+    "info": {
+      "title": "联系信息",
+      "email": {
+        "title": "电子邮件",
+        "value": "你好@hirovo.com",
+        "description": "24/7 电子邮件支持"
+      },
+      "phone": {
+        "title": "电话",
+        "value": "+90 (212) 000 00 00",
+        "description": "周一至周五，09:00 - 18:00"
+      },
+      "address": {
+        "title": "地址",
+        "value": "土耳其伊斯坦布尔",
+        "description": "我们的总部"
+      }
+    },
+    "form": {
+      "title": "写信给我们",
+      "name": "你的名字和姓氏",
+      "email": "您的电子邮件地址",
+      "subject": "主题",
+      "message": "您的留言",
+      "submit": "发送",
+      "subjects": {
+        "general": "一般问题",
+        "support": "技术支援",
+        "partnership": "合伙",
+        "feedback": "反馈",
+        "other": "其他"
+      },
+      "success": "您的消息已成功发送。 我们会尽快回复您。",
+      "error": "发生错误。 请稍后重试。"
+    },
+    "social": {
+      "title": "社交媒体",
+      "subtitle": "在社交媒体上关注我们"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "职业建议 - Hirovo",
+    "metaDescription": "关于求职、简历准备、面试技巧和职业发展的专家建议。",
+    "hero": {
+      "title": "职业建议",
+      "subtitle": "让您的职业生涯更上一层楼"
+    },
+    "categories": {
+      "resume": "简历准备",
+      "interview": "面试技巧",
+      "career": "职业发展",
+      "workplace": "商业生活"
+    },
+    "articles": {
+      "resume1": {
+        "title": "如何准备一份有效的简历？",
+        "summary": "吸引雇主关注的专业简历准备指南。",
+        "content": "您的简历是您求职申请的第一印象。 精心准备的简历可以让您从其他候选人中脱颖而出，并增加您收到面试邀请的机会。 以下是有效简历的提示：\n\n1. 使用清晰简洁的格式\n2. 突出你的相关经历\n3. 用数字支持你的具体成就\n4.正确使用关键词\n5、仔细检查是否有错误"
+      },
+      "resume2": {
+        "title": "简历中最常见的错误",
+        "summary": "可能导致您的申请被拒绝的简历错误以及如何避免这些错误。",
+        "content": "许多候选人在简历中犯了严重错误，却没有意识到。 认识并纠正这些错误将加快您找工作的过程。"
+      },
+      "interview1": {
+        "title": "面试成功的秘诀",
+        "summary": "在求职面试中取得成功需要了解的技巧。",
+        "content": "面试是求职过程中最关键的阶段。 准备充分的候选人可以应对压力并以最佳状态表达自己。"
+      },
+      "interview2": {
+        "title": "最常见的面试问题",
+        "summary": "求职面试中会遇到的问题以及有效的回答策略。",
+        "content": "面试中几乎总是会问到某些问题。 提前准备这些问题可以增强你的自信心。"
+      },
+      "career1": {
+        "title": "对于那些想要改变职业的人",
+        "summary": "为那些想要改变行业或职位的人提供的分步指南。",
+        "content": "职业转变可能看起来很可怕，但通过适当的规划，它可以成功完成。"
+      },
+      "career2": {
+        "title": "专业网络",
+        "summary": "建立能够促进您职业发展的关系的方法。",
+        "content": "强大的专业网络可以增加职业机会，让您了解行业发展。"
+      },
+      "workplace1": {
+        "title": "开始新工作时要考虑的事项",
+        "summary": "从上班第一天起就取得成功的实用建议。",
+        "content": "开始新事物可能令人兴奋但也充满压力。 通过正确的方法，您可以快速适应并取得成功的开始。"
+      },
+      "workplace2": {
+        "title": "如何建立工作与生活的平衡？",
+        "summary": "平衡职业和私人生活的方法。",
+        "content": "健康的工作与生活平衡对于您的职业成功和个人幸福都至关重要。"
+      }
+    },
+    "newsletter": {
+      "title": "获取职业提示",
+      "subtitle": "订阅我们的时事通讯以获取最新的职业建议和工作机会。",
+      "placeholder": "您的电子邮件地址",
+      "button": "订阅"
+    }
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "metaTitle": "隐私政策 - Hirovo",
+    "metaDescription": "Hirovo 隐私政策 - 有关如何收集、使用和保护您的个人数据的信息。",
+    "lastUpdate": "最后更新：2025 年 1 月",
+    "intro": "在 Hirovo，我们非常重视用户的隐私。 本隐私政策解释了我们如何处理通过 Hirovo 移动应用程序（“应用程序”）收集的个人数据。",
+    "section1": {
+      "title": "1. 我们收集的信息",
+      "intro": "当您使用我们的应用程序时，我们可能会收集以下信息：",
+      "items": {
+        "account": "帐户信息：姓名、电子邮件地址、电话号码",
+        "profile": "个人资料信息：简历、工作经验、教育信息、技能",
+        "location": "位置信息：用于显示您附近的职位发布的位置数据（经过您的许可）",
+        "device": "设备信息：设备概览、操作系统、应用程序版本",
+        "usage": "使用数据：应用内交互、查看的广告、应用程序"
+      }
+    },
+    "section2": {
+      "title": "2. 信息使用目的",
+      "intro": "我们将收集的信息用于以下目的：",
+      "items": {
+        "account": "创建和管理您的帐户",
+        "jobs": "显示适合您的职位信息",
+        "applications": "将您的工作申请转发给雇主",
+        "improve": "提升应用体验",
+        "support": "提供技术支持",
+        "legal": "履行我们的法律义务"
+      }
+    },
+    "section3": {
+      "title": "3. 信息共享",
+      "intro": "除以下情况外，我们不会与第三方共享您的个人数据：",
+      "items": {
+        "employers": "雇主：我们与您所申请的职位发布的所有者共享您的个人资料信息。",
+        "providers": "服务提供商：为我们的应用程序运行提供必要的技术服务的值得信赖的合作伙伴。",
+        "legal": "法律义务：按照法律程序或主管当局的要求"
+      }
+    },
+    "section4": {
+      "title": "4. 数据安全",
+      "intro": "我们实施行业标准安全措施来保护您的个人数据：",
+      "items": {
+        "ssl": "SSL/TLS 加密",
+        "datacenter": "安全数据中心",
+        "audits": "定期安全审核",
+        "access": "访问控制和授权"
+      }
+    },
+    "section5": {
+      "title": "5. 您的权利",
+      "intro": "在第 6698 号个人数据保护法 (KVKK) 的范围内，您拥有以下权利：",
+      "items": {
+        "know": "了解您的个人数据是否正在被处理",
+        "info": "请求有关您的个人数据（如果已处理）的信息",
+        "purpose": "了解处理您的个人数据的目的以及它们是否用于预期目的",
+        "thirdParty": "了解个人数据在国内或国外传输到的第三方",
+        "correct": "如果个人数据不完整或处理不正确，则要求更正",
+        "delete": "请求删除或销毁您的个人数据"
+      }
+    },
+    "section6": {
+      "title": "6. Cookie 和跟踪技术",
+      "content": "我们的应用程序可能会使用 cookie 和类似技术来改善您的体验。 借助这些技术，我们可以记住您的偏好并分析应用程序性能。"
+    },
+    "section7": {
+      "title": "7. 儿童隐私",
+      "content": "我们的申请不针对 18 岁以下的个人。 我们不会故意收集 18 岁以下的个人数据。"
+    },
+    "section8": {
+      "title": "8. 政策变化",
+      "content": "我们可能会不时更新本隐私政策。 如果发生重大变化，我们将通过应用内通知通知您。"
+    },
+    "section9": {
+      "title": "9. 沟通",
+      "intro": "对于您的隐私相关问题，您可以联系我们："
+    }
+  },
+  "terms": {
+    "title": "使用条款",
+    "metaTitle": "使用条款 - Hirovo",
+    "metaDescription": "Hirovo 使用条款 - 使用我们的应用程序时必须遵守的规则和条件。",
+    "lastUpdate": "最后更新：2025 年 1 月",
+    "intro": "使用 Hirovo 移动应用程序（“应用程序”）即表示您已接受以下使用条款。 请仔细阅读这些条款。",
+    "section1": {
+      "title": "1. 服务说明",
+      "intro": "Hirovo 是一个求职平台，旨在将求职者与雇主联系起来。 通过我们的应用程序：",
+      "items": {
+        "view": "您可以查看职位发布并申请",
+        "profile": "您可以创建您的职业档案",
+        "offers": "您可以评估雇主的录用通知",
+        "track": "您可以关注职业机会"
+      }
+    },
+    "section2": {
+      "title": "2. 账户创建和安全",
+      "intro": "您需要创建一个帐户才能使用我们的应用程序。 创建帐户时：",
+      "items": {
+        "accurate": "您同意提供准确且最新的信息",
+        "responsible": "您有责任对您的帐户信息保密。",
+        "activity": "您对您帐户上发生的所有活动负责。",
+        "notify": "如果发生未经授权的访问，您必须立即通知我们"
+      }
+    },
+    "section3": {
+      "title": "3、用户义务",
+      "intro": "使用我们的应用程序时，您同意遵守以下规则：",
+      "items": {
+        "legal": "依法依规行事",
+        "honest": "分享准确且无误导性的信息",
+        "respect": "尊重其他用户的权利",
+        "noSpam": "不共享垃圾邮件、恶意软件或恶意内容",
+        "security": "避免可能危及应用程序安全的行为",
+        "identity": "不得冒充他人"
+      }
+    },
+    "section4": {
+      "title": "4. 禁止行为",
+      "intro": "严禁以下行为：",
+      "items": {
+        "fake": "创建虚假职位发布或个人资料",
+        "harass": "骚扰或骚扰其他用户",
+        "illegal": "将应用程序用于非法目的",
+        "damage": "损坏应用程序的技术基础设施",
+        "bots": "使用自动化系统或机器人",
+        "ip": "侵犯知识产权"
+      }
+    },
+    "section5": {
+      "title": "5. 内容和知识产权",
+      "intro": "应用程序及其内容的所有权利均属于 Hirovo：",
+      "items": {
+        "ownership": "徽标、设计和界面均为 Hirovo 的财产",
+        "userContent": "用户上传的内容由用户负责。",
+        "license": "您向我们授予您在个人资料中共享的信息所需的许可。",
+        "thirdParty": "您的内容不得侵犯第三方权利"
+      }
+    },
+    "section6": {
+      "title": "6. 责任限制",
+      "intro": "希罗沃：",
+      "items": {
+        "accuracy": "不保证招聘信息的准确性",
+        "relationship": "不是雇主与雇员关系的一方",
+        "disputes": "不承担用户之间的纠纷",
+        "uptime": "它不保证服务将不间断地运行。",
+        "damages": "对任何间接或后果性损害不承担任何责任。"
+      }
+    },
+    "section7": {
+      "title": "7. 账户暂停和终止",
+      "intro": "在以下情况下，我们可能会暂停或终止您的帐户：",
+      "items": {
+        "violation": "违反使用条款",
+        "illegal": "非法活动",
+        "harm": "伤害其他用户的行为",
+        "false": "提供虚假或误导性信息"
+      }
+    },
+    "section8": {
+      "title": "8. 变化",
+      "content": "我们保留更改这些使用条款的权利，恕不另行通知。 重要更改将通过应用内通知宣布。 更改后继续使用该应用程序即表示您接受新条款。"
+    },
+    "section9": {
+      "title": "9. 适用法律",
+      "content": "这些使用条款受土耳其共和国法律的约束。 如有争议，伊斯坦布尔法院和执法办公室具有管辖权。"
+    },
+    "section10": {
+      "title": "10. 沟通",
+      "intro": "对于您对使用条款的疑问："
+    }
+  },
+  "deleteAccount": {
+    "title": "帐户删除请求",
+    "metaTitle": "帐户删除 - Hirovo",
+    "metaDescription": "请求删除您的 Hirovo 帐户。",
+    "description": "如果您想删除您的帐户，请填写下面的表格。 一旦您的请求得到审核，您的帐户和所有数据将被永久删除。",
+    "warning": "一旦您的帐户被删除，您的所有数据（个人资料信息、应用程序、消息）将被永久删除且无法检索。",
+    "form": {
+      "emailLabel": "电子邮件",
+      "emailPlaceholder": "示例@email.com",
+      "phoneLabel": "电话号码",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "删除原因",
+      "reasonPlaceholder": "为什么要删除您的帐户？",
+      "submitButton": "提交帐户删除请求"
+    },
+    "errors": {
+      "emailOrPhone": "请输入您的电子邮件或电话号码。",
+      "generic": "发生错误。 请稍后重试。",
+      "connection": "连接错误。 请检查您的互联网连接。"
+    },
+    "success": {
+      "title": "您的请求已收到",
+      "message": "您的帐户删除请求已成功收到。 我们将尽快审核您的请求，并通过电子邮件或短信通知您。",
+      "processingTime": "处理时间：1-3个工作日"
+    },
+    "contactNote": "您可以通过以下方式联系我们："
+  },
+  "languageSwitcher": {
+    "selectLanguage": "选择语言",
+    "popularLanguages": "流行语言"
+  }
+}

@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Descargar",
+    "downloadApp": "Descarga la aplicación",
+    "googlePlay": "GooglePlay",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "or": "o",
+    "loading": "Cargando...",
+    "sending": "Envío...",
+    "error": "Error",
+    "success": "Exitoso",
+    "submit": "Enviar",
+    "optional": "opcional",
+    "important": "Importante",
+    "contact": "Comunicación",
+    "questions": "Para tus preguntas",
+    "learnMore": "Más información",
+    "getStarted": "Empezar ahora",
+    "readMore": "Leer más",
+    "viewAll": "Ver todo",
+    "free": "Gratis",
+    "new": "Nuevo"
+  },
+  "metadata": {
+    "title": "Hirovo - Plataforma de publicidad y búsqueda de empleo",
+    "description": "Hirovo es una plataforma de publicidad y búsqueda de empleo. Descubra ofertas de trabajo, presente su solicitud fácilmente y siga las oportunidades profesionales.",
+    "keywords": "encontrar trabajo, ofertas de trabajo, carrera, búsqueda de empleo, ofertas de personal, solicitantes de personal, reclutamiento, Hirovo",
+    "ogTitle": "Hirovo - Plataforma de empleo y carrera",
+    "ogDescription": "Descubra ofertas de trabajo, postule y siga oportunidades profesionales con Hirovo."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Sobre nosotros",
+    "howItWorks": "Cómo funciona",
+    "forJobSeekers": "Solicitantes de empleo",
+    "forEmployers": "empleadores",
+    "faq": "Preguntas frecuentes",
+    "contact": "Comunicación",
+    "careerTips": "Asesoramiento profesional"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "política de privacidad",
+    "terms": "Condiciones de uso",
+    "deleteAccount": "Eliminación de cuenta",
+    "home": "Página de inicio",
+    "about": "Sobre nosotros",
+    "contact": "Comunicación",
+    "faq": "Preguntas frecuentes",
+    "howItWorks": "Cómo funciona",
+    "forJobSeekers": "Para quienes buscan empleo",
+    "forEmployers": "Para empleadores",
+    "careerTips": "Asesoramiento profesional",
+    "company": "Compañía",
+    "resources": "Recursos",
+    "legal": "Legal",
+    "followUs": "Síganos",
+    "description": "La plataforma de empleo más innovadora de Turquía. Tu sueño estará un paso más cerca."
+  },
+  "home": {
+    "hero": {
+      "title": "Encuentra el trabajo de tus sueños",
+      "subtitle": "Descubra miles de ofertas de trabajo, presente su solicitud fácilmente y siga las oportunidades profesionales con Hirovo.",
+      "stats": {
+        "jobs": "Publicación activa de empleo",
+        "users": "Usuario registrado",
+        "companies": "Empresa asociada",
+        "placements": "Emparejamiento exitoso"
+      }
+    },
+    "features": {
+      "title": "¿Por qué Hirovo?",
+      "subtitle": "Nuestras funciones que facilitan tu búsqueda de empleo",
+      "easySearch": {
+        "title": "Búsqueda fácil",
+        "description": "Busque rápidamente entre miles de ofertas de trabajo y encuentre oportunidades que se adapten a sus necesidades."
+      },
+      "quickApply": {
+        "title": "Aplicación rápida",
+        "description": "Postúlate con un solo clic, no pierdas tiempo. Crea tu perfil una vez, úsalo en todas partes."
+      },
+      "notifications": {
+        "title": "Notificaciones push",
+        "description": "Conozca las nuevas publicaciones y los estados de las solicitudes al instante, no pierda la oportunidad."
+      },
+      "smartMatch": {
+        "title": "Emparejamiento inteligente",
+        "description": "El sistema apoyado en inteligencia artificial te recomienda los trabajos que mejor se adaptan a tus habilidades."
+      },
+      "secureProfile": {
+        "title": "Perfil seguro",
+        "description": "Su información personal se almacena de forma segura y se comparte con el empleador solo cuando presenta la solicitud."
+      },
+      "careerSupport": {
+        "title": "Apoyo profesional",
+        "description": "Estamos aquí para ayudarle con la preparación de CV, técnicas de entrevista y asesoramiento profesional."
+      }
+    },
+    "categories": {
+      "title": "Categorías comerciales populares",
+      "subtitle": "Descubra oportunidades en los sectores más demandados",
+      "technology": "Tecnología",
+      "healthcare": "Salud",
+      "finance": "Finanzas",
+      "education": "Educación",
+      "retail": "Minorista",
+      "manufacturing": "Producción",
+      "hospitality": "Turismo y hotelería",
+      "construction": "Edificio"
+    },
+    "howItWorks": {
+      "title": "¿Cómo funciona?",
+      "subtitle": "Encuentra un trabajo en tres sencillos pasos",
+      "step1": {
+        "title": "Descarga la aplicación",
+        "description": "Descarga Hirovo gratis desde Google Play y crea tu cuenta."
+      },
+      "step2": {
+        "title": "Crea tu perfil",
+        "description": "Añade tus experiencias, habilidades y preferencias."
+      },
+      "step3": {
+        "title": "Solicite y comience su negocio",
+        "description": "Postúlate a ofertas de trabajo adecuadas para ti y comunícate con los empleadores."
+      }
+    },
+    "testimonials": {
+      "title": "Comentarios de usuario",
+      "subtitle": "Experiencias de nuestros usuarios que encontraron empleo con Hirovo"
+    },
+    "cta": {
+      "title": "Empezar ahora",
+      "subtitle": "Descarga Hirovo, tu sueño estará un paso más cerca.",
+      "downloadFree": "Descarga gratuita"
+    }
+  },
+  "about": {
+    "metaTitle": "Sobre nosotros - Hirovo",
+    "metaDescription": "Más información sobre Hirovo. Nuestra misión, nuestra visión y nuestra perspectiva sobre la industria del empleo.",
+    "hero": {
+      "title": "Sobre nosotros",
+      "subtitle": "Nos propusimos cambiar el mundo empresarial"
+    },
+    "mission": {
+      "title": "Nuestra misión",
+      "description": "Reunir a solicitantes de empleo y empleadores de la manera más eficiente, facilitar el proceso de búsqueda de empleo para todos y crear oportunidades laborales justas."
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "description": "Como plataforma de empleo digital líder en Turquía y la región, ayudando a millones de personas a alcanzar sus objetivos profesionales."
+    },
+    "story": {
+      "title": "nuestra historia",
+      "content1": "Hirovo se fundó en 2024 para resolver los desafíos que enfrentan los solicitantes de empleo. Al ver la ineficiencia de los métodos tradicionales de búsqueda de empleo y las frustraciones que experimentan quienes buscan empleo, decidimos crear una mejor solución utilizando la tecnología.",
+      "content2": "Hoy en día, miles de personas que buscan empleo y cientos de empresas eligen Hirovo. Con nuestro enfoque orientado al usuario y una tecnología en constante mejora, mejoramos la experiencia de búsqueda de empleo todos los días."
+    },
+    "values": {
+      "title": "Nuestros valores",
+      "transparency": {
+        "title": "Transparencia",
+        "description": "Brindamos total transparencia en las ofertas de trabajo y nuestros procesos."
+      },
+      "equality": {
+        "title": "Igualdad",
+        "description": "Ofrecemos igualdad de oportunidades a todos y nos oponemos a la discriminación."
+      },
+      "innovation": {
+        "title": "innovación",
+        "description": "Estamos constantemente mejorando y utilizando las últimas tecnologías."
+      },
+      "userFirst": {
+        "title": "Enfoque del usuario",
+        "description": "Priorizamos la experiencia del usuario en todas las decisiones."
+      }
+    },
+    "team": {
+      "title": "Nuestro equipo",
+      "description": "Nuestro equipo de profesionales experimentados aporta años de conocimiento en el sector laboral a Hirovo."
+    },
+    "stats": {
+      "title": "Hirovo en cifras",
+      "downloads": "Descargar",
+      "activeUsers": "Usuario activo",
+      "partnerCompanies": "Empresa asociada",
+      "successfulMatches": "Emparejamiento exitoso"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Cómo funciona - Hirovo",
+    "metaDescription": "¿Cómo funciona Hirovo? Conozca paso a paso el proceso de búsqueda y solicitud de empleo.",
+    "hero": {
+      "title": "¿Cómo funciona?",
+      "subtitle": "Hicimos que encontrar trabajo fuera muy fácil"
+    },
+    "forJobSeekers": {
+      "title": "Para quienes buscan empleo",
+      "step1": {
+        "title": "Descarga la aplicación",
+        "description": "Descarga la aplicación Hirovo gratis desde Google Play. Instalación rápida y segura."
+      },
+      "step2": {
+        "title": "Crear una cuenta",
+        "description": "Regístrate en segundos con tu correo electrónico o número de teléfono."
+      },
+      "step3": {
+        "title": "Completa tu perfil",
+        "description": "Agregue su experiencia laboral, educación y habilidades. Sube tu CV."
+      },
+      "step4": {
+        "title": "Explorar ofertas de trabajo",
+        "description": "Encuentre listados que se adapten a sus necesidades utilizando filtros. Ubicación, salario, industria y más."
+      },
+      "step5": {
+        "title": "Aplicar con un clic",
+        "description": "Aplicar instantáneamente a los anuncios que te gustan. Su perfil se transmite automáticamente."
+      },
+      "step6": {
+        "title": "Sigue el proceso",
+        "description": "Siga el estado de sus solicitudes en tiempo real. Manténgase informado con notificaciones."
+      }
+    },
+    "forEmployers": {
+      "title": "Para empleadores",
+      "step1": {
+        "title": "Crear una cuenta de empresa",
+        "description": "Registre su empresa y complete el proceso de verificación."
+      },
+      "step2": {
+        "title": "Publicar un anuncio de empleo",
+        "description": "Cree una publicación de trabajo con descripciones detalladas del trabajo y requisitos."
+      },
+      "step3": {
+        "title": "Revisar aplicaciones",
+        "description": "Filtre las solicitudes entrantes y seleccione los candidatos adecuados."
+      },
+      "step4": {
+        "title": "Contacto Candidatos",
+        "description": "Contacte a los candidatos directamente a través de la aplicación."
+      }
+    },
+    "features": {
+      "title": "Características",
+      "ai": {
+        "title": "Soporte de inteligencia artificial",
+        "description": "Algoritmos inteligentes recomiendan los trabajos más adecuados para usted."
+      },
+      "realtime": {
+        "title": "Notificaciones push",
+        "description": "Reciba notificaciones instantáneas de nuevas publicaciones y actualizaciones de aplicaciones."
+      },
+      "secure": {
+        "title": "Infraestructura segura",
+        "description": "Tus datos están protegidos con los más altos estándares de seguridad."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Para quienes buscan empleo - Hirovo",
+    "metaDescription": "Si estás buscando trabajo, Hirovo es solo para ti. Miles de ofertas de trabajo, solicitudes sencillas y oportunidades profesionales.",
+    "hero": {
+      "title": "Para quienes buscan empleo",
+      "subtitle": "Estamos contigo en tu viaje profesional."
+    },
+    "benefits": {
+      "title": "¿Por qué elegir Hirovo?",
+      "free": {
+        "title": "Completamente gratis",
+        "description": "Todas nuestras funciones son gratuitas para quienes buscan empleo. No hay tarifas ocultas."
+      },
+      "thousands": {
+        "title": "Miles de anuncios",
+        "description": "Miles de ofertas de trabajo actuales de todos los sectores y todos los niveles."
+      },
+      "easy": {
+        "title": "Fácil aplicación",
+        "description": "Solicita con un clic, no pierdas tiempo."
+      },
+      "track": {
+        "title": "Seguimiento de aplicaciones",
+        "description": "Realice un seguimiento de todas sus aplicaciones en un solo lugar."
+      },
+      "notifications": {
+        "title": "Notificaciones inteligentes",
+        "description": "Reciba información instantánea sobre nuevos anuncios adecuados para usted."
+      },
+      "privacy": {
+        "title": "Seguridad",
+        "description": "Su información se comparte únicamente con las empresas a las que se postula."
+      }
+    },
+    "tips": {
+      "title": "Consejos para una solicitud exitosa",
+      "tip1": {
+        "title": "Completa tu perfil",
+        "description": "Los perfiles completamente completos atraen 3 veces más atención."
+      },
+      "tip2": {
+        "title": "Manténgase actualizado",
+        "description": "Actualice su perfil a medida que agrega nuevas habilidades y experiencias."
+      },
+      "tip3": {
+        "title": "Mantener notificaciones activadas",
+        "description": "Permitir notificaciones para evitar perder oportunidades."
+      },
+      "tip4": {
+        "title": "Aplicar rápidamente",
+        "description": "Aquellos que se postulan rápidamente para nuevos puestos pasan a primer plano."
+      }
+    },
+    "categories": {
+      "title": "Categorías populares",
+      "subtitle": "Categorías laborales más buscadas"
+    },
+    "cta": {
+      "title": "Encuentra el trabajo de tus sueños",
+      "subtitle": "Descarga Hirovo ahora y descubre miles de oportunidades."
+    }
+  },
+  "employers": {
+    "metaTitle": "Para empleadores - Hirovo",
+    "metaDescription": "Encuentre el talento adecuado con Hirovo. Soluciones de compra rápidas, efectivas y económicas.",
+    "hero": {
+      "title": "Para empleadores",
+      "subtitle": "La forma más fácil de encontrar los talentos adecuados"
+    },
+    "benefits": {
+      "title": "Ventajas de Hirovo",
+      "reach": {
+        "title": "Amplio alcance",
+        "description": "Llegue instantáneamente a miles de solicitantes de empleo activos."
+      },
+      "quality": {
+        "title": "Candidatos de calidad",
+        "description": "Perfiles verificados y currículums detallados."
+      },
+      "fast": {
+        "title": "Resultado rápido",
+        "description": "Reciba las primeras solicitudes en aproximadamente 48 horas."
+      },
+      "affordable": {
+        "title": "Precio asequible",
+        "description": "Es mucho más económico que los métodos tradicionales."
+      },
+      "easy": {
+        "title": "Fácil gestión",
+        "description": "Gestiona todas las aplicaciones desde un único panel."
+      },
+      "support": {
+        "title": "Apoyo",
+        "description": "Te ayudamos en el proceso de contratación."
+      }
+    },
+    "process": {
+      "title": "Proceso de reclutamiento",
+      "step1": "Crear una cuenta de empresa",
+      "step2": "Publica tu oferta de trabajo",
+      "step3": "Revisar las aplicaciones",
+      "step4": "Reunirse con los candidatos",
+      "step5": "Recluta"
+    },
+    "pricing": {
+      "title": "Precios",
+      "subtitle": "Elige el plan que se adapta a tus necesidades",
+      "basic": {
+        "title": "Comienzo",
+        "price": "Gratis",
+        "features": {
+          "0": "1 anuncio por mes",
+          "1": "Filtrado básico",
+          "2": "Soporte por correo electrónico"
+        }
+      },
+      "pro": {
+        "title": "Profesional",
+        "price": "Contáctenos",
+        "features": {
+          "0": "Anuncios ilimitados",
+          "1": "Filtrado avanzado",
+          "2": "Apoyo prioritario",
+          "3": "Recomendaciones de candidatos"
+        }
+      },
+      "enterprise": {
+        "title": "Institucional",
+        "price": "Precio especial",
+        "features": {
+          "0": "Todas las funciones profesionales",
+          "1": "Acceso API",
+          "2": "Integración personalizada",
+          "3": "Gerente de cuentas"
+        }
+      }
+    },
+    "cta": {
+      "title": "Encuentre los talentos adecuados",
+      "subtitle": "Empiece ahora y llegue a los mejores candidatos."
+    }
+  },
+  "faq": {
+    "metaTitle": "Preguntas frecuentes - Hirovo",
+    "metaDescription": "Preguntas y respuestas frecuentes sobre Hirovo. Información sobre la búsqueda de empleo, la solicitud y el uso de la aplicación.",
+    "hero": {
+      "title": "Preguntas frecuentes",
+      "subtitle": "Todo lo que te preguntas"
+    },
+    "categories": {
+      "general": "General",
+      "account": "Factura",
+      "application": "Solicitud",
+      "employers": "empleadores",
+      "technical": "Técnico"
+    },
+    "general": {
+      "q1": {
+        "question": "¿Qué es Hirovo?",
+        "answer": "Hirovo es una plataforma de empleo móvil que reúne a solicitantes de empleo y empleadores. Puede buscar entre miles de ofertas de trabajo, postularse con un solo clic y seguir oportunidades profesionales."
+      },
+      "q2": {
+        "question": "¿Hirovo es libre?",
+        "answer": "Sí, Hirovo es completamente gratuito para quienes buscan empleo. Puede utilizar todas nuestras funciones de forma gratuita."
+      },
+      "q3": {
+        "question": "¿Dónde puedo descargar Hirovo?",
+        "answer": "Puedes descargar Hirovo gratis desde Google Play Store. La versión para iOS se lanzará pronto."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "¿Cómo puedo crear una cuenta?",
+        "answer": "Después de descargar la aplicación, podrás registrarte en segundos con tu dirección de correo electrónico o número de teléfono."
+      },
+      "q2": {
+        "question": "Olvidé mi contraseña, ¿qué debo hacer?",
+        "answer": "Puede restablecer su contraseña por correo electrónico o SMS haciendo clic en la opción \"Olvidé mi contraseña\" en la pantalla de inicio de sesión."
+      },
+      "q3": {
+        "question": "¿Cómo puedo eliminar mi cuenta?",
+        "answer": "Puede solicitar la eliminación de la cuenta desde la configuración de la aplicación o desde la página \"Eliminación de cuenta\" en nuestro sitio web."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "¿Cómo hago el seguimiento de mi solicitud?",
+        "answer": "Puede ver todas sus solicitudes y su estado en la sección 'Mis solicitudes' de la solicitud."
+      },
+      "q2": {
+        "question": "¿Puedo retirar mi solicitud?",
+        "answer": "Sí, puedes retirar tus solicitudes que aún no hayan sido revisadas."
+      },
+      "q3": {
+        "question": "¿Por qué fue rechazada mi solicitud?",
+        "answer": "Los empleadores realizan evaluaciones según sus propios criterios. Puede aumentar sus posibilidades actualizando su perfil y postulando a más publicaciones."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "¿Cómo abrir una cuenta de empresa?",
+        "answer": "Puede registrar su empresa a través de la aplicación o en nuestro sitio web. El proceso de verificación se completa en un plazo de 24 a 48 horas."
+      },
+      "q2": {
+        "question": "¿Hay alguna tarifa por publicar un anuncio?",
+        "answer": "Nuestro paquete básico es gratuito. Para obtener más anuncios y funciones avanzadas, puede consultar nuestros paquetes profesionales."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "La aplicación no abre, ¿qué debo hacer?",
+        "answer": "Primero actualice la aplicación. Si el problema persiste, elimina la aplicación y vuelve a instalarla. Si aún tiene problemas, comuníquese con nuestro equipo de soporte."
+      },
+      "q2": {
+        "question": "¿No llegan las notificaciones?",
+        "answer": "Asegúrese de permitir notificaciones para Hirovo en la configuración de su teléfono. También verifique sus preferencias de notificación en la configuración de la aplicación."
+      }
+    },
+    "contact": {
+      "title": "¿Tiene alguna pregunta?",
+      "subtitle": "Contáctenos si tiene preguntas para las que no puede encontrar respuesta."
+    }
+  },
+  "contact": {
+    "metaTitle": "Contacto – Hirovo",
+    "metaDescription": "Contacta con Hirovo. Contáctenos para sus preguntas, sugerencias y comentarios.",
+    "hero": {
+      "title": "Comunicación",
+      "subtitle": "Estaremos encantados de ayudarle"
+    },
+    "info": {
+      "title": "Información del contacto",
+      "email": {
+        "title": "Correo electrónico",
+        "value": "hola@hirovo.com",
+        "description": "Soporte por correo electrónico 24 horas al día, 7 días a la semana"
+      },
+      "phone": {
+        "title": "Teléfono",
+        "value": "+90 (212) 000 00 00",
+        "description": "Lunes - Viernes, 09:00 - 18:00"
+      },
+      "address": {
+        "title": "DIRECCIÓN",
+        "value": "Estambul, Turquía",
+        "description": "Nuestra oficina central"
+      }
+    },
+    "form": {
+      "title": "Escríbenos",
+      "name": "Tu nombre y apellido",
+      "email": "Su dirección de correo electrónico",
+      "subject": "Sujeto",
+      "message": "tu mensaje",
+      "submit": "Enviar",
+      "subjects": {
+        "general": "Pregunta general",
+        "support": "Apoyo técnico",
+        "partnership": "Asociación",
+        "feedback": "Comentario",
+        "other": "Otro"
+      },
+      "success": "Su mensaje ha sido enviado exitosamente. Nos comunicaremos con usted lo antes posible.",
+      "error": "Ha ocurrido un error. Inténtelo de nuevo más tarde."
+    },
+    "social": {
+      "title": "Redes Sociales",
+      "subtitle": "Síguenos en las redes sociales"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Asesoramiento profesional - Hirovo",
+    "metaDescription": "Asesoramiento experto en búsqueda de empleo, preparación de CV, técnicas de entrevista y desarrollo profesional.",
+    "hero": {
+      "title": "Asesoramiento profesional",
+      "subtitle": "Lleva tu carrera al siguiente nivel"
+    },
+    "categories": {
+      "resume": "Preparación de CV",
+      "interview": "Técnicas de entrevista",
+      "career": "Desarrollo profesional",
+      "workplace": "vida empresarial"
+    },
+    "articles": {
+      "resume1": {
+        "title": "¿Cómo preparar un CV eficaz?",
+        "summary": "Una guía de preparación de CV profesional que atrae la atención de los empleadores.",
+        "content": "Tu CV es la primera impresión de tu solicitud de empleo. Un CV bien preparado le distingue de otros candidatos y aumenta sus posibilidades de recibir una invitación a una entrevista. A continuación se ofrecen algunos consejos para un CV eficaz:\n\n1. Utilice un formato claro y conciso\n2. Resalte sus experiencias relevantes\n3. Respalda tus logros concretos con números\n4. Utilice las palabras clave correctamente\n5. Verifique cuidadosamente si hay errores"
+      },
+      "resume2": {
+        "title": "Errores más comunes cometidos en el CV",
+        "summary": "Errores del CV que podrían provocar que tus solicitudes sean rechazadas y cómo evitarlos.",
+        "content": "Muchos candidatos cometen errores críticos en sus CV sin darse cuenta. Reconocer y corregir estos errores acelerará su proceso de búsqueda de empleo."
+      },
+      "interview1": {
+        "title": "Secretos del éxito en las entrevistas",
+        "summary": "Técnicas que necesitas saber para tener éxito en las entrevistas de trabajo.",
+        "content": "La entrevista es la etapa más crítica del proceso de solicitud de empleo. Los candidatos bien preparados pueden manejar el estrés y expresarse de la mejor manera."
+      },
+      "interview2": {
+        "title": "Preguntas de entrevista más frecuentes",
+        "summary": "Preguntas que encontrarás en las entrevistas de trabajo y estrategias de respuesta efectivas.",
+        "content": "Casi siempre se hacen ciertas preguntas en las entrevistas. Prepararse para estas preguntas con antelación aumenta la confianza en uno mismo."
+      },
+      "career1": {
+        "title": "Para aquellos que quieren hacer un cambio de carrera",
+        "summary": "Una guía paso a paso para quienes quieran cambiar de sector o de puesto.",
+        "content": "Un cambio de carrera puede parecer aterrador, pero con una planificación adecuada se puede lograr con éxito."
+      },
+      "career2": {
+        "title": "Redes profesionales",
+        "summary": "Formas de construir relaciones que harán avanzar su carrera.",
+        "content": "Una red profesional sólida aumenta las oportunidades profesionales y lo mantiene informado sobre los desarrollos de la industria."
+      },
+      "workplace1": {
+        "title": "Cosas a considerar al comenzar un nuevo trabajo",
+        "summary": "Consejos prácticos para tener éxito desde tu primer día de trabajo.",
+        "content": "Comenzar algo nuevo puede ser emocionante pero estresante. Con el enfoque correcto, podrá adaptarse rápidamente y tener un comienzo exitoso."
+      },
+      "workplace2": {
+        "title": "¿Cómo establecer un equilibrio entre la vida personal y laboral?",
+        "summary": "Formas de equilibrar su carrera y su vida privada.",
+        "content": "Un equilibrio saludable entre el trabajo y la vida personal es fundamental tanto para el éxito profesional como para la felicidad personal."
+      }
+    },
+    "newsletter": {
+      "title": "Obtenga consejos profesionales",
+      "subtitle": "Suscríbase a nuestro boletín para recibir los últimos consejos profesionales y oportunidades laborales.",
+      "placeholder": "Su dirección de correo electrónico",
+      "button": "Suscribir"
+    }
+  },
+  "privacy": {
+    "title": "política de privacidad",
+    "metaTitle": "Política de privacidad - Hirovo",
+    "metaDescription": "Política de privacidad de Hirovo: información sobre cómo se recopilan, utilizan y protegen sus datos personales.",
+    "lastUpdate": "Última actualización: enero de 2025",
+    "intro": "En Hirovo damos gran importancia a la privacidad de nuestros usuarios. Esta Política de Privacidad explica cómo se procesan los datos personales que recopilamos a través de la aplicación móvil de Hirovo (\"Aplicación\").",
+    "section1": {
+      "title": "1. Información que recopilamos",
+      "intro": "Podemos recopilar la siguiente información cuando utiliza nuestra aplicación:",
+      "items": {
+        "account": "Información de la cuenta: Nombre, apellido, dirección de correo electrónico, número de teléfono",
+        "profile": "Información de perfil: CV, experiencia laboral, información educativa, habilidades.",
+        "location": "Información de ubicación: datos de ubicación para mostrar ofertas de trabajo cerca de usted (con su permiso)",
+        "device": "Información del dispositivo: recorrido por el dispositivo, sistema operativo, versión de la aplicación",
+        "usage": "Datos de uso: interacciones en la aplicación, anuncios vistos, aplicaciones"
+      }
+    },
+    "section2": {
+      "title": "2. Finalidades del uso de la información",
+      "intro": "Utilizamos la información que recopilamos para los siguientes propósitos:",
+      "items": {
+        "account": "Crear y administrar su cuenta",
+        "jobs": "Mostrando ofertas de trabajo adecuadas para usted",
+        "applications": "Envío de sus solicitudes de empleo a los empleadores",
+        "improve": "Mejorando la experiencia de la aplicación",
+        "support": "Proporcionar soporte técnico",
+        "legal": "Para cumplir con nuestras obligaciones legales"
+      }
+    },
+    "section3": {
+      "title": "3. Intercambio de información",
+      "intro": "No compartimos sus datos personales con terceros excepto en los siguientes casos:",
+      "items": {
+        "employers": "Empleadores: compartimos la información de su perfil con los propietarios de las ofertas de trabajo a las que postula.",
+        "providers": "Proveedores de servicios: socios confiables que brindan los servicios técnicos necesarios para el funcionamiento de nuestra aplicación.",
+        "legal": "Obligaciones Legales: De conformidad con procesos legales o la solicitud de autoridades competentes"
+      }
+    },
+    "section4": {
+      "title": "4. Seguridad de los datos",
+      "intro": "Implementamos medidas de seguridad estándar de la industria para proteger sus datos personales:",
+      "items": {
+        "ssl": "Cifrado SSL/TLS",
+        "datacenter": "Centros de datos seguros",
+        "audits": "Auditorías de seguridad periódicas",
+        "access": "Control de acceso y autorización"
+      }
+    },
+    "section5": {
+      "title": "5. Tus derechos",
+      "intro": "Tiene los siguientes derechos dentro del alcance de la Ley de Protección de Datos Personales No. 6698 (KVKK):",
+      "items": {
+        "know": "Saber si sus datos personales están siendo tratados o no",
+        "info": "Solicitar información sobre sus datos personales si han sido tratados",
+        "purpose": "Conocer la finalidad del tratamiento de sus datos personales y si se utilizan para el fin previsto",
+        "thirdParty": "Conocer los terceros a quienes se transfieren datos personales en el país o en el extranjero",
+        "correct": "Solicitar la corrección de datos personales si están incompletos o incorrectamente tratados",
+        "delete": "Solicitar la eliminación o destrucción de sus datos personales"
+      }
+    },
+    "section6": {
+      "title": "6. Cookies y tecnologías de seguimiento",
+      "content": "Nuestra aplicación puede utilizar cookies y tecnologías similares para mejorar su experiencia. Gracias a estas tecnologías, recordamos tus preferencias y analizamos el rendimiento de las aplicaciones."
+    },
+    "section7": {
+      "title": "7. Privacidad de los niños",
+      "content": "Nuestra aplicación no está dirigida a personas menores de 18 años. No recopilamos intencionalmente datos personales de personas menores de 18 años."
+    },
+    "section8": {
+      "title": "8. Cambios de política",
+      "content": "Podemos actualizar esta Política de Privacidad de vez en cuando. En caso de cambios significativos, te lo notificaremos mediante notificaciones dentro de la aplicación."
+    },
+    "section9": {
+      "title": "9. Comunicación",
+      "intro": "Para sus preguntas relacionadas con la privacidad, puede contactarnos:"
+    }
+  },
+  "terms": {
+    "title": "Condiciones de uso",
+    "metaTitle": "Condiciones de uso - Hirovo",
+    "metaDescription": "Términos de uso de Hirovo: reglas y condiciones que debe cumplir al utilizar nuestra aplicación.",
+    "lastUpdate": "Última actualización: enero de 2025",
+    "intro": "Al utilizar la aplicación móvil de Hirovo (\"Aplicación\"), se considera que ha aceptado los siguientes términos de uso. Lea atentamente estos términos.",
+    "section1": {
+      "title": "1. Descripción del Servicio",
+      "intro": "Hirovo es una plataforma de búsqueda de empleo que tiene como objetivo conectar a quienes buscan empleo con los empleadores. A través de nuestra aplicación:",
+      "items": {
+        "view": "Puedes ver ofertas de trabajo y postularte.",
+        "profile": "Puedes crear tu perfil profesional",
+        "offers": "Puedes evaluar ofertas de empleadores.",
+        "track": "Puedes seguir las oportunidades profesionales."
+      }
+    },
+    "section2": {
+      "title": "2. Creación y seguridad de cuentas",
+      "intro": "Debe crear una cuenta para utilizar nuestra aplicación. Al crear una cuenta:",
+      "items": {
+        "accurate": "Usted acepta proporcionar información precisa y actual.",
+        "responsible": "Usted es responsable de la confidencialidad de la información de su cuenta.",
+        "activity": "Usted es responsable de toda la actividad que ocurra en su cuenta.",
+        "notify": "En caso de acceso no autorizado deberá notificarnos inmediatamente"
+      }
+    },
+    "section3": {
+      "title": "3. Obligaciones del usuario",
+      "intro": "Al utilizar nuestra aplicación usted acepta cumplir con las siguientes reglas:",
+      "items": {
+        "legal": "Actuar de acuerdo con las leyes y reglamentos.",
+        "honest": "Compartir información precisa y no engañosa",
+        "respect": "Respetar los derechos de otros usuarios",
+        "noSpam": "No compartir spam, malware o contenido malicioso",
+        "security": "Evitar acciones que puedan poner en peligro la seguridad de la aplicación",
+        "identity": "No hacerse pasar por otros"
+      }
+    },
+    "section4": {
+      "title": "4. Comportamientos prohibidos",
+      "intro": "Están estrictamente prohibidos los siguientes comportamientos:",
+      "items": {
+        "fake": "Crear ofertas de trabajo o perfiles falsos",
+        "harass": "Acosar o acosar a otros usuarios",
+        "illegal": "Usar la aplicación con fines ilegales",
+        "damage": "Dañar la infraestructura técnica de la aplicación.",
+        "bots": "Usar sistemas automatizados o bots",
+        "ip": "Violar los derechos de propiedad intelectual"
+      }
+    },
+    "section5": {
+      "title": "5. Contenido y propiedad intelectual",
+      "intro": "Todos los derechos de la aplicación y su contenido pertenecen a Hirovo:",
+      "items": {
+        "ownership": "El logotipo, el diseño y la interfaz son propiedad de Hirovo.",
+        "userContent": "El contenido subido por el usuario es responsabilidad del usuario.",
+        "license": "Nos otorgas las licencias necesarias para la información que compartes en tu perfil.",
+        "thirdParty": "Su contenido no debe violar derechos de terceros"
+      }
+    },
+    "section6": {
+      "title": "6. Limitación de responsabilidad",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "No garantiza la exactitud de las ofertas de trabajo.",
+        "relationship": "No es parte de la relación empleador-empleado",
+        "disputes": "No nos hacemos responsables de disputas entre usuarios.",
+        "uptime": "No garantiza que el servicio funcionará sin interrupciones.",
+        "damages": "No somos responsables de ningún daño indirecto o consecuente."
+      }
+    },
+    "section7": {
+      "title": "7. Suspensión y cancelación de la cuenta",
+      "intro": "Podemos suspender o cancelar su cuenta en las siguientes situaciones:",
+      "items": {
+        "violation": "Violación de los términos de uso.",
+        "illegal": "Actividades ilegales",
+        "harm": "Comportamientos que perjudican a otros usuarios",
+        "false": "Proporcionar información falsa o engañosa."
+      }
+    },
+    "section8": {
+      "title": "8. Cambios",
+      "content": "Nos reservamos el derecho de cambiar estos términos de uso sin previo aviso. Los cambios importantes se anunciarán mediante notificaciones dentro de la aplicación. Continuar utilizando la aplicación después de los cambios significa que acepta los nuevos términos."
+    },
+    "section9": {
+      "title": "9. Ley Aplicable",
+      "content": "Estos términos de uso están sujetos a las leyes de la República de Turquía. En caso de disputa, los tribunales y las oficinas de ejecución de Estambul tienen jurisdicción."
+    },
+    "section10": {
+      "title": "10. Comunicación",
+      "intro": "Para sus preguntas sobre los términos de uso:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Solicitud de eliminación de cuenta",
+    "metaTitle": "Eliminación de cuenta - Hirovo",
+    "metaDescription": "Solicite eliminar su cuenta de Hirovo.",
+    "description": "Si desea eliminar su cuenta, complete el siguiente formulario. Una vez que se revise su solicitud, su cuenta y todos sus datos se eliminarán permanentemente.",
+    "warning": "Una vez que se elimine su cuenta, todos sus datos (información de perfil, aplicaciones, mensajes) se eliminarán permanentemente y no podrán recuperarse.",
+    "form": {
+      "emailLabel": "Dirección de correo electrónico",
+      "emailPlaceholder": "ejemplo@correo electrónico.com",
+      "phoneLabel": "Número de teléfono",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Motivo de la eliminación",
+      "reasonPlaceholder": "¿Por qué quieres eliminar tu cuenta?",
+      "submitButton": "Enviar solicitud de eliminación de cuenta"
+    },
+    "errors": {
+      "emailOrPhone": "Por favor ingrese su correo electrónico o número de teléfono.",
+      "generic": "Ha ocurrido un error. Inténtelo de nuevo más tarde.",
+      "connection": "Error de conexión. Por favor verifique su conexión a Internet."
+    },
+    "success": {
+      "title": "Su solicitud ha sido recibida",
+      "message": "La solicitud de eliminación de su cuenta se ha recibido correctamente. Su solicitud será revisada lo antes posible y se le informará mediante correo electrónico o SMS.",
+      "processingTime": "Tiempo de procesamiento: 1-3 días hábiles"
+    },
+    "contactNote": "Puede comunicarse con nosotros en."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Seleccionar idioma",
+    "popularLanguages": "Idiomas populares"
+  }
+}

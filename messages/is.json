@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Sækja",
+    "downloadApp": "Sækja appið",
+    "googlePlay": "Google Play",
+    "email": "Tölvupóstur",
+    "phone": "Sími",
+    "or": "eða",
+    "loading": "Hleður...",
+    "sending": "Sendir...",
+    "error": "Mistök",
+    "success": "Vel heppnað",
+    "submit": "Senda",
+    "optional": "valfrjálst",
+    "important": "Mikilvægt",
+    "contact": "Samskipti",
+    "questions": "Fyrir spurningar þínar",
+    "learnMore": "Frekari upplýsingar",
+    "getStarted": "Byrjaðu núna",
+    "readMore": "Lestu meira",
+    "viewAll": "Sjá allt",
+    "free": "Ókeypis",
+    "new": "Nýtt"
+  },
+  "metadata": {
+    "title": "Hirovo - Atvinnuleit og auglýsingavettvangur",
+    "description": "Hirovo er atvinnuleitar- og auglýsingavettvangur. Uppgötvaðu atvinnutilkynningar, sóttu auðveldlega um og fylgdu starfsmöguleikum.",
+    "keywords": "að finna starf, atvinnutilkynningar, feril, atvinnuleit, starfsmannatilkynningar, starfsmannaleitendur, ráðningar, Hirovo",
+    "ogTitle": "Hirovo - Atvinnu- og starfsvettvangur",
+    "ogDescription": "Uppgötvaðu atvinnutilkynningar, sóttu um og fylgdu starfsmöguleikum með Hirovo."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Um okkur",
+    "howItWorks": "Hvernig það virkar",
+    "forJobSeekers": "Atvinnuleitendur",
+    "forEmployers": "vinnuveitenda",
+    "faq": "Algengar spurningar",
+    "contact": "Samskipti",
+    "careerTips": "Starfsráðgjöf"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Persónuverndarstefna",
+    "terms": "Notkunarskilmálar",
+    "deleteAccount": "Eyðing reiknings",
+    "home": "Heimasíða",
+    "about": "Um okkur",
+    "contact": "Samskipti",
+    "faq": "Algengar spurningar",
+    "howItWorks": "Hvernig það virkar",
+    "forJobSeekers": "Fyrir atvinnuleitendur",
+    "forEmployers": "Fyrir atvinnurekendur",
+    "careerTips": "Starfsráðgjöf",
+    "company": "Fyrirtæki",
+    "resources": "Auðlindir",
+    "legal": "Löglegt",
+    "followUs": "Fylgdu okkur",
+    "description": "Nýstárlegasti atvinnuvettvangur Tyrklands. Draumur þinn verður einu skrefi nær."
+  },
+  "home": {
+    "hero": {
+      "title": "Finndu draumastarfið þitt",
+      "subtitle": "Uppgötvaðu þúsundir atvinnutilkynninga, sæktu um auðveldlega og fylgdu starfsmöguleikum með Hirovo.",
+      "stats": {
+        "jobs": "Virk atvinnutilkynning",
+        "users": "Skráður notandi",
+        "companies": "Samstarfsfyrirtæki",
+        "placements": "Vel heppnuð samsvörun"
+      }
+    },
+    "features": {
+      "title": "Af hverju Hirovo?",
+      "subtitle": "Eiginleikar okkar sem auðvelda þér atvinnuleit",
+      "easySearch": {
+        "title": "Auðveld leit",
+        "description": "Leitaðu fljótt meðal þúsunda atvinnuauglýsinga og finndu tækifæri sem henta þér."
+      },
+      "quickApply": {
+        "title": "Fljótleg umsókn",
+        "description": "Notaðu með einum smelli, ekki sóa tíma. Búðu til prófílinn þinn einu sinni, notaðu hann alls staðar."
+      },
+      "notifications": {
+        "title": "Push tilkynningar",
+        "description": "Lærðu um nýjar færslur og umsóknarstöður samstundis, ekki missa af tækifærinu."
+      },
+      "smartMatch": {
+        "title": "Snjöll samsvörun",
+        "description": "Gervigreindarstutt kerfið mælir með þeim störfum sem hæfa færni þinni best."
+      },
+      "secureProfile": {
+        "title": "Öruggt snið",
+        "description": "Persónuupplýsingar þínar eru geymdar á öruggan hátt og aðeins deilt með vinnuveitanda þegar þú sækir um."
+      },
+      "careerSupport": {
+        "title": "Stuðningur við starfsferil",
+        "description": "Við erum hér til að aðstoða þig við undirbúning ferilskrár, viðtalstækni og starfsráðgjöf."
+      }
+    },
+    "categories": {
+      "title": "Vinsælir viðskiptaflokkar",
+      "subtitle": "Uppgötvaðu tækifæri í eftirsóttustu geirunum",
+      "technology": "Tækni",
+      "healthcare": "Heilsa",
+      "finance": "Fjármál",
+      "education": "Menntun",
+      "retail": "Smásala",
+      "manufacturing": "Framleiðsla",
+      "hospitality": "Ferðaþjónusta og gestrisni",
+      "construction": "Bygging"
+    },
+    "howItWorks": {
+      "title": "Hvernig virkar það?",
+      "subtitle": "Finndu vinnu í þremur einföldum skrefum",
+      "step1": {
+        "title": "Sækja appið",
+        "description": "Sæktu Hirovo ókeypis frá Google Play og búðu til reikninginn þinn."
+      },
+      "step2": {
+        "title": "Búðu til prófílinn þinn",
+        "description": "Bættu við reynslu þinni, færni og óskum."
+      },
+      "step3": {
+        "title": "Sæktu um og stofnaðu fyrirtæki",
+        "description": "Sæktu um starf sem henta þér og hafðu samband við vinnuveitendur."
+      }
+    },
+    "testimonials": {
+      "title": "Athugasemdir notenda",
+      "subtitle": "Reynsla notenda okkar sem fengu vinnu hjá Hirovo"
+    },
+    "cta": {
+      "title": "Byrjaðu núna",
+      "subtitle": "Sæktu Hirovo, draumurinn þinn verður einu skrefi nær.",
+      "downloadFree": "Ókeypis niðurhal"
+    }
+  },
+  "about": {
+    "metaTitle": "Um okkur - Hirovo",
+    "metaDescription": "Lærðu um Hirovo. Markmið okkar, framtíðarsýn og sýn okkar á atvinnuiðnaðinn.",
+    "hero": {
+      "title": "Um okkur",
+      "subtitle": "Við ætluðum að breyta viðskiptalífinu"
+    },
+    "mission": {
+      "title": "Erindi okkar",
+      "description": "Að leiða saman atvinnuleitendur og vinnuveitendur á sem hagkvæmastan hátt, auðvelda öllum atvinnuleit og skapa sanngjörn atvinnutækifæri."
+    },
+    "vision": {
+      "title": "Framtíðarsýn okkar",
+      "description": "Sem leiðandi stafrænn atvinnuvettvangur Tyrklands og svæðisins, sem hjálpar milljónum manna að ná starfsmarkmiðum sínum."
+    },
+    "story": {
+      "title": "Sagan okkar",
+      "content1": "Hirovo var stofnað árið 2024 til að leysa þær áskoranir sem atvinnuleitendur standa frammi fyrir. Þar sem við sáum óhagkvæmni hefðbundinna atvinnuleitaraðferða og gremju atvinnuleitenda ákváðum við að búa til betri lausn með tækni.",
+      "content2": "Í dag velja þúsundir atvinnuleitenda og hundruð fyrirtækja Hirovo. Með notendamiðaðri nálgun okkar og stöðugt bættri tækni, bætum við upplifunina við atvinnuleit á hverjum degi."
+    },
+    "values": {
+      "title": "Gildi okkar",
+      "transparency": {
+        "title": "Gagnsæi",
+        "description": "Við veitum fullt gagnsæi í stöðutilkynningum og ferlum okkar."
+      },
+      "equality": {
+        "title": "Jafnrétti",
+        "description": "Við bjóðum öllum jöfn tækifæri og stöndum gegn mismunun."
+      },
+      "innovation": {
+        "title": "nýsköpun",
+        "description": "Við erum stöðugt að bæta okkur og notum nýjustu tækni."
+      },
+      "userFirst": {
+        "title": "Notendaáhersla",
+        "description": "Við setjum notendaupplifun í forgang í öllum ákvörðunum."
+      }
+    },
+    "team": {
+      "title": "Liðið okkar",
+      "description": "Lið okkar reyndra sérfræðinga færir Hirovo áralanga þekkingu í atvinnugeiranum."
+    },
+    "stats": {
+      "title": "Hirovo í tölum",
+      "downloads": "Sækja",
+      "activeUsers": "Virkur notandi",
+      "partnerCompanies": "Samstarfsfyrirtæki",
+      "successfulMatches": "Vel heppnuð samsvörun"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Hvernig það virkar - Hirovo",
+    "metaDescription": "Hvernig virkar Hirovo? Lærðu atvinnuleit og umsóknarferlið skref fyrir skref.",
+    "hero": {
+      "title": "Hvernig virkar það?",
+      "subtitle": "Við gerðum það svo auðvelt að finna vinnu"
+    },
+    "forJobSeekers": {
+      "title": "Fyrir atvinnuleitendur",
+      "step1": {
+        "title": "Sækja appið",
+        "description": "Sæktu Hirovo appið ókeypis frá Google Play. Fljótleg og örugg uppsetning."
+      },
+      "step2": {
+        "title": "Búðu til reikning",
+        "description": "Skráðu þig á nokkrum sekúndum með netfanginu þínu eða símanúmeri."
+      },
+      "step3": {
+        "title": "Ljúktu við prófílinn þinn",
+        "description": "Bættu við starfsreynslu þinni, menntun og færni. Hladdu upp ferilskránni þinni."
+      },
+      "step4": {
+        "title": "Kanna atvinnutilkynningar",
+        "description": "Finndu skráningar sem henta þér með því að nota síur. Staðsetning, laun, iðnaður og fleira."
+      },
+      "step5": {
+        "title": "Sækja um með einum smelli",
+        "description": "Sæktu samstundis um þær auglýsingar sem þér líkar. Prófíllinn þinn er sjálfkrafa sendur."
+      },
+      "step6": {
+        "title": "Fylgdu ferlinu",
+        "description": "Fylgstu með stöðu umsókna þinna í rauntíma. Vertu upplýst með tilkynningum."
+      }
+    },
+    "forEmployers": {
+      "title": "Fyrir atvinnurekendur",
+      "step1": {
+        "title": "Búðu til fyrirtækjareikning",
+        "description": "Skráðu fyrirtækið þitt og ljúktu við staðfestingarferlið."
+      },
+      "step2": {
+        "title": "Birta atvinnuauglýsingu",
+        "description": "Búðu til starfstilkynningu með nákvæmum starfslýsingum og kröfum."
+      },
+      "step3": {
+        "title": "Farið yfir umsóknir",
+        "description": "Síuðu innkomnar umsóknir og veldu viðeigandi umsækjendur."
+      },
+      "step4": {
+        "title": "Hafðu samband við frambjóðendur",
+        "description": "Hafðu beint samband við umsækjendur í gegnum umsóknina."
+      }
+    },
+    "features": {
+      "title": "Eiginleikar",
+      "ai": {
+        "title": "Stuðningur við gervigreind",
+        "description": "Snjöll reiknirit mæla með hentugustu störfum fyrir þig."
+      },
+      "realtime": {
+        "title": "Push tilkynningar",
+        "description": "Fáðu tafarlausar tilkynningar um nýjar færslur og uppfærslur á forritum."
+      },
+      "secure": {
+        "title": "Öruggur innviði",
+        "description": "Gögnin þín eru vernduð með ströngustu öryggisstöðlum."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Fyrir atvinnuleitendur - Hirovo",
+    "metaDescription": "Ef þú ert að leita að vinnu er Hirovo bara fyrir þig. Þúsundir atvinnutilkynninga, auðveldar umsóknir og starfsmöguleikar.",
+    "hero": {
+      "title": "Fyrir atvinnuleitendur",
+      "subtitle": "Við erum með þér á ferðalagi þínu"
+    },
+    "benefits": {
+      "title": "Af hverju að velja Hirovo?",
+      "free": {
+        "title": "Alveg ókeypis",
+        "description": "Allir eiginleikar okkar eru ókeypis fyrir atvinnuleitendur. Það eru engin falin gjöld."
+      },
+      "thousands": {
+        "title": "Þúsundir auglýsinga",
+        "description": "Þúsundir núverandi atvinnutilkynninga frá öllum geirum og öllum stigum."
+      },
+      "easy": {
+        "title": "Auðvelt forrit",
+        "description": "Notaðu með einum smelli, ekki eyða tíma."
+      },
+      "track": {
+        "title": "Rekja umsókn",
+        "description": "Fylgstu með öllum forritum þínum á einum stað."
+      },
+      "notifications": {
+        "title": "Snjalltilkynningar",
+        "description": "Fáðu strax upplýsingar um nýjar auglýsingar sem henta þér."
+      },
+      "privacy": {
+        "title": "Öryggi",
+        "description": "Upplýsingunum þínum er aðeins deilt með þeim fyrirtækjum sem þú sækir um."
+      }
+    },
+    "tips": {
+      "title": "Ábendingar um árangursríka umsókn",
+      "tip1": {
+        "title": "Ljúktu við prófílinn þinn",
+        "description": "Fullt útfyllt prófílar vekja þrisvar sinnum meiri athygli."
+      },
+      "tip2": {
+        "title": "Fylgstu með",
+        "description": "Uppfærðu prófílinn þinn þegar þú bætir við nýrri færni og reynslu."
+      },
+      "tip3": {
+        "title": "Haltu tilkynningum á",
+        "description": "Leyfðu tilkynningar til að forðast að missa af tækifærum."
+      },
+      "tip4": {
+        "title": "Sækja hratt",
+        "description": "Þeir sem sækja hratt um nýjar færslur koma fram á sjónarsviðið."
+      }
+    },
+    "categories": {
+      "title": "Vinsælir flokkar",
+      "subtitle": "Flestir starfaflokkar sem leitað er að"
+    },
+    "cta": {
+      "title": "Finndu draumastarfið þitt",
+      "subtitle": "Sæktu Hirovo núna og uppgötvaðu þúsundir tækifæra."
+    }
+  },
+  "employers": {
+    "metaTitle": "Fyrir vinnuveitendur - Hirovo",
+    "metaDescription": "Finndu réttu hæfileikana með Hirovo. Hraðar, áhrifaríkar og hagkvæmar innkaupalausnir.",
+    "hero": {
+      "title": "Fyrir atvinnurekendur",
+      "subtitle": "Auðveldasta leiðin til að finna réttu hæfileikana"
+    },
+    "benefits": {
+      "title": "Kostir Hirovo",
+      "reach": {
+        "title": "Breitt ná",
+        "description": "Náðu samstundis til þúsunda virkra atvinnuleitenda."
+      },
+      "quality": {
+        "title": "Gæðaframbjóðendur",
+        "description": "Staðfest snið og nákvæmar ferilskrár."
+      },
+      "fast": {
+        "title": "Fljótur árangur",
+        "description": "Fáðu fyrstu umsóknir innan um það bil 48 klukkustunda."
+      },
+      "affordable": {
+        "title": "Viðráðanlegt verð",
+        "description": "Það er miklu hagkvæmara en hefðbundnar aðferðir."
+      },
+      "easy": {
+        "title": "Auðveld stjórnun",
+        "description": "Stjórnaðu öllum forritum frá einu spjaldi."
+      },
+      "support": {
+        "title": "Stuðningur",
+        "description": "Við aðstoðum þig við ráðningarferlið."
+      }
+    },
+    "process": {
+      "title": "Ráðningarferli",
+      "step1": "Búðu til fyrirtækjareikning",
+      "step2": "Birtu starfstilkynningu þína",
+      "step3": "Farið yfir umsóknirnar",
+      "step4": "Hittu frambjóðendurna",
+      "step5": "Ráðið"
+    },
+    "pricing": {
+      "title": "Verðlagning",
+      "subtitle": "Veldu áætlun sem hentar þínum þörfum",
+      "basic": {
+        "title": "Upphaf",
+        "price": "Ókeypis",
+        "features": {
+          "0": "1 auglýsing á mánuði",
+          "1": "Grunn síun",
+          "2": "Stuðningur með tölvupósti"
+        }
+      },
+      "pro": {
+        "title": "Fagmaður",
+        "price": "Hafðu samband",
+        "features": {
+          "0": "Ótakmarkaðar auglýsingar",
+          "1": "Háþróuð síun",
+          "2": "Forgangsstuðningur",
+          "3": "Tillögur frambjóðenda"
+        }
+      },
+      "enterprise": {
+        "title": "Stofnana",
+        "price": "Sérstakt verð",
+        "features": {
+          "0": "Allir Pro eiginleikar",
+          "1": "API aðgangur",
+          "2": "Sérsniðin samþætting",
+          "3": "reikningsstjóri"
+        }
+      }
+    },
+    "cta": {
+      "title": "Finndu réttu hæfileikana",
+      "subtitle": "Byrjaðu núna og náðu til bestu umsækjendanna."
+    }
+  },
+  "faq": {
+    "metaTitle": "Algengar spurningar - Hirovo",
+    "metaDescription": "Algengar spurningar og svör um Hirovo. Upplýsingar um atvinnuleit, umsókn og notkun umsóknarinnar.",
+    "hero": {
+      "title": "Algengar spurningar",
+      "subtitle": "Allt sem þú veltir fyrir þér"
+    },
+    "categories": {
+      "general": "Almennt",
+      "account": "Bill",
+      "application": "Umsókn",
+      "employers": "vinnuveitenda",
+      "technical": "Tæknilegt"
+    },
+    "general": {
+      "q1": {
+        "question": "Hvað er Hirovo?",
+        "answer": "Hirovo er hreyfanlegur atvinnuvettvangur sem sameinar atvinnuleitendur og vinnuveitendur. Þú getur leitað meðal þúsunda atvinnutilkynninga, sótt um með einum smelli og fylgst með starfstækifærum."
+      },
+      "q2": {
+        "question": "Er Hirovo ókeypis?",
+        "answer": "Já, Hirovo er algjörlega ókeypis fyrir atvinnuleitendur. Þú getur notað alla eiginleika okkar ókeypis."
+      },
+      "q3": {
+        "question": "Hvar get ég sótt Hirovo.",
+        "answer": "Þú getur halað niður Hirovo ókeypis frá Google Play Store. iOS útgáfan verður gefin út fljótlega."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Hvernig get ég búið til reikning?",
+        "answer": "Eftir að hafa hlaðið niður forritinu geturðu skráð þig á nokkrum sekúndum með netfanginu þínu eða símanúmeri."
+      },
+      "q2": {
+        "question": "Ég gleymdi lykilorðinu mínu, hvað ætti ég að gera?",
+        "answer": "Þú getur endurstillt lykilorðið þitt með tölvupósti eða SMS með því að smella á 'Gleymt lykilorðinu' valmöguleikann á innskráningarskjánum."
+      },
+      "q3": {
+        "question": "Hvernig get ég eytt reikningnum mínum?",
+        "answer": "Þú getur beðið um eyðingu reiknings í stillingum í forritinu eða á síðunni „Eyðing reiknings“ á vefsíðunni okkar."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Hvernig fylgist ég með umsókninni minni?",
+        "answer": "Þú getur séð öll forritin þín og stöðu þeirra í hlutanum „Mín forrit“ í forritinu."
+      },
+      "q2": {
+        "question": "Get ég dregið umsókn mína til baka?",
+        "answer": "Já, þú getur afturkallað umsóknir þínar sem ekki hafa verið skoðaðar enn."
+      },
+      "q3": {
+        "question": "Hvers vegna var umsókn minni hafnað?",
+        "answer": "Atvinnurekendur gera mat eftir eigin forsendum. Þú getur aukið líkurnar þínar með því að uppfæra prófílinn þinn og sækja um fleiri færslur."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Hvernig á að opna fyrirtækjareikning?",
+        "answer": "Þú getur skráð fyrirtæki þitt í gegnum umsóknina eða á heimasíðu okkar. Staðfestingarferlinu er lokið innan 24-48 klukkustunda."
+      },
+      "q2": {
+        "question": "Er gjald fyrir að birta auglýsingu?",
+        "answer": "Grunnpakkinn okkar er ókeypis. Fyrir frekari tilkynningar og háþróaða eiginleika geturðu skoðað fagpakkana okkar."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "Forritið opnast ekki, hvað ætti ég að gera?",
+        "answer": "Uppfærðu fyrst forritið. Ef vandamálið er viðvarandi skaltu eyða forritinu og setja það upp aftur. Ef þú ert enn í vandræðum skaltu hafa samband við þjónustudeild okkar."
+      },
+      "q2": {
+        "question": "Tilkynningar koma ekki?",
+        "answer": "Gakktu úr skugga um að þú leyfir tilkynningar fyrir Hirovo í símastillingunum þínum. Athugaðu einnig tilkynningastillingar þínar í stillingum í forriti."
+      }
+    },
+    "contact": {
+      "title": "Hefur þú einhverjar spurningar?",
+      "subtitle": "Hafðu samband við okkur fyrir spurningar sem þú finnur ekki svör við."
+    }
+  },
+  "contact": {
+    "metaTitle": "Tengiliður – Hirovo",
+    "metaDescription": "Hafðu samband við Hirovo. Hafðu samband við okkur fyrir spurningar þínar, tillögur og endurgjöf.",
+    "hero": {
+      "title": "Samskipti",
+      "subtitle": "Við myndum vera fús til að aðstoða þig"
+    },
+    "info": {
+      "title": "Upplýsingar um tengiliði",
+      "email": {
+        "title": "Tölvupóstur",
+        "value": "halló@hirovo.com",
+        "description": "24/7 tölvupóststuðningur"
+      },
+      "phone": {
+        "title": "Sími",
+        "value": "+90 (212) 000 00 00",
+        "description": "Mánudaga - föstudaga, 09:00 - 18:00"
+      },
+      "address": {
+        "title": "Heimilisfang",
+        "value": "Istanbúl, Tyrkland",
+        "description": "Aðalskrifstofa okkar"
+      }
+    },
+    "form": {
+      "title": "Skrifaðu okkur",
+      "name": "Nafn þitt og eftirnafn",
+      "email": "Netfangið þitt",
+      "subject": "Efni",
+      "message": "Skilaboðin þín",
+      "submit": "Senda",
+      "subjects": {
+        "general": "Almenn spurning",
+        "support": "Tæknileg aðstoð",
+        "partnership": "Samstarf",
+        "feedback": "Endurgjöf",
+        "other": "Annað"
+      },
+      "success": "Skilaboðin þín hafa verið send. Við munum snúa aftur til þín eins fljótt og auðið er.",
+      "error": "Villa hefur komið upp. Vinsamlegast reyndu aftur síðar."
+    },
+    "social": {
+      "title": "Samfélagsmiðlar",
+      "subtitle": "Fylgstu með okkur á samfélagsmiðlum"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Starfsráðgjöf - Hirovo",
+    "metaDescription": "Sérfræðiráðgjöf um atvinnuleit, undirbúning ferilskrár, viðtalstækni og starfsþróun.",
+    "hero": {
+      "title": "Starfsráðgjöf",
+      "subtitle": "Taktu feril þinn á næsta stig"
+    },
+    "categories": {
+      "resume": "Undirbúningur ferilskrár",
+      "interview": "Viðtalstækni",
+      "career": "Starfsþróun",
+      "workplace": "Atvinnulíf"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Hvernig á að undirbúa árangursríka ferilskrá?",
+        "summary": "Fagleg ferilskrá undirbúningshandbók sem vekur athygli vinnuveitenda.",
+        "content": "Ferilskráin þín er fyrsta sýn á atvinnuumsóknina þína. Vel útbúin ferilskrá aðgreinir þig frá öðrum umsækjendum og eykur möguleika þína á að fá viðtalsboð. Hér eru ábendingar um árangursríka ferilskrá:\n\n1. Notaðu skýrt og hnitmiðað snið\n2. Leggðu áherslu á viðeigandi reynslu þína\n3. Styðjið áþreifanleg afrek með tölum\n4. Notaðu leitarorð rétt\n5. Athugaðu vandlega fyrir villur"
+      },
+      "resume2": {
+        "title": "Algengustu mistökin í ferilskrá",
+        "summary": "Mistök í ferilskrá sem gætu valdið því að umsóknum þínum var hafnað og hvernig á að forðast þær.",
+        "content": "Margir umsækjendur gera alvarleg mistök í ferilskránni án þess að gera sér grein fyrir því. Að viðurkenna og leiðrétta þessi mistök mun flýta fyrir vinnuleit þinni."
+      },
+      "interview1": {
+        "title": "Leyndarmál velgengni í viðtölum",
+        "summary": "Aðferðir sem þú þarft að kunna til að ná árangri í atvinnuviðtölum.",
+        "content": "Viðtalið er mikilvægasta stigið í umsóknarferlinu. Vel undirbúnir umsækjendur geta tekist á við streitu og tjáð sig eins og þeir eru bestir."
+      },
+      "interview2": {
+        "title": "Algengustu viðtalsspurningar",
+        "summary": "Spurningar sem þú munt lenda í í atvinnuviðtölum og árangursríkum svaraðferðum.",
+        "content": "Ákveðnar spurningar eru nánast alltaf spurðar í viðtölum. Að undirbúa þessar spurningar fyrirfram eykur sjálfstraustið."
+      },
+      "career1": {
+        "title": "Fyrir þá sem vilja breyta um starfsferil",
+        "summary": "Skref fyrir skref leiðbeiningar fyrir þá sem vilja skipta um geira eða stöðu.",
+        "content": "Ferilbreyting kann að virðast skelfileg, en með réttri skipulagningu er hægt að ná því með góðum árangri."
+      },
+      "career2": {
+        "title": "Faglegt netkerfi",
+        "summary": "Leiðir til að byggja upp sambönd sem munu efla feril þinn.",
+        "content": "Sterkt faglegt net eykur starfsmöguleika og heldur þér upplýstum um þróun iðnaðarins."
+      },
+      "workplace1": {
+        "title": "Atriði sem þarf að hafa í huga þegar þú byrjar nýtt starf",
+        "summary": "Hagnýt ráð til að ná árangri frá fyrsta degi í vinnunni.",
+        "content": "Að byrja á einhverju nýju getur verið spennandi en stressandi. Með réttri nálgun geturðu aðlagast fljótt og byrjað vel."
+      },
+      "workplace2": {
+        "title": "Hvernig á að koma á jafnvægi milli vinnu og einkalífs?",
+        "summary": "Leiðir til að koma jafnvægi á starfsframa og einkalíf.",
+        "content": "Heilbrigt jafnvægi á milli vinnu og einkalífs er mikilvægt fyrir árangur þinn í starfi og persónulegri hamingju."
+      }
+    },
+    "newsletter": {
+      "title": "Fáðu ráðleggingar um starfsferil",
+      "subtitle": "Gerast áskrifandi að fréttabréfinu okkar fyrir nýjustu starfsráðgjöf og atvinnutækifæri.",
+      "placeholder": "Netfangið þitt",
+      "button": "Gerast áskrifandi"
+    }
+  },
+  "privacy": {
+    "title": "Persónuverndarstefna",
+    "metaTitle": "Persónuverndarstefna - Hirovo",
+    "metaDescription": "Persónuverndarstefna Hirovo - Upplýsingar um hvernig persónuupplýsingum þínum er safnað, notað og verndað.",
+    "lastUpdate": "Síðast uppfært: janúar 2025",
+    "intro": "Hjá Hirovo leggjum við mikla áherslu á friðhelgi notenda okkar. Þessi persónuverndarstefna útskýrir hvernig persónuupplýsingum sem við söfnum í gegnum Hirovo farsímaforritið („umsókn“) er unnið með.",
+    "section1": {
+      "title": "1. Upplýsingar sem við söfnum",
+      "intro": "Við gætum safnað eftirfarandi upplýsingum þegar þú notar forritið okkar:",
+      "items": {
+        "account": "Reikningsupplýsingar: Nafn, eftirnafn, netfang, símanúmer",
+        "profile": "Upplýsingar um prófíl: ferilskrá, starfsreynsla, menntunarupplýsingar, færni",
+        "location": "Staðsetningarupplýsingar: Staðsetningargögn til að birta störf nálægt þér (með leyfi þínu)",
+        "device": "Tækjaupplýsingar: Tækjaferð, stýrikerfi, forritsútgáfa",
+        "usage": "Notkunargögn: Samskipti í forriti, skoðaðar auglýsingar, forrit"
+      }
+    },
+    "section2": {
+      "title": "2. Tilgangur með notkun upplýsinga",
+      "intro": "Við notum upplýsingarnar sem við söfnum í eftirfarandi tilgangi:",
+      "items": {
+        "account": "Búa til og hafa umsjón með reikningnum þínum",
+        "jobs": "Sýnir starfstilkynningar sem henta þér",
+        "applications": "Að senda atvinnuumsóknir þínar til vinnuveitenda",
+        "improve": "Að bæta upplifun umsóknarinnar",
+        "support": "Að veita tæknilega aðstoð",
+        "legal": "Til að uppfylla lagalegar skyldur okkar"
+      }
+    },
+    "section3": {
+      "title": "3. Miðlun upplýsinga",
+      "intro": "Við deilum ekki persónuupplýsingum þínum með þriðja aðila nema í eftirfarandi tilvikum:",
+      "items": {
+        "employers": "Vinnuveitendur: Við deilum prófílupplýsingunum þínum með eigendum þeirra atvinnuauglýsinga sem þú sækir um.",
+        "providers": "Þjónustuveitendur: Traustir samstarfsaðilar sem veita tæknilega þjónustu sem nauðsynleg er fyrir rekstur forritsins okkar.",
+        "legal": "Lagalegar skyldur: Í samræmi við lagaferli eða beiðni lögbærra yfirvalda"
+      }
+    },
+    "section4": {
+      "title": "4. Öryggi gagna",
+      "intro": "Við innleiðum staðlaðar öryggisráðstafanir í iðnaði til að vernda persónuupplýsingar þínar:",
+      "items": {
+        "ssl": "SSL/TLS dulkóðun",
+        "datacenter": "Örugg gagnaver",
+        "audits": "Reglulegar öryggisúttektir",
+        "access": "Aðgangsstýring og heimild"
+      }
+    },
+    "section5": {
+      "title": "5. Réttindi þín",
+      "intro": "Þú hefur eftirfarandi réttindi innan gildissviðs persónuverndarlaga nr. 6698 (KVKK):",
+      "items": {
+        "know": "Að læra hvort unnið sé með persónuupplýsingar þínar eða ekki",
+        "info": "Að biðja um upplýsingar um persónuupplýsingar þínar ef unnið hefur verið úr þeim",
+        "purpose": "Að kynnast tilgangi vinnslu persónuupplýsinga þinna og hvort þær séu notaðar í þeim tilgangi sem þeim er ætlað",
+        "thirdParty": "Að þekkja til þriðja aðila sem persónuupplýsingar eru fluttar til heima eða erlendis",
+        "correct": "Óskað er eftir leiðréttingu á persónuupplýsingum ef þær eru ófullnægjandi eða ranglega unnar",
+        "delete": "Biddu um eyðingu eða eyðingu persónuupplýsinga þinna"
+      }
+    },
+    "section6": {
+      "title": "6. Vafrakökur og rakningartækni",
+      "content": "Appið okkar gæti notað vafrakökur og svipaða tækni til að bæta upplifun þína. Þökk sé þessari tækni munum við eftir óskum þínum og greinum frammistöðu forrita."
+    },
+    "section7": {
+      "title": "7. Persónuvernd barna",
+      "content": "Umsókn okkar er ekki beint að einstaklingum undir 18 ára aldri. Við söfnum ekki vísvitandi persónuupplýsingum frá einstaklingum undir 18 ára aldri."
+    },
+    "section8": {
+      "title": "8. Stefnubreytingar",
+      "content": "Við gætum uppfært þessa persónuverndarstefnu af og til. Ef um verulegar breytingar er að ræða munum við láta þig vita með tilkynningum í forriti."
+    },
+    "section9": {
+      "title": "9. Samskipti",
+      "intro": "Fyrir spurningar þínar um persónuvernd geturðu haft samband við okkur:"
+    }
+  },
+  "terms": {
+    "title": "Notkunarskilmálar",
+    "metaTitle": "Notkunarskilmálar - Hirovo",
+    "metaDescription": "Notkunarskilmálar Hirovo - Reglur og skilyrði sem þú verður að fara eftir þegar þú notar forritið okkar.",
+    "lastUpdate": "Síðast uppfært: janúar 2025",
+    "intro": "Með því að nota Hirovo farsímaforritið (\"Umsókn\") telst þú hafa samþykkt eftirfarandi notkunarskilmála. Vinsamlegast lestu þessa skilmála vandlega.",
+    "section1": {
+      "title": "1. Lýsing á þjónustunni",
+      "intro": "Hirovo er atvinnuleitarvettvangur sem miðar að því að tengja atvinnuleitendur við vinnuveitendur. Í gegnum umsókn okkar:",
+      "items": {
+        "view": "Hægt er að skoða atvinnutilkynningar og sækja um",
+        "profile": "Þú getur búið til fagprófílinn þinn",
+        "offers": "Þú getur metið tilboð frá vinnuveitendum",
+        "track": "Þú getur fylgst með starfstækifærum"
+      }
+    },
+    "section2": {
+      "title": "2. Stofnun reikninga og öryggi",
+      "intro": "Þú þarft að búa til reikning til að nota forritið okkar. Þegar þú stofnar reikning:",
+      "items": {
+        "accurate": "Þú samþykkir að veita nákvæmar og núverandi upplýsingar",
+        "responsible": "Þú berð ábyrgð á trúnaði um reikningsupplýsingar þínar.",
+        "activity": "Þú berð ábyrgð á allri starfsemi sem á sér stað á reikningnum þínum.",
+        "notify": "Ef um óviðkomandi aðgang er að ræða verður þú að láta okkur vita strax"
+      }
+    },
+    "section3": {
+      "title": "3. Skyldur notenda",
+      "intro": "Þegar þú notar forritið okkar samþykkir þú að fara eftir eftirfarandi reglum:",
+      "items": {
+        "legal": "Að starfa í samræmi við lög og reglur",
+        "honest": "Að deila nákvæmum og ekki villandi upplýsingum",
+        "respect": "Að virða réttindi annarra notenda",
+        "noSpam": "Ekki deila ruslpósti, spilliforritum eða skaðlegu efni",
+        "security": "Forðastu aðgerðir sem geta stofnað öryggi forritsins í hættu",
+        "identity": "Ekki að herma eftir öðrum"
+      }
+    },
+    "section4": {
+      "title": "4. Bönnuð hegðun",
+      "intro": "Eftirfarandi hegðun er stranglega bönnuð:",
+      "items": {
+        "fake": "Að búa til falsar atvinnuauglýsingar eða prófíla",
+        "harass": "Áreita eða áreita aðra notendur",
+        "illegal": "Að nota forritið í ólöglegum tilgangi",
+        "damage": "Skemma tæknilega innviði umsóknarinnar",
+        "bots": "Að nota sjálfvirk kerfi eða vélmenni",
+        "ip": "Brot á hugverkarétti"
+      }
+    },
+    "section5": {
+      "title": "5. Efni og hugverk",
+      "intro": "Öll réttindi á forritinu og innihaldi þess tilheyra Hirovo:",
+      "items": {
+        "ownership": "Merki, hönnun og viðmót eru eign Hirovo",
+        "userContent": "Efni sem notandinn hefur hlaðið upp er á ábyrgð notandans.",
+        "license": "Þú veitir okkur nauðsynleg leyfi fyrir upplýsingarnar sem þú deilir á prófílnum þínum.",
+        "thirdParty": "Efnið þitt má ekki brjóta í bága við réttindi þriðja aðila"
+      }
+    },
+    "section6": {
+      "title": "6. Takmörkun ábyrgðar",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Ábyrgist ekki nákvæmni starfstilkynninga",
+        "relationship": "Ekki aðili að sambandi vinnuveitanda og launþega",
+        "disputes": "Ber ekki ábyrgð á ágreiningi milli notenda",
+        "uptime": "Það tryggir ekki að þjónustan starfi án truflana.",
+        "damages": "Engin ábyrgð á óbeinu eða afleiddu tjóni."
+      }
+    },
+    "section7": {
+      "title": "7. Lokun reiknings og uppsögn",
+      "intro": "Við gætum stöðvað eða lokað reikningi þínum í eftirfarandi tilvikum:",
+      "items": {
+        "violation": "Brot á notkunarskilmálum",
+        "illegal": "Ólögleg starfsemi",
+        "harm": "Hegðun sem skaðar aðra notendur",
+        "false": "Að veita rangar eða villandi upplýsingar"
+      }
+    },
+    "section8": {
+      "title": "8. Breytingar",
+      "content": "Við áskiljum okkur rétt til að breyta þessum notkunarskilmálum án fyrirvara. Mikilvægar breytingar verða tilkynntar með tilkynningum í forriti. Að halda áfram að nota forritið eftir breytingar þýðir að þú samþykkir nýju skilmálana."
+    },
+    "section9": {
+      "title": "9. Gildandi lög",
+      "content": "Þessir notkunarskilmálar eru háðir lögum lýðveldisins Tyrklands. Ef um ágreining er að ræða hafa dómstólar og fullnustuskrifstofur í Istanbúl lögsögu."
+    },
+    "section10": {
+      "title": "10. Samskipti",
+      "intro": "Fyrir spurningar þínar um notkunarskilmálana:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Beiðni um eyðingu reiknings",
+    "metaTitle": "Eyðing reiknings - Hirovo",
+    "metaDescription": "Beiðni um að eyða Hirovo reikningnum þínum.",
+    "description": "Ef þú vilt eyða reikningnum þínum skaltu fylla út eyðublaðið hér að neðan. Þegar beiðni þín hefur verið skoðuð verður reikningnum þínum og öllum gögnum þínum eytt varanlega.",
+    "warning": "Þegar reikningnum þínum hefur verið eytt verður öllum gögnum þínum (prófílupplýsingum, forritum, skilaboðum) eytt varanlega og ekki er hægt að endurheimta þær.",
+    "form": {
+      "emailLabel": "Netfang",
+      "emailPlaceholder": "dæmi@email.com",
+      "phoneLabel": "Símanúmer",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "Ástæða eyðingar",
+      "reasonPlaceholder": "Af hverju viltu eyða reikningnum þínum?",
+      "submitButton": "Sendu beiðni um eyðingu reiknings"
+    },
+    "errors": {
+      "emailOrPhone": "Vinsamlegast sláðu inn netfangið þitt eða símanúmer.",
+      "generic": "Villa hefur komið upp. Vinsamlegast reyndu aftur síðar.",
+      "connection": "Tengingarvilla. Athugaðu nettenginguna þína."
+    },
+    "success": {
+      "title": "Beiðni þín hefur verið móttekin",
+      "message": "Beiðni þín um eyðingu reiknings hefur borist. Beiðni þín verður endurskoðuð eins fljótt og auðið er og þér verður tilkynnt um það með tölvupósti eða SMS.",
+      "processingTime": "Afgreiðslutími: 1-3 virkir dagar"
+    },
+    "contactNote": "Þú getur náð í okkur á."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Veldu Tungumál",
+    "popularLanguages": "Vinsæl tungumál"
+  }
+}

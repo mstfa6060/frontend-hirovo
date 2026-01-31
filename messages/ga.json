@@ -1,0 +1,792 @@
+{
+  "common": {
+    "download": "Íosluchtaigh",
+    "downloadApp": "Íoslódáil an App",
+    "googlePlay": "Google Súgartha",
+    "email": "Ríomhphost",
+    "phone": "Teileafón",
+    "or": "nó",
+    "loading": "Á lódáil...",
+    "sending": "Á sheoladh...",
+    "error": "botún",
+    "success": "D'éirigh leis",
+    "submit": "Seol",
+    "optional": "roghnach",
+    "important": "Tábhachtach",
+    "contact": "Cumarsáid",
+    "questions": "Do cheisteanna",
+    "learnMore": "Tuilleadh Eolais",
+    "getStarted": "Tosaigh Anois",
+    "readMore": "Léigh níos mó",
+    "viewAll": "Féach Uile",
+    "free": "Saor",
+    "new": "Nua"
+  },
+  "metadata": {
+    "title": "Hirovo - Ardán Lorg Post & Fógraíochta",
+    "description": "Is ardán cuardaigh poist agus fógraíochta é Hirovo. Faigh postálacha poist, déan iarratas go héasca agus lean deiseanna gairme.",
+    "keywords": "post a aimsiú, postálacha poist, gairm bheatha, cuardach poist, postálacha pearsanra, iarrthóirí pearsanra, earcaíocht, Hirovo",
+    "ogTitle": "Hirovo - Ardán Fostaíochta & Gairme",
+    "ogDescription": "Faigh postálacha poist, cuir i bhfeidhm agus lean deiseanna gairme le Hirovo."
+  },
+  "header": {
+    "logoAlt": "Hirovo",
+    "about": "Maidir linne",
+    "howItWorks": "Conas a Oibríonn sé",
+    "forJobSeekers": "Lucht Cuardaigh Fostaíochta",
+    "forEmployers": "fostóirí",
+    "faq": "CCanna",
+    "contact": "Cumarsáid",
+    "careerTips": "Comhairle Gairme"
+  },
+  "footer": {
+    "copyright": "2025 Hirovo",
+    "privacy": "Beartas Príobháideachta",
+    "terms": "Téarmaí Úsáide",
+    "deleteAccount": "Scriosadh Cuntais",
+    "home": "Leathanach Baile",
+    "about": "Maidir linne",
+    "contact": "Cumarsáid",
+    "faq": "CCanna",
+    "howItWorks": "Conas a Oibríonn sé",
+    "forJobSeekers": "Do Lucht Cuardaigh Fostaíochta",
+    "forEmployers": "D'Fhostóirí",
+    "careerTips": "Comhairle Gairme",
+    "company": "Cuideachta",
+    "resources": "Acmhainní",
+    "legal": "Dlíthiúil",
+    "followUs": "Lean Linn",
+    "description": "An t-ardán fostaíochta is nuálaí sa Tuirc. Beidh do bhrionglóid céim amháin níos gaire."
+  },
+  "home": {
+    "hero": {
+      "title": "Aimsigh Do Phost Aisling",
+      "subtitle": "Faigh amach na mílte postálacha poist, déan iarratas go héasca agus lean deiseanna gairme le Hirovo.",
+      "stats": {
+        "jobs": "Postáil Gníomhach Poist",
+        "users": "Úsáideoir Cláraithe",
+        "companies": "Cuideachta Chomhpháirtithe",
+        "placements": "Meaitseáil Rathúil"
+      }
+    },
+    "features": {
+      "title": "Cén fáth Hirovo?",
+      "subtitle": "Ár gnéithe a dhéanann do chuardach poist níos éasca",
+      "easySearch": {
+        "title": "Cuardach Éasca",
+        "description": "Déan cuardach tapa i measc na mílte postálacha poist agus faigh deiseanna a oireann duit."
+      },
+      "quickApply": {
+        "title": "Iarratas Tapa",
+        "description": "Déan iarratas le cliceáil amháin, ná cuir am amú. Cruthaigh do phróifíl uair amháin, é a úsáid i ngach áit."
+      },
+      "notifications": {
+        "title": "Fógraí Brúigh",
+        "description": "Faigh amach láithreach faoi phostálacha nua agus faoi stádas feidhmchláir, ná caill an deis."
+      },
+      "smartMatch": {
+        "title": "Meaitseáil Chliste",
+        "description": "Molann an córas a fhaigheann tacaíocht ó hintleachta saorga duit na poist is fearr a oireann do do scileanna."
+      },
+      "secureProfile": {
+        "title": "Próifíl Slán",
+        "description": "Stóráiltear do chuid faisnéise pearsanta go slán agus ní roinntear é leis an bhfostóir ach amháin nuair a dhéanann tú iarratas."
+      },
+      "careerSupport": {
+        "title": "Tacaíocht Gairme",
+        "description": "Táimid anseo chun cabhrú leat le CV a ullmhú, teicnící agallaimh agus comhairle ghairme."
+      }
+    },
+    "categories": {
+      "title": "Catagóirí Gnó Coitianta",
+      "subtitle": "Faigh amach deiseanna sna hearnálacha is mó tóir",
+      "technology": "Teicneolaíocht",
+      "healthcare": "Sláinte",
+      "finance": "Airgeadais",
+      "education": "Oideachas",
+      "retail": "Miondíol",
+      "manufacturing": "Táirgeadh",
+      "hospitality": "Turasóireacht & Fáilteachas",
+      "construction": "Foirgneamh"
+    },
+    "howItWorks": {
+      "title": "Conas a Oibríonn Sé?",
+      "subtitle": "Faigh post i dtrí chéim shimplí",
+      "step1": {
+        "title": "Íoslódáil an App",
+        "description": "Íoslódáil Hirovo saor in aisce ó Google Play agus cruthaigh do chuntas."
+      },
+      "step2": {
+        "title": "Cruthaigh Do Phróifíl",
+        "description": "Cuir do thaithí, scileanna agus roghanna leis."
+      },
+      "step3": {
+        "title": "Cuir iarratas isteach agus Tosaigh Gnó",
+        "description": "Déan iarratas ar phoist atá oiriúnach duit agus déan teagmháil le fostóirí."
+      }
+    },
+    "testimonials": {
+      "title": "Tuairimí Úsáideora",
+      "subtitle": "Taithí ár n-úsáideoirí a fuair fostaíocht le Hirovo"
+    },
+    "cta": {
+      "title": "Tosaigh Anois",
+      "subtitle": "Íosluchtaigh Hirovo, beidh do bhrionglóid céim amháin níos gaire.",
+      "downloadFree": "Íoslódáil saor in aisce Greann"
+    }
+  },
+  "about": {
+    "metaTitle": "Fúinn - Hirovo",
+    "metaDescription": "Foghlaim faoi Hirovo. Ár misean, ár bhfís agus ár bpeirspictíocht ar an tionscal fostaíochta.",
+    "hero": {
+      "title": "Maidir linne",
+      "subtitle": "Rinneamar iarracht saol an ghnó a athrú"
+    },
+    "mission": {
+      "title": "Ár misean",
+      "description": "Cuardaitheoirí poist agus fostóirí a thabhairt le chéile ar an mbealach is éifeachtaí, chun an próiseas chun post a aimsiú a éascú do gach duine agus chun deiseanna fostaíochta cothroma a chruthú."
+    },
+    "vision": {
+      "title": "Ár bhFís",
+      "description": "Mar phríomh-ardán fostaíochta digiteach na Tuirce agus an réigiúin, ag cabhrú leis na milliúin daoine a gcuid spriocanna gairme a bhaint amach."
+    },
+    "story": {
+      "title": "Ár scéal",
+      "content1": "Bunaíodh Hirovo in 2024 chun na dúshláin atá roimh lucht cuardaigh fostaíochta a réiteach. Mar gheall ar neamhéifeachtúlacht na modhanna traidisiúnta cuardaigh fostaíochta agus na frustrachas a bhíonn ar chuardaitheoirí poist, bheartaíomar réiteach níos fearr a chruthú ag baint úsáide as an teicneolaíocht.",
+      "content2": "Sa lá atá inniu ann, roghnaíonn na mílte cuardaitheoirí poist agus na céadta cuideachtaí Hirovo. Leis an gcur chuige atá againn atá dírithe ar an úsáideoir agus lenár dteicneolaíocht a fheabhsú i gcónaí, feabhsaítear an taithí chun post a aimsiú gach lá."
+    },
+    "values": {
+      "title": "Ár luachanna",
+      "transparency": {
+        "title": "Trédhearcacht",
+        "description": "Cuirimid trédhearcacht iomlán ar fáil maidir le postálacha poist agus inár bpróisis."
+      },
+      "equality": {
+        "title": "Comhionannas",
+        "description": "Cuirimid comhdheiseanna ar fáil do gach duine agus seasaimid i gcoinne an idirdhealaithe."
+      },
+      "innovation": {
+        "title": "nuálaíocht",
+        "description": "Táimid i gcónaí ag feabhsú agus ag baint úsáide as na teicneolaíochtaí is déanaí."
+      },
+      "userFirst": {
+        "title": "Fócas Úsáideora",
+        "description": "Tugaimid tosaíocht d'eispéireas an úsáideora i ngach cinneadh."
+      }
+    },
+    "team": {
+      "title": "Ár bhfoireann",
+      "description": "Tugann ár bhfoireann de dhaoine gairmiúla le taithí na blianta eolais san earnáil fostaíochta go Hirovo."
+    },
+    "stats": {
+      "title": "Hirovo i líon",
+      "downloads": "Íosluchtaigh",
+      "activeUsers": "Úsáideoir Gníomhach",
+      "partnerCompanies": "Cuideachta Chomhpháirtithe",
+      "successfulMatches": "Meaitseáil Rathúil"
+    }
+  },
+  "howItWorks": {
+    "metaTitle": "Conas a Oibríonn sé - Hirovo",
+    "metaDescription": "Conas a oibríonn Hirovo? Foghlaim an cuardach poist agus an próiseas iarratais céim ar chéim.",
+    "hero": {
+      "title": "Conas a Oibríonn Sé?",
+      "subtitle": "Rinneamar é chomh héasca post a fháil"
+    },
+    "forJobSeekers": {
+      "title": "Do Lucht Cuardaigh Fostaíochta",
+      "step1": {
+        "title": "Íoslódáil an App",
+        "description": "Íoslódáil an app Hirovo ó Google Play. Suiteáil tapa agus sábháilte."
+      },
+      "step2": {
+        "title": "Cruthaigh Cuntas",
+        "description": "Cláraigh i soicindí le do ríomhphost nó uimhir theileafóin."
+      },
+      "step3": {
+        "title": "Críochnaigh Do Phróifíl",
+        "description": "Cuir do thaithí oibre, oideachas agus scileanna leis. Uaslódáil do CV."
+      },
+      "step4": {
+        "title": "Fiosraigh Postálacha Poist",
+        "description": "Faigh liostaí a oireann duit trí úsáid a bhaint as scagairí. Suíomh, tuarastal, tionscal agus go leor eile."
+      },
+      "step5": {
+        "title": "Cuir iarratas isteach le One Click",
+        "description": "Cuir i bhfeidhm láithreach ar na fógraí is mian leat. Tarchuirtear do phróifíl go huathoibríoch."
+      },
+      "step6": {
+        "title": "Lean an Próiseas",
+        "description": "Lean stádas d’fheidhmchláir i bhfíor-am. Fan ar an eolas le fógraí."
+      }
+    },
+    "forEmployers": {
+      "title": "D'Fhostóirí",
+      "step1": {
+        "title": "Cruthaigh Cuntas Cuideachta",
+        "description": "Cláraigh do chuideachta agus cuir an próiseas fíoraithe i gcrích."
+      },
+      "step2": {
+        "title": "Foilsigh Fógra Poist",
+        "description": "Cruthaigh postáil poist le cur síos mionsonraithe poist agus riachtanais."
+      },
+      "step3": {
+        "title": "Iarratais Athbhreithnithe",
+        "description": "Scag iarratais isteach agus roghnaigh iarrthóirí oiriúnacha."
+      },
+      "step4": {
+        "title": "Déan Teagmháil le hIarrthóirí",
+        "description": "Déan teagmháil le hiarrthóirí go díreach tríd an iarratas."
+      }
+    },
+    "features": {
+      "title": "Gnéithe",
+      "ai": {
+        "title": "Tacaíocht Intleachta Saorga",
+        "description": "Molann halgartaim Chliste na poist is oiriúnaí duit."
+      },
+      "realtime": {
+        "title": "Fógraí Brúigh",
+        "description": "Faigh fógraí láithreach le haghaidh postálacha nua agus nuashonruithe feidhmchlár."
+      },
+      "secure": {
+        "title": "Bonneagar Slán",
+        "description": "Tá do shonraí cosanta leis na caighdeáin slándála is airde."
+      }
+    }
+  },
+  "jobSeekers": {
+    "metaTitle": "Do Lucht Cuardaigh Fostaíochta - Hirovo",
+    "metaDescription": "Má tá tú ag lorg poist, tá Hirovo díreach duitse. Na mílte postálacha poist, iarratais éasca agus deiseanna gairme.",
+    "hero": {
+      "title": "Do Lucht Cuardaigh Fostaíochta",
+      "subtitle": "Táimid in éineacht leat ar do thuras gairme"
+    },
+    "benefits": {
+      "title": "Cén fáth Roghnaigh Hirovo?",
+      "free": {
+        "title": "Go hiomlán saor in aisce",
+        "description": "Tá ár gcuid gnéithe go léir saor in aisce do chuardaitheoirí poist. Níl aon táillí folaithe."
+      },
+      "thousands": {
+        "title": "Na mílte Fógraí",
+        "description": "Na mílte post reatha ó gach earnáil agus gach leibhéal."
+      },
+      "easy": {
+        "title": "Iarratas Éasca",
+        "description": "Déan iarratas le cliceáil amháin, ná cuir am amú."
+      },
+      "track": {
+        "title": "Rianú Feidhmchláir",
+        "description": "Rianaigh d'iarratais go léir in aon áit amháin."
+      },
+      "notifications": {
+        "title": "Fógraí Cliste",
+        "description": "Bí ar an eolas láithreach faoi fhógraí nua atá oiriúnach duit."
+      },
+      "privacy": {
+        "title": "Slándáil",
+        "description": "Ní roinntear d’fhaisnéis ach leis na cuideachtaí a ndéanann tú iarratas chucu."
+      }
+    },
+    "tips": {
+      "title": "Leideanna maidir le hIarratas Rathúil",
+      "tip1": {
+        "title": "Críochnaigh Do Phróifíl",
+        "description": "Tarraingíonn próifílí lánlíonta aird 3 huaire níos mó."
+      },
+      "tip2": {
+        "title": "Coinnigh Suas Chun Dáta",
+        "description": "Nuashonraigh do phróifíl de réir mar a chuireann tú scileanna agus eispéiris nua leis."
+      },
+      "tip3": {
+        "title": "Coinnigh Fógraí ar siúl",
+        "description": "Ceadaigh fógraí chun deiseanna caillte a sheachaint."
+      },
+      "tip4": {
+        "title": "Cuir iarratas isteach go tapa",
+        "description": "Tagann siad siúd a chuireann isteach go tapa ar phostálacha nua chun cinn."
+      }
+    },
+    "categories": {
+      "title": "Catagóirí Coitianta",
+      "subtitle": "Catagóirí poist is mó a cuardaíodh"
+    },
+    "cta": {
+      "title": "Aimsigh Do Phost Aisling",
+      "subtitle": "Íoslódáil Hirovo anois agus faigh amach na mílte deiseanna."
+    }
+  },
+  "employers": {
+    "metaTitle": "D'Fhostóirí - Hirovo",
+    "metaDescription": "Faigh an tallann ceart le Hirovo. Réitigh ceannaigh thapa, éifeachtacha agus eacnamaíocha.",
+    "hero": {
+      "title": "D'Fhostóirí",
+      "subtitle": "An bealach is éasca chun na buanna cearta a aimsiú"
+    },
+    "benefits": {
+      "title": "Buntáistí Hirovo",
+      "reach": {
+        "title": "Sroicheann Leathan",
+        "description": "Déan teagmháil láithreach leis na mílte cuardaitheoirí poist gníomhacha."
+      },
+      "quality": {
+        "title": "Iarrthóirí Cáilíochta",
+        "description": "Próifílí fíoraithe agus atosú mionsonraithe."
+      },
+      "fast": {
+        "title": "Toradh Fast",
+        "description": "Faigh na chéad iarratais laistigh de thart ar 48 uair an chloig."
+      },
+      "affordable": {
+        "title": "Praghas Inacmhainne",
+        "description": "Tá sé i bhfad níos eacnamaí ná modhanna traidisiúnta."
+      },
+      "easy": {
+        "title": "Bainistíocht Éasca",
+        "description": "Bainistigh gach feidhmchlár ó phainéal amháin."
+      },
+      "support": {
+        "title": "Tacaíocht",
+        "description": "Cabhraímid leat sa phróiseas earcaíochta."
+      }
+    },
+    "process": {
+      "title": "Próiseas Earcaíochta",
+      "step1": "Cruthaigh cuntas cuideachta",
+      "step2": "Foilsigh do phostáil",
+      "step3": "Déan athbhreithniú ar na hiarratais",
+      "step4": "Bualadh le hiarrthóirí",
+      "step5": "Earcach"
+    },
+    "pricing": {
+      "title": "Praghsáil",
+      "subtitle": "Roghnaigh an plean a oireann do do riachtanais",
+      "basic": {
+        "title": "Tús",
+        "price": "Saor",
+        "features": {
+          "0": "1 fógra in aghaidh na míosa",
+          "1": "Scagadh bunúsach",
+          "2": "Tacaíocht ríomhphoist"
+        }
+      },
+      "pro": {
+        "title": "Gairmiúil",
+        "price": "Déan Teagmháil Linn",
+        "features": {
+          "0": "Fógraí gan teorainn",
+          "1": "Ardscagadh",
+          "2": "Tacaíocht tosaíochta",
+          "3": "Moltaí na n-iarrthóirí"
+        }
+      },
+      "enterprise": {
+        "title": "Institiúideach",
+        "price": "Praghas Speisialta",
+        "features": {
+          "0": "Gach gnéithe Pro",
+          "1": "Rochtain API",
+          "2": "Comhtháthú saincheaptha",
+          "3": "bainisteoir cuntais"
+        }
+      }
+    },
+    "cta": {
+      "title": "Faigh na Buanna Cearta",
+      "subtitle": "Tosaigh anois agus sroich na hiarrthóirí is fearr."
+    }
+  },
+  "faq": {
+    "metaTitle": "Ceisteanna Coitianta - Hirovo",
+    "metaDescription": "Ceisteanna coitianta agus freagraí faoi Hirovo. Eolas faoi chuardach poist, cur isteach agus úsáid an fheidhmchláir.",
+    "hero": {
+      "title": "Ceisteanna Coitianta",
+      "subtitle": "Gach rud a cheapann tú faoi"
+    },
+    "categories": {
+      "general": "Ginearálta",
+      "account": "Bille",
+      "application": "Iarratas",
+      "employers": "fostóirí",
+      "technical": "Teicniúil"
+    },
+    "general": {
+      "q1": {
+        "question": "Cad é Hirovo?",
+        "answer": "Is ardán fostaíochta soghluaiste é Hirovo a thugann le chéile lucht cuardaigh fostaíochta agus fostóirí. Is féidir leat cuardach a dhéanamh i measc na mílte postálacha poist, iarratas a dhéanamh le cliceáil amháin, agus deiseanna gairme a leanúint."
+      },
+      "q2": {
+        "question": "An bhfuil Hirovo saor in aisce?",
+        "answer": "Sea, tá Hirovo saor in aisce do chuardaitheoirí poist. Is féidir leat ár gcuid gnéithe go léir a úsáid saor in aisce."
+      },
+      "q3": {
+        "question": "Cá háit is féidir liom a íosluchtaigh Hirovo.",
+        "answer": "Is féidir leat Hirovo a íoslódáil saor in aisce ó Google Play Store. Beidh an leagan iOS a scaoileadh go luath."
+      }
+    },
+    "account": {
+      "q1": {
+        "question": "Conas is féidir liom cuntas a chruthú?",
+        "answer": "Tar éis duit an feidhmchlár a íoslódáil, is féidir leat clárú i soicindí le do sheoladh r-phoist nó uimhir theileafóin."
+      },
+      "q2": {
+        "question": "Rinne mé dearmad ar mo phasfhocal, cad ba cheart dom a dhéanamh?",
+        "answer": "Is féidir leat do phasfhocal a athshocrú trí ríomhphost nó SMS trí chliceáil ar an rogha 'Forgot My Password' ar an scáileán logála isteach."
+      },
+      "q3": {
+        "question": "Conas is féidir liom mo chuntas a scriosadh?",
+        "answer": "Is féidir leat scriosadh cuntais a iarraidh ó na socruithe in-app nó ón leathanach ‘Scrios Cuntas’ ar ár suíomh Gréasáin."
+      }
+    },
+    "application": {
+      "q1": {
+        "question": "Conas a dhéanaim m'iarratas a rianú?",
+        "answer": "Is féidir leat d’iarratais go léir agus a stádas a fheiceáil sa rannán ‘M’Iarratais’ san fheidhmchlár."
+      },
+      "q2": {
+        "question": "An féidir liom m'iarratas a tharraingt siar?",
+        "answer": "Is féidir, is féidir leat d’iarratais nach bhfuil athbhreithniú déanta orthu go fóill a tharraingt siar."
+      },
+      "q3": {
+        "question": "Cén fáth ar diúltaíodh do m’iarratas?",
+        "answer": "Déanann fostóirí meastóireachtaí de réir a gcritéar féin. Is féidir leat do sheansanna a mhéadú trí do phróifíl a nuashonrú agus iarratas a dhéanamh ar níos mó postálacha."
+      }
+    },
+    "employers": {
+      "q1": {
+        "question": "Conas cuntas cuideachta a oscailt?",
+        "answer": "Is féidir leat do chuideachta a chlárú tríd an iarratas nó ar ár suíomh Gréasáin. Críochnaítear an próiseas fíoraithe laistigh de 24-48 uair an chloig."
+      },
+      "q2": {
+        "question": "An bhfuil táille i gceist le fógra a fhoilsiú?",
+        "answer": "Tá ár bpacáiste bunúsach saor in aisce. Le haghaidh tuilleadh fógraí agus ardghnéithe, is féidir leat ár bpacáistí gairmiúla a sheiceáil."
+      }
+    },
+    "technical": {
+      "q1": {
+        "question": "Ní osclaíonn an t-iarratas, cad ba cheart dom a dhéanamh?",
+        "answer": "Nuashonraigh an t-iarratas ar dtús. Má leanann an fhadhb, scrios an app agus reinstall é. Má tá fadhbanna agat fós, déan teagmháil lenár bhfoireann tacaíochta."
+      },
+      "q2": {
+        "question": "Fógraí gan teacht?",
+        "answer": "Bí cinnte go gceadaíonn tú fógraí do Hirovo i socruithe do ghutháin. Seiceáil freisin do shainroghanna fógraí i socruithe in-app."
+      }
+    },
+    "contact": {
+      "title": "An bhfuil aon cheist agat?",
+      "subtitle": "Déan teagmháil linn le haghaidh ceisteanna nach féidir leat teacht ar na freagraí orthu."
+    }
+  },
+  "contact": {
+    "metaTitle": "Teagmháil - Hirovo",
+    "metaDescription": "Déan teagmháil le Hirovo. Déan teagmháil linn le haghaidh do cheisteanna, moltaí agus aiseolais.",
+    "hero": {
+      "title": "Cumarsáid",
+      "subtitle": "Bheadh ​​áthas orainn cabhrú leat"
+    },
+    "info": {
+      "title": "Eolas Teagmhála",
+      "email": {
+        "title": "Ríomhphost",
+        "value": "dia duit@hirovo.com",
+        "description": "Tacaíocht ríomhphoist 24/7"
+      },
+      "phone": {
+        "title": "Teileafón",
+        "value": "+90 (212) 000 00 00",
+        "description": "Luan - Aoine, 09:00 - 18:00"
+      },
+      "address": {
+        "title": "Seoladh",
+        "value": "Iostanbúl, an Tuirc",
+        "description": "Ár bpríomhoifig"
+      }
+    },
+    "form": {
+      "title": "Scríobh chugainn",
+      "name": "D'Ainm agus do Shloinne",
+      "email": "Do Sheoladh Ríomhphoist",
+      "subject": "Ábhar",
+      "message": "Do theachtaireacht",
+      "submit": "Seol",
+      "subjects": {
+        "general": "Ceist Ghinearálta",
+        "support": "Tacaíocht Theicniúil",
+        "partnership": "Comhpháirtíocht",
+        "feedback": "Aiseolas",
+        "other": "Eile"
+      },
+      "success": "Seoladh do theachtaireacht go rathúil. Rachaimid ar ais chugat chomh luath agus is féidir.",
+      "error": "Tharla earráid. Bain triail eile as ar ball."
+    },
+    "social": {
+      "title": "Meáin Shóisialta",
+      "subtitle": "Lean muid ar na meáin shóisialta"
+    }
+  },
+  "careerTips": {
+    "metaTitle": "Comhairle Gairme - Hirovo",
+    "metaDescription": "Sainchomhairle maidir le cuardach poist, ullmhú CV, teicnící agallaimh agus forbairt gairme.",
+    "hero": {
+      "title": "Comhairle Gairme",
+      "subtitle": "Tóg do ghairm bheatha go dtí an chéad leibhéal eile"
+    },
+    "categories": {
+      "resume": "Ullmhúchán CV",
+      "interview": "Teicnící Agallaimh",
+      "career": "Forbairt Gairme",
+      "workplace": "Saol Gnó"
+    },
+    "articles": {
+      "resume1": {
+        "title": "Conas CV Éifeachtach a Ullmhú?",
+        "summary": "Treoir ghairmiúil maidir le CV a ullmhú a tharraingíonn aird fostóirí.",
+        "content": "Is é do CV an chéad tuiscint ar d’iarratas ar phost. Déanann CV dea-ullmhaithe tú a idirdhealú ó iarrthóirí eile agus méadaíonn sé an seans atá agat cuireadh agallaimh a fháil. Seo leideanna le haghaidh CV éifeachtach:\n\n1. Bain úsáid as formáid shoiléir agus gonta\n2. Cuir béim ar do thaithí ábhartha\n3. Tacaigh le do chuid éachtaí nithiúla le huimhreacha\n4. Úsáid eochairfhocail i gceart\n5. Seiceáil go cúramach le haghaidh earráidí"
+      },
+      "resume2": {
+        "title": "Botúin is Coitianta a Rinneadh sa CV",
+        "summary": "Botúin CV a d’fhéadfadh a bheith ina gcúis le d’iarratais a dhiúltú agus conas iad a sheachaint.",
+        "content": "Déanann go leor iarrthóirí botúin ríthábhachtacha ina CVanna gan iad a thuiscint. Má aithníonn agus má cheartaítear na botúin seo, cuirfear dlús leis an bpróiseas chun post a aimsiú."
+      },
+      "interview1": {
+        "title": "Rúin Ratha in Agallaimh",
+        "summary": "Teicnící nach mór duit a bheith ar eolas agat le bheith rathúil in agallaimh poist.",
+        "content": "Is é an t-agallamh an chéim is tábhachtaí den phróiseas iarratais ar phoist. Is féidir le hiarrthóirí dea-ullmhaithe strus a láimhseáil agus iad féin a chur in iúl ar a ndícheall."
+      },
+      "interview2": {
+        "title": "Ceisteanna Agallaimh is Coitianta",
+        "summary": "Ceisteanna a bheidh ort in agallaimh poist agus i straitéisí éifeachtacha freagra.",
+        "content": "Cuirtear ceisteanna áirithe beagnach i gcónaí in agallaimh. Ag ullmhú do na ceisteanna seo roimh ré méadaíonn tú do féin-mhuinín."
+      },
+      "career1": {
+        "title": "Dóibh siúd ar mian leo Athrú Gairme a Dhéanamh",
+        "summary": "Treoir céim ar chéim dóibh siúd ar mian leo earnálacha nó poist a athrú.",
+        "content": "Féadfaidh athrú gairme a bheith scanrúil, ach le pleanáil cheart is féidir é a chur i gcrích go rathúil."
+      },
+      "career2": {
+        "title": "Líonrú Gairmiúla",
+        "summary": "Bealaí chun caidrimh a thógáil a chuirfidh do ghairm bheatha chun cinn.",
+        "content": "Méadaíonn líonra gairmiúil láidir deiseanna gairme agus coimeádann sé tú ar an eolas faoi fhorbairtí tionscail."
+      },
+      "workplace1": {
+        "title": "Rudaí le cur san áireamh agus tú ag tosú ar phost nua",
+        "summary": "Comhairle phraiticiúil le bheith rathúil ón gcéad lá oibre.",
+        "content": "Is féidir le tosú rud éigin nua a bheith spreagúil ach struis. Leis an gcur chuige ceart, is féidir leat a oiriúnú go tapa agus tús rathúil a bheith agat."
+      },
+      "workplace2": {
+        "title": "Conas Cothromaíocht Oibre-Saoil a Bhunú?",
+        "summary": "Bealaí chun do ghairm bheatha agus do shaol príobháideach a chothromú.",
+        "content": "Tá cothromaíocht shláintiúil idir an saol agus an obair ríthábhachtach do do rathúlacht gairme agus do sonas pearsanta."
+      }
+    },
+    "newsletter": {
+      "title": "Faigh Leideanna Gairme",
+      "subtitle": "Liostáil lenár nuachtlitir le haghaidh na comhairle gairme agus na deiseanna fostaíochta is déanaí.",
+      "placeholder": "Do sheoladh ríomhphoist",
+      "button": "Liostáil"
+    }
+  },
+  "privacy": {
+    "title": "Beartas Príobháideachta",
+    "metaTitle": "Beartas Príobháideachta - Hirovo",
+    "metaDescription": "Polasaí Príobháideachta Hirovo - Eolas faoin gcaoi a mbailítear, a n-úsáidtear agus a chosnaítear do shonraí pearsanta.",
+    "lastUpdate": "Nuashonrú is déanaí: Eanáir 2025",
+    "intro": "Ag Hirovo, cuirimid an-tábhacht le príobháideacht ár n-úsáideoirí. Míníonn an Beartas Príobháideachta seo conas a phróiseáiltear sonraí pearsanta a bhailímid trí fheidhmchlár soghluaiste Hirovo (\"Iarratas\").",
+    "section1": {
+      "title": "1. Faisnéis a Bhailimid",
+      "intro": "D’fhéadfaimis an fhaisnéis seo a leanas a bhailiú nuair a úsáideann tú ár n-iarratas:",
+      "items": {
+        "account": "Eolas Cuntais: Ainm, sloinne, seoladh r-phoist, uimhir theileafóin",
+        "profile": "Eolas Próifíl: CV, taithí oibre, eolas oideachais, scileanna",
+        "location": "Eolas faoin Suíomh: Sonraí suímh chun postálacha poist a thaispeáint in aice leat (le do chead)",
+        "device": "Eolas faoin nGléas: Turas gléas, córas oibriúcháin, leagan feidhmchláir",
+        "usage": "Sonraí Úsáide: Idirghníomhaíochtaí in-aip, fógraí a breathnaíodh, feidhmchláir"
+      }
+    },
+    "section2": {
+      "title": "2. Cuspóirí Úsáide Faisnéise",
+      "intro": "Úsáidimid an fhaisnéis a bhailímid chun na críocha seo a leanas:",
+      "items": {
+        "account": "Do chuntas a chruthú agus a bhainistiú",
+        "jobs": "Ag taispeáint postálacha poist atá oiriúnach duit",
+        "applications": "Iarratas ar phoist a chur ar aghaidh chuig fostóirí",
+        "improve": "An taithí iarratais a fheabhsú",
+        "support": "Tacaíocht theicniúil a sholáthar",
+        "legal": "Chun ár n-oibleagáidí dlíthiúla a chomhlíonadh"
+      }
+    },
+    "section3": {
+      "title": "3. Faisnéis a Chomhroinnt",
+      "intro": "Ní roinnimid do shonraí pearsanta le tríú páirtithe ach amháin sna cásanna seo a leanas:",
+      "items": {
+        "employers": "Fostóirí: Roinnimid faisnéis do phróifíle le húinéirí na bpostálacha a ndéanann tú iarratas orthu.",
+        "providers": "Soláthraithe Seirbhíse: Comhpháirtithe iontaofa a sholáthraíonn seirbhísí teicniúla atá riachtanach chun ár bhfeidhmchlár a oibriú.",
+        "legal": "Oibleagáidí Dlí: De réir próisis dhlíthiúla nó iarratas ó údaráis inniúla"
+      }
+    },
+    "section4": {
+      "title": "4. Slándáil Sonraí",
+      "intro": "Cuirimid bearta slándála caighdeánacha tionscail i bhfeidhm chun do shonraí pearsanta a chosaint:",
+      "items": {
+        "ssl": "Criptiú SSL/TLS",
+        "datacenter": "Ionaid sonraí slán",
+        "audits": "Iniúchtaí slándála rialta",
+        "access": "Rialú rochtana agus údarú"
+      }
+    },
+    "section5": {
+      "title": "5. Do chearta",
+      "intro": "Tá na cearta seo a leanas agat laistigh de raon feidhme an Dlí um Chosaint Sonraí Pearsanta Uimh. 6698 (KVKK):",
+      "items": {
+        "know": "Foghlaim an bhfuil do shonraí pearsanta á bpróiseáil nó nach bhfuil",
+        "info": "Ag iarraidh faisnéise faoi do shonraí pearsanta má tá sé próiseáilte",
+        "purpose": "Foghlaim an cuspóir a bhaineann le do shonraí pearsanta a phróiseáil agus an n-úsáidtear iad chun na críche atá beartaithe dóibh",
+        "thirdParty": "A bheith eolach ar na tríú páirtithe a n-aistrítear sonraí pearsanta chucu sa bhaile nó thar lear",
+        "correct": "Ceartúchán sonraí pearsanta a iarraidh má tá siad neamhiomlán nó próiseáilte go mícheart",
+        "delete": "Iarr ar do shonraí pearsanta a scriosadh nó a scriosadh"
+      }
+    },
+    "section6": {
+      "title": "6. Fianáin agus Teicneolaíochtaí Rianaithe",
+      "content": "Seans go n-úsáidfidh ár bhfeidhmchlár fianáin agus teicneolaíochtaí cosúla chun d’eispéireas a fheabhsú. A bhuí leis na teicneolaíochtaí seo, cuimhnímid ar do chuid sainroghanna agus déanaimid anailís ar fheidhmíocht iarratais."
+    },
+    "section7": {
+      "title": "7. Príobháideacht Leanaí",
+      "content": "Níl ár n-iarratas dírithe ar dhaoine faoi bhun 18 mbliana d’aois. Ní bhailímid go feasach sonraí pearsanta ó dhaoine faoi 18 mbliana d’aois."
+    },
+    "section8": {
+      "title": "8. Athruithe Beartais",
+      "content": "Féadfaimid an Polasaí Príobháideachta seo a nuashonrú ó am go chéile. I gcás athruithe suntasacha, cuirfimid fógraí in-aip in iúl duit."
+    },
+    "section9": {
+      "title": "9. Cumarsáid",
+      "intro": "Le haghaidh do cheisteanna príobháideachais, is féidir leat teagmháil a dhéanamh linn:"
+    }
+  },
+  "terms": {
+    "title": "Téarmaí Úsáide",
+    "metaTitle": "Téarmaí Úsáide - Hirovo",
+    "metaDescription": "Téarmaí Úsáide Hirovo - Rialacha agus coinníollacha nach mór duit cloí leo agus ár bhfeidhmchlár á úsáid agat.",
+    "lastUpdate": "Nuashonrú is déanaí: Eanáir 2025",
+    "intro": "Trí úsáid a bhaint as feidhmchlár soghluaiste Hirovo (\"Iarratas\"), meastar gur ghlac tú leis na téarmaí úsáide seo a leanas. Léigh na téarmaí seo go cúramach, le do thoil.",
+    "section1": {
+      "title": "1. Cur síos ar an tSeirbhís",
+      "intro": "Is ardán cuardaigh fostaíochta é Hirovo a bhfuil sé mar aidhm aige cuardaitheoirí poist a nascadh le fostóirí. Tríd ár n-iarratas:",
+      "items": {
+        "view": "Is féidir leat postálacha poist a fheiceáil agus iarratas a dhéanamh",
+        "profile": "Is féidir leat do phróifíl ghairmiúil a chruthú",
+        "offers": "Féadfaidh tú tairiscintí ó fhostóirí a mheas",
+        "track": "Is féidir leat deiseanna gairme a leanúint"
+      }
+    },
+    "section2": {
+      "title": "2. Cruthú Cuntas agus Slándáil",
+      "intro": "Ní mór duit cuntas a chruthú chun ár bhfeidhmchlár a úsáid. Agus cuntas á chruthú:",
+      "items": {
+        "accurate": "Aontaíonn tú faisnéis chruinn agus reatha a sholáthar",
+        "responsible": "Tá tú freagrach as rúndacht do chuid faisnéise cuntais.",
+        "activity": "Tá tú freagrach as gach gníomhaíocht a tharlaíonn ar do chuntas.",
+        "notify": "I gcás rochtain neamhúdaraithe ní mór duit é sin a chur in iúl dúinn láithreach"
+      }
+    },
+    "section3": {
+      "title": "3. Oibleagáidí Úsáideora",
+      "intro": "Nuair a úsáideann tú ár n-iarratas aontaíonn tú cloí leis na rialacha seo a leanas:",
+      "items": {
+        "legal": "Gníomhú de réir dlíthe agus rialacháin",
+        "honest": "Eolas cruinn agus neamh-mhíthreorach a roinnt",
+        "respect": "Meas ar chearta úsáideoirí eile",
+        "noSpam": "Gan turscar, bogearraí mailíseacha nó ábhar mailíseach a roinnt",
+        "security": "Gníomhaíochtaí a d’fhéadfadh slándáil an fheidhmchláir a chur i mbaol a sheachaint",
+        "identity": "Gan aithris a dhéanamh ar dhaoine eile"
+      }
+    },
+    "section4": {
+      "title": "4. Iompraíochtaí Toirmiscthe",
+      "intro": "Tá cosc ​​dian ar na hiompraíochtaí seo a leanas:",
+      "items": {
+        "fake": "Postálacha nó próifílí poist bréige a chruthú",
+        "harass": "Úsáideoirí eile a chiapadh nó a chiapadh",
+        "illegal": "Ag baint úsáide as an bhfeidhmchlár chun críocha mídhleathacha",
+        "damage": "Dochar a dhéanamh do bhonneagar teicniúil an fheidhmchláir",
+        "bots": "Ag baint úsáide as córais uathoibrithe nó róbónna",
+        "ip": "Cearta maoine intleachtúla a shárú"
+      }
+    },
+    "section5": {
+      "title": "5. Ábhar agus Maoin Intleachtúil",
+      "intro": "Is le Hirovo na cearta go léir san fheidhmchlár agus a bhfuil ann:",
+      "items": {
+        "ownership": "Is le Hirovo an lógó, an dearadh agus an comhéadan",
+        "userContent": "Is é an t-úsáideoir atá freagrach as ábhar a uaslódáileann an t-úsáideoir.",
+        "license": "Deonaíonn tú na ceadúnais riachtanacha dúinn don fhaisnéis a roinneann tú i do phróifíl.",
+        "thirdParty": "Ní féidir le d'inneachar cearta tríú páirtí a shárú"
+      }
+    },
+    "section6": {
+      "title": "6. Teorainn le Dliteanas",
+      "intro": "Hirovo:",
+      "items": {
+        "accuracy": "Ní ráthaíonn sé cruinneas postálacha poist",
+        "relationship": "Ní páirtí sa chaidreamh fostóir-fostaí é",
+        "disputes": "Níl sé freagrach as díospóidí idir úsáideoirí",
+        "uptime": "Ní thugann sé ráthaíocht go n-oibreoidh an tseirbhís gan bhriseadh.",
+        "damages": "Gan a bheith freagrach as aon damáiste indíreach nó iarmhartach."
+      }
+    },
+    "section7": {
+      "title": "7. Fionraí Cuntas agus Foirceannadh",
+      "intro": "Féadfaimid do chuntas a chur ar fionraí nó a fhoirceannadh sna cásanna seo a leanas:",
+      "items": {
+        "violation": "Sárú ar théarmaí úsáide",
+        "illegal": "Gníomhaíochtaí mídhleathacha",
+        "harm": "Iompar a dhéanann dochar d’úsáideoirí eile",
+        "false": "Faisnéis bhréagach nó mhíthreorach a sholáthar"
+      }
+    },
+    "section8": {
+      "title": "8. Athruithe",
+      "content": "Coimeádaimid an ceart na téarmaí úsáide seo a athrú gan fógra a thabhairt roimh ré. Fógrófar athruithe tábhachtacha trí fhógraí in-app. Má leanann tú den fheidhmchlár a úsáid tar éis na n-athruithe, glacann tú leis na téarmaí nua."
+    },
+    "section9": {
+      "title": "9. An Dlí is Infheidhme",
+      "content": "Tá na téarmaí úsáide seo faoi réir dhlíthe Phoblacht na Tuirce. I gcás díospóide, tá dlínse ag Cúirteanna Iostanbúl agus ag Oifigí Forfheidhmithe."
+    },
+    "section10": {
+      "title": "10. Cumarsáid",
+      "intro": "Do cheisteanna faoi na téarmaí úsáide:"
+    }
+  },
+  "deleteAccount": {
+    "title": "Iarratas ar Scriosadh Cuntais",
+    "metaTitle": "Scriosadh Cuntas - Hirovo",
+    "metaDescription": "Iarratas chun do chuntas Hirovo a scriosadh.",
+    "description": "Más mian leat do chuntas a scriosadh, líon isteach an fhoirm thíos. Nuair a dhéanfar d’iarratas a athbhreithniú, scriosfar do chuntas agus do shonraí go léir go buan.",
+    "warning": "Nuair a scriosfar do chuntas, scriosfar do shonraí go léir (faisnéis próifíle, feidhmchláir, teachtaireachtaí) go buan agus ní féidir iad a fháil ar ais.",
+    "form": {
+      "emailLabel": "Seoladh Ríomhphoist",
+      "emailPlaceholder": "sampla@email.com",
+      "phoneLabel": "Uimhir Theileafóin",
+      "phonePlaceholder": "05XX XXX XX XX",
+      "reasonLabel": "An Fáth leis an Scriosadh",
+      "reasonPlaceholder": "Cén fáth ar mhaith leat do chuntas a scriosadh?",
+      "submitButton": "Cuir Iarratas Scriosta Cuntais isteach"
+    },
+    "errors": {
+      "emailOrPhone": "Cuir isteach do r-phost nó uimhir theileafóin.",
+      "generic": "Tharla earráid. Bain triail eile as ar ball.",
+      "connection": "Earráid ceangail. Seiceáil do nasc idirlín."
+    },
+    "success": {
+      "title": "Fuarthas d'Iarratas",
+      "message": "Fuarthas d'iarratas scriosta cuntais. Déanfar d’iarratas a athbhreithniú chomh luath agus is féidir agus cuirfear ar an eolas tú trí ríomhphost nó SMS.",
+      "processingTime": "Am próiseála: 1-3 lá gnó"
+    },
+    "contactNote": "Is féidir leat teacht orainn ag."
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Roghnaigh Teanga",
+    "popularLanguages": "Teangacha Coitianta"
+  }
+}
