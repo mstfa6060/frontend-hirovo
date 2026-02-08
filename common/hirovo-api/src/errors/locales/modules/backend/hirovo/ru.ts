@@ -81,6 +81,7 @@ export default {
       JOB_ID_REQUIRED: "İş ilanı ID si gereklidir.",
       CANNOT_REPORT_OWN_JOB: "Kendi ilanınızı raporlayamazsınız.",
       USER_ID_REQUIRED: "Kullanıcı ID si gereklidir.",
+      NOT_AUTHORIZED: "Bu işlem için yetkiniz yok.",
     }
   }
 };
