@@ -7,11 +7,13 @@ pipeline {
     }
 
     environment {
-        BUILD_IMAGE_NAME = "hirovo-frontend-builder-${BUILD_ID}"
-        NGINX_PATH = '/var/www/hirovo'
+        DOCKER_IMAGE = 'mstfaock/hirovo-frontend'
+        DOCKER_TAG = 'latest'
+        CONTAINER_NAME = 'hirovo-frontend'
 
         SERVER_SSH_KEY_ID = 'maden-server-key'
         SERVER_HOST_ID = 'dev-server-host'
+        DOCKERHUB_CRED = 'dockerhub-credentials'
     }
 
     options {
@@ -34,10 +36,10 @@ pipeline {
             }
         }
 
-        stage('Build Static Files') {
+        stage('Build Docker Image') {
             steps {
                 script {
-                    echo "Hirovo frontend build ediliyor..."
+                    echo "Hirovo frontend Docker image build ediliyor..."
 
                     def cacheArgs = params.NO_CACHE ? '--no-cache' : ''
 
@@ -46,20 +48,35 @@ pipeline {
                             docker build \
                                 ${cacheArgs} \
                                 --file _devops/docker/Dockerfile \
-                                --tag ${BUILD_IMAGE_NAME} \
-                                --build-arg NEXT_PUBLIC_ENVIRONMENT=production \
+                                --tag ${DOCKER_IMAGE}:${DOCKER_TAG} \
                                 --build-arg NEXT_PUBLIC_API_URL=https://api.hirovo.com \
+                                --build-arg NEXT_PUBLIC_STRAPI_URL=https://cms.hirovo.com \
+                                --build-arg NEXT_PUBLIC_COMPANY_ID=c9d8c846-10fc-466d-8f45-a4fa4e856abd \
                                 .
-
-                            # Extract static files from container
-                            docker create --name ${BUILD_IMAGE_NAME}-container ${BUILD_IMAGE_NAME}
-                            rm -rf out || true
-                            docker cp ${BUILD_IMAGE_NAME}-container:/app/out ./out
-                            docker rm ${BUILD_IMAGE_NAME}-container
                         """
                     }
 
-                    echo "Static dosyalar basariyla build edildi"
+                    echo "Docker image basariyla build edildi"
+                }
+            }
+        }
+
+        stage('Push to Docker Hub') {
+            steps {
+                script {
+                    echo "Docker image push ediliyor..."
+
+                    withCredentials([usernamePassword(
+                        credentialsId: env.DOCKERHUB_CRED,
+                        usernameVariable: 'DOCKER_USER',
+                        passwordVariable: 'DOCKER_PASS'
+                    )]) {
+                        sh """
+                            echo "\$DOCKER_PASS" | docker login -u "\$DOCKER_USER" --password-stdin
+                            docker push ${DOCKER_IMAGE}:${DOCKER_TAG}
+                            docker logout
+                        """
+                    }
                 }
             }
         }
@@ -82,17 +99,28 @@ pipeline {
                         sh """
                             chmod 600 "\$SSH_KEY"
 
-                            # Backup current files
-                            ssh -o StrictHostKeyChecking=no -i "\$SSH_KEY" ${sshUser}@${sshHost} "rm -rf ${NGINX_PATH}.bak && cp -r ${NGINX_PATH} ${NGINX_PATH}.bak 2>/dev/null || true"
+                            ssh -o StrictHostKeyChecking=no -i "\$SSH_KEY" ${sshUser}@${sshHost} bash <<'ENDSSH'
+set -e
 
-                            # Clear old files and copy new ones
-                            ssh -o StrictHostKeyChecking=no -i "\$SSH_KEY" ${sshUser}@${sshHost} "rm -rf ${NGINX_PATH}/*"
-                            scp -o StrictHostKeyChecking=no -i "\$SSH_KEY" -r out/* ${sshUser}@${sshHost}:${NGINX_PATH}/
+echo "Eski container durduruluyor..."
+docker stop ${CONTAINER_NAME} 2>/dev/null || true
+docker rm ${CONTAINER_NAME} 2>/dev/null || true
 
-                            # Set correct permissions
-                            ssh -o StrictHostKeyChecking=no -i "\$SSH_KEY" ${sshUser}@${sshHost} "chmod -R 755 ${NGINX_PATH}"
+echo "Yeni image cekiliyor..."
+docker pull ${DOCKER_IMAGE}:${DOCKER_TAG}
 
-                            echo "Hirovo frontend deploy basariyla tamamlandi!"
+echo "Yeni container baslatiliyor..."
+docker run -d \
+    --name ${CONTAINER_NAME} \
+    --restart unless-stopped \
+    -p 3000:3000 \
+    -e NEXT_PUBLIC_API_URL=https://api.hirovo.com \
+    -e NEXT_PUBLIC_STRAPI_URL=https://cms.hirovo.com \
+    ${DOCKER_IMAGE}:${DOCKER_TAG}
+
+echo "Container baslatildi"
+docker ps | grep ${CONTAINER_NAME}
+ENDSSH
                         """
                     }
                 }
@@ -115,19 +143,22 @@ pipeline {
                         def sshHost = SERVER_HOST
 
                         sh """
+                            chmod 600 "\$SSH_KEY"
+
                             ssh -o StrictHostKeyChecking=no -i "\$SSH_KEY" ${sshUser}@${sshHost} bash <<'ENDSSH'
 set -e
 
-echo "Dosyalar kontrol ediliyor..."
-if [ -f "/var/www/hirovo/index.html" ]; then
-    echo "index.html mevcut"
-    ls -la /var/www/hirovo/ | head -10
+echo "Container durumu kontrol ediliyor..."
+sleep 5
+
+if docker ps | grep -q ${CONTAINER_NAME}; then
+    echo "Container calisiyor"
+    curl -sf http://localhost:3000 > /dev/null && echo "Health check basarili!" || echo "Health check bekleniyor..."
 else
-    echo "index.html bulunamadi!"
+    echo "Container calismadi!"
+    docker logs ${CONTAINER_NAME} 2>&1 | tail -20
     exit 1
 fi
-
-echo "Health check tamamlandi!"
 ENDSSH
                         """
                     }
@@ -138,10 +169,9 @@ ENDSSH
         stage('Cleanup') {
             steps {
                 script {
-                    echo "Build artifacts temizleniyor..."
+                    echo "Eski image'lar temizleniyor..."
                     sh """
-                        docker rmi ${BUILD_IMAGE_NAME} || true
-                        rm -rf out || true
+                        docker image prune -f || true
                     """
                 }
             }
@@ -159,10 +189,6 @@ ENDSSH
             echo "Hirovo Frontend Pipeline basarisiz oldu!"
             echo "Build ID: ${BUILD_ID}"
             echo "Commit: ${GIT_COMMIT}"
-        }
-        always {
-            sh "docker rmi ${BUILD_IMAGE_NAME} 2>/dev/null || true"
-            sh "rm -rf out 2>/dev/null || true"
         }
     }
 }

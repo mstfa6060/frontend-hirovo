@@ -1,0 +1,136 @@
+"use client";
+
+import { createContext, useContext, useState, useEffect, useCallback, type ReactNode } from "react";
+import { authApi, isLoggedIn, getToken, clearTokens } from "@/lib/api";
+import type { LoginResponse } from "@/lib/api/types";
+
+interface AuthUser {
+  id: string;
+  username: string;
+  displayName: string;
+  email: string;
+  companyId: string;
+  isCompanyHolding: boolean;
+  companyName: string;
+  isPhoneVerified: boolean;
+}
+
+interface AuthContextType {
+  user: AuthUser | null;
+  isAuthenticated: boolean;
+  isLoading: boolean;
+  login: (email: string, password: string) => Promise<LoginResponse>;
+  register: (params: {
+    firstName: string;
+    surname: string;
+    email: string;
+    password: string;
+    phoneNumber: string;
+  }) => Promise<void>;
+  logout: () => Promise<void>;
+}
+
+const AuthContext = createContext<AuthContextType | undefined>(undefined);
+
+function parseJwt(token: string): Record<string, unknown> | null {
+  try {
+    const base64Url = token.split(".")[1];
+    const base64 = base64Url.replace(/-/g, "+").replace(/_/g, "/");
+    const jsonPayload = decodeURIComponent(
+      atob(base64)
+        .split("")
+        .map((c) => "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2))
+        .join("")
+    );
+    return JSON.parse(jsonPayload);
+  } catch {
+    return null;
+  }
+}
+
+export function AuthProvider({ children }: { children: ReactNode }) {
+  const [user, setUser] = useState<AuthUser | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const restoreSession = useCallback(() => {
+    const token = getToken();
+    if (!token) {
+      setUser(null);
+      setIsLoading(false);
+      return;
+    }
+
+    const payload = parseJwt(token);
+    if (payload) {
+      setUser({
+        id: (payload.sub || payload.userId || "") as string,
+        username: (payload.userName || payload.email || "") as string,
+        displayName: (payload.displayName || payload.fullName || "") as string,
+        email: (payload.email || "") as string,
+        companyId: (payload.companyId || "") as string,
+        isCompanyHolding: (payload.isCompanyHolding || false) as boolean,
+        companyName: (payload.companyName || "") as string,
+        isPhoneVerified: (payload.isPhoneVerified || false) as boolean,
+      });
+    }
+    setIsLoading(false);
+  }, []);
+
+  useEffect(() => {
+    restoreSession();
+  }, [restoreSession]);
+
+  const loginFn = useCallback(async (email: string, password: string) => {
+    const result = await authApi.login(email, password);
+    setUser(result.user);
+    return result;
+  }, []);
+
+  const registerFn = useCallback(
+    async (params: {
+      firstName: string;
+      surname: string;
+      email: string;
+      password: string;
+      phoneNumber: string;
+    }) => {
+      await authApi.register(params);
+      // Auto-login after register
+      await loginFn(params.email, params.password);
+    },
+    [loginFn]
+  );
+
+  const logoutFn = useCallback(async () => {
+    try {
+      await authApi.logout();
+    } catch {
+      // Clear tokens even if API call fails
+      clearTokens();
+    }
+    setUser(null);
+  }, []);
+
+  return (
+    <AuthContext.Provider
+      value={{
+        user,
+        isAuthenticated: !!user && isLoggedIn(),
+        isLoading,
+        login: loginFn,
+        register: registerFn,
+        logout: logoutFn,
+      }}
+    >
+      {children}
+    </AuthContext.Provider>
+  );
+}
+
+export function useAuth() {
+  const context = useContext(AuthContext);
+  if (context === undefined) {
+    throw new Error("useAuth must be used within an AuthProvider");
+  }
+  return context;
+}

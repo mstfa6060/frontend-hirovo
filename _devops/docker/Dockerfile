@@ -1,29 +1,49 @@
-# Build-only Dockerfile for Hirovo Static Next.js App
-# Outputs static files to /app/out directory
+# Multi-stage build for Hirovo SSR Next.js App
 
-FROM node:20-alpine AS builder
+# Stage 1: Dependencies
+FROM node:20-alpine AS deps
 WORKDIR /app
-
-# Copy package files
 COPY package.json package-lock.json* ./
-
-# Install dependencies
 RUN npm ci --legacy-peer-deps
 
-# Copy source code
+# Stage 2: Builder
+FROM node:20-alpine AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-# Build arguments for environment (optional)
-ARG NEXT_PUBLIC_ENVIRONMENT
-ARG NEXT_PUBLIC_API_URL
+# Build arguments
+ARG NEXT_PUBLIC_API_URL=https://api.hirovo.com
+ARG NEXT_PUBLIC_STRAPI_URL=http://localhost:1337
+ARG NEXT_PUBLIC_COMPANY_ID=c9d8c846-10fc-466d-8f45-a4fa4e856abd
 
-# Convert ARG to ENV so Next.js can access them during build
-ENV NEXT_PUBLIC_ENVIRONMENT=${NEXT_PUBLIC_ENVIRONMENT}
 ENV NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}
-
-# Build Next.js static export
+ENV NEXT_PUBLIC_STRAPI_URL=${NEXT_PUBLIC_STRAPI_URL}
+ENV NEXT_PUBLIC_COMPANY_ID=${NEXT_PUBLIC_COMPANY_ID}
 ENV NEXT_TELEMETRY_DISABLED=1
+
 RUN npm run build
 
-# Output is in /app/out directory
-# Use: docker cp <container>:/app/out ./out
+# Stage 3: Runner
+FROM node:20-alpine AS runner
+WORKDIR /app
+
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
+
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
+
+# Copy standalone output
+COPY --from=builder /app/public ./public
+COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
+COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+
+USER nextjs
+
+EXPOSE 3000
+
+ENV PORT=3000
+ENV HOSTNAME="0.0.0.0"
+
+CMD ["node", "server.js"]

@@ -92,6 +92,11 @@ export default function Footer() {
                   Kariyer Rehberleri
                 </Link>
               </li>
+              <li>
+                <Link href="/blog" className="text-white/70 hover:text-white transition-colors">
+                  Blog
+                </Link>
+              </li>
             </ul>
           </div>
 

@@ -12,12 +12,15 @@
     "translate": "node scripts/translate-all.js"
   },
   "dependencies": {
+    "axios": "^1.13.5",
+    "js-cookie": "^3.0.5",
     "next": "^16.1.6",
     "next-intl": "^4.8.1",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
