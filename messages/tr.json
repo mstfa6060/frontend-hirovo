@@ -1994,5 +1994,101 @@
     "author": "Yazar",
     "share": "Paylas",
     "relatedPosts": "Ilgili Yazilar"
+  },
+  "employer": {
+    "panel": "Isveren Paneli",
+    "dashboard": "Isveren Paneli",
+    "welcome": "Hosgeldiniz",
+    "myJobs": "Ilanlarim",
+    "applications": "Gelen Basvurular",
+    "createJob": "Yeni Ilan Olustur",
+    "profile": "Isveren Profili",
+    "stats": {
+      "totalJobsPosted": "Toplam Ilan",
+      "activeJobs": "Aktif Ilan",
+      "closedJobs": "Kapali Ilan",
+      "filledJobs": "Dolmus Ilan",
+      "totalApplicationsReceived": "Toplam Basvuru",
+      "pendingApplications": "Bekleyen Basvuru",
+      "acceptedApplications": "Kabul Edilen",
+      "rejectedApplications": "Reddedilen",
+      "averageRating": "Ortalama Puan",
+      "totalReviews": "Degerlendirme"
+    },
+    "quickLinks": "Hizli Erisim",
+    "noJobs": "Henuz ilan olusturmadiniz.",
+    "noJobsSubtitle": "Ilk ilaninizi olusturarak aday bulmaya baslayin.",
+    "noApplications": "Henuz basvuru gelmedi.",
+    "noApplicationsSubtitle": "Ilanlariniza basvuru geldiginde burada gorunecektir.",
+    "jobForm": {
+      "title": "Yeni Is Ilani Olustur",
+      "editTitle": "Ilani Duzenle",
+      "jobTitle": "Ilan Basligi",
+      "jobTitlePlaceholder": "Ornek: Yazilim Gelistirici",
+      "description": "Ilan Aciklamasi",
+      "descriptionPlaceholder": "Is tanimi, gereksinimler ve detaylar...",
+      "salary": "Maas (TL)",
+      "salaryPlaceholder": "Ornek: 25000",
+      "jobType": "Calisma Sekli",
+      "fullTime": "Tam Zamanli",
+      "partTime": "Yari Zamanli",
+      "freelance": "Serbest",
+      "skills": "Gereken Yetenekler",
+      "skillsPlaceholder": "Yetenek seciniz...",
+      "location": "Konum",
+      "latitude": "Enlem",
+      "longitude": "Boylam",
+      "notifyRadius": "Bildirim Yaricapi (km)",
+      "submit": "Ilani Yayinla",
+      "submitting": "Yayinlaniyor...",
+      "success": "Ilan basariyla olusturuldu!",
+      "error": "Ilan olusturulurken bir hata olustu."
+    },
+    "jobStatus": {
+      "active": "Aktif",
+      "closed": "Kapali",
+      "filled": "Dolmus"
+    },
+    "applicationStatus": {
+      "pending": "Beklemede",
+      "accepted": "Kabul Edildi",
+      "rejected": "Reddedildi",
+      "cancelled": "Iptal Edildi"
+    },
+    "actions": {
+      "accept": "Kabul Et",
+      "reject": "Reddet",
+      "viewDetail": "Detay",
+      "close": "Kapat",
+      "edit": "Duzenle",
+      "delete": "Sil",
+      "viewApplications": "Basvurulari Gor"
+    },
+    "applicant": {
+      "name": "Aday Adi",
+      "phone": "Telefon",
+      "city": "Sehir",
+      "appliedAt": "Basvuru Tarihi",
+      "status": "Durum",
+      "available": "Musait",
+      "notAvailable": "Musait Degil",
+      "description": "Hakkinda"
+    },
+    "register": {
+      "title": "Isveren Kaydi",
+      "subtitle": "Sirketiniz icin hesap olusturun ve aday bulmaya baslayin",
+      "companyInfo": "Isverenler icin ozel hesap olusturun",
+      "hasAccount": "Zaten hesabiniz var mi?",
+      "loginAsEmployer": "Isveren Girisi"
+    },
+    "login": {
+      "title": "Isveren Girisi",
+      "subtitle": "Isveren panelinize erisim saglayin"
+    },
+    "jobCount": "ilan",
+    "applicationCount": "basvuru",
+    "viewProfile": "Profili Gor",
+    "manageJobs": "Ilanlari Yonet",
+    "totalApplicants": "Toplam Aday"
   }
 }

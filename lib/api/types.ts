@@ -253,6 +253,34 @@ export interface EmployerDetail {
   bucketId: string;
 }
 
+export interface EmployerJobListItem {
+  id: string;
+  title: string;
+  salary: number;
+  endDate: string;
+  type: HirovoJobType;
+  status: HirovoJobStatus;
+  application: number;
+  createdAt: string;
+}
+
+export interface UpdateJobRequest {
+  jobId: string;
+  title: string;
+  description: string;
+  salary: number;
+  type: HirovoJobType;
+  latitude: number;
+  longitude: number;
+  notifyRadiusKm: number;
+  skillIds: string[];
+}
+
+export interface UpdateApplicationStatusRequest {
+  jobApplicationId: string;
+  status: ApplicationStatus;
+}
+
 // Favorites
 export interface FavoriteItem {
   id: string;

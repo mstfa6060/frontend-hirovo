@@ -12,7 +12,8 @@ export default function Header() {
   const t = useTranslations("common");
   const th = useTranslations("header");
   const ta = useTranslations("auth");
-  const { isAuthenticated, isLoading } = useAuth();
+  const te = useTranslations("employer");
+  const { isAuthenticated, isEmployer, isLoading } = useAuth();
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
@@ -52,6 +53,11 @@ export default function Header() {
           >
             {th("about")}
           </Link>
+
+          {/* Employer nav links */}
+          {isAuthenticated && isEmployer && (
+            <EmployerDropdown te={te} />
+          )}
         </nav>
 
         <div className="flex items-center gap-3">
@@ -122,6 +128,43 @@ export default function Header() {
             {th("about")}
           </Link>
 
+          {/* Employer mobile links */}
+          {isAuthenticated && isEmployer && (
+            <div className="pt-2 border-t border-border space-y-1">
+              <p className="text-xs font-semibold text-muted uppercase tracking-wider py-1">
+                {te("panel")}
+              </p>
+              <Link
+                href="/employer/dashboard"
+                onClick={() => setMobileOpen(false)}
+                className="block text-sm text-text py-2"
+              >
+                {te("dashboard")}
+              </Link>
+              <Link
+                href="/employer/jobs"
+                onClick={() => setMobileOpen(false)}
+                className="block text-sm text-text py-2"
+              >
+                {te("myJobs")}
+              </Link>
+              <Link
+                href="/employer/applications"
+                onClick={() => setMobileOpen(false)}
+                className="block text-sm text-text py-2"
+              >
+                {te("applications")}
+              </Link>
+              <Link
+                href="/employer/jobs/create"
+                onClick={() => setMobileOpen(false)}
+                className="block text-sm text-hirovo-blue font-medium py-2"
+              >
+                {te("createJob")}
+              </Link>
+            </div>
+          )}
+
           {!isLoading && !isAuthenticated && (
             <div className="flex gap-2 pt-2 border-t border-border">
               <Link
@@ -143,5 +186,63 @@ export default function Header() {
         </div>
       )}
     </header>
+  );
+}
+
+function EmployerDropdown({ te }: { te: (key: string) => string }) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div className="relative">
+      <button
+        onClick={() => setOpen(!open)}
+        className="text-sm text-hirovo-blue hover:text-hirovo-blue/80 transition-colors font-medium flex items-center gap-1"
+      >
+        {te("panel")}
+        <svg
+          className={`w-4 h-4 transition-transform ${open ? "rotate-180" : ""}`}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      {open && (
+        <div className="absolute top-8 left-0 w-52 bg-white rounded-xl shadow-card border border-border py-2 z-50">
+          <Link
+            href="/employer/dashboard"
+            onClick={() => setOpen(false)}
+            className="block px-4 py-2.5 text-sm text-text hover:bg-card transition-colors"
+          >
+            {te("dashboard")}
+          </Link>
+          <Link
+            href="/employer/jobs"
+            onClick={() => setOpen(false)}
+            className="block px-4 py-2.5 text-sm text-text hover:bg-card transition-colors"
+          >
+            {te("myJobs")}
+          </Link>
+          <Link
+            href="/employer/applications"
+            onClick={() => setOpen(false)}
+            className="block px-4 py-2.5 text-sm text-text hover:bg-card transition-colors"
+          >
+            {te("applications")}
+          </Link>
+          <div className="border-t border-border mt-1 pt-1">
+            <Link
+              href="/employer/jobs/create"
+              onClick={() => setOpen(false)}
+              className="block px-4 py-2.5 text-sm text-hirovo-blue font-medium hover:bg-card transition-colors"
+            >
+              {te("createJob")}
+            </Link>
+          </div>
+        </div>
+      )}
+    </div>
   );
 }

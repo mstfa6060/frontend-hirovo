@@ -14,14 +14,14 @@ import { setTokens, clearTokens, getRefreshToken } from "../token";
 
 const IAM = API_CONFIG.IAM_URL;
 
-export async function login(email: string, password: string): Promise<LoginResponse> {
+export async function login(email: string, password: string, isEmployer = false): Promise<LoginResponse> {
   const data: LoginRequest = {
     provider: "credentials",
     userName: email,
     password,
     token: "",
     platform: ClientPlatforms.Web,
-    isCompanyHolding: false,
+    isCompanyHolding: isEmployer,
     companyId: API_CONFIG.COMPANY_ID,
     firstName: "",
     surname: "",

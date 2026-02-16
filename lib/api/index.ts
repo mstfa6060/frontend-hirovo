@@ -12,3 +12,4 @@ export * as favoritesApi from "./services/favorites";
 export * as skillsApi from "./services/skills";
 export * as dashboardApi from "./services/dashboard";
 export * as strapiApi from "./services/strapi";
+export * as employerApi from "./services/employer";

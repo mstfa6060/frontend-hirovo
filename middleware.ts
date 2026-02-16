@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
 
 const intlMiddleware = createMiddleware(routing);
 
-const protectedPaths = ["/dashboard", "/applications", "/profile", "/favorites"];
+const protectedPaths = ["/dashboard", "/applications", "/profile", "/favorites", "/employer"];
 const authPaths = ["/login", "/register", "/forgot-password", "/reset-password"];
 
 export default function middleware(request: NextRequest) {
