@@ -113,7 +113,7 @@ echo "Yeni container baslatiliyor..."
 docker run -d \
     --name ${CONTAINER_NAME} \
     --restart unless-stopped \
-    -p 3000:3000 \
+    -p 3001:3000 \
     -e NEXT_PUBLIC_API_URL=https://api.hirovo.com \
     -e NEXT_PUBLIC_WP_URL=https://cms.hirovo.com/wp-json \
     ${DOCKER_IMAGE}:${DOCKER_TAG}
@@ -153,7 +153,7 @@ sleep 5
 
 if docker ps | grep -q ${CONTAINER_NAME}; then
     echo "Container calisiyor"
-    curl -sf http://localhost:3000 > /dev/null && echo "Health check basarili!" || echo "Health check bekleniyor..."
+    curl -sf http://localhost:3001 > /dev/null && echo "Health check basarili!" || echo "Health check bekleniyor..."
 else
     echo "Container calismadi!"
     docker logs ${CONTAINER_NAME} 2>&1 | tail -20
