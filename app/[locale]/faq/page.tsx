@@ -3,6 +3,8 @@ import { wpApi } from "@/lib/api";
 import type { WPPage } from "@/lib/api/services/wordpress";
 import FaqClient from "./FaqClient";
 
+export const dynamic = "force-dynamic";
+
 export default async function FAQPage({
   params,
 }: {

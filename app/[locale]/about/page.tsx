@@ -3,6 +3,8 @@ import { wpApi } from "@/lib/api";
 import type { WPPage } from "@/lib/api/services/wordpress";
 import AboutClient from "./AboutClient";
 
+export const dynamic = "force-dynamic";
+
 export default async function AboutPage({
   params,
 }: {
