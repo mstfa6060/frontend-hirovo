@@ -90,6 +90,11 @@ export async function getBlogPosts(params?: {
   category?: number;
   locale?: string;
 }): Promise<WPPostsResponse> {
+  // Blog posts are Turkish-only until Polylang translations are added
+  if (params?.locale && params.locale !== "tr") {
+    return { posts: [], total: 0, totalPages: 0 };
+  }
+
   const query: Record<string, unknown> = {
     _embed: "wp:featuredmedia,wp:term",
     orderby: "date",
@@ -119,6 +124,9 @@ export async function getBlogPost(
   slug: string,
   locale?: string
 ): Promise<WPPost | null> {
+  // Blog posts are Turkish-only until Polylang translations are added
+  if (locale && locale !== "tr") return null;
+
   const query: Record<string, unknown> = {
     slug,
     _embed: "wp:featuredmedia,wp:term",
@@ -160,7 +168,20 @@ export async function getPage(
   try {
     const response = await wpClient.get("/wp/v2/pages", { params: query });
     const pages = response.data;
-    return pages && pages.length > 0 ? pages[0] : null;
+    if (!pages || pages.length === 0) return null;
+
+    const page = pages[0];
+
+    // If Polylang is configured, it adds a 'lang' field — check it matches
+    if (locale && page.lang && page.lang !== locale) {
+      return null;
+    }
+    // If no 'lang' field (Polylang not configured), content is Turkish only
+    if (locale && !page.lang && locale !== "tr") {
+      return null;
+    }
+
+    return page;
   } catch {
     return null;
   }
