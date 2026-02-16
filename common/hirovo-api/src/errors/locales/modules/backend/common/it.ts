@@ -128,6 +128,13 @@ export default {
       GOOGLE_TOKEN_EXPIRED: "Google token süresi dolmuş.",
       INVALID_VISIBILITY_RADIUS: "Geçersiz görünürlük yarıçapı.",
       GOOGLE_EMAIL_NOT_VERIFIED: "Google e-posta adresi doğrulanmamış.",
+      EMAIL_REQUIRED: "E-posta adresi zorunludur.",
+      EMAIL_INVALID: "Geçersiz e-posta formatı.",
+      EMAIL_ALREADY_EXISTS: "Bu e-posta adresi zaten kullanılıyor.",
+      FIRST_NAME_REQUIRED: "Ad zorunludur.",
+      SURNAME_REQUIRED: "Soyad zorunludur.",
+      COMPANY_ID_REQUIRED: "Şirket ID si zorunludur.",
+      PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Şifre en az 8 karakter olmalıdır.",
     }
   }
 };

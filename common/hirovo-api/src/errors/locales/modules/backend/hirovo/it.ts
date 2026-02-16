@@ -29,6 +29,8 @@ export default {
       USER_ID_REQUIRED: "Kullanıcı ID si gereklidir.",
       JOB_ID_REQUIRED: "İş ilanı ID si gereklidir.",
       JOB_APPLICATION_ID_REQUIRED: "İş başvuru ID si gereklidir.",
+      NOT_AUTHORIZED_TO_UPDATE_STATUS: "Bu başvurunun durumunu güncelleme yetkiniz yok.",
+      INVALID_STATUS_TRANSITION: "Geçersiz durum geçişi.",
       WORKER_NOT_FOUND: "İşçi bulunamadı.",
       PHONE_NUMBER_INVALID: "Telefon numarası geçersiz.",
       USER_ID_NOT_VALID: "Kullanıcı id geçersiz.",
@@ -80,6 +82,10 @@ export default {
       DESCRIPTION_TOO_LONG: "Rapor açıklaması 1000 karakterden uzun olamaz.",
       CANNOT_REPORT_OWN_JOB: "Kendi ilanınızı raporlayamazsınız.",
       NOT_AUTHORIZED: "Bu işlem için yetkiniz yok.",
+      USER_NOT_FOUND: "Kullanıcı bulunamadı.",
+      FCM_TOKEN_REQUIRED: "FCM token gereklidir.",
+      FCM_TOKEN_TOO_LONG: "FCM token 500 karakterden uzun olamaz.",
+      DEVICE_INFO_TOO_LONG: "Cihaz bilgisi 256 karakterden uzun olamaz.",
     }
   }
 };
