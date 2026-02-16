@@ -1,0 +1,1683 @@
+
+import { AppConfig, api as axios } from "@config/hirovo-config";
+import { ApiService } from "@services/ApiService";
+
+
+// Custom Types 
+type Guid = string;
+type Double = number;
+
+// Settings...
+
+export namespace HirovoAPI {
+
+	export namespace Enums {
+
+		export enum XSortingDirection {
+			Ascending = 0,
+			Descending = 1,
+		}
+
+		export enum HirovoJobType {
+			FullTime = 0,
+			PartTime = 1,
+			Freelance = 2,
+		}
+
+		export enum HirovoJobStatus {
+			Active = 0,
+			Closed = 1,
+			Filled = 2,
+		}
+
+		export enum SubscriptionPlan {
+			Free = 0,
+			Trial = 1,
+			Standard = 2,
+			Corporate = 3,
+		}
+
+		export enum ReviewerType {
+			Employer = 0,
+			Worker = 1,
+		}
+
+		export enum ApplicationStatus {
+			Pending = 0,
+			Accepted = 1,
+			Rejected = 2,
+			Cancelled = 3,
+		}
+
+		export enum JobReportReason {
+			Spam = 0,
+			Inappropriate = 1,
+			Misleading = 2,
+			Duplicate = 3,
+			Scam = 4,
+			Other = 5,
+		}
+
+		export enum JobReportStatus {
+			Pending = 0,
+			Reviewed = 1,
+			Resolved = 2,
+			Dismissed = 3,
+		}
+
+	}
+
+	export namespace Workers {
+
+		export namespace Pick {
+			export const RequestPath = AppConfig.HirovoUrl + '/Workers/Pick';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				selectedIds: Guid[];
+				keyword: string;
+				limit: number;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				fullName: string;
+			}
+		}
+
+		export namespace Detail {
+			export const RequestPath = AppConfig.HirovoUrl + '/Workers/Detail';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				description: string;
+				phoneNumber: string;
+				birthDate?: Date;
+				city: string;
+				district: string;
+				isAvailable: boolean;
+				fullName: string;
+				bucketId: string;
+				coverPictureUrl: string;
+			}
+		}
+
+		export namespace All {
+			export const RequestPath = AppConfig.HirovoUrl + '/Workers/All';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				companyId?: Guid;
+				sorting: IXSorting;
+				filters: IXFilterItem[];
+				pageRequest: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				phoneNumber: string;
+				birthDate?: Date;
+				city: string;
+				district: string;
+				isAvailable?: boolean;
+				displayName: string;
+				description: string;
+				bucketId: string;
+			}
+		}
+
+		export namespace UpdateProfile {
+			export const RequestPath = AppConfig.HirovoUrl + '/Workers/UpdateProfile';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+				description: string;
+				bucketId: string;
+				phoneNumber: string;
+				birthDate: Date;
+				city: string;
+				district: string;
+				isAvailable?: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace Delete {
+			export const RequestPath = AppConfig.HirovoUrl + '/Workers/Delete';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+				isDeleted: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				isDeleted: boolean;
+			}
+		}
+
+		export namespace SetExpoPushToken {
+			export const RequestPath = AppConfig.HirovoUrl + '/Workers/SetExpoPushToken';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				token: string;
+			}
+			export interface IResponseModel {
+				success: boolean;
+			}
+		}
+
+	}
+
+	export namespace Users {
+
+		export namespace UpdateLocationPreference {
+			export const RequestPath = AppConfig.HirovoUrl + '/Users/UpdateLocationPreference';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+				visibilityRadiusKm: Double;
+			}
+			export interface IResponseModel {
+				userId: Guid;
+				visibilityRadiusKm: Double;
+				success: boolean;
+			}
+		}
+
+		export namespace UpdateFcmToken {
+			export const RequestPath = AppConfig.HirovoUrl + '/Users/UpdateFcmToken';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				fcmToken: string;
+				deviceInfo?: string;
+			}
+			export interface IResponseModel {
+				userId: Guid;
+				success: boolean;
+			}
+		}
+
+	}
+
+	export namespace DetailProfile {
+
+		export namespace Detail {
+			export const RequestPath = AppConfig.HirovoUrl + '/DetailProfile/Detail';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				email: string;
+				phoneNumber: string;
+				city: string;
+				district: string;
+				description: string;
+				birthDate: Date;
+				isAvailable: boolean;
+				bucketId: string;
+			}
+		}
+
+	}
+
+	export namespace AllProfile {
+
+		export namespace All {
+			export const RequestPath = AppConfig.HirovoUrl + '/AllProfile/All';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				sorting: IXSorting;
+				filters: IXFilterItem[];
+				pageRequest: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				email: string;
+				phoneNumber: string;
+				city: string;
+				district: string;
+				description: string;
+				birthDate: Date;
+				isAvailable: boolean;
+				title: string;
+				salary: number;
+				type: Enums.HirovoJobType;
+				status: Enums.HirovoJobStatus;
+				createdAt: Date;
+			}
+		}
+
+	}
+
+	export namespace UpdateProfile {
+
+		export namespace Update {
+			export const RequestPath = AppConfig.HirovoUrl + '/UpdateProfile/Update';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+				firstName: string;
+				surname: string;
+				email: string;
+				phoneNumber: string;
+				city: string;
+				district: string;
+				description: string;
+				birthDate: Date;
+				isAvailable: boolean;
+				bucketId: string;
+			}
+			export interface IResponseModel {
+				userId: Guid;
+			}
+		}
+
+	}
+
+	export namespace DeleteProfile {
+
+		export namespace Delete {
+			export const RequestPath = AppConfig.HirovoUrl + '/DeleteProfile/Delete';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+				isDeleted: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				isDeleted: boolean;
+			}
+		}
+
+	}
+
+	export namespace Roles {
+
+		export namespace UIDC {
+			export const RequestPath = AppConfig.HirovoUrl + '/Roles/UIDC';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				id: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				commands: IUidcCommands;
+			}
+			export interface IUidcCommands {
+				edit: boolean;
+				delete: boolean;
+				unDelete: boolean;
+			}
+		}
+
+		export namespace Pick {
+			export const RequestPath = AppConfig.HirovoUrl + '/Roles/Pick';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				selectedIds: Guid[];
+				keyword: string;
+				limit: number;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				name: string;
+			}
+		}
+
+		export namespace Detail {
+			export const RequestPath = AppConfig.HirovoUrl + '/Roles/Detail';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				id: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				name: string;
+				isDeleted: boolean;
+				createdAt: Date;
+				updatedAt?: Date;
+				deletedAt?: Date;
+			}
+		}
+
+		export namespace All {
+			export const RequestPath = AppConfig.HirovoUrl + '/Roles/All';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				sorting: IXSorting;
+				filters: IXFilterItem[];
+				pageRequest: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				name: string;
+				isDeleted: boolean;
+			}
+		}
+
+		export namespace Update {
+			export const RequestPath = AppConfig.HirovoUrl + '/Roles/Update';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				id: Guid;
+				name: string;
+				companyId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				name: string;
+			}
+		}
+
+		export namespace Delete {
+			export const RequestPath = AppConfig.HirovoUrl + '/Roles/Delete';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				id: Guid;
+				isDeleted: boolean;
+				companyId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace Create {
+			export const RequestPath = AppConfig.HirovoUrl + '/Roles/Create';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				name: string;
+				companyId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				name: string;
+			}
+		}
+
+	}
+
+	export namespace Resources {
+
+		export namespace All {
+			export const RequestPath = AppConfig.HirovoUrl + '/Resources/All';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				roleId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				name: string;
+				isUsing: boolean;
+			}
+		}
+
+	}
+
+	export namespace RelUserRoles {
+
+		export namespace Create {
+			export const RequestPath = AppConfig.HirovoUrl + '/RelUserRoles/Create';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				roleIds: Guid[];
+				userId: Guid;
+				companyId: Guid;
+			}
+			export interface IResponseModel {
+				isEverythingOk: boolean;
+			}
+		}
+
+	}
+
+	export namespace RelRoleResources {
+
+		export namespace Create {
+			export const RequestPath = AppConfig.HirovoUrl + '/RelRoleResources/Create';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				resoruceIds: Guid[];
+				roleId: Guid;
+			}
+			export interface IResponseModel {
+				isEverythingOk: boolean;
+			}
+		}
+
+	}
+
+	export namespace Subscriptions {
+
+		export namespace GetPlanDetail {
+			export const RequestPath = AppConfig.HirovoUrl + '/Subscriptions/GetPlanDetail';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+			}
+			export interface IResponseModel {
+				hasActivePlan: boolean;
+				plan?: Enums.SubscriptionPlan;
+				startDate?: Date;
+				endDate?: Date;
+				daysLeft?: number;
+			}
+		}
+
+		export namespace UpgradePlan {
+			export const RequestPath = AppConfig.HirovoUrl + '/Subscriptions/UpgradePlan';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+				newPlan: Enums.SubscriptionPlan;
+			}
+			export interface IResponseModel {
+				userId: Guid;
+				upgradedTo: string;
+				startedAt: Date;
+				expiresAt: Date;
+			}
+		}
+
+		export namespace StartTrial {
+			export const RequestPath = AppConfig.HirovoUrl + '/Subscriptions/StartTrial';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+			}
+			export interface IResponseModel {
+				userId: Guid;
+				startedAt: Date;
+				expiresAt: Date;
+				planType: string;
+			}
+		}
+
+	}
+
+	export namespace Skills {
+
+		export namespace Pick {
+			export const RequestPath = AppConfig.HirovoUrl + '/Skills/Pick';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				selectedIds: Guid[];
+				keyword: string;
+				limit: number;
+				languageCode: string;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				title: string;
+			}
+		}
+
+		export namespace All {
+			export const RequestPath = AppConfig.HirovoUrl + '/Skills/All';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				languageCode: string;
+				sorting: IXSorting;
+				filters: IXFilterItem[];
+				pageRequest: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				name: string;
+			}
+		}
+
+		export namespace SeedAndTranslate {
+			export const RequestPath = AppConfig.HirovoUrl + '/Skills/SeedAndTranslate';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+			}
+			export interface IResponseModel {
+				seedCount: number;
+				translationCount: number;
+				processedAt: Date;
+				message: string;
+			}
+		}
+
+		export namespace Create {
+			export const RequestPath = AppConfig.HirovoUrl + '/Skills/Create';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				key: string;
+				languageCode: string;
+				translatedName: string;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+	}
+
+	export namespace Review {
+
+		export namespace Pick {
+			export const RequestPath = AppConfig.HirovoUrl + '/Review/Pick';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				id: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				jobId: Guid;
+				jobApplicationId: Guid;
+				reviewerId: Guid;
+				reviewerName: string;
+				reviewedUserId: Guid;
+				reviewedUserName: string;
+				reviewerType: Enums.ReviewerType;
+				rating: number;
+				comment: string;
+				createdAt: Date;
+			}
+		}
+
+		export namespace Detail {
+			export const RequestPath = AppConfig.HirovoUrl + '/Review/Detail';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+			}
+			export interface IResponseModel {
+				summary: IUserReviewSummary;
+				reviews: IReviewItem[];
+			}
+			export interface IUserReviewSummary {
+				userId: Guid;
+				averageRating: number;
+				totalReviews: number;
+				fiveStarCount: number;
+				fourStarCount: number;
+				threeStarCount: number;
+				twoStarCount: number;
+				oneStarCount: number;
+			}
+			export interface IReviewItem {
+				id: Guid;
+				jobId: Guid;
+				jobTitle: string;
+				reviewerId: Guid;
+				reviewerName: string;
+				reviewerType: Enums.ReviewerType;
+				rating: number;
+				comment: string;
+				createdAt: Date;
+			}
+		}
+
+		export namespace All {
+			export const RequestPath = AppConfig.HirovoUrl + '/Review/All';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				sorting: IXSorting;
+				filters: IXFilterItem[];
+				pageRequest: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				jobId: Guid;
+				jobTitle: string;
+				reviewerId: Guid;
+				reviewerName: string;
+				reviewedUserId: Guid;
+				reviewedUserName: string;
+				reviewerType: Enums.ReviewerType;
+				rating: number;
+				comment: string;
+				createdAt: Date;
+			}
+		}
+
+		export namespace Update {
+			export const RequestPath = AppConfig.HirovoUrl + '/Review/Update';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				id: Guid;
+				rating: number;
+				comment: string;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				rating: number;
+				updatedAt: Date;
+			}
+		}
+
+		export namespace Delete {
+			export const RequestPath = AppConfig.HirovoUrl + '/Review/Delete';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				id: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				deletedAt: Date;
+			}
+		}
+
+		export namespace Create {
+			export const RequestPath = AppConfig.HirovoUrl + '/Review/Create';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				jobApplicationId: Guid;
+				rating: number;
+				comment: string;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				rating: number;
+				createdAt: Date;
+			}
+		}
+
+	}
+
+	export namespace Location {
+
+		export namespace GetNearbyWorkers {
+			export const RequestPath = AppConfig.HirovoUrl + '/Location/GetNearbyWorkers';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				companyId: Guid;
+				latitude: Double;
+				longitude: Double;
+				limit: number;
+			}
+			export interface IResponseModel {
+				userId: Guid;
+				fullName: string;
+				distanceInKm: Double;
+			}
+		}
+
+		export namespace GetNearbyJobs {
+			export const RequestPath = AppConfig.HirovoUrl + '/Location/GetNearbyJobs';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+				latitude: Double;
+				longitude: Double;
+				companyId: Guid;
+				limit: number;
+				customRadiusKm?: Double;
+			}
+			export interface IResponseModel {
+				jobId: Guid;
+				title: string;
+				salary: number;
+				distanceInKm: Double;
+				endDate: Date;
+			}
+		}
+
+		export namespace SetLocation {
+			export const RequestPath = AppConfig.HirovoUrl + '/Location/SetLocation';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+				latitude: Double;
+				longitude: Double;
+				companyId: Guid;
+			}
+			export interface IResponseModel {
+				success: boolean;
+			}
+		}
+
+	}
+
+	export namespace Dashboards {
+
+		export namespace PlatformStats {
+			export const RequestPath = AppConfig.HirovoUrl + '/Dashboards/PlatformStats';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				startDate?: Date;
+				endDate?: Date;
+			}
+			export interface IResponseModel {
+				totalJobs: number;
+				activeJobs: number;
+				closedJobs: number;
+				expiredJobs: number;
+				totalWorkers: number;
+				totalEmployers: number;
+				totalApplications: number;
+				acceptedApplications: number;
+				rejectedApplications: number;
+				pendingApplications: number;
+				totalReviews: number;
+				averageRating: number;
+				totalMessages: number;
+				totalConversations: number;
+				newJobsThisMonth: number;
+				newUsersThisMonth: number;
+			}
+		}
+
+		export namespace EmployerStats {
+			export const RequestPath = AppConfig.HirovoUrl + '/Dashboards/EmployerStats';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+			}
+			export interface IResponseModel {
+				totalJobsPosted: number;
+				activeJobs: number;
+				closedJobs: number;
+				filledJobs: number;
+				totalApplicationsReceived: number;
+				pendingApplications: number;
+				acceptedApplications: number;
+				rejectedApplications: number;
+				averageRating: number;
+				totalReviews: number;
+			}
+		}
+
+		export namespace WorkerStats {
+			export const RequestPath = AppConfig.HirovoUrl + '/Dashboards/WorkerStats';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+			}
+			export interface IResponseModel {
+				totalApplications: number;
+				pendingApplications: number;
+				acceptedApplications: number;
+				rejectedApplications: number;
+				cancelledApplications: number;
+				averageRating: number;
+				totalReviews: number;
+			}
+		}
+
+	}
+
+	export namespace Jobs {
+
+		export namespace Pick {
+			export const RequestPath = AppConfig.HirovoUrl + '/Jobs/Pick';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				selectedIds: Guid[];
+				keyword: string;
+				limit: number;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				title: string;
+			}
+		}
+
+		export namespace Detail {
+			export const RequestPath = AppConfig.HirovoUrl + '/Jobs/Detail';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				jobId: Guid;
+				languageCode: string;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				title: string;
+				description: string;
+				salary: number;
+				type: Enums.HirovoJobType;
+				status: Enums.HirovoJobStatus;
+				employerId: Guid;
+				employerDisplayName: string;
+				latitude: Double;
+				longitude: Double;
+				notifyRadiusKm: Double;
+				endDate: Date;
+				skills: ISkillModel[];
+			}
+			export interface ISkillModel {
+				id: Guid;
+				name: string;
+			}
+		}
+
+		export namespace All {
+			export const RequestPath = AppConfig.HirovoUrl + '/Jobs/All';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				languageCode: string;
+				searchTerm?: string;
+				sorting: IXSorting;
+				filters: IXFilterItem[];
+				pageRequest: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				title: string;
+				salary: number;
+				endDate: Date;
+				type: Enums.HirovoJobType;
+				status: Enums.HirovoJobStatus;
+				hirovoEmployer_Id: Guid;
+				application: number;
+				skills: ISkillModel[];
+			}
+			export interface ISkillModel {
+				id: Guid;
+				name: string;
+			}
+		}
+
+		export namespace Update {
+			export const RequestPath = AppConfig.HirovoUrl + '/Jobs/Update';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				jobId: Guid;
+				title: string;
+				description: string;
+				salary: number;
+				type: Enums.HirovoJobType;
+				status: Enums.HirovoJobStatus;
+				latitude: Double;
+				longitude: Double;
+				notifyRadiusKm: Double;
+				skillIds: Guid[];
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace Delete {
+			export const RequestPath = AppConfig.HirovoUrl + '/Jobs/Delete';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				jobId: Guid;
+				isDeleted: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				isDeleted: boolean;
+			}
+		}
+
+		export namespace Create {
+			export const RequestPath = AppConfig.HirovoUrl + '/Jobs/Create';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				title: string;
+				description: string;
+				salary: number;
+				type: Enums.HirovoJobType;
+				employerId: Guid;
+				latitude: Double;
+				longitude: Double;
+				notifyRadiusKm: Double;
+				companyId: Guid;
+				skillIds: Guid[];
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+	}
+
+	export namespace JobApplications {
+
+		export namespace Pick {
+			export const RequestPath = AppConfig.HirovoUrl + '/JobApplications/Pick';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				selectedIds: Guid[];
+				keyword: string;
+				limit: number;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				title: string;
+			}
+		}
+
+		export namespace Detail {
+			export const RequestPath = AppConfig.HirovoUrl + '/JobApplications/Detail';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				jobApplicationId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				status: Enums.ApplicationStatus;
+				appliedAt: Date;
+				job: IJobInfo;
+				worker: IWorkerInfo;
+			}
+			export interface IJobInfo {
+				id: Guid;
+				title: string;
+				salary: number;
+				type: Enums.HirovoJobType;
+				status: Enums.HirovoJobStatus;
+				endDate: Date;
+			}
+			export interface IWorkerInfo {
+				id: Guid;
+				fullName: string;
+				phoneNumber: string;
+				city: string;
+				district: string;
+			}
+		}
+
+		export namespace AppliedJobs {
+			export const RequestPath = AppConfig.HirovoUrl + '/JobApplications/AppliedJobs';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				workerId: Guid;
+			}
+			export interface IResponseModel {
+				jobId: Guid;
+				title: string;
+				description: string;
+				salary: number;
+				type: Enums.HirovoJobType;
+				status: Enums.HirovoJobStatus;
+				appliedAt: Date;
+				endDate: Date;
+				applicationStatus: Enums.ApplicationStatus;
+			}
+		}
+
+		export namespace All {
+			export const RequestPath = AppConfig.HirovoUrl + '/JobApplications/All';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				sorting: IXSorting;
+				filters: IXFilterItem[];
+				pageRequest: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				jobId: Guid;
+				workerId: Guid;
+				status: Enums.ApplicationStatus;
+				appliedAt: Date;
+				endDate: Date;
+				jobTitle: string;
+				phoneNumber: string;
+				birthDate?: Date;
+				city: string;
+				district: string;
+				isAvailable?: boolean;
+				displayName: string;
+				description: string;
+				bucketId: string;
+			}
+		}
+
+		export namespace Update {
+			export const RequestPath = AppConfig.HirovoUrl + '/JobApplications/Update';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				jobApplicationId: Guid;
+				jobId: Guid;
+				workerId: Guid;
+				appliedAt?: Date;
+				companyId: Guid;
+			}
+			export interface IResponseModel {
+				jobApplicationId: Guid;
+			}
+		}
+
+		export namespace UpdateStatus {
+			export const RequestPath = AppConfig.HirovoUrl + '/JobApplications/UpdateStatus';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				jobApplicationId: Guid;
+				status: Enums.ApplicationStatus;
+			}
+			export interface IResponseModel {
+				jobApplicationId: Guid;
+				status: string;
+			}
+		}
+
+		export namespace Delete {
+			export const RequestPath = AppConfig.HirovoUrl + '/JobApplications/Delete';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				jobApplicationId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				isDeleted: boolean;
+			}
+		}
+
+		export namespace Create {
+			export const RequestPath = AppConfig.HirovoUrl + '/JobApplications/Create';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				jobId: Guid;
+				workerId: Guid;
+				companyId: Guid;
+			}
+			export interface IResponseModel {
+				jobApplicationId: Guid;
+			}
+		}
+
+	}
+
+	export namespace Documents {
+
+		export namespace CheckAccessCode {
+			export const RequestPath = AppConfig.HirovoUrl + '/Documents/CheckAccessCode';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				documentId: Guid;
+				fileAccessCode: Guid;
+				companyId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				isEverthingOk: boolean;
+			}
+		}
+
+	}
+
+	export namespace WorkerSkills {
+
+		export namespace AddSkill {
+			export const RequestPath = AppConfig.HirovoUrl + '/WorkerSkills/AddSkill';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				skillId: Guid;
+			}
+			export interface IResponseModel {
+				userId: Guid;
+				skillId: Guid;
+				skillName: string;
+				createdAt: Date;
+			}
+		}
+
+		export namespace RemoveSkill {
+			export const RequestPath = AppConfig.HirovoUrl + '/WorkerSkills/RemoveSkill';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				skillId: Guid;
+			}
+			export interface IResponseModel {
+				userId: Guid;
+				skillId: Guid;
+				removedAt: Date;
+			}
+		}
+
+		export namespace GetWorkerSkills {
+			export const RequestPath = AppConfig.HirovoUrl + '/WorkerSkills/GetWorkerSkills';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+				languageCode?: string;
+			}
+			export interface IResponseModel {
+				skillId: Guid;
+				name: string;
+				translatedName: string;
+				addedAt: Date;
+			}
+		}
+
+		export namespace GetWorkersBySkill {
+			export const RequestPath = AppConfig.HirovoUrl + '/WorkerSkills/GetWorkersBySkill';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				skillId: Guid;
+				sorting: IXSorting;
+				filters: IXFilterItem[];
+				pageRequest: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				userId: Guid;
+				firstName: string;
+				surname: string;
+			}
+		}
+
+	}
+
+	export namespace Favorites {
+
+		export namespace Create {
+			export const RequestPath = AppConfig.HirovoUrl + '/Favorites/Create';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				jobId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				jobId: Guid;
+				createdAt: Date;
+			}
+		}
+
+		export namespace Delete {
+			export const RequestPath = AppConfig.HirovoUrl + '/Favorites/Delete';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				id: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				deletedAt: Date;
+			}
+		}
+
+		export namespace All {
+			export const RequestPath = AppConfig.HirovoUrl + '/Favorites/All';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				sorting?: IXSorting;
+				filters?: IXFilterItem[];
+				pageRequest?: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				jobId: Guid;
+				jobTitle: string;
+				jobSalary: number;
+				jobType: Enums.HirovoJobType;
+				favoritedAt: Date;
+			}
+		}
+
+		export namespace Check {
+			export const RequestPath = AppConfig.HirovoUrl + '/Favorites/Check';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				jobId: Guid;
+			}
+			export interface IResponseModel {
+				isFavorited: boolean;
+				favoriteId?: Guid;
+			}
+		}
+
+	}
+
+	export namespace Messagings {
+
+		export namespace SendMessage {
+			export const RequestPath = AppConfig.HirovoUrl + '/Messagings/SendMessage';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				conversationId?: Guid;
+				jobApplicationId?: Guid;
+				content: string;
+			}
+			export interface IResponseModel {
+				messageId: Guid;
+				conversationId: Guid;
+				sentAt: Date;
+			}
+		}
+
+		export namespace GetConversations {
+			export const RequestPath = AppConfig.HirovoUrl + '/Messagings/GetConversations';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				sorting?: IXSorting;
+				filters?: IXFilterItem[];
+				pageRequest?: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				otherUserName: string;
+				jobTitle: string;
+				lastMessage: string;
+				lastMessageAt: Date;
+				unreadCount: number;
+			}
+		}
+
+		export namespace GetMessages {
+			export const RequestPath = AppConfig.HirovoUrl + '/Messagings/GetMessages';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				conversationId: Guid;
+				pageRequest: IXPageRequest;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				senderId: Guid;
+				senderName: string;
+				content: string;
+				isRead: boolean;
+				createdAt: Date;
+				isOwn: boolean;
+			}
+		}
+
+		export namespace MarkAsRead {
+			export const RequestPath = AppConfig.HirovoUrl + '/Messagings/MarkAsRead';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				conversationId: Guid;
+			}
+			export interface IResponseModel {
+				markedCount: number;
+			}
+		}
+
+		export namespace GetUnreadCount {
+			export const RequestPath = AppConfig.HirovoUrl + '/Messagings/GetUnreadCount';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+			}
+			export interface IResponseModel {
+				totalUnreadCount: number;
+				conversations: IConversationUnread[];
+			}
+			export interface IConversationUnread {
+				id: Guid;
+				count: number;
+			}
+		}
+
+	}
+
+	export namespace Employers {
+
+		export namespace UpdateProfile {
+			export const RequestPath = AppConfig.HirovoUrl + '/Employers/UpdateProfile';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+				phoneNumber: string;
+				city: string;
+				district: string;
+				description: string;
+				bucketId: string;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace All {
+			export const RequestPath = AppConfig.HirovoUrl + '/Employers/All';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+				sorting: IXSorting;
+				filters: IXFilterItem[];
+				pageRequest: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				title: string;
+				description: string;
+				salary: number;
+				type: Enums.HirovoJobType;
+				status: Enums.HirovoJobStatus;
+				createdAt: Date;
+			}
+		}
+
+		export namespace Detail {
+			export const RequestPath = AppConfig.HirovoUrl + '/Employers/Detail';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				email: string;
+				phoneNumber: string;
+				city: string;
+				district: string;
+				description?: string;
+			}
+		}
+
+		export namespace Delete {
+			export const RequestPath = AppConfig.HirovoUrl + '/Employers/Delete';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				userId: Guid;
+				isDeleted: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				isDeleted: boolean;
+			}
+		}
+
+	}
+
+	export namespace NotificationPreferences {
+
+		export namespace Get {
+			export const RequestPath = AppConfig.HirovoUrl + '/NotificationPreferences/Get';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+			}
+			export interface IResponseModel {
+				id: Guid;
+				emailNotifications: boolean;
+				smsNotifications: boolean;
+				pushNotifications: boolean;
+				jobAlerts: boolean;
+				messageAlerts: boolean;
+				applicationStatusAlerts: boolean;
+			}
+		}
+
+		export namespace Update {
+			export const RequestPath = AppConfig.HirovoUrl + '/NotificationPreferences/Update';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				emailNotifications: boolean;
+				smsNotifications: boolean;
+				pushNotifications: boolean;
+				jobAlerts: boolean;
+				messageAlerts: boolean;
+				applicationStatusAlerts: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+	}
+
+	export namespace JobReports {
+
+		export namespace Create {
+			export const RequestPath = AppConfig.HirovoUrl + '/JobReports/Create';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				jobId: Guid;
+				reason: Enums.JobReportReason;
+				description: string;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace All {
+			export const RequestPath = AppConfig.HirovoUrl + '/JobReports/All';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath, { ...data }));
+			export interface IRequestModel {
+				sorting: IXSorting;
+				filters: IXFilterItem[];
+				pageRequest: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				jobId: Guid;
+				jobTitle: string;
+				reporterName: string;
+				reason: Enums.JobReportReason;
+				status: Enums.JobReportStatus;
+				createdAt: Date;
+			}
+		}
+
+	}
+
+}
