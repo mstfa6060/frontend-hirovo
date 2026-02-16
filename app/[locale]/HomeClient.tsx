@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import type { WPPage } from "@/lib/api/services/wordpress";
+import { sanitizeHtml, decodeHtmlEntities } from "@/lib/api/services/wordpress";
 
 export default function HomeClient({
   wpContent,
@@ -18,11 +19,11 @@ export default function HomeClient({
       <main className="flex-1 py-16">
         <div className="max-w-[1120px] mx-auto px-5">
           <h1 className="text-5xl font-bold mb-6 text-center max-sm:text-3xl">
-            {wpContent.title.rendered}
+            {decodeHtmlEntities(wpContent.title.rendered)}
           </h1>
           <div
             className="prose prose-lg max-w-none text-white/90 prose-headings:text-white prose-a:text-hirovo-teal"
-            dangerouslySetInnerHTML={{ __html: wpContent.content.rendered }}
+            dangerouslySetInnerHTML={{ __html: sanitizeHtml(wpContent.content.rendered) }}
           />
         </div>
       </main>

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import type { WPPage } from "@/lib/api/services/wordpress";
+import { sanitizeHtml, decodeHtmlEntities } from "@/lib/api/services/wordpress";
 import ContentCard from "@/app/components/ContentCard";
 
 export default function ContactClient({ wpContent }: { wpContent: WPPage | null }) {
@@ -13,10 +14,18 @@ export default function ContactClient({ wpContent }: { wpContent: WPPage | null 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus("sending");
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    setStatus("success");
-    setFormData({ name: "", email: "", subject: "general", message: "" });
+    try {
+      const mailtoLink = `mailto:hello@hirovo.com?subject=${encodeURIComponent(
+        `[${formData.subject}] ${formData.name}`
+      )}&body=${encodeURIComponent(
+        `${formData.message}\n\n---\nFrom: ${formData.name}\nEmail: ${formData.email}`
+      )}`;
+      window.location.href = mailtoLink;
+      setStatus("success");
+      setFormData({ name: "", email: "", subject: "general", message: "" });
+    } catch {
+      setStatus("error");
+    }
   };
 
   if (wpContent) {
@@ -24,10 +33,10 @@ export default function ContactClient({ wpContent }: { wpContent: WPPage | null 
       <main className="flex-1 py-16">
         <div className="max-w-[1120px] mx-auto px-5">
           <ContentCard>
-            <h1 className="text-3xl font-bold mb-6 text-text">{wpContent.title.rendered}</h1>
+            <h1 className="text-3xl font-bold mb-6 text-text">{decodeHtmlEntities(wpContent.title.rendered)}</h1>
             <div
               className="prose prose-sm max-w-none text-text"
-              dangerouslySetInnerHTML={{ __html: wpContent.content.rendered }}
+              dangerouslySetInnerHTML={{ __html: sanitizeHtml(wpContent.content.rendered) }}
             />
           </ContentCard>
         </div>

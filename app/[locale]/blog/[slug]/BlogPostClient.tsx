@@ -1,41 +1,28 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import Image from "next/image";
-import { wpApi } from "@/lib/api";
 import type { WPPost } from "@/lib/api/services/wordpress";
-import { getPostImageUrl, getPostImageAlt, getPostCategory } from "@/lib/api/services/wordpress";
+import {
+  getPostImageUrl,
+  getPostImageAlt,
+  getPostCategory,
+  sanitizeHtml,
+  decodeHtmlEntities,
+} from "@/lib/api/services/wordpress";
 import Badge from "@/app/components/ui/Badge";
-import Spinner from "@/app/components/ui/Spinner";
 
 export default function BlogPostClient({
   locale,
   slug,
+  post,
 }: {
   locale: string;
   slug: string;
+  post: WPPost | null;
 }) {
   const t = useTranslations("blog");
-  const [post, setPost] = useState<WPPost | null>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    async function fetch() {
-      try {
-        const result = await wpApi.getBlogPost(slug, locale);
-        setPost(result);
-      } catch {
-        setPost(null);
-      } finally {
-        setLoading(false);
-      }
-    }
-    fetch();
-  }, [slug, locale]);
-
-  if (loading) return <Spinner className="py-32" />;
 
   if (!post) {
     return (
@@ -92,12 +79,12 @@ export default function BlogPostClient({
             </div>
 
             <h1 className="text-2xl md:text-3xl font-bold text-text mb-6">
-              {post.title.rendered}
+              {decodeHtmlEntities(post.title.rendered)}
             </h1>
 
             <div
               className="prose prose-sm max-w-none text-text"
-              dangerouslySetInnerHTML={{ __html: post.content.rendered }}
+              dangerouslySetInnerHTML={{ __html: sanitizeHtml(post.content.rendered) }}
             />
           </div>
         </div>

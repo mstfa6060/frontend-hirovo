@@ -97,6 +97,7 @@ export async function getBlogPosts(params?: {
 
   const query: Record<string, unknown> = {
     _embed: "wp:featuredmedia,wp:term",
+    _fields: "id,slug,title,excerpt,date,featured_media,categories,_links,_embedded",
     orderby: "date",
     order: "desc",
     page: params?.page || 1,
@@ -147,6 +148,7 @@ export async function getCategories(
   const query: Record<string, unknown> = {
     per_page: 100,
     hide_empty: true,
+    _fields: "id,name,slug,count",
   };
   if (locale) query.lang = locale;
 
@@ -245,6 +247,44 @@ export async function getCareerTips(
 
 // ─── Utility Functions ───
 
+/**
+ * Sanitize WordPress HTML content to prevent XSS attacks.
+ * Uses DOMPurify on both server and client side.
+ */
+export function sanitizeHtml(html: string): string {
+  // Lazy-load DOMPurify to avoid SSR issues
+  try {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const DOMPurify = require("isomorphic-dompurify");
+    return DOMPurify.sanitize(html, {
+      ADD_TAGS: ["iframe"],
+      ADD_ATTR: ["allow", "allowfullscreen", "frameborder", "scrolling", "target"],
+    });
+  } catch {
+    // Fallback: strip script tags at minimum
+    return html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "");
+  }
+}
+
+/**
+ * Decode HTML entities in text (e.g., &amp; → &, &#8217; → ')
+ */
+export function decodeHtmlEntities(html: string): string {
+  return html
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#039;/g, "'")
+    .replace(/&#8217;/g, "\u2019")
+    .replace(/&#8216;/g, "\u2018")
+    .replace(/&#8220;/g, "\u201C")
+    .replace(/&#8221;/g, "\u201D")
+    .replace(/&#8211;/g, "\u2013")
+    .replace(/&#8212;/g, "\u2014")
+    .replace(/&nbsp;/g, " ");
+}
+
 export function getPostImageUrl(post: WPPost): string | null {
   const media = post._embedded?.["wp:featuredmedia"];
   if (media && media.length > 0) {
@@ -272,5 +312,6 @@ export function getPostCategory(
 }
 
 export function stripHtml(html: string): string {
-  return html.replace(/<[^>]*>/g, "").trim();
+  const text = html.replace(/<[^>]*>/g, "").trim();
+  return decodeHtmlEntities(text);
 }

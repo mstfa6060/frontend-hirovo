@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import type { WPPage } from "@/lib/api/services/wordpress";
+import { sanitizeHtml, decodeHtmlEntities } from "@/lib/api/services/wordpress";
 import ContentCard from "@/app/components/ContentCard";
 
 type Category = "general" | "account" | "application" | "employers" | "technical";
@@ -27,10 +28,10 @@ export default function FaqClient({ wpContent }: { wpContent: WPPage | null }) {
       <main className="flex-1 py-16">
         <div className="max-w-[1120px] mx-auto px-5">
           <ContentCard>
-            <h1 className="text-3xl font-bold mb-6 text-text">{wpContent.title.rendered}</h1>
+            <h1 className="text-3xl font-bold mb-6 text-text">{decodeHtmlEntities(wpContent.title.rendered)}</h1>
             <div
               className="prose prose-sm max-w-none text-text"
-              dangerouslySetInnerHTML={{ __html: wpContent.content.rendered }}
+              dangerouslySetInnerHTML={{ __html: sanitizeHtml(wpContent.content.rendered) }}
             />
           </ContentCard>
         </div>

@@ -12,7 +12,9 @@
     "translate": "node scripts/translate-all.js"
   },
   "dependencies": {
+    "@types/dompurify": "^3.0.5",
     "axios": "^1.13.5",
+    "isomorphic-dompurify": "^3.0.0-rc.2",
     "js-cookie": "^3.0.5",
     "next": "^16.1.6",
     "next-intl": "^4.8.1",

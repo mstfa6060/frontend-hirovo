@@ -3,7 +3,7 @@ import { wpApi } from "@/lib/api";
 import type { WPPage } from "@/lib/api/services/wordpress";
 import HomeClient from "./HomeClient";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 600; // 10 minutes
 
 export default async function Home({
   params,

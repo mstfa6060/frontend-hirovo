@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import Image from "next/image";
 import type { WPPost } from "@/lib/api/services/wordpress";
-import { getPostImageUrl, getPostImageAlt, getPostCategory, stripHtml } from "@/lib/api/services/wordpress";
+import { getPostImageUrl, getPostImageAlt, getPostCategory, stripHtml, decodeHtmlEntities } from "@/lib/api/services/wordpress";
 import Badge from "@/app/components/ui/Badge";
 
 export default function BlogCard({ post, locale }: { post: WPPost; locale: string }) {
@@ -43,7 +43,7 @@ export default function BlogCard({ post, locale }: { post: WPPost; locale: strin
           </Badge>
         )}
         <h3 className="text-base font-semibold text-text group-hover:text-hirovo-blue transition-colors mb-2 line-clamp-2">
-          {post.title.rendered}
+          {decodeHtmlEntities(post.title.rendered)}
         </h3>
         {excerpt && (
           <p className="text-sm text-muted line-clamp-2 mb-3">{excerpt}</p>
