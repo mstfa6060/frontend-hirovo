@@ -50,7 +50,7 @@ pipeline {
                                 --file _devops/docker/Dockerfile \
                                 --tag ${DOCKER_IMAGE}:${DOCKER_TAG} \
                                 --build-arg NEXT_PUBLIC_API_URL=https://api.hirovo.com \
-                                --build-arg NEXT_PUBLIC_STRAPI_URL=https://cms.hirovo.com \
+                                --build-arg NEXT_PUBLIC_WP_URL=https://cms.hirovo.com/wp-json \
                                 --build-arg NEXT_PUBLIC_COMPANY_ID=c9d8c846-10fc-466d-8f45-a4fa4e856abd \
                                 .
                         """
@@ -115,7 +115,7 @@ docker run -d \
     --restart unless-stopped \
     -p 3000:3000 \
     -e NEXT_PUBLIC_API_URL=https://api.hirovo.com \
-    -e NEXT_PUBLIC_STRAPI_URL=https://cms.hirovo.com \
+    -e NEXT_PUBLIC_WP_URL=https://cms.hirovo.com/wp-json \
     ${DOCKER_IMAGE}:${DOCKER_TAG}
 
 echo "Container baslatildi"

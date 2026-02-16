@@ -325,6 +325,17 @@ export interface EmployerStats {
   totalReviews: number;
 }
 
+// WordPress types (re-exported from wordpress service for convenience)
+export type {
+  WPPost,
+  WPCategory,
+  WPPage,
+  WPFAQ,
+  WPGuide,
+  WPCareerTip,
+  WPPostsResponse,
+} from "./services/wordpress";
+
 // User detail
 export interface UserDetail {
   userId: string;

@@ -2,8 +2,8 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { useTranslations } from "next-intl";
-import { strapiApi } from "@/lib/api";
-import type { BlogPost, BlogCategory } from "@/lib/api/services/strapi";
+import { wpApi } from "@/lib/api";
+import type { WPPost, WPCategory } from "@/lib/api/services/wordpress";
 import BlogCard from "./components/BlogCard";
 import Spinner from "@/app/components/ui/Spinner";
 import EmptyState from "@/app/components/ui/EmptyState";
@@ -11,9 +11,9 @@ import EmptyState from "@/app/components/ui/EmptyState";
 export default function BlogListClient({ locale }: { locale: string }) {
   const t = useTranslations("blog");
 
-  const [posts, setPosts] = useState<BlogPost[]>([]);
-  const [categories, setCategories] = useState<BlogCategory[]>([]);
-  const [selectedCategory, setSelectedCategory] = useState("");
+  const [posts, setPosts] = useState<WPPost[]>([]);
+  const [categories, setCategories] = useState<WPCategory[]>([]);
+  const [selectedCategory, setSelectedCategory] = useState<number | null>(null);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
@@ -21,14 +21,14 @@ export default function BlogListClient({ locale }: { locale: string }) {
   const fetchPosts = useCallback(async () => {
     setLoading(true);
     try {
-      const result = await strapiApi.getBlogPosts({
+      const result = await wpApi.getBlogPosts({
         page,
         pageSize: 12,
         category: selectedCategory || undefined,
         locale,
       });
-      setPosts(result.data || []);
-      setTotalPages(result.meta?.pagination?.pageCount || 1);
+      setPosts(result.posts || []);
+      setTotalPages(result.totalPages || 1);
     } catch {
       setPosts([]);
     } finally {
@@ -43,7 +43,7 @@ export default function BlogListClient({ locale }: { locale: string }) {
   useEffect(() => {
     async function fetchCategories() {
       try {
-        const cats = await strapiApi.getCategories(locale);
+        const cats = await wpApi.getCategories(locale);
         setCategories(cats || []);
       } catch {
         setCategories([]);
@@ -65,11 +65,11 @@ export default function BlogListClient({ locale }: { locale: string }) {
           <div className="flex flex-wrap gap-2 mb-6">
             <button
               onClick={() => {
-                setSelectedCategory("");
+                setSelectedCategory(null);
                 setPage(1);
               }}
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                selectedCategory === ""
+                selectedCategory === null
                   ? "bg-white text-text"
                   : "bg-white/10 text-white hover:bg-white/20"
               }`}
@@ -80,11 +80,11 @@ export default function BlogListClient({ locale }: { locale: string }) {
               <button
                 key={cat.id}
                 onClick={() => {
-                  setSelectedCategory(cat.slug);
+                  setSelectedCategory(cat.id);
                   setPage(1);
                 }}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                  selectedCategory === cat.slug
+                  selectedCategory === cat.id
                     ? "bg-white text-text"
                     : "bg-white/10 text-white hover:bg-white/20"
                 }`}

@@ -11,5 +11,5 @@ export * as workersApi from "./services/workers";
 export * as favoritesApi from "./services/favorites";
 export * as skillsApi from "./services/skills";
 export * as dashboardApi from "./services/dashboard";
-export * as strapiApi from "./services/strapi";
+export * as wpApi from "./services/wordpress";
 export * as employerApi from "./services/employer";
