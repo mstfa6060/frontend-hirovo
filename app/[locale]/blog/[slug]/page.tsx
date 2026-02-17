@@ -55,5 +55,5 @@ export default async function BlogPostPage({
     // fallback to null
   }
 
-  return <BlogPostClient locale={locale} slug={slug} post={post} />;
+  return <BlogPostClient locale={locale} post={post} />;
 }

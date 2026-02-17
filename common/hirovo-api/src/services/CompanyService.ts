@@ -1,3 +1,5 @@
+import { IAMAPI } from "../api/base_modules/iam";
+import { HirovoAPI } from "../api/business_modules/hirovo";
 
 export interface CompanyProfile {
     // Company data (from IAMAPI.Companies.Detail)

@@ -6,13 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "translate:all": "node scripts/translate-all.js all",
     "translate:missing": "node scripts/translate-all.js missing",
     "translate": "node scripts/translate-all.js"
   },
   "dependencies": {
-    "@types/dompurify": "^3.0.5",
     "axios": "^1.13.5",
     "isomorphic-dompurify": "^3.0.0-rc.2",
     "js-cookie": "^3.0.5",
@@ -22,11 +21,16 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@eslint/compat": "^2.0.2",
+    "@eslint/eslintrc": "^3.3.3",
+    "@types/dompurify": "^3.0.5",
     "@types/js-cookie": "^3.0.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.4.20",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.6",
     "google-translate-api-x": "^10.7.2",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10",

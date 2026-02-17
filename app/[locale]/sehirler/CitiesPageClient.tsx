@@ -17,8 +17,8 @@ export default function CitiesPageClient() {
       <div className="max-w-[1120px] mx-auto px-5">
         {/* Hero */}
         <section className="text-center mb-16">
-          <h1 className="text-5xl font-bold mb-4 max-sm:text-3xl">Sehirlere Gore Is Ilanlari</h1>
-          <p className="text-xl text-white/80 max-sm:text-lg">Turkiye genelinde sehir bazinda is firsatlarini kesfedin</p>
+          <h1 className="text-5xl font-bold mb-4 max-sm:text-3xl">{tc("searchByCity")}</h1>
+          <p className="text-xl text-white/80 max-sm:text-lg">{tc("searchByCitySubtitle")}</p>
         </section>
 
         {/* Cities Grid */}
@@ -41,8 +41,8 @@ export default function CitiesPageClient() {
         {/* CTA */}
         <section className="mt-16 text-center">
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-12 border border-white/20">
-            <h2 className="text-3xl font-bold mb-4">Tum Turkiye&apos;de Is Ara</h2>
-            <p className="text-xl text-white/80 mb-8">Hirovo uygulamasini indirerek tum sehirlerdeki binlerce ilana ulas</p>
+            <h2 className="text-3xl font-bold mb-4">{tc("searchAllTurkey")}</h2>
+            <p className="text-xl text-white/80 mb-8">{tc("searchAllTurkeySubtitle")}</p>
             <a
               href="https://play.google.com/store/apps/details?id=com.hirovo_mobil_bare"
               target="_blank"

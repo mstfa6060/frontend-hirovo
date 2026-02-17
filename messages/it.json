@@ -36,8 +36,10 @@
     "forJobSeekers": "Persone in cerca di lavoro",
     "forEmployers": "datori di lavoro",
     "faq": "Domande frequenti",
-    "contact": "Comunicazione",
-    "careerTips": "Consigli di carriera"
+    "contact": "Contatti",
+    "careerTips": "Consigli di carriera",
+    "jobs": "Offerte di lavoro",
+    "blog": "Blog"
   },
   "footer": {
     "copyright": "2025 Hirovo",

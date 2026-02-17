@@ -74,27 +74,27 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/sehirler" className="text-white/70 hover:text-white transition-colors">
-                  Sehirler
+                  {t("cities")}
                 </Link>
               </li>
               <li>
                 <Link href="/sektorler" className="text-white/70 hover:text-white transition-colors">
-                  Sektorler
+                  {t("sectors")}
                 </Link>
               </li>
               <li>
                 <Link href="/pozisyonlar" className="text-white/70 hover:text-white transition-colors">
-                  Pozisyonlar
+                  {t("positions")}
                 </Link>
               </li>
               <li>
                 <Link href="/rehberler" className="text-white/70 hover:text-white transition-colors">
-                  Kariyer Rehberleri
+                  {t("guides")}
                 </Link>
               </li>
               <li>
                 <Link href="/blog" className="text-white/70 hover:text-white transition-colors">
-                  Blog
+                  {t("blog")}
                 </Link>
               </li>
             </ul>

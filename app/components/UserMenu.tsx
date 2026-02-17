@@ -41,6 +41,8 @@ export default function UserMenu() {
       <button
         onClick={() => setOpen(!open)}
         className="w-9 h-9 rounded-full bg-gradient-to-br from-hirovo-blue to-hirovo-teal text-white text-sm font-bold flex items-center justify-center hover:shadow-btn transition-shadow"
+        aria-expanded={open}
+        aria-label="User menu"
       >
         {initials}
       </button>

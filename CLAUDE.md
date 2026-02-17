@@ -4,22 +4,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Hirovo is a Turkish job search platform. This repository contains the landing website that promotes the mobile app (available on Google Play). The site is a static Next.js export with pages for home, privacy policy, and terms of service.
+Hirovo is a Turkish job search platform. This repository contains the landing website with job search, blog, company profiles, and career guide pages. The site runs as a standalone Next.js server with middleware-based auth and i18n routing.
 
 ## Development Commands
 
 ```bash
 npm run dev      # Start development server
-npm run build    # Build static export to /out
+npm run build    # Build standalone output
 npm run lint     # Run ESLint
-npm run start    # Start production server (not used for static export)
+npm run start    # Start production server
 ```
 
 ## Architecture
 
 **Stack:** Next.js 16 (App Router), React 18, TypeScript, Tailwind CSS
 
-**Static Export:** The site uses `output: 'export'` for static HTML generation. Images are unoptimized to support this mode.
+**Standalone Server:** The site uses `output: 'standalone'` with middleware for auth and i18n. Next.js Image Optimization is enabled with remote patterns for `cms.hirovo.com`.
 
 **Key Directories:**
 - `app/` - Pages and components using App Router

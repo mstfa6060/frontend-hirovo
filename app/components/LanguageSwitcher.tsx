@@ -43,6 +43,7 @@ export default function LanguageSwitcher() {
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-2 px-3 py-2 rounded-lg text-text hover:bg-gray-100 transition-colors"
         aria-label={t("selectLanguage")}
+        aria-expanded={isOpen}
       >
         <svg
           className="w-5 h-5"

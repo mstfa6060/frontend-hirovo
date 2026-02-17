@@ -20,7 +20,33 @@
     "readMore": "Devamini Oku",
     "viewAll": "Tumunu Gor",
     "free": "Ucretsiz",
-    "new": "Yeni"
+    "new": "Yeni",
+    "home": "Ana Sayfa",
+    "viewJobs": "Ilanlari Gor",
+    "discoverJobs": "Is Ilanlarini Kesfet",
+    "discoverWithHirovo": "Hirovo ile binlerce is firsatina ulas",
+    "startJobSearch": "Simdi Is Aramaya Basla",
+    "applyLearnings": "Rehberlerimizle ogrendiklerinizi uygulamaya koyun",
+    "salaryRange": "Maas Araligi",
+    "aboutPosition": "Hakkinda",
+    "requiredSkills": "Aranan Beceriler",
+    "experienceLevels": "Deneyim Seviyeleri",
+    "importantTips": "Onemli Ipuclari",
+    "otherGuides": "Diger Rehberler",
+    "sectorCareer": "Sektorunde Kariyer",
+    "jobMarketFeatures": "Is Pazari Ozellikleri",
+    "searchByCity": "Sehirlere Gore Is Ilanlari",
+    "searchByCitySubtitle": "Turkiye genelinde sehir bazinda is firsatlarini kesfedin",
+    "searchAllTurkey": "Tum Turkiye'de Is Ara",
+    "searchAllTurkeySubtitle": "Hirovo uygulamasini indirerek tum sehirlerdeki binlerce ilana ulas",
+    "searchBySector": "Sektorlere Gore Is Ilanlari",
+    "searchBySectorSubtitle": "Ilgi alaniniza gore sektor bazinda kariyer firsatlarini kesfedin",
+    "searchAllSectors": "Tum Sektorlerde Is Ara",
+    "searchAllSectorsSubtitle": "Hirovo uygulamasini indirerek tum sektorlerdeki binlerce ilana ulas",
+    "searchAllPositions": "Tum Pozisyonlarda Is Ara",
+    "searchAllPositionsSubtitle": "Hirovo uygulamasini indirerek tum pozisyonlardaki binlerce ilana ulas",
+    "improveCareer": "Kariyerinizi Gelistirin",
+    "improveCareerSubtitle": "Hirovo uygulamasini indirerek binlerce is firsatina ulasin"
   },
   "metadata": {
     "title": "Hirovo - Is Bulma & Ilan Platformu",
@@ -58,7 +84,12 @@
     "resources": "Kaynaklar",
     "legal": "Yasal",
     "followUs": "Bizi Takip Edin",
-    "description": "Turkiye'nin en yenilikci is bulma platformu. Hayalindeki ise bir adim daha yaklac."
+    "description": "Turkiye'nin en yenilikci is bulma platformu. Hayalindeki ise bir adim daha yaklac.",
+    "cities": "Sehirler",
+    "sectors": "Sektorler",
+    "positions": "Pozisyonlar",
+    "guides": "Kariyer Rehberleri",
+    "blog": "Blog"
   },
   "home": {
     "hero": {
@@ -790,6 +821,11 @@
   "languageSwitcher": {
     "selectLanguage": "Dil Sec",
     "popularLanguages": "Populer Diller"
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadi",
+    "description": "Aradiginiz sayfa bulunamadi.",
+    "backHome": "Ana Sayfaya Don"
   },
   "cities": {
     "common": {

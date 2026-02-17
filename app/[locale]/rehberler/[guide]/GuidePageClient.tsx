@@ -10,6 +10,7 @@ export default function GuidePageClient() {
   const guide = params.guide as string;
   const t = useTranslations("guides");
   const tc = useTranslations("common");
+  const tf = useTranslations("footer");
 
   const guideData = {
     title: t(`${guide}.title`),
@@ -21,10 +22,10 @@ export default function GuidePageClient() {
     <main className="flex-1 py-16">
       <div className="max-w-[900px] mx-auto px-5">
         {/* Breadcrumb */}
-        <nav className="mb-8 text-sm">
-          <Link href="/" className="text-white/60 hover:text-white">Ana Sayfa</Link>
+        <nav className="mb-8 text-sm" aria-label="Breadcrumb">
+          <Link href="/" className="text-white/60 hover:text-white">{tc("home")}</Link>
           <span className="mx-2 text-white/40">/</span>
-          <Link href="/rehberler" className="text-white/60 hover:text-white">Rehberler</Link>
+          <Link href="/rehberler" className="text-white/60 hover:text-white">{tf("guides")}</Link>
           <span className="mx-2 text-white/40">/</span>
           <span className="text-white">{guideData.title}</span>
         </nav>
@@ -47,7 +48,7 @@ export default function GuidePageClient() {
 
         {/* Tips */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">Onemli Ipuclari</h2>
+          <h2 className="text-2xl font-bold mb-6">{tc("importantTips")}</h2>
           <div className="space-y-4">
             {guideData.tips.map((tip, index) => (
               <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20 flex items-start gap-4">
@@ -62,19 +63,19 @@ export default function GuidePageClient() {
 
         {/* Other Guides */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">Diger Rehberler</h2>
+          <h2 className="text-2xl font-bold mb-6">{tc("otherGuides")}</h2>
           <div className="grid grid-cols-2 gap-4">
             <Link href="/rehberler/cv-yazma" className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20 hover:bg-white/20 transition-colors">
-              CV Yazma Rehberi
+              {t("cv-yazma.title")}
             </Link>
             <Link href="/rehberler/mulakat-hazirligi" className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20 hover:bg-white/20 transition-colors">
-              Mulakat Hazirligi
+              {t("mulakat-hazirligi.title")}
             </Link>
             <Link href="/rehberler/maas-muzakeresi" className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20 hover:bg-white/20 transition-colors">
-              Maas Muzakeresi
+              {t("maas-muzakeresi.title")}
             </Link>
             <Link href="/rehberler/linkedin-optimizasyonu" className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20 hover:bg-white/20 transition-colors">
-              LinkedIn Optimizasyonu
+              {t("linkedin-optimizasyonu.title")}
             </Link>
           </div>
         </section>
@@ -82,8 +83,8 @@ export default function GuidePageClient() {
         {/* CTA */}
         <section className="text-center">
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-12 border border-white/20">
-            <h2 className="text-3xl font-bold mb-4">Simdi Is Aramaya Basla</h2>
-            <p className="text-xl text-white/80 mb-8">Rehberlerimizle ogrendiklerinizi uygulamaya koyun</p>
+            <h2 className="text-3xl font-bold mb-4">{tc("startJobSearch")}</h2>
+            <p className="text-xl text-white/80 mb-8">{tc("applyLearnings")}</p>
             <a
               href="https://play.google.com/store/apps/details?id=com.hirovo_mobil_bare"
               target="_blank"

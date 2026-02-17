@@ -90,11 +90,6 @@ export async function getBlogPosts(params?: {
   category?: number;
   locale?: string;
 }): Promise<WPPostsResponse> {
-  // Blog posts are Turkish-only until Polylang translations are added
-  if (params?.locale && params.locale !== "tr") {
-    return { posts: [], total: 0, totalPages: 0 };
-  }
-
   const query: Record<string, unknown> = {
     _embed: "wp:featuredmedia,wp:term",
     _fields: "id,slug,title,excerpt,date,featured_media,categories,_links,_embedded",
@@ -125,9 +120,6 @@ export async function getBlogPost(
   slug: string,
   locale?: string
 ): Promise<WPPost | null> {
-  // Blog posts are Turkish-only until Polylang translations are added
-  if (locale && locale !== "tr") return null;
-
   const query: Record<string, unknown> = {
     slug,
     _embed: "wp:featuredmedia,wp:term",
@@ -176,10 +168,6 @@ export async function getPage(
 
     // If Polylang is configured, it adds a 'lang' field — check it matches
     if (locale && page.lang && page.lang !== locale) {
-      return null;
-    }
-    // If no 'lang' field (Polylang not configured), content is Turkish only
-    if (locale && !page.lang && locale !== "tr") {
       return null;
     }
 
@@ -254,7 +242,6 @@ export async function getCareerTips(
 export function sanitizeHtml(html: string): string {
   // Lazy-load DOMPurify to avoid SSR issues
   try {
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
     const DOMPurify = require("isomorphic-dompurify");
     return DOMPurify.sanitize(html, {
       ADD_TAGS: ["iframe"],

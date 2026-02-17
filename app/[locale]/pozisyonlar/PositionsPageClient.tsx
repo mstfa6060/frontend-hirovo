@@ -59,8 +59,8 @@ export default function PositionsPageClient() {
         {/* CTA */}
         <section className="mt-16 text-center">
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-12 border border-white/20">
-            <h2 className="text-3xl font-bold mb-4">Tum Pozisyonlarda Is Ara</h2>
-            <p className="text-xl text-white/80 mb-8">Hirovo uygulamasini indirerek tum pozisyonlardaki binlerce ilana ulas</p>
+            <h2 className="text-3xl font-bold mb-4">{tc("searchAllPositions")}</h2>
+            <p className="text-xl text-white/80 mb-8">{tc("searchAllPositionsSubtitle")}</p>
             <a
               href="https://play.google.com/store/apps/details?id=com.hirovo_mobil_bare"
               target="_blank"

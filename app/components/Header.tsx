@@ -53,6 +53,12 @@ export default function Header() {
           >
             {th("about")}
           </Link>
+          <Link
+            href="/contact"
+            className="text-sm text-text hover:text-hirovo-blue transition-colors font-medium"
+          >
+            {th("contact")}
+          </Link>
 
           {/* Employer nav links */}
           {isAuthenticated && isEmployer && (
@@ -91,6 +97,7 @@ export default function Header() {
             className="md:hidden p-2 text-text"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Menu"
+            aria-expanded={mobileOpen}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {mobileOpen ? (
@@ -126,6 +133,13 @@ export default function Header() {
             className="block text-sm text-text py-2"
           >
             {th("about")}
+          </Link>
+          <Link
+            href="/contact"
+            onClick={() => setMobileOpen(false)}
+            className="block text-sm text-text py-2"
+          >
+            {th("contact")}
           </Link>
 
           {/* Employer mobile links */}
@@ -197,6 +211,7 @@ function EmployerDropdown({ te }: { te: (key: string) => string }) {
       <button
         onClick={() => setOpen(!open)}
         className="text-sm text-hirovo-blue hover:text-hirovo-blue/80 transition-colors font-medium flex items-center gap-1"
+        aria-expanded={open}
       >
         {te("panel")}
         <svg

@@ -7,6 +7,7 @@ import ContentCard from "@/app/components/ContentCard";
 
 export default function PrivacyClient({ wpContent }: { wpContent: WPPage | null }) {
   const t = useTranslations("privacy");
+  const tc = useTranslations("common");
 
   if (wpContent) {
     return (
@@ -139,7 +140,7 @@ export default function PrivacyClient({ wpContent }: { wpContent: WPPage | null 
           <p className="text-muted mb-4">{t("section9.intro")}</p>
           <ul className="text-muted list-disc pl-6 mb-4">
             <li>
-              E-posta:{" "}
+              {tc("email")}:{" "}
               <a
                 href="mailto:hello@hirovo.com"
                 className="text-hirovo-teal hover:underline"

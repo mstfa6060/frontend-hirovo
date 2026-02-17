@@ -15,11 +15,9 @@ import Badge from "@/app/components/ui/Badge";
 
 export default function BlogPostClient({
   locale,
-  slug,
   post,
 }: {
   locale: string;
-  slug: string;
   post: WPPost | null;
 }) {
   const t = useTranslations("blog");

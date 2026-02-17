@@ -56,37 +56,26 @@ function parseJwt(token: string): Record<string, unknown> | null {
   }
 }
 
+function restoreUserFromToken(): AuthUser | null {
+  const token = getToken();
+  if (!token) return null;
+  const payload = parseJwt(token);
+  if (!payload) return null;
+  return {
+    id: (payload.sub || payload.userId || "") as string,
+    username: (payload.userName || payload.email || "") as string,
+    displayName: (payload.displayName || payload.fullName || "") as string,
+    email: (payload.email || "") as string,
+    companyId: (payload.companyId || "") as string,
+    isCompanyHolding: (payload.isCompanyHolding || false) as boolean,
+    companyName: (payload.companyName || "") as string,
+    isPhoneVerified: (payload.isPhoneVerified || false) as boolean,
+  };
+}
+
 export function AuthProvider({ children }: { children: ReactNode }) {
-  const [user, setUser] = useState<AuthUser | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
-
-  const restoreSession = useCallback(() => {
-    const token = getToken();
-    if (!token) {
-      setUser(null);
-      setIsLoading(false);
-      return;
-    }
-
-    const payload = parseJwt(token);
-    if (payload) {
-      setUser({
-        id: (payload.sub || payload.userId || "") as string,
-        username: (payload.userName || payload.email || "") as string,
-        displayName: (payload.displayName || payload.fullName || "") as string,
-        email: (payload.email || "") as string,
-        companyId: (payload.companyId || "") as string,
-        isCompanyHolding: (payload.isCompanyHolding || false) as boolean,
-        companyName: (payload.companyName || "") as string,
-        isPhoneVerified: (payload.isPhoneVerified || false) as boolean,
-      });
-    }
-    setIsLoading(false);
-  }, []);
-
-  useEffect(() => {
-    restoreSession();
-  }, [restoreSession]);
+  const [user, setUser] = useState<AuthUser | null>(() => restoreUserFromToken());
+  const [isLoading, setIsLoading] = useState(false);
 
   const loginFn = useCallback(async (email: string, password: string, isEmployer = false) => {
     const result = await authApi.login(email, password, isEmployer);
