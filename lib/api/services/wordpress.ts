@@ -162,17 +162,22 @@ export async function getPage(
   try {
     const response = await wpClient.get("/wp/v2/pages", { params: query });
     const pages = response.data;
-    if (!pages || pages.length === 0) return null;
+    if (!pages || pages.length === 0) {
+      console.warn(`[WP] No page found for slug="${slug}" locale="${locale}"`);
+      return null;
+    }
 
     const page = pages[0];
 
     // If Polylang is configured, it adds a 'lang' field — check it matches
     if (locale && page.lang && page.lang !== locale) {
+      console.warn(`[WP] Page slug="${slug}" lang mismatch: page.lang="${page.lang}" !== locale="${locale}"`);
       return null;
     }
 
     return page;
-  } catch {
+  } catch (err) {
+    console.error(`[WP] getPage("${slug}", "${locale}") failed:`, err instanceof Error ? err.message : err);
     return null;
   }
 }

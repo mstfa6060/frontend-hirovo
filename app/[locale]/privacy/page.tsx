@@ -16,8 +16,8 @@ export default async function PrivacyPage({
   let wpContent: WPPage | null = null;
   try {
     wpContent = await wpApi.getPage("privacy", locale);
-  } catch {
-    // fallback to static
+  } catch (err) {
+    console.error("[WP] Privacy page fetch failed:", err instanceof Error ? err.message : err);
   }
 
   return <PrivacyClient wpContent={wpContent} />;

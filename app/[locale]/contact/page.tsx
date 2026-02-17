@@ -16,8 +16,8 @@ export default async function ContactPage({
   let wpContent: WPPage | null = null;
   try {
     wpContent = await wpApi.getPage("contact", locale);
-  } catch {
-    // fallback to static
+  } catch (err) {
+    console.error("[WP] Contact page fetch failed:", err instanceof Error ? err.message : err);
   }
 
   return <ContactClient wpContent={wpContent} />;

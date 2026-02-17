@@ -16,8 +16,8 @@ export default async function TermsPage({
   let wpContent: WPPage | null = null;
   try {
     wpContent = await wpApi.getPage("terms", locale);
-  } catch {
-    // fallback to static
+  } catch (err) {
+    console.error("[WP] Terms page fetch failed:", err instanceof Error ? err.message : err);
   }
 
   return <TermsClient wpContent={wpContent} />;

@@ -16,8 +16,8 @@ export default async function FAQPage({
   let wpContent: WPPage | null = null;
   try {
     wpContent = await wpApi.getPage("faq", locale);
-  } catch {
-    // fallback to static
+  } catch (err) {
+    console.error("[WP] FAQ page fetch failed:", err instanceof Error ? err.message : err);
   }
 
   return <FaqClient wpContent={wpContent} />;

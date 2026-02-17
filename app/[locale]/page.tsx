@@ -16,8 +16,8 @@ export default async function Home({
   let wpContent: WPPage | null = null;
   try {
     wpContent = await wpApi.getPage("homepage", locale);
-  } catch {
-    // WordPress unavailable — fallback to static
+  } catch (err) {
+    console.error("[WP] Homepage fetch failed:", err instanceof Error ? err.message : err);
   }
 
   return <HomeClient locale={locale} wpContent={wpContent} />;

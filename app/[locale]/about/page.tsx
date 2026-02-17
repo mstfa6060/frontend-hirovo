@@ -16,8 +16,8 @@ export default async function AboutPage({
   let wpContent: WPPage | null = null;
   try {
     wpContent = await wpApi.getPage("about", locale);
-  } catch {
-    // fallback to static
+  } catch (err) {
+    console.error("[WP] About page fetch failed:", err instanceof Error ? err.message : err);
   }
 
   return <AboutClient wpContent={wpContent} />;
