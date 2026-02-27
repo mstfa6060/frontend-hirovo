@@ -15,7 +15,9 @@
       "Bash(npm run build:*)",
       "Bash(git status:*)",
       "Bash(git check-ignore:*)",
-      "mcp__ide__getDiagnostics"
+      "mcp__ide__getDiagnostics",
+      "WebFetch(domain:cms.hirovo.com)",
+      "WebFetch(domain:hirovo.com)"
     ]
   }
 }
