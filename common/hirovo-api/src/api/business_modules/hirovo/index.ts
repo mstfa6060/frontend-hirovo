@@ -294,6 +294,7 @@ export namespace HirovoAPI {
 				firstName: string;
 				surname: string;
 				addedAt: Date;
+				bucketId: string;
 			}
 		}
 
@@ -2667,11 +2668,101 @@ export namespace HirovoAPI {
 				demandScore: number;
 				jobCount: number;
 			}
+			export interface ICareerPathTranslationItem {
+				languageCode: string;
+				title: string;
+			}
 			export interface ICareerPathItem {
 				title: string;
 				matchPercentage: number;
 				requiredSkills: string[];
 				missingSkills: string[];
+				translations: ICareerPathTranslationItem[];
+			}
+		}
+
+	}
+
+	export namespace CareerPaths {
+
+		export namespace All {
+			export const RequestPath = AppConfig.HirovoUrl + '/CareerPaths/All';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+			}
+			export interface IResponseModel {
+				id: Guid;
+				title: string;
+				description: string;
+				iconUrl: string;
+				sortOrder: number;
+				isActive: boolean;
+				skills: ISkillItem[];
+				translations: ITranslationItem[];
+			}
+			export interface ISkillItem {
+				skillId: Guid;
+				name: string;
+			}
+			export interface ITranslationItem {
+				languageCode: string;
+				title: string;
+				description: string;
+			}
+		}
+
+		export namespace Update {
+			export const RequestPath = AppConfig.HirovoUrl + '/CareerPaths/Update';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				id: Guid;
+				title: string;
+				description: string;
+				iconUrl: string;
+				sortOrder: number;
+				isActive: boolean;
+				skillIds: Guid[];
+				translations: ITranslationItem[];
+			}
+			export interface ITranslationItem {
+				languageCode: string;
+				title: string;
+				description: string;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace Delete {
+			export const RequestPath = AppConfig.HirovoUrl + '/CareerPaths/Delete';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				id: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace Create {
+			export const RequestPath = AppConfig.HirovoUrl + '/CareerPaths/Create';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				title: string;
+				description: string;
+				iconUrl: string;
+				sortOrder: number;
+				skillIds: Guid[];
+				translations: ITranslationItem[];
+			}
+			export interface ITranslationItem {
+				languageCode: string;
+				title: string;
+				description: string;
+			}
+			export interface IResponseModel {
+				id: Guid;
 			}
 		}
 

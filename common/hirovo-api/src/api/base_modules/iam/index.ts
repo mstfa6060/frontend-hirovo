@@ -72,26 +72,6 @@ export namespace IAMAPI {
 
 	}
 
-	export namespace MobilApplicationVersiyon {
-
-		export namespace GetVersion {
-			export const RequestPath = AppConfig.IAMUrl + '/MobilApplicationVersiyon/GetVersion';
-			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
-			export interface IRequestModel {
-				companyId: Guid;
-				platform: string;
-			}
-			export interface IResponseModel {
-				minVersion: string;
-				latestVersion: string;
-				forceUpdate: boolean;
-				updateMessage: string;
-				storeUrl: string;
-			}
-		}
-
-	}
-
 	export namespace User {
 
 		export namespace Delete {
@@ -371,6 +351,26 @@ export namespace IAMAPI {
 				name: string;
 				districtId: number;
 				postalCode: string;
+			}
+		}
+
+	}
+
+	export namespace MobilApplicationVersiyon {
+
+		export namespace GetVersion {
+			export const RequestPath = AppConfig.IAMUrl + '/MobilApplicationVersiyon/GetVersion';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				companyId: Guid;
+				platform: string;
+			}
+			export interface IResponseModel {
+				minVersion: string;
+				latestVersion: string;
+				forceUpdate: boolean;
+				updateMessage: string;
+				storeUrl: string;
 			}
 		}
 
