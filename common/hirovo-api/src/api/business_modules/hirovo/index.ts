@@ -48,6 +48,23 @@ export namespace HirovoAPI {
 			Corporate = 3,
 		}
 
+		export enum SocialPostType {
+			Text = 0,
+			JobShare = 1,
+			ForumShare = 2,
+			Repost = 3,
+		}
+
+		export enum SocialGroupType {
+			Public = 0,
+			Private = 1,
+		}
+
+		export enum GroupMemberRole {
+			Member = 0,
+			Admin = 1,
+		}
+
 		export enum ReviewerType {
 			Employer = 0,
 			Worker = 1,
@@ -63,6 +80,13 @@ export namespace HirovoAPI {
 			JobApplication = 1,
 			Recommendation = 2,
 			Direct = 3,
+		}
+
+		export enum MentionSourceType {
+			SocialPost = 0,
+			SocialPostComment = 1,
+			ForumPost = 2,
+			ForumComment = 3,
 		}
 
 		export enum SwipeDirection {
@@ -726,6 +750,177 @@ export namespace HirovoAPI {
 
 	}
 
+	export namespace UserFollows {
+
+		export namespace IsFollowing {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserFollows/IsFollowing';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				followedUserId: Guid;
+			}
+			export interface IResponseModel {
+				isFollowing: boolean;
+				followId?: Guid;
+			}
+		}
+
+		export namespace Following {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserFollows/Following';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				sorting: IXSorting;
+				filters: IXFilterItem[];
+				pageRequest: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				followedUserId: Guid;
+				followedName: string;
+				followedPhotoUrl: string;
+				followedAt: Date;
+			}
+		}
+
+		export namespace Followers {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserFollows/Followers';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				userId: Guid;
+				sorting: IXSorting;
+				filters: IXFilterItem[];
+				pageRequest: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				followerUserId: Guid;
+				followerName: string;
+				followerPhotoUrl: string;
+				followedAt: Date;
+			}
+		}
+
+		export namespace FollowCounts {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserFollows/FollowCounts';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				userId: Guid;
+			}
+			export interface IResponseModel {
+				followerCount: number;
+				followingCount: number;
+			}
+		}
+
+		export namespace Unfollow {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserFollows/Unfollow';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				followedUserId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace Follow {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserFollows/Follow';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				followedUserId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+	}
+
+	export namespace UserDiscoverys {
+
+		export namespace SuggestedFollows {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserDiscoverys/SuggestedFollows';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+			}
+			export interface IResponseModel {
+				userId: Guid;
+				displayName: string;
+				mutualFollowCount: number;
+			}
+		}
+
+		export namespace SimilarSkills {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserDiscoverys/SimilarSkills';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+			}
+			export interface IResponseModel {
+				userId: Guid;
+				displayName: string;
+				sharedSkillCount: number;
+				sharedSkills: string[];
+				isFollowing: boolean;
+			}
+		}
+
+		export namespace NearbyUsers {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserDiscoverys/NearbyUsers';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				radiusKm: Double;
+			}
+			export interface IResponseModel {
+				userId: Guid;
+				displayName: string;
+				city: string;
+				district: string;
+				distanceKm: Double;
+				isFollowing: boolean;
+			}
+		}
+
+	}
+
 	export namespace SuccessStories {
 
 		export namespace Featured {
@@ -843,6 +1038,499 @@ export namespace HirovoAPI {
 
 	}
 
+	export namespace SocialPosts {
+
+		export namespace UserPosts {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialPosts/UserPosts';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				userId: Guid;
+				page: number;
+				pageSize: number;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				content: string;
+				type: Enums.SocialPostType;
+				createdAt: Date;
+				likeCount: number;
+				commentCount: number;
+				shareCount: number;
+				isLikedByMe: boolean;
+				author: IAuthorModel;
+				sharedJob: ISharedJobModel;
+				originalPost: IRepostModel;
+			}
+			export interface IAuthorModel {
+				id: Guid;
+				displayName: string;
+			}
+			export interface ISharedJobModel {
+				id: Guid;
+				title: string;
+				salary: __ERROR_TYPE_NOT_HANDLED__;
+			}
+			export interface IRepostModel {
+				id: Guid;
+				content: string;
+				author: IAuthorModel;
+			}
+		}
+
+		export namespace Trending {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialPosts/Trending';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+			}
+			export interface IResponseModel {
+				id: Guid;
+				content: string;
+				type: Enums.SocialPostType;
+				createdAt: Date;
+				likeCount: number;
+				commentCount: number;
+				shareCount: number;
+				isLikedByMe: boolean;
+				author: IAuthorModel;
+				sharedJob: ISharedJobModel;
+				originalPost: IRepostModel;
+			}
+			export interface IAuthorModel {
+				id: Guid;
+				displayName: string;
+			}
+			export interface ISharedJobModel {
+				id: Guid;
+				title: string;
+				salary: __ERROR_TYPE_NOT_HANDLED__;
+			}
+			export interface IRepostModel {
+				id: Guid;
+				content: string;
+				author: IAuthorModel;
+			}
+		}
+
+		export namespace PostDetail {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialPosts/PostDetail';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				id: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				content: string;
+				type: Enums.SocialPostType;
+				createdAt: Date;
+				likeCount: number;
+				commentCount: number;
+				shareCount: number;
+				viewCount: number;
+				isLikedByMe: boolean;
+				author: IAuthorModel;
+				sharedJob: ISharedJobModel;
+				originalPost: IRepostModel;
+				comments: ICommentModel[];
+			}
+			export interface IAuthorModel {
+				id: Guid;
+				displayName: string;
+			}
+			export interface ISharedJobModel {
+				id: Guid;
+				title: string;
+				salary: __ERROR_TYPE_NOT_HANDLED__;
+			}
+			export interface IRepostModel {
+				id: Guid;
+				content: string;
+				author: IAuthorModel;
+			}
+			export interface ICommentModel {
+				id: Guid;
+				content: string;
+				createdAt: Date;
+				likeCount: number;
+				isLikedByMe: boolean;
+				parentCommentId?: Guid;
+				author: IAuthorModel;
+			}
+		}
+
+		export namespace Popular {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialPosts/Popular';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+			}
+			export interface IResponseModel {
+				id: Guid;
+				content: string;
+				type: Enums.SocialPostType;
+				createdAt: Date;
+				likeCount: number;
+				commentCount: number;
+				shareCount: number;
+				isLikedByMe: boolean;
+				author: IAuthorModel;
+				sharedJob: ISharedJobModel;
+				originalPost: IRepostModel;
+			}
+			export interface IAuthorModel {
+				id: Guid;
+				displayName: string;
+			}
+			export interface ISharedJobModel {
+				id: Guid;
+				title: string;
+				salary: __ERROR_TYPE_NOT_HANDLED__;
+			}
+			export interface IRepostModel {
+				id: Guid;
+				content: string;
+				author: IAuthorModel;
+			}
+		}
+
+		export namespace MyPosts {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialPosts/MyPosts';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				page: number;
+				pageSize: number;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				content: string;
+				type: Enums.SocialPostType;
+				createdAt: Date;
+				likeCount: number;
+				commentCount: number;
+				shareCount: number;
+				isLikedByMe: boolean;
+				author: IAuthorModel;
+				sharedJob: ISharedJobModel;
+				originalPost: IRepostModel;
+			}
+			export interface IAuthorModel {
+				id: Guid;
+				displayName: string;
+			}
+			export interface ISharedJobModel {
+				id: Guid;
+				title: string;
+				salary: __ERROR_TYPE_NOT_HANDLED__;
+			}
+			export interface IRepostModel {
+				id: Guid;
+				content: string;
+				author: IAuthorModel;
+			}
+		}
+
+		export namespace Feed {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialPosts/Feed';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				page: number;
+				pageSize: number;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				content: string;
+				type: Enums.SocialPostType;
+				createdAt: Date;
+				likeCount: number;
+				commentCount: number;
+				shareCount: number;
+				isLikedByMe: boolean;
+				author: IAuthorModel;
+				sharedJob: ISharedJobModel;
+				originalPost: IRepostModel;
+			}
+			export interface IAuthorModel {
+				id: Guid;
+				displayName: string;
+			}
+			export interface ISharedJobModel {
+				id: Guid;
+				title: string;
+				salary: __ERROR_TYPE_NOT_HANDLED__;
+			}
+			export interface IRepostModel {
+				id: Guid;
+				content: string;
+				author: IAuthorModel;
+			}
+		}
+
+		export namespace Unlike {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialPosts/Unlike';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				postId?: Guid;
+				commentId?: Guid;
+			}
+			export interface IResponseModel {
+				success: boolean;
+			}
+		}
+
+		export namespace Repost {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialPosts/Repost';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				originalPostId: Guid;
+				content: string;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace Like {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialPosts/Like';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				postId?: Guid;
+				commentId?: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace Delete {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialPosts/Delete';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				id: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace Create {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialPosts/Create';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				content: string;
+				type: Enums.SocialPostType;
+				sharedJobId?: Guid;
+				sharedForumPostId?: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace Comment {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialPosts/Comment';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				postId: Guid;
+				content: string;
+				parentCommentId?: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+	}
+
+	export namespace SocialGroups {
+
+		export namespace MyGroups {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialGroups/MyGroups';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+			}
+			export interface IResponseModel {
+				id: Guid;
+				name: string;
+				description: string;
+				iconUrl: string;
+				type: Enums.SocialGroupType;
+				memberCount: number;
+				postCount: number;
+				createdAt: Date;
+				isMember: boolean;
+				creator: ICreatorModel;
+			}
+			export interface ICreatorModel {
+				id: Guid;
+				displayName: string;
+			}
+		}
+
+		export namespace Members {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialGroups/Members';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				groupId: Guid;
+			}
+			export interface IResponseModel {
+				userId: Guid;
+				displayName: string;
+				role: Enums.GroupMemberRole;
+				joinedAt: Date;
+			}
+		}
+
+		export namespace GroupPosts {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialGroups/GroupPosts';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				groupId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				content: string;
+				type: Enums.SocialPostType;
+				createdAt: Date;
+				likeCount: number;
+				commentCount: number;
+				shareCount: number;
+				isLikedByMe: boolean;
+				author: IAuthorModel;
+			}
+			export interface IAuthorModel {
+				id: Guid;
+				displayName: string;
+			}
+		}
+
+		export namespace Detail {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialGroups/Detail';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				id: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				name: string;
+				description: string;
+				iconUrl: string;
+				type: Enums.SocialGroupType;
+				memberCount: number;
+				postCount: number;
+				createdAt: Date;
+				isMember: boolean;
+				myRole?: Enums.GroupMemberRole;
+				creator: ICreatorModel;
+				recentMembers: IRecentMemberModel[];
+			}
+			export interface ICreatorModel {
+				id: Guid;
+				displayName: string;
+			}
+			export interface IRecentMemberModel {
+				id: Guid;
+				displayName: string;
+			}
+		}
+
+		export namespace All {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialGroups/All';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				searchTerm: string;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				name: string;
+				description: string;
+				iconUrl: string;
+				type: Enums.SocialGroupType;
+				memberCount: number;
+				postCount: number;
+				createdAt: Date;
+				isMember: boolean;
+				creator: ICreatorModel;
+			}
+			export interface ICreatorModel {
+				id: Guid;
+				displayName: string;
+			}
+		}
+
+		export namespace Update {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialGroups/Update';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				id: Guid;
+				name: string;
+				description: string;
+				iconUrl: string;
+				type: Enums.SocialGroupType;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace Leave {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialGroups/Leave';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				groupId: Guid;
+			}
+			export interface IResponseModel {
+				success: boolean;
+			}
+		}
+
+		export namespace Join {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialGroups/Join';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				groupId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace Delete {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialGroups/Delete';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				id: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace Create {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialGroups/Create';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				name: string;
+				description: string;
+				iconUrl: string;
+				type: Enums.SocialGroupType;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace AddAdmin {
+			export const RequestPath = AppConfig.HirovoUrl + '/SocialGroups/AddAdmin';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				groupId: Guid;
+				userId: Guid;
+			}
+			export interface IResponseModel {
+				success: boolean;
+			}
+		}
+
+	}
+
 	export namespace Skills {
 
 		export namespace Pick {
@@ -892,6 +1580,7 @@ export namespace HirovoAPI {
 			export interface IResponseModel {
 				id: Guid;
 				name: string;
+				category: string;
 			}
 		}
 
@@ -1389,6 +2078,7 @@ export namespace HirovoAPI {
 			export interface IRequestModel {
 				conversationId?: Guid;
 				jobApplicationId?: Guid;
+				recipientUserId?: Guid;
 				content: string;
 			}
 			export interface IResponseModel {
@@ -1406,6 +2096,28 @@ export namespace HirovoAPI {
 			}
 			export interface IResponseModel {
 				markedCount: number;
+			}
+		}
+
+	}
+
+	export namespace Mentions {
+
+		export namespace MyMentions {
+			export const RequestPath = AppConfig.HirovoUrl + '/Mentions/MyMentions';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+			}
+			export interface IResponseModel {
+				id: Guid;
+				sourceType: Enums.MentionSourceType;
+				sourceId: Guid;
+				createdAt: Date;
+				mentioner: IMentionerModel;
+			}
+			export interface IMentionerModel {
+				id: Guid;
+				displayName: string;
 			}
 		}
 
