@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "이 이메일 주소는 이미 사용 중입니다.",
       FIRST_NAME_REQUIRED: "이름은 필수입니다.",
       SURNAME_REQUIRED: "성은 필수입니다.",
+      REGISTER_COMPANY_ID_REQUIRED: "등록을 위해서는 회사 ID가 필요합니다.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "비밀번호는 8자 이상이어야 합니다.",
     }
   }

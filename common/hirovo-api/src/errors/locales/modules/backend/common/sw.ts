@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Barua pepe hii tayari inatumika.",
       FIRST_NAME_REQUIRED: "Jina linahitajika.",
       SURNAME_REQUIRED: "Jina la ukoo ni lazima.",
+      REGISTER_COMPANY_ID_REQUIRED: "Kitambulisho cha Kampuni kinahitajika kwa usajili.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Nenosiri lazima liwe na angalau vibambo 8.",
     }
   }

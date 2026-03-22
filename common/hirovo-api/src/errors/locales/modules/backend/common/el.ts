@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Αυτή η διεύθυνση ηλεκτρονικού ταχυδρομείου χρησιμοποιείται ήδη.",
       FIRST_NAME_REQUIRED: "Το όνομα απαιτείται.",
       SURNAME_REQUIRED: "Το επώνυμο είναι υποχρεωτικό.",
+      REGISTER_COMPANY_ID_REQUIRED: "Για την εγγραφή απαιτείται εταιρική ταυτότητα.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Ο κωδικός πρόσβασης πρέπει να αποτελείται από τουλάχιστον 8 χαρακτήρες.",
     }
   }

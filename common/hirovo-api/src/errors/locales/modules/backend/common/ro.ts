@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Această adresă de e-mail este deja utilizată.",
       FIRST_NAME_REQUIRED: "Numele este obligatoriu.",
       SURNAME_REQUIRED: "Numele de familie este obligatoriu.",
+      REGISTER_COMPANY_ID_REQUIRED: "ID-ul companiei este necesar pentru înregistrare.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Parola trebuie să aibă cel puțin 8 caractere.",
     }
   }

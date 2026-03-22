@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Địa chỉ email này đã được sử dụng.",
       FIRST_NAME_REQUIRED: "Tên là bắt buộc.",
       SURNAME_REQUIRED: "Họ là bắt buộc.",
+      REGISTER_COMPANY_ID_REQUIRED: "ID công ty là cần thiết để đăng ký.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Mật khẩu phải có ít nhất 8 ký tự.",
     }
   }

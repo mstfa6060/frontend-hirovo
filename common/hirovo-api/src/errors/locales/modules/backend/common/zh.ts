@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Bu e-posta adresi zaten kullanılıyor.",
       FIRST_NAME_REQUIRED: "Ad zorunludur.",
       SURNAME_REQUIRED: "Soyad zorunludur.",
+      REGISTER_COMPANY_ID_REQUIRED: "Kayıt için şirket ID zorunludur.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Şifre en az 8 karakter olmalıdır.",
     }
   }

@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Ez az e-mail cím már használatban van.",
       FIRST_NAME_REQUIRED: "A név megadása kötelező.",
       SURNAME_REQUIRED: "A vezetéknév megadása kötelező.",
+      REGISTER_COMPANY_ID_REQUIRED: "A regisztrációhoz cégazonosító szükséges.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "A jelszónak legalább 8 karakterből kell állnia.",
     }
   }

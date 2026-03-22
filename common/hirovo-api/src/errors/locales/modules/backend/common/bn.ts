@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "এই ইমেল ঠিকানাটি ইতিমধ্যেই ব্যবহার করা হচ্ছে৷",
       FIRST_NAME_REQUIRED: "নাম আবশ্যক.",
       SURNAME_REQUIRED: "উপাধি বাধ্যতামূলক।",
+      REGISTER_COMPANY_ID_REQUIRED: "নিবন্ধনের জন্য কোম্পানির আইডি প্রয়োজন।",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "পাসওয়ার্ড কমপক্ষে 8 অক্ষরের হতে হবে।",
     }
   }

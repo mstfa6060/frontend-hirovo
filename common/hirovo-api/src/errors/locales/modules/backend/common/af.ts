@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Hierdie e-posadres is reeds in gebruik.",
       FIRST_NAME_REQUIRED: "Naam word vereis.",
       SURNAME_REQUIRED: "Van is verpligtend.",
+      REGISTER_COMPANY_ID_REQUIRED: "Maatskappy-ID word vereis vir registrasie.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Wagwoord moet ten minste 8 karakters wees.",
     }
   }

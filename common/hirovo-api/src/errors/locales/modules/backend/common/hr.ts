@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Ova email adresa je već u upotrebi.",
       FIRST_NAME_REQUIRED: "Ime je potrebno.",
       SURNAME_REQUIRED: "Prezime je obavezno.",
+      REGISTER_COMPANY_ID_REQUIRED: "Za registraciju je potreban ID tvrtke.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Lozinka mora imati najmanje 8 znakova.",
     }
   }

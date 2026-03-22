@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "عنوان البريد الإلكتروني هذا قيد الاستخدام بالفعل.",
       FIRST_NAME_REQUIRED: "الاسم مطلوب.",
       SURNAME_REQUIRED: "اللقب إلزامي.",
+      REGISTER_COMPANY_ID_REQUIRED: "معرف الشركة مطلوب للتسجيل.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل.",
     }
   }

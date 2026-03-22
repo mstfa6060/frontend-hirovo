@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "हा ईमेल पत्ता आधीच वापरात आहे.",
       FIRST_NAME_REQUIRED: "नाव आवश्यक आहे.",
       SURNAME_REQUIRED: "आडनाव अनिवार्य आहे.",
+      REGISTER_COMPANY_ID_REQUIRED: "नोंदणीसाठी कंपनी आयडी आवश्यक आहे.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "पासवर्ड किमान 8 वर्णांचा असणे आवश्यक आहे.",
     }
   }

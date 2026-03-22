@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Tämä sähköpostiosoite on jo käytössä.",
       FIRST_NAME_REQUIRED: "Nimi vaaditaan.",
       SURNAME_REQUIRED: "Sukunimi on pakollinen.",
+      REGISTER_COMPANY_ID_REQUIRED: "Yrityksen tunnus vaaditaan rekisteröintiä varten.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Salasanassa on oltava vähintään 8 merkkiä.",
     }
   }

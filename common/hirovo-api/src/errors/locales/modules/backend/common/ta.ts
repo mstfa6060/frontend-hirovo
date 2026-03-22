@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "இந்த மின்னஞ்சல் முகவரி ஏற்கனவே பயன்பாட்டில் உள்ளது.",
       FIRST_NAME_REQUIRED: "பெயர் தேவை.",
       SURNAME_REQUIRED: "குடும்பப்பெயர் கட்டாயம்.",
+      REGISTER_COMPANY_ID_REQUIRED: "பதிவு செய்வதற்கு நிறுவனத்தின் ஐடி தேவை.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "கடவுச்சொல் குறைந்தது 8 எழுத்துகளாக இருக்க வேண்டும்.",
     }
   }

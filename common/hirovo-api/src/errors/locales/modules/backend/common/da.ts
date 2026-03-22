@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Denne e-mailadresse er allerede i brug.",
       FIRST_NAME_REQUIRED: "Navn er påkrævet.",
       SURNAME_REQUIRED: "Efternavn er obligatorisk.",
+      REGISTER_COMPANY_ID_REQUIRED: "Firma-id er påkrævet for registrering.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Adgangskoden skal være på mindst 8 tegn.",
     }
   }

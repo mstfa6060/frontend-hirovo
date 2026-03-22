@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "כתובת האימייל הזו כבר בשימוש.",
       FIRST_NAME_REQUIRED: "נדרש שם.",
       SURNAME_REQUIRED: "שם משפחה הוא חובה.",
+      REGISTER_COMPANY_ID_REQUIRED: "יש צורך בזיהוי חברה לרישום.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "הסיסמה חייבת להיות לפחות 8 תווים.",
     }
   }

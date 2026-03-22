@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Dan l-indirizz elettroniku diġà qed jintuża.",
       FIRST_NAME_REQUIRED: "Isem huwa meħtieġ.",
       SURNAME_REQUIRED: "Kunjom huwa obbligatorju.",
+      REGISTER_COMPANY_ID_REQUIRED: "ID tal-Kumpanija hija meħtieġa għar-reġistrazzjoni.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Il-password għandu jkun ta' mill-inqas 8 karattri.",
     }
   }

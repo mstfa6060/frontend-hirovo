@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "このメールアドレスはすでに使用されています。",
       FIRST_NAME_REQUIRED: "名前は必須です。",
       SURNAME_REQUIRED: "姓は必須です。",
+      REGISTER_COMPANY_ID_REQUIRED: "登録には企業IDが必要です。",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "パスワードは 8 文字以上である必要があります。",
     }
   }

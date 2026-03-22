@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Šis el. pašto adresas jau naudojamas.",
       FIRST_NAME_REQUIRED: "Vardas yra būtinas.",
       SURNAME_REQUIRED: "Pavardė yra privaloma.",
+      REGISTER_COMPANY_ID_REQUIRED: "Registruojantis būtinas įmonės ID.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Slaptažodį turi sudaryti bent 8 simboliai.",
     }
   }

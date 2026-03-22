@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Dit e-mailadres is al in gebruik.",
       FIRST_NAME_REQUIRED: "Naam is vereist.",
       SURNAME_REQUIRED: "Achternaam is verplicht.",
+      REGISTER_COMPANY_ID_REQUIRED: "Voor registratie is een bedrijfs-ID vereist.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Wachtwoord moet minimaal 8 tekens lang zijn.",
     }
   }

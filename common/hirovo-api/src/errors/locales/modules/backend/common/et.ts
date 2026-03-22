@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "See e-posti aadress on juba kasutusel.",
       FIRST_NAME_REQUIRED: "Nimi on kohustuslik.",
       SURNAME_REQUIRED: "Perekonnanimi on kohustuslik.",
+      REGISTER_COMPANY_ID_REQUIRED: "Registreerimiseks on vaja ettevõtte ID-d.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Parool peab koosnema vähemalt 8 tähemärgist.",
     }
   }

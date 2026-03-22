@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "ይህ ኢሜይል አድራሻ አስቀድሞ ጥቅም ላይ ውሏል።",
       FIRST_NAME_REQUIRED: "ስም ያስፈልጋል።",
       SURNAME_REQUIRED: "የአያት ስም ግዴታ ነው።",
+      REGISTER_COMPANY_ID_REQUIRED: "ለመመዝገብ የኩባንያ መታወቂያ ያስፈልጋል።",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "የይለፍ ቃል ቢያንስ 8 ቁምፊዎች መሆን አለበት።",
     }
   }

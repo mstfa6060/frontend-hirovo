@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "این آدرس ایمیل در حال حاضر در حال استفاده است.",
       FIRST_NAME_REQUIRED: "نام الزامی است.",
       SURNAME_REQUIRED: "نام خانوادگی الزامی است.",
+      REGISTER_COMPANY_ID_REQUIRED: "شناسه شرکت برای ثبت نام الزامی است.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "رمز عبور باید حداقل 8 کاراکتر باشد.",
     }
   }

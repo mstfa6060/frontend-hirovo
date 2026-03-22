@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Ова адреса е-поште је већ у употреби.",
       FIRST_NAME_REQUIRED: "Име је обавезно.",
       SURNAME_REQUIRED: "Презиме је обавезно.",
+      REGISTER_COMPANY_ID_REQUIRED: "ИД компаније је потребан за регистрацију.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Лозинка мора имати најмање 8 знакова.",
     }
   }

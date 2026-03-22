@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Táto e-mailová adresa sa už používa.",
       FIRST_NAME_REQUIRED: "Meno je povinné.",
       SURNAME_REQUIRED: "Priezvisko je povinné.",
+      REGISTER_COMPANY_ID_REQUIRED: "Na registráciu je potrebné IČO.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Heslo musí mať aspoň 8 znakov.",
     }
   }

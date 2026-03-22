@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "ఈ ఇమెయిల్ చిరునామా ఇప్పటికే వాడుకలో ఉంది.",
       FIRST_NAME_REQUIRED: "పేరు అవసరం.",
       SURNAME_REQUIRED: "ఇంటిపేరు తప్పనిసరి.",
+      REGISTER_COMPANY_ID_REQUIRED: "రిజిస్ట్రేషన్ కోసం కంపెనీ ID అవసరం.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 8 అక్షరాలు ఉండాలి.",
     }
   }

@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "यह ईमेल पता पहले से उपयोग में है।",
       FIRST_NAME_REQUIRED: "नाम आवश्यक है।",
       SURNAME_REQUIRED: "उपनाम अनिवार्य है.",
+      REGISTER_COMPANY_ID_REQUIRED: "पंजीकरण के लिए कंपनी आईडी आवश्यक है।",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "पासवर्ड कम से कम 8 वर्णों का होना चाहिए।",
     }
   }

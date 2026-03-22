@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Tá an seoladh ríomhphoist seo in úsáid cheana féin.",
       FIRST_NAME_REQUIRED: "Tá ainm ag teastáil.",
       SURNAME_REQUIRED: "Tá sloinne éigeantach.",
+      REGISTER_COMPANY_ID_REQUIRED: "Teastaíonn aitheantas cuideachta le haghaidh clárúcháin.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Ní mór go mbeadh 8 gcarachtar ar a laghad ag pasfhocal.",
     }
   }

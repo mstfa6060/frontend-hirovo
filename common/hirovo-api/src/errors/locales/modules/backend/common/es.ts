@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Esta dirección de correo electrónico ya está en uso.",
       FIRST_NAME_REQUIRED: "El nombre es obligatorio.",
       SURNAME_REQUIRED: "El apellido es obligatorio.",
+      REGISTER_COMPANY_ID_REQUIRED: "Se requiere identificación de la empresa para registrarse.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "La contraseña debe tener al menos 8 caracteres.",
     }
   }

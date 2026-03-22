@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Այս էլփոստի հասցեն արդեն օգտագործվում է:",
       FIRST_NAME_REQUIRED: "Անունը պարտադիր է։",
       SURNAME_REQUIRED: "Ազգանունը պարտադիր է։",
+      REGISTER_COMPANY_ID_REQUIRED: "Գրանցման համար անհրաժեշտ է ընկերության ID-ն:",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Գաղտնաբառը պետք է լինի առնվազն 8 նիշ:",
     }
   }

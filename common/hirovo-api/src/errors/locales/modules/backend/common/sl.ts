@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Ta e-poštni naslov je že v uporabi.",
       FIRST_NAME_REQUIRED: "Ime je obvezno.",
       SURNAME_REQUIRED: "Priimek je obvezen.",
+      REGISTER_COMPANY_ID_REQUIRED: "Za registracijo je potreben ID podjetja.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Geslo mora imeti vsaj 8 znakov.",
     }
   }

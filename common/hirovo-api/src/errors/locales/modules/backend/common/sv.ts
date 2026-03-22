@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Den här e-postadressen används redan.",
       FIRST_NAME_REQUIRED: "Namn krävs.",
       SURNAME_REQUIRED: "Efternamn är obligatoriskt.",
+      REGISTER_COMPANY_ID_REQUIRED: "Företags-ID krävs för registrering.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Lösenordet måste vara minst 8 tecken.",
     }
   }

@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Alamat e-mel ini sudah digunakan.",
       FIRST_NAME_REQUIRED: "Nama diperlukan.",
       SURNAME_REQUIRED: "Nama keluarga adalah wajib.",
+      REGISTER_COMPANY_ID_REQUIRED: "ID Syarikat diperlukan untuk pendaftaran.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Kata laluan mestilah sekurang-kurangnya 8 aksara.",
     }
   }

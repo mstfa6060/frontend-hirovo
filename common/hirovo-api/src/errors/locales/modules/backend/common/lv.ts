@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Šī e-pasta adrese jau tiek izmantota.",
       FIRST_NAME_REQUIRED: "Jānorāda vārds.",
       SURNAME_REQUIRED: "Uzvārds ir obligāts.",
+      REGISTER_COMPANY_ID_REQUIRED: "Reģistrācijai ir nepieciešams uzņēmuma ID.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Parolei ir jābūt vismaz 8 rakstzīmēm.",
     }
   }

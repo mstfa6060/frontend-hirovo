@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "Þetta netfang er þegar í notkun.",
       FIRST_NAME_REQUIRED: "Nafn er áskilið.",
       SURNAME_REQUIRED: "Eftirnafn er skylt.",
+      REGISTER_COMPANY_ID_REQUIRED: "Fyrir skráningu þarf auðkenni fyrirtækis.",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "Lykilorð verður að vera að minnsta kosti 8 stafir.",
     }
   }

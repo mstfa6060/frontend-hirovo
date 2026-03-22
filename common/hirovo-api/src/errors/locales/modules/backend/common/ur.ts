@@ -133,6 +133,7 @@ export default {
       EMAIL_ALREADY_EXISTS: "یہ ای میل پتہ پہلے سے ہی استعمال میں ہے۔",
       FIRST_NAME_REQUIRED: "نام درکار ہے۔",
       SURNAME_REQUIRED: "کنیت لازمی ہے۔",
+      REGISTER_COMPANY_ID_REQUIRED: "رجسٹریشن کے لیے کمپنی کی شناخت درکار ہے۔",
       PASSWORD_MUST_BE_AT_LEAST8_CHARACTERS: "پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے۔",
     }
   }
