@@ -41,6 +41,18 @@ export namespace HirovoAPI {
 			Filled = 2,
 		}
 
+		export enum NotificationType {
+			PostLike = 0,
+			PostComment = 1,
+			PostRepost = 2,
+			NewFollower = 3,
+			Mention = 4,
+			NewMessage = 5,
+			GroupInvite = 6,
+			SkillEndorsement = 7,
+			JobApplication = 8,
+		}
+
 		export enum SubscriptionPlan {
 			Free = 0,
 			Trial = 1,
@@ -382,6 +394,27 @@ export namespace HirovoAPI {
 
 	}
 
+	export namespace UserSearchs {
+
+		export namespace Search {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserSearchs/Search';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				query: string;
+				page: number;
+				pageSize: number;
+			}
+			export interface IResponseModel {
+				userId: Guid;
+				displayName: string;
+				photoUrl: string;
+				title: string;
+				isFollowing: boolean;
+			}
+		}
+
+	}
+
 	export namespace DetailProfile {
 
 		export namespace Detail {
@@ -672,6 +705,56 @@ export namespace HirovoAPI {
 
 	}
 
+	export namespace UserNotifications {
+
+		export namespace UnreadCount {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserNotifications/UnreadCount';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+			}
+			export interface IResponseModel {
+				unreadCount: number;
+			}
+		}
+
+		export namespace All {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserNotifications/All';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				page: number;
+				pageSize: number;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				type: Enums.NotificationType;
+				title: string;
+				body: string;
+				referenceId?: Guid;
+				isRead: boolean;
+				readAt?: Date;
+				createdAt: Date;
+				actor: IActorModel;
+			}
+			export interface IActorModel {
+				id: Guid;
+				displayName: string;
+				photoUrl: string;
+			}
+		}
+
+		export namespace MarkAsRead {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserNotifications/MarkAsRead';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				notificationId?: Guid;
+			}
+			export interface IResponseModel {
+				markedCount: number;
+			}
+		}
+
+	}
+
 	export namespace UserLevels {
 
 		export namespace MyLevel {
@@ -921,6 +1004,82 @@ export namespace HirovoAPI {
 
 	}
 
+	export namespace UserBlocks {
+
+		export namespace IsBlocked {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserBlocks/IsBlocked';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				userId: Guid;
+			}
+			export interface IResponseModel {
+				isBlocked: boolean;
+				isBlockedByThem: boolean;
+			}
+		}
+
+		export namespace BlockedUsers {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserBlocks/BlockedUsers';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel[]>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				sorting: IXSorting;
+				filters: IXFilterItem[];
+				pageRequest: IXPageRequest;
+			}
+			export interface IXSorting {
+				key: string;
+				direction: Enums.XSortingDirection;
+			}
+			export interface IObject {
+			}
+			export interface IXFilterItem {
+				key: string;
+				type: string;
+				isUsed: boolean;
+				values: IObject[];
+				min: IObject;
+				max: IObject;
+				conditionType: string;
+			}
+			export interface IXPageRequest {
+				currentPage: number;
+				perPageCount: number;
+				listAll: boolean;
+			}
+			export interface IResponseModel {
+				id: Guid;
+				userId: Guid;
+				displayName: string;
+				photoUrl: string;
+				blockedAt: Date;
+			}
+		}
+
+		export namespace Unblock {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserBlocks/Unblock';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				blockedUserId: Guid;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+		export namespace Block {
+			export const RequestPath = AppConfig.HirovoUrl + '/UserBlocks/Block';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				blockedUserId: Guid;
+				reason: string;
+			}
+			export interface IResponseModel {
+				id: Guid;
+			}
+		}
+
+	}
+
 	export namespace SuccessStories {
 
 		export namespace Featured {
@@ -1057,6 +1216,7 @@ export namespace HirovoAPI {
 				commentCount: number;
 				shareCount: number;
 				isLikedByMe: boolean;
+				imageUrls: string[];
 				author: IAuthorModel;
 				sharedJob: ISharedJobModel;
 				originalPost: IRepostModel;
@@ -1064,6 +1224,7 @@ export namespace HirovoAPI {
 			export interface IAuthorModel {
 				id: Guid;
 				displayName: string;
+				photoUrl: string;
 			}
 			export interface ISharedJobModel {
 				id: Guid;
@@ -1091,6 +1252,7 @@ export namespace HirovoAPI {
 				commentCount: number;
 				shareCount: number;
 				isLikedByMe: boolean;
+				imageUrls: string[];
 				author: IAuthorModel;
 				sharedJob: ISharedJobModel;
 				originalPost: IRepostModel;
@@ -1098,6 +1260,7 @@ export namespace HirovoAPI {
 			export interface IAuthorModel {
 				id: Guid;
 				displayName: string;
+				photoUrl: string;
 			}
 			export interface ISharedJobModel {
 				id: Guid;
@@ -1127,6 +1290,7 @@ export namespace HirovoAPI {
 				shareCount: number;
 				viewCount: number;
 				isLikedByMe: boolean;
+				imageUrls: string[];
 				author: IAuthorModel;
 				sharedJob: ISharedJobModel;
 				originalPost: IRepostModel;
@@ -1135,6 +1299,7 @@ export namespace HirovoAPI {
 			export interface IAuthorModel {
 				id: Guid;
 				displayName: string;
+				photoUrl: string;
 			}
 			export interface ISharedJobModel {
 				id: Guid;
@@ -1171,6 +1336,7 @@ export namespace HirovoAPI {
 				commentCount: number;
 				shareCount: number;
 				isLikedByMe: boolean;
+				imageUrls: string[];
 				author: IAuthorModel;
 				sharedJob: ISharedJobModel;
 				originalPost: IRepostModel;
@@ -1178,6 +1344,7 @@ export namespace HirovoAPI {
 			export interface IAuthorModel {
 				id: Guid;
 				displayName: string;
+				photoUrl: string;
 			}
 			export interface ISharedJobModel {
 				id: Guid;
@@ -1207,6 +1374,7 @@ export namespace HirovoAPI {
 				commentCount: number;
 				shareCount: number;
 				isLikedByMe: boolean;
+				imageUrls: string[];
 				author: IAuthorModel;
 				sharedJob: ISharedJobModel;
 				originalPost: IRepostModel;
@@ -1214,6 +1382,7 @@ export namespace HirovoAPI {
 			export interface IAuthorModel {
 				id: Guid;
 				displayName: string;
+				photoUrl: string;
 			}
 			export interface ISharedJobModel {
 				id: Guid;
@@ -1243,6 +1412,7 @@ export namespace HirovoAPI {
 				commentCount: number;
 				shareCount: number;
 				isLikedByMe: boolean;
+				imageUrls: string[];
 				author: IAuthorModel;
 				sharedJob: ISharedJobModel;
 				originalPost: IRepostModel;
@@ -1250,6 +1420,7 @@ export namespace HirovoAPI {
 			export interface IAuthorModel {
 				id: Guid;
 				displayName: string;
+				photoUrl: string;
 			}
 			export interface ISharedJobModel {
 				id: Guid;
@@ -1318,6 +1489,7 @@ export namespace HirovoAPI {
 				type: Enums.SocialPostType;
 				sharedJobId?: Guid;
 				sharedForumPostId?: Guid;
+				imageUrls: string[];
 			}
 			export interface IResponseModel {
 				id: Guid;
@@ -2030,6 +2202,10 @@ export namespace HirovoAPI {
 				isRead: boolean;
 				createdAt: Date;
 				isOwn: boolean;
+				messageType: number;
+				mediaUrl: string;
+				mediaFileName: string;
+				mediaFileSize?: __ERROR_TYPE_NOT_HANDLED__;
 			}
 		}
 
@@ -2080,6 +2256,10 @@ export namespace HirovoAPI {
 				jobApplicationId?: Guid;
 				recipientUserId?: Guid;
 				content: string;
+				messageType: number;
+				mediaUrl: string;
+				mediaFileName: string;
+				mediaFileSize?: __ERROR_TYPE_NOT_HANDLED__;
 			}
 			export interface IResponseModel {
 				messageId: Guid;
@@ -2096,6 +2276,17 @@ export namespace HirovoAPI {
 			}
 			export interface IResponseModel {
 				markedCount: number;
+			}
+		}
+
+		export namespace DeleteMessage {
+			export const RequestPath = AppConfig.HirovoUrl + '/Messagings/DeleteMessage';
+			export const Request = (data: IRequestModel) => ApiService.call<IResponseModel>(axios.post(RequestPath,{...data}));
+			export interface IRequestModel {
+				messageId: Guid;
+			}
+			export interface IResponseModel {
+				success: boolean;
 			}
 		}
 
