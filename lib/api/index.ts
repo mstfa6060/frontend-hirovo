@@ -13,3 +13,6 @@ export * as skillsApi from "./services/skills";
 export * as dashboardApi from "./services/dashboard";
 export * as wpApi from "./services/wordpress";
 export * as employerApi from "./services/employer";
+export * as socialApi from "./services/social";
+export * as messagingApi from "./services/messaging";
+export * as notificationsApi from "./services/notifications";
