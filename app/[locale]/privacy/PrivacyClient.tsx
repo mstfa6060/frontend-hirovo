@@ -149,6 +149,49 @@ export default function PrivacyClient({ wpContent }: { wpContent: WPPage | null 
               </a>
             </li>
           </ul>
+
+          <h2 className="text-xl font-bold mt-8 mb-3 text-text">
+            {t("section10.title")}
+          </h2>
+          <p className="text-muted mb-4">{t("section10.intro")}</p>
+          <ul className="text-muted list-disc pl-6 mb-4 space-y-2">
+            <li>{t("section10.items.google")}</li>
+            <li>{t("section10.items.admob")}</li>
+            <li>{t("section10.items.firebase")}</li>
+            <li>{t("section10.items.maps")}</li>
+          </ul>
+
+          <h2 className="text-xl font-bold mt-8 mb-3 text-text">
+            {t("section11.title")}
+          </h2>
+          <p className="text-muted mb-4">{t("section11.intro")}</p>
+          <ul className="text-muted list-disc pl-6 mb-4 space-y-2">
+            <li>{t("section11.items.location")}</li>
+            <li>{t("section11.items.notifications")}</li>
+            <li>{t("section11.items.camera")}</li>
+            <li>{t("section11.items.storage")}</li>
+          </ul>
+
+          <h2 className="text-xl font-bold mt-8 mb-3 text-text">
+            {t("section12.title")}
+          </h2>
+          <p className="text-muted mb-4">{t("section12.intro")}</p>
+          <ul className="text-muted list-disc pl-6 mb-4 space-y-2">
+            <li>{t("section12.items.account")}</li>
+            <li>{t("section12.items.applications")}</li>
+            <li>{t("section12.items.logs")}</li>
+            <li>{t("section12.items.legal")}</li>
+          </ul>
+
+          <h2 className="text-xl font-bold mt-8 mb-3 text-text">
+            {t("section13.title")}
+          </h2>
+          <p className="text-muted mb-4">{t("section13.content")}</p>
+
+          <h2 className="text-xl font-bold mt-8 mb-3 text-text">
+            {t("section14.title")}
+          </h2>
+          <p className="text-muted mb-4">{t("section14.content")}</p>
         </ContentCard>
       </div>
     </main>

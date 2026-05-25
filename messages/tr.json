@@ -700,6 +700,44 @@
     "section9": {
       "title": "9. Iletisim",
       "intro": "Gizlilik ile ilgili sorulariniz icin bizimle iletisime gecebilirsiniz:"
+    },
+    "section10": {
+      "title": "10. Ucuncu Taraf Hizmetler",
+      "intro": "Uygulamamiz asagidaki ucuncu taraf hizmetleri kullanmaktadir. Bu hizmetlerin kendi gizlilik politikalari bulunmaktadir:",
+      "items": {
+        "google": "Google Sign-In: Google hesabinizla giris yapmanizi saglar. Google Gizlilik Politikasi: https://policies.google.com/privacy",
+        "admob": "Google AdMob: Uygulama ici reklamlarin gosterilmesi icin kullanilir. Reklam kisilisellestirme icin sinirlı cihaz verisi toplanabilir.",
+        "firebase": "Google Firebase: Anlitik ve cras raporlama amaclarıyla kullanilir. Anonim kullanim verileri toplanabilir.",
+        "maps": "Google Maps: Konum bazli is ilanlari icin harita hizmeti saglar."
+      }
+    },
+    "section11": {
+      "title": "11. Uygulama Izinleri",
+      "intro": "Uygulamamiz asagidaki cihaz izinlerini talep edebilir:",
+      "items": {
+        "location": "Konum (Isteğe bagli): Yakininızdaki is ilanlarini gostermek icin. Reddedebilirsiniz; uygulama calismaya devam eder.",
+        "notifications": "Bildirimler (Isteğe bagli): Yeni is ilanlari ve basvuru guncellemeleri icin anlık bildirim gonderilmesini saglar.",
+        "camera": "Kamera (Isteğe bagli): Profil fotografı veya belge yukleme islemi yapacaginizda talep edilir.",
+        "storage": "Depolama Alani (Isteğe bagli): Ozgecmis ve belge dosyalarini cihazdan secmek icin kullanilir."
+      }
+    },
+    "section12": {
+      "title": "12. Veri Saklama Suresi",
+      "intro": "Kisisel verilerinizi asagidaki sureler boyunca saklariz:",
+      "items": {
+        "account": "Hesap verileri: Hesabiniz aktif oldugu surece veya siz silme talebinde bulunana kadar",
+        "applications": "Basvuru kayitlari: Son basvurudan itibaren 2 yil",
+        "logs": "Kullanim gunlukleri: 12 ay",
+        "legal": "Yasal yükümlülük gerektiren veriler: Ilgili mevzuatta ongörulen sure kadar (genellikle 10 yil)"
+      }
+    },
+    "section13": {
+      "title": "13. Uluslararasi Veri Transferi",
+      "content": "Hizmet saglaycilarin sunuculari Turkiye disinda bulunabilir. Bu durumlarda verileriniz uluslararasi standartlara (GDPR uyumlu mekanizmalar, Standart Sozlesmeli Maddeler) uygun sekilde aktarilir ve korunur. Avrupa Ekonomik Alani (AEA) disina yapilan transferlerde gerekli koruma onlemleri uygulanir."
+    },
+    "section14": {
+      "title": "14. Veri Silme ve Hesap Kapatma",
+      "content": "Verilerinizin silinmesini talep etmek icin uygulama icindeki 'Hesap Sil' secenegini kullanabilir veya hesap-silme sayfamizdaki formu doldurabilirsiniz. Talebiniz 30 gun icinde isleme alinir. Yasal yükümlülukler gerektiren veriler ilgili mevzuat cercevesinde saklanmaya devam edebilir."
     }
   },
   "terms": {

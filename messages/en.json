@@ -669,6 +669,44 @@
     "section9": {
       "title": "9. Communication",
       "intro": "For your privacy-related questions, you can contact us:"
+    },
+    "section10": {
+      "title": "10. Third-Party Services",
+      "intro": "Our application uses the following third-party services, each with their own privacy policies:",
+      "items": {
+        "google": "Google Sign-In: Allows you to sign in with your Google account. Google Privacy Policy: https://policies.google.com/privacy",
+        "admob": "Google AdMob: Used to display in-app advertisements. Limited device data may be collected for ad personalization.",
+        "firebase": "Google Firebase: Used for analytics and crash reporting. Anonymous usage data may be collected.",
+        "maps": "Google Maps: Provides map services for location-based job listings."
+      }
+    },
+    "section11": {
+      "title": "11. App Permissions",
+      "intro": "Our application may request the following device permissions:",
+      "items": {
+        "location": "Location (Optional): To show job listings near you. You may deny this; the app will continue to work.",
+        "notifications": "Notifications (Optional): To send push notifications for new job listings and application updates.",
+        "camera": "Camera (Optional): Requested when you upload a profile photo or document.",
+        "storage": "Storage (Optional): Used to select CV and document files from your device."
+      }
+    },
+    "section12": {
+      "title": "12. Data Retention",
+      "intro": "We retain your personal data for the following periods:",
+      "items": {
+        "account": "Account data: As long as your account is active or until you request deletion",
+        "applications": "Application records: 2 years from last application",
+        "logs": "Usage logs: 12 months",
+        "legal": "Data required by legal obligation: As long as required by applicable law (generally 10 years)"
+      }
+    },
+    "section13": {
+      "title": "13. International Data Transfers",
+      "content": "Some service provider servers may be located outside of Turkey. In such cases, your data is transferred and protected in accordance with international standards (GDPR-compliant mechanisms, Standard Contractual Clauses). Appropriate safeguards are applied for transfers outside the European Economic Area (EEA)."
+    },
+    "section14": {
+      "title": "14. Data Deletion and Account Closure",
+      "content": "To request deletion of your data, you can use the 'Delete Account' option in the app or fill out the form on our account deletion page. Your request will be processed within 30 days. Data required by legal obligations may continue to be retained within the relevant legal framework."
     }
   },
   "terms": {
